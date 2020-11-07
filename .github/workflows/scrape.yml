@@ -1,0 +1,65 @@
+---
+name: Fetch latest Atlassian outages data
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron: "1,16,31,46 * * * *"
+
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetches repo
+        uses: actions/checkout@v2
+      - name: Get and format api
+        run: |-
+          curl https://status.atlassian.com/api/v2/status.json | jq . > atlassian_outages_v1.json
+      - name: Get and format api for Jira
+        run: |-
+          curl https://7yh3h3y0c0x1.statuspage.io/api/v2/summary.json | jq . > jira_summary_v1.json
+      - name: Get and format api for Jira Service Desk
+        run: |-
+          curl https://pv54g7ltsc24.statuspage.io/api/v2/summary.json | jq . > jira_service_desk_summary_v1.json
+      - name: Get and format api for Jira Core
+        run: |-
+          curl https://s6f0gm5gcpmy.statuspage.io/api/v2/summary.json | jq . > jira_core_summary_v1.json
+      - name: Get and format api for Confluence
+        run: |-
+          curl https://4g2my7tbhjsq.statuspage.io/api/v2/summary.json | jq . > confluence_summary_v1.json
+      - name: Get and format api for Jira Align
+        run: |-
+          curl https://jrg4crndtsgz.statuspage.io/api/v2/summary.json | jq . > jira_align_summary_v1.json
+      - name: Get and format api for Trello
+        run: |-
+          curl https://h5frqhb041yq.statuspage.io/api/v2/summary.json | jq . > trello_summary_v1.json
+      - name: Get and format api for Bitbucket
+        run: |-
+          curl https://bqlf8qjztdtr.statuspage.io/api/v2/summary.json | jq . > bitbucket_summary_v1.json
+      - name: Get and format api for OpsGenie
+        run: |-
+          curl https://t05vdsszxwtq.statuspage.io/api/v2/summary.json | jq . > opsgenie_summary_v1.json
+      - name: Get and format api for Atlassian Statuspage
+        run: |-
+          curl https://y2j98763l56x.metastatuspage.com/api/v2/summary.json | jq . > atlassian_statuspage_summary_v1.json
+      - name: Get and format api for Atlassian Access
+        run: |-
+          curl https://5qmgwsxwsz78.statuspage.io/api/v2/summary.json | jq . > atlassian_access_summary_v1.json
+      - name: Get and format api for Atlassian Support
+        run: |-
+          curl https://3tbw4lb9t3qp.statuspage.io/api/v2/summary.json | jq . > atlassian_support_summary_v1.json
+      - name: Get and format api for Atlassian Partners
+        run: |-
+          curl https://tfc0vzc0cq1n.statuspage.io/api/v2/summary.json | jq . > atlassian_partners_summary_v1.json
+      - name: Get and format api for Atlassian Developer
+        run: |-
+          curl https://n8766lc3ybbs.statuspage.io/api/v2/summary.json | jq . > atlassian_developer_summary_v1.json
+      - name: Add results to repo
+        run: |-
+          git config user.name "Outages Project Worker"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A *.json
+          timestamp=$(date -u -Is)
+          git commit -m "Update outages data on ${timestamp}" || exit 0
+          git push
+
