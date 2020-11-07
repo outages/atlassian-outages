@@ -1,0 +1,92 @@
+{
+  "page": {
+    "id": "h5frqhb041yq",
+    "name": "Trello",
+    "url": "https://trello.status.atlassian.com",
+    "time_zone": "Etc/UTC",
+    "updated_at": "2020-11-06T14:06:37.699Z"
+  },
+  "components": [
+    {
+      "id": "hsr3nvlz0k2l",
+      "name": "Trello.com",
+      "status": "operational",
+      "created_at": "2020-01-24T17:50:55.839Z",
+      "updated_at": "2020-09-29T09:28:54.921Z",
+      "position": 1,
+      "description": "Web client",
+      "showcase": true,
+      "start_date": null,
+      "group_id": null,
+      "page_id": "h5frqhb041yq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "y1nllgnkxn9d",
+      "name": "API",
+      "status": "operational",
+      "created_at": "2020-01-24T17:50:17.715Z",
+      "updated_at": "2020-09-18T01:00:39.209Z",
+      "position": 2,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": null,
+      "page_id": "h5frqhb041yq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "l5cb8f4xnlq8",
+      "name": "help.trello.com",
+      "status": "operational",
+      "created_at": "2019-12-05T15:33:27.119Z",
+      "updated_at": "2020-08-15T12:30:32.738Z",
+      "position": 3,
+      "description": "Trello's Help docs system, serving docs at help.trello.com",
+      "showcase": true,
+      "start_date": null,
+      "group_id": null,
+      "page_id": "h5frqhb041yq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "rmthn8dprv1q",
+      "name": "Atlassian Support - Support Portal",
+      "status": "operational",
+      "created_at": "2020-07-30T15:21:25.969Z",
+      "updated_at": "2020-07-30T16:16:26.671Z",
+      "position": 6,
+      "description": "Support portal contact forms allow customers to raise support issues. Delays here might mean there's an issue with submitting a support request.",
+      "showcase": true,
+      "start_date": null,
+      "group_id": null,
+      "page_id": "h5frqhb041yq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "3zgtmwsprtcs",
+      "name": "Atlassian Support Ticketing",
+      "status": "operational",
+      "created_at": "2020-07-30T16:28:08.222Z",
+      "updated_at": "2020-07-30T16:34:20.555Z",
+      "position": 7,
+      "description": "Trello Support tickets can be replied to via email or from the ticket view on getsupport.atlassian.com. If there's an outage, you may be unable to view support tickets from getsupport.atlassian.com temporarily, but customers can reply to existing tickets by email.",
+      "showcase": true,
+      "start_date": null,
+      "group_id": null,
+      "page_id": "h5frqhb041yq",
+      "group": false,
+      "only_show_if_degraded": false
+    }
+  ],
+  "incidents": [],
+  "scheduled_maintenances": [],
+  "status": {
+    "indicator": "none",
+    "description": "All Systems Operational"
+  }
+}
