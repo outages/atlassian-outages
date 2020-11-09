@@ -1,10 +1,10 @@
 {
   "page": {
     "id": "pv54g7ltsc24",
-    "name": "Jira Service Desk",
+    "name": "Jira Service Management",
     "url": "https://jira-service-desk.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-11-06T05:14:51.424Z"
+    "updated_at": "2020-11-09T18:23:58.002Z"
   },
   "components": [
     {
