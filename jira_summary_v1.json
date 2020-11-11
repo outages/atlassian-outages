@@ -4,15 +4,15 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-11-06T05:14:03.891Z"
+    "updated_at": "2020-11-11T22:08:15.221Z"
   },
   "components": [
     {
       "id": "jmgfbtr0k28j",
       "name": "Viewing content",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-01-22T20:42:24.651Z",
-      "updated_at": "2020-08-26T16:08:09.079Z",
+      "updated_at": "2020-11-11T22:08:15.158Z",
       "position": 1,
       "description": "Problems viewing issues, dashboards, boards, reports, etc.",
       "showcase": false,
@@ -158,10 +158,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "7djxbl23dtnf",
+      "name": "Increased latency loading pages in Jira in Asia Pacific",
+      "status": "investigating",
+      "created_at": "2020-11-11T22:08:15.115Z",
+      "updated_at": "2020-11-11T22:08:15.217Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/v5rvrh6xyg3t",
+      "started_at": "2020-11-11T22:08:15.106Z",
+      "page_id": "7yh3h3y0c0x1",
+      "incident_updates": [
+        {
+          "id": "0t8gss9b28dw",
+          "status": "investigating",
+          "body": "We are investigating cases of degraded performance for some Jira Core, Jira Service Management, and Jira Software Cloud customers in the Asia Pacific region. We will provide more details within the next hour.",
+          "incident_id": "7djxbl23dtnf",
+          "created_at": "2020-11-11T22:08:15.214Z",
+          "updated_at": "2020-11-11T22:08:15.214Z",
+          "display_at": "2020-11-11T22:08:15.214Z",
+          "affected_components": [
+            {
+              "code": "jmgfbtr0k28j",
+              "name": "Viewing content",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "jmgfbtr0k28j",
+          "name": "Viewing content",
+          "status": "degraded_performance",
+          "created_at": "2019-01-22T20:42:24.651Z",
+          "updated_at": "2020-11-11T22:08:15.158Z",
+          "position": 1,
+          "description": "Problems viewing issues, dashboards, boards, reports, etc.",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "7yh3h3y0c0x1",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
