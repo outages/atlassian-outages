@@ -4,15 +4,15 @@
     "name": "Jira Core",
     "url": "https://jira-core.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-11-11T22:23:51.862Z"
+    "updated_at": "2020-11-11T23:02:27.112Z"
   },
   "components": [
     {
       "id": "l4fp2xkkygv4",
       "name": "Viewing content",
-      "status": "degraded_performance",
+      "status": "major_outage",
       "created_at": "2018-11-16T18:17:29.270Z",
-      "updated_at": "2020-11-11T22:08:15.677Z",
+      "updated_at": "2020-11-11T22:53:12.961Z",
       "position": 1,
       "description": "Problems viewing issues, dashboards, boards, reports, etc.",
       "showcase": false,
@@ -160,32 +160,32 @@
   ],
   "incidents": [
     {
-      "id": "tcqmkc5scszm",
-      "name": "Increased latency loading pages in Jira in Asia Pacific",
+      "id": "wcq3nn8q6qb0",
+      "name": "Jira outage for some customers in Asia Pacific",
       "status": "investigating",
-      "created_at": "2020-11-11T22:08:15.637Z",
-      "updated_at": "2020-11-11T22:08:15.727Z",
+      "created_at": "2020-11-11T22:53:12.908Z",
+      "updated_at": "2020-11-11T22:53:13.020Z",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/p0sqt8yq5hsy",
-      "started_at": "2020-11-11T22:08:15.627Z",
+      "impact": "critical",
+      "shortlink": "https://stspg.io/rhbrhzmr0cly",
+      "started_at": "2020-11-11T22:53:12.900Z",
       "page_id": "s6f0gm5gcpmy",
       "incident_updates": [
         {
-          "id": "qy5fnvrf57ws",
+          "id": "2dhmclkrzdww",
           "status": "investigating",
-          "body": "We are investigating cases of degraded performance for some Jira Core, Jira Service Management, and Jira Software Cloud customers in the Asia Pacific region. We will provide more details within the next hour.",
-          "incident_id": "tcqmkc5scszm",
-          "created_at": "2020-11-11T22:08:15.724Z",
-          "updated_at": "2020-11-11T22:08:15.724Z",
-          "display_at": "2020-11-11T22:08:15.724Z",
+          "body": "We are investigating an issue that is impacting some Jira Core, Jira Service Management, and Jira Software Cloud customers in Asia Pacific. We will provide more details within the next hour.",
+          "incident_id": "wcq3nn8q6qb0",
+          "created_at": "2020-11-11T22:53:13.017Z",
+          "updated_at": "2020-11-11T22:53:13.017Z",
+          "display_at": "2020-11-11T22:53:13.017Z",
           "affected_components": [
             {
               "code": "l4fp2xkkygv4",
               "name": "Viewing content",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
+              "old_status": "degraded_performance",
+              "new_status": "major_outage"
             }
           ],
           "deliver_notifications": false,
@@ -197,9 +197,9 @@
         {
           "id": "l4fp2xkkygv4",
           "name": "Viewing content",
-          "status": "degraded_performance",
+          "status": "major_outage",
           "created_at": "2018-11-16T18:17:29.270Z",
-          "updated_at": "2020-11-11T22:08:15.677Z",
+          "updated_at": "2020-11-11T22:53:12.961Z",
           "position": 1,
           "description": "Problems viewing issues, dashboards, boards, reports, etc.",
           "showcase": false,
@@ -214,7 +214,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "major",
+    "description": "Partial System Outage"
   }
 }
