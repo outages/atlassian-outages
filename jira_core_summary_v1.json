@@ -4,15 +4,15 @@
     "name": "Jira Core",
     "url": "https://jira-core.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-11-11T23:02:27.112Z"
+    "updated_at": "2020-11-12T00:42:59.557Z"
   },
   "components": [
     {
       "id": "l4fp2xkkygv4",
       "name": "Viewing content",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2018-11-16T18:17:29.270Z",
-      "updated_at": "2020-11-11T22:53:12.961Z",
+      "updated_at": "2020-11-12T00:42:59.507Z",
       "position": 1,
       "description": "Problems viewing issues, dashboards, boards, reports, etc.",
       "showcase": false,
@@ -158,63 +158,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "wcq3nn8q6qb0",
-      "name": "Jira outage for some customers in Asia Pacific",
-      "status": "investigating",
-      "created_at": "2020-11-11T22:53:12.908Z",
-      "updated_at": "2020-11-11T22:53:13.020Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "critical",
-      "shortlink": "https://stspg.io/rhbrhzmr0cly",
-      "started_at": "2020-11-11T22:53:12.900Z",
-      "page_id": "s6f0gm5gcpmy",
-      "incident_updates": [
-        {
-          "id": "2dhmclkrzdww",
-          "status": "investigating",
-          "body": "We are investigating an issue that is impacting some Jira Core, Jira Service Management, and Jira Software Cloud customers in Asia Pacific. We will provide more details within the next hour.",
-          "incident_id": "wcq3nn8q6qb0",
-          "created_at": "2020-11-11T22:53:13.017Z",
-          "updated_at": "2020-11-11T22:53:13.017Z",
-          "display_at": "2020-11-11T22:53:13.017Z",
-          "affected_components": [
-            {
-              "code": "l4fp2xkkygv4",
-              "name": "Viewing content",
-              "old_status": "degraded_performance",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "l4fp2xkkygv4",
-          "name": "Viewing content",
-          "status": "major_outage",
-          "created_at": "2018-11-16T18:17:29.270Z",
-          "updated_at": "2020-11-11T22:53:12.961Z",
-          "position": 1,
-          "description": "Problems viewing issues, dashboards, boards, reports, etc.",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "s6f0gm5gcpmy",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
