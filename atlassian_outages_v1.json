@@ -1,10 +1,10 @@
 {
   "page": {
     "id": "0f54fx204jpt",
-    "name": "Atlassian",
+    "name": "Atlassian Status",
     "url": "https://status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-11-10T02:23:43.042Z"
+    "updated_at": "2020-11-12T18:13:46.536Z"
   },
   "status": {
     "indicator": "none",
