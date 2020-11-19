@@ -4,7 +4,7 @@
     "name": "Jira Core",
     "url": "https://jira-core.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-11-19T20:47:01.721Z"
+    "updated_at": "2020-11-19T21:20:26.799Z"
   },
   "components": [
     {
@@ -162,16 +162,29 @@
     {
       "id": "xpfxnl4z66cv",
       "name": "Issues with media for Confluence, Jira Core, Jira Service Management and Jira Software",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2020-11-19T20:42:55.117Z",
-      "updated_at": "2020-11-19T20:47:01.713Z",
+      "updated_at": "2020-11-19T21:20:26.793Z",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "none",
+      "impact": "minor",
       "shortlink": "https://stspg.io/4kht9n8t631l",
       "started_at": "2020-11-19T20:42:55.000Z",
       "page_id": "s6f0gm5gcpmy",
       "incident_updates": [
+        {
+          "id": "kmj2p29xy2xr",
+          "status": "identified",
+          "body": "We are investigating an issue with our Media Service that is impacting Confluence, Jira Core, Jira Service Management and Jira Software for Atlassian Cloud customers. This issue will impact any attachments uploads and downloads within these products. We will provide more details within the next hour",
+          "incident_id": "xpfxnl4z66cv",
+          "created_at": "2020-11-19T21:17:24.755Z",
+          "updated_at": "2020-11-19T21:20:26.791Z",
+          "display_at": "2020-11-19T21:17:24.000Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "8xkf073vg5wj",
           "status": "investigating",
