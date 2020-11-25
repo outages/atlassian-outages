@@ -4,7 +4,7 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-11-25T16:14:27.974Z"
+    "updated_at": "2020-11-25T18:59:00.709Z"
   },
   "components": [
     {
@@ -162,9 +162,9 @@
     {
       "id": "x5yqyntc3kys",
       "name": "Delays and failures",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2020-11-25T14:29:34.939Z",
-      "updated_at": "2020-11-25T16:14:27.967Z",
+      "updated_at": "2020-11-25T18:59:00.702Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "none",
@@ -172,6 +172,19 @@
       "started_at": "2020-11-25T14:29:34.000Z",
       "page_id": "7yh3h3y0c0x1",
       "incident_updates": [
+        {
+          "id": "8jrc0c635b04",
+          "status": "identified",
+          "body": "Several systems are experiencing data propagation delays and failures. We've identified the issue and are working on a fix.",
+          "incident_id": "x5yqyntc3kys",
+          "created_at": "2020-11-25T18:59:00.700Z",
+          "updated_at": "2020-11-25T18:59:00.700Z",
+          "display_at": "2020-11-25T18:59:00.700Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "8g5r1wps5r5g",
           "status": "investigating",
