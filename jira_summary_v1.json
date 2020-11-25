@@ -4,7 +4,7 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-11-12T00:42:44.402Z"
+    "updated_at": "2020-11-25T14:29:34.981Z"
   },
   "components": [
     {
@@ -158,7 +158,66 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "x5yqyntc3kys",
+      "name": "Some Automation for Jira rules are not firing",
+      "status": "investigating",
+      "created_at": "2020-11-25T14:29:34.939Z",
+      "updated_at": "2020-11-25T14:29:34.978Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/h92sbptl2vts",
+      "started_at": "2020-11-25T14:29:34.931Z",
+      "page_id": "7yh3h3y0c0x1",
+      "incident_updates": [
+        {
+          "id": "3xnkg7tr04tp",
+          "status": "investigating",
+          "body": "We are investigating reports of intermittent errors for Automation for Jira across Jira Core, Jira Service Management, and Jira Software Cloud customers. We will provide more details once we identify the root cause.",
+          "incident_id": "x5yqyntc3kys",
+          "created_at": "2020-11-25T14:29:34.976Z",
+          "updated_at": "2020-11-25T14:29:34.976Z",
+          "display_at": "2020-11-25T14:29:34.976Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": []
+    },
+    {
+      "id": "xmhfy88zyy22",
+      "name": "Automation for Jira rules are not being triggered",
+      "status": "investigating",
+      "created_at": "2020-11-25T14:28:34.247Z",
+      "updated_at": "2020-11-25T14:28:34.288Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/bv2jw0pz8db3",
+      "started_at": "2020-11-25T14:28:34.240Z",
+      "page_id": "7yh3h3y0c0x1",
+      "incident_updates": [
+        {
+          "id": "nwclwnb0m57z",
+          "status": "investigating",
+          "body": "We are investigating an issue with Automation for Jira that is impacting all Jira Cloud customers. We will provide more details within the next hour.",
+          "incident_id": "xmhfy88zyy22",
+          "created_at": "2020-11-25T14:28:34.285Z",
+          "updated_at": "2020-11-25T14:28:34.285Z",
+          "display_at": "2020-11-25T14:28:34.285Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": []
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
