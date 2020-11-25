@@ -4,7 +4,7 @@
     "name": "Jira Core",
     "url": "https://jira-core.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-11-25T14:29:35.186Z"
+    "updated_at": "2020-11-25T14:36:54.699Z"
   },
   "components": [
     {
@@ -182,35 +182,6 @@
           "display_at": "2020-11-25T14:29:35.180Z",
           "affected_components": null,
           "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": []
-    },
-    {
-      "id": "nt2nf93bbb26",
-      "name": "Automation for Jira rules are not being triggered",
-      "status": "investigating",
-      "created_at": "2020-11-25T14:29:24.051Z",
-      "updated_at": "2020-11-25T14:29:24.101Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/m6xd08q1qbng",
-      "started_at": "2020-11-25T14:29:24.043Z",
-      "page_id": "s6f0gm5gcpmy",
-      "incident_updates": [
-        {
-          "id": "txj5ss2xcv4m",
-          "status": "investigating",
-          "body": "We are investigating an issue with Automation for Jira that is impacting all Jira Cloud customers. We will provide more details within the next hour.",
-          "incident_id": "nt2nf93bbb26",
-          "created_at": "2020-11-25T14:29:24.098Z",
-          "updated_at": "2020-11-25T14:29:24.098Z",
-          "display_at": "2020-11-25T14:29:24.098Z",
-          "affected_components": null,
-          "deliver_notifications": false,
           "custom_tweet": null,
           "tweet_id": null
         }
