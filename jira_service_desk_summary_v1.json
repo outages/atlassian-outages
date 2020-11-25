@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-11-25T15:24:17.016Z"
+    "updated_at": "2020-11-25T16:19:04.669Z"
   },
   "components": [
     {
@@ -161,25 +161,51 @@
   "incidents": [
     {
       "id": "dkjzry7fg2zy",
-      "name": "Some Automation for Jira rules are not firing",
+      "name": "Delays and failures",
       "status": "investigating",
       "created_at": "2020-11-25T14:29:34.935Z",
-      "updated_at": "2020-11-25T14:29:34.978Z",
+      "updated_at": "2020-11-25T16:19:04.663Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "none",
       "shortlink": "https://stspg.io/brlzt60ysfwh",
-      "started_at": "2020-11-25T14:29:34.928Z",
+      "started_at": "2020-11-25T14:29:34.000Z",
       "page_id": "pv54g7ltsc24",
       "incident_updates": [
         {
+          "id": "lcdnvkkvf3qr",
+          "status": "investigating",
+          "body": "We are continuing to investigate this issue.",
+          "incident_id": "dkjzry7fg2zy",
+          "created_at": "2020-11-25T16:19:04.660Z",
+          "updated_at": "2020-11-25T16:19:04.660Z",
+          "display_at": "2020-11-25T16:19:04.660Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "rqbnj656327b",
+          "status": "investigating",
+          "body": "We are continuing to investigate this issue.",
+          "incident_id": "dkjzry7fg2zy",
+          "created_at": "2020-11-25T16:14:20.838Z",
+          "updated_at": "2020-11-25T16:14:20.838Z",
+          "display_at": "2020-11-25T16:14:20.838Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
           "id": "22ycm3qkxxpq",
           "status": "investigating",
-          "body": "We are investigating reports of intermittent errors for Automation for Jira across Jira Core, Jira Service Management, and Jira Software Cloud customers. We will provide more details once we identify the root cause.",
+          "body": "Several systems are experiencing data propagation delays and failures. We're currently investigating it.",
           "incident_id": "dkjzry7fg2zy",
           "created_at": "2020-11-25T14:29:34.975Z",
-          "updated_at": "2020-11-25T14:29:34.975Z",
-          "display_at": "2020-11-25T14:29:34.975Z",
+          "updated_at": "2020-11-25T16:18:00.407Z",
+          "display_at": "2020-11-25T14:29:34.000Z",
           "affected_components": null,
           "deliver_notifications": true,
           "custom_tweet": null,
