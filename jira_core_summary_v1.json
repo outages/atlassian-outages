@@ -4,7 +4,7 @@
     "name": "Jira Core",
     "url": "https://jira-core.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-11-26T02:48:28.535Z"
+    "updated_at": "2020-11-26T05:19:19.611Z"
   },
   "components": [
     {
@@ -202,7 +202,70 @@
       "components": []
     }
   ],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "zmcghq57nxn1",
+      "name": "Maintenance on the jira.com DNS domain",
+      "status": "scheduled",
+      "created_at": "2020-11-26T05:18:55.279Z",
+      "updated_at": "2020-11-26T05:18:55.378Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/kb8mklm5c67g",
+      "started_at": "2020-11-26T05:18:55.272Z",
+      "page_id": "s6f0gm5gcpmy",
+      "incident_updates": [
+        {
+          "id": "v2p4l3wps5bx",
+          "status": "scheduled",
+          "body": "The jira.com zone is being migrated to new DNS servers. No impact is expected during the migration process.",
+          "incident_id": "zmcghq57nxn1",
+          "created_at": "2020-11-26T05:18:55.371Z",
+          "updated_at": "2020-11-26T05:18:55.371Z",
+          "display_at": "2020-11-26T05:18:55.371Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "scheduled_for": "2020-11-30T23:00:00.000Z",
+      "scheduled_until": "2020-12-01T04:00:00.000Z"
+    },
+    {
+      "id": "07879dhrd7fl",
+      "name": "Maintenance on the atlassian.net DNS domain",
+      "status": "scheduled",
+      "created_at": "2020-11-26T05:19:19.575Z",
+      "updated_at": "2020-11-26T05:19:19.608Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/413sm05271mb",
+      "started_at": "2020-11-26T05:19:19.571Z",
+      "page_id": "s6f0gm5gcpmy",
+      "incident_updates": [
+        {
+          "id": "9s4rkp8m9p3z",
+          "status": "scheduled",
+          "body": "The atlassian.net zone is being migrated to new DNS servers. No impact is expected during the migration process.",
+          "incident_id": "07879dhrd7fl",
+          "created_at": "2020-11-26T05:19:19.606Z",
+          "updated_at": "2020-11-26T05:19:19.606Z",
+          "display_at": "2020-11-26T05:19:19.606Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "scheduled_for": "2020-12-01T23:00:00.000Z",
+      "scheduled_until": "2020-12-02T04:00:00.000Z"
+    }
+  ],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
