@@ -4,7 +4,7 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-11-26T12:02:51.775Z"
+    "updated_at": "2020-11-26T15:39:49.903Z"
   },
   "components": [
     {
@@ -83,76 +83,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "j3lvxdd13npz",
-      "name": "Trello search indexing is delayed",
-      "status": "identified",
-      "created_at": "2020-11-25T16:14:06.573Z",
-      "updated_at": "2020-11-26T08:52:48.972Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/g5mbvv6nwvlk",
-      "started_at": "2020-11-25T16:14:06.565Z",
-      "page_id": "h5frqhb041yq",
-      "incident_updates": [
-        {
-          "id": "qw223btbhgcz",
-          "status": "identified",
-          "body": "We are beginning to see more recent changes available in search results. We will continue to monitor the situation as search continues to recover.",
-          "incident_id": "j3lvxdd13npz",
-          "created_at": "2020-11-26T08:52:48.629Z",
-          "updated_at": "2020-11-26T08:52:48.969Z",
-          "display_at": "2020-11-26T08:52:48.629Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1331883594696978400
-        },
-        {
-          "id": "rdrkxs4cxfgh",
-          "status": "identified",
-          "body": "Trello users may have noticed that recent changes they make to Trello cards and boards are not appearing in search results. Trello engineers are aware of the issue and are working to resolve it as soon as possible.",
-          "incident_id": "j3lvxdd13npz",
-          "created_at": "2020-11-25T21:05:33.455Z",
-          "updated_at": "2020-11-25T21:05:33.825Z",
-          "display_at": "2020-11-25T21:05:33.455Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1331705608672723000
-        },
-        {
-          "id": "vblx66zcldpl",
-          "status": "identified",
-          "body": "The issue has been identified and a fix is being implemented.",
-          "incident_id": "j3lvxdd13npz",
-          "created_at": "2020-11-25T19:00:04.026Z",
-          "updated_at": "2020-11-25T19:00:04.591Z",
-          "display_at": "2020-11-25T19:00:04.026Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1331674028981899300
-        },
-        {
-          "id": "dkh5ls4dpvj8",
-          "status": "investigating",
-          "body": "Several systems are experiencing data propagation delays and failures. We're currently investigating it.",
-          "incident_id": "j3lvxdd13npz",
-          "created_at": "2020-11-25T16:14:06.624Z",
-          "updated_at": "2020-11-25T16:14:07.040Z",
-          "display_at": "2020-11-25T16:14:06.624Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1331632263985918000
-        }
-      ],
-      "components": []
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
