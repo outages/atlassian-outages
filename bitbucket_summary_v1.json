@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-11-26T18:41:04.853Z"
+    "updated_at": "2020-11-26T19:17:09.660Z"
   },
   "components": [
     {
@@ -223,9 +223,9 @@
     {
       "id": "tmjhkbvskftr",
       "name": "Signup",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-10-09T20:39:28.376Z",
-      "updated_at": "2020-11-26T00:53:24.494Z",
+      "updated_at": "2020-11-26T19:17:09.616Z",
       "position": 14,
       "description": null,
       "showcase": false,
@@ -237,147 +237,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": "4x6c856ctznk",
-      "name": "Increased latency for API and website response times",
-      "status": "monitoring",
-      "created_at": "2020-11-26T17:20:28.535Z",
-      "updated_at": "2020-11-26T18:41:04.851Z",
-      "monitoring_at": "2020-11-26T18:41:04.838Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/91st67yvt22d",
-      "started_at": "2020-11-26T17:20:28.528Z",
-      "page_id": "bqlf8qjztdtr",
-      "incident_updates": [
-        {
-          "id": "nvvnnwqrw8ln",
-          "status": "monitoring",
-          "body": "We have identified the root cause of the increased website and API latency and have mitigated the problem. \r\n\r\nOperations such as Pipelines, Webhooks, Creating and Merging Pull Requests are working again. \r\n\r\nWe are now monitoring closely.",
-          "incident_id": "4x6c856ctznk",
-          "created_at": "2020-11-26T18:41:04.838Z",
-          "updated_at": "2020-11-26T18:41:04.838Z",
-          "display_at": "2020-11-26T18:41:04.838Z",
-          "affected_components": [
-            {
-              "code": "g0lfj4sv2fhf",
-              "name": "Website",
-              "old_status": "partial_outage",
-              "new_status": "operational"
-            },
-            {
-              "code": "k0x2yw1435v7",
-              "name": "API",
-              "old_status": "partial_outage",
-              "new_status": "operational"
-            },
-            {
-              "code": "rfzky0v13fbp",
-              "name": "Webhooks",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "rzh2n85q7vtt",
-              "name": "Pipelines",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "nzl5s3g9ccz5",
-          "status": "identified",
-          "body": "We are investigating cases of degraded performance for Bitbucket's website and APIs. We narrowed down the issue to our analytics event processing infrastructure. We are working on a fix and will provide more details within the next hour.",
-          "incident_id": "4x6c856ctznk",
-          "created_at": "2020-11-26T17:20:28.613Z",
-          "updated_at": "2020-11-26T17:20:28.613Z",
-          "display_at": "2020-11-26T17:20:28.613Z",
-          "affected_components": [
-            {
-              "code": "g0lfj4sv2fhf",
-              "name": "Website",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "k0x2yw1435v7",
-              "name": "API",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "rzh2n85q7vtt",
-          "name": "Pipelines",
-          "status": "operational",
-          "created_at": "2016-08-23T20:04:54.469Z",
-          "updated_at": "2020-11-02T11:10:31.981Z",
-          "position": 9,
-          "description": "Continuous integration and delivery for Bitbucket repos",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "bqlf8qjztdtr",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "rfzky0v13fbp",
-          "name": "Webhooks",
-          "status": "operational",
-          "created_at": "2015-07-29T01:37:04.511Z",
-          "updated_at": "2020-10-29T05:44:23.160Z",
-          "position": 7,
-          "description": "The Bitbucket webhooks service",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "bqlf8qjztdtr",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "k0x2yw1435v7",
-          "name": "API",
-          "status": "operational",
-          "created_at": "2015-06-05T19:34:43.541Z",
-          "updated_at": "2020-11-26T18:41:04.813Z",
-          "position": 2,
-          "description": "Access to api.bitbucket.org",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "bqlf8qjztdtr",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "g0lfj4sv2fhf",
-          "name": "Website",
-          "status": "operational",
-          "created_at": "2013-09-26T03:34:27.377Z",
-          "updated_at": "2020-11-26T18:41:04.801Z",
-          "position": 1,
-          "description": "Access to bitbucket.org",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "bqlf8qjztdtr",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    },
     {
       "id": "zrtn9dymx5z4",
       "name": "Delays and failures",
@@ -468,9 +327,9 @@
         {
           "id": "tmjhkbvskftr",
           "name": "Signup",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2020-10-09T20:39:28.376Z",
-          "updated_at": "2020-11-26T00:53:24.494Z",
+          "updated_at": "2020-11-26T19:17:09.616Z",
           "position": 14,
           "description": null,
           "showcase": false,
@@ -485,7 +344,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
