@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-11-26T00:53:25.138Z"
+    "updated_at": "2020-11-26T05:04:20.913Z"
   },
   "components": [
     {
@@ -242,10 +242,10 @@
       "name": "Delays and failures",
       "status": "identified",
       "created_at": "2020-11-25T16:14:10.395Z",
-      "updated_at": "2020-11-26T00:53:25.132Z",
+      "updated_at": "2020-11-26T05:04:20.911Z",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "major",
+      "impact": "critical",
       "shortlink": "https://stspg.io/s4nsbmn7mdqw",
       "started_at": "2020-11-25T16:14:10.387Z",
       "page_id": "bqlf8qjztdtr",
