@@ -4,7 +4,7 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-11-27T05:37:03.819Z"
+    "updated_at": "2020-11-27T18:25:48.296Z"
   },
   "components": [
     {
@@ -158,102 +158,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "x5yqyntc3kys",
-      "name": "Delays and failures",
-      "status": "monitoring",
-      "created_at": "2020-11-25T14:29:34.000Z",
-      "updated_at": "2020-11-27T05:37:03.817Z",
-      "monitoring_at": "2020-11-27T05:37:03.802Z",
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/h92sbptl2vts",
-      "started_at": "2020-11-25T14:29:34.000Z",
-      "page_id": "7yh3h3y0c0x1",
-      "incident_updates": [
-        {
-          "id": "z4tbxlm6s8wb",
-          "status": "monitoring",
-          "body": "We have identified and fixed the issue. However, the backlog of events which are currently being processed might be causing some inconsistent behaviours for certain users.",
-          "incident_id": "x5yqyntc3kys",
-          "created_at": "2020-11-27T05:37:03.802Z",
-          "updated_at": "2020-11-27T05:37:03.802Z",
-          "display_at": "2020-11-27T05:37:03.802Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "gslz4vbm9gzk",
-          "status": "identified",
-          "body": "We've identified the issue and are still working on a fixing it at the earliest.",
-          "incident_id": "x5yqyntc3kys",
-          "created_at": "2020-11-26T13:10:05.041Z",
-          "updated_at": "2020-11-26T13:10:05.041Z",
-          "display_at": "2020-11-26T13:10:05.041Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "zd6mrn8jc4vj",
-          "status": "identified",
-          "body": "We are continuing to work on a fix for this issue.",
-          "incident_id": "x5yqyntc3kys",
-          "created_at": "2020-11-26T02:48:31.889Z",
-          "updated_at": "2020-11-26T02:48:31.889Z",
-          "display_at": "2020-11-26T02:48:31.889Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "8jrc0c635b04",
-          "status": "identified",
-          "body": "Several systems are experiencing data propagation delays and failures. We've identified the issue and are working on a fix.",
-          "incident_id": "x5yqyntc3kys",
-          "created_at": "2020-11-25T18:59:00.700Z",
-          "updated_at": "2020-11-25T18:59:00.700Z",
-          "display_at": "2020-11-25T18:59:00.700Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "8g5r1wps5r5g",
-          "status": "investigating",
-          "body": "We are continuing to investigate this issue.",
-          "incident_id": "x5yqyntc3kys",
-          "created_at": "2020-11-25T16:14:27.965Z",
-          "updated_at": "2020-11-25T16:14:27.965Z",
-          "display_at": "2020-11-25T16:14:27.965Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "3xnkg7tr04tp",
-          "status": "investigating",
-          "body": "Several systems are experiencing data propagation delays and failures. We're currently investigating it.",
-          "incident_id": "x5yqyntc3kys",
-          "created_at": "2020-11-25T14:29:34.976Z",
-          "updated_at": "2020-11-25T16:14:24.485Z",
-          "display_at": "2020-11-25T14:29:34.000Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": []
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [
     {
       "id": "hgnsczsq5hys",

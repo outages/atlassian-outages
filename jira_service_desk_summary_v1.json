@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-11-27T05:36:55.260Z"
+    "updated_at": "2020-11-27T18:25:43.497Z"
   },
   "components": [
     {
@@ -158,115 +158,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "dkjzry7fg2zy",
-      "name": "Delays and failures",
-      "status": "monitoring",
-      "created_at": "2020-11-25T14:29:34.000Z",
-      "updated_at": "2020-11-27T05:36:55.258Z",
-      "monitoring_at": "2020-11-27T05:36:55.240Z",
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/brlzt60ysfwh",
-      "started_at": "2020-11-25T14:29:34.000Z",
-      "page_id": "pv54g7ltsc24",
-      "incident_updates": [
-        {
-          "id": "5x70x8m2hb1f",
-          "status": "monitoring",
-          "body": "We have identified and fixed the issue. However, the backlog of events which are currently being processed might be causing some inconsistent behaviours for certain users.",
-          "incident_id": "dkjzry7fg2zy",
-          "created_at": "2020-11-27T05:36:55.240Z",
-          "updated_at": "2020-11-27T05:36:55.240Z",
-          "display_at": "2020-11-27T05:36:55.240Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "myyjzpkz7jdn",
-          "status": "identified",
-          "body": "We've identified the issue and are still working on a fixing it at the earliest.",
-          "incident_id": "dkjzry7fg2zy",
-          "created_at": "2020-11-26T13:08:34.781Z",
-          "updated_at": "2020-11-26T13:08:34.781Z",
-          "display_at": "2020-11-26T13:08:34.781Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "4ypkm2q6qpfk",
-          "status": "identified",
-          "body": "Several systems are experiencing data propagation delays and failures. We've identified the issue and are still working on a fix.",
-          "incident_id": "dkjzry7fg2zy",
-          "created_at": "2020-11-26T02:48:18.836Z",
-          "updated_at": "2020-11-26T02:48:18.836Z",
-          "display_at": "2020-11-26T02:48:18.836Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "2n36n3j3nnk5",
-          "status": "identified",
-          "body": "Several systems are experiencing data propagation delays and failures. We've identified the issue and are working on a fix.",
-          "incident_id": "dkjzry7fg2zy",
-          "created_at": "2020-11-25T18:59:16.640Z",
-          "updated_at": "2020-11-25T18:59:16.640Z",
-          "display_at": "2020-11-25T18:59:16.640Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "lcdnvkkvf3qr",
-          "status": "investigating",
-          "body": "We are continuing to investigate this issue.",
-          "incident_id": "dkjzry7fg2zy",
-          "created_at": "2020-11-25T16:19:04.660Z",
-          "updated_at": "2020-11-25T16:19:04.660Z",
-          "display_at": "2020-11-25T16:19:04.660Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "rqbnj656327b",
-          "status": "investigating",
-          "body": "We are continuing to investigate this issue.",
-          "incident_id": "dkjzry7fg2zy",
-          "created_at": "2020-11-25T16:14:20.838Z",
-          "updated_at": "2020-11-25T16:14:20.838Z",
-          "display_at": "2020-11-25T16:14:20.838Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "22ycm3qkxxpq",
-          "status": "investigating",
-          "body": "Several systems are experiencing data propagation delays and failures. We're currently investigating it.",
-          "incident_id": "dkjzry7fg2zy",
-          "created_at": "2020-11-25T14:29:34.975Z",
-          "updated_at": "2020-11-25T16:18:00.407Z",
-          "display_at": "2020-11-25T14:29:34.000Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": []
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [
     {
       "id": "p8k5tnt90d20",
