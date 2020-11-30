@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-11-27T18:25:43.497Z"
+    "updated_at": "2020-11-30T23:00:43.116Z"
   },
   "components": [
     {
@@ -161,37 +161,6 @@
   "incidents": [],
   "scheduled_maintenances": [
     {
-      "id": "p8k5tnt90d20",
-      "name": "Maintenance on the jira.com DNS domain",
-      "status": "scheduled",
-      "created_at": "2020-11-26T05:19:57.642Z",
-      "updated_at": "2020-11-26T05:19:57.691Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/rk4v3pcnq51m",
-      "started_at": "2020-11-26T05:19:57.637Z",
-      "page_id": "pv54g7ltsc24",
-      "incident_updates": [
-        {
-          "id": "0dg7g99vwsrv",
-          "status": "scheduled",
-          "body": "The jira.com zone is being migrated to new DNS servers. No impact is expected during the migration process.",
-          "incident_id": "p8k5tnt90d20",
-          "created_at": "2020-11-26T05:19:57.688Z",
-          "updated_at": "2020-11-26T05:19:57.688Z",
-          "display_at": "2020-11-26T05:19:57.688Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "scheduled_for": "2020-11-30T23:00:00.000Z",
-      "scheduled_until": "2020-12-01T04:00:00.000Z"
-    },
-    {
       "id": "7xxtwft7mh7k",
       "name": "Maintenance on the atlassian.net DNS domain",
       "status": "scheduled",
@@ -221,6 +190,50 @@
       "components": [],
       "scheduled_for": "2020-12-01T23:00:00.000Z",
       "scheduled_until": "2020-12-02T04:00:00.000Z"
+    },
+    {
+      "id": "p8k5tnt90d20",
+      "name": "Maintenance on the jira.com DNS domain",
+      "status": "in_progress",
+      "created_at": "2020-11-26T05:19:57.642Z",
+      "updated_at": "2020-11-30T23:00:43.085Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/rk4v3pcnq51m",
+      "started_at": "2020-11-26T05:19:57.637Z",
+      "page_id": "pv54g7ltsc24",
+      "incident_updates": [
+        {
+          "id": "hkwr6fx1k98x",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "p8k5tnt90d20",
+          "created_at": "2020-11-30T23:00:43.081Z",
+          "updated_at": "2020-11-30T23:00:43.081Z",
+          "display_at": "2020-11-30T23:00:43.081Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "0dg7g99vwsrv",
+          "status": "scheduled",
+          "body": "The jira.com zone is being migrated to new DNS servers. No impact is expected during the migration process.",
+          "incident_id": "p8k5tnt90d20",
+          "created_at": "2020-11-26T05:19:57.688Z",
+          "updated_at": "2020-11-26T05:19:57.688Z",
+          "display_at": "2020-11-26T05:19:57.688Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "scheduled_for": "2020-11-30T23:00:00.000Z",
+      "scheduled_until": "2020-12-01T04:00:00.000Z"
     }
   ],
   "status": {
