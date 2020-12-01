@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-12-01T16:56:25.020Z"
+    "updated_at": "2020-12-01T17:19:51.786Z"
   },
   "components": [
     {
@@ -145,9 +145,9 @@
     {
       "id": "rzh2n85q7vtt",
       "name": "Pipelines",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2016-08-23T20:04:54.469Z",
-      "updated_at": "2020-12-01T16:47:54.538Z",
+      "updated_at": "2020-12-01T17:19:51.736Z",
       "position": 9,
       "description": "Continuous integration and delivery for Bitbucket repos",
       "showcase": false,
@@ -240,16 +240,36 @@
     {
       "id": "w5f8tdqql9mv",
       "name": "Pipelines are experiencing long delays with Starting agent",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2020-12-01T16:32:22.542Z",
-      "updated_at": "2020-12-01T16:47:54.572Z",
-      "monitoring_at": null,
+      "updated_at": "2020-12-01T17:19:51.783Z",
+      "monitoring_at": "2020-12-01T17:19:51.768Z",
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/nn2qlb51qtmk",
       "started_at": "2020-12-01T16:32:22.532Z",
       "page_id": "bqlf8qjztdtr",
       "incident_updates": [
+        {
+          "id": "3vpnb23h3sr6",
+          "status": "monitoring",
+          "body": "We have identified the root cause of the issues with build agent getting stuck and have mitigated the problem. We are now monitoring closely.",
+          "incident_id": "w5f8tdqql9mv",
+          "created_at": "2020-12-01T17:19:51.768Z",
+          "updated_at": "2020-12-01T17:19:51.768Z",
+          "display_at": "2020-12-01T17:19:51.768Z",
+          "affected_components": [
+            {
+              "code": "rzh2n85q7vtt",
+              "name": "Pipelines",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "k6nfk9ytcj3j",
           "status": "identified",
@@ -295,9 +315,9 @@
         {
           "id": "rzh2n85q7vtt",
           "name": "Pipelines",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2016-08-23T20:04:54.469Z",
-          "updated_at": "2020-12-01T16:47:54.538Z",
+          "updated_at": "2020-12-01T17:19:51.736Z",
           "position": 9,
           "description": "Continuous integration and delivery for Bitbucket repos",
           "showcase": false,
@@ -312,7 +332,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
