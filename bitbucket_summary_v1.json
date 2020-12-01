@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-12-01T17:23:29.829Z"
+    "updated_at": "2020-12-01T17:50:26.775Z"
   },
   "components": [
     {
@@ -236,100 +236,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "w5f8tdqql9mv",
-      "name": "Pipelines are experiencing long delays with Starting agent",
-      "status": "monitoring",
-      "created_at": "2020-12-01T16:32:22.542Z",
-      "updated_at": "2020-12-01T17:19:51.783Z",
-      "monitoring_at": "2020-12-01T17:19:51.768Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/nn2qlb51qtmk",
-      "started_at": "2020-12-01T16:32:22.532Z",
-      "page_id": "bqlf8qjztdtr",
-      "incident_updates": [
-        {
-          "id": "3vpnb23h3sr6",
-          "status": "monitoring",
-          "body": "We have identified the root cause of the issues with build agent getting stuck and have mitigated the problem. We are now monitoring closely.",
-          "incident_id": "w5f8tdqql9mv",
-          "created_at": "2020-12-01T17:19:51.768Z",
-          "updated_at": "2020-12-01T17:19:51.768Z",
-          "display_at": "2020-12-01T17:19:51.768Z",
-          "affected_components": [
-            {
-              "code": "rzh2n85q7vtt",
-              "name": "Pipelines",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "k6nfk9ytcj3j",
-          "status": "identified",
-          "body": "We continue to work on resolving the  issue with the pipelines agent for Bitbucket Cloud. Our team has identified the root cause and expect recovery shortly.",
-          "incident_id": "w5f8tdqql9mv",
-          "created_at": "2020-12-01T16:47:54.569Z",
-          "updated_at": "2020-12-01T16:47:54.569Z",
-          "display_at": "2020-12-01T16:47:54.569Z",
-          "affected_components": [
-            {
-              "code": "rzh2n85q7vtt",
-              "name": "Pipelines",
-              "old_status": "partial_outage",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "hcd1cykjsw7s",
-          "status": "investigating",
-          "body": "We are investigating cases of degraded performance for Bitbucket Cloud pipelines builds, where customers are experiencing  Starting agent  without proceeding. We will provide more details within the next hour.",
-          "incident_id": "w5f8tdqql9mv",
-          "created_at": "2020-12-01T16:32:22.636Z",
-          "updated_at": "2020-12-01T16:32:22.636Z",
-          "display_at": "2020-12-01T16:32:22.636Z",
-          "affected_components": [
-            {
-              "code": "rzh2n85q7vtt",
-              "name": "Pipelines",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "rzh2n85q7vtt",
-          "name": "Pipelines",
-          "status": "operational",
-          "created_at": "2016-08-23T20:04:54.469Z",
-          "updated_at": "2020-12-01T17:19:51.736Z",
-          "position": 9,
-          "description": "Continuous integration and delivery for Bitbucket repos",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "bqlf8qjztdtr",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
