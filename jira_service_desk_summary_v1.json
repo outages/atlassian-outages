@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-12-01T23:00:55.686Z"
+    "updated_at": "2020-12-02T04:00:52.944Z"
   },
   "components": [
     {
@@ -159,52 +159,7 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "7xxtwft7mh7k",
-      "name": "Maintenance on the atlassian.net DNS domain",
-      "status": "in_progress",
-      "created_at": "2020-11-26T05:20:23.055Z",
-      "updated_at": "2020-12-01T23:00:55.671Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/blpyt0gq3d8s",
-      "started_at": "2020-11-26T05:20:23.050Z",
-      "page_id": "pv54g7ltsc24",
-      "incident_updates": [
-        {
-          "id": "qw6n2knfyvsp",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "7xxtwft7mh7k",
-          "created_at": "2020-12-01T23:00:55.667Z",
-          "updated_at": "2020-12-01T23:00:55.667Z",
-          "display_at": "2020-12-01T23:00:55.667Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "ycf4nfcz71l8",
-          "status": "scheduled",
-          "body": "The atlassian.net zone is being migrated to new DNS servers. No impact is expected during the migration process.",
-          "incident_id": "7xxtwft7mh7k",
-          "created_at": "2020-11-26T05:20:23.113Z",
-          "updated_at": "2020-11-26T05:20:23.113Z",
-          "display_at": "2020-11-26T05:20:23.113Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "scheduled_for": "2020-12-01T23:00:00.000Z",
-      "scheduled_until": "2020-12-02T04:00:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
