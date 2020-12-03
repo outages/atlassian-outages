@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-11-23T10:58:02.713Z"
+    "updated_at": "2020-12-03T00:23:41.227Z"
   },
   "components": [
     {
@@ -55,9 +55,9 @@
     {
       "id": "x6ljwvfs3ymn",
       "name": "Community",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-11-30T21:48:02.423Z",
-      "updated_at": "2020-11-20T12:00:44.019Z",
+      "updated_at": "2020-12-03T00:15:36.558Z",
       "position": 4,
       "description": null,
       "showcase": true,
@@ -189,9 +189,84 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "lb25mc5xcg4h",
+      "name": "Community Scheduled Maintenance",
+      "status": "in_progress",
+      "created_at": "2020-12-02T23:57:17.736Z",
+      "updated_at": "2020-12-03T00:15:36.616Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/s5q66pf7cpdg",
+      "started_at": "2020-12-02T23:57:17.731Z",
+      "page_id": "3tbw4lb9t3qp",
+      "incident_updates": [
+        {
+          "id": "0sg6182y7974",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "lb25mc5xcg4h",
+          "created_at": "2020-12-03T00:15:36.613Z",
+          "updated_at": "2020-12-03T00:15:36.613Z",
+          "display_at": "2020-12-03T00:15:36.613Z",
+          "affected_components": [
+            {
+              "code": "x6ljwvfs3ymn",
+              "name": "Community",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "gzjw6483xq5c",
+          "status": "scheduled",
+          "body": "Due to a scheduled upgrade, some components of the community may not work as expected between 3:45PM PST Wednesday December 2nd 2020 and 7:45PM PST Wednesday December 2nd 2020. Thanks for your patience and understanding!",
+          "incident_id": "lb25mc5xcg4h",
+          "created_at": "2020-12-02T23:57:17.785Z",
+          "updated_at": "2020-12-02T23:57:17.785Z",
+          "display_at": "2020-12-02T23:57:17.785Z",
+          "affected_components": [
+            {
+              "code": "x6ljwvfs3ymn",
+              "name": "Community",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "x6ljwvfs3ymn",
+          "name": "Community",
+          "status": "under_maintenance",
+          "created_at": "2018-11-30T21:48:02.423Z",
+          "updated_at": "2020-12-03T00:15:36.558Z",
+          "position": 4,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "3tbw4lb9t3qp",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2020-12-03T00:15:00.000Z",
+      "scheduled_until": "2020-12-03T04:15:00.000Z"
+    }
+  ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
