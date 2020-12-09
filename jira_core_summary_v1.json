@@ -4,7 +4,7 @@
     "name": "Jira Core",
     "url": "https://jira-core.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-12-08T23:10:37.458Z"
+    "updated_at": "2020-12-09T10:14:46.069Z"
   },
   "components": [
     {
@@ -40,9 +40,9 @@
     {
       "id": "wn1gfxqd25rr",
       "name": "Authentication and User Management",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-05-02T04:26:34.383Z",
-      "updated_at": "2020-12-07T22:18:02.856Z",
+      "updated_at": "2020-12-09T10:14:46.066Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -161,7 +161,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
