@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-12-09T17:31:24.419Z"
+    "updated_at": "2020-12-09T18:16:29.613Z"
   },
   "components": [
     {
@@ -90,21 +90,6 @@
       "updated_at": "2020-10-09T15:42:54.722Z",
       "position": 5,
       "description": "Access to Git repositories via HTTPS",
-      "showcase": false,
-      "start_date": null,
-      "group_id": null,
-      "page_id": "bqlf8qjztdtr",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "vmbzxbbjz05j",
-      "name": "Mercurial via HTTPS",
-      "status": "operational",
-      "created_at": "2013-09-26T03:35:46.928Z",
-      "updated_at": "2020-07-24T23:30:29.416Z",
-      "position": 6,
-      "description": "Access to Mercurial (hg) repositories via HTTPS",
       "showcase": false,
       "start_date": null,
       "group_id": null,
@@ -236,100 +221,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "qcss1zdbzpbz",
-      "name": "Pipelines are not starting for some customers",
-      "status": "monitoring",
-      "created_at": "2020-12-09T16:38:48.556Z",
-      "updated_at": "2020-12-09T17:31:24.413Z",
-      "monitoring_at": "2020-12-09T17:30:04.785Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/mcgqtq34lbgr",
-      "started_at": "2020-12-09T16:38:48.550Z",
-      "page_id": "bqlf8qjztdtr",
-      "incident_updates": [
-        {
-          "id": "904dmp6st6f3",
-          "status": "monitoring",
-          "body": "We are continuing to monitor for any further issues.",
-          "incident_id": "qcss1zdbzpbz",
-          "created_at": "2020-12-09T17:31:23.736Z",
-          "updated_at": "2020-12-09T17:31:24.410Z",
-          "display_at": "2020-12-09T17:31:23.736Z",
-          "affected_components": [
-            {
-              "code": "rzh2n85q7vtt",
-              "name": "Pipelines",
-              "old_status": "partial_outage",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1336725144245420000
-        },
-        {
-          "id": "pshqqlz06h0b",
-          "status": "monitoring",
-          "body": "A fix has been implemented and we are monitoring the results.",
-          "incident_id": "qcss1zdbzpbz",
-          "created_at": "2020-12-09T17:30:04.785Z",
-          "updated_at": "2020-12-09T17:30:05.170Z",
-          "display_at": "2020-12-09T17:30:04.785Z",
-          "affected_components": [
-            {
-              "code": "rzh2n85q7vtt",
-              "name": "Pipelines",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1336724812169838600
-        },
-        {
-          "id": "zwlfx5dxlqrs",
-          "status": "investigating",
-          "body": "We are currently investigating an issue with Pipelines not starting for some customers.",
-          "incident_id": "qcss1zdbzpbz",
-          "created_at": "2020-12-09T16:38:48.632Z",
-          "updated_at": "2020-12-09T16:38:49.206Z",
-          "display_at": "2020-12-09T16:38:48.632Z",
-          "affected_components": [
-            {
-              "code": "rzh2n85q7vtt",
-              "name": "Pipelines",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1336711910775869400
-        }
-      ],
-      "components": [
-        {
-          "id": "rzh2n85q7vtt",
-          "name": "Pipelines",
-          "status": "operational",
-          "created_at": "2016-08-23T20:04:54.469Z",
-          "updated_at": "2020-12-09T17:31:23.698Z",
-          "position": 9,
-          "description": "Continuous integration and delivery for Bitbucket repos",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "bqlf8qjztdtr",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [
     {
       "id": "62nrkgq71sb6",
