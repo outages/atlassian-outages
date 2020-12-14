@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-12-14T10:14:29.222Z"
+    "updated_at": "2020-12-14T10:29:42.735Z"
   },
   "components": [
     {
@@ -130,9 +130,9 @@
     {
       "id": "rzh2n85q7vtt",
       "name": "Pipelines",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2016-08-23T20:04:54.469Z",
-      "updated_at": "2020-12-14T08:11:14.592Z",
+      "updated_at": "2020-12-14T10:29:42.731Z",
       "position": 9,
       "description": "Continuous integration and delivery for Bitbucket repos",
       "showcase": false,
@@ -224,7 +224,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
