@@ -4,7 +4,7 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-12-15T00:17:37.634Z"
+    "updated_at": "2020-12-15T01:26:44.754Z"
   },
   "components": [
     {
@@ -162,16 +162,36 @@
     {
       "id": "95qqk38cfw1y",
       "name": "Jira transitions and operations failing for some customers",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2020-12-14T22:59:20.585Z",
-      "updated_at": "2020-12-15T00:17:37.625Z",
-      "monitoring_at": null,
+      "updated_at": "2020-12-15T01:26:44.752Z",
+      "monitoring_at": "2020-12-15T01:26:44.738Z",
       "resolved_at": null,
       "impact": "none",
       "shortlink": "https://stspg.io/wxbc9pqvzc2r",
       "started_at": "2020-12-14T22:59:20.579Z",
       "page_id": "7yh3h3y0c0x1",
       "incident_updates": [
+        {
+          "id": "1dyf8b4hp6ym",
+          "status": "monitoring",
+          "body": "We are fully rolling out a resolution for all instances, and are monitoring the situation closely.",
+          "incident_id": "95qqk38cfw1y",
+          "created_at": "2020-12-15T01:26:44.738Z",
+          "updated_at": "2020-12-15T01:26:44.738Z",
+          "display_at": "2020-12-15T01:26:44.738Z",
+          "affected_components": [
+            {
+              "code": "b01bgtvb4q2j",
+              "name": "Create and edit",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "94pwk7lwq9tq",
           "status": "identified",
