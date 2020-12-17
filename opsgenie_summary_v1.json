@@ -4,7 +4,7 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-12-17T08:45:48.934Z"
+    "updated_at": "2020-12-17T08:56:43.292Z"
   },
   "components": [
     {
@@ -25,7 +25,7 @@
     {
       "id": "jzqq334r65mx",
       "name": "US",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2019-02-12T13:47:31.055Z",
       "updated_at": "2019-03-15T08:16:16.977Z",
       "position": 1,
@@ -80,7 +80,7 @@
     {
       "id": "k7gyfk44wrsr",
       "name": "EU",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2019-02-12T13:47:54.389Z",
       "updated_at": "2019-02-12T13:47:54.389Z",
       "position": 2,
@@ -645,9 +645,9 @@
     {
       "id": "p88rmktvpp6p",
       "name": "Reporting & Analytics",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2019-02-12T13:47:31.068Z",
-      "updated_at": "2020-12-17T07:31:16.009Z",
+      "updated_at": "2020-12-17T08:56:43.231Z",
       "position": 19,
       "description": "Reporting page",
       "showcase": true,
@@ -675,9 +675,9 @@
     {
       "id": "lz2zqb1vtlp4",
       "name": "Reporting & Analytics",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2019-02-12T13:47:54.400Z",
-      "updated_at": "2020-12-17T07:31:16.271Z",
+      "updated_at": "2020-12-17T08:56:43.249Z",
       "position": 20,
       "description": "Reporting Page",
       "showcase": true,
@@ -794,137 +794,9 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "n8wmwxm5z3fp",
-      "name": "Opsgenie Reporting & Analytics is under maintenance in US & EU",
-      "status": "verifying",
-      "created_at": "2020-12-17T06:34:13.262Z",
-      "updated_at": "2020-12-17T08:45:48.932Z",
-      "monitoring_at": "2020-12-17T08:45:48.919Z",
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/5p4w5s6y17h8",
-      "started_at": "2020-12-17T06:34:13.252Z",
-      "page_id": "t05vdsszxwtq",
-      "incident_updates": [
-        {
-          "id": "lfjb45ljfw0f",
-          "status": "verifying",
-          "body": "Maintenance is completed. We're performing integrity checks. Reporting & Analytics will be available soon.",
-          "incident_id": "n8wmwxm5z3fp",
-          "created_at": "2020-12-17T08:45:48.919Z",
-          "updated_at": "2020-12-17T08:45:48.919Z",
-          "display_at": "2020-12-17T08:45:48.919Z",
-          "affected_components": [
-            {
-              "code": "p88rmktvpp6p",
-              "name": "US - Reporting & Analytics",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "lz2zqb1vtlp4",
-              "name": "EU - Reporting & Analytics",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "vkp6x6yyp7w6",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "n8wmwxm5z3fp",
-          "created_at": "2020-12-17T07:31:16.616Z",
-          "updated_at": "2020-12-17T07:31:16.616Z",
-          "display_at": "2020-12-17T07:31:16.616Z",
-          "affected_components": [
-            {
-              "code": "p88rmktvpp6p",
-              "name": "US - Reporting & Analytics",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "lz2zqb1vtlp4",
-              "name": "EU - Reporting & Analytics",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "g22fs0gtbzgf",
-          "status": "scheduled",
-          "body": "We will be undergoing scheduled maintenance during this time.",
-          "incident_id": "n8wmwxm5z3fp",
-          "created_at": "2020-12-17T06:34:13.302Z",
-          "updated_at": "2020-12-17T06:34:13.302Z",
-          "display_at": "2020-12-17T06:34:13.302Z",
-          "affected_components": [
-            {
-              "code": "p88rmktvpp6p",
-              "name": "US - Reporting & Analytics",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "lz2zqb1vtlp4",
-              "name": "EU - Reporting & Analytics",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "lz2zqb1vtlp4",
-          "name": "Reporting & Analytics",
-          "status": "under_maintenance",
-          "created_at": "2019-02-12T13:47:54.400Z",
-          "updated_at": "2020-12-17T07:31:16.271Z",
-          "position": 20,
-          "description": "Reporting Page",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "k7gyfk44wrsr",
-          "page_id": "t05vdsszxwtq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "p88rmktvpp6p",
-          "name": "Reporting & Analytics",
-          "status": "under_maintenance",
-          "created_at": "2019-02-12T13:47:31.068Z",
-          "updated_at": "2020-12-17T07:31:16.009Z",
-          "position": 19,
-          "description": "Reporting page",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "jzqq334r65mx",
-          "page_id": "t05vdsszxwtq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2020-12-17T07:30:00.000Z",
-      "scheduled_until": "2020-12-17T09:30:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
