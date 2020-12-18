@@ -4,7 +4,7 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-12-18T21:37:07.621Z"
+    "updated_at": "2020-12-18T23:10:09.995Z"
   },
   "components": [
     {
@@ -83,133 +83,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "g0q8k5k36fx3",
-      "name": "Trello is not loading for some users",
-      "status": "identified",
-      "created_at": "2020-12-18T20:17:30.988Z",
-      "updated_at": "2020-12-18T21:24:00.574Z",
-      "monitoring_at": "2020-12-18T20:43:34.912Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/x46qlbry0kgq",
-      "started_at": "2020-12-18T20:17:30.983Z",
-      "page_id": "h5frqhb041yq",
-      "incident_updates": [
-        {
-          "id": "bdbllh8qxklm",
-          "status": "identified",
-          "body": "Only a subset of Trello users are affected by this third-party incident, but as it's ongoing, users may still see interrupted access. We're keeping a close eye on updates!",
-          "incident_id": "g0q8k5k36fx3",
-          "created_at": "2020-12-18T21:24:00.168Z",
-          "updated_at": "2020-12-18T21:24:00.571Z",
-          "display_at": "2020-12-18T21:24:00.168Z",
-          "affected_components": [
-            {
-              "code": "y1nllgnkxn9d",
-              "name": "API",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "hsr3nvlz0k2l",
-              "name": "Trello.com",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1340045171505811500
-        },
-        {
-          "id": "83vs0mstdswb",
-          "status": "monitoring",
-          "body": "The problem has been isolated to a third-party network routing service, which contributed to some users temporarily unable to load trello.com. That issue is resolved now, and our engineering team is keeping an eye on it!",
-          "incident_id": "g0q8k5k36fx3",
-          "created_at": "2020-12-18T20:43:34.912Z",
-          "updated_at": "2020-12-18T20:43:36.612Z",
-          "display_at": "2020-12-18T20:43:34.912Z",
-          "affected_components": [
-            {
-              "code": "y1nllgnkxn9d",
-              "name": "API",
-              "old_status": "partial_outage",
-              "new_status": "operational"
-            },
-            {
-              "code": "hsr3nvlz0k2l",
-              "name": "Trello.com",
-              "old_status": "partial_outage",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1340035003485339600
-        },
-        {
-          "id": "k6n8q29s0h5z",
-          "status": "investigating",
-          "body": "Trello may currently be slow or unavailable for some users.\n\nOur engineering team is actively investigating this incident with our network partners to get everything back to normal.\n\nUsers affected by this incident may notice that Trello is slow or completely unavailable in both the web and mobile apps.\n\nWe will update this page as we have additional information.",
-          "incident_id": "g0q8k5k36fx3",
-          "created_at": "2020-12-18T20:17:31.063Z",
-          "updated_at": "2020-12-18T21:10:48.530Z",
-          "display_at": "2020-12-18T20:17:31.000Z",
-          "affected_components": [
-            {
-              "code": "y1nllgnkxn9d",
-              "name": "API",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "hsr3nvlz0k2l",
-              "name": "Trello.com",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1340028440733335600
-        }
-      ],
-      "components": [
-        {
-          "id": "y1nllgnkxn9d",
-          "name": "API",
-          "status": "operational",
-          "created_at": "2020-01-24T17:50:17.715Z",
-          "updated_at": "2020-12-18T20:44:34.563Z",
-          "position": 2,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "h5frqhb041yq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "hsr3nvlz0k2l",
-          "name": "Trello.com",
-          "status": "operational",
-          "created_at": "2020-01-24T17:50:55.839Z",
-          "updated_at": "2020-12-18T20:44:11.651Z",
-          "position": 1,
-          "description": "Web client",
-          "showcase": true,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "h5frqhb041yq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
