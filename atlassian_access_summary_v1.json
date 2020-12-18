@@ -4,7 +4,7 @@
     "name": "Atlassian Access",
     "url": "https://access.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-12-16T02:25:35.466Z"
+    "updated_at": "2020-12-18T21:48:25.679Z"
   },
   "components": [
     {
@@ -98,7 +98,37 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "dn9ml5sgs62j",
+      "name": "Degraded performance",
+      "status": "identified",
+      "created_at": "2020-12-18T21:48:25.563Z",
+      "updated_at": "2020-12-18T21:48:25.675Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/tkt7lzypnjz7",
+      "started_at": "2020-12-18T21:48:25.551Z",
+      "page_id": "5qmgwsxwsz78",
+      "incident_updates": [
+        {
+          "id": "85s4mg1bzc4x",
+          "status": "identified",
+          "body": "We are investigating cases of degraded performance for some Atlassian Cloud customers. \r\n\r\nWe will provide more details within the next hour.",
+          "incident_id": "dn9ml5sgs62j",
+          "created_at": "2020-12-18T21:48:25.672Z",
+          "updated_at": "2020-12-18T21:48:25.672Z",
+          "display_at": "2020-12-18T21:48:25.672Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": []
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
