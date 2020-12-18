@@ -4,7 +4,7 @@
     "name": "Jira Core",
     "url": "https://jira-core.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-12-16T01:42:54.468Z"
+    "updated_at": "2020-12-18T05:37:20.753Z"
   },
   "components": [
     {
@@ -159,7 +159,70 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "r0x7l6pd4v51",
+      "name": "Maintenance on the atlassian.net DNS domain",
+      "status": "scheduled",
+      "created_at": "2020-12-18T05:33:38.745Z",
+      "updated_at": "2020-12-18T05:37:20.749Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/4d8trwrmlb9m",
+      "started_at": "2020-12-18T05:33:38.742Z",
+      "page_id": "s6f0gm5gcpmy",
+      "incident_updates": [
+        {
+          "id": "9885jpfmyhck",
+          "status": "scheduled",
+          "body": "The old atlassian.net zone that is no longer delegated for the domain is being deleted. No impact is expected, however if you notice that lookups are failing please check that your DNS resolvers are respecting the published glue records for the domain.",
+          "incident_id": "r0x7l6pd4v51",
+          "created_at": "2020-12-18T05:33:38.774Z",
+          "updated_at": "2020-12-18T05:33:38.774Z",
+          "display_at": "2020-12-18T05:33:38.774Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "scheduled_for": "2020-12-21T23:00:00.000Z",
+      "scheduled_until": "2020-12-22T00:00:00.000Z"
+    },
+    {
+      "id": "jgc7smsxdzb4",
+      "name": "Maintenance on the jira.com DNS domain",
+      "status": "scheduled",
+      "created_at": "2020-12-18T05:32:47.999Z",
+      "updated_at": "2020-12-18T05:32:48.052Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/03bs0mrr6hlt",
+      "started_at": "2020-12-18T05:32:47.996Z",
+      "page_id": "s6f0gm5gcpmy",
+      "incident_updates": [
+        {
+          "id": "smr3s3ywr37d",
+          "status": "scheduled",
+          "body": "The old jira.com zone that is no longer delegated for the domain is being deleted. No impact is expected, however if you notice that lookups are failing please check that your DNS resolvers are respecting the published glue records for the domain.",
+          "incident_id": "jgc7smsxdzb4",
+          "created_at": "2020-12-18T05:32:48.050Z",
+          "updated_at": "2020-12-18T05:32:48.050Z",
+          "display_at": "2020-12-18T05:32:48.050Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "scheduled_for": "2020-12-21T23:00:00.000Z",
+      "scheduled_until": "2020-12-22T00:00:00.000Z"
+    }
+  ],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
