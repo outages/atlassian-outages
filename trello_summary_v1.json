@@ -4,7 +4,7 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-12-18T20:44:34.565Z"
+    "updated_at": "2020-12-18T21:10:48.539Z"
   },
   "components": [
     {
@@ -86,13 +86,13 @@
   "incidents": [
     {
       "id": "g0q8k5k36fx3",
-      "name": "Trello is slow or unavailable",
+      "name": "Trello is not loading for some users",
       "status": "monitoring",
       "created_at": "2020-12-18T20:17:30.988Z",
-      "updated_at": "2020-12-18T20:43:36.615Z",
+      "updated_at": "2020-12-18T21:10:48.533Z",
       "monitoring_at": "2020-12-18T20:43:34.912Z",
       "resolved_at": null,
-      "impact": "major",
+      "impact": "minor",
       "shortlink": "https://stspg.io/x46qlbry0kgq",
       "started_at": "2020-12-18T20:17:30.983Z",
       "page_id": "h5frqhb041yq",
@@ -126,11 +126,11 @@
         {
           "id": "k6n8q29s0h5z",
           "status": "investigating",
-          "body": "Trello may currently be slow or unavailable.\n\nOur engineering team is actively investigating this incident and working to bring Trello back up as quickly as possible.\n\nUsers affected by this incident may notice that Trello is slow or completely unavailable in both the web and mobile apps.\n\nWe will update this page as we have additional information.",
+          "body": "Trello may currently be slow or unavailable for some users.\n\nOur engineering team is actively investigating this incident with our network partners to get everything back to normal.\n\nUsers affected by this incident may notice that Trello is slow or completely unavailable in both the web and mobile apps.\n\nWe will update this page as we have additional information.",
           "incident_id": "g0q8k5k36fx3",
           "created_at": "2020-12-18T20:17:31.063Z",
-          "updated_at": "2020-12-18T20:17:31.580Z",
-          "display_at": "2020-12-18T20:17:31.063Z",
+          "updated_at": "2020-12-18T21:10:48.530Z",
+          "display_at": "2020-12-18T20:17:31.000Z",
           "affected_components": [
             {
               "code": "y1nllgnkxn9d",
