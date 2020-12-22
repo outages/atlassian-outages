@@ -4,7 +4,7 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-12-21T23:00:55.801Z"
+    "updated_at": "2020-12-22T00:02:29.791Z"
   },
   "components": [
     {
@@ -159,96 +159,7 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "4v1gqc0kdyd0",
-      "name": "Maintenance on the atlassian.net DNS domain",
-      "status": "in_progress",
-      "created_at": "2020-12-18T05:35:01.430Z",
-      "updated_at": "2020-12-21T23:00:55.790Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/crg35hpbxz5w",
-      "started_at": "2020-12-18T05:35:01.426Z",
-      "page_id": "7yh3h3y0c0x1",
-      "incident_updates": [
-        {
-          "id": "f9hmpxl791jq",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "4v1gqc0kdyd0",
-          "created_at": "2020-12-21T23:00:55.787Z",
-          "updated_at": "2020-12-21T23:00:55.787Z",
-          "display_at": "2020-12-21T23:00:55.787Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "4snmr1nfbjtt",
-          "status": "scheduled",
-          "body": "The old atlassian.net zone that is no longer delegated for the domain is being deleted. No impact is expected, however if you notice that lookups are failing please check that your DNS resolvers are respecting the published glue records for the domain.",
-          "incident_id": "4v1gqc0kdyd0",
-          "created_at": "2020-12-18T05:35:01.467Z",
-          "updated_at": "2020-12-18T05:35:01.467Z",
-          "display_at": "2020-12-18T05:35:01.467Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "scheduled_for": "2020-12-21T23:00:00.000Z",
-      "scheduled_until": "2020-12-22T00:00:00.000Z"
-    },
-    {
-      "id": "fb7k10qcz9kx",
-      "name": "Maintenance on the jira.com DNS domain",
-      "status": "in_progress",
-      "created_at": "2020-12-18T05:34:09.542Z",
-      "updated_at": "2020-12-21T23:00:51.698Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/rzzxsnxcwpdn",
-      "started_at": "2020-12-18T05:34:09.539Z",
-      "page_id": "7yh3h3y0c0x1",
-      "incident_updates": [
-        {
-          "id": "90t9y357kh3l",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "fb7k10qcz9kx",
-          "created_at": "2020-12-21T23:00:51.691Z",
-          "updated_at": "2020-12-21T23:00:51.691Z",
-          "display_at": "2020-12-21T23:00:51.691Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "8z6z2357ljmb",
-          "status": "scheduled",
-          "body": "The old jira.com zone that is no longer delegated for the domain is being deleted. No impact is expected, however if you notice that lookups are failing please check that your DNS resolvers are respecting the published glue records for the domain.",
-          "incident_id": "fb7k10qcz9kx",
-          "created_at": "2020-12-18T05:34:09.578Z",
-          "updated_at": "2020-12-18T05:34:09.578Z",
-          "display_at": "2020-12-18T05:34:09.578Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "scheduled_for": "2020-12-21T23:00:00.000Z",
-      "scheduled_until": "2020-12-22T00:00:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
