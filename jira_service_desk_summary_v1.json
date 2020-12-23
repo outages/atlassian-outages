@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-12-22T00:03:35.203Z"
+    "updated_at": "2020-12-23T01:40:13.603Z"
   },
   "components": [
     {
@@ -152,6 +152,21 @@
       "description": null,
       "showcase": false,
       "start_date": "2020-10-09",
+      "group_id": null,
+      "page_id": "pv54g7ltsc24",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "7rq3yg76vvbc",
+      "name": "Automation for Jira",
+      "status": "operational",
+      "created_at": "2020-12-23T01:40:13.601Z",
+      "updated_at": "2020-12-23T01:40:13.601Z",
+      "position": 11,
+      "description": null,
+      "showcase": false,
+      "start_date": "2020-12-23",
       "group_id": null,
       "page_id": "pv54g7ltsc24",
       "group": false,
