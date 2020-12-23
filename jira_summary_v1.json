@@ -4,15 +4,15 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-12-23T06:24:12.454Z"
+    "updated_at": "2020-12-23T14:10:13.826Z"
   },
   "components": [
     {
       "id": "jmgfbtr0k28j",
       "name": "Viewing content",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-01-22T20:42:24.651Z",
-      "updated_at": "2020-12-23T03:16:16.942Z",
+      "updated_at": "2020-12-23T14:10:13.777Z",
       "position": 1,
       "description": "Problems viewing issues, dashboards, boards, reports, etc.",
       "showcase": false,
@@ -173,103 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "8fn8ykv1c972",
-      "name": "Delay for newly created fields availability and usage",
-      "status": "identified",
-      "created_at": "2020-12-23T03:16:16.916Z",
-      "updated_at": "2020-12-23T06:24:12.447Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/hvs61prgy6vh",
-      "started_at": "2020-12-23T03:16:16.911Z",
-      "page_id": "7yh3h3y0c0x1",
-      "incident_updates": [
-        {
-          "id": "m212ny9tgl7z",
-          "status": "identified",
-          "body": "We are continuing to work on a fix for this issue.",
-          "incident_id": "8fn8ykv1c972",
-          "created_at": "2020-12-23T06:24:12.444Z",
-          "updated_at": "2020-12-23T06:24:12.444Z",
-          "display_at": "2020-12-23T06:24:12.444Z",
-          "affected_components": [
-            {
-              "code": "jmgfbtr0k28j",
-              "name": "Viewing content",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "jhs08cz1hlgz",
-          "status": "identified",
-          "body": "We continue to work on resolving this. We have identified the root cause.",
-          "incident_id": "8fn8ykv1c972",
-          "created_at": "2020-12-23T04:14:24.231Z",
-          "updated_at": "2020-12-23T04:14:24.231Z",
-          "display_at": "2020-12-23T04:14:24.231Z",
-          "affected_components": [
-            {
-              "code": "jmgfbtr0k28j",
-              "name": "Viewing content",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "9ssnv6v0dxx1",
-          "status": "investigating",
-          "body": "We are investigating an issue with newly created Jira fields behaviour that is impacting some  Jira Cloud customers. We will provide more details within the next hour.",
-          "incident_id": "8fn8ykv1c972",
-          "created_at": "2020-12-23T03:16:16.976Z",
-          "updated_at": "2020-12-23T03:16:16.976Z",
-          "display_at": "2020-12-23T03:16:16.976Z",
-          "affected_components": [
-            {
-              "code": "jmgfbtr0k28j",
-              "name": "Viewing content",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "jmgfbtr0k28j",
-          "name": "Viewing content",
-          "status": "partial_outage",
-          "created_at": "2019-01-22T20:42:24.651Z",
-          "updated_at": "2020-12-23T03:16:16.942Z",
-          "position": 1,
-          "description": "Problems viewing issues, dashboards, boards, reports, etc.",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "7yh3h3y0c0x1",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
