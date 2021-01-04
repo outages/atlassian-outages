@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-01-04T17:17:57.185Z"
+    "updated_at": "2021-01-04T19:08:14.292Z"
   },
   "components": [
     {
@@ -100,9 +100,9 @@
     {
       "id": "69dcpfrpy69y",
       "name": "Training",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2019-01-28T19:52:18.637Z",
-      "updated_at": "2019-05-01T20:37:00.026Z",
+      "updated_at": "2021-01-04T18:44:15.725Z",
       "position": 7,
       "description": "Atlassian training and certification found at training.atlassian.com",
       "showcase": true,
@@ -188,10 +188,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "btnhlqtm3r9n",
+      "name": "Class registrations and completions since 2020-12-14 are not available",
+      "status": "identified",
+      "created_at": "2021-01-04T18:44:15.697Z",
+      "updated_at": "2021-01-04T19:08:14.289Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "critical",
+      "shortlink": "https://stspg.io/g72by9qjrw3c",
+      "started_at": "2021-01-04T18:44:15.000Z",
+      "page_id": "3tbw4lb9t3qp",
+      "incident_updates": [
+        {
+          "id": "86c4vfmkqpg4",
+          "status": "identified",
+          "body": "Customers who have purchased or completed courses between 2020-12-14 will no longer see their purchases or completed work.\n\nA backup of our system from 2020-12-14 was erroneously restored during routine maintenance. We are in process of restoring a more recent backup. The site will remain down to prevent purchases or activity which may not be restored.",
+          "incident_id": "btnhlqtm3r9n",
+          "created_at": "2021-01-04T18:44:15.763Z",
+          "updated_at": "2021-01-04T19:08:14.243Z",
+          "display_at": "2021-01-04T18:44:15.000Z",
+          "affected_components": [
+            {
+              "code": "69dcpfrpy69y",
+              "name": "Training",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "69dcpfrpy69y",
+          "name": "Training",
+          "status": "major_outage",
+          "created_at": "2019-01-28T19:52:18.637Z",
+          "updated_at": "2021-01-04T18:44:15.725Z",
+          "position": 7,
+          "description": "Atlassian training and certification found at training.atlassian.com",
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "3tbw4lb9t3qp",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "major",
+    "description": "Partial System Outage"
   }
 }
