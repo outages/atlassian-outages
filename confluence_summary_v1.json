@@ -4,24 +4,9 @@
     "name": "Confluence",
     "url": "https://confluence.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-01-04T17:17:57.157Z"
+    "updated_at": "2021-01-05T08:23:54.003Z"
   },
   "components": [
-    {
-      "id": "bl9mxbb582vk",
-      "name": "View Content",
-      "status": "operational",
-      "created_at": "2018-11-12T04:04:58.123Z",
-      "updated_at": "2020-12-18T23:02:22.913Z",
-      "position": 1,
-      "description": "Viewing pages or dashboards",
-      "showcase": false,
-      "start_date": null,
-      "group_id": null,
-      "page_id": "4g2my7tbhjsq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
     {
       "id": "jwv14kjhl1yt",
       "name": "iOS App",
@@ -33,6 +18,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "hfrg5dg1l144",
+      "page_id": "4g2my7tbhjsq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "bl9mxbb582vk",
+      "name": "View Content",
+      "status": "operational",
+      "created_at": "2018-11-12T04:04:58.123Z",
+      "updated_at": "2020-12-18T23:02:22.913Z",
+      "position": 1,
+      "description": "Viewing pages or dashboards",
+      "showcase": false,
+      "start_date": null,
+      "group_id": null,
       "page_id": "4g2my7tbhjsq",
       "group": false,
       "only_show_if_degraded": false
@@ -130,9 +130,9 @@
     {
       "id": "4gcj9wwwkfrm",
       "name": "Notifications",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2018-11-30T21:50:59.891Z",
-      "updated_at": "2020-07-22T03:23:43.899Z",
+      "updated_at": "2021-01-05T08:03:34.524Z",
       "position": 7,
       "description": null,
       "showcase": false,
@@ -207,10 +207,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "9qx858gxgz4w",
+      "name": "Email notifications are not being sent to users for Confluence",
+      "status": "investigating",
+      "created_at": "2021-01-05T08:03:34.485Z",
+      "updated_at": "2021-01-05T08:03:39.117Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/x9gdwtvl77f3",
+      "started_at": "2021-01-05T08:03:34.480Z",
+      "page_id": "4g2my7tbhjsq",
+      "incident_updates": [
+        {
+          "id": "3wl8m7dtdq1d",
+          "status": "investigating",
+          "body": "We are investigating an issue with email notification failure that is impacting all of Confluence  users. We will provide more details within the next hour.",
+          "incident_id": "9qx858gxgz4w",
+          "created_at": "2021-01-05T08:03:34.561Z",
+          "updated_at": "2021-01-05T08:03:34.561Z",
+          "display_at": "2021-01-05T08:03:34.561Z",
+          "affected_components": [
+            {
+              "code": "4gcj9wwwkfrm",
+              "name": "Notifications",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "4gcj9wwwkfrm",
+          "name": "Notifications",
+          "status": "major_outage",
+          "created_at": "2018-11-30T21:50:59.891Z",
+          "updated_at": "2021-01-05T08:03:34.524Z",
+          "position": 7,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "4g2my7tbhjsq",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "major",
+    "description": "Partial System Outage"
   }
 }

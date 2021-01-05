@@ -4,7 +4,7 @@
     "name": "Jira Core",
     "url": "https://jira-core.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-01-04T17:17:57.166Z"
+    "updated_at": "2021-01-05T08:23:54.246Z"
   },
   "components": [
     {
@@ -70,9 +70,9 @@
     {
       "id": "5436s7p7v28b",
       "name": "Notifications",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2019-01-23T17:05:14.913Z",
-      "updated_at": "2020-06-02T04:56:59.544Z",
+      "updated_at": "2021-01-05T07:59:13.933Z",
       "position": 5,
       "description": "Email and in-web-app notifications",
       "showcase": false,
@@ -173,10 +173,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "gtqf327sw672",
+      "name": "Email notifications are not being sent to users for Jira Core",
+      "status": "investigating",
+      "created_at": "2021-01-05T07:59:13.907Z",
+      "updated_at": "2021-01-05T07:59:24.406Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/tyxwg07y7m63",
+      "started_at": "2021-01-05T07:59:13.902Z",
+      "page_id": "s6f0gm5gcpmy",
+      "incident_updates": [
+        {
+          "id": "0jf66zt4l67s",
+          "status": "investigating",
+          "body": "We are investigating an issue with email notification failure that is impacting all of Jira Core users. We will provide more details within the next hour.",
+          "incident_id": "gtqf327sw672",
+          "created_at": "2021-01-05T07:59:13.968Z",
+          "updated_at": "2021-01-05T07:59:13.968Z",
+          "display_at": "2021-01-05T07:59:13.968Z",
+          "affected_components": [
+            {
+              "code": "5436s7p7v28b",
+              "name": "Notifications",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "5436s7p7v28b",
+          "name": "Notifications",
+          "status": "major_outage",
+          "created_at": "2019-01-23T17:05:14.913Z",
+          "updated_at": "2021-01-05T07:59:13.933Z",
+          "position": 5,
+          "description": "Email and in-web-app notifications",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "s6f0gm5gcpmy",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "major",
+    "description": "Partial System Outage"
   }
 }
