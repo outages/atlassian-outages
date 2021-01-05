@@ -4,7 +4,7 @@
     "name": "Confluence",
     "url": "https://confluence.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-01-05T09:45:07.488Z"
+    "updated_at": "2021-01-05T11:21:11.916Z"
   },
   "components": [
     {
@@ -130,9 +130,9 @@
     {
       "id": "4gcj9wwwkfrm",
       "name": "Notifications",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2018-11-30T21:50:59.891Z",
-      "updated_at": "2021-01-05T08:03:34.524Z",
+      "updated_at": "2021-01-05T11:21:11.870Z",
       "position": 7,
       "description": null,
       "showcase": false,
@@ -207,83 +207,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "9qx858gxgz4w",
-      "name": "Email notifications are not being sent to users for Confluence",
-      "status": "identified",
-      "created_at": "2021-01-05T08:03:34.485Z",
-      "updated_at": "2021-01-05T09:45:07.480Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/x9gdwtvl77f3",
-      "started_at": "2021-01-05T08:03:34.480Z",
-      "page_id": "4g2my7tbhjsq",
-      "incident_updates": [
-        {
-          "id": "hphf7kjnmrh3",
-          "status": "identified",
-          "body": "We continue to work on resolving the email notification failure for Confluence. We have identified the root cause and expect recovery shortly.",
-          "incident_id": "9qx858gxgz4w",
-          "created_at": "2021-01-05T09:45:07.477Z",
-          "updated_at": "2021-01-05T09:45:07.477Z",
-          "display_at": "2021-01-05T09:45:07.477Z",
-          "affected_components": [
-            {
-              "code": "4gcj9wwwkfrm",
-              "name": "Notifications",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "3wl8m7dtdq1d",
-          "status": "investigating",
-          "body": "We are investigating an issue with email notification failure that is impacting all of Confluence  users. We will provide more details within the next hour.",
-          "incident_id": "9qx858gxgz4w",
-          "created_at": "2021-01-05T08:03:34.561Z",
-          "updated_at": "2021-01-05T08:03:34.561Z",
-          "display_at": "2021-01-05T08:03:34.561Z",
-          "affected_components": [
-            {
-              "code": "4gcj9wwwkfrm",
-              "name": "Notifications",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "4gcj9wwwkfrm",
-          "name": "Notifications",
-          "status": "major_outage",
-          "created_at": "2018-11-30T21:50:59.891Z",
-          "updated_at": "2021-01-05T08:03:34.524Z",
-          "position": 7,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "4g2my7tbhjsq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
