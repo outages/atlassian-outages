@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-01-19T17:24:06.987Z"
+    "updated_at": "2021-01-21T07:26:15.668Z"
   },
   "components": [
     {
@@ -173,7 +173,37 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "sl8bz7k9dm2s",
+      "name": "Problem with creating issue with attachment using JSM Widget",
+      "status": "investigating",
+      "created_at": "2021-01-21T07:26:09.050Z",
+      "updated_at": "2021-01-21T07:26:15.664Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/6wsjcx722r8n",
+      "started_at": "2021-01-21T07:26:09.044Z",
+      "page_id": "pv54g7ltsc24",
+      "incident_updates": [
+        {
+          "id": "b1cn70s3gf0y",
+          "status": "investigating",
+          "body": "We are investigating an issue with unable to create issue with attachment using widget that is impacting all Jira Service Management Cloud customers. We will provide more details within the next hour.",
+          "incident_id": "sl8bz7k9dm2s",
+          "created_at": "2021-01-21T07:26:09.082Z",
+          "updated_at": "2021-01-21T07:26:09.082Z",
+          "display_at": "2021-01-21T07:26:09.082Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": []
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
