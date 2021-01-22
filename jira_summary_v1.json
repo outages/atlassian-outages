@@ -4,7 +4,7 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-01-22T04:23:48.393Z"
+    "updated_at": "2021-01-22T05:21:30.675Z"
   },
   "components": [
     {
@@ -174,7 +174,83 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "mtxrjhlnm6y1",
+      "name": "Maintenance on media storage partially affecting content access and creation",
+      "status": "scheduled",
+      "created_at": "2021-01-22T05:21:30.626Z",
+      "updated_at": "2021-01-22T05:21:30.672Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/7k8r53jxx9tl",
+      "started_at": "2021-01-22T05:21:30.620Z",
+      "page_id": "7yh3h3y0c0x1",
+      "incident_updates": [
+        {
+          "id": "g6jvg01nkcd0",
+          "status": "scheduled",
+          "body": "On Sunday, 31st January 2021, from 9:00 pm to 10:00 pm UTC, Atlassian media storage will undergo a planned database maintenance. During this time, related features in Jira, Confluence, and Bitbucket will be temporarily unavailable, such as uploading and viewing images, videos and attachments in general, and cloud migrations.",
+          "incident_id": "mtxrjhlnm6y1",
+          "created_at": "2021-01-22T05:21:30.670Z",
+          "updated_at": "2021-01-22T05:21:30.670Z",
+          "display_at": "2021-01-22T05:21:30.670Z",
+          "affected_components": [
+            {
+              "code": "b01bgtvb4q2j",
+              "name": "Create and edit",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "jmgfbtr0k28j",
+              "name": "Viewing content",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "b01bgtvb4q2j",
+          "name": "Create and edit",
+          "status": "operational",
+          "created_at": "2019-01-07T07:49:50.950Z",
+          "updated_at": "2021-01-22T04:20:20.701Z",
+          "position": 2,
+          "description": "Problems creating or editing issues, projects, boards, reports, dashboards and the ability to comment, assign, and attach media.",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "7yh3h3y0c0x1",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "jmgfbtr0k28j",
+          "name": "Viewing content",
+          "status": "operational",
+          "created_at": "2019-01-22T20:42:24.651Z",
+          "updated_at": "2021-01-19T16:39:25.802Z",
+          "position": 1,
+          "description": "Problems viewing issues, dashboards, boards, reports, etc.",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "7yh3h3y0c0x1",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2021-01-31T21:00:00.000Z",
+      "scheduled_until": "2021-01-31T22:00:00.000Z"
+    }
+  ],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
