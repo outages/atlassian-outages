@@ -4,7 +4,7 @@
     "name": "Atlassian Statuspage",
     "url": "http://metastatuspage.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-01-25T10:45:20.833-08:00"
+    "updated_at": "2021-01-27T14:00:39.669-08:00"
   },
   "components": [
     {
@@ -807,7 +807,7 @@
       "name": "Metastatuspage Scheduled Maintenance",
       "status": "scheduled",
       "created_at": "2021-01-25T10:06:36.046-08:00",
-      "updated_at": "2021-01-25T10:09:15.650-08:00",
+      "updated_at": "2021-01-27T14:00:39.666-08:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -853,8 +853,8 @@
           "only_show_if_degraded": false
         }
       ],
-      "scheduled_for": "2021-01-28T11:00:00.000-08:00",
-      "scheduled_until": "2021-01-28T12:00:00.000-08:00"
+      "scheduled_for": "2021-01-28T12:00:00.000-08:00",
+      "scheduled_until": "2021-01-28T13:00:00.000-08:00"
     },
     {
       "id": "zpybqxh3p50m",
