@@ -4,9 +4,24 @@
     "name": "Confluence",
     "url": "https://confluence.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-01-31T20:00:30.558Z"
+    "updated_at": "2021-01-31T21:00:32.520Z"
   },
   "components": [
+    {
+      "id": "bl9mxbb582vk",
+      "name": "View Content",
+      "status": "under_maintenance",
+      "created_at": "2018-11-12T04:04:58.123Z",
+      "updated_at": "2021-01-31T21:00:32.450Z",
+      "position": 1,
+      "description": "Viewing pages or dashboards",
+      "showcase": false,
+      "start_date": null,
+      "group_id": null,
+      "page_id": "4g2my7tbhjsq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
     {
       "id": "jwv14kjhl1yt",
       "name": "iOS App",
@@ -23,26 +38,11 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "bl9mxbb582vk",
-      "name": "View Content",
-      "status": "operational",
-      "created_at": "2018-11-12T04:04:58.123Z",
-      "updated_at": "2020-12-18T23:02:22.913Z",
-      "position": 1,
-      "description": "Viewing pages or dashboards",
-      "showcase": false,
-      "start_date": null,
-      "group_id": null,
-      "page_id": "4g2my7tbhjsq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "y4z6hxpf7d7t",
       "name": "Create and Edit",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-11-12T04:04:58.145Z",
-      "updated_at": "2021-01-28T23:24:12.253Z",
+      "updated_at": "2021-01-31T21:00:32.468Z",
       "position": 2,
       "description": null,
       "showcase": false,
@@ -70,9 +70,9 @@
     {
       "id": "snpbn00x0g0k",
       "name": "Comments",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-11-30T21:50:37.850Z",
-      "updated_at": "2021-01-28T23:24:12.292Z",
+      "updated_at": "2021-01-31T21:00:32.486Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -212,9 +212,9 @@
     {
       "id": "n9t151mjm8rr",
       "name": "Maintenance on media storage partially affecting content access and creation",
-      "status": "scheduled",
+      "status": "in_progress",
       "created_at": "2021-01-22T05:14:51.595Z",
-      "updated_at": "2021-01-31T20:00:30.539Z",
+      "updated_at": "2021-01-31T21:00:32.514Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -222,6 +222,38 @@
       "started_at": "2021-01-22T05:14:51.589Z",
       "page_id": "4g2my7tbhjsq",
       "incident_updates": [
+        {
+          "id": "z9pm8ln0yhhy",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "n9t151mjm8rr",
+          "created_at": "2021-01-31T21:00:32.510Z",
+          "updated_at": "2021-01-31T21:00:32.510Z",
+          "display_at": "2021-01-31T21:00:32.510Z",
+          "affected_components": [
+            {
+              "code": "bl9mxbb582vk",
+              "name": "View Content",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "y4z6hxpf7d7t",
+              "name": "Create and Edit",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "snpbn00x0g0k",
+              "name": "Comments",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "dy7s9zv7vrpd",
           "status": "scheduled",
@@ -272,9 +304,9 @@
         {
           "id": "snpbn00x0g0k",
           "name": "Comments",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2018-11-30T21:50:37.850Z",
-          "updated_at": "2021-01-28T23:24:12.292Z",
+          "updated_at": "2021-01-31T21:00:32.486Z",
           "position": 3,
           "description": null,
           "showcase": false,
@@ -287,9 +319,9 @@
         {
           "id": "y4z6hxpf7d7t",
           "name": "Create and Edit",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2018-11-12T04:04:58.145Z",
-          "updated_at": "2021-01-28T23:24:12.253Z",
+          "updated_at": "2021-01-31T21:00:32.468Z",
           "position": 2,
           "description": null,
           "showcase": false,
@@ -302,9 +334,9 @@
         {
           "id": "bl9mxbb582vk",
           "name": "View Content",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2018-11-12T04:04:58.123Z",
-          "updated_at": "2020-12-18T23:02:22.913Z",
+          "updated_at": "2021-01-31T21:00:32.450Z",
           "position": 1,
           "description": "Viewing pages or dashboards",
           "showcase": false,
@@ -320,7 +352,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
