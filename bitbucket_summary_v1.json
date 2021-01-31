@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-01-31T21:00:56.609Z"
+    "updated_at": "2021-01-31T22:00:57.139Z"
   },
   "components": [
     {
@@ -222,122 +222,7 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "qfytc51c7ks2",
-      "name": "Maintenance on media storage partially affecting content access and creation",
-      "status": "in_progress",
-      "created_at": "2021-01-26T19:23:07.873Z",
-      "updated_at": "2021-01-31T21:00:56.600Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/fvx3fx54x1k1",
-      "started_at": "2021-01-26T19:23:07.868Z",
-      "page_id": "bqlf8qjztdtr",
-      "incident_updates": [
-        {
-          "id": "xd4kjmcjgfg4",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "qfytc51c7ks2",
-          "created_at": "2021-01-31T21:00:55.940Z",
-          "updated_at": "2021-01-31T21:00:56.594Z",
-          "display_at": "2021-01-31T21:00:55.940Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1355984432960741400
-        },
-        {
-          "id": "74r7ttfgs7vk",
-          "status": "scheduled",
-          "body": "On Sunday, 31st January 2021, from 9:00 pm to 10:00 pm UTC, Atlassian file storage will undergo a planned database maintenance. During this time, related features in Jira, Confluence, and Bitbucket will be temporarily unavailable, such as uploading and viewing images on pull requests, access to Git LFS, and Pipelines caches and build artefacts.",
-          "incident_id": "qfytc51c7ks2",
-          "created_at": "2021-01-26T19:25:09.245Z",
-          "updated_at": "2021-01-26T19:25:10.777Z",
-          "display_at": "2021-01-26T19:25:09.245Z",
-          "affected_components": [
-            {
-              "code": "rzh2n85q7vtt",
-              "name": "Pipelines",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "g0c8l3nn2vr1",
-              "name": "Git LFS",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1354148393262542800
-        },
-        {
-          "id": "x9mm5bl64rkh",
-          "status": "scheduled",
-          "body": "On Sunday, 31st January 2021, from 9:00 pm to 10:00 pm UTC, Atlassian file storage will undergo a planned database maintenance. During this time, related features in Jira, Confluence, and Bitbucket will be temporarily unavailable, such as uploading and viewing images on pull requests, access to Git LFS, and Pipelines caches and build artefacts.",
-          "incident_id": "qfytc51c7ks2",
-          "created_at": "2021-01-26T19:23:07.928Z",
-          "updated_at": "2021-01-26T19:23:08.454Z",
-          "display_at": "2021-01-26T19:23:07.928Z",
-          "affected_components": [
-            {
-              "code": "rzh2n85q7vtt",
-              "name": "Pipelines",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "g0c8l3nn2vr1",
-              "name": "Git LFS",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1354147880932532200
-        }
-      ],
-      "components": [
-        {
-          "id": "g0c8l3nn2vr1",
-          "name": "Git LFS",
-          "status": "operational",
-          "created_at": "2017-03-06T20:22:58.463Z",
-          "updated_at": "2020-12-21T01:00:34.933Z",
-          "position": 10,
-          "description": "Git Large File Storage",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "bqlf8qjztdtr",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "rzh2n85q7vtt",
-          "name": "Pipelines",
-          "status": "operational",
-          "created_at": "2016-08-23T20:04:54.469Z",
-          "updated_at": "2020-12-21T01:00:34.919Z",
-          "position": 9,
-          "description": "Continuous integration and delivery for Bitbucket repos",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "bqlf8qjztdtr",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2021-01-31T21:00:00.000Z",
-      "scheduled_until": "2021-01-31T22:00:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
