@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-01T11:00:43.403Z"
+    "updated_at": "2021-02-02T03:32:43.488Z"
   },
   "components": [
     {
@@ -540,7 +540,83 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "1swd052np9x7",
+      "name": "Authentication systems maintenance",
+      "status": "scheduled",
+      "created_at": "2021-02-02T03:32:43.431Z",
+      "updated_at": "2021-02-02T03:32:43.485Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/983zf2p0npcf",
+      "started_at": "2021-02-02T03:32:43.423Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "frdmhytbql4r",
+          "status": "scheduled",
+          "body": "On Sunday, 7th February 2021, from 05:00 am to 06:00 am UTC, there will be a scheduled maintenance period. During the maintenance period for up to 90 seconds some customers will experience degraded login and signup functionality across Atlassian Cloud. Atlassian Ecosystem Cloud Apps may still display UI but will fail to successfully perform user operation.",
+          "incident_id": "1swd052np9x7",
+          "created_at": "2021-02-02T03:32:43.482Z",
+          "updated_at": "2021-02-02T03:32:43.482Z",
+          "display_at": "2021-02-02T03:32:43.482Z",
+          "affected_components": [
+            {
+              "code": "ccbm394hy8pk",
+              "name": "Developer - Create and manage apps",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "fjsq71xwd3rn",
+              "name": "Authentication and user management",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "fjsq71xwd3rn",
+          "name": "Authentication and user management",
+          "status": "operational",
+          "created_at": "2019-05-02T04:22:28.554Z",
+          "updated_at": "2020-09-29T13:28:42.058Z",
+          "position": 4,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "ccbm394hy8pk",
+          "name": "Create and manage apps",
+          "status": "operational",
+          "created_at": "2018-02-01T17:21:34.902Z",
+          "updated_at": "2020-01-16T05:28:05.441Z",
+          "position": 2,
+          "description": "The ability to create and manage apps at https://developer.atlassian.com/apps",
+          "showcase": true,
+          "start_date": null,
+          "group_id": "73bt63kd5q9k",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2021-02-07T05:00:00.000Z",
+      "scheduled_until": "2021-02-07T06:00:00.000Z"
+    }
+  ],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
