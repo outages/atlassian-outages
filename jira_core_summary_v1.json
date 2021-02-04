@@ -4,7 +4,7 @@
     "name": "Jira Core",
     "url": "https://jira-core.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-04T05:23:40.927Z"
+    "updated_at": "2021-02-04T13:12:27.186Z"
   },
   "components": [
     {
@@ -173,63 +173,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "x05fnrygc89f",
-      "name": "Degraded performance when using Safari browser",
-      "status": "identified",
-      "created_at": "2021-02-04T01:56:24.989Z",
-      "updated_at": "2021-02-04T04:50:11.517Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/v7p7txd4fy8j",
-      "started_at": "2021-02-04T01:56:24.982Z",
-      "page_id": "s6f0gm5gcpmy",
-      "incident_updates": [
-        {
-          "id": "gs4rkm45c9l9",
-          "status": "identified",
-          "body": "We are continuing to work on this issue. Please visit https://jira.atlassian.com/browse/JRACLOUD-75961 for workaround.",
-          "incident_id": "x05fnrygc89f",
-          "created_at": "2021-02-04T04:50:11.513Z",
-          "updated_at": "2021-02-04T04:50:11.513Z",
-          "display_at": "2021-02-04T04:50:11.513Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "zk27j4jzz7ld",
-          "status": "identified",
-          "body": "We continue to work on resolving the performance issue while using Safari browser for Jira Cloud. We have identified the root cause and we are working on a solution.",
-          "incident_id": "x05fnrygc89f",
-          "created_at": "2021-02-04T03:22:14.522Z",
-          "updated_at": "2021-02-04T03:22:14.522Z",
-          "display_at": "2021-02-04T03:22:14.522Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "90j9xpd99xcr",
-          "status": "investigating",
-          "body": "We are investigating cases of degraded performance for some Jira Cloud customers. We will provide more details within the next hour.",
-          "incident_id": "x05fnrygc89f",
-          "created_at": "2021-02-04T01:56:25.028Z",
-          "updated_at": "2021-02-04T01:56:25.028Z",
-          "display_at": "2021-02-04T01:56:25.028Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": []
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [
     {
       "id": "0z4gv4713pqb",
