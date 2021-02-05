@@ -4,15 +4,15 @@
     "name": "Jira Core",
     "url": "https://jira-core.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-04T13:12:27.186Z"
+    "updated_at": "2021-02-05T14:32:46.060Z"
   },
   "components": [
     {
       "id": "l4fp2xkkygv4",
       "name": "Viewing content",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2018-11-16T18:17:29.270Z",
-      "updated_at": "2021-02-03T09:41:08.737Z",
+      "updated_at": "2021-02-05T14:32:46.001Z",
       "position": 1,
       "description": "Problems viewing issues, dashboards, boards, reports, etc.",
       "showcase": false,
@@ -173,7 +173,60 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "h6ktvcs5g343",
+      "name": "Applications unable to attach attachments to issues",
+      "status": "investigating",
+      "created_at": "2021-02-05T14:32:45.960Z",
+      "updated_at": "2021-02-05T14:32:46.057Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/xrcn4pk7jy3t",
+      "started_at": "2021-02-05T14:32:45.950Z",
+      "page_id": "s6f0gm5gcpmy",
+      "incident_updates": [
+        {
+          "id": "3lc1pr5wprhm",
+          "status": "investigating",
+          "body": "We are investigating reports of applications unable to attach attachments to issues in Jira Core, Jira Software and JSM. We will provide more details once we identify the root cause.",
+          "incident_id": "h6ktvcs5g343",
+          "created_at": "2021-02-05T14:32:46.053Z",
+          "updated_at": "2021-02-05T14:32:46.053Z",
+          "display_at": "2021-02-05T14:32:46.053Z",
+          "affected_components": [
+            {
+              "code": "l4fp2xkkygv4",
+              "name": "Viewing content",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "l4fp2xkkygv4",
+          "name": "Viewing content",
+          "status": "partial_outage",
+          "created_at": "2018-11-16T18:17:29.270Z",
+          "updated_at": "2021-02-05T14:32:46.001Z",
+          "position": 1,
+          "description": "Problems viewing issues, dashboards, boards, reports, etc.",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "s6f0gm5gcpmy",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [
     {
       "id": "0z4gv4713pqb",
@@ -231,7 +284,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }

@@ -4,13 +4,13 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-02T11:02:05.874Z"
+    "updated_at": "2021-02-05T14:32:46.092Z"
   },
   "components": [
     {
       "id": "w0ld3nc9jvdx",
       "name": "APIs",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-02-01T17:15:10.342Z",
       "updated_at": "2018-02-01T17:16:31.201Z",
       "position": 1,
@@ -249,9 +249,9 @@
     {
       "id": "cc6gw24m02wp",
       "name": "Jira Cloud APIs",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-02-01T17:16:54.648Z",
-      "updated_at": "2021-01-29T09:52:06.498Z",
+      "updated_at": "2021-02-05T14:32:46.021Z",
       "position": 4,
       "description": null,
       "showcase": true,
@@ -539,7 +539,60 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "8mwl9wfjcdn8",
+      "name": "Applications unable to attach attachments to issues",
+      "status": "investigating",
+      "created_at": "2021-02-05T14:32:45.969Z",
+      "updated_at": "2021-02-05T14:32:46.088Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/spmlfxps3qm3",
+      "started_at": "2021-02-05T14:32:45.955Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "fqvlbm62j4bm",
+          "status": "investigating",
+          "body": "We are investigating reports of applications unable to attach attachments to issues in Jira Core, Jira Software and JSM. We will provide more details once we identify the root cause.",
+          "incident_id": "8mwl9wfjcdn8",
+          "created_at": "2021-02-05T14:32:46.084Z",
+          "updated_at": "2021-02-05T14:32:46.084Z",
+          "display_at": "2021-02-05T14:32:46.084Z",
+          "affected_components": [
+            {
+              "code": "cc6gw24m02wp",
+              "name": "APIs - Jira Cloud APIs",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "cc6gw24m02wp",
+          "name": "Jira Cloud APIs",
+          "status": "degraded_performance",
+          "created_at": "2018-02-01T17:16:54.648Z",
+          "updated_at": "2021-02-05T14:32:46.021Z",
+          "position": 4,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": "w0ld3nc9jvdx",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [
     {
       "id": "1swd052np9x7",
@@ -618,7 +671,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
