@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-05T15:23:45.470Z"
+    "updated_at": "2021-02-05T17:03:46.769Z"
   },
   "components": [
     {
@@ -543,9 +543,9 @@
     {
       "id": "8mwl9wfjcdn8",
       "name": "Applications unable to attach attachments to issues",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2021-02-05T14:32:45.969Z",
-      "updated_at": "2021-02-05T14:32:46.088Z",
+      "updated_at": "2021-02-05T17:03:46.757Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -553,6 +553,19 @@
       "started_at": "2021-02-05T14:32:45.955Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "6hjgcdfq8fwh",
+          "status": "identified",
+          "body": "We continue to work on resolving the Attachment functionality for certain Vendor Apps for Jira Core, Jira Service Management, Jira Software, and Atlassian Developer. We have identified the root cause and expect recovery shortly.\r\n\r\nApps using the JWT query parameter on the /attachment endpoint are receiving a 404.\r\nA fix is being prepared and deployed from our end.\r\nIn the meantime, App Vendors can update their app to use the JWT header for authentication on the /attachment endpoint.",
+          "incident_id": "8mwl9wfjcdn8",
+          "created_at": "2021-02-05T17:03:46.753Z",
+          "updated_at": "2021-02-05T17:03:46.753Z",
+          "display_at": "2021-02-05T17:03:46.753Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "fqvlbm62j4bm",
           "status": "investigating",
