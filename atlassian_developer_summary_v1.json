@@ -4,13 +4,13 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-05T22:39:44.451Z"
+    "updated_at": "2021-02-05T23:19:37.502Z"
   },
   "components": [
     {
       "id": "w0ld3nc9jvdx",
       "name": "APIs",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-02-01T17:15:10.342Z",
       "updated_at": "2018-02-01T17:16:31.201Z",
       "position": 1,
@@ -249,9 +249,9 @@
     {
       "id": "cc6gw24m02wp",
       "name": "Jira Cloud APIs",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-02-01T17:16:54.648Z",
-      "updated_at": "2021-02-05T14:32:46.021Z",
+      "updated_at": "2021-02-05T23:19:37.499Z",
       "position": 4,
       "description": null,
       "showcase": true,
@@ -618,7 +618,7 @@
     }
   ],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
