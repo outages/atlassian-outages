@@ -4,7 +4,7 @@
     "name": "Jira Core",
     "url": "https://jira-core.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-07T05:01:10.771Z"
+    "updated_at": "2021-02-07T06:02:33.641Z"
   },
   "components": [
     {
@@ -40,9 +40,9 @@
     {
       "id": "wn1gfxqd25rr",
       "name": "Authentication and User Management",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2019-05-02T04:26:34.383Z",
-      "updated_at": "2021-02-07T05:01:10.713Z",
+      "updated_at": "2021-02-07T06:02:33.540Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -174,82 +174,7 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "0z4gv4713pqb",
-      "name": "Authentication systems maintenance",
-      "status": "in_progress",
-      "created_at": "2021-02-02T03:39:45.577Z",
-      "updated_at": "2021-02-07T05:01:10.761Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/ffdwq06x7ddb",
-      "started_at": "2021-02-02T03:39:45.572Z",
-      "page_id": "s6f0gm5gcpmy",
-      "incident_updates": [
-        {
-          "id": "mbhknmdktyx4",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "0z4gv4713pqb",
-          "created_at": "2021-02-07T05:01:10.759Z",
-          "updated_at": "2021-02-07T05:01:10.759Z",
-          "display_at": "2021-02-07T05:01:10.759Z",
-          "affected_components": [
-            {
-              "code": "wn1gfxqd25rr",
-              "name": "Authentication and User Management",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "c7r8gljjkt59",
-          "status": "scheduled",
-          "body": "On Sunday, 7th February 2021, from 05:00 am to 06:00 am UTC, there will be a scheduled maintenance period. During the maintenance period for up to 90 seconds some customers will experience degraded login and signup functionality across Atlassian Cloud. Atlassian Ecosystem Cloud Apps may still display UI but will fail to successfully perform user operation.",
-          "incident_id": "0z4gv4713pqb",
-          "created_at": "2021-02-02T03:39:45.681Z",
-          "updated_at": "2021-02-02T03:39:45.681Z",
-          "display_at": "2021-02-02T03:39:45.681Z",
-          "affected_components": [
-            {
-              "code": "wn1gfxqd25rr",
-              "name": "Authentication and User Management",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "wn1gfxqd25rr",
-          "name": "Authentication and User Management",
-          "status": "under_maintenance",
-          "created_at": "2019-05-02T04:26:34.383Z",
-          "updated_at": "2021-02-07T05:01:10.713Z",
-          "position": 3,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "s6f0gm5gcpmy",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2021-02-07T05:00:00.000Z",
-      "scheduled_until": "2021-02-07T06:00:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
     "indicator": "minor",
     "description": "Minor Service Outage"
