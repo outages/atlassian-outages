@@ -4,24 +4,9 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-05T09:36:13.091Z"
+    "updated_at": "2021-02-07T05:00:45.613Z"
   },
   "components": [
-    {
-      "id": "3fq2y9gwp1cx",
-      "name": "AWS CodeDeploy App",
-      "status": "operational",
-      "created_at": "2018-11-27T19:36:57.820Z",
-      "updated_at": "2020-12-21T01:00:34.747Z",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "2mb5q645dc8z",
-      "page_id": "bqlf8qjztdtr",
-      "group": false,
-      "only_show_if_degraded": false
-    },
     {
       "id": "g0lfj4sv2fhf",
       "name": "Website",
@@ -33,6 +18,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": null,
+      "page_id": "bqlf8qjztdtr",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "3fq2y9gwp1cx",
+      "name": "AWS CodeDeploy App",
+      "status": "operational",
+      "created_at": "2018-11-27T19:36:57.820Z",
+      "updated_at": "2020-12-21T01:00:34.747Z",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "2mb5q645dc8z",
       "page_id": "bqlf8qjztdtr",
       "group": false,
       "only_show_if_degraded": false
@@ -70,9 +70,9 @@
     {
       "id": "qfsxh5mgnyyn",
       "name": "Authentication and user management",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2019-05-02T04:19:58.553Z",
-      "updated_at": "2020-12-21T01:00:34.839Z",
+      "updated_at": "2021-02-07T05:00:45.436Z",
       "position": 4,
       "description": null,
       "showcase": false,
@@ -85,9 +85,9 @@
     {
       "id": "c1qmcrcbc5zy",
       "name": "Git via HTTPS",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2013-09-26T03:33:27.652Z",
-      "updated_at": "2021-01-21T17:48:21.624Z",
+      "updated_at": "2021-02-07T05:00:45.487Z",
       "position": 5,
       "description": "Access to Git repositories via HTTPS",
       "showcase": false,
@@ -208,9 +208,9 @@
     {
       "id": "tmjhkbvskftr",
       "name": "Signup",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2020-10-09T20:39:28.376Z",
-      "updated_at": "2020-12-21T01:00:34.983Z",
+      "updated_at": "2021-02-07T05:00:45.527Z",
       "position": 14,
       "description": null,
       "showcase": false,
@@ -223,102 +223,6 @@
   ],
   "incidents": [],
   "scheduled_maintenances": [
-    {
-      "id": "kkkngzflwsht",
-      "name": "Authentication systems maintenance",
-      "status": "scheduled",
-      "created_at": "2021-02-02T03:30:57.511Z",
-      "updated_at": "2021-02-02T03:30:57.550Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/9wxpx00nzrs6",
-      "started_at": "2021-02-02T03:30:57.502Z",
-      "page_id": "bqlf8qjztdtr",
-      "incident_updates": [
-        {
-          "id": "066xyfz90757",
-          "status": "scheduled",
-          "body": "On Sunday, 7th February 2021, from 05:00 am to 06:00 am UTC, there will be a scheduled maintenance period. During the maintenance period for up to 90 seconds some customers will experience degraded login and signup functionality across Atlassian Cloud. Atlassian Ecosystem Cloud Apps may still display UI but will fail to successfully perform user operation.",
-          "incident_id": "kkkngzflwsht",
-          "created_at": "2021-02-02T03:30:57.549Z",
-          "updated_at": "2021-02-02T03:30:57.549Z",
-          "display_at": "2021-02-02T03:30:57.549Z",
-          "affected_components": [
-            {
-              "code": "c1qmcrcbc5zy",
-              "name": "Git via HTTPS",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "qfsxh5mgnyyn",
-              "name": "Authentication and user management",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "tmjhkbvskftr",
-              "name": "Signup",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "tmjhkbvskftr",
-          "name": "Signup",
-          "status": "operational",
-          "created_at": "2020-10-09T20:39:28.376Z",
-          "updated_at": "2020-12-21T01:00:34.983Z",
-          "position": 14,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-10-09",
-          "group_id": null,
-          "page_id": "bqlf8qjztdtr",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "c1qmcrcbc5zy",
-          "name": "Git via HTTPS",
-          "status": "operational",
-          "created_at": "2013-09-26T03:33:27.652Z",
-          "updated_at": "2021-01-21T17:48:21.624Z",
-          "position": 5,
-          "description": "Access to Git repositories via HTTPS",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "bqlf8qjztdtr",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "qfsxh5mgnyyn",
-          "name": "Authentication and user management",
-          "status": "operational",
-          "created_at": "2019-05-02T04:19:58.553Z",
-          "updated_at": "2020-12-21T01:00:34.839Z",
-          "position": 4,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "bqlf8qjztdtr",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2021-02-07T05:00:00.000Z",
-      "scheduled_until": "2021-02-07T06:00:00.000Z"
-    },
     {
       "id": "f2148q66l0p1",
       "name": "Webhooks database maintenance",
@@ -372,10 +276,138 @@
       ],
       "scheduled_for": "2021-02-12T00:00:00.000Z",
       "scheduled_until": "2021-02-12T01:30:00.000Z"
+    },
+    {
+      "id": "kkkngzflwsht",
+      "name": "Authentication systems maintenance",
+      "status": "in_progress",
+      "created_at": "2021-02-02T03:30:57.511Z",
+      "updated_at": "2021-02-07T05:00:45.588Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/9wxpx00nzrs6",
+      "started_at": "2021-02-02T03:30:57.502Z",
+      "page_id": "bqlf8qjztdtr",
+      "incident_updates": [
+        {
+          "id": "4b7rd4s12vvh",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "kkkngzflwsht",
+          "created_at": "2021-02-07T05:00:45.579Z",
+          "updated_at": "2021-02-07T05:00:45.579Z",
+          "display_at": "2021-02-07T05:00:45.579Z",
+          "affected_components": [
+            {
+              "code": "c1qmcrcbc5zy",
+              "name": "Git via HTTPS",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "qfsxh5mgnyyn",
+              "name": "Authentication and user management",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "tmjhkbvskftr",
+              "name": "Signup",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "066xyfz90757",
+          "status": "scheduled",
+          "body": "On Sunday, 7th February 2021, from 05:00 am to 06:00 am UTC, there will be a scheduled maintenance period. During the maintenance period for up to 90 seconds some customers will experience degraded login and signup functionality across Atlassian Cloud. Atlassian Ecosystem Cloud Apps may still display UI but will fail to successfully perform user operation.",
+          "incident_id": "kkkngzflwsht",
+          "created_at": "2021-02-02T03:30:57.549Z",
+          "updated_at": "2021-02-02T03:30:57.549Z",
+          "display_at": "2021-02-02T03:30:57.549Z",
+          "affected_components": [
+            {
+              "code": "c1qmcrcbc5zy",
+              "name": "Git via HTTPS",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "qfsxh5mgnyyn",
+              "name": "Authentication and user management",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "tmjhkbvskftr",
+              "name": "Signup",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "tmjhkbvskftr",
+          "name": "Signup",
+          "status": "under_maintenance",
+          "created_at": "2020-10-09T20:39:28.376Z",
+          "updated_at": "2021-02-07T05:00:45.527Z",
+          "position": 14,
+          "description": null,
+          "showcase": false,
+          "start_date": "2020-10-09",
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "c1qmcrcbc5zy",
+          "name": "Git via HTTPS",
+          "status": "under_maintenance",
+          "created_at": "2013-09-26T03:33:27.652Z",
+          "updated_at": "2021-02-07T05:00:45.487Z",
+          "position": 5,
+          "description": "Access to Git repositories via HTTPS",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "qfsxh5mgnyyn",
+          "name": "Authentication and user management",
+          "status": "under_maintenance",
+          "created_at": "2019-05-02T04:19:58.553Z",
+          "updated_at": "2021-02-07T05:00:45.436Z",
+          "position": 4,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2021-02-07T05:00:00.000Z",
+      "scheduled_until": "2021-02-07T06:00:00.000Z"
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }

@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-05T22:39:44.755Z"
+    "updated_at": "2021-02-07T05:01:14.199Z"
   },
   "components": [
     {
@@ -115,9 +115,9 @@
     {
       "id": "why9xhgfq7kx",
       "name": "Authentication and User Management",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2019-05-02T04:27:17.805Z",
-      "updated_at": "2020-12-10T17:20:58.612Z",
+      "updated_at": "2021-02-07T05:01:14.125Z",
       "position": 8,
       "description": null,
       "showcase": false,
@@ -178,9 +178,9 @@
     {
       "id": "6cz7hv1chl7j",
       "name": "Authentication systems maintenance",
-      "status": "scheduled",
+      "status": "in_progress",
       "created_at": "2021-02-02T03:40:39.086Z",
-      "updated_at": "2021-02-02T03:40:39.179Z",
+      "updated_at": "2021-02-07T05:01:14.184Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -188,6 +188,26 @@
       "started_at": "2021-02-02T03:40:39.080Z",
       "page_id": "pv54g7ltsc24",
       "incident_updates": [
+        {
+          "id": "j8d7w0q3k936",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "6cz7hv1chl7j",
+          "created_at": "2021-02-07T05:01:14.178Z",
+          "updated_at": "2021-02-07T05:01:14.178Z",
+          "display_at": "2021-02-07T05:01:14.178Z",
+          "affected_components": [
+            {
+              "code": "why9xhgfq7kx",
+              "name": "Authentication and User Management",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "7rvhy8smwh7x",
           "status": "scheduled",
@@ -213,9 +233,9 @@
         {
           "id": "why9xhgfq7kx",
           "name": "Authentication and User Management",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2019-05-02T04:27:17.805Z",
-          "updated_at": "2020-12-10T17:20:58.612Z",
+          "updated_at": "2021-02-07T05:01:14.125Z",
           "position": 8,
           "description": null,
           "showcase": false,
