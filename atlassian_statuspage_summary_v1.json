@@ -4,7 +4,7 @@
     "name": "Atlassian Statuspage",
     "url": "http://metastatuspage.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-02-07T11:00:54.462-08:00"
+    "updated_at": "2021-02-07T12:04:41.812-08:00"
   },
   "components": [
     {
@@ -805,16 +805,240 @@
     {
       "id": "zpybqxh3p50m",
       "name": "Primary Database Upgrade",
-      "status": "in_progress",
+      "status": "verifying",
       "created_at": "2021-01-15T11:49:57.400-08:00",
-      "updated_at": "2021-02-07T11:00:54.462-08:00",
-      "monitoring_at": null,
+      "updated_at": "2021-02-07T12:04:41.861-08:00",
+      "monitoring_at": "2021-02-07T12:04:41.808-08:00",
       "resolved_at": null,
       "impact": "maintenance",
       "shortlink": "http://mstspg.co/hs1k9t2jyz8h",
       "started_at": "2021-01-15T11:49:57.310-08:00",
       "page_id": "y2j98763l56x",
       "incident_updates": [
+        {
+          "id": "xjy0sld4b19n",
+          "status": "verifying",
+          "body": "Verification is currently underway for the maintenance items.",
+          "incident_id": "zpybqxh3p50m",
+          "created_at": "2021-02-07T12:04:41.808-08:00",
+          "updated_at": "2021-02-07T12:04:41.808-08:00",
+          "display_at": "2021-02-07T12:04:41.808-08:00",
+          "affected_components": [
+            {
+              "code": "rkld00070vm9",
+              "name": "Hosted Pages - HTTP Pages",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "3bg3nq9mm436",
+              "name": "Hosted Pages - HTTPS Pages",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "2k3fhq6zhd4j",
+              "name": "Hosted Pages - Status Embed Widget",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "s0p4y2k09klc",
+              "name": "Hosted Pages - Public API",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "tpvwg6y7ltx2",
+              "name": "Hosted Pages - Shortlinks",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "0y0vb583m5g9",
+              "name": "Authentication - Admin User+Pass",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "cj7ylrcthmdz",
+              "name": "Authentication - Admin Google Auth",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "2516dq72k9lj",
+              "name": "Authentication - Admin SAML 2.0",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "0kr0wdlqs7h8",
+              "name": "Authentication - Page Access Users",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "wnvlx7c8mfql",
+              "name": "Authentication - Page Google Auth",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "45b0h3k4ky7f",
+              "name": "Authentication - Page SAML 2.0",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "kc0l63y8v8r5",
+              "name": "Authentication - Page IP Restriction",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "fyzs60wyq01d",
+              "name": "Management - Web Portal",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "3g0c0h5n5cp1",
+              "name": "Management - Authenticated API",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "zfvjppljf2bm",
+              "name": "Management - DNS Validation",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "ff2cz0c51928",
+              "name": "Management - SSL Provisioning",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "v9dcxzcs9ypj",
+              "name": "Management - Billing",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "5bflqtmq8jn6",
+              "name": "Third Party Components - Statuspage",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "pht8mbkmkb7t",
+              "name": "Third Party Components - External",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "vlr309x00nm7",
+              "name": "Automation - Pingdom Email",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "c60q7bnhphdv",
+              "name": "Automation - New Relic Email",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "gs5jy8lqszlt",
+              "name": "Automation - Generic Email",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "2267qzw6yfc0",
+              "name": "Automation - PagerDuty Webhook",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "f3kzxwdmmy7q",
+              "name": "Automation - JiraOps",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "lhzq37ts0ppj",
+              "name": "Chat Integrations - Slack",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "0j0dpr5q595q",
+              "name": "Notifications - Email",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "hdj6sbn26g26",
+              "name": "Notifications - SMS",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "bv7ffhfxmsx0",
+              "name": "Notifications - Webhook",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "dsvt60wpqw23",
+              "name": "Notifications - Twitter",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "3218pv5ggw0q",
+              "name": "System Metrics - Pingdom Integration",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "hsc388fhkjnv",
+              "name": "System Metrics - Librato Integration",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "xw42ff1v5rmm",
+              "name": "System Metrics - New Relic Integration",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "4s2tjjrhf4d5",
+              "name": "System Metrics - Datadog Integration",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "yfp2yt5fx9cn",
+              "name": "System Metrics - Custom Integration",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "wgxgj3x4gjyy",
+              "name": "Signup",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "8xn049l4swzs",
           "status": "in_progress",
