@@ -4,15 +4,15 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-07T06:02:42.995Z"
+    "updated_at": "2021-02-08T05:23:40.774Z"
   },
   "components": [
     {
       "id": "jmgfbtr0k28j",
       "name": "Viewing content",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-01-22T20:42:24.651Z",
-      "updated_at": "2021-02-05T14:32:45.990Z",
+      "updated_at": "2021-02-08T05:23:40.771Z",
       "position": 1,
       "description": "Problems viewing issues, dashboards, boards, reports, etc.",
       "showcase": false,
@@ -176,7 +176,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
