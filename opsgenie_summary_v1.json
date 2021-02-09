@@ -4,7 +4,7 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-09T07:00:51.481Z"
+    "updated_at": "2021-02-09T08:44:04.279Z"
   },
   "components": [
     {
@@ -25,7 +25,7 @@
     {
       "id": "jzqq334r65mx",
       "name": "US",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2019-02-12T13:47:31.055Z",
       "updated_at": "2019-03-15T08:16:16.977Z",
       "position": 1,
@@ -110,7 +110,7 @@
     {
       "id": "k7gyfk44wrsr",
       "name": "EU",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2019-02-12T13:47:54.389Z",
       "updated_at": "2019-02-12T13:47:54.389Z",
       "position": 2,
@@ -645,9 +645,9 @@
     {
       "id": "p88rmktvpp6p",
       "name": "Reporting & Analytics",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2019-02-12T13:47:31.068Z",
-      "updated_at": "2021-02-09T07:00:51.320Z",
+      "updated_at": "2021-02-09T08:44:04.211Z",
       "position": 19,
       "description": "Reporting page",
       "showcase": true,
@@ -675,9 +675,9 @@
     {
       "id": "lz2zqb1vtlp4",
       "name": "Reporting & Analytics",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2019-02-12T13:47:54.400Z",
-      "updated_at": "2021-02-09T07:00:51.405Z",
+      "updated_at": "2021-02-09T08:44:04.229Z",
       "position": 20,
       "description": "Reporting Page",
       "showcase": true,
@@ -794,111 +794,9 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "cklfb0rwhgrv",
-      "name": "Opsgenie Reporting & Analytics is under maintenance in US & EU",
-      "status": "in_progress",
-      "created_at": "2021-02-08T13:41:21.716Z",
-      "updated_at": "2021-02-09T07:00:51.467Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/wct57p3jbbxz",
-      "started_at": "2021-02-08T13:41:21.703Z",
-      "page_id": "t05vdsszxwtq",
-      "incident_updates": [
-        {
-          "id": "fj92xlmntzf6",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "cklfb0rwhgrv",
-          "created_at": "2021-02-09T07:00:51.460Z",
-          "updated_at": "2021-02-09T07:00:51.460Z",
-          "display_at": "2021-02-09T07:00:51.460Z",
-          "affected_components": [
-            {
-              "code": "p88rmktvpp6p",
-              "name": "US - Reporting & Analytics",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "lz2zqb1vtlp4",
-              "name": "EU - Reporting & Analytics",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "zkmvshfzy3nv",
-          "status": "scheduled",
-          "body": "We will be undergoing scheduled maintenance during this time.",
-          "incident_id": "cklfb0rwhgrv",
-          "created_at": "2021-02-08T13:41:21.776Z",
-          "updated_at": "2021-02-08T13:41:21.776Z",
-          "display_at": "2021-02-08T13:41:21.776Z",
-          "affected_components": [
-            {
-              "code": "p88rmktvpp6p",
-              "name": "US - Reporting & Analytics",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "lz2zqb1vtlp4",
-              "name": "EU - Reporting & Analytics",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "lz2zqb1vtlp4",
-          "name": "Reporting & Analytics",
-          "status": "under_maintenance",
-          "created_at": "2019-02-12T13:47:54.400Z",
-          "updated_at": "2021-02-09T07:00:51.405Z",
-          "position": 20,
-          "description": "Reporting Page",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "k7gyfk44wrsr",
-          "page_id": "t05vdsszxwtq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "p88rmktvpp6p",
-          "name": "Reporting & Analytics",
-          "status": "under_maintenance",
-          "created_at": "2019-02-12T13:47:31.068Z",
-          "updated_at": "2021-02-09T07:00:51.320Z",
-          "position": 19,
-          "description": "Reporting page",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "jzqq334r65mx",
-          "page_id": "t05vdsszxwtq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2021-02-09T07:00:00.000Z",
-      "scheduled_until": "2021-02-09T09:00:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
