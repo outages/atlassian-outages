@@ -4,7 +4,7 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-10T15:44:06.398Z"
+    "updated_at": "2021-02-10T19:25:19.338Z"
   },
   "components": [
     {
@@ -173,7 +173,37 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "pjmr5t4gdvh1",
+      "name": "Login issues with single sign on account",
+      "status": "investigating",
+      "created_at": "2021-02-10T19:25:19.274Z",
+      "updated_at": "2021-02-10T19:25:19.336Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/pnly8s2gvsmy",
+      "started_at": "2021-02-10T19:25:19.267Z",
+      "page_id": "7yh3h3y0c0x1",
+      "incident_updates": [
+        {
+          "id": "32dr20vwjyw5",
+          "status": "investigating",
+          "body": "We have identified an incident that has resulted in a small number of customers having  been locked out of their accounts as a result of the incident. Atlassian has identified that this outage is caused by the incident and is not a security related issue and there is no data loss or any accounts have been compromised.\r\n\r\nWe are actively working to resolve this outage. We will post more information here in the next 2 hours",
+          "incident_id": "pjmr5t4gdvh1",
+          "created_at": "2021-02-10T19:25:19.333Z",
+          "updated_at": "2021-02-10T19:25:19.333Z",
+          "display_at": "2021-02-10T19:25:19.333Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": []
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
