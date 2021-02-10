@@ -4,7 +4,7 @@
     "name": "Confluence",
     "url": "https://confluence.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-10T13:37:06.877Z"
+    "updated_at": "2021-02-10T19:25:22.347Z"
   },
   "components": [
     {
@@ -207,7 +207,37 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "3k75v2s7r4jw",
+      "name": "Login issues with single sign on account",
+      "status": "investigating",
+      "created_at": "2021-02-10T19:25:22.256Z",
+      "updated_at": "2021-02-10T19:25:22.344Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/38s07qxjkvrf",
+      "started_at": "2021-02-10T19:25:22.248Z",
+      "page_id": "4g2my7tbhjsq",
+      "incident_updates": [
+        {
+          "id": "z6hyvzpdwhlj",
+          "status": "investigating",
+          "body": "We have identified an incident that has resulted in a small number of customers having  been locked out of their accounts as a result of the incident. Atlassian has identified that this outage is caused by the incident and is not a security related issue and there is no data loss or any accounts have been compromised.\r\n\r\nWe are actively working to resolve this outage. We will post more information here in the next 2 hours",
+          "incident_id": "3k75v2s7r4jw",
+          "created_at": "2021-02-10T19:25:22.341Z",
+          "updated_at": "2021-02-10T19:25:22.341Z",
+          "display_at": "2021-02-10T19:25:22.341Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": []
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
