@@ -4,7 +4,7 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-10T14:58:22.035Z"
+    "updated_at": "2021-02-10T15:24:10.864Z"
   },
   "components": [
     {
@@ -70,9 +70,9 @@
     {
       "id": "yzll2534txvb",
       "name": "Notifications",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2019-01-07T07:51:55.162Z",
-      "updated_at": "2021-02-10T13:07:09.330Z",
+      "updated_at": "2021-02-10T15:24:10.824Z",
       "position": 5,
       "description": "Email and in-web-app notifications",
       "showcase": false,
@@ -177,16 +177,36 @@
     {
       "id": "2m1sgrmy0mz1",
       "name": "Time out errors seen with Jira-slack integration App",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2021-02-10T13:07:09.288Z",
-      "updated_at": "2021-02-10T14:58:22.028Z",
-      "monitoring_at": null,
+      "updated_at": "2021-02-10T15:24:10.862Z",
+      "monitoring_at": "2021-02-10T15:24:10.850Z",
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/l7s85n61bk4p",
       "started_at": "2021-02-10T13:07:09.282Z",
       "page_id": "7yh3h3y0c0x1",
       "incident_updates": [
+        {
+          "id": "11nvq2zvlqq0",
+          "status": "monitoring",
+          "body": "We have identified the root cause of the issue with Jira-Slack integration that is impacting Jira Core, Jira Software and Jira\nService Management Cloud customers and have mitigated the problem. We are now monitoring closely.",
+          "incident_id": "2m1sgrmy0mz1",
+          "created_at": "2021-02-10T15:24:10.850Z",
+          "updated_at": "2021-02-10T15:24:10.850Z",
+          "display_at": "2021-02-10T15:24:10.850Z",
+          "affected_components": [
+            {
+              "code": "yzll2534txvb",
+              "name": "Notifications",
+              "old_status": "major_outage",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "ltclxlrjz827",
           "status": "investigating",
@@ -252,9 +272,9 @@
         {
           "id": "yzll2534txvb",
           "name": "Notifications",
-          "status": "major_outage",
+          "status": "operational",
           "created_at": "2019-01-07T07:51:55.162Z",
-          "updated_at": "2021-02-10T13:07:09.330Z",
+          "updated_at": "2021-02-10T15:24:10.824Z",
           "position": 5,
           "description": "Email and in-web-app notifications",
           "showcase": false,
@@ -269,7 +289,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
