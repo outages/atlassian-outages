@@ -4,7 +4,7 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-09T08:44:04.279Z"
+    "updated_at": "2021-02-10T12:23:33.754Z"
   },
   "components": [
     {
@@ -793,7 +793,37 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "nrt9rvtv1gxp",
+      "name": "Login issues with single sign on account",
+      "status": "identified",
+      "created_at": "2021-02-10T12:23:33.694Z",
+      "updated_at": "2021-02-10T12:23:33.750Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/v4606p6n1xkw",
+      "started_at": "2021-02-10T12:23:33.686Z",
+      "page_id": "t05vdsszxwtq",
+      "incident_updates": [
+        {
+          "id": "24r25rjryl13",
+          "status": "identified",
+          "body": "We have identified an incident that has caused a trigger of false email notifications to a small number of customers, stating an update has been initiated by the customer admin. A subset of these customers have also been locked out of their accounts as a result of the incident . Atlassian has identified that this outage and email set is caused by the incident and is not a security related issue.\r\n\r\nWe are actively working to resolve this outage and related email sent. We will post more information here in the next 2 hours",
+          "incident_id": "nrt9rvtv1gxp",
+          "created_at": "2021-02-10T12:23:33.747Z",
+          "updated_at": "2021-02-10T12:23:33.747Z",
+          "display_at": "2021-02-10T12:23:33.747Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": []
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
