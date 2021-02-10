@@ -4,7 +4,7 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-10T12:23:33.709Z"
+    "updated_at": "2021-02-10T13:07:30.817Z"
   },
   "components": [
     {
@@ -70,9 +70,9 @@
     {
       "id": "yzll2534txvb",
       "name": "Notifications",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2019-01-07T07:51:55.162Z",
-      "updated_at": "2021-01-19T16:40:35.634Z",
+      "updated_at": "2021-02-10T13:07:09.330Z",
       "position": 5,
       "description": "Email and in-web-app notifications",
       "showcase": false,
@@ -175,6 +175,78 @@
   ],
   "incidents": [
     {
+      "id": "2m1sgrmy0mz1",
+      "name": "Time out errors seen with Jira-slack integration App",
+      "status": "investigating",
+      "created_at": "2021-02-10T13:07:09.288Z",
+      "updated_at": "2021-02-10T13:07:30.809Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/l7s85n61bk4p",
+      "started_at": "2021-02-10T13:07:09.282Z",
+      "page_id": "7yh3h3y0c0x1",
+      "incident_updates": [
+        {
+          "id": "jd23tg2hssx0",
+          "status": "investigating",
+          "body": "We are continuing to investigate this issue.",
+          "incident_id": "2m1sgrmy0mz1",
+          "created_at": "2021-02-10T13:07:30.806Z",
+          "updated_at": "2021-02-10T13:07:30.806Z",
+          "display_at": "2021-02-10T13:07:30.806Z",
+          "affected_components": [
+            {
+              "code": "yzll2534txvb",
+              "name": "Notifications",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "q9jbh5p4sk5v",
+          "status": "investigating",
+          "body": "We are investigating an issue with Jira-Slack integration that is impacting Jira Core, Jira Software and Jira Service Management Cloud customers. We will provide more details within the next 2 hours.",
+          "incident_id": "2m1sgrmy0mz1",
+          "created_at": "2021-02-10T13:07:09.382Z",
+          "updated_at": "2021-02-10T13:07:09.382Z",
+          "display_at": "2021-02-10T13:07:09.382Z",
+          "affected_components": [
+            {
+              "code": "yzll2534txvb",
+              "name": "Notifications",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "yzll2534txvb",
+          "name": "Notifications",
+          "status": "major_outage",
+          "created_at": "2019-01-07T07:51:55.162Z",
+          "updated_at": "2021-02-10T13:07:09.330Z",
+          "position": 5,
+          "description": "Email and in-web-app notifications",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "7yh3h3y0c0x1",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    },
+    {
       "id": "xjc32qr12wry",
       "name": "Login issues with single sign on account",
       "status": "identified",
@@ -206,7 +278,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "major",
+    "description": "Partial System Outage"
   }
 }
