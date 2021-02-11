@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-11T21:11:17.206Z"
+    "updated_at": "2021-02-11T23:35:02.896Z"
   },
   "components": [
     {
@@ -543,16 +543,36 @@
     {
       "id": "c896qnldx9nn",
       "name": "Error in copy page hierarchy API",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2021-02-11T01:28:32.261Z",
-      "updated_at": "2021-02-11T21:11:17.203Z",
-      "monitoring_at": null,
+      "updated_at": "2021-02-11T23:35:02.893Z",
+      "monitoring_at": "2021-02-11T23:35:02.878Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/gtwn4kqqh1wy",
       "started_at": "2021-02-11T02:05:41.000Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "jyj8fxxlhg98",
+          "status": "monitoring",
+          "body": "A fix has been deployed to Atlassian instances. We are now monitoring.",
+          "incident_id": "c896qnldx9nn",
+          "created_at": "2021-02-11T23:35:02.878Z",
+          "updated_at": "2021-02-11T23:35:02.878Z",
+          "display_at": "2021-02-11T23:35:02.878Z",
+          "affected_components": [
+            {
+              "code": "yjqnzm0tkgsd",
+              "name": "APIs - Confluence Cloud APIs",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "tz6fhxp09sbv",
           "status": "identified",
