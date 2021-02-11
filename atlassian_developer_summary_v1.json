@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-11T17:54:50.120Z"
+    "updated_at": "2021-02-11T21:11:17.206Z"
   },
   "components": [
     {
@@ -545,22 +545,22 @@
       "name": "Error in copy page hierarchy API",
       "status": "identified",
       "created_at": "2021-02-11T01:28:32.261Z",
-      "updated_at": "2021-02-11T17:54:50.110Z",
+      "updated_at": "2021-02-11T21:11:17.203Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/gtwn4kqqh1wy",
-      "started_at": "2021-02-11T01:28:32.252Z",
+      "started_at": "2021-02-11T02:05:41.000Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
         {
           "id": "tz6fhxp09sbv",
           "status": "identified",
-          "body": "A code defect as been identified as the cause of this problem. A fix will roll out through normal changes, rather than through a specific hotfix. Testing on internal Atlassian instances will roll out today, then propagate through normal rollout procedures.",
+          "body": "A code defect has been identified as the cause of this problem. A fix will roll out through normal changes, rather than through a specific hotfix. Testing on internal Atlassian instances will roll out today, then propagate through normal rollout procedures.",
           "incident_id": "c896qnldx9nn",
           "created_at": "2021-02-11T17:54:50.107Z",
-          "updated_at": "2021-02-11T17:54:50.107Z",
-          "display_at": "2021-02-11T17:54:50.107Z",
+          "updated_at": "2021-02-11T21:11:17.124Z",
+          "display_at": "2021-02-11T17:54:50.000Z",
           "affected_components": [
             {
               "code": "yjqnzm0tkgsd",
