@@ -4,15 +4,15 @@
     "name": "Jira Core",
     "url": "https://jira-core.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-12T02:28:07.655Z"
+    "updated_at": "2021-02-12T03:17:11.082Z"
   },
   "components": [
     {
       "id": "l4fp2xkkygv4",
       "name": "Viewing content",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2018-11-16T18:17:29.270Z",
-      "updated_at": "2021-02-08T05:24:31.957Z",
+      "updated_at": "2021-02-12T03:17:11.038Z",
       "position": 1,
       "description": "Problems viewing issues, dashboards, boards, reports, etc.",
       "showcase": false,
@@ -175,51 +175,61 @@
   ],
   "incidents": [
     {
-      "id": "ylcb2ygw392b",
-      "name": "User Management Syncs are affected across all products",
+      "id": "hv1h5v13mdvm",
+      "name": "Unable to view attachments in Jira old issue view",
       "status": "investigating",
-      "created_at": "2021-02-12T02:18:16.059Z",
-      "updated_at": "2021-02-12T02:28:07.642Z",
+      "created_at": "2021-02-12T03:17:11.011Z",
+      "updated_at": "2021-02-12T03:17:11.080Z",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/0t32p7yj4fdw",
-      "started_at": "2021-02-12T02:18:16.052Z",
+      "impact": "major",
+      "shortlink": "https://stspg.io/292x7dsxlq3q",
+      "started_at": "2021-02-12T03:17:11.006Z",
       "page_id": "s6f0gm5gcpmy",
       "incident_updates": [
         {
-          "id": "y4wbznbmf132",
+          "id": "c1638cmx99ym",
           "status": "investigating",
-          "body": "We continue investigating issues with syncing User Management changes to products. We will provide more details in an hour.",
-          "incident_id": "ylcb2ygw392b",
-          "created_at": "2021-02-12T02:28:07.639Z",
-          "updated_at": "2021-02-12T02:28:07.639Z",
-          "display_at": "2021-02-12T02:28:07.639Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "b5rj65l3qntp",
-          "status": "investigating",
-          "body": "We are investigating issues in syncing User Management changes to the product. We will provide more details within the next hour.",
-          "incident_id": "ylcb2ygw392b",
-          "created_at": "2021-02-12T02:18:16.115Z",
-          "updated_at": "2021-02-12T02:18:16.115Z",
-          "display_at": "2021-02-12T02:18:16.115Z",
-          "affected_components": null,
-          "deliver_notifications": true,
+          "body": "We are investigating an issue with viewing attachments that is impacting some Jira Cloud customers. We will provide more details within the next hour.\n\nCurrent workaround is to download the image/file or use Jira new issue view.",
+          "incident_id": "hv1h5v13mdvm",
+          "created_at": "2021-02-12T03:17:11.078Z",
+          "updated_at": "2021-02-12T03:17:11.078Z",
+          "display_at": "2021-02-12T03:17:11.078Z",
+          "affected_components": [
+            {
+              "code": "l4fp2xkkygv4",
+              "name": "Viewing content",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
           "custom_tweet": null,
           "tweet_id": null
         }
       ],
-      "components": []
+      "components": [
+        {
+          "id": "l4fp2xkkygv4",
+          "name": "Viewing content",
+          "status": "partial_outage",
+          "created_at": "2018-11-16T18:17:29.270Z",
+          "updated_at": "2021-02-12T03:17:11.038Z",
+          "position": 1,
+          "description": "Problems viewing issues, dashboards, boards, reports, etc.",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "s6f0gm5gcpmy",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
     }
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }

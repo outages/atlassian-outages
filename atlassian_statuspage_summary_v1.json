@@ -4,7 +4,7 @@
     "name": "Atlassian Statuspage",
     "url": "http://metastatuspage.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-02-11T16:45:20.752-08:00"
+    "updated_at": "2021-02-11T19:10:16.828-08:00"
   },
   "components": [
     {
@@ -789,7 +789,7 @@
       "name": "Signup",
       "status": "operational",
       "created_at": "2020-10-23T14:12:27.848-07:00",
-      "updated_at": "2021-02-07T12:18:50.148-08:00",
+      "updated_at": "2021-02-11T19:10:16.801-08:00",
       "position": 10,
       "description": null,
       "showcase": false,
