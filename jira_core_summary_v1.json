@@ -4,7 +4,7 @@
     "name": "Jira Core",
     "url": "https://jira-core.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-11T15:33:55.173Z"
+    "updated_at": "2021-02-12T02:28:07.655Z"
   },
   "components": [
     {
@@ -173,7 +173,50 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "ylcb2ygw392b",
+      "name": "User Management Syncs are affected across all products",
+      "status": "investigating",
+      "created_at": "2021-02-12T02:18:16.059Z",
+      "updated_at": "2021-02-12T02:28:07.642Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/0t32p7yj4fdw",
+      "started_at": "2021-02-12T02:18:16.052Z",
+      "page_id": "s6f0gm5gcpmy",
+      "incident_updates": [
+        {
+          "id": "y4wbznbmf132",
+          "status": "investigating",
+          "body": "We continue investigating issues with syncing User Management changes to products. We will provide more details in an hour.",
+          "incident_id": "ylcb2ygw392b",
+          "created_at": "2021-02-12T02:28:07.639Z",
+          "updated_at": "2021-02-12T02:28:07.639Z",
+          "display_at": "2021-02-12T02:28:07.639Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "b5rj65l3qntp",
+          "status": "investigating",
+          "body": "We are investigating issues in syncing User Management changes to the product. We will provide more details within the next hour.",
+          "incident_id": "ylcb2ygw392b",
+          "created_at": "2021-02-12T02:18:16.115Z",
+          "updated_at": "2021-02-12T02:18:16.115Z",
+          "display_at": "2021-02-12T02:18:16.115Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": []
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
