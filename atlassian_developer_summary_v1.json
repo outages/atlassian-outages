@@ -4,13 +4,13 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-17T19:23:30.368Z"
+    "updated_at": "2021-02-17T19:58:42.073Z"
   },
   "components": [
     {
       "id": "w0ld3nc9jvdx",
       "name": "APIs",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-02-01T17:15:10.342Z",
       "updated_at": "2018-02-01T17:16:31.201Z",
       "position": 1,
@@ -77,9 +77,9 @@
     {
       "id": "yjqnzm0tkgsd",
       "name": "Confluence Cloud APIs",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-02-01T17:15:36.411Z",
-      "updated_at": "2021-02-11T01:28:32.302Z",
+      "updated_at": "2021-02-17T19:58:41.996Z",
       "position": 2,
       "description": null,
       "showcase": true,
@@ -539,143 +539,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "c896qnldx9nn",
-      "name": "Error in copy page hierarchy API",
-      "status": "monitoring",
-      "created_at": "2021-02-11T01:28:32.261Z",
-      "updated_at": "2021-02-17T19:19:19.388Z",
-      "monitoring_at": "2021-02-11T23:35:02.878Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/gtwn4kqqh1wy",
-      "started_at": "2021-02-11T02:05:41.000Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "29zckvbq36jj",
-          "status": "monitoring",
-          "body": "The fix is currently being rolled out to production instances. We’ll continue to monitor and update when the issue is resolved",
-          "incident_id": "c896qnldx9nn",
-          "created_at": "2021-02-17T19:19:19.385Z",
-          "updated_at": "2021-02-17T19:19:19.385Z",
-          "display_at": "2021-02-17T19:19:19.385Z",
-          "affected_components": [
-            {
-              "code": "yjqnzm0tkgsd",
-              "name": "APIs - Confluence Cloud APIs",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "jyj8fxxlhg98",
-          "status": "monitoring",
-          "body": "A fix has been deployed to Atlassian instances. We are now monitoring.",
-          "incident_id": "c896qnldx9nn",
-          "created_at": "2021-02-11T23:35:02.878Z",
-          "updated_at": "2021-02-11T23:35:02.878Z",
-          "display_at": "2021-02-11T23:35:02.878Z",
-          "affected_components": [
-            {
-              "code": "yjqnzm0tkgsd",
-              "name": "APIs - Confluence Cloud APIs",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "tz6fhxp09sbv",
-          "status": "identified",
-          "body": "A code defect has been identified as the cause of this problem. A fix will roll out through normal changes, rather than through a specific hotfix. Testing on internal Atlassian instances will roll out today, then propagate through normal rollout procedures.",
-          "incident_id": "c896qnldx9nn",
-          "created_at": "2021-02-11T17:54:50.107Z",
-          "updated_at": "2021-02-11T21:11:17.124Z",
-          "display_at": "2021-02-11T17:54:50.000Z",
-          "affected_components": [
-            {
-              "code": "yjqnzm0tkgsd",
-              "name": "APIs - Confluence Cloud APIs",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "mc885rwjfvd7",
-          "status": "investigating",
-          "body": "The team estimates the issue will be resolved by Feb 11, 11:00 PST.",
-          "incident_id": "c896qnldx9nn",
-          "created_at": "2021-02-11T02:05:41.339Z",
-          "updated_at": "2021-02-11T02:08:52.452Z",
-          "display_at": "2021-02-11T02:05:41.000Z",
-          "affected_components": [
-            {
-              "code": "yjqnzm0tkgsd",
-              "name": "APIs - Confluence Cloud APIs",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "tydhwr5n1jb7",
-          "status": "investigating",
-          "body": "We are investigating reports of the copy page hierarchy API (https://developer.atlassian.com/cloud/confluence/rest/api-group-content---children-and-descendants/#api-api-content-id-pagehierarchy-copy-post).",
-          "incident_id": "c896qnldx9nn",
-          "created_at": "2021-02-11T01:28:32.348Z",
-          "updated_at": "2021-02-11T01:28:32.348Z",
-          "display_at": "2021-02-11T01:28:32.348Z",
-          "affected_components": [
-            {
-              "code": "yjqnzm0tkgsd",
-              "name": "APIs - Confluence Cloud APIs",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "yjqnzm0tkgsd",
-          "name": "Confluence Cloud APIs",
-          "status": "degraded_performance",
-          "created_at": "2018-02-01T17:15:36.411Z",
-          "updated_at": "2021-02-11T01:28:32.302Z",
-          "position": 2,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "w0ld3nc9jvdx",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
