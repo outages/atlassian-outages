@@ -4,15 +4,15 @@
     "name": "Jira Core",
     "url": "https://jira-core.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-18T18:11:36.880Z"
+    "updated_at": "2021-02-18T18:26:06.503Z"
   },
   "components": [
     {
       "id": "l4fp2xkkygv4",
       "name": "Viewing content",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-11-16T18:17:29.270Z",
-      "updated_at": "2021-02-18T18:11:36.828Z",
+      "updated_at": "2021-02-18T18:26:06.394Z",
       "position": 1,
       "description": "Problems viewing issues, dashboards, boards, reports, etc.",
       "showcase": false,
@@ -173,63 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "5lt1nc64ltk4",
-      "name": "History in issue view not showing dates",
-      "status": "identified",
-      "created_at": "2021-02-18T18:11:36.790Z",
-      "updated_at": "2021-02-18T18:11:36.877Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/ck2bw5bw8p6b",
-      "started_at": "2021-02-18T18:11:36.782Z",
-      "page_id": "s6f0gm5gcpmy",
-      "incident_updates": [
-        {
-          "id": "sz4tflbjrksf",
-          "status": "identified",
-          "body": "We continue to work on resolving a problem rendering dates in the History tab in the Issue View. This is only affecting sites in the US region. We have identified the root cause and expect recovery shortly.",
-          "incident_id": "5lt1nc64ltk4",
-          "created_at": "2021-02-18T18:11:36.874Z",
-          "updated_at": "2021-02-18T18:11:36.874Z",
-          "display_at": "2021-02-18T18:11:36.874Z",
-          "affected_components": [
-            {
-              "code": "l4fp2xkkygv4",
-              "name": "Viewing content",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "l4fp2xkkygv4",
-          "name": "Viewing content",
-          "status": "degraded_performance",
-          "created_at": "2018-11-16T18:17:29.270Z",
-          "updated_at": "2021-02-18T18:11:36.828Z",
-          "position": 1,
-          "description": "Problems viewing issues, dashboards, boards, reports, etc.",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "s6f0gm5gcpmy",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
