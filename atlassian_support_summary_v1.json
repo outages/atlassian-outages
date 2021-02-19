@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-19T14:32:23.589Z"
+    "updated_at": "2021-02-19T15:07:31.623Z"
   },
   "components": [
     {
@@ -194,22 +194,22 @@
       "name": "Inability to write new Community content or view questions",
       "status": "investigating",
       "created_at": "2021-02-19T14:32:23.505Z",
-      "updated_at": "2021-02-19T14:32:23.587Z",
+      "updated_at": "2021-02-19T15:07:31.621Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/0f2316dkp0tg",
-      "started_at": "2021-02-19T14:32:23.500Z",
+      "started_at": "2021-02-19T14:32:23.000Z",
       "page_id": "3tbw4lb9t3qp",
       "incident_updates": [
         {
           "id": "38twlynm2b3v",
           "status": "investigating",
-          "body": "After the scheduled maintenance, many logged-in users are getting an error when they try to open questions or articles. We are aware of this problem and we are currently investigating what is causing it.",
+          "body": "After the scheduled maintenance, many logged-in users are getting an error when they try to view questions or articles. We are aware of this problem and we are currently investigating what is causing it.",
           "incident_id": "b05rhs42djcv",
           "created_at": "2021-02-19T14:32:23.584Z",
-          "updated_at": "2021-02-19T14:32:23.584Z",
-          "display_at": "2021-02-19T14:32:23.584Z",
+          "updated_at": "2021-02-19T15:07:31.582Z",
+          "display_at": "2021-02-19T14:32:23.000Z",
           "affected_components": [
             {
               "code": "x6ljwvfs3ymn",
