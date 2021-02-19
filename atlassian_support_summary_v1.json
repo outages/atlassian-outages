@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-19T12:00:37.862Z"
+    "updated_at": "2021-02-19T14:32:23.589Z"
   },
   "components": [
     {
@@ -55,9 +55,9 @@
     {
       "id": "x6ljwvfs3ymn",
       "name": "Community",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-11-30T21:48:02.423Z",
-      "updated_at": "2021-02-19T12:00:37.788Z",
+      "updated_at": "2021-02-19T14:32:23.541Z",
       "position": 4,
       "description": null,
       "showcase": true,
@@ -188,10 +188,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "b05rhs42djcv",
+      "name": "Inability to write new Community content or view questions",
+      "status": "investigating",
+      "created_at": "2021-02-19T14:32:23.505Z",
+      "updated_at": "2021-02-19T14:32:23.587Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/0f2316dkp0tg",
+      "started_at": "2021-02-19T14:32:23.500Z",
+      "page_id": "3tbw4lb9t3qp",
+      "incident_updates": [
+        {
+          "id": "38twlynm2b3v",
+          "status": "investigating",
+          "body": "After the scheduled maintenance, many logged-in users are getting an error when they try to open questions or articles. We are aware of this problem and we are currently investigating what is causing it.",
+          "incident_id": "b05rhs42djcv",
+          "created_at": "2021-02-19T14:32:23.584Z",
+          "updated_at": "2021-02-19T14:32:23.584Z",
+          "display_at": "2021-02-19T14:32:23.584Z",
+          "affected_components": [
+            {
+              "code": "x6ljwvfs3ymn",
+              "name": "Community",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "x6ljwvfs3ymn",
+          "name": "Community",
+          "status": "degraded_performance",
+          "created_at": "2018-11-30T21:48:02.423Z",
+          "updated_at": "2021-02-19T14:32:23.541Z",
+          "position": 4,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "3tbw4lb9t3qp",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
