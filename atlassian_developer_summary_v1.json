@@ -4,13 +4,13 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-22T19:08:33.302Z"
+    "updated_at": "2021-02-22T19:26:04.715Z"
   },
   "components": [
     {
       "id": "w0ld3nc9jvdx",
       "name": "APIs",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-02-01T17:15:10.342Z",
       "updated_at": "2018-02-01T17:16:31.201Z",
       "position": 1,
@@ -77,9 +77,9 @@
     {
       "id": "yjqnzm0tkgsd",
       "name": "Confluence Cloud APIs",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-02-01T17:15:36.411Z",
-      "updated_at": "2021-02-19T19:07:29.158Z",
+      "updated_at": "2021-02-22T19:26:04.674Z",
       "position": 2,
       "description": null,
       "showcase": true,
@@ -539,83 +539,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "j7ctvf7nn927",
-      "name": "Error in copy page hierarchy API",
-      "status": "monitoring",
-      "created_at": "2021-02-19T19:07:29.000Z",
-      "updated_at": "2021-02-22T19:08:33.300Z",
-      "monitoring_at": "2021-02-22T19:08:33.286Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/s1dnbltr311q",
-      "started_at": "2021-02-19T19:07:29.000Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "xtwcjcl8mbhy",
-          "status": "monitoring",
-          "body": "A new fix for this issue is being gradually rolled out.",
-          "incident_id": "j7ctvf7nn927",
-          "created_at": "2021-02-22T19:08:33.286Z",
-          "updated_at": "2021-02-22T19:08:33.286Z",
-          "display_at": "2021-02-22T19:08:33.286Z",
-          "affected_components": [
-            {
-              "code": "yjqnzm0tkgsd",
-              "name": "APIs - Confluence Cloud APIs",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "z69bypgcnr2w",
-          "status": "identified",
-          "body": "The fix for this issue was rolled back due to causing a new regression in exporting PDFs. We are building a new fix.",
-          "incident_id": "j7ctvf7nn927",
-          "created_at": "2021-02-19T19:07:29.207Z",
-          "updated_at": "2021-02-19T19:12:45.348Z",
-          "display_at": "2021-02-19T19:07:29.000Z",
-          "affected_components": [
-            {
-              "code": "yjqnzm0tkgsd",
-              "name": "APIs - Confluence Cloud APIs",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "yjqnzm0tkgsd",
-          "name": "Confluence Cloud APIs",
-          "status": "degraded_performance",
-          "created_at": "2018-02-01T17:15:36.411Z",
-          "updated_at": "2021-02-19T19:07:29.158Z",
-          "position": 2,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "w0ld3nc9jvdx",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
