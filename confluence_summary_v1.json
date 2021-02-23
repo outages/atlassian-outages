@@ -4,7 +4,7 @@
     "name": "Confluence",
     "url": "https://confluence.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-17T15:23:45.903Z"
+    "updated_at": "2021-02-23T05:04:34.858Z"
   },
   "components": [
     {
@@ -208,7 +208,83 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "78cxww0m111g",
+      "name": "Authentication systems maintenance",
+      "status": "scheduled",
+      "created_at": "2021-02-23T05:04:34.789Z",
+      "updated_at": "2021-02-23T05:04:34.854Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/xnszxs2c5m5k",
+      "started_at": "2021-02-23T05:04:34.773Z",
+      "page_id": "4g2my7tbhjsq",
+      "incident_updates": [
+        {
+          "id": "y3wn5xlbg67y",
+          "status": "scheduled",
+          "body": "On Sunday, 28th February 2021, from 05:00 am to 06:00 am UTC, there will be a scheduled maintenance period. During the maintenance period for up to 90 seconds some customers will experience degraded login and signup functionality across Atlassian Cloud. Atlassian Ecosystem Cloud Apps may still display UI but will fail to successfully perform user operation.",
+          "incident_id": "78cxww0m111g",
+          "created_at": "2021-02-23T05:04:34.851Z",
+          "updated_at": "2021-02-23T05:04:34.851Z",
+          "display_at": "2021-02-23T05:04:34.851Z",
+          "affected_components": [
+            {
+              "code": "n779hf70xvvb",
+              "name": "Authentication and User Management",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "qkxm9wlprp6h",
+              "name": "Signup",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "qkxm9wlprp6h",
+          "name": "Signup",
+          "status": "operational",
+          "created_at": "2020-10-09T20:36:17.712Z",
+          "updated_at": "2021-02-07T06:02:21.667Z",
+          "position": 11,
+          "description": null,
+          "showcase": false,
+          "start_date": "2020-10-09",
+          "group_id": null,
+          "page_id": "4g2my7tbhjsq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "n779hf70xvvb",
+          "name": "Authentication and User Management",
+          "status": "operational",
+          "created_at": "2019-05-02T04:25:15.382Z",
+          "updated_at": "2021-02-07T06:02:21.637Z",
+          "position": 4,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "4g2my7tbhjsq",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2021-02-28T05:00:00.000Z",
+      "scheduled_until": "2021-02-28T06:00:00.000Z"
+    }
+  ],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
