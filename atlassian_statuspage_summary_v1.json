@@ -4,7 +4,7 @@
     "name": "Atlassian Statuspage",
     "url": "http://metastatuspage.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-02-22T14:02:37.585-08:00"
+    "updated_at": "2021-02-22T18:37:44.926-08:00"
   },
   "components": [
     {
@@ -807,7 +807,7 @@
       "name": "Statuspage Load Balancer Upgrades",
       "status": "in_progress",
       "created_at": "2021-02-18T15:21:47.688-08:00",
-      "updated_at": "2021-02-22T14:02:37.585-08:00",
+      "updated_at": "2021-02-22T18:37:44.924-08:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
