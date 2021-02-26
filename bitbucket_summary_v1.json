@@ -4,24 +4,9 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-25T23:23:32.275Z"
+    "updated_at": "2021-02-26T00:00:51.884Z"
   },
   "components": [
-    {
-      "id": "g0lfj4sv2fhf",
-      "name": "Website",
-      "status": "operational",
-      "created_at": "2013-09-26T03:34:27.377Z",
-      "updated_at": "2021-02-05T09:22:07.820Z",
-      "position": 1,
-      "description": "Access to bitbucket.org",
-      "showcase": false,
-      "start_date": null,
-      "group_id": null,
-      "page_id": "bqlf8qjztdtr",
-      "group": false,
-      "only_show_if_degraded": false
-    },
     {
       "id": "3fq2y9gwp1cx",
       "name": "AWS CodeDeploy App",
@@ -38,11 +23,26 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "g0lfj4sv2fhf",
+      "name": "Website",
+      "status": "under_maintenance",
+      "created_at": "2013-09-26T03:34:27.377Z",
+      "updated_at": "2021-02-26T00:00:47.000Z",
+      "position": 1,
+      "description": "Access to bitbucket.org",
+      "showcase": false,
+      "start_date": null,
+      "group_id": null,
+      "page_id": "bqlf8qjztdtr",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "k0x2yw1435v7",
       "name": "API",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2015-06-05T19:34:43.541Z",
-      "updated_at": "2021-02-11T08:01:37.366Z",
+      "updated_at": "2021-02-26T00:00:47.032Z",
       "position": 2,
       "description": "Access to api.bitbucket.org",
       "showcase": false,
@@ -55,9 +55,9 @@
     {
       "id": "qmh4tj8h5kbn",
       "name": "SSH",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2013-10-10T17:45:00.679Z",
-      "updated_at": "2020-12-21T01:00:34.811Z",
+      "updated_at": "2021-02-26T00:00:47.078Z",
       "position": 3,
       "description": "Access to Git and Mercurial over SSH",
       "showcase": false,
@@ -85,9 +85,9 @@
     {
       "id": "c1qmcrcbc5zy",
       "name": "Git via HTTPS",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2013-09-26T03:33:27.652Z",
-      "updated_at": "2021-02-07T06:01:06.781Z",
+      "updated_at": "2021-02-26T00:00:47.130Z",
       "position": 5,
       "description": "Access to Git repositories via HTTPS",
       "showcase": false,
@@ -100,9 +100,9 @@
     {
       "id": "rfzky0v13fbp",
       "name": "Webhooks",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2015-07-29T01:37:04.511Z",
-      "updated_at": "2021-02-12T01:25:04.764Z",
+      "updated_at": "2021-02-26T00:00:47.163Z",
       "position": 7,
       "description": "The Bitbucket webhooks service",
       "showcase": false,
@@ -115,9 +115,9 @@
     {
       "id": "28h8dvv2qfzw",
       "name": "Source downloads",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2013-09-26T05:30:21.132Z",
-      "updated_at": "2020-12-21T01:00:34.898Z",
+      "updated_at": "2021-02-26T00:00:47.205Z",
       "position": 8,
       "description": "Archive (zip, tar.gz, bzip) downloads of repositories",
       "showcase": false,
@@ -130,9 +130,9 @@
     {
       "id": "rzh2n85q7vtt",
       "name": "Pipelines",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2016-08-23T20:04:54.469Z",
-      "updated_at": "2020-12-21T01:00:34.919Z",
+      "updated_at": "2021-02-26T00:00:47.227Z",
       "position": 9,
       "description": "Continuous integration and delivery for Bitbucket repos",
       "showcase": false,
@@ -145,9 +145,9 @@
     {
       "id": "g0c8l3nn2vr1",
       "name": "Git LFS",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2017-03-06T20:22:58.463Z",
-      "updated_at": "2020-12-21T01:00:34.933Z",
+      "updated_at": "2021-02-26T00:00:47.253Z",
       "position": 10,
       "description": "Git Large File Storage",
       "showcase": false,
@@ -160,9 +160,9 @@
     {
       "id": "vc7m6mtqmxf9",
       "name": "Email delivery",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2016-08-31T21:24:07.594Z",
-      "updated_at": "2020-12-21T01:00:34.949Z",
+      "updated_at": "2021-02-26T00:00:47.279Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -224,11 +224,107 @@
   "incidents": [],
   "scheduled_maintenances": [
     {
+      "id": "0lpx42cqmycb",
+      "name": "Authentication systems maintenance",
+      "status": "scheduled",
+      "created_at": "2021-02-23T04:58:04.968Z",
+      "updated_at": "2021-02-23T04:58:05.055Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/f7db3275qxcp",
+      "started_at": "2021-02-23T04:58:04.953Z",
+      "page_id": "bqlf8qjztdtr",
+      "incident_updates": [
+        {
+          "id": "pj5jl9gzjbgn",
+          "status": "scheduled",
+          "body": "On Sunday, 28th February 2021, from 05:00 am to 06:00 am UTC, there will be a scheduled maintenance period. During the maintenance period for up to 90 seconds some customers will experience degraded login and signup functionality across Atlassian Cloud. Atlassian Ecosystem Cloud Apps may still display UI but will fail to successfully perform user operation.",
+          "incident_id": "0lpx42cqmycb",
+          "created_at": "2021-02-23T04:58:05.052Z",
+          "updated_at": "2021-02-23T04:58:05.052Z",
+          "display_at": "2021-02-23T04:58:05.052Z",
+          "affected_components": [
+            {
+              "code": "c1qmcrcbc5zy",
+              "name": "Git via HTTPS",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "qfsxh5mgnyyn",
+              "name": "Authentication and user management",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "tmjhkbvskftr",
+              "name": "Signup",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "tmjhkbvskftr",
+          "name": "Signup",
+          "status": "operational",
+          "created_at": "2020-10-09T20:39:28.376Z",
+          "updated_at": "2021-02-07T06:01:06.945Z",
+          "position": 14,
+          "description": null,
+          "showcase": false,
+          "start_date": "2020-10-09",
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "c1qmcrcbc5zy",
+          "name": "Git via HTTPS",
+          "status": "under_maintenance",
+          "created_at": "2013-09-26T03:33:27.652Z",
+          "updated_at": "2021-02-26T00:00:47.130Z",
+          "position": 5,
+          "description": "Access to Git repositories via HTTPS",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "qfsxh5mgnyyn",
+          "name": "Authentication and user management",
+          "status": "operational",
+          "created_at": "2019-05-02T04:19:58.553Z",
+          "updated_at": "2021-02-07T06:01:06.517Z",
+          "position": 4,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2021-02-28T05:00:00.000Z",
+      "scheduled_until": "2021-02-28T06:00:00.000Z"
+    },
+    {
       "id": "qfd97glz898c",
       "name": "Database Maintenance - brief service interruptions possible",
-      "status": "scheduled",
+      "status": "in_progress",
       "created_at": "2021-02-23T18:34:44.876Z",
-      "updated_at": "2021-02-25T23:00:33.238Z",
+      "updated_at": "2021-02-26T00:00:51.870Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -236,6 +332,74 @@
       "started_at": "2021-02-23T18:34:44.863Z",
       "page_id": "bqlf8qjztdtr",
       "incident_updates": [
+        {
+          "id": "p1xlb2pjxymb",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "qfd97glz898c",
+          "created_at": "2021-02-26T00:00:47.340Z",
+          "updated_at": "2021-02-26T00:00:51.860Z",
+          "display_at": "2021-02-26T00:00:47.340Z",
+          "affected_components": [
+            {
+              "code": "c1qmcrcbc5zy",
+              "name": "Git via HTTPS",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "g0lfj4sv2fhf",
+              "name": "Website",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "28h8dvv2qfzw",
+              "name": "Source downloads",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "qmh4tj8h5kbn",
+              "name": "SSH",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "k0x2yw1435v7",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "rfzky0v13fbp",
+              "name": "Webhooks",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "rzh2n85q7vtt",
+              "name": "Pipelines",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "vc7m6mtqmxf9",
+              "name": "Email delivery",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "g0c8l3nn2vr1",
+              "name": "Git LFS",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1365089408123244500
+        },
         {
           "id": "8lt46k7yq6qg",
           "status": "scheduled",
@@ -322,9 +486,9 @@
         {
           "id": "vc7m6mtqmxf9",
           "name": "Email delivery",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2016-08-31T21:24:07.594Z",
-          "updated_at": "2020-12-21T01:00:34.949Z",
+          "updated_at": "2021-02-26T00:00:47.279Z",
           "position": 11,
           "description": null,
           "showcase": false,
@@ -337,9 +501,9 @@
         {
           "id": "g0c8l3nn2vr1",
           "name": "Git LFS",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2017-03-06T20:22:58.463Z",
-          "updated_at": "2020-12-21T01:00:34.933Z",
+          "updated_at": "2021-02-26T00:00:47.253Z",
           "position": 10,
           "description": "Git Large File Storage",
           "showcase": false,
@@ -352,9 +516,9 @@
         {
           "id": "rzh2n85q7vtt",
           "name": "Pipelines",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2016-08-23T20:04:54.469Z",
-          "updated_at": "2020-12-21T01:00:34.919Z",
+          "updated_at": "2021-02-26T00:00:47.227Z",
           "position": 9,
           "description": "Continuous integration and delivery for Bitbucket repos",
           "showcase": false,
@@ -367,9 +531,9 @@
         {
           "id": "28h8dvv2qfzw",
           "name": "Source downloads",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2013-09-26T05:30:21.132Z",
-          "updated_at": "2020-12-21T01:00:34.898Z",
+          "updated_at": "2021-02-26T00:00:47.205Z",
           "position": 8,
           "description": "Archive (zip, tar.gz, bzip) downloads of repositories",
           "showcase": false,
@@ -382,9 +546,9 @@
         {
           "id": "rfzky0v13fbp",
           "name": "Webhooks",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2015-07-29T01:37:04.511Z",
-          "updated_at": "2021-02-12T01:25:04.764Z",
+          "updated_at": "2021-02-26T00:00:47.163Z",
           "position": 7,
           "description": "The Bitbucket webhooks service",
           "showcase": false,
@@ -397,9 +561,9 @@
         {
           "id": "c1qmcrcbc5zy",
           "name": "Git via HTTPS",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2013-09-26T03:33:27.652Z",
-          "updated_at": "2021-02-07T06:01:06.781Z",
+          "updated_at": "2021-02-26T00:00:47.130Z",
           "position": 5,
           "description": "Access to Git repositories via HTTPS",
           "showcase": false,
@@ -412,9 +576,9 @@
         {
           "id": "qmh4tj8h5kbn",
           "name": "SSH",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2013-10-10T17:45:00.679Z",
-          "updated_at": "2020-12-21T01:00:34.811Z",
+          "updated_at": "2021-02-26T00:00:47.078Z",
           "position": 3,
           "description": "Access to Git and Mercurial over SSH",
           "showcase": false,
@@ -427,9 +591,9 @@
         {
           "id": "k0x2yw1435v7",
           "name": "API",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2015-06-05T19:34:43.541Z",
-          "updated_at": "2021-02-11T08:01:37.366Z",
+          "updated_at": "2021-02-26T00:00:47.032Z",
           "position": 2,
           "description": "Access to api.bitbucket.org",
           "showcase": false,
@@ -442,9 +606,9 @@
         {
           "id": "g0lfj4sv2fhf",
           "name": "Website",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2013-09-26T03:34:27.377Z",
-          "updated_at": "2021-02-05T09:22:07.820Z",
+          "updated_at": "2021-02-26T00:00:47.000Z",
           "position": 1,
           "description": "Access to bitbucket.org",
           "showcase": false,
@@ -457,106 +621,10 @@
       ],
       "scheduled_for": "2021-02-26T00:00:00.000Z",
       "scheduled_until": "2021-02-26T01:00:00.000Z"
-    },
-    {
-      "id": "0lpx42cqmycb",
-      "name": "Authentication systems maintenance",
-      "status": "scheduled",
-      "created_at": "2021-02-23T04:58:04.968Z",
-      "updated_at": "2021-02-23T04:58:05.055Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/f7db3275qxcp",
-      "started_at": "2021-02-23T04:58:04.953Z",
-      "page_id": "bqlf8qjztdtr",
-      "incident_updates": [
-        {
-          "id": "pj5jl9gzjbgn",
-          "status": "scheduled",
-          "body": "On Sunday, 28th February 2021, from 05:00 am to 06:00 am UTC, there will be a scheduled maintenance period. During the maintenance period for up to 90 seconds some customers will experience degraded login and signup functionality across Atlassian Cloud. Atlassian Ecosystem Cloud Apps may still display UI but will fail to successfully perform user operation.",
-          "incident_id": "0lpx42cqmycb",
-          "created_at": "2021-02-23T04:58:05.052Z",
-          "updated_at": "2021-02-23T04:58:05.052Z",
-          "display_at": "2021-02-23T04:58:05.052Z",
-          "affected_components": [
-            {
-              "code": "c1qmcrcbc5zy",
-              "name": "Git via HTTPS",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "qfsxh5mgnyyn",
-              "name": "Authentication and user management",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "tmjhkbvskftr",
-              "name": "Signup",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "tmjhkbvskftr",
-          "name": "Signup",
-          "status": "operational",
-          "created_at": "2020-10-09T20:39:28.376Z",
-          "updated_at": "2021-02-07T06:01:06.945Z",
-          "position": 14,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-10-09",
-          "group_id": null,
-          "page_id": "bqlf8qjztdtr",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "c1qmcrcbc5zy",
-          "name": "Git via HTTPS",
-          "status": "operational",
-          "created_at": "2013-09-26T03:33:27.652Z",
-          "updated_at": "2021-02-07T06:01:06.781Z",
-          "position": 5,
-          "description": "Access to Git repositories via HTTPS",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "bqlf8qjztdtr",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "qfsxh5mgnyyn",
-          "name": "Authentication and user management",
-          "status": "operational",
-          "created_at": "2019-05-02T04:19:58.553Z",
-          "updated_at": "2021-02-07T06:01:06.517Z",
-          "position": 4,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "bqlf8qjztdtr",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2021-02-28T05:00:00.000Z",
-      "scheduled_until": "2021-02-28T06:00:00.000Z"
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
