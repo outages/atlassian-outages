@@ -4,9 +4,31 @@
     "name": "Atlassian Statuspage",
     "url": "http://metastatuspage.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-02-22T21:43:30.099-08:00"
+    "updated_at": "2021-02-26T06:10:14.681-08:00"
   },
   "components": [
+    {
+      "id": "hchd2wyk50h7",
+      "name": "Hosted Pages",
+      "status": "operational",
+      "created_at": "2017-08-21T10:20:23.801-07:00",
+      "updated_at": "2017-08-21T10:28:03.987-07:00",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": null,
+      "page_id": "y2j98763l56x",
+      "group": true,
+      "only_show_if_degraded": false,
+      "components": [
+        "rkld00070vm9",
+        "3bg3nq9mm436",
+        "2k3fhq6zhd4j",
+        "s0p4y2k09klc",
+        "tpvwg6y7ltx2"
+      ]
+    },
     {
       "id": "vlr309x00nm7",
       "name": "Pingdom Email",
@@ -18,6 +40,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "l459pg65jrqf",
+      "page_id": "y2j98763l56x",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "fyzs60wyq01d",
+      "name": "Web Portal",
+      "status": "operational",
+      "created_at": "2017-08-21T10:22:01.379-07:00",
+      "updated_at": "2021-02-07T12:18:49.811-08:00",
+      "position": 1,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "jk3l62p3pcfy",
       "page_id": "y2j98763l56x",
       "group": false,
       "only_show_if_degraded": false
@@ -113,43 +150,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "hchd2wyk50h7",
-      "name": "Hosted Pages",
-      "status": "operational",
-      "created_at": "2017-08-21T10:20:23.801-07:00",
-      "updated_at": "2017-08-21T10:28:03.987-07:00",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": null,
-      "page_id": "y2j98763l56x",
-      "group": true,
-      "only_show_if_degraded": false,
-      "components": [
-        "rkld00070vm9",
-        "3bg3nq9mm436",
-        "2k3fhq6zhd4j",
-        "s0p4y2k09klc",
-        "tpvwg6y7ltx2"
-      ]
-    },
-    {
-      "id": "fyzs60wyq01d",
-      "name": "Web Portal",
-      "status": "operational",
-      "created_at": "2017-08-21T10:22:01.379-07:00",
-      "updated_at": "2021-02-07T12:18:49.811-08:00",
-      "position": 1,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "jk3l62p3pcfy",
-      "page_id": "y2j98763l56x",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "c60q7bnhphdv",
       "name": "New Relic Email",
       "status": "operational",
@@ -160,6 +160,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "l459pg65jrqf",
+      "page_id": "y2j98763l56x",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "hdj6sbn26g26",
+      "name": "SMS",
+      "status": "degraded_performance",
+      "created_at": "2017-08-21T10:29:50.009-07:00",
+      "updated_at": "2021-02-26T06:10:14.631-08:00",
+      "position": 2,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "131l86jhpwl3",
       "page_id": "y2j98763l56x",
       "group": false,
       "only_show_if_degraded": false
@@ -185,21 +200,6 @@
         "ff2cz0c51928",
         "v9dcxzcs9ypj"
       ]
-    },
-    {
-      "id": "hdj6sbn26g26",
-      "name": "SMS",
-      "status": "operational",
-      "created_at": "2017-08-21T10:29:50.009-07:00",
-      "updated_at": "2021-02-07T12:18:49.945-08:00",
-      "position": 2,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "131l86jhpwl3",
-      "page_id": "y2j98763l56x",
-      "group": false,
-      "only_show_if_degraded": false
     },
     {
       "id": "hsc388fhkjnv",
@@ -414,7 +414,7 @@
     {
       "id": "131l86jhpwl3",
       "name": "Notifications",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:29:36.356-07:00",
       "updated_at": "2017-08-23T15:54:00.714-07:00",
       "position": 3,
@@ -800,10 +800,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "v5zg6f46k5ym",
+      "name": "Text notifications affected for Statuspage Cloud customers.",
+      "status": "investigating",
+      "created_at": "2021-02-26T06:10:14.606-08:00",
+      "updated_at": "2021-02-26T06:10:14.681-08:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "http://mstspg.co/t2rd5dvy93xj",
+      "started_at": "2021-02-26T06:10:14.598-08:00",
+      "page_id": "y2j98763l56x",
+      "incident_updates": [
+        {
+          "id": "q91cpjtfjgk9",
+          "status": "investigating",
+          "body": "We are investigating an issue with text message notification that is impacting Statuspage Cloud customers. We will provide more details within the next hour.",
+          "incident_id": "v5zg6f46k5ym",
+          "created_at": "2021-02-26T06:10:14.679-08:00",
+          "updated_at": "2021-02-26T06:10:14.679-08:00",
+          "display_at": "2021-02-26T06:10:14.679-08:00",
+          "affected_components": [
+            {
+              "code": "hdj6sbn26g26",
+              "name": "Notifications - SMS",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "hdj6sbn26g26",
+          "name": "SMS",
+          "status": "degraded_performance",
+          "created_at": "2017-08-21T10:29:50.009-07:00",
+          "updated_at": "2021-02-26T06:10:14.631-08:00",
+          "position": 2,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": "131l86jhpwl3",
+          "page_id": "y2j98763l56x",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
