@@ -4,28 +4,13 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-26T00:24:07.248Z"
+    "updated_at": "2021-02-27T08:54:53.561Z"
   },
   "components": [
     {
-      "id": "421fc33d5s3x",
-      "name": "Incident Flow",
-      "status": "operational",
-      "created_at": "2019-03-15T08:09:14.950Z",
-      "updated_at": "2020-11-04T12:56:07.205Z",
-      "position": 1,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "jzqq334r65mx",
-      "page_id": "t05vdsszxwtq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "jzqq334r65mx",
       "name": "US",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-02-12T13:47:31.055Z",
       "updated_at": "2019-03-15T08:16:16.977Z",
       "position": 1,
@@ -73,6 +58,21 @@
       "showcase": true,
       "start_date": null,
       "group_id": "k7gyfk44wrsr",
+      "page_id": "t05vdsszxwtq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "421fc33d5s3x",
+      "name": "Incident Flow",
+      "status": "operational",
+      "created_at": "2019-03-15T08:09:14.950Z",
+      "updated_at": "2020-11-04T12:56:07.205Z",
+      "position": 1,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "jzqq334r65mx",
       "page_id": "t05vdsszxwtq",
       "group": false,
       "only_show_if_degraded": false
@@ -223,21 +223,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "92ty6vgyj0nw",
-      "name": "Voice Notification Delivery",
-      "status": "operational",
-      "created_at": "2019-03-15T08:11:07.813Z",
-      "updated_at": "2019-11-12T08:26:58.236Z",
-      "position": 5,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "k7gyfk44wrsr",
-      "page_id": "t05vdsszxwtq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "mpqtdxmvtwg7",
       "name": "Voice Notification Delivery",
       "status": "operational",
@@ -248,6 +233,21 @@
       "showcase": true,
       "start_date": null,
       "group_id": "jzqq334r65mx",
+      "page_id": "t05vdsszxwtq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "92ty6vgyj0nw",
+      "name": "Voice Notification Delivery",
+      "status": "operational",
+      "created_at": "2019-03-15T08:11:07.813Z",
+      "updated_at": "2019-11-12T08:26:58.236Z",
+      "position": 5,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "k7gyfk44wrsr",
       "page_id": "t05vdsszxwtq",
       "group": false,
       "only_show_if_degraded": false
@@ -313,21 +313,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "hm409hh7bt8j",
-      "name": "Incident REST API",
-      "status": "operational",
-      "created_at": "2019-03-15T08:11:12.594Z",
-      "updated_at": "2021-02-04T14:33:53.415Z",
-      "position": 8,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "jzqq334r65mx",
-      "page_id": "t05vdsszxwtq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "ddps6r8cr94r",
       "name": "Incident REST API",
       "status": "operational",
@@ -338,6 +323,21 @@
       "showcase": true,
       "start_date": null,
       "group_id": "k7gyfk44wrsr",
+      "page_id": "t05vdsszxwtq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "hm409hh7bt8j",
+      "name": "Incident REST API",
+      "status": "operational",
+      "created_at": "2019-03-15T08:11:12.594Z",
+      "updated_at": "2021-02-04T14:33:53.415Z",
+      "position": 8,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "jzqq334r65mx",
       "page_id": "t05vdsszxwtq",
       "group": false,
       "only_show_if_degraded": false
@@ -403,21 +403,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "1x1wnb2847r4",
-      "name": "Incoming Email Service",
-      "status": "operational",
-      "created_at": "2019-03-15T08:12:25.882Z",
-      "updated_at": "2019-07-09T20:27:42.167Z",
-      "position": 11,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "jzqq334r65mx",
-      "page_id": "t05vdsszxwtq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "242s901ympfz",
       "name": "Incoming Email Service",
       "status": "operational",
@@ -428,6 +413,21 @@
       "showcase": true,
       "start_date": null,
       "group_id": "k7gyfk44wrsr",
+      "page_id": "t05vdsszxwtq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "1x1wnb2847r4",
+      "name": "Incoming Email Service",
+      "status": "operational",
+      "created_at": "2019-03-15T08:12:25.882Z",
+      "updated_at": "2019-07-09T20:27:42.167Z",
+      "position": 11,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "jzqq334r65mx",
       "page_id": "t05vdsszxwtq",
       "group": false,
       "only_show_if_degraded": false
@@ -465,9 +465,9 @@
     {
       "id": "25p0d7gb1mwv",
       "name": "Outgoing Integration Flow",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-03-15T08:14:41.130Z",
-      "updated_at": "2019-07-08T23:14:36.157Z",
+      "updated_at": "2021-02-27T08:54:53.511Z",
       "position": 13,
       "description": null,
       "showcase": true,
@@ -523,21 +523,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "sr0pvy7nzzzk",
-      "name": "Opsgenie Actions",
-      "status": "operational",
-      "created_at": "2019-03-15T08:27:14.265Z",
-      "updated_at": "2019-05-01T20:38:14.772Z",
-      "position": 15,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "jzqq334r65mx",
-      "page_id": "t05vdsszxwtq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "wh8qj7phyx1j",
       "name": "Opsgenie Actions",
       "status": "operational",
@@ -548,6 +533,21 @@
       "showcase": true,
       "start_date": null,
       "group_id": "k7gyfk44wrsr",
+      "page_id": "t05vdsszxwtq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "sr0pvy7nzzzk",
+      "name": "Opsgenie Actions",
+      "status": "operational",
+      "created_at": "2019-03-15T08:27:14.265Z",
+      "updated_at": "2019-05-01T20:38:14.772Z",
+      "position": 15,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "jzqq334r65mx",
       "page_id": "t05vdsszxwtq",
       "group": false,
       "only_show_if_degraded": false
@@ -613,21 +613,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "mjdmrksdqcpb",
-      "name": "Configuration REST APIs",
-      "status": "operational",
-      "created_at": "2019-03-15T08:28:02.946Z",
-      "updated_at": "2019-07-08T23:14:36.059Z",
-      "position": 18,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "jzqq334r65mx",
-      "page_id": "t05vdsszxwtq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "jpbb5kpt55l9",
       "name": "Configuration REST APIs",
       "status": "operational",
@@ -643,13 +628,13 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "p88rmktvpp6p",
-      "name": "Reporting & Analytics",
+      "id": "mjdmrksdqcpb",
+      "name": "Configuration REST APIs",
       "status": "operational",
-      "created_at": "2019-02-12T13:47:31.068Z",
-      "updated_at": "2021-02-09T08:44:04.211Z",
-      "position": 19,
-      "description": "Reporting page",
+      "created_at": "2019-03-15T08:28:02.946Z",
+      "updated_at": "2019-07-08T23:14:36.059Z",
+      "position": 18,
+      "description": null,
       "showcase": true,
       "start_date": null,
       "group_id": "jzqq334r65mx",
@@ -658,13 +643,13 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "1c4c0wys29bv",
-      "name": "Pricing & Billing",
+      "id": "p88rmktvpp6p",
+      "name": "Reporting & Analytics",
       "status": "operational",
-      "created_at": "2019-03-15T08:16:51.428Z",
-      "updated_at": "2019-05-01T20:38:14.838Z",
-      "position": 20,
-      "description": null,
+      "created_at": "2019-02-12T13:47:31.068Z",
+      "updated_at": "2021-02-09T08:44:04.211Z",
+      "position": 19,
+      "description": "Reporting page",
       "showcase": true,
       "start_date": null,
       "group_id": "jzqq334r65mx",
@@ -688,12 +673,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "31n4p2y44b06",
-      "name": "Logs",
+      "id": "1c4c0wys29bv",
+      "name": "Pricing & Billing",
       "status": "operational",
-      "created_at": "2019-03-15T08:18:36.647Z",
-      "updated_at": "2019-07-08T23:14:35.104Z",
-      "position": 21,
+      "created_at": "2019-03-15T08:16:51.428Z",
+      "updated_at": "2019-05-01T20:38:14.838Z",
+      "position": 20,
       "description": null,
       "showcase": true,
       "start_date": null,
@@ -718,16 +703,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "6lw18sw0dgsj",
+      "id": "31n4p2y44b06",
       "name": "Logs",
       "status": "operational",
-      "created_at": "2019-03-15T08:14:15.298Z",
-      "updated_at": "2019-11-12T08:26:58.527Z",
-      "position": 22,
+      "created_at": "2019-03-15T08:18:36.647Z",
+      "updated_at": "2019-07-08T23:14:35.104Z",
+      "position": 21,
       "description": null,
       "showcase": true,
       "start_date": null,
-      "group_id": "k7gyfk44wrsr",
+      "group_id": "jzqq334r65mx",
       "page_id": "t05vdsszxwtq",
       "group": false,
       "only_show_if_degraded": false
@@ -743,6 +728,21 @@
       "showcase": true,
       "start_date": null,
       "group_id": "jzqq334r65mx",
+      "page_id": "t05vdsszxwtq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "6lw18sw0dgsj",
+      "name": "Logs",
+      "status": "operational",
+      "created_at": "2019-03-15T08:14:15.298Z",
+      "updated_at": "2019-11-12T08:26:58.527Z",
+      "position": 22,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "k7gyfk44wrsr",
       "page_id": "t05vdsszxwtq",
       "group": false,
       "only_show_if_degraded": false
@@ -793,7 +793,80 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "6c38p08q1r36",
+      "name": "Increase error rates Microsoft Teams integration",
+      "status": "investigating",
+      "created_at": "2021-02-27T08:54:31.808Z",
+      "updated_at": "2021-02-27T08:54:53.555Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/pmg2348mqqvq",
+      "started_at": "2021-02-27T08:54:31.802Z",
+      "page_id": "t05vdsszxwtq",
+      "incident_updates": [
+        {
+          "id": "g78wqhqdsrrz",
+          "status": "investigating",
+          "body": "We are continuing to investigate this issue.",
+          "incident_id": "6c38p08q1r36",
+          "created_at": "2021-02-27T08:54:53.552Z",
+          "updated_at": "2021-02-27T08:54:53.552Z",
+          "display_at": "2021-02-27T08:54:53.552Z",
+          "affected_components": [
+            {
+              "code": "25p0d7gb1mwv",
+              "name": "US - Outgoing Integration Flow",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "k4lpz3qhvq5c",
+          "status": "investigating",
+          "body": "We are currently investigating the issue.",
+          "incident_id": "6c38p08q1r36",
+          "created_at": "2021-02-27T08:54:31.848Z",
+          "updated_at": "2021-02-27T08:54:31.848Z",
+          "display_at": "2021-02-27T08:54:31.848Z",
+          "affected_components": [
+            {
+              "code": "25p0d7gb1mwv",
+              "name": "US - Outgoing Integration Flow",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "25p0d7gb1mwv",
+          "name": "Outgoing Integration Flow",
+          "status": "partial_outage",
+          "created_at": "2019-03-15T08:14:41.130Z",
+          "updated_at": "2021-02-27T08:54:53.511Z",
+          "position": 13,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": "jzqq334r65mx",
+          "page_id": "t05vdsszxwtq",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [
     {
       "id": "cvbh698k139y",
@@ -914,7 +987,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
