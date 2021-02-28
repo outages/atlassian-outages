@@ -4,7 +4,7 @@
     "name": "Atlassian Access",
     "url": "https://access.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-26T00:24:20.486Z"
+    "updated_at": "2021-02-28T05:01:39.333Z"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "vwb63rvhtqjn",
       "name": "SAML-based SSO",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2019-05-03T02:40:16.879Z",
-      "updated_at": "2021-02-07T06:00:39.434Z",
+      "updated_at": "2021-02-28T05:01:39.215Z",
       "position": 4,
       "description": null,
       "showcase": false,
@@ -40,9 +40,9 @@
     {
       "id": "n6qsfr329pzh",
       "name": "User Provisioning",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2019-05-03T02:40:35.269Z",
-      "updated_at": "2021-02-07T06:00:39.454Z",
+      "updated_at": "2021-02-28T05:01:39.236Z",
       "position": 5,
       "description": null,
       "showcase": false,
@@ -55,9 +55,9 @@
     {
       "id": "b8gbm56ptvw5",
       "name": "Account Management",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2019-05-03T02:41:07.946Z",
-      "updated_at": "2021-02-07T06:00:39.641Z",
+      "updated_at": "2021-02-28T05:01:39.254Z",
       "position": 6,
       "description": null,
       "showcase": false,
@@ -85,9 +85,9 @@
     {
       "id": "856c2dpnfnzq",
       "name": "Signup",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2020-10-09T20:38:53.790Z",
-      "updated_at": "2021-02-07T06:00:39.804Z",
+      "updated_at": "2021-02-28T05:01:39.272Z",
       "position": 8,
       "description": null,
       "showcase": false,
@@ -103,9 +103,9 @@
     {
       "id": "db1t7qf7mlhm",
       "name": "Authentication systems maintenance",
-      "status": "scheduled",
+      "status": "in_progress",
       "created_at": "2021-02-23T04:56:06.145Z",
-      "updated_at": "2021-02-23T04:56:06.200Z",
+      "updated_at": "2021-02-28T05:01:39.323Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -113,6 +113,44 @@
       "started_at": "2021-02-23T04:56:06.131Z",
       "page_id": "5qmgwsxwsz78",
       "incident_updates": [
+        {
+          "id": "zgpg6sswsnqq",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "db1t7qf7mlhm",
+          "created_at": "2021-02-28T05:01:39.319Z",
+          "updated_at": "2021-02-28T05:01:39.319Z",
+          "display_at": "2021-02-28T05:01:39.319Z",
+          "affected_components": [
+            {
+              "code": "vwb63rvhtqjn",
+              "name": "SAML-based SSO",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "n6qsfr329pzh",
+              "name": "User Provisioning",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "b8gbm56ptvw5",
+              "name": "Account Management",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "856c2dpnfnzq",
+              "name": "Signup",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "l67mpvkc8jjg",
           "status": "scheduled",
@@ -156,9 +194,9 @@
         {
           "id": "856c2dpnfnzq",
           "name": "Signup",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2020-10-09T20:38:53.790Z",
-          "updated_at": "2021-02-07T06:00:39.804Z",
+          "updated_at": "2021-02-28T05:01:39.272Z",
           "position": 8,
           "description": null,
           "showcase": false,
@@ -171,9 +209,9 @@
         {
           "id": "b8gbm56ptvw5",
           "name": "Account Management",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2019-05-03T02:41:07.946Z",
-          "updated_at": "2021-02-07T06:00:39.641Z",
+          "updated_at": "2021-02-28T05:01:39.254Z",
           "position": 6,
           "description": null,
           "showcase": false,
@@ -186,9 +224,9 @@
         {
           "id": "n6qsfr329pzh",
           "name": "User Provisioning",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2019-05-03T02:40:35.269Z",
-          "updated_at": "2021-02-07T06:00:39.454Z",
+          "updated_at": "2021-02-28T05:01:39.236Z",
           "position": 5,
           "description": null,
           "showcase": false,
@@ -201,9 +239,9 @@
         {
           "id": "vwb63rvhtqjn",
           "name": "SAML-based SSO",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2019-05-03T02:40:16.879Z",
-          "updated_at": "2021-02-07T06:00:39.434Z",
+          "updated_at": "2021-02-28T05:01:39.215Z",
           "position": 4,
           "description": null,
           "showcase": false,
@@ -219,7 +257,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
