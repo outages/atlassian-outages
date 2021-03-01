@@ -4,24 +4,9 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-28T06:02:28.391Z"
+    "updated_at": "2021-03-01T12:23:35.007Z"
   },
   "components": [
-    {
-      "id": "3fq2y9gwp1cx",
-      "name": "AWS CodeDeploy App",
-      "status": "operational",
-      "created_at": "2018-11-27T19:36:57.820Z",
-      "updated_at": "2020-12-21T01:00:34.747Z",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "2mb5q645dc8z",
-      "page_id": "bqlf8qjztdtr",
-      "group": false,
-      "only_show_if_degraded": false
-    },
     {
       "id": "g0lfj4sv2fhf",
       "name": "Website",
@@ -33,6 +18,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": null,
+      "page_id": "bqlf8qjztdtr",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "3fq2y9gwp1cx",
+      "name": "AWS CodeDeploy App",
+      "status": "operational",
+      "created_at": "2018-11-27T19:36:57.820Z",
+      "updated_at": "2020-12-21T01:00:34.747Z",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "2mb5q645dc8z",
       "page_id": "bqlf8qjztdtr",
       "group": false,
       "only_show_if_degraded": false
@@ -130,9 +130,9 @@
     {
       "id": "rzh2n85q7vtt",
       "name": "Pipelines",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2016-08-23T20:04:54.469Z",
-      "updated_at": "2021-02-26T01:00:33.799Z",
+      "updated_at": "2021-03-01T11:49:27.334Z",
       "position": 9,
       "description": "Continuous integration and delivery for Bitbucket repos",
       "showcase": false,
@@ -221,10 +221,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "kr0rbpf75gf4",
+      "name": "Pipelines Docker and service containers failing due to out of memory issues",
+      "status": "investigating",
+      "created_at": "2021-03-01T11:49:27.282Z",
+      "updated_at": "2021-03-01T11:49:27.822Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/8p5jyjbwfrcj",
+      "started_at": "2021-03-01T11:49:27.277Z",
+      "page_id": "bqlf8qjztdtr",
+      "incident_updates": [
+        {
+          "id": "x987lb0nxf72",
+          "status": "investigating",
+          "body": "We are investigating reports of out of memory issues with Docker and service containers.",
+          "incident_id": "kr0rbpf75gf4",
+          "created_at": "2021-03-01T11:49:27.392Z",
+          "updated_at": "2021-03-01T11:49:27.819Z",
+          "display_at": "2021-03-01T11:49:27.392Z",
+          "affected_components": [
+            {
+              "code": "rzh2n85q7vtt",
+              "name": "Pipelines",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1366354896887246800
+        }
+      ],
+      "components": [
+        {
+          "id": "rzh2n85q7vtt",
+          "name": "Pipelines",
+          "status": "degraded_performance",
+          "created_at": "2016-08-23T20:04:54.469Z",
+          "updated_at": "2021-03-01T11:49:27.334Z",
+          "position": 9,
+          "description": "Continuous integration and delivery for Bitbucket repos",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
