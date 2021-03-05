@@ -4,7 +4,7 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-03-05T09:23:40.659Z"
+    "updated_at": "2021-03-05T09:47:39.713Z"
   },
   "components": [
     {
@@ -765,16 +765,29 @@
     {
       "id": "shmfnbrg2hb1",
       "name": "We observe increased latency with notifications",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2021-03-05T09:08:08.156Z",
-      "updated_at": "2021-03-05T09:08:17.026Z",
-      "monitoring_at": null,
+      "updated_at": "2021-03-05T09:47:39.711Z",
+      "monitoring_at": "2021-03-05T09:47:39.695Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/dy89rlvjcm9z",
       "started_at": "2021-03-05T09:08:08.151Z",
       "page_id": "t05vdsszxwtq",
       "incident_updates": [
+        {
+          "id": "lbkt17zh4vz9",
+          "status": "monitoring",
+          "body": "The problem is identified and the fix is sent.",
+          "incident_id": "shmfnbrg2hb1",
+          "created_at": "2021-03-05T09:47:39.695Z",
+          "updated_at": "2021-03-05T09:47:39.695Z",
+          "display_at": "2021-03-05T09:47:39.695Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "gnmxt7tb08dx",
           "status": "investigating",
