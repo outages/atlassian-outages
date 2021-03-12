@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-03-12T07:45:38.935Z"
+    "updated_at": "2021-03-12T12:00:31.574Z"
   },
   "components": [
     {
@@ -55,9 +55,9 @@
     {
       "id": "x6ljwvfs3ymn",
       "name": "Community",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-11-30T21:48:02.423Z",
-      "updated_at": "2021-03-12T07:45:38.200Z",
+      "updated_at": "2021-03-12T12:00:31.508Z",
       "position": 4,
       "description": null,
       "showcase": true,
@@ -189,97 +189,9 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "4y6bxjrlbd16",
-      "name": "Atlassian Community Scheduled Maintenance",
-      "status": "in_progress",
-      "created_at": "2021-03-11T23:36:08.159Z",
-      "updated_at": "2021-03-12T07:45:38.701Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/4jq9s74cx4ym",
-      "started_at": "2021-03-11T23:36:08.154Z",
-      "page_id": "3tbw4lb9t3qp",
-      "incident_updates": [
-        {
-          "id": "ft85y8vjy1df",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "4y6bxjrlbd16",
-          "created_at": "2021-03-12T07:45:38.696Z",
-          "updated_at": "2021-03-12T07:45:38.696Z",
-          "display_at": "2021-03-12T07:45:38.696Z",
-          "affected_components": [
-            {
-              "code": "x6ljwvfs3ymn",
-              "name": "Community",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "6046rh6ns8jr",
-          "status": "scheduled",
-          "body": "Maintenance will begin as scheduled in 60 minutes.",
-          "incident_id": "4y6bxjrlbd16",
-          "created_at": "2021-03-12T06:44:30.392Z",
-          "updated_at": "2021-03-12T06:44:30.392Z",
-          "display_at": "2021-03-12T06:44:30.392Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "f1ly11wxk5h7",
-          "status": "scheduled",
-          "body": "Atlassian Community (community.atlassian.com) scheduled maintenance window:\n\n- starting at 11:59 PM PT Thursday, March 11th\n- ending at 4:00 AM PT Friday, March 12th\n\nThere might be some downtime during the window and the site could be completely unavailable for about an hour if/when the servers are restarted.",
-          "incident_id": "4y6bxjrlbd16",
-          "created_at": "2021-03-11T23:36:08.229Z",
-          "updated_at": "2021-03-11T23:36:08.229Z",
-          "display_at": "2021-03-11T23:36:08.229Z",
-          "affected_components": [
-            {
-              "code": "x6ljwvfs3ymn",
-              "name": "Community",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "x6ljwvfs3ymn",
-          "name": "Community",
-          "status": "under_maintenance",
-          "created_at": "2018-11-30T21:48:02.423Z",
-          "updated_at": "2021-03-12T07:45:38.200Z",
-          "position": 4,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "3tbw4lb9t3qp",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2021-03-12T07:45:00.000Z",
-      "scheduled_until": "2021-03-12T12:00:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
