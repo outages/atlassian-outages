@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-03-15T14:43:02.921Z"
+    "updated_at": "2021-03-15T19:46:19.449Z"
   },
   "components": [
     {
@@ -545,7 +545,7 @@
       "name": "Malicious users in Marketplace vendor account",
       "status": "investigating",
       "created_at": "2021-03-15T10:12:22.999Z",
-      "updated_at": "2021-03-15T14:43:02.912Z",
+      "updated_at": "2021-03-15T19:46:19.439Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -553,6 +553,32 @@
       "started_at": "2021-03-15T10:12:22.990Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "k0fkj7f5pf91",
+          "status": "investigating",
+          "body": "We are still investigating the root cause, but based on our analysis we believe this to be an application-level bug that caused data corruption.\n\nWe are currently investigating how we can safely restore a backup and will keep you informed on further updates.\n\nTraffic on the Marketplace itself continues to operate as normal and customers can continue to evaluate and purchase apps, but the block on all admin functionality on Marketplace for Vendors is still in place",
+          "incident_id": "jg83t3n3cw5q",
+          "created_at": "2021-03-15T19:46:19.436Z",
+          "updated_at": "2021-03-15T19:46:19.436Z",
+          "display_at": "2021-03-15T19:46:19.436Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "1vvmngd73171",
+              "name": "Marketplace - Vendor management",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "tvmdzmwv7p9s",
           "status": "investigating",
