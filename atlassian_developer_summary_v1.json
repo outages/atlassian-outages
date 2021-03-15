@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-03-15T10:23:30.198Z"
+    "updated_at": "2021-03-15T12:15:50.345Z"
   },
   "components": [
     {
@@ -545,7 +545,7 @@
       "name": "Malicious users in Marketplace vendor account",
       "status": "investigating",
       "created_at": "2021-03-15T10:12:22.999Z",
-      "updated_at": "2021-03-15T10:12:40.951Z",
+      "updated_at": "2021-03-15T12:15:50.338Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -553,6 +553,32 @@
       "started_at": "2021-03-15T10:12:22.990Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "tlf71k14l742",
+          "status": "investigating",
+          "body": "We are continuing to investigate the root cause of this issue. In the meanwhile, we have disabled access to all vendor reports and vendor management actions for all vendor contacts to prevent any malicious activity on the site. Vendor payouts have been suspended until further notice.",
+          "incident_id": "jg83t3n3cw5q",
+          "created_at": "2021-03-15T12:15:50.335Z",
+          "updated_at": "2021-03-15T12:15:50.335Z",
+          "display_at": "2021-03-15T12:15:50.335Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "1vvmngd73171",
+              "name": "Marketplace - Vendor management",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "j8g2y0qn5ndt",
           "status": "investigating",
