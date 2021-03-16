@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-03-15T19:46:19.449Z"
+    "updated_at": "2021-03-16T08:23:41.141Z"
   },
   "components": [
     {
@@ -545,7 +545,7 @@
       "name": "Malicious users in Marketplace vendor account",
       "status": "investigating",
       "created_at": "2021-03-15T10:12:22.999Z",
-      "updated_at": "2021-03-15T19:46:19.439Z",
+      "updated_at": "2021-03-16T08:23:41.129Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -553,6 +553,32 @@
       "started_at": "2021-03-15T10:12:22.990Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "lmj389glxtz6",
+          "status": "investigating",
+          "body": "The investigation is still underway, Marketplace Partner's admin features will continue to be disabled to prevent any potential abuse while we resolve this.\n\nTraffic on the Marketplace itself continues to operate as normal and customers can continue to evaluate and purchase apps.\n\nWe will continue to provide updates on our investigations and fixes as they progress.",
+          "incident_id": "jg83t3n3cw5q",
+          "created_at": "2021-03-16T08:23:41.126Z",
+          "updated_at": "2021-03-16T08:23:41.126Z",
+          "display_at": "2021-03-16T08:23:41.126Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "1vvmngd73171",
+              "name": "Marketplace - Vendor management",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "k0fkj7f5pf91",
           "status": "investigating",
