@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-03-16T08:23:41.141Z"
+    "updated_at": "2021-03-16T21:11:25.947Z"
   },
   "components": [
     {
@@ -542,10 +542,10 @@
   "incidents": [
     {
       "id": "jg83t3n3cw5q",
-      "name": "Malicious users in Marketplace vendor account",
+      "name": "Unauthorized Users Added to Marketplace Vendor Accounts from Bug caused by Database Failover",
       "status": "investigating",
       "created_at": "2021-03-15T10:12:22.999Z",
-      "updated_at": "2021-03-16T08:23:41.129Z",
+      "updated_at": "2021-03-16T21:11:25.944Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
