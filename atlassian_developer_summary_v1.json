@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-03-17T14:20:32.000Z"
+    "updated_at": "2021-03-17T17:35:30.510Z"
   },
   "components": [
     {
@@ -545,7 +545,7 @@
       "name": "Unauthorized Users Added to Marketplace Vendor Accounts from Bug caused by Database Failover",
       "status": "identified",
       "created_at": "2021-03-15T10:12:22.999Z",
-      "updated_at": "2021-03-17T14:20:31.987Z",
+      "updated_at": "2021-03-17T17:35:30.503Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -582,11 +582,11 @@
         {
           "id": "sppm76l10mt2",
           "status": "identified",
-          "body": "On March 14th 2021, the Atlassian team discovered unauthorized users were being given access to Marketplace Partner accounts for marketplace.atlassian.com.\n\nAt that time, we froze access to all users of partner accounts and halted payment processing in order to properly investigate the scope of the incident. We have since confirmed this activity was happening because of a bug, and not because of malicious activity.\n\nWe have also confirmed:\nNo billing details were accessed or changed by unauthorized users in any impacted vendor account\nNo reports and transaction details were accessed or changed by unauthorized users in any impacted vendor account\nNo new app versions were created by unauthorized users in any vendor partner account\n\nOur team is continuing to investigate potential unauthorized access to your vendor account’s contact information and app details.\n\nWe will reach out directly to each impacted partner when our investigation is complete. We will also provide further technical details on this incident in a public PIR.\n\nFollow the Atlassian Developer Statuspage for further updates.",
+          "body": "On March 14th 2021, the Atlassian team confirmed that unauthorized users were given access to Marketplace Partner accounts for marketplace.atlassian.com.\n\nAt that time, we froze access to all users of partner accounts and halted payment processing in order to properly investigate the scope of the incident. We have since confirmed this activity was happening because of a bug, and not because of malicious activity.\n\nWe have also confirmed:\nNo billing details were accessed or changed by unauthorized users in any impacted vendor account\nNo reports and transaction details were accessed or changed by unauthorized users in any impacted vendor account\nNo new app versions were created by unauthorized users in any vendor partner account\n\nOur team is continuing to investigate potential unauthorized access to your vendor account’s contact information and app details.\n\nWe will reach out directly to each impacted partner when our investigation is complete. We will also provide further technical details on this incident in a public PIR.\n\nFollow the Atlassian Developer Statuspage for further updates.",
           "incident_id": "jg83t3n3cw5q",
           "created_at": "2021-03-17T01:10:25.932Z",
-          "updated_at": "2021-03-17T01:10:25.932Z",
-          "display_at": "2021-03-17T01:10:25.932Z",
+          "updated_at": "2021-03-17T17:35:30.501Z",
+          "display_at": "2021-03-17T01:10:25.000Z",
           "affected_components": [
             {
               "code": "hk36hlvygg2q",
