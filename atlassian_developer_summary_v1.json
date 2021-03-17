@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-03-16T21:23:30.275Z"
+    "updated_at": "2021-03-17T01:10:46.408Z"
   },
   "components": [
     {
@@ -543,9 +543,9 @@
     {
       "id": "jg83t3n3cw5q",
       "name": "Unauthorized Users Added to Marketplace Vendor Accounts from Bug caused by Database Failover",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2021-03-15T10:12:22.999Z",
-      "updated_at": "2021-03-16T21:11:25.944Z",
+      "updated_at": "2021-03-17T01:10:25.935Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -553,6 +553,32 @@
       "started_at": "2021-03-15T10:12:22.990Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "sppm76l10mt2",
+          "status": "identified",
+          "body": "On March 14th 2021, the Atlassian team discovered unauthorized users were being given access to Marketplace Partner accounts for marketplace.atlassian.com.\n\nAt that time, we froze access to all users of partner accounts and halted payment processing in order to properly investigate the scope of the incident. We have since confirmed this activity was happening because of a bug, and not because of malicious activity.\n\nWe have also confirmed:\nNo billing details were accessed or changed by unauthorized users in any impacted vendor account\nNo reports and transaction details were accessed or changed by unauthorized users in any impacted vendor account\nNo new app versions were created by unauthorized users in any vendor partner account\n\nOur team is continuing to investigate potential unauthorized access to your vendor account’s contact information and app details.\n\nWe will reach out directly to each impacted partner when our investigation is complete. We will also provide further technical details on this incident in a public PIR.\n\nFollow the Atlassian Developer Statuspage for further updates.",
+          "incident_id": "jg83t3n3cw5q",
+          "created_at": "2021-03-17T01:10:25.932Z",
+          "updated_at": "2021-03-17T01:10:25.932Z",
+          "display_at": "2021-03-17T01:10:25.932Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "1vvmngd73171",
+              "name": "Marketplace - Vendor management",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "lmj389glxtz6",
           "status": "investigating",
