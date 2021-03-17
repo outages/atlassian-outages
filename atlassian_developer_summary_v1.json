@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-03-17T01:10:46.408Z"
+    "updated_at": "2021-03-17T14:20:32.000Z"
   },
   "components": [
     {
@@ -545,7 +545,7 @@
       "name": "Unauthorized Users Added to Marketplace Vendor Accounts from Bug caused by Database Failover",
       "status": "identified",
       "created_at": "2021-03-15T10:12:22.999Z",
-      "updated_at": "2021-03-17T01:10:25.935Z",
+      "updated_at": "2021-03-17T14:20:31.987Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -553,6 +553,32 @@
       "started_at": "2021-03-15T10:12:22.990Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "pdhn3j1vhry1",
+          "status": "identified",
+          "body": "As communicated in the previous update:\n\n- No billing details were accessed or changed by unauthorized users in any impacted vendor partner account\n- No reports and transaction details were accessed or changed by unauthorized users in any impacted vendor partner account\n- No new app versions were created by unauthorized users in any vendor partner account\n\nHowever, we are continuing to investigate and enumerate all unauthorized access to any Marketplace Partner account’s contact information and app details. In the process, we have already reached out directly to a subset of impacted Marketplace partners to communicate the impact to them and will be reaching out to others as we progress.\n\nAs no billing details were accessed or changed by unauthorized users in any impacted Partner partner account, our finance teams have started to process the payments for the month of February (due in March).\n\nUp to now we have prioritized understanding the full scope of potential unauthorised access to partner data and communicating this to partners above restoring access to Marketplace Partner admin functionality.\n\nWe are now evaluating options to safely restore access to Marketplace Partner functionality, and hope to be able to do this tomorrow ( 18 Mar 2021 ) for the majority of functionality.\n\nWe will keep you informed as we progress.\n\nThank you for your patience and continued support as we work through this sensitive matter.",
+          "incident_id": "jg83t3n3cw5q",
+          "created_at": "2021-03-17T14:20:31.983Z",
+          "updated_at": "2021-03-17T14:20:31.983Z",
+          "display_at": "2021-03-17T14:20:31.983Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "1vvmngd73171",
+              "name": "Marketplace - Vendor management",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "sppm76l10mt2",
           "status": "identified",
