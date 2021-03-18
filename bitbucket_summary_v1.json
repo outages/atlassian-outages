@@ -4,15 +4,15 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-03-18T16:23:32.596Z"
+    "updated_at": "2021-03-18T16:43:00.181Z"
   },
   "components": [
     {
       "id": "g0lfj4sv2fhf",
       "name": "Website",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2013-09-26T03:34:27.377Z",
-      "updated_at": "2021-03-18T15:45:22.997Z",
+      "updated_at": "2021-03-18T16:43:00.092Z",
       "position": 1,
       "description": "Access to bitbucket.org",
       "showcase": false,
@@ -40,9 +40,9 @@
     {
       "id": "k0x2yw1435v7",
       "name": "API",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2015-06-05T19:34:43.541Z",
-      "updated_at": "2021-03-18T15:45:23.021Z",
+      "updated_at": "2021-03-18T16:43:00.108Z",
       "position": 2,
       "description": "Access to api.bitbucket.org",
       "showcase": false,
@@ -55,9 +55,9 @@
     {
       "id": "qmh4tj8h5kbn",
       "name": "SSH",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2013-10-10T17:45:00.679Z",
-      "updated_at": "2021-03-18T15:45:23.078Z",
+      "updated_at": "2021-03-18T16:43:00.125Z",
       "position": 3,
       "description": "Access to Git and Mercurial over SSH",
       "showcase": false,
@@ -85,9 +85,9 @@
     {
       "id": "c1qmcrcbc5zy",
       "name": "Git via HTTPS",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2013-09-26T03:33:27.652Z",
-      "updated_at": "2021-03-18T15:45:23.100Z",
+      "updated_at": "2021-03-18T16:43:00.139Z",
       "position": 5,
       "description": "Access to Git repositories via HTTPS",
       "showcase": false,
@@ -221,123 +221,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "gn9sn6f608jv",
-      "name": "Bitbucket is experiencing performance degradation",
-      "status": "investigating",
-      "created_at": "2021-03-18T15:45:22.943Z",
-      "updated_at": "2021-03-18T15:45:23.155Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/ty1ktlqjfdh4",
-      "started_at": "2021-03-18T15:45:22.936Z",
-      "page_id": "bqlf8qjztdtr",
-      "incident_updates": [
-        {
-          "id": "dsrkw5tr4hxn",
-          "status": "investigating",
-          "body": "We are investigating cases of degraded performance for some Atlassian Bitbucket Cloud customers. We will provide more details within the next hour.",
-          "incident_id": "gn9sn6f608jv",
-          "created_at": "2021-03-18T15:45:23.152Z",
-          "updated_at": "2021-03-18T15:45:23.152Z",
-          "display_at": "2021-03-18T15:45:23.152Z",
-          "affected_components": [
-            {
-              "code": "c1qmcrcbc5zy",
-              "name": "Git via HTTPS",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "g0lfj4sv2fhf",
-              "name": "Website",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "qmh4tj8h5kbn",
-              "name": "SSH",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "k0x2yw1435v7",
-              "name": "API",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "c1qmcrcbc5zy",
-          "name": "Git via HTTPS",
-          "status": "degraded_performance",
-          "created_at": "2013-09-26T03:33:27.652Z",
-          "updated_at": "2021-03-18T15:45:23.100Z",
-          "position": 5,
-          "description": "Access to Git repositories via HTTPS",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "bqlf8qjztdtr",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "qmh4tj8h5kbn",
-          "name": "SSH",
-          "status": "degraded_performance",
-          "created_at": "2013-10-10T17:45:00.679Z",
-          "updated_at": "2021-03-18T15:45:23.078Z",
-          "position": 3,
-          "description": "Access to Git and Mercurial over SSH",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "bqlf8qjztdtr",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "k0x2yw1435v7",
-          "name": "API",
-          "status": "degraded_performance",
-          "created_at": "2015-06-05T19:34:43.541Z",
-          "updated_at": "2021-03-18T15:45:23.021Z",
-          "position": 2,
-          "description": "Access to api.bitbucket.org",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "bqlf8qjztdtr",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "g0lfj4sv2fhf",
-          "name": "Website",
-          "status": "degraded_performance",
-          "created_at": "2013-09-26T03:34:27.377Z",
-          "updated_at": "2021-03-18T15:45:22.997Z",
-          "position": 1,
-          "description": "Access to bitbucket.org",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "bqlf8qjztdtr",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [
     {
       "id": "5q0zhsqk5dxm",
@@ -548,9 +432,9 @@
         {
           "id": "c1qmcrcbc5zy",
           "name": "Git via HTTPS",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2013-09-26T03:33:27.652Z",
-          "updated_at": "2021-03-18T15:45:23.100Z",
+          "updated_at": "2021-03-18T16:43:00.139Z",
           "position": 5,
           "description": "Access to Git repositories via HTTPS",
           "showcase": false,
@@ -578,9 +462,9 @@
         {
           "id": "qmh4tj8h5kbn",
           "name": "SSH",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2013-10-10T17:45:00.679Z",
-          "updated_at": "2021-03-18T15:45:23.078Z",
+          "updated_at": "2021-03-18T16:43:00.125Z",
           "position": 3,
           "description": "Access to Git and Mercurial over SSH",
           "showcase": false,
@@ -593,9 +477,9 @@
         {
           "id": "k0x2yw1435v7",
           "name": "API",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2015-06-05T19:34:43.541Z",
-          "updated_at": "2021-03-18T15:45:23.021Z",
+          "updated_at": "2021-03-18T16:43:00.108Z",
           "position": 2,
           "description": "Access to api.bitbucket.org",
           "showcase": false,
@@ -608,9 +492,9 @@
         {
           "id": "g0lfj4sv2fhf",
           "name": "Website",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2013-09-26T03:34:27.377Z",
-          "updated_at": "2021-03-18T15:45:22.997Z",
+          "updated_at": "2021-03-18T16:43:00.092Z",
           "position": 1,
           "description": "Access to bitbucket.org",
           "showcase": false,
@@ -626,7 +510,7 @@
     }
   ],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
