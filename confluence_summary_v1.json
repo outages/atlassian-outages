@@ -4,15 +4,15 @@
     "name": "Confluence",
     "url": "https://confluence.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-28T06:05:29.279Z"
+    "updated_at": "2021-03-18T05:33:19.852Z"
   },
   "components": [
     {
       "id": "bl9mxbb582vk",
       "name": "View Content",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2018-11-12T04:04:58.123Z",
-      "updated_at": "2021-02-04T05:47:10.821Z",
+      "updated_at": "2021-03-18T05:33:19.778Z",
       "position": 1,
       "description": "Viewing pages or dashboards",
       "showcase": false,
@@ -40,9 +40,9 @@
     {
       "id": "y4z6hxpf7d7t",
       "name": "Create and Edit",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2018-11-12T04:04:58.145Z",
-      "updated_at": "2021-02-04T05:47:10.835Z",
+      "updated_at": "2021-03-18T05:33:19.800Z",
       "position": 2,
       "description": null,
       "showcase": false,
@@ -207,10 +207,84 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "zgcmkhmq614w",
+      "name": "Media functionality across multiple products is affected",
+      "status": "investigating",
+      "created_at": "2021-03-18T05:33:19.717Z",
+      "updated_at": "2021-03-18T05:33:19.849Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/w5nlp6kvq41h",
+      "started_at": "2021-03-18T05:33:19.708Z",
+      "page_id": "4g2my7tbhjsq",
+      "incident_updates": [
+        {
+          "id": "g1jj573d4zkg",
+          "status": "investigating",
+          "body": "We are investigating an issue with Media that is impacting Confluence, Jira Core, Jira Software, and Atlassian Bitbucket Cloud customers. We will provide more details within the next hour.",
+          "incident_id": "zgcmkhmq614w",
+          "created_at": "2021-03-18T05:33:19.845Z",
+          "updated_at": "2021-03-18T05:33:19.845Z",
+          "display_at": "2021-03-18T05:33:19.845Z",
+          "affected_components": [
+            {
+              "code": "bl9mxbb582vk",
+              "name": "View Content",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "y4z6hxpf7d7t",
+              "name": "Create and Edit",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "y4z6hxpf7d7t",
+          "name": "Create and Edit",
+          "status": "partial_outage",
+          "created_at": "2018-11-12T04:04:58.145Z",
+          "updated_at": "2021-03-18T05:33:19.800Z",
+          "position": 2,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "4g2my7tbhjsq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "bl9mxbb582vk",
+          "name": "View Content",
+          "status": "partial_outage",
+          "created_at": "2018-11-12T04:04:58.123Z",
+          "updated_at": "2021-03-18T05:33:19.778Z",
+          "position": 1,
+          "description": "Viewing pages or dashboards",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "4g2my7tbhjsq",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
