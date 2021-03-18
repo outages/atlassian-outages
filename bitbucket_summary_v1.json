@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-03-18T06:20:15.212Z"
+    "updated_at": "2021-03-18T06:37:29.572Z"
   },
   "components": [
     {
@@ -145,9 +145,9 @@
     {
       "id": "g0c8l3nn2vr1",
       "name": "Git LFS",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-03-06T20:22:58.463Z",
-      "updated_at": "2021-03-18T05:33:19.759Z",
+      "updated_at": "2021-03-18T06:22:29.572Z",
       "position": 10,
       "description": "Git Large File Storage",
       "showcase": false,
@@ -227,7 +227,7 @@
       "name": "Media functionality across multiple products is affected",
       "status": "monitoring",
       "created_at": "2021-03-18T05:33:19.702Z",
-      "updated_at": "2021-03-18T06:20:15.210Z",
+      "updated_at": "2021-03-18T06:22:29.603Z",
       "monitoring_at": "2021-03-18T06:20:15.196Z",
       "resolved_at": null,
       "impact": "major",
@@ -235,6 +235,26 @@
       "started_at": "2021-03-18T05:33:19.695Z",
       "page_id": "bqlf8qjztdtr",
       "incident_updates": [
+        {
+          "id": "7syt0525m3p8",
+          "status": "monitoring",
+          "body": "We have identified the root cause of the file upload and download issue and have mitigated the problem. We are now monitoring closely.",
+          "incident_id": "9w8lk492wmnq",
+          "created_at": "2021-03-18T06:22:29.601Z",
+          "updated_at": "2021-03-18T06:22:29.601Z",
+          "display_at": "2021-03-18T06:22:29.601Z",
+          "affected_components": [
+            {
+              "code": "g0c8l3nn2vr1",
+              "name": "Git LFS",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "xxm1k51s67ns",
           "status": "monitoring",
@@ -293,83 +313,11 @@
         {
           "id": "g0c8l3nn2vr1",
           "name": "Git LFS",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2017-03-06T20:22:58.463Z",
-          "updated_at": "2021-03-18T05:33:19.759Z",
+          "updated_at": "2021-03-18T06:22:29.572Z",
           "position": 10,
           "description": "Git Large File Storage",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "bqlf8qjztdtr",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    },
-    {
-      "id": "b3mt8hqlftq7",
-      "name": "Pipelines artifact uploads and downloads failing",
-      "status": "monitoring",
-      "created_at": "2021-03-18T05:34:32.143Z",
-      "updated_at": "2021-03-18T06:16:59.257Z",
-      "monitoring_at": "2021-03-18T06:16:58.737Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/6pkzvgf38fjw",
-      "started_at": "2021-03-18T05:34:32.136Z",
-      "page_id": "bqlf8qjztdtr",
-      "incident_updates": [
-        {
-          "id": "g8t80xx290kp",
-          "status": "monitoring",
-          "body": "A fix has been implemented and we are monitoring the results.",
-          "incident_id": "b3mt8hqlftq7",
-          "created_at": "2021-03-18T06:16:58.737Z",
-          "updated_at": "2021-03-18T06:16:59.253Z",
-          "display_at": "2021-03-18T06:16:58.737Z",
-          "affected_components": [
-            {
-              "code": "rzh2n85q7vtt",
-              "name": "Pipelines",
-              "old_status": "partial_outage",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1372431820197822500
-        },
-        {
-          "id": "dzzcqrbc6gc0",
-          "status": "investigating",
-          "body": "Pipelines uploading and downloading of artifacts/caches are impacted by a major outage in our storage backend, the storage team is working on mitigation.",
-          "incident_id": "b3mt8hqlftq7",
-          "created_at": "2021-03-18T05:34:32.274Z",
-          "updated_at": "2021-03-18T05:34:33.372Z",
-          "display_at": "2021-03-18T05:34:32.274Z",
-          "affected_components": [
-            {
-              "code": "rzh2n85q7vtt",
-              "name": "Pipelines",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1372421141898305500
-        }
-      ],
-      "components": [
-        {
-          "id": "rzh2n85q7vtt",
-          "name": "Pipelines",
-          "status": "operational",
-          "created_at": "2016-08-23T20:04:54.469Z",
-          "updated_at": "2021-03-18T06:16:58.712Z",
-          "position": 9,
-          "description": "Continuous integration and delivery for Bitbucket repos",
           "showcase": false,
           "start_date": null,
           "group_id": null,
@@ -530,9 +478,9 @@
         {
           "id": "g0c8l3nn2vr1",
           "name": "Git LFS",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2017-03-06T20:22:58.463Z",
-          "updated_at": "2021-03-18T05:33:19.759Z",
+          "updated_at": "2021-03-18T06:22:29.572Z",
           "position": 10,
           "description": "Git Large File Storage",
           "showcase": false,
@@ -668,7 +616,7 @@
     }
   ],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
