@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-03-17T17:35:30.510Z"
+    "updated_at": "2021-03-18T23:11:46.066Z"
   },
   "components": [
     {
@@ -545,14 +545,40 @@
       "name": "Unauthorized Users Added to Marketplace Vendor Accounts from Bug caused by Database Failover",
       "status": "identified",
       "created_at": "2021-03-15T10:12:22.999Z",
-      "updated_at": "2021-03-17T17:35:30.503Z",
+      "updated_at": "2021-03-18T23:11:46.060Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/7h978z5p3l0c",
-      "started_at": "2021-03-15T10:12:22.990Z",
+      "started_at": "2021-03-17T01:10:25.000Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "tdyzglldtd7v",
+          "status": "identified",
+          "body": "Our preliminary investigation of the incident has identified the root cause to be corruption within MongoDB triggered at the point of a failover event on 12th Mar 2021 20:20 UTC.\nThis modified the mapping between Marketplace user_id & Atlassian account_id. While Marketplace user_ids constituting the Partner contact groups remained intact, some Marketplace user_ids got linked to the wrong Atlassian account_id. This resulted in:\nCertain Atlassian account_ids gaining access to incorrect Partner contact group\nCertain Atlassian account_ids losing access to their correct Partner account and/or being added to an incorrect Partner account\n\nWe investigated the scope of potential unauthorized access by users who were inadvertently added to the Partner account.\nOur next step was to restore functionality by:\nRemoving all impacted users (both authorized and unauthorized) from Partner contact groups, regardless of whether they were added or deleted by authorized users.\nUnblocking Partner account access for all remaining unimpacted authorized users.\n\nAt 18th Mar 2021 14:35 UTC, we attempted to restore functionality by rolling out the above changes. Within 20 min of the roll-out, one additional user_id swap was reported to us. Out of abundance of precaution, we reverted the roll-out at 18th Mar 2021 15:00 UTC.\n\nWe are investigating the reported swap and will resume restoring functionality once we are confident the underlying root cause of the swap is resolved.\nWe will provide an update within the next 12 hours. Our priority is to restore functionality as soon as we can.\nThank you for your patience and continued support.\nNote: We will share a detailed PIR after resolving the incident and completing the investigation.",
+          "incident_id": "jg83t3n3cw5q",
+          "created_at": "2021-03-18T23:06:19.089Z",
+          "updated_at": "2021-03-18T23:11:46.058Z",
+          "display_at": "2021-03-18T23:06:19.000Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "1vvmngd73171",
+              "name": "Marketplace - Vendor management",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "pdhn3j1vhry1",
           "status": "identified",
