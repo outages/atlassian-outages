@@ -4,7 +4,7 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-03-19T20:23:49.322Z"
+    "updated_at": "2021-03-19T20:49:56.408Z"
   },
   "components": [
     {
@@ -40,7 +40,7 @@
     {
       "id": "jzqq334r65mx",
       "name": "US",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-02-12T13:47:31.055Z",
       "updated_at": "2019-03-15T08:16:16.977Z",
       "position": 1,
@@ -463,9 +463,9 @@
     {
       "id": "25p0d7gb1mwv",
       "name": "Outgoing Integration Flow",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-03-15T08:14:41.130Z",
-      "updated_at": "2021-03-19T20:13:14.417Z",
+      "updated_at": "2021-03-19T20:49:56.358Z",
       "position": 13,
       "description": null,
       "showcase": true,
@@ -761,83 +761,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "8lzjst2cq4l0",
-      "name": "Execution delay for ServiceNowV3 integration outgoing events",
-      "status": "monitoring",
-      "created_at": "2021-03-19T20:13:14.389Z",
-      "updated_at": "2021-03-19T20:23:05.086Z",
-      "monitoring_at": "2021-03-19T20:23:05.074Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/rhcsbrms7377",
-      "started_at": "2021-03-19T20:13:14.383Z",
-      "page_id": "t05vdsszxwtq",
-      "incident_updates": [
-        {
-          "id": "w0ht56d1vv5p",
-          "status": "monitoring",
-          "body": "We are monitoring the system right now.",
-          "incident_id": "8lzjst2cq4l0",
-          "created_at": "2021-03-19T20:23:05.074Z",
-          "updated_at": "2021-03-19T20:23:05.074Z",
-          "display_at": "2021-03-19T20:23:05.074Z",
-          "affected_components": [
-            {
-              "code": "25p0d7gb1mwv",
-              "name": "US - Outgoing Integration Flow",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "9s7ktkk3st0g",
-          "status": "identified",
-          "body": "We are experiencing delay for executing ServiceNowV3 integration outgoing events. We identified the problem.",
-          "incident_id": "8lzjst2cq4l0",
-          "created_at": "2021-03-19T20:13:14.488Z",
-          "updated_at": "2021-03-19T20:13:14.488Z",
-          "display_at": "2021-03-19T20:13:14.488Z",
-          "affected_components": [
-            {
-              "code": "25p0d7gb1mwv",
-              "name": "US - Outgoing Integration Flow",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "25p0d7gb1mwv",
-          "name": "Outgoing Integration Flow",
-          "status": "degraded_performance",
-          "created_at": "2019-03-15T08:14:41.130Z",
-          "updated_at": "2021-03-19T20:13:14.417Z",
-          "position": 13,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "jzqq334r65mx",
-          "page_id": "t05vdsszxwtq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
