@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-03-19T09:46:16.141Z"
+    "updated_at": "2021-03-19T10:04:16.664Z"
   },
   "components": [
     {
@@ -545,7 +545,7 @@
       "name": "Unauthorized Users Added to Marketplace Vendor Accounts from Bug caused by Database Failover",
       "status": "identified",
       "created_at": "2021-03-15T10:12:22.999Z",
-      "updated_at": "2021-03-19T09:46:16.135Z",
+      "updated_at": "2021-03-19T10:04:16.656Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -556,10 +556,10 @@
         {
           "id": "rqz997xtd966",
           "status": "identified",
-          "body": "We will be restoring access to Marketplace partner functionality on Mar 19, 2021 ~10:30 UTC. This will allow partners to access their accounts again. In this process, we are removing all users (both authorised and unauthorised) modified between Mar 12, 2021  and Mar 15, 2021 from their respective Partner accounts.\n\nAfter the process, \n\nUnaffected authorized users will continue to appear in the correct Partner account.\nAll affected authorized users will not be able to access their Partner account. They will be added back to their correct Partner accounts soon after.\nAny legitimate action done in the past by an affected authorized user in their Partner account will temporarily be attributed to an unauthorized user.\nAll users will continue to be restricted from creating as well as deleting existing contacts.\nNew Partner account creation will be temporarily disabled\n\nOur target action steps for the next update are:\n\n-Restoring correct mapping between Marketplace user_id and Atlassian account_id for affected users. This will restore correct attribution of actions previously done by their respective users.\n-Adding back all affected authorized users to their correct Partner account.\n\nThe remaining steps after that will be:\n\n-Opening up user modification functionality for all authorized users.\n-Opening up new Partner account creation.\n\n Please raise a ticket at <a href=\"https://ecosystem.atlassian.net/servicedesk/customer/portal/9/create/425\">AMKTHELP</a> if your admin contact is affected. We appreciate your continued patience and support. We will keep you informed as we make progress.",
+          "body": "We will be restoring access to Marketplace partner functionality on Mar 19, 2021 ~10:30 UTC. This will allow partners to access their accounts again. In this process, we are removing all users (both authorised and unauthorised) modified between 12th Mar 2021 UTC and 15th Mar 2021 UTC from their respective Partner accounts.\n\nAfter this process is complete: \n\n- Unaffected authorized users will continue to appear in the correct Partner account.\n- All affected authorized users will not be able to access their Partner account. They will be added back to their correct Partner accounts soon after.\n- Any legitimate action done in the past by an affected authorized user in their Partner account will temporarily be attributed to an unauthorized user (i.e. app version release).\n- All users will continue to be restricted from creating as well as deleting existing contacts.\n- New Partner account creation will be temporarily disabled\n\nOur target action steps for the next update are:\n\n- Restoring correct mapping between Marketplace user_id and Atlassian account_id for affected users. This will restore correct attribution of actions previously done by their respective users.\n- Adding back all affected authorized users to their correct Partner account.\n\nThe remaining steps after that will be:\n\n- Opening up user modification functionality for all authorized users.\n- Opening up new Partner account creation.\n\n Please raise a ticket at <a href=\"https://ecosystem.atlassian.net/servicedesk/customer/portal/9/create/425\">AMKTHELP</a> if your admin contact is affected. We appreciate your continued patience and support. We will keep you informed as we make progress.",
           "incident_id": "jg83t3n3cw5q",
           "created_at": "2021-03-19T09:39:38.768Z",
-          "updated_at": "2021-03-19T09:46:16.133Z",
+          "updated_at": "2021-03-19T10:04:16.653Z",
           "display_at": "2021-03-19T09:39:38.000Z",
           "affected_components": [
             {
