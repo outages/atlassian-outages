@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-03-19T10:23:31.723Z"
+    "updated_at": "2021-03-19T19:25:28.672Z"
   },
   "components": [
     {
@@ -188,7 +188,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "major_outage",
+      "status": "partial_outage",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -481,9 +481,9 @@
     {
       "id": "hk36hlvygg2q",
       "name": "Reporting APIs and dashboards",
-      "status": "major_outage",
+      "status": "partial_outage",
       "created_at": "2013-12-03T00:45:26.014Z",
-      "updated_at": "2021-03-15T10:12:23.031Z",
+      "updated_at": "2021-03-19T19:25:28.560Z",
       "position": 11,
       "description": "We have identified an issue with our internal services affecting reporting queries with large data. You may see intermittent failures and slow responses. The team is working on a fix.",
       "showcase": true,
@@ -511,9 +511,9 @@
     {
       "id": "1vvmngd73171",
       "name": "Vendor management",
-      "status": "major_outage",
+      "status": "partial_outage",
       "created_at": "2018-02-01T17:53:33.728Z",
-      "updated_at": "2021-03-15T08:52:28.942Z",
+      "updated_at": "2021-03-19T19:25:28.613Z",
       "position": 13,
       "description": "We have identified an issue with multiple vendor admins having lost access to their vendor accounts and are currently investigating this. As a precautionary measure, we are blocking access to all vendor roles including Admin, Manage vendor details, Manage vendor payment details, Manage add-on details, Manage add-on pricing, Manage promotions, View sales reports, View all other reports.",
       "showcase": true,
@@ -545,7 +545,7 @@
       "name": "Unauthorized Users Added to Marketplace Vendor Accounts from Bug caused by Database Failover",
       "status": "identified",
       "created_at": "2021-03-15T10:12:22.999Z",
-      "updated_at": "2021-03-19T10:04:16.656Z",
+      "updated_at": "2021-03-19T19:25:28.662Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -553,6 +553,32 @@
       "started_at": "2021-03-17T01:10:25.000Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "8qdf51ggq0tl",
+          "status": "identified",
+          "body": "We have restored the Partner account access for all unaffected authorised users.\n\nWe do understand that the remaining affected users would be anxious to get access back to their Partner account. Our aim is to complete the exercise at the earliest, but also observe abundant caution as this activity requires carefully undoing the swaps of Atlassian_ids.\n\nIn light of the above, while we will continue to actively work on restoring access for remaining affected users, for ensuring accuracy we will start rolling out these changes on Monday, 22 Mar 2021.\n\nThanks for your continued patience. We will share an update when the next set of changes are ready to be rolled out.",
+          "incident_id": "jg83t3n3cw5q",
+          "created_at": "2021-03-19T19:25:28.659Z",
+          "updated_at": "2021-03-19T19:25:28.659Z",
+          "display_at": "2021-03-19T19:25:28.659Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "major_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "1vvmngd73171",
+              "name": "Marketplace - Vendor management",
+              "old_status": "major_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "rqz997xtd966",
           "status": "identified",
@@ -818,9 +844,9 @@
         {
           "id": "1vvmngd73171",
           "name": "Vendor management",
-          "status": "major_outage",
+          "status": "partial_outage",
           "created_at": "2018-02-01T17:53:33.728Z",
-          "updated_at": "2021-03-15T08:52:28.942Z",
+          "updated_at": "2021-03-19T19:25:28.613Z",
           "position": 13,
           "description": "We have identified an issue with multiple vendor admins having lost access to their vendor accounts and are currently investigating this. As a precautionary measure, we are blocking access to all vendor roles including Admin, Manage vendor details, Manage vendor payment details, Manage add-on details, Manage add-on pricing, Manage promotions, View sales reports, View all other reports.",
           "showcase": true,
@@ -833,9 +859,9 @@
         {
           "id": "hk36hlvygg2q",
           "name": "Reporting APIs and dashboards",
-          "status": "major_outage",
+          "status": "partial_outage",
           "created_at": "2013-12-03T00:45:26.014Z",
-          "updated_at": "2021-03-15T10:12:23.031Z",
+          "updated_at": "2021-03-19T19:25:28.560Z",
           "position": 11,
           "description": "We have identified an issue with our internal services affecting reporting queries with large data. You may see intermittent failures and slow responses. The team is working on a fix.",
           "showcase": true,
@@ -850,7 +876,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
