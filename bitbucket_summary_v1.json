@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-03-22T16:53:58.011Z"
+    "updated_at": "2021-03-22T18:17:23.551Z"
   },
   "components": [
     {
@@ -382,7 +382,7 @@
       "name": "Database infrastructure maintenance. Two hours of downtime scheduled",
       "status": "scheduled",
       "created_at": "2021-03-05T18:00:23.604Z",
-      "updated_at": "2021-03-05T18:00:24.469Z",
+      "updated_at": "2021-03-22T18:17:23.548Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -393,10 +393,10 @@
         {
           "id": "z794sxhzcwm5",
           "status": "scheduled",
-          "body": "The Bitbucket team will be performing maintenance in our database infrastructure over the April 17th weekend.  This maintenance will require up to 2 hours of downtime on all Bitbucket Cloud Services, including the Website, Git operations via SSH and HTTPS, API requests, and Pipelines. All services are expected to be back to normal after this maintenance is complete.\n\nWe will update this maintenance announcement on March 30th, 2021 with the exact time when this maintenance will begin.",
+          "body": "The Bitbucket team will be performing maintenance in our database infrastructure over the April 24th weekend.  This maintenance will require up to 2 hours of downtime on all Bitbucket Cloud Services, including the Website, Git operations via SSH and HTTPS, API requests, and Pipelines. All services are expected to be back to normal after this maintenance is complete.\n\nWe will update this maintenance announcement on April 6th, 2021 with the exact time when this maintenance will begin.",
           "incident_id": "5q0zhsqk5dxm",
           "created_at": "2021-03-05T18:00:23.668Z",
-          "updated_at": "2021-03-05T18:00:24.466Z",
+          "updated_at": "2021-03-22T18:14:57.025Z",
           "display_at": "2021-03-05T18:00:23.668Z",
           "affected_components": [
             {
@@ -659,8 +659,8 @@
           "only_show_if_degraded": false
         }
       ],
-      "scheduled_for": "2021-04-17T00:00:00.000Z",
-      "scheduled_until": "2021-04-19T00:00:00.000Z"
+      "scheduled_for": "2021-04-24T00:00:00.000Z",
+      "scheduled_until": "2021-04-26T00:00:00.000Z"
     }
   ],
   "status": {
