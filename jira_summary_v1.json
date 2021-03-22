@@ -4,7 +4,7 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-03-22T13:23:53.897Z"
+    "updated_at": "2021-03-22T14:29:59.728Z"
   },
   "components": [
     {
@@ -173,37 +173,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "qktq10x88w0b",
-      "name": "Error accessing JIRA Cloud site - Something's gone wrong",
-      "status": "investigating",
-      "created_at": "2021-03-22T12:47:47.368Z",
-      "updated_at": "2021-03-22T12:47:47.397Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/skxlm1cm1btj",
-      "started_at": "2021-03-22T12:47:47.362Z",
-      "page_id": "7yh3h3y0c0x1",
-      "incident_updates": [
-        {
-          "id": "wvtc8pd8n8yv",
-          "status": "investigating",
-          "body": "We are investigating an issue with accessing Jira that is impacting some Jira cloud customers. When trying to access Jira, they are getting \"Something's gone wrong\" error. We will provide more details within the next hour.",
-          "incident_id": "qktq10x88w0b",
-          "created_at": "2021-03-22T12:47:47.395Z",
-          "updated_at": "2021-03-22T12:47:47.395Z",
-          "display_at": "2021-03-22T12:47:47.395Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": []
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
