@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-03-23T13:23:57.246Z"
+    "updated_at": "2021-03-23T14:09:18.369Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "No access to Jira Cloud - ERROR I6HQNH",
       "status": "investigating",
       "created_at": "2021-03-23T13:03:41.562Z",
-      "updated_at": "2021-03-23T13:04:21.277Z",
+      "updated_at": "2021-03-23T14:09:18.363Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -193,8 +193,8 @@
           "body": "We are continuing to investigate this issue.",
           "incident_id": "19r45vpd2lw4",
           "created_at": "2021-03-23T13:04:21.274Z",
-          "updated_at": "2021-03-23T13:04:21.274Z",
-          "display_at": "2021-03-23T13:04:21.274Z",
+          "updated_at": "2021-03-23T14:09:18.360Z",
+          "display_at": "2021-03-23T14:10:21.000Z",
           "affected_components": null,
           "deliver_notifications": false,
           "custom_tweet": null,
