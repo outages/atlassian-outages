@@ -4,7 +4,7 @@
     "name": "Jira Core",
     "url": "https://jira-core.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-03-23T19:23:47.414Z"
+    "updated_at": "2021-03-23T21:03:46.432Z"
   },
   "components": [
     {
@@ -174,61 +174,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": "35c9hhrtl1m9",
-      "name": "Jira backup manager is failing",
-      "status": "monitoring",
-      "created_at": "2021-03-23T18:25:04.262Z",
-      "updated_at": "2021-03-23T18:45:30.497Z",
-      "monitoring_at": "2021-03-23T18:25:17.000Z",
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/274l56smbzwn",
-      "started_at": "2021-03-23T18:25:17.000Z",
-      "page_id": "s6f0gm5gcpmy",
-      "incident_updates": [
-        {
-          "id": "r15sg06nb6xj",
-          "status": "monitoring",
-          "body": "A fix is being deployed and expected to reach the whole production within the next 2-3 hours.",
-          "incident_id": "35c9hhrtl1m9",
-          "created_at": "2021-03-23T18:44:04.022Z",
-          "updated_at": "2021-03-23T18:45:20.796Z",
-          "display_at": "2021-03-23T18:44:04.000Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "wdcylhkx5r8w",
-          "status": "monitoring",
-          "body": "A fix is being deployed and expected to reach the whole production within the next 2-3 hours.",
-          "incident_id": "35c9hhrtl1m9",
-          "created_at": "2021-03-23T18:25:17.504Z",
-          "updated_at": "2021-03-23T18:45:30.431Z",
-          "display_at": "2021-03-23T18:25:17.000Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "l6dffv2j0nr3",
-          "status": "investigating",
-          "body": "We are investigating reports of intermittent backup errors for some Jira Cloud customers. We will provide more details once we identify the root cause.",
-          "incident_id": "35c9hhrtl1m9",
-          "created_at": "2021-03-23T18:25:04.300Z",
-          "updated_at": "2021-03-23T18:25:04.300Z",
-          "display_at": "2021-03-23T18:25:04.300Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": []
-    },
     {
       "id": "tc1ytsvkkwc6",
       "name": "No access to Jira Cloud - ERROR I6HQNH",
