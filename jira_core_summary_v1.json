@@ -4,7 +4,7 @@
     "name": "Jira Core",
     "url": "https://jira-core.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-03-23T14:08:49.403Z"
+    "updated_at": "2021-03-23T18:25:17.518Z"
   },
   "components": [
     {
@@ -174,6 +174,48 @@
     }
   ],
   "incidents": [
+    {
+      "id": "35c9hhrtl1m9",
+      "name": "Jira backup manager is failing",
+      "status": "monitoring",
+      "created_at": "2021-03-23T18:25:04.262Z",
+      "updated_at": "2021-03-23T18:25:17.516Z",
+      "monitoring_at": "2021-03-23T18:25:17.504Z",
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/274l56smbzwn",
+      "started_at": "2021-03-23T18:25:04.256Z",
+      "page_id": "s6f0gm5gcpmy",
+      "incident_updates": [
+        {
+          "id": "wdcylhkx5r8w",
+          "status": "monitoring",
+          "body": "We are investigating reports of intermittent backup errors for some Jira Cloud customers. We will provide more details once we identify the root cause.",
+          "incident_id": "35c9hhrtl1m9",
+          "created_at": "2021-03-23T18:25:17.504Z",
+          "updated_at": "2021-03-23T18:25:17.504Z",
+          "display_at": "2021-03-23T18:25:17.504Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "l6dffv2j0nr3",
+          "status": "investigating",
+          "body": "We are investigating reports of intermittent backup errors for some Jira Cloud customers. We will provide more details once we identify the root cause.",
+          "incident_id": "35c9hhrtl1m9",
+          "created_at": "2021-03-23T18:25:04.300Z",
+          "updated_at": "2021-03-23T18:25:04.300Z",
+          "display_at": "2021-03-23T18:25:04.300Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": []
+    },
     {
       "id": "tc1ytsvkkwc6",
       "name": "No access to Jira Cloud - ERROR I6HQNH",
