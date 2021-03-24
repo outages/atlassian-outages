@@ -4,9 +4,39 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-03-23T19:10:08.529Z"
+    "updated_at": "2021-03-24T16:52:56.586Z"
   },
   "components": [
+    {
+      "id": "c1zr70381q86",
+      "name": "Bitbucket Cloud APIs",
+      "status": "operational",
+      "created_at": "2018-02-01T17:15:10.353Z",
+      "updated_at": "2018-02-01T17:15:10.353Z",
+      "position": 1,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "w0ld3nc9jvdx",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "mlr76v811c20",
+      "name": "App listing management",
+      "status": "operational",
+      "created_at": "2018-02-01T17:46:24.130Z",
+      "updated_at": "2020-10-01T13:51:35.706Z",
+      "position": 1,
+      "description": "The ability to manage app listings on https://marketplace.atlassian.com",
+      "showcase": true,
+      "start_date": null,
+      "group_id": "d0m8l367qqw5",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
     {
       "id": "w0ld3nc9jvdx",
       "name": "APIs",
@@ -47,66 +77,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "mlr76v811c20",
-      "name": "App listing management",
-      "status": "operational",
-      "created_at": "2018-02-01T17:46:24.130Z",
-      "updated_at": "2020-10-01T13:51:35.706Z",
-      "position": 1,
-      "description": "The ability to manage app listings on https://marketplace.atlassian.com",
-      "showcase": true,
-      "start_date": null,
-      "group_id": "d0m8l367qqw5",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "c1zr70381q86",
-      "name": "Bitbucket Cloud APIs",
-      "status": "operational",
-      "created_at": "2018-02-01T17:15:10.353Z",
-      "updated_at": "2018-02-01T17:15:10.353Z",
-      "position": 1,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "w0ld3nc9jvdx",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "hfflf63kcp1l",
-      "name": "Artifactory (Maven repository)",
-      "status": "operational",
-      "created_at": "2018-02-01T17:21:49.804Z",
-      "updated_at": "2021-03-23T12:04:34.080Z",
-      "position": 2,
-      "description": "https://maven.atlassian.com",
-      "showcase": true,
-      "start_date": null,
-      "group_id": "73bt63kd5q9k",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "yjqnzm0tkgsd",
-      "name": "Confluence Cloud APIs",
-      "status": "operational",
-      "created_at": "2018-02-01T17:15:36.411Z",
-      "updated_at": "2021-02-22T19:26:04.674Z",
-      "position": 2,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "w0ld3nc9jvdx",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "73bt63kd5q9k",
       "name": "Developer",
       "status": "operational",
@@ -130,6 +100,21 @@
         "pgqd9x4jl520",
         "sq83n9jrwk7c"
       ]
+    },
+    {
+      "id": "hfflf63kcp1l",
+      "name": "Artifactory (Maven repository)",
+      "status": "operational",
+      "created_at": "2018-02-01T17:21:49.804Z",
+      "updated_at": "2021-03-23T12:04:34.080Z",
+      "position": 2,
+      "description": "https://maven.atlassian.com",
+      "showcase": true,
+      "start_date": null,
+      "group_id": "73bt63kd5q9k",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
     },
     {
       "id": "g04n852g3nt6",
@@ -162,16 +147,31 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "d1hybyzmqlvq",
-      "name": "App pricing",
+      "id": "yjqnzm0tkgsd",
+      "name": "Confluence Cloud APIs",
       "status": "operational",
-      "created_at": "2013-12-03T00:43:13.497Z",
-      "updated_at": "2020-10-09T16:43:58.913Z",
-      "position": 3,
-      "description": "App pricing queries and updates",
+      "created_at": "2018-02-01T17:15:36.411Z",
+      "updated_at": "2021-02-22T19:26:04.674Z",
+      "position": 2,
+      "description": null,
       "showcase": true,
       "start_date": null,
-      "group_id": "d0m8l367qqw5",
+      "group_id": "w0ld3nc9jvdx",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "ccbm394hy8pk",
+      "name": "Create and manage apps",
+      "status": "operational",
+      "created_at": "2018-02-01T17:21:34.902Z",
+      "updated_at": "2021-03-23T12:04:34.088Z",
+      "position": 3,
+      "description": "The ability to create and manage apps at https://developer.atlassian.com/apps",
+      "showcase": true,
+      "start_date": null,
+      "group_id": "73bt63kd5q9k",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -179,7 +179,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -208,31 +208,16 @@
       ]
     },
     {
-      "id": "cc6gw24m02wp",
-      "name": "Jira Cloud APIs",
+      "id": "d1hybyzmqlvq",
+      "name": "App pricing",
       "status": "operational",
-      "created_at": "2018-02-01T17:16:54.648Z",
-      "updated_at": "2021-03-23T12:03:04.808Z",
+      "created_at": "2013-12-03T00:43:13.497Z",
+      "updated_at": "2020-10-09T16:43:58.913Z",
       "position": 3,
-      "description": null,
+      "description": "App pricing queries and updates",
       "showcase": true,
       "start_date": null,
-      "group_id": "w0ld3nc9jvdx",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "ccbm394hy8pk",
-      "name": "Create and manage apps",
-      "status": "operational",
-      "created_at": "2018-02-01T17:21:34.902Z",
-      "updated_at": "2021-03-23T12:04:34.088Z",
-      "position": 3,
-      "description": "The ability to create and manage apps at https://developer.atlassian.com/apps",
-      "showcase": true,
-      "start_date": null,
-      "group_id": "73bt63kd5q9k",
+      "group_id": "d0m8l367qqw5",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -248,6 +233,21 @@
       "showcase": true,
       "start_date": null,
       "group_id": "jgnwrfzynh93",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "cc6gw24m02wp",
+      "name": "Jira Cloud APIs",
+      "status": "operational",
+      "created_at": "2018-02-01T17:16:54.648Z",
+      "updated_at": "2021-03-23T12:03:04.808Z",
+      "position": 3,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "w0ld3nc9jvdx",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -328,36 +328,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "jnrvspydmmsd",
-      "name": "User APIs",
-      "status": "operational",
-      "created_at": "2018-02-01T17:17:26.159Z",
-      "updated_at": "2021-03-23T12:03:17.254Z",
-      "position": 5,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "w0ld3nc9jvdx",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "vb9xhz9z6zbp",
-      "name": "Forge App Installation",
-      "status": "operational",
-      "created_at": "2021-03-23T11:55:32.639Z",
-      "updated_at": "2021-03-23T12:04:48.350Z",
-      "position": 5,
-      "description": "Installation of Forge apps",
-      "showcase": true,
-      "start_date": "2021-03-23",
-      "group_id": "73bt63kd5q9k",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "bdrd3wct69vq",
       "name": "Marketplace service desk",
       "status": "operational",
@@ -410,16 +380,46 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "bqzdpnq7v22n",
-      "name": "Atlassian Support",
+      "id": "vb9xhz9z6zbp",
+      "name": "Forge App Installation",
       "status": "operational",
-      "created_at": "2019-05-01T23:50:52.594Z",
-      "updated_at": "2021-01-16T16:24:12.472Z",
+      "created_at": "2021-03-23T11:55:32.639Z",
+      "updated_at": "2021-03-23T12:04:48.350Z",
+      "position": 5,
+      "description": "Installation of Forge apps",
+      "showcase": true,
+      "start_date": "2021-03-23",
+      "group_id": "73bt63kd5q9k",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "jnrvspydmmsd",
+      "name": "User APIs",
+      "status": "operational",
+      "created_at": "2018-02-01T17:17:26.159Z",
+      "updated_at": "2021-03-23T12:03:17.254Z",
+      "position": 5,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "w0ld3nc9jvdx",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "5rnsdjrhk29s",
+      "name": "Webhooks",
+      "status": "operational",
+      "created_at": "2018-02-01T17:19:01.020Z",
+      "updated_at": "2021-03-23T12:03:17.265Z",
       "position": 6,
       "description": null,
-      "showcase": false,
+      "showcase": true,
       "start_date": null,
-      "group_id": "jgnwrfzynh93",
+      "group_id": "w0ld3nc9jvdx",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -455,16 +455,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "5rnsdjrhk29s",
-      "name": "Webhooks",
+      "id": "bqzdpnq7v22n",
+      "name": "Atlassian Support",
       "status": "operational",
-      "created_at": "2018-02-01T17:19:01.020Z",
-      "updated_at": "2021-03-23T12:03:17.265Z",
+      "created_at": "2019-05-01T23:50:52.594Z",
+      "updated_at": "2021-01-16T16:24:12.472Z",
       "position": 6,
       "description": null,
-      "showcase": true,
+      "showcase": false,
       "start_date": null,
-      "group_id": "w0ld3nc9jvdx",
+      "group_id": "jgnwrfzynh93",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -607,9 +607,9 @@
     {
       "id": "1vvmngd73171",
       "name": "Vendor management",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:53:33.728Z",
-      "updated_at": "2021-03-19T19:25:28.613Z",
+      "updated_at": "2021-03-24T16:52:56.537Z",
       "position": 13,
       "description": "We have identified an issue with multiple vendor admins having lost access to their vendor accounts and are currently investigating this. As a precautionary measure, we are blocking access to all vendor roles including Admin, Manage vendor details, Manage vendor payment details, Manage add-on details, Manage add-on pricing, Manage promotions, View sales reports, View all other reports.",
       "showcase": true,
@@ -635,396 +635,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "jg83t3n3cw5q",
-      "name": "Unauthorized Users Added to Marketplace Vendor Accounts from Bug caused by Database Failover",
-      "status": "monitoring",
-      "created_at": "2021-03-15T10:12:22.999Z",
-      "updated_at": "2021-03-23T19:10:08.525Z",
-      "monitoring_at": "2021-03-23T19:10:08.508Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/7h978z5p3l0c",
-      "started_at": "2021-03-17T01:10:25.000Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "kjs48hsdh8qf",
-          "status": "monitoring",
-          "body": "User swaps for affected partner accounts were reversed today, and partners should now have access to their vendor accounts with the right privileges. Please raise a ticket at <a href=\"https://ecosystem.atlassian.net/servicedesk/customer/portal/9/create/425\">AMKTHELP</a> if you still have a problem with the contacts in your vendor accounts.\n\nCreate new vendor and modify vendor contacts functionality is still blocked while we complete a final set of checks. We plan to re-enable this functionality tomorrow.\n\nTomorrow, we will also look to complete the reversal of user swaps for non-partner accounts.\n\nThanks you for your patience through this entire process.",
-          "incident_id": "jg83t3n3cw5q",
-          "created_at": "2021-03-23T19:10:08.508Z",
-          "updated_at": "2021-03-23T19:10:08.508Z",
-          "display_at": "2021-03-23T19:10:08.508Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "partial_outage",
-              "new_status": "operational"
-            },
-            {
-              "code": "1vvmngd73171",
-              "name": "Marketplace - Vendor management",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "g2c1w3tb9dyr",
-          "status": "identified",
-          "body": "On Saturday and Monday, we have undid the Atlassian id swaps for all partners who had requested urgent access to their account via the support Helpdesk.\n\nWe aim to complete the user swaps for all affected partners tomorrow.\n\nWe do understand that the remaining affected users would be anxious to get access back to their Partner account, and will thus carefully balance caution with urgency as we proceed.\n\nThanks for your continued patience. We will share an update tomorrow.",
-          "incident_id": "jg83t3n3cw5q",
-          "created_at": "2021-03-22T16:26:16.067Z",
-          "updated_at": "2021-03-22T16:26:16.067Z",
-          "display_at": "2021-03-22T16:26:16.067Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "1vvmngd73171",
-              "name": "Marketplace - Vendor management",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "8qdf51ggq0tl",
-          "status": "identified",
-          "body": "We have restored the Partner account access for all unaffected authorised users.\n\nWe do understand that the remaining affected users would be anxious to get access back to their Partner account. Our aim is to complete the exercise at the earliest, but also observe abundant caution as this activity requires carefully undoing the swaps of Atlassian_ids.\n\nIn light of the above, while we will continue to actively work on restoring access for remaining affected users, for ensuring accuracy we will start rolling out these changes on Monday, 22 Mar 2021.\n\nThanks for your continued patience. We will share an update when the next set of changes are ready to be rolled out.",
-          "incident_id": "jg83t3n3cw5q",
-          "created_at": "2021-03-19T19:25:28.659Z",
-          "updated_at": "2021-03-19T19:25:28.659Z",
-          "display_at": "2021-03-19T19:25:28.659Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "major_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "1vvmngd73171",
-              "name": "Marketplace - Vendor management",
-              "old_status": "major_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "rqz997xtd966",
-          "status": "identified",
-          "body": "We will be restoring access to Marketplace partner functionality on Mar 19, 2021 ~10:30 UTC. This will allow partners to access their accounts again. In this process, we are removing all users (both authorised and unauthorised) modified between 12th Mar 2021 UTC and 15th Mar 2021 UTC from their respective Partner accounts.\n\nAfter this process is complete: \n\n- Unaffected authorized users will continue to appear in the correct Partner account.\n- All affected authorized users will not be able to access their Partner account. They will be added back to their correct Partner accounts soon after.\n- Any legitimate action done in the past by an affected authorized user in their Partner account will temporarily be attributed to an unauthorized user (i.e. app version release).\n- All users will continue to be restricted from creating as well as deleting existing contacts.\n- New Partner account creation will be temporarily disabled\n\nOur target action steps for the next update are:\n\n- Restoring correct mapping between Marketplace user_id and Atlassian account_id for affected users. This will restore correct attribution of actions previously done by their respective users.\n- Adding back all affected authorized users to their correct Partner account.\n\nThe remaining steps after that will be:\n\n- Opening up user modification functionality for all authorized users.\n- Opening up new Partner account creation.\n\n Please raise a ticket at <a href=\"https://ecosystem.atlassian.net/servicedesk/customer/portal/9/create/425\">AMKTHELP</a> if your admin contact is affected. We appreciate your continued patience and support. We will keep you informed as we make progress.",
-          "incident_id": "jg83t3n3cw5q",
-          "created_at": "2021-03-19T09:39:38.768Z",
-          "updated_at": "2021-03-19T10:04:16.653Z",
-          "display_at": "2021-03-19T09:39:38.000Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "1vvmngd73171",
-              "name": "Marketplace - Vendor management",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "tdyzglldtd7v",
-          "status": "identified",
-          "body": "Our preliminary investigation of the incident has identified the root cause to be corruption within MongoDB triggered at the point of a failover event on 12th Mar 2021 20:20 UTC.\nThis modified the mapping between Marketplace user_id & Atlassian account_id. While Marketplace user_ids constituting the Partner contact groups remained intact, some Marketplace user_ids got linked to the wrong Atlassian account_id. This resulted in:\nCertain Atlassian account_ids gaining access to incorrect Partner contact group\nCertain Atlassian account_ids losing access to their correct Partner account and/or being added to an incorrect Partner account\n\nWe investigated the scope of potential unauthorized access by users who were inadvertently added to the Partner account.\nOur next step was to restore functionality by:\nRemoving all impacted users (both authorized and unauthorized) from Partner contact groups, regardless of whether they were added or deleted by authorized users.\nUnblocking Partner account access for all remaining unimpacted authorized users.\n\nAt 18th Mar 2021 14:35 UTC, we attempted to restore functionality by rolling out the above changes. Within 20 min of the roll-out, one additional user_id swap was reported to us. Out of abundance of precaution, we reverted the roll-out at 18th Mar 2021 15:00 UTC.\n\nWe are investigating the reported swap and will resume restoring functionality once we are confident the underlying root cause of the swap is resolved.\nWe will provide an update within the next 12 hours. Our priority is to restore functionality as soon as we can.\nThank you for your patience and continued support.\nNote: We will share a detailed PIR after resolving the incident and completing the investigation.",
-          "incident_id": "jg83t3n3cw5q",
-          "created_at": "2021-03-18T23:06:19.089Z",
-          "updated_at": "2021-03-18T23:11:46.058Z",
-          "display_at": "2021-03-18T23:06:19.000Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "1vvmngd73171",
-              "name": "Marketplace - Vendor management",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "pdhn3j1vhry1",
-          "status": "identified",
-          "body": "As communicated in the previous update:\n\n- No billing details were accessed or changed by unauthorized users in any impacted vendor partner account\n- No reports and transaction details were accessed or changed by unauthorized users in any impacted vendor partner account\n- No new app versions were created by unauthorized users in any vendor partner account\n\nHowever, we are continuing to investigate and enumerate all unauthorized access to any Marketplace Partner account’s contact information and app details. In the process, we have already reached out directly to a subset of impacted Marketplace partners to communicate the impact to them and will be reaching out to others as we progress.\n\nAs no billing details were accessed or changed by unauthorized users in any impacted Partner partner account, our finance teams have started to process the payments for the month of February (due in March).\n\nUp to now we have prioritized understanding the full scope of potential unauthorised access to partner data and communicating this to partners above restoring access to Marketplace Partner admin functionality.\n\nWe are now evaluating options to safely restore access to Marketplace Partner functionality, and hope to be able to do this tomorrow ( 18 Mar 2021 ) for the majority of functionality.\n\nWe will keep you informed as we progress.\n\nThank you for your patience and continued support as we work through this sensitive matter.",
-          "incident_id": "jg83t3n3cw5q",
-          "created_at": "2021-03-17T14:20:31.983Z",
-          "updated_at": "2021-03-17T14:20:31.983Z",
-          "display_at": "2021-03-17T14:20:31.983Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "1vvmngd73171",
-              "name": "Marketplace - Vendor management",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "sppm76l10mt2",
-          "status": "identified",
-          "body": "On March 14th 2021, the Atlassian team confirmed that unauthorized users were given access to Marketplace Partner accounts for marketplace.atlassian.com.\n\nAt that time, we froze access to all users of partner accounts and halted payment processing in order to properly investigate the scope of the incident. We have since confirmed this activity was happening because of a bug, and not because of malicious activity.\n\nWe have also confirmed:\nNo billing details were accessed or changed by unauthorized users in any impacted vendor account\nNo reports and transaction details were accessed or changed by unauthorized users in any impacted vendor account\nNo new app versions were created by unauthorized users in any vendor partner account\n\nOur team is continuing to investigate potential unauthorized access to your vendor account’s contact information and app details.\n\nWe will reach out directly to each impacted partner when our investigation is complete. We will also provide further technical details on this incident in a public PIR.\n\nFollow the Atlassian Developer Statuspage for further updates.",
-          "incident_id": "jg83t3n3cw5q",
-          "created_at": "2021-03-17T01:10:25.932Z",
-          "updated_at": "2021-03-17T17:35:30.501Z",
-          "display_at": "2021-03-17T01:10:25.000Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "1vvmngd73171",
-              "name": "Marketplace - Vendor management",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "lmj389glxtz6",
-          "status": "investigating",
-          "body": "The investigation is still underway, Marketplace Partner's admin features will continue to be disabled to prevent any potential abuse while we resolve this.\n\nTraffic on the Marketplace itself continues to operate as normal and customers can continue to evaluate and purchase apps.\n\nWe will continue to provide updates on our investigations and fixes as they progress.",
-          "incident_id": "jg83t3n3cw5q",
-          "created_at": "2021-03-16T08:23:41.126Z",
-          "updated_at": "2021-03-16T08:23:41.126Z",
-          "display_at": "2021-03-16T08:23:41.126Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "1vvmngd73171",
-              "name": "Marketplace - Vendor management",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "k0fkj7f5pf91",
-          "status": "investigating",
-          "body": "We are still investigating the root cause, but based on our analysis we believe this to be an application-level bug that caused data corruption.\n\nWe are currently investigating how we can safely restore a backup and will keep you informed on further updates.\n\nTraffic on the Marketplace itself continues to operate as normal and customers can continue to evaluate and purchase apps, but the block on all admin functionality on Marketplace for Vendors is still in place",
-          "incident_id": "jg83t3n3cw5q",
-          "created_at": "2021-03-15T19:46:19.436Z",
-          "updated_at": "2021-03-15T19:46:19.436Z",
-          "display_at": "2021-03-15T19:46:19.436Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "1vvmngd73171",
-              "name": "Marketplace - Vendor management",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "tvmdzmwv7p9s",
-          "status": "investigating",
-          "body": "We are still investigating the issue and the block on all admin functionality on Marketplace for Vendors is still in place, this includes access to vendor reports as well admin-only actions. \n\nTraffic on the Marketplace itself is normal and customers can continue to evaluate and purchase apps.",
-          "incident_id": "jg83t3n3cw5q",
-          "created_at": "2021-03-15T14:43:02.909Z",
-          "updated_at": "2021-03-15T14:43:02.909Z",
-          "display_at": "2021-03-15T14:43:02.909Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "1vvmngd73171",
-              "name": "Marketplace - Vendor management",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "tlf71k14l742",
-          "status": "investigating",
-          "body": "We are continuing to investigate the root cause of this issue. In the meanwhile, we have disabled access to all vendor reports and vendor management actions for all vendor contacts to prevent any malicious activity on the site. Vendor payouts have been suspended until further notice.",
-          "incident_id": "jg83t3n3cw5q",
-          "created_at": "2021-03-15T12:15:50.335Z",
-          "updated_at": "2021-03-15T12:15:50.335Z",
-          "display_at": "2021-03-15T12:15:50.335Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "1vvmngd73171",
-              "name": "Marketplace - Vendor management",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "j8g2y0qn5ndt",
-          "status": "investigating",
-          "body": "We are continuing to investigate this issue.",
-          "incident_id": "jg83t3n3cw5q",
-          "created_at": "2021-03-15T10:12:40.946Z",
-          "updated_at": "2021-03-15T10:12:40.946Z",
-          "display_at": "2021-03-15T10:12:40.946Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "1vvmngd73171",
-              "name": "Marketplace - Vendor management",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "38qh43rfzzsy",
-          "status": "investigating",
-          "body": "Investigating the issue and blocking access to all vendor roles in manage vendor account and access to vendor reports.",
-          "incident_id": "jg83t3n3cw5q",
-          "created_at": "2021-03-15T10:12:23.069Z",
-          "updated_at": "2021-03-15T10:12:23.069Z",
-          "display_at": "2021-03-15T10:12:23.069Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "1vvmngd73171",
-              "name": "Marketplace - Vendor management",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "1vvmngd73171",
-          "name": "Vendor management",
-          "status": "partial_outage",
-          "created_at": "2018-02-01T17:53:33.728Z",
-          "updated_at": "2021-03-19T19:25:28.613Z",
-          "position": 13,
-          "description": "We have identified an issue with multiple vendor admins having lost access to their vendor accounts and are currently investigating this. As a precautionary measure, we are blocking access to all vendor roles including Admin, Manage vendor details, Manage vendor payment details, Manage add-on details, Manage add-on pricing, Manage promotions, View sales reports, View all other reports.",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "hk36hlvygg2q",
-          "name": "Reporting APIs and dashboards",
-          "status": "operational",
-          "created_at": "2013-12-03T00:45:26.014Z",
-          "updated_at": "2021-03-23T19:10:08.463Z",
-          "position": 11,
-          "description": "We have identified an issue with our internal services affecting reporting queries with large data. You may see intermittent failures and slow responses. The team is working on a fix.",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
