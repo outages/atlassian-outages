@@ -4,7 +4,7 @@
     "name": "Jira Core",
     "url": "https://jira-core.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-03-25T04:23:35.055Z"
+    "updated_at": "2021-03-25T17:53:30.372Z"
   },
   "components": [
     {
@@ -173,89 +173,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "tc1ytsvkkwc6",
-      "name": "No access to Jira Cloud - ERROR I6HQNH",
-      "status": "monitoring",
-      "created_at": "2021-03-23T13:03:14.261Z",
-      "updated_at": "2021-03-25T04:23:35.053Z",
-      "monitoring_at": "2021-03-25T04:23:35.041Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/0d5yz64pplh5",
-      "started_at": "2021-03-23T13:03:14.254Z",
-      "page_id": "s6f0gm5gcpmy",
-      "incident_updates": [
-        {
-          "id": "sybt9k3qh4vk",
-          "status": "monitoring",
-          "body": "We are continuing to investigate the errors related to Jira core. We have mitigated the problem, but continue to investigate the root cause.",
-          "incident_id": "tc1ytsvkkwc6",
-          "created_at": "2021-03-25T04:23:35.041Z",
-          "updated_at": "2021-03-25T04:23:35.041Z",
-          "display_at": "2021-03-25T04:23:35.041Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "6ggx8tkg5twv",
-          "status": "investigating",
-          "body": "We are continuing to investigate the errors related to Jira core. We will provide more details once we identify the root cause.",
-          "incident_id": "tc1ytsvkkwc6",
-          "created_at": "2021-03-24T12:38:19.686Z",
-          "updated_at": "2021-03-24T12:38:19.686Z",
-          "display_at": "2021-03-24T12:38:19.686Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "9jlm54b2sgrd",
-          "status": "investigating",
-          "body": "We do not have a root cause for the issue impacting Jira core. We are investigating and will post updates within the next hour.",
-          "incident_id": "tc1ytsvkkwc6",
-          "created_at": "2021-03-24T10:16:06.669Z",
-          "updated_at": "2021-03-24T10:16:06.669Z",
-          "display_at": "2021-03-24T10:16:06.669Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "hs9qwzlz6y4s",
-          "status": "investigating",
-          "body": "We are continuing to investigate this issue.",
-          "incident_id": "tc1ytsvkkwc6",
-          "created_at": "2021-03-23T13:04:12.790Z",
-          "updated_at": "2021-03-23T14:08:49.396Z",
-          "display_at": "2021-03-23T14:10:12.000Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "2py3r09x4bfy",
-          "status": "investigating",
-          "body": "We are investigating an issue with accessing Jira that is impacting some Jira cloud customers. When trying to access Jira Core, they are getting \"ERROR I6HQNH Something's gone wrong\" error. We will provide more details within the next hour.",
-          "incident_id": "tc1ytsvkkwc6",
-          "created_at": "2021-03-23T13:03:14.302Z",
-          "updated_at": "2021-03-23T13:03:14.302Z",
-          "display_at": "2021-03-23T13:03:14.302Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": []
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",

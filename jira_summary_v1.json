@@ -4,7 +4,7 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-03-25T14:23:50.986Z"
+    "updated_at": "2021-03-25T17:53:42.861Z"
   },
   "components": [
     {
@@ -225,87 +225,6 @@
           "only_show_if_degraded": false
         }
       ]
-    },
-    {
-      "id": "4z9zgp6sj68g",
-      "name": "No access to Jira Cloud - ERROR I6HQNH",
-      "status": "monitoring",
-      "created_at": "2021-03-23T13:03:30.657Z",
-      "updated_at": "2021-03-25T04:22:54.983Z",
-      "monitoring_at": "2021-03-25T04:22:54.968Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/25dkvxlrb8yh",
-      "started_at": "2021-03-23T13:03:30.650Z",
-      "page_id": "7yh3h3y0c0x1",
-      "incident_updates": [
-        {
-          "id": "9swp9q599562",
-          "status": "monitoring",
-          "body": "We are continuing to investigate the errors related to Jira Software. We have mitigated the problem, but continue to investigate the root cause.",
-          "incident_id": "4z9zgp6sj68g",
-          "created_at": "2021-03-25T04:22:54.968Z",
-          "updated_at": "2021-03-25T04:22:54.968Z",
-          "display_at": "2021-03-25T04:22:54.968Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "92ktgcdq9jv1",
-          "status": "investigating",
-          "body": "We are continuing to investigate the errors related to Jira Software. We will provide more details once we identify the root cause.",
-          "incident_id": "4z9zgp6sj68g",
-          "created_at": "2021-03-24T12:38:24.624Z",
-          "updated_at": "2021-03-24T12:38:24.624Z",
-          "display_at": "2021-03-24T12:38:24.624Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "6n3l2c5d78pr",
-          "status": "investigating",
-          "body": "We do not have a root cause for the issue impacting Jira Software. We are investigating and will post updates within the next hour.",
-          "incident_id": "4z9zgp6sj68g",
-          "created_at": "2021-03-24T10:16:12.347Z",
-          "updated_at": "2021-03-24T10:16:12.347Z",
-          "display_at": "2021-03-24T10:16:12.347Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "cp0085n954r4",
-          "status": "investigating",
-          "body": "We are continuing to investigate this issue.",
-          "incident_id": "4z9zgp6sj68g",
-          "created_at": "2021-03-23T13:04:16.770Z",
-          "updated_at": "2021-03-23T14:09:14.634Z",
-          "display_at": "2021-03-23T14:10:16.000Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "jvj9956cxdw2",
-          "status": "investigating",
-          "body": "We are investigating an issue with accessing Jira that is impacting some Jira cloud customers. When trying to access Jira Software, they are getting \"ERROR I6HQNH Something's gone wrong\" error. We will provide more details within the next hour.",
-          "incident_id": "4z9zgp6sj68g",
-          "created_at": "2021-03-23T13:03:30.695Z",
-          "updated_at": "2021-03-23T13:03:30.695Z",
-          "display_at": "2021-03-23T13:03:30.695Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": []
     }
   ],
   "scheduled_maintenances": [],
