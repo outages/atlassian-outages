@@ -4,7 +4,7 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-03-25T23:05:20.939Z"
+    "updated_at": "2021-03-26T04:22:24.967Z"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "b01bgtvb4q2j",
       "name": "Create and edit",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-01-07T07:49:50.950Z",
-      "updated_at": "2021-03-25T14:21:55.883Z",
+      "updated_at": "2021-03-26T04:22:24.912Z",
       "position": 2,
       "description": "Problems creating or editing issues, projects, boards, reports, dashboards and the ability to comment, assign, and attach media.",
       "showcase": false,
@@ -173,83 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "wfff0fmcfv1v",
-      "name": "Epic Name system field not showing up in new issue view",
-      "status": "identified",
-      "created_at": "2021-03-25T14:21:55.832Z",
-      "updated_at": "2021-03-25T20:26:01.212Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/6bf1xzc3kz0l",
-      "started_at": "2021-03-25T14:21:55.000Z",
-      "page_id": "7yh3h3y0c0x1",
-      "incident_updates": [
-        {
-          "id": "y2l578d6nsbn",
-          "status": "identified",
-          "body": "We are continuing to work on resolving the visibility of the Epic Name field in Jira Software. We've identified the root cause of the issue, and are actively working on rolling out a resolution as soon as possible. We will make sure to keep this post updated with further developments, when they become available.",
-          "incident_id": "wfff0fmcfv1v",
-          "created_at": "2021-03-25T20:26:01.209Z",
-          "updated_at": "2021-03-25T20:26:01.209Z",
-          "display_at": "2021-03-25T20:26:01.209Z",
-          "affected_components": [
-            {
-              "code": "b01bgtvb4q2j",
-              "name": "Create and edit",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "bdjgz7gm7v6x",
-          "status": "investigating",
-          "body": "We are investigating an issue related to the Epic Name field in Jira Software. When creating a new issue, the Epic name field shows up, but after creation, in the new issue view, it does not show up despite that Epic name is added to the screen.",
-          "incident_id": "wfff0fmcfv1v",
-          "created_at": "2021-03-25T14:21:55.938Z",
-          "updated_at": "2021-03-25T14:23:47.298Z",
-          "display_at": "2021-03-25T14:21:55.000Z",
-          "affected_components": [
-            {
-              "code": "b01bgtvb4q2j",
-              "name": "Create and edit",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "b01bgtvb4q2j",
-          "name": "Create and edit",
-          "status": "degraded_performance",
-          "created_at": "2019-01-07T07:49:50.950Z",
-          "updated_at": "2021-03-25T14:21:55.883Z",
-          "position": 2,
-          "description": "Problems creating or editing issues, projects, boards, reports, dashboards and the ability to comment, assign, and attach media.",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "7yh3h3y0c0x1",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
