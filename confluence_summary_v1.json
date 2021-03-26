@@ -4,7 +4,7 @@
     "name": "Confluence",
     "url": "https://confluence.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-03-25T23:04:48.512Z"
+    "updated_at": "2021-03-26T17:50:19.030Z"
   },
   "components": [
     {
@@ -12,7 +12,7 @@
       "name": "View Content",
       "status": "operational",
       "created_at": "2018-11-12T04:04:58.123Z",
-      "updated_at": "2021-03-18T06:22:29.678Z",
+      "updated_at": "2021-03-26T17:44:39.257Z",
       "position": 1,
       "description": "Viewing pages or dashboards",
       "showcase": false,
@@ -42,7 +42,7 @@
       "name": "Create and Edit",
       "status": "operational",
       "created_at": "2018-11-12T04:04:58.145Z",
-      "updated_at": "2021-03-18T06:22:29.715Z",
+      "updated_at": "2021-03-26T17:44:47.444Z",
       "position": 2,
       "description": null,
       "showcase": false,
@@ -72,7 +72,7 @@
       "name": "Comments",
       "status": "operational",
       "created_at": "2018-11-30T21:50:37.850Z",
-      "updated_at": "2021-01-31T22:00:29.509Z",
+      "updated_at": "2021-03-26T17:44:55.171Z",
       "position": 3,
       "description": null,
       "showcase": false,
