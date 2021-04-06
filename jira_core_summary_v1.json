@@ -4,15 +4,15 @@
     "name": "Jira Core",
     "url": "https://jira-core.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-04-02T14:03:24.717Z"
+    "updated_at": "2021-04-06T03:30:53.792Z"
   },
   "components": [
     {
       "id": "l4fp2xkkygv4",
       "name": "Viewing content",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-11-16T18:17:29.270Z",
-      "updated_at": "2021-04-02T14:03:24.667Z",
+      "updated_at": "2021-04-06T03:30:34.121Z",
       "position": 1,
       "description": "Problems viewing issues, dashboards, boards, reports, etc.",
       "showcase": false,
@@ -173,10 +173,83 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "zqxvjcl04862",
+      "name": "Option to sort comments is temporarily disabled in the new issue view.",
+      "status": "identified",
+      "created_at": "2021-04-06T03:30:34.068Z",
+      "updated_at": "2021-04-06T03:30:53.783Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/gc2h0tl5r3jg",
+      "started_at": "2021-04-06T03:30:34.062Z",
+      "page_id": "s6f0gm5gcpmy",
+      "incident_updates": [
+        {
+          "id": "94pdckr91lcc",
+          "status": "identified",
+          "body": "The issue has been identified and a fix is being implemented.",
+          "incident_id": "zqxvjcl04862",
+          "created_at": "2021-04-06T03:30:53.780Z",
+          "updated_at": "2021-04-06T03:30:53.780Z",
+          "display_at": "2021-04-06T03:30:53.780Z",
+          "affected_components": [
+            {
+              "code": "l4fp2xkkygv4",
+              "name": "Viewing content",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "n3kwlywzdjt3",
+          "status": "investigating",
+          "body": "Due to an ongoing issue, we have disabled the option to sort the comments in the new issue view. We would have an update in one day.",
+          "incident_id": "zqxvjcl04862",
+          "created_at": "2021-04-06T03:30:34.172Z",
+          "updated_at": "2021-04-06T03:30:34.172Z",
+          "display_at": "2021-04-06T03:30:34.172Z",
+          "affected_components": [
+            {
+              "code": "l4fp2xkkygv4",
+              "name": "Viewing content",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "l4fp2xkkygv4",
+          "name": "Viewing content",
+          "status": "degraded_performance",
+          "created_at": "2018-11-16T18:17:29.270Z",
+          "updated_at": "2021-04-06T03:30:34.121Z",
+          "position": 1,
+          "description": "Problems viewing issues, dashboards, boards, reports, etc.",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "s6f0gm5gcpmy",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
