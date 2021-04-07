@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-04-07T02:25:55.790Z"
+    "updated_at": "2021-04-07T07:00:37.293Z"
   },
   "components": [
     {
@@ -221,100 +221,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "100kfvzrxmmb",
-      "name": "Pipelines UI not showing real-time updates",
-      "status": "monitoring",
-      "created_at": "2021-04-07T01:16:37.000Z",
-      "updated_at": "2021-04-07T02:25:55.786Z",
-      "monitoring_at": "2021-04-07T02:25:55.240Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/8dx8mr371m05",
-      "started_at": "2021-04-07T01:16:37.000Z",
-      "page_id": "bqlf8qjztdtr",
-      "incident_updates": [
-        {
-          "id": "b79qpg42hcmc",
-          "status": "monitoring",
-          "body": "We've successfully deployed a fix for this issue and are continuing to monitor the situation.\n\nFor customers using <a href=\"https://www.atlassian.com/software/jira/service-management/whats-new/modern-change-management \">deployment gating</a> who were impacted, re-running any affected Pipelines builds should trigger the necessary automation to unblock deployments.",
-          "incident_id": "100kfvzrxmmb",
-          "created_at": "2021-04-07T02:25:55.240Z",
-          "updated_at": "2021-04-07T02:25:55.783Z",
-          "display_at": "2021-04-07T02:25:55.240Z",
-          "affected_components": [
-            {
-              "code": "rzh2n85q7vtt",
-              "name": "Pipelines",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1379621429822419000
-        },
-        {
-          "id": "pkdt4g71klr6",
-          "status": "identified",
-          "body": "The issue has been identified and a fix is being implemented.",
-          "incident_id": "100kfvzrxmmb",
-          "created_at": "2021-04-07T01:25:35.020Z",
-          "updated_at": "2021-04-07T01:25:35.359Z",
-          "display_at": "2021-04-07T01:25:35.020Z",
-          "affected_components": [
-            {
-              "code": "rzh2n85q7vtt",
-              "name": "Pipelines",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1379606244722286600
-        },
-        {
-          "id": "fmcn48x64gd3",
-          "status": "investigating",
-          "body": "We are currently investigating an issue preventing the Pipelines UI from displaying updates in real time. A workaround for now is to refresh the page.\n\nIn addition, our <a href=\"https://www.atlassian.com/software/jira/service-management/whats-new/modern-change-management\">deployment gating</a> feature that allows teams to control deployments via Jira Service Management is broken as a result of this. We will follow up with mitigation steps for customers impacted by this incident.",
-          "incident_id": "100kfvzrxmmb",
-          "created_at": "2021-04-07T01:16:37.218Z",
-          "updated_at": "2021-04-07T01:31:29.479Z",
-          "display_at": "2021-04-07T01:16:37.000Z",
-          "affected_components": [
-            {
-              "code": "rzh2n85q7vtt",
-              "name": "Pipelines",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1379603993370882000
-        }
-      ],
-      "components": [
-        {
-          "id": "rzh2n85q7vtt",
-          "name": "Pipelines",
-          "status": "operational",
-          "created_at": "2016-08-23T20:04:54.469Z",
-          "updated_at": "2021-04-07T02:25:55.195Z",
-          "position": 9,
-          "description": "Continuous integration and delivery for Bitbucket repos",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "bqlf8qjztdtr",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [
     {
       "id": "5q0zhsqk5dxm",
