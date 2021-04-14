@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-04-14T15:27:05.096Z"
+    "updated_at": "2021-04-14T22:07:49.833Z"
   },
   "components": [
     {
@@ -228,22 +228,22 @@
       "name": "Database infrastructure maintenance. Two hours of downtime scheduled",
       "status": "scheduled",
       "created_at": "2021-03-05T18:00:23.604Z",
-      "updated_at": "2021-03-22T18:17:23.548Z",
+      "updated_at": "2021-04-14T22:07:49.830Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
       "shortlink": "https://stspg.io/g0pdt3frhhv9",
-      "started_at": "2021-03-05T18:00:23.585Z",
+      "started_at": "2021-03-05T18:00:23.668Z",
       "page_id": "bqlf8qjztdtr",
       "incident_updates": [
         {
           "id": "z794sxhzcwm5",
           "status": "scheduled",
-          "body": "The Bitbucket team will be performing maintenance in our database infrastructure over the April 24th weekend.  This maintenance will require up to 2 hours of downtime on all Bitbucket Cloud Services, including the Website, Git operations via SSH and HTTPS, API requests, and Pipelines. All services are expected to be back to normal after this maintenance is complete.\n\nWe will update this maintenance announcement on April 6th, 2021 with the exact time when this maintenance will begin.",
+          "body": "The Bitbucket team will be performing maintenance in our database infrastructure over the May 8th weekend.  This maintenance will require up to 2 hours of downtime on all Bitbucket Cloud Services, including the Website, Git operations via SSH and HTTPS, API requests, and Pipelines. All services are expected to be back to normal after this maintenance is complete.\n\nWe will update this maintenance announcement on April 27th, 2021 with the exact time when this maintenance will begin.",
           "incident_id": "5q0zhsqk5dxm",
           "created_at": "2021-03-05T18:00:23.668Z",
-          "updated_at": "2021-03-22T18:14:57.025Z",
-          "display_at": "2021-03-05T18:00:23.668Z",
+          "updated_at": "2021-04-14T22:07:33.329Z",
+          "display_at": "2021-04-14T18:00:23.668Z",
           "affected_components": [
             {
               "code": "c1qmcrcbc5zy",
@@ -505,8 +505,8 @@
           "only_show_if_degraded": false
         }
       ],
-      "scheduled_for": "2021-04-24T00:00:00.000Z",
-      "scheduled_until": "2021-04-26T00:00:00.000Z"
+      "scheduled_for": "2021-05-08T00:00:00.000Z",
+      "scheduled_until": "2021-05-10T00:00:00.000Z"
     }
   ],
   "status": {
