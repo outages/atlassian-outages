@@ -4,15 +4,15 @@
     "name": "Confluence",
     "url": "https://confluence.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-04-16T23:00:36.129Z"
+    "updated_at": "2021-04-17T00:00:49.624Z"
   },
   "components": [
     {
       "id": "jwv14kjhl1yt",
       "name": "iOS App",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-11-30T21:52:04.382Z",
-      "updated_at": "2021-04-16T23:00:35.039Z",
+      "updated_at": "2021-04-17T00:00:48.455Z",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -25,9 +25,9 @@
     {
       "id": "bl9mxbb582vk",
       "name": "View Content",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-11-12T04:04:58.123Z",
-      "updated_at": "2021-04-16T23:00:35.076Z",
+      "updated_at": "2021-04-17T00:00:48.689Z",
       "position": 1,
       "description": "Viewing pages or dashboards",
       "showcase": false,
@@ -40,9 +40,9 @@
     {
       "id": "gxy3929vqtmy",
       "name": "Android App",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-11-30T21:52:16.027Z",
-      "updated_at": "2021-04-16T23:00:35.241Z",
+      "updated_at": "2021-04-17T00:00:48.835Z",
       "position": 2,
       "description": null,
       "showcase": false,
@@ -55,9 +55,9 @@
     {
       "id": "y4z6hxpf7d7t",
       "name": "Create and Edit",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-11-12T04:04:58.145Z",
-      "updated_at": "2021-04-16T23:00:35.644Z",
+      "updated_at": "2021-04-17T00:00:48.859Z",
       "position": 2,
       "description": null,
       "showcase": false,
@@ -70,9 +70,9 @@
     {
       "id": "snpbn00x0g0k",
       "name": "Comments",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-11-30T21:50:37.850Z",
-      "updated_at": "2021-04-16T23:00:35.706Z",
+      "updated_at": "2021-04-17T00:00:48.997Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -100,9 +100,9 @@
     {
       "id": "5fjwzmlch883",
       "name": "Search",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-11-30T21:50:44.178Z",
-      "updated_at": "2021-04-16T23:00:35.884Z",
+      "updated_at": "2021-04-17T00:00:49.172Z",
       "position": 5,
       "description": null,
       "showcase": false,
@@ -160,7 +160,7 @@
     {
       "id": "hfrg5dg1l144",
       "name": "Mobile",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-11-30T21:52:04.371Z",
       "updated_at": "2019-05-02T04:25:38.103Z",
       "position": 9,
@@ -208,232 +208,9 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "9zdk63j9sbc5",
-      "name": "Confluence Cloud Infrastructure Maintenance",
-      "status": "in_progress",
-      "created_at": "2021-04-15T20:43:11.730Z",
-      "updated_at": "2021-04-16T23:00:36.030Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/vp6xpgjcn7kl",
-      "started_at": "2021-04-15T20:43:11.719Z",
-      "page_id": "4g2my7tbhjsq",
-      "incident_updates": [
-        {
-          "id": "8wz57yf102ch",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "9zdk63j9sbc5",
-          "created_at": "2021-04-16T23:00:36.027Z",
-          "updated_at": "2021-04-16T23:00:36.027Z",
-          "display_at": "2021-04-16T23:00:36.027Z",
-          "affected_components": [
-            {
-              "code": "bl9mxbb582vk",
-              "name": "View Content",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "y4z6hxpf7d7t",
-              "name": "Create and Edit",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "snpbn00x0g0k",
-              "name": "Comments",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "5fjwzmlch883",
-              "name": "Search",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "jwv14kjhl1yt",
-              "name": "Mobile - iOS App",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "gxy3929vqtmy",
-              "name": "Mobile - Android App",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "4dt071mt33ry",
-          "status": "scheduled",
-          "body": "Maintenance will begin as scheduled in 60 minutes.",
-          "incident_id": "9zdk63j9sbc5",
-          "created_at": "2021-04-16T22:00:31.204Z",
-          "updated_at": "2021-04-16T22:00:31.204Z",
-          "display_at": "2021-04-16T22:00:31.204Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "9v10p322wth7",
-          "status": "scheduled",
-          "body": "Between April 16 23:00 UTC and April 17 00:00 UTC, we will be performing some critical infrastructure maintenance. During this time, some Confluence Cloud customers may experience a very brief outage lasting no longer than 2 minutes.",
-          "incident_id": "9zdk63j9sbc5",
-          "created_at": "2021-04-15T20:43:11.781Z",
-          "updated_at": "2021-04-15T20:43:11.781Z",
-          "display_at": "2021-04-15T20:43:11.781Z",
-          "affected_components": [
-            {
-              "code": "bl9mxbb582vk",
-              "name": "View Content",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "y4z6hxpf7d7t",
-              "name": "Create and Edit",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "snpbn00x0g0k",
-              "name": "Comments",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "5fjwzmlch883",
-              "name": "Search",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "jwv14kjhl1yt",
-              "name": "Mobile - iOS App",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "gxy3929vqtmy",
-              "name": "Mobile - Android App",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "5fjwzmlch883",
-          "name": "Search",
-          "status": "under_maintenance",
-          "created_at": "2018-11-30T21:50:44.178Z",
-          "updated_at": "2021-04-16T23:00:35.884Z",
-          "position": 5,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "4g2my7tbhjsq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "snpbn00x0g0k",
-          "name": "Comments",
-          "status": "under_maintenance",
-          "created_at": "2018-11-30T21:50:37.850Z",
-          "updated_at": "2021-04-16T23:00:35.706Z",
-          "position": 3,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "4g2my7tbhjsq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "y4z6hxpf7d7t",
-          "name": "Create and Edit",
-          "status": "under_maintenance",
-          "created_at": "2018-11-12T04:04:58.145Z",
-          "updated_at": "2021-04-16T23:00:35.644Z",
-          "position": 2,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "4g2my7tbhjsq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "gxy3929vqtmy",
-          "name": "Android App",
-          "status": "under_maintenance",
-          "created_at": "2018-11-30T21:52:16.027Z",
-          "updated_at": "2021-04-16T23:00:35.241Z",
-          "position": 2,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "hfrg5dg1l144",
-          "page_id": "4g2my7tbhjsq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "bl9mxbb582vk",
-          "name": "View Content",
-          "status": "under_maintenance",
-          "created_at": "2018-11-12T04:04:58.123Z",
-          "updated_at": "2021-04-16T23:00:35.076Z",
-          "position": 1,
-          "description": "Viewing pages or dashboards",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "4g2my7tbhjsq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "jwv14kjhl1yt",
-          "name": "iOS App",
-          "status": "under_maintenance",
-          "created_at": "2018-11-30T21:52:04.382Z",
-          "updated_at": "2021-04-16T23:00:35.039Z",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "hfrg5dg1l144",
-          "page_id": "4g2my7tbhjsq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2021-04-16T23:00:00.000Z",
-      "scheduled_until": "2021-04-17T00:00:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
