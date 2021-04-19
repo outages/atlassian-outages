@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-04-19T04:32:10.910Z"
+    "updated_at": "2021-04-19T05:37:00.368Z"
   },
   "components": [
     {
@@ -191,10 +191,10 @@
   "incidents": [
     {
       "id": "dp6rbvs1s9ny",
-      "name": "Atlassian account session invalidations",
+      "name": "Users may get logged out of their Atlassian accounts",
       "status": "investigating",
       "created_at": "2021-04-19T04:32:10.863Z",
-      "updated_at": "2021-04-19T04:32:10.906Z",
+      "updated_at": "2021-04-19T05:37:00.365Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "none",

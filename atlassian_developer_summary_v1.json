@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-04-19T04:32:10.870Z"
+    "updated_at": "2021-04-19T05:35:47.348Z"
   },
   "components": [
     {
@@ -638,10 +638,10 @@
   "incidents": [
     {
       "id": "xcnsqmgd531x",
-      "name": "Atlassian account session invalidations",
+      "name": "Users may get logged out of their Atlassian accounts",
       "status": "investigating",
       "created_at": "2021-04-19T04:32:10.834Z",
-      "updated_at": "2021-04-19T04:32:10.868Z",
+      "updated_at": "2021-04-19T05:35:47.346Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "none",
