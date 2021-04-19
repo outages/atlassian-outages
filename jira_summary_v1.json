@@ -4,7 +4,7 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-04-19T05:23:46.133Z"
+    "updated_at": "2021-04-19T05:47:37.768Z"
   },
   "components": [
     {
@@ -176,10 +176,10 @@
   "incidents": [
     {
       "id": "qw9s6dkd9t03",
-      "name": "Atlassian account session invalidations",
+      "name": "Users may get logged out of their Atlassian accounts",
       "status": "investigating",
       "created_at": "2021-04-19T04:32:10.841Z",
-      "updated_at": "2021-04-19T04:32:10.877Z",
+      "updated_at": "2021-04-19T05:47:37.766Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "none",

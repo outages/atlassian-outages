@@ -4,7 +4,7 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2021-04-19T01:23:36.187-04:00"
+    "updated_at": "2021-04-19T01:40:23.612-04:00"
   },
   "components": [
     {
@@ -86,10 +86,10 @@
   "incidents": [
     {
       "id": "0n10hm09cmcl",
-      "name": "Atlassian account session invalidations",
+      "name": "Users may get logged out of their Atlassian accounts",
       "status": "investigating",
       "created_at": "2021-04-19T00:32:10.856-04:00",
-      "updated_at": "2021-04-19T00:32:10.891-04:00",
+      "updated_at": "2021-04-19T01:40:23.609-04:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "none",
