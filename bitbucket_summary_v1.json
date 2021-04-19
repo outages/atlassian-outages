@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-04-19T05:35:23.503Z"
+    "updated_at": "2021-04-19T13:59:10.657Z"
   },
   "components": [
     {
@@ -55,9 +55,9 @@
     {
       "id": "qmh4tj8h5kbn",
       "name": "SSH",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2013-10-10T17:45:00.679Z",
-      "updated_at": "2021-04-15T18:25:07.425Z",
+      "updated_at": "2021-04-19T13:59:10.603Z",
       "position": 3,
       "description": "Access to Git and Mercurial over SSH",
       "showcase": false,
@@ -85,9 +85,9 @@
     {
       "id": "c1qmcrcbc5zy",
       "name": "Git via HTTPS",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2013-09-26T03:33:27.652Z",
-      "updated_at": "2021-04-16T12:34:01.150Z",
+      "updated_at": "2021-04-19T13:59:10.618Z",
       "position": 5,
       "description": "Access to Git repositories via HTTPS",
       "showcase": false,
@@ -222,6 +222,79 @@
     }
   ],
   "incidents": [
+    {
+      "id": "jglspl4bkbsg",
+      "name": "Performance degradation with Git performance",
+      "status": "investigating",
+      "created_at": "2021-04-19T13:59:10.565Z",
+      "updated_at": "2021-04-19T13:59:10.655Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/g7hzt7wb70c6",
+      "started_at": "2021-04-19T13:59:10.558Z",
+      "page_id": "bqlf8qjztdtr",
+      "incident_updates": [
+        {
+          "id": "11jlqnznrgp7",
+          "status": "investigating",
+          "body": "We are investigating cases of degraded performance for the Git operations Atlassian Bitbucket Cloud customers. We will provide more details within the next hour.",
+          "incident_id": "jglspl4bkbsg",
+          "created_at": "2021-04-19T13:59:10.653Z",
+          "updated_at": "2021-04-19T13:59:10.653Z",
+          "display_at": "2021-04-19T13:59:10.653Z",
+          "affected_components": [
+            {
+              "code": "c1qmcrcbc5zy",
+              "name": "Git via HTTPS",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "qmh4tj8h5kbn",
+              "name": "SSH",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "c1qmcrcbc5zy",
+          "name": "Git via HTTPS",
+          "status": "degraded_performance",
+          "created_at": "2013-09-26T03:33:27.652Z",
+          "updated_at": "2021-04-19T13:59:10.618Z",
+          "position": 5,
+          "description": "Access to Git repositories via HTTPS",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "qmh4tj8h5kbn",
+          "name": "SSH",
+          "status": "degraded_performance",
+          "created_at": "2013-10-10T17:45:00.679Z",
+          "updated_at": "2021-04-19T13:59:10.603Z",
+          "position": 3,
+          "description": "Access to Git and Mercurial over SSH",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    },
     {
       "id": "l6by7fsxgsfx",
       "name": "Users may get logged out of their Atlassian accounts",
@@ -462,9 +535,9 @@
         {
           "id": "c1qmcrcbc5zy",
           "name": "Git via HTTPS",
-          "status": "operational",
+          "status": "degraded_performance",
           "created_at": "2013-09-26T03:33:27.652Z",
-          "updated_at": "2021-04-16T12:34:01.150Z",
+          "updated_at": "2021-04-19T13:59:10.618Z",
           "position": 5,
           "description": "Access to Git repositories via HTTPS",
           "showcase": false,
@@ -492,9 +565,9 @@
         {
           "id": "qmh4tj8h5kbn",
           "name": "SSH",
-          "status": "operational",
+          "status": "degraded_performance",
           "created_at": "2013-10-10T17:45:00.679Z",
-          "updated_at": "2021-04-15T18:25:07.425Z",
+          "updated_at": "2021-04-19T13:59:10.603Z",
           "position": 3,
           "description": "Access to Git and Mercurial over SSH",
           "showcase": false,
@@ -540,7 +613,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
