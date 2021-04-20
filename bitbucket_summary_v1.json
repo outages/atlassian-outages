@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-04-20T12:15:52.567Z"
+    "updated_at": "2021-04-20T14:55:07.287Z"
   },
   "components": [
     {
@@ -227,7 +227,7 @@
       "name": "Performance degradation with Git and website",
       "status": "investigating",
       "created_at": "2021-04-20T09:17:10.046Z",
-      "updated_at": "2021-04-20T12:15:52.461Z",
+      "updated_at": "2021-04-20T14:55:07.112Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -235,6 +235,44 @@
       "started_at": "2021-04-20T09:17:10.035Z",
       "page_id": "bqlf8qjztdtr",
       "incident_updates": [
+        {
+          "id": "8bnvrjc18tbf",
+          "status": "investigating",
+          "body": "Our team is continuing to investigate performance issues. We have already added capacity to our website services but have not observed the performance improvements we had hoped for.\n\nThus far we have struggled to identify a root cause. Each component of our infrastructure appears to be operating normally, but throughput and overall response times are significantly elevated. We are also trying to understand why website and Git services are affected while API services continue to meet standard performance targets.\n\nAt the moment we are in the process of rolling out some configuration changes to offload pressure from our file storage to a caching layer while continuing to explore other mitigation options, such as identifying hot spots and disabling non-critical functionality temporarily to unblock customers who are currently prevented from using Bitbucket's core features.\n\nWe can observe response times trending downward and expect this issue to be resolved within the next hour, though we are doing our best to reach resolution sooner than that.",
+          "incident_id": "k6mg9d4r4ftr",
+          "created_at": "2021-04-20T14:55:05.899Z",
+          "updated_at": "2021-04-20T14:55:07.107Z",
+          "display_at": "2021-04-20T14:55:05.899Z",
+          "affected_components": [
+            {
+              "code": "c1qmcrcbc5zy",
+              "name": "Git via HTTPS",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "g0lfj4sv2fhf",
+              "name": "Website",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "qmh4tj8h5kbn",
+              "name": "SSH",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "rzh2n85q7vtt",
+              "name": "Pipelines",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1384521011043831800
+        },
         {
           "id": "bls39hjhrqm3",
           "status": "investigating",
