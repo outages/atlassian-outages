@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-04-20T09:23:29.932Z"
+    "updated_at": "2021-04-20T12:15:52.567Z"
   },
   "components": [
     {
@@ -227,7 +227,7 @@
       "name": "Performance degradation with Git and website",
       "status": "investigating",
       "created_at": "2021-04-20T09:17:10.046Z",
-      "updated_at": "2021-04-20T09:17:10.234Z",
+      "updated_at": "2021-04-20T12:15:52.461Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -235,6 +235,44 @@
       "started_at": "2021-04-20T09:17:10.035Z",
       "page_id": "bqlf8qjztdtr",
       "incident_updates": [
+        {
+          "id": "bls39hjhrqm3",
+          "status": "investigating",
+          "body": "We are continuing to investigate reported performance issues and will provide a status update within the next hour.",
+          "incident_id": "k6mg9d4r4ftr",
+          "created_at": "2021-04-20T12:15:50.848Z",
+          "updated_at": "2021-04-20T12:15:52.457Z",
+          "display_at": "2021-04-20T12:15:50.848Z",
+          "affected_components": [
+            {
+              "code": "c1qmcrcbc5zy",
+              "name": "Git via HTTPS",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "g0lfj4sv2fhf",
+              "name": "Website",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "qmh4tj8h5kbn",
+              "name": "SSH",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "rzh2n85q7vtt",
+              "name": "Pipelines",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1384480936176144400
+        },
         {
           "id": "04x5368vsgmd",
           "status": "investigating",
