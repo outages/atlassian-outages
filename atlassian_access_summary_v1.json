@@ -4,15 +4,15 @@
     "name": "Atlassian Access",
     "url": "https://access.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-04-19T05:35:03.402Z"
+    "updated_at": "2021-04-21T06:40:01.949Z"
   },
   "components": [
     {
       "id": "hqd5zdvzh5g1",
       "name": "Domain Claims",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-05-03T02:39:58.947Z",
-      "updated_at": "2021-03-04T22:29:59.393Z",
+      "updated_at": "2021-04-21T06:40:01.904Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -55,9 +55,9 @@
     {
       "id": "b8gbm56ptvw5",
       "name": "Account Management",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-05-03T02:41:07.946Z",
-      "updated_at": "2021-03-04T22:29:59.438Z",
+      "updated_at": "2021-04-21T06:40:01.916Z",
       "position": 6,
       "description": null,
       "showcase": false,
@@ -131,7 +131,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
