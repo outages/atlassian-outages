@@ -4,7 +4,7 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-04-27T14:23:50.875Z"
+    "updated_at": "2021-04-27T14:48:01.072Z"
   },
   "components": [
     {
@@ -767,7 +767,7 @@
       "name": "Bamboo settings page is not displayed in web application",
       "status": "identified",
       "created_at": "2021-04-27T14:15:58.784Z",
-      "updated_at": "2021-04-27T14:23:29.562Z",
+      "updated_at": "2021-04-27T14:48:01.063Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -778,11 +778,11 @@
         {
           "id": "pd0d03y1db0k",
           "status": "identified",
-          "body": "Our engineering and operations teams have identified the issue with the Bamboo setting page and are working on a fix. We will be deploying changes and continue to monitor all systems.",
+          "body": "Our engineering and operations teams find the root cause of the problem on the Bamboo setting page. We will be deploying changes and continue to monitor all systems.",
           "incident_id": "7cytk9mj87yf",
           "created_at": "2021-04-27T14:23:29.559Z",
-          "updated_at": "2021-04-27T14:23:29.559Z",
-          "display_at": "2021-04-27T14:23:29.559Z",
+          "updated_at": "2021-04-27T14:48:01.060Z",
+          "display_at": "2021-04-27T14:23:29.000Z",
           "affected_components": [
             {
               "code": "j8bt86sx70hm",
