@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-05-05T14:45:48.241Z"
+    "updated_at": "2021-05-05T15:11:41.557Z"
   },
   "components": [
     {
@@ -192,16 +192,92 @@
     {
       "id": "f7d3jj0tk9kl",
       "name": "Degraded UI and Git performance",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2021-05-05T14:45:33.842Z",
-      "updated_at": "2021-05-05T14:45:48.238Z",
-      "monitoring_at": null,
+      "updated_at": "2021-05-05T15:11:41.551Z",
+      "monitoring_at": "2021-05-05T15:10:42.986Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/cqs3r7mbzxg3",
       "started_at": "2021-05-05T14:45:33.835Z",
       "page_id": "bqlf8qjztdtr",
       "incident_updates": [
+        {
+          "id": "b47sbjqx5vtd",
+          "status": "monitoring",
+          "body": "A fix has been implemented and we are monitoring the results.",
+          "incident_id": "f7d3jj0tk9kl",
+          "created_at": "2021-05-05T15:11:41.069Z",
+          "updated_at": "2021-05-05T15:11:41.548Z",
+          "display_at": "2021-05-05T15:11:41.069Z",
+          "affected_components": [
+            {
+              "code": "c1qmcrcbc5zy",
+              "name": "Git via HTTPS",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "g0lfj4sv2fhf",
+              "name": "Website",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "qmh4tj8h5kbn",
+              "name": "SSH",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "k0x2yw1435v7",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1389961000607117300
+        },
+        {
+          "id": "247t8n299zb6",
+          "status": "monitoring",
+          "body": "A fix has been implemented and we are monitoring the results.",
+          "incident_id": "f7d3jj0tk9kl",
+          "created_at": "2021-05-05T15:10:42.986Z",
+          "updated_at": "2021-05-05T15:10:43.359Z",
+          "display_at": "2021-05-05T15:10:42.986Z",
+          "affected_components": [
+            {
+              "code": "c1qmcrcbc5zy",
+              "name": "Git via HTTPS",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "g0lfj4sv2fhf",
+              "name": "Website",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "qmh4tj8h5kbn",
+              "name": "SSH",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "k0x2yw1435v7",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1389960756548886500
+        },
         {
           "id": "8n9xrn2160sp",
           "status": "investigating",
