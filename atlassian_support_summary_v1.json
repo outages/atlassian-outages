@@ -4,15 +4,15 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-05-05T20:23:45.810Z"
+    "updated_at": "2021-05-05T20:51:12.815Z"
   },
   "components": [
     {
       "id": "kvtmh1phs3r9",
       "name": "Support Portal",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-11-16T18:04:38.980Z",
-      "updated_at": "2021-05-05T19:49:01.407Z",
+      "updated_at": "2021-05-05T20:51:12.812Z",
       "position": 1,
       "description": null,
       "showcase": true,
@@ -228,9 +228,9 @@
         {
           "id": "kvtmh1phs3r9",
           "name": "Support Portal",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2018-11-16T18:04:38.980Z",
-          "updated_at": "2021-05-05T19:49:01.407Z",
+          "updated_at": "2021-05-05T20:51:12.812Z",
           "position": 1,
           "description": null,
           "showcase": true,
@@ -246,7 +246,7 @@
     }
   ],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
