@@ -4,7 +4,7 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-05-07T11:24:12.994Z"
+    "updated_at": "2021-05-07T12:43:20.760Z"
   },
   "components": [
     {
@@ -767,22 +767,22 @@
       "name": "Notification Analytics report is missing data between April 9th and May 5th, 2021",
       "status": "identified",
       "created_at": "2021-05-07T11:10:15.341Z",
-      "updated_at": "2021-05-07T11:10:15.409Z",
+      "updated_at": "2021-05-07T12:43:20.758Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "none",
       "shortlink": "https://stspg.io/py9rxky66gf8",
-      "started_at": "2021-05-07T11:10:15.329Z",
+      "started_at": "2021-05-07T11:10:15.000Z",
       "page_id": "t05vdsszxwtq",
       "incident_updates": [
         {
           "id": "ly06vd6yjtb9",
           "status": "identified",
-          "body": "Our team identified an issue where the \"Notification Analytics By User\" and \"Notification Analytics\" dashboards on the Opsgenie Analytics page did not receive data between April 9th, 2021 - May 5th, 2021. We'll be syncing the reporting data in a couple of days and customers can contact the support team in the meantime.\n\nThese reports are working from May 6th onwards and we will update this page when the missing data has been re-populated.",
+          "body": "Our team identified an issue where the \"Notification Analytics By User\" and \"Notification Analytics\" dashboards on the Opsgenie Analytics page did not receive data between April 9th, 2021 - May 5th, 2021. We'll be syncing the reporting data in a couple of days. In the meantime, customers can contact support to learn their notification usage.\n\nThese reports are working from May 6th onwards and we will update this page when the missing data has been re-populated.",
           "incident_id": "8dtsfmc8vj7c",
           "created_at": "2021-05-07T11:10:15.406Z",
-          "updated_at": "2021-05-07T11:10:15.406Z",
-          "display_at": "2021-05-07T11:10:15.406Z",
+          "updated_at": "2021-05-07T12:43:20.694Z",
+          "display_at": "2021-05-07T11:10:15.000Z",
           "affected_components": [
             {
               "code": "p88rmktvpp6p",
