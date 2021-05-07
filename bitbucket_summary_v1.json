@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-05-05T15:46:57.009Z"
+    "updated_at": "2021-05-07T10:43:04.940Z"
   },
   "components": [
     {
@@ -100,9 +100,9 @@
     {
       "id": "28h8dvv2qfzw",
       "name": "Source downloads",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2013-09-26T05:30:21.132Z",
-      "updated_at": "2021-02-26T01:00:33.767Z",
+      "updated_at": "2021-05-07T10:43:04.852Z",
       "position": 8,
       "description": "Archive (zip, tar.gz, bzip) downloads of repositories",
       "showcase": false,
@@ -188,7 +188,60 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "m1blhq6dbqck",
+      "name": "Downloading the repository from Downloads section leads to 504 error",
+      "status": "investigating",
+      "created_at": "2021-05-07T10:43:04.786Z",
+      "updated_at": "2021-05-07T10:43:04.937Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/4j04269qv3qk",
+      "started_at": "2021-05-07T10:43:04.776Z",
+      "page_id": "bqlf8qjztdtr",
+      "incident_updates": [
+        {
+          "id": "gx1d9x6jsbw2",
+          "status": "investigating",
+          "body": "Bitbucket Cloud is experiencing a performance degradation with the Downloads feature of the repository. This performance outage may lead to failed build on CI/CD tools. We are investigating the issue and will provide an update once we've diagnosed the cause",
+          "incident_id": "m1blhq6dbqck",
+          "created_at": "2021-05-07T10:43:04.934Z",
+          "updated_at": "2021-05-07T10:43:04.934Z",
+          "display_at": "2021-05-07T10:43:04.934Z",
+          "affected_components": [
+            {
+              "code": "28h8dvv2qfzw",
+              "name": "Source downloads",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "28h8dvv2qfzw",
+          "name": "Source downloads",
+          "status": "degraded_performance",
+          "created_at": "2013-09-26T05:30:21.132Z",
+          "updated_at": "2021-05-07T10:43:04.852Z",
+          "position": 8,
+          "description": "Archive (zip, tar.gz, bzip) downloads of repositories",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [
     {
       "id": "lctqtzmn9hg0",
@@ -645,9 +698,9 @@
         {
           "id": "28h8dvv2qfzw",
           "name": "Source downloads",
-          "status": "operational",
+          "status": "degraded_performance",
           "created_at": "2013-09-26T05:30:21.132Z",
-          "updated_at": "2021-02-26T01:00:33.767Z",
+          "updated_at": "2021-05-07T10:43:04.852Z",
           "position": 8,
           "description": "Archive (zip, tar.gz, bzip) downloads of repositories",
           "showcase": false,
@@ -1719,7 +1772,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
