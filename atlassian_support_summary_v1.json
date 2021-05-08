@@ -4,15 +4,15 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-05-08T17:00:34.985Z"
+    "updated_at": "2021-05-08T21:00:30.081Z"
   },
   "components": [
     {
       "id": "kvtmh1phs3r9",
       "name": "Support Portal",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-11-16T18:04:38.980Z",
-      "updated_at": "2021-05-08T17:00:34.948Z",
+      "updated_at": "2021-05-08T21:00:30.026Z",
       "position": 1,
       "description": null,
       "showcase": true,
@@ -189,97 +189,9 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "n7dlkk834pkx",
-      "name": "getsupport.atlassian.com will be undergoing maintenance",
-      "status": "in_progress",
-      "created_at": "2021-05-05T17:23:07.110Z",
-      "updated_at": "2021-05-08T17:00:34.978Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/lg7m3z14vtbc",
-      "started_at": "2021-05-05T17:23:07.106Z",
-      "page_id": "3tbw4lb9t3qp",
-      "incident_updates": [
-        {
-          "id": "txtwtqc4dndh",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "n7dlkk834pkx",
-          "created_at": "2021-05-08T17:00:34.976Z",
-          "updated_at": "2021-05-08T17:00:34.976Z",
-          "display_at": "2021-05-08T17:00:34.976Z",
-          "affected_components": [
-            {
-              "code": "kvtmh1phs3r9",
-              "name": "Support Portal",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "59v284np8q6v",
-          "status": "scheduled",
-          "body": "Maintenance will begin as scheduled in 60 minutes.",
-          "incident_id": "n7dlkk834pkx",
-          "created_at": "2021-05-08T16:00:29.825Z",
-          "updated_at": "2021-05-08T16:00:29.825Z",
-          "display_at": "2021-05-08T16:00:29.825Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "ybtldf838hyq",
-          "status": "scheduled",
-          "body": "Our support portal getsupport.atlassian.com (GSAC) will be down for maintenance on May 8th, 2021 from 17:00 UTC to 21:00 UTC. During this time, customers can create support cases as normal at http://support.atlassian.com/ and reply to existing tickets by email. These will be added to the support system when it is back online. Calls to the Premier and Priority Support phone numbers will go to voicemail for processing after maintenance is complete.\n\nIf your support license includes weekend support and you require urgent assistance please see Contact Support Temporary Channel (https://confluence.atlassian.com/support/contact-support-temporary-channel-950800787.html). Our weekend support staff will monitor to assist with critical issues.",
-          "incident_id": "n7dlkk834pkx",
-          "created_at": "2021-05-05T17:23:07.152Z",
-          "updated_at": "2021-05-05T17:23:07.152Z",
-          "display_at": "2021-05-05T17:23:07.152Z",
-          "affected_components": [
-            {
-              "code": "kvtmh1phs3r9",
-              "name": "Support Portal",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "kvtmh1phs3r9",
-          "name": "Support Portal",
-          "status": "under_maintenance",
-          "created_at": "2018-11-16T18:04:38.980Z",
-          "updated_at": "2021-05-08T17:00:34.948Z",
-          "position": 1,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "3tbw4lb9t3qp",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2021-05-08T17:00:00.000Z",
-      "scheduled_until": "2021-05-08T21:00:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
