@@ -4,15 +4,15 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-05-09T06:40:38.494Z"
+    "updated_at": "2021-05-09T07:40:30.858Z"
   },
   "components": [
     {
       "id": "kvtmh1phs3r9",
       "name": "Support Portal",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-11-16T18:04:38.980Z",
-      "updated_at": "2021-05-09T06:40:38.442Z",
+      "updated_at": "2021-05-09T07:40:30.792Z",
       "position": 1,
       "description": null,
       "showcase": true,
@@ -189,84 +189,9 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "1dxjcs2cz77j",
-      "name": "getsupport.atlassian.com will be undergoing maintenance",
-      "status": "in_progress",
-      "created_at": "2021-05-09T06:35:58.028Z",
-      "updated_at": "2021-05-09T06:40:38.485Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/v3rks3tgpqk9",
-      "started_at": "2021-05-09T06:35:58.023Z",
-      "page_id": "3tbw4lb9t3qp",
-      "incident_updates": [
-        {
-          "id": "q2w4s3qh9tnr",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "1dxjcs2cz77j",
-          "created_at": "2021-05-09T06:40:38.482Z",
-          "updated_at": "2021-05-09T06:40:38.482Z",
-          "display_at": "2021-05-09T06:40:38.482Z",
-          "affected_components": [
-            {
-              "code": "kvtmh1phs3r9",
-              "name": "Support Portal",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "vtqq5nsjmx2t",
-          "status": "scheduled",
-          "body": "Our support portal getsupport.atlassian.com (GSAC) will be down for maintenance on May 9th, 2021 from 6:40 UTC to 7:40 UTC. During this time, customers can create support cases as normal at http://support.atlassian.com/ and reply to existing tickets by email. These will be added to the support system when it is back online. Calls to the Premier and Priority Support phone numbers will go to voicemail for processing after maintenance is complete.",
-          "incident_id": "1dxjcs2cz77j",
-          "created_at": "2021-05-09T06:35:58.095Z",
-          "updated_at": "2021-05-09T06:35:58.095Z",
-          "display_at": "2021-05-09T06:35:58.095Z",
-          "affected_components": [
-            {
-              "code": "kvtmh1phs3r9",
-              "name": "Support Portal",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "kvtmh1phs3r9",
-          "name": "Support Portal",
-          "status": "under_maintenance",
-          "created_at": "2018-11-16T18:04:38.980Z",
-          "updated_at": "2021-05-09T06:40:38.442Z",
-          "position": 1,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "3tbw4lb9t3qp",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2021-05-09T06:40:00.000Z",
-      "scheduled_until": "2021-05-09T07:40:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
