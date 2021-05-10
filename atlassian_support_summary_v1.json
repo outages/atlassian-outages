@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-05-10T07:39:30.893Z"
+    "updated_at": "2021-05-10T09:08:29.642Z"
   },
   "components": [
     {
@@ -194,7 +194,7 @@
       "name": "Degraded performance on getsupport.atlassian.com",
       "status": "investigating",
       "created_at": "2021-05-10T01:57:00.336Z",
-      "updated_at": "2021-05-10T07:39:30.887Z",
+      "updated_at": "2021-05-10T09:08:29.632Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -202,6 +202,26 @@
       "started_at": "2021-05-10T01:57:00.330Z",
       "page_id": "3tbw4lb9t3qp",
       "incident_updates": [
+        {
+          "id": "x3ffpyz1ql7c",
+          "status": "investigating",
+          "body": "Our support portal is currently down. If you have a critical support issue that requires immediate attention (or you need attention on an existing critical ticket), you can contact us using the mail addresses listed on https://confluence.atlassian.com/support/contact-support-temporary-channel-950800787.html.\n\nWe commit to prioritizing critical requests and resolving your question as soon as possible. You can follow the status update here. In the meantime, we invite you to have a look at our FAQs page: Customers FAQs Page (https://www.atlassian.com/licensing/purchase-licensing) and Atlassian Partner FAQs Page (https://partners.atlassian.com/display/resources/Purchasing+Resources)",
+          "incident_id": "whx6b20s4269",
+          "created_at": "2021-05-10T09:08:29.628Z",
+          "updated_at": "2021-05-10T09:08:29.628Z",
+          "display_at": "2021-05-10T09:08:29.628Z",
+          "affected_components": [
+            {
+              "code": "kvtmh1phs3r9",
+              "name": "Support Portal",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "f9fycpmy63f3",
           "status": "investigating",
