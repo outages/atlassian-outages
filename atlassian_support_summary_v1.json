@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-05-10T12:38:57.185Z"
+    "updated_at": "2021-05-10T13:23:39.198Z"
   },
   "components": [
     {
@@ -194,22 +194,22 @@
       "name": "Degraded performance on getsupport.atlassian.com",
       "status": "investigating",
       "created_at": "2021-05-10T01:57:00.336Z",
-      "updated_at": "2021-05-10T12:38:57.176Z",
+      "updated_at": "2021-05-10T13:23:39.195Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/f16d8xrc2xm2",
-      "started_at": "2021-05-10T01:57:00.330Z",
+      "started_at": "2021-05-10T12:38:57.000Z",
       "page_id": "3tbw4lb9t3qp",
       "incident_updates": [
         {
           "id": "zgcwj1fl9b1h",
           "status": "investigating",
-          "body": "We are taking down the support portal for rollback at 22:30 AEST/1430 AMS/0730 ATX. The rollback is expected to take approx 2 hours plus approx 5 hours of indexing activity. We will update this incident with more details as they are available. \n\nIn the meantime, you can contact us using the mail addresses listed on https://confluence.atlassian.com/support/contact-support-temporary-channel-950800787.html, or have a look at our FAQs page: Customers FAQs Page (https://www.atlassian.com/licensing/purchase-licensing) and Atlassian Partner FAQs Page (https://partners.atlassian.com/display/resources/Purchasing+Resources)",
+          "body": "Our support portal is currently down. If you have a critical support issue that requires immediate attention (or you need attention on an existing critical ticket), you can contact us using the mail addresses listed on https://confluence.atlassian.com/support/contact-support-temporary-channel-950800787.html. If you have a low urgency ticket, we would ask you to submit the ticket when the portal is back up and thank you for your patience.\n\nWe commit to prioritizing critical requests and resolving your question as soon as possible. You can follow the status update here. In the meantime, we invite you to have a look at our FAQs page: Customers FAQs Page (https://www.atlassian.com/licensing/purchase-licensing) and Atlassian Partner FAQs Page (https://partners.atlassian.com/display/resources/Purchasing+Resources)",
           "incident_id": "whx6b20s4269",
           "created_at": "2021-05-10T12:38:57.173Z",
-          "updated_at": "2021-05-10T12:38:57.173Z",
-          "display_at": "2021-05-10T12:38:57.173Z",
+          "updated_at": "2021-05-10T13:23:39.146Z",
+          "display_at": "2021-05-10T12:38:57.000Z",
           "affected_components": [
             {
               "code": "kvtmh1phs3r9",
