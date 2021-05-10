@@ -4,15 +4,15 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-05-10T04:54:25.350Z"
+    "updated_at": "2021-05-10T07:39:30.893Z"
   },
   "components": [
     {
       "id": "kvtmh1phs3r9",
       "name": "Support Portal",
-      "status": "degraded_performance",
+      "status": "partial_outage",
       "created_at": "2018-11-16T18:04:38.980Z",
-      "updated_at": "2021-05-10T01:57:00.379Z",
+      "updated_at": "2021-05-10T07:39:30.848Z",
       "position": 1,
       "description": null,
       "showcase": true,
@@ -194,14 +194,34 @@
       "name": "Degraded performance on getsupport.atlassian.com",
       "status": "investigating",
       "created_at": "2021-05-10T01:57:00.336Z",
-      "updated_at": "2021-05-10T04:54:25.343Z",
+      "updated_at": "2021-05-10T07:39:30.887Z",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "minor",
+      "impact": "major",
       "shortlink": "https://stspg.io/f16d8xrc2xm2",
       "started_at": "2021-05-10T01:57:00.330Z",
       "page_id": "3tbw4lb9t3qp",
       "incident_updates": [
+        {
+          "id": "f9fycpmy63f3",
+          "status": "investigating",
+          "body": "We are continuing to investigate the issue. We will post updates with more details as they are available.",
+          "incident_id": "whx6b20s4269",
+          "created_at": "2021-05-10T07:39:30.885Z",
+          "updated_at": "2021-05-10T07:39:30.885Z",
+          "display_at": "2021-05-10T07:39:30.885Z",
+          "affected_components": [
+            {
+              "code": "kvtmh1phs3r9",
+              "name": "Support Portal",
+              "old_status": "degraded_performance",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "5nx80jg3d6r2",
           "status": "investigating",
@@ -267,9 +287,9 @@
         {
           "id": "kvtmh1phs3r9",
           "name": "Support Portal",
-          "status": "degraded_performance",
+          "status": "partial_outage",
           "created_at": "2018-11-16T18:04:38.980Z",
-          "updated_at": "2021-05-10T01:57:00.379Z",
+          "updated_at": "2021-05-10T07:39:30.848Z",
           "position": 1,
           "description": null,
           "showcase": true,
@@ -285,6 +305,6 @@
   "scheduled_maintenances": [],
   "status": {
     "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "description": "Minor Service Outage"
   }
 }
