@@ -4,7 +4,7 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2021-05-09T21:57:04.853-04:00"
+    "updated_at": "2021-05-10T03:39:35.356-04:00"
   },
   "components": [
     {
@@ -55,9 +55,9 @@
     {
       "id": "rmthn8dprv1q",
       "name": "Atlassian Support - Support Portal",
-      "status": "degraded_performance",
+      "status": "partial_outage",
       "created_at": "2020-07-30T11:21:25.969-04:00",
-      "updated_at": "2021-05-09T21:57:04.850-04:00",
+      "updated_at": "2021-05-10T03:39:35.354-04:00",
       "position": 6,
       "description": "Support portal contact forms allow customers to raise support issues. Delays here might mean there's an issue with submitting a support request.",
       "showcase": true,
@@ -87,6 +87,6 @@
   "scheduled_maintenances": [],
   "status": {
     "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "description": "Minor Service Outage"
   }
 }
