@@ -4,15 +4,15 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-05-10T13:23:39.198Z"
+    "updated_at": "2021-05-10T18:07:58.752Z"
   },
   "components": [
     {
       "id": "kvtmh1phs3r9",
       "name": "Support Portal",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-11-16T18:04:38.980Z",
-      "updated_at": "2021-05-10T07:39:30.848Z",
+      "updated_at": "2021-05-10T18:07:58.698Z",
       "position": 1,
       "description": null,
       "showcase": true,
@@ -188,163 +188,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "whx6b20s4269",
-      "name": "Degraded performance on getsupport.atlassian.com",
-      "status": "investigating",
-      "created_at": "2021-05-10T01:57:00.336Z",
-      "updated_at": "2021-05-10T13:23:39.195Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/f16d8xrc2xm2",
-      "started_at": "2021-05-10T12:38:57.000Z",
-      "page_id": "3tbw4lb9t3qp",
-      "incident_updates": [
-        {
-          "id": "zgcwj1fl9b1h",
-          "status": "investigating",
-          "body": "Our support portal is currently down. If you have a critical support issue that requires immediate attention (or you need attention on an existing critical ticket), you can contact us using the mail addresses listed on https://confluence.atlassian.com/support/contact-support-temporary-channel-950800787.html. If you have a low urgency ticket, we would ask you to submit the ticket when the portal is back up and thank you for your patience.\n\nWe commit to prioritizing critical requests and resolving your question as soon as possible. You can follow the status update here. In the meantime, we invite you to have a look at our FAQs page: Customers FAQs Page (https://www.atlassian.com/licensing/purchase-licensing) and Atlassian Partner FAQs Page (https://partners.atlassian.com/display/resources/Purchasing+Resources)",
-          "incident_id": "whx6b20s4269",
-          "created_at": "2021-05-10T12:38:57.173Z",
-          "updated_at": "2021-05-10T13:23:39.146Z",
-          "display_at": "2021-05-10T12:38:57.000Z",
-          "affected_components": [
-            {
-              "code": "kvtmh1phs3r9",
-              "name": "Support Portal",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "x3ffpyz1ql7c",
-          "status": "investigating",
-          "body": "Our support portal is currently down. If you have a critical support issue that requires immediate attention (or you need attention on an existing critical ticket), you can contact us using the mail addresses listed on https://confluence.atlassian.com/support/contact-support-temporary-channel-950800787.html.\n\nWe commit to prioritizing critical requests and resolving your question as soon as possible. You can follow the status update here. In the meantime, we invite you to have a look at our FAQs page: Customers FAQs Page (https://www.atlassian.com/licensing/purchase-licensing) and Atlassian Partner FAQs Page (https://partners.atlassian.com/display/resources/Purchasing+Resources)",
-          "incident_id": "whx6b20s4269",
-          "created_at": "2021-05-10T09:08:29.628Z",
-          "updated_at": "2021-05-10T09:08:29.628Z",
-          "display_at": "2021-05-10T09:08:29.628Z",
-          "affected_components": [
-            {
-              "code": "kvtmh1phs3r9",
-              "name": "Support Portal",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "f9fycpmy63f3",
-          "status": "investigating",
-          "body": "We are continuing to investigate the issue. We will post updates with more details as they are available.",
-          "incident_id": "whx6b20s4269",
-          "created_at": "2021-05-10T07:39:30.885Z",
-          "updated_at": "2021-05-10T07:39:30.885Z",
-          "display_at": "2021-05-10T07:39:30.885Z",
-          "affected_components": [
-            {
-              "code": "kvtmh1phs3r9",
-              "name": "Support Portal",
-              "old_status": "degraded_performance",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "5nx80jg3d6r2",
-          "status": "investigating",
-          "body": "We are continuing to investigate the issue and upscale the instance to improve the performance. We will post updates with more details as they are available.",
-          "incident_id": "whx6b20s4269",
-          "created_at": "2021-05-10T04:54:25.341Z",
-          "updated_at": "2021-05-10T04:54:25.341Z",
-          "display_at": "2021-05-10T04:54:25.341Z",
-          "affected_components": [
-            {
-              "code": "kvtmh1phs3r9",
-              "name": "Support Portal",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "8q2cj65pgdql",
-          "status": "investigating",
-          "body": "We do not have a root cause for the degraded performance impacting the support portal. We are investigating and will post updates with more details as they are available.",
-          "incident_id": "whx6b20s4269",
-          "created_at": "2021-05-10T02:47:50.440Z",
-          "updated_at": "2021-05-10T02:47:50.440Z",
-          "display_at": "2021-05-10T02:47:50.440Z",
-          "affected_components": [
-            {
-              "code": "kvtmh1phs3r9",
-              "name": "Support Portal",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "bz074jcjzvql",
-          "status": "investigating",
-          "body": "We've noticed that getsupport.atlassian.com is responding slowly. We are investigating the issue and will update this incident with more details as they are available",
-          "incident_id": "whx6b20s4269",
-          "created_at": "2021-05-10T01:57:00.426Z",
-          "updated_at": "2021-05-10T01:57:00.426Z",
-          "display_at": "2021-05-10T01:57:00.426Z",
-          "affected_components": [
-            {
-              "code": "kvtmh1phs3r9",
-              "name": "Support Portal",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "kvtmh1phs3r9",
-          "name": "Support Portal",
-          "status": "partial_outage",
-          "created_at": "2018-11-16T18:04:38.980Z",
-          "updated_at": "2021-05-10T07:39:30.848Z",
-          "position": 1,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "3tbw4lb9t3qp",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
