@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-05-10T09:08:29.642Z"
+    "updated_at": "2021-05-10T12:38:57.185Z"
   },
   "components": [
     {
@@ -194,7 +194,7 @@
       "name": "Degraded performance on getsupport.atlassian.com",
       "status": "investigating",
       "created_at": "2021-05-10T01:57:00.336Z",
-      "updated_at": "2021-05-10T09:08:29.632Z",
+      "updated_at": "2021-05-10T12:38:57.176Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -202,6 +202,26 @@
       "started_at": "2021-05-10T01:57:00.330Z",
       "page_id": "3tbw4lb9t3qp",
       "incident_updates": [
+        {
+          "id": "zgcwj1fl9b1h",
+          "status": "investigating",
+          "body": "We are taking down the support portal for rollback at 22:30 AEST/1430 AMS/0730 ATX. The rollback is expected to take approx 2 hours plus approx 5 hours of indexing activity. We will update this incident with more details as they are available. \n\nIn the meantime, you can contact us using the mail addresses listed on https://confluence.atlassian.com/support/contact-support-temporary-channel-950800787.html, or have a look at our FAQs page: Customers FAQs Page (https://www.atlassian.com/licensing/purchase-licensing) and Atlassian Partner FAQs Page (https://partners.atlassian.com/display/resources/Purchasing+Resources)",
+          "incident_id": "whx6b20s4269",
+          "created_at": "2021-05-10T12:38:57.173Z",
+          "updated_at": "2021-05-10T12:38:57.173Z",
+          "display_at": "2021-05-10T12:38:57.173Z",
+          "affected_components": [
+            {
+              "code": "kvtmh1phs3r9",
+              "name": "Support Portal",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "x3ffpyz1ql7c",
           "status": "investigating",
