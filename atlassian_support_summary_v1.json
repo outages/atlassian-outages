@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-05-12T11:00:47.078Z"
+    "updated_at": "2021-05-13T21:17:36.879Z"
   },
   "components": [
     {
@@ -189,7 +189,62 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "my8ny25tzg35",
+      "name": "Atlassian Community Scheduled Maintenance",
+      "status": "scheduled",
+      "created_at": "2021-05-13T21:17:36.826Z",
+      "updated_at": "2021-05-13T21:17:36.877Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/mwzyyx08qwkt",
+      "started_at": "2021-05-13T21:17:36.821Z",
+      "page_id": "3tbw4lb9t3qp",
+      "incident_updates": [
+        {
+          "id": "yznsgtcc5g5b",
+          "status": "scheduled",
+          "body": "Atlassian Community (community.atlassian.com) scheduled maintenance window:\n\n- Starting at 11:59 PM PT Thursday, May 13th\n\n- Ending at 4:00 AM PT Friday, May 14th\n\nThere might be some downtime during the window and the site could be completely unavailable for about an hour if/when the servers are restarted.",
+          "incident_id": "my8ny25tzg35",
+          "created_at": "2021-05-13T21:17:36.874Z",
+          "updated_at": "2021-05-13T21:17:36.874Z",
+          "display_at": "2021-05-13T21:17:36.874Z",
+          "affected_components": [
+            {
+              "code": "x6ljwvfs3ymn",
+              "name": "Community",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "x6ljwvfs3ymn",
+          "name": "Community",
+          "status": "operational",
+          "created_at": "2018-11-30T21:48:02.423Z",
+          "updated_at": "2021-05-12T11:00:46.669Z",
+          "position": 4,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "3tbw4lb9t3qp",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2021-05-14T06:45:00.000Z",
+      "scheduled_until": "2021-05-14T11:00:00.000Z"
+    }
+  ],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
