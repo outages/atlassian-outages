@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-05-21T05:40:00.143Z"
+    "updated_at": "2021-05-21T06:24:58.037Z"
   },
   "components": [
     {
@@ -173,37 +173,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "k5zn4fb08g20",
-      "name": "Confluence and Jira - Degraded Editing, Commenting and Media Experience in APSE1",
-      "status": "investigating",
-      "created_at": "2021-05-21T05:40:00.093Z",
-      "updated_at": "2021-05-21T05:40:00.140Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/9q5829b483cs",
-      "started_at": "2021-05-21T05:40:00.088Z",
-      "page_id": "pv54g7ltsc24",
-      "incident_updates": [
-        {
-          "id": "ds5fksqsxtmg",
-          "status": "investigating",
-          "body": "We are investigating reports of intermittent errors for some Confluence, Jira Work Management, Jira Service Management, Jira Software, and Jira Align Cloud customers. We will provide more details once we identify the root cause.",
-          "incident_id": "k5zn4fb08g20",
-          "created_at": "2021-05-21T05:40:00.138Z",
-          "updated_at": "2021-05-21T05:40:00.138Z",
-          "display_at": "2021-05-21T05:40:00.138Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": []
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "minor",
