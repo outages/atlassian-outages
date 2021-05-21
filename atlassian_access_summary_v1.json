@@ -4,7 +4,7 @@
     "name": "Atlassian Access",
     "url": "https://access.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-05-21T18:11:44.854Z"
+    "updated_at": "2021-05-21T18:49:02.815Z"
   },
   "components": [
     {
@@ -102,9 +102,9 @@
     {
       "id": "mdpn5plfcbc9",
       "name": "Domain verification is failing",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2021-05-21T15:37:09.535Z",
-      "updated_at": "2021-05-21T18:06:43.780Z",
+      "updated_at": "2021-05-21T18:49:02.807Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -112,6 +112,26 @@
       "started_at": "2021-05-21T15:37:09.530Z",
       "page_id": "5qmgwsxwsz78",
       "incident_updates": [
+        {
+          "id": "3vwsc46c6gkm",
+          "status": "identified",
+          "body": "Our domain verification system is seeing inconsistent DNS TXT record responses. This inconsistency is leading to domain claim verification and re-verification of already claimed domains to fail with a \"missing token\" status.\n\nThere is no detected product access impact due to this incident at this time and we have temporarily paused our re-verification access revocation system until the root cause is identified and resolved. Will provide more details when available.",
+          "incident_id": "mdpn5plfcbc9",
+          "created_at": "2021-05-21T18:49:02.800Z",
+          "updated_at": "2021-05-21T18:49:02.800Z",
+          "display_at": "2021-05-21T18:49:02.800Z",
+          "affected_components": [
+            {
+              "code": "hqd5zdvzh5g1",
+              "name": "Domain Claims",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "5m20mwdz31t3",
           "status": "investigating",
