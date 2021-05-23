@@ -4,15 +4,15 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-05-23T22:01:27.071Z"
+    "updated_at": "2021-05-23T22:30:31.197Z"
   },
   "components": [
     {
       "id": "g0lfj4sv2fhf",
       "name": "Website",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2013-09-26T03:34:27.377Z",
-      "updated_at": "2021-05-23T22:01:21.195Z",
+      "updated_at": "2021-05-23T22:30:29.843Z",
       "position": 1,
       "description": "Access to bitbucket.org",
       "showcase": false,
@@ -25,9 +25,9 @@
     {
       "id": "k0x2yw1435v7",
       "name": "API",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2015-06-05T19:34:43.541Z",
-      "updated_at": "2021-05-23T22:01:21.428Z",
+      "updated_at": "2021-05-23T22:30:29.866Z",
       "position": 2,
       "description": "Access to api.bitbucket.org",
       "showcase": false,
@@ -115,9 +115,9 @@
     {
       "id": "rzh2n85q7vtt",
       "name": "Pipelines",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2016-08-23T20:04:54.469Z",
-      "updated_at": "2021-05-23T22:01:22.102Z",
+      "updated_at": "2021-05-23T22:30:29.888Z",
       "position": 9,
       "description": "Continuous integration and delivery for Bitbucket repos",
       "showcase": false,
@@ -252,9 +252,9 @@
         {
           "id": "rzh2n85q7vtt",
           "name": "Pipelines",
-          "status": "under_maintenance",
+          "status": "operational",
           "created_at": "2016-08-23T20:04:54.469Z",
-          "updated_at": "2021-05-23T22:01:22.102Z",
+          "updated_at": "2021-05-23T22:30:29.888Z",
           "position": 9,
           "description": "Continuous integration and delivery for Bitbucket repos",
           "showcase": false,
@@ -297,9 +297,9 @@
         {
           "id": "k0x2yw1435v7",
           "name": "API",
-          "status": "under_maintenance",
+          "status": "operational",
           "created_at": "2015-06-05T19:34:43.541Z",
-          "updated_at": "2021-05-23T22:01:21.428Z",
+          "updated_at": "2021-05-23T22:30:29.866Z",
           "position": 2,
           "description": "Access to api.bitbucket.org",
           "showcase": false,
@@ -312,9 +312,9 @@
         {
           "id": "g0lfj4sv2fhf",
           "name": "Website",
-          "status": "under_maintenance",
+          "status": "operational",
           "created_at": "2013-09-26T03:34:27.377Z",
-          "updated_at": "2021-05-23T22:01:21.195Z",
+          "updated_at": "2021-05-23T22:30:29.843Z",
           "position": 1,
           "description": "Access to bitbucket.org",
           "showcase": false,
@@ -390,9 +390,9 @@
         {
           "id": "rzh2n85q7vtt",
           "name": "Pipelines",
-          "status": "under_maintenance",
+          "status": "operational",
           "created_at": "2016-08-23T20:04:54.469Z",
-          "updated_at": "2021-05-23T22:01:22.102Z",
+          "updated_at": "2021-05-23T22:30:29.888Z",
           "position": 9,
           "description": "Continuous integration and delivery for Bitbucket repos",
           "showcase": false,
@@ -435,9 +435,9 @@
         {
           "id": "k0x2yw1435v7",
           "name": "API",
-          "status": "under_maintenance",
+          "status": "operational",
           "created_at": "2015-06-05T19:34:43.541Z",
-          "updated_at": "2021-05-23T22:01:21.428Z",
+          "updated_at": "2021-05-23T22:30:29.866Z",
           "position": 2,
           "description": "Access to api.bitbucket.org",
           "showcase": false,
@@ -450,9 +450,9 @@
         {
           "id": "g0lfj4sv2fhf",
           "name": "Website",
-          "status": "under_maintenance",
+          "status": "operational",
           "created_at": "2013-09-26T03:34:27.377Z",
-          "updated_at": "2021-05-23T22:01:21.195Z",
+          "updated_at": "2021-05-23T22:30:29.843Z",
           "position": 1,
           "description": "Access to bitbucket.org",
           "showcase": false,
@@ -528,9 +528,9 @@
         {
           "id": "rzh2n85q7vtt",
           "name": "Pipelines",
-          "status": "under_maintenance",
+          "status": "operational",
           "created_at": "2016-08-23T20:04:54.469Z",
-          "updated_at": "2021-05-23T22:01:22.102Z",
+          "updated_at": "2021-05-23T22:30:29.888Z",
           "position": 9,
           "description": "Continuous integration and delivery for Bitbucket repos",
           "showcase": false,
@@ -573,9 +573,9 @@
         {
           "id": "k0x2yw1435v7",
           "name": "API",
-          "status": "under_maintenance",
+          "status": "operational",
           "created_at": "2015-06-05T19:34:43.541Z",
-          "updated_at": "2021-05-23T22:01:21.428Z",
+          "updated_at": "2021-05-23T22:30:29.866Z",
           "position": 2,
           "description": "Access to api.bitbucket.org",
           "showcase": false,
@@ -588,9 +588,9 @@
         {
           "id": "g0lfj4sv2fhf",
           "name": "Website",
-          "status": "under_maintenance",
+          "status": "operational",
           "created_at": "2013-09-26T03:34:27.377Z",
-          "updated_at": "2021-05-23T22:01:21.195Z",
+          "updated_at": "2021-05-23T22:30:29.843Z",
           "position": 1,
           "description": "Access to bitbucket.org",
           "showcase": false,
@@ -666,9 +666,9 @@
         {
           "id": "rzh2n85q7vtt",
           "name": "Pipelines",
-          "status": "under_maintenance",
+          "status": "operational",
           "created_at": "2016-08-23T20:04:54.469Z",
-          "updated_at": "2021-05-23T22:01:22.102Z",
+          "updated_at": "2021-05-23T22:30:29.888Z",
           "position": 9,
           "description": "Continuous integration and delivery for Bitbucket repos",
           "showcase": false,
@@ -711,9 +711,9 @@
         {
           "id": "k0x2yw1435v7",
           "name": "API",
-          "status": "under_maintenance",
+          "status": "operational",
           "created_at": "2015-06-05T19:34:43.541Z",
-          "updated_at": "2021-05-23T22:01:21.428Z",
+          "updated_at": "2021-05-23T22:30:29.866Z",
           "position": 2,
           "description": "Access to api.bitbucket.org",
           "showcase": false,
@@ -726,9 +726,9 @@
         {
           "id": "g0lfj4sv2fhf",
           "name": "Website",
-          "status": "under_maintenance",
+          "status": "operational",
           "created_at": "2013-09-26T03:34:27.377Z",
-          "updated_at": "2021-05-23T22:01:21.195Z",
+          "updated_at": "2021-05-23T22:30:29.843Z",
           "position": 1,
           "description": "Access to bitbucket.org",
           "showcase": false,
@@ -804,9 +804,9 @@
         {
           "id": "rzh2n85q7vtt",
           "name": "Pipelines",
-          "status": "under_maintenance",
+          "status": "operational",
           "created_at": "2016-08-23T20:04:54.469Z",
-          "updated_at": "2021-05-23T22:01:22.102Z",
+          "updated_at": "2021-05-23T22:30:29.888Z",
           "position": 9,
           "description": "Continuous integration and delivery for Bitbucket repos",
           "showcase": false,
@@ -849,9 +849,9 @@
         {
           "id": "k0x2yw1435v7",
           "name": "API",
-          "status": "under_maintenance",
+          "status": "operational",
           "created_at": "2015-06-05T19:34:43.541Z",
-          "updated_at": "2021-05-23T22:01:21.428Z",
+          "updated_at": "2021-05-23T22:30:29.866Z",
           "position": 2,
           "description": "Access to api.bitbucket.org",
           "showcase": false,
@@ -864,9 +864,9 @@
         {
           "id": "g0lfj4sv2fhf",
           "name": "Website",
-          "status": "under_maintenance",
+          "status": "operational",
           "created_at": "2013-09-26T03:34:27.377Z",
-          "updated_at": "2021-05-23T22:01:21.195Z",
+          "updated_at": "2021-05-23T22:30:29.843Z",
           "position": 1,
           "description": "Access to bitbucket.org",
           "showcase": false,
@@ -942,9 +942,9 @@
         {
           "id": "rzh2n85q7vtt",
           "name": "Pipelines",
-          "status": "under_maintenance",
+          "status": "operational",
           "created_at": "2016-08-23T20:04:54.469Z",
-          "updated_at": "2021-05-23T22:01:22.102Z",
+          "updated_at": "2021-05-23T22:30:29.888Z",
           "position": 9,
           "description": "Continuous integration and delivery for Bitbucket repos",
           "showcase": false,
@@ -987,9 +987,9 @@
         {
           "id": "k0x2yw1435v7",
           "name": "API",
-          "status": "under_maintenance",
+          "status": "operational",
           "created_at": "2015-06-05T19:34:43.541Z",
-          "updated_at": "2021-05-23T22:01:21.428Z",
+          "updated_at": "2021-05-23T22:30:29.866Z",
           "position": 2,
           "description": "Access to api.bitbucket.org",
           "showcase": false,
@@ -1002,9 +1002,9 @@
         {
           "id": "g0lfj4sv2fhf",
           "name": "Website",
-          "status": "under_maintenance",
+          "status": "operational",
           "created_at": "2013-09-26T03:34:27.377Z",
-          "updated_at": "2021-05-23T22:01:21.195Z",
+          "updated_at": "2021-05-23T22:30:29.843Z",
           "position": 1,
           "description": "Access to bitbucket.org",
           "showcase": false,
@@ -1017,151 +1017,10 @@
       ],
       "scheduled_for": "2021-07-09T21:00:00.000Z",
       "scheduled_until": "2021-07-11T23:00:00.000Z"
-    },
-    {
-      "id": "0wx479gw3q6v",
-      "name": "Maintenance on Bitbucket Connect Application Properties database",
-      "status": "in_progress",
-      "created_at": "2021-05-20T04:47:29.686Z",
-      "updated_at": "2021-05-23T22:01:27.065Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/cxhh713vfsgw",
-      "started_at": "2021-05-20T04:47:29.680Z",
-      "page_id": "bqlf8qjztdtr",
-      "incident_updates": [
-        {
-          "id": "ydv9xcq8h9cs",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "0wx479gw3q6v",
-          "created_at": "2021-05-23T22:01:22.693Z",
-          "updated_at": "2021-05-23T22:01:27.062Z",
-          "display_at": "2021-05-23T22:01:22.693Z",
-          "affected_components": [
-            {
-              "code": "g0lfj4sv2fhf",
-              "name": "Website",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "k0x2yw1435v7",
-              "name": "API",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "rzh2n85q7vtt",
-              "name": "Pipelines",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1396587101219475500
-        },
-        {
-          "id": "lyl4l9x0vdy9",
-          "status": "scheduled",
-          "body": "Maintenance will begin as scheduled in 60 minutes.",
-          "incident_id": "0wx479gw3q6v",
-          "created_at": "2021-05-23T21:00:31.243Z",
-          "updated_at": "2021-05-23T21:00:32.051Z",
-          "display_at": "2021-05-23T21:00:31.243Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1396571771038408700
-        },
-        {
-          "id": "6q38zgdlz76b",
-          "status": "scheduled",
-          "body": "On Sunday, 23rd May 2021, from 10pm to 10:30pm UTC, Bitbucket Connect Application Properties will undergo a planned database maintenance. During this time, Application Properties will not be accessible by Bitbucket Connect applications, including usage of Application Properties in Bitbucket Connect application descriptor conditions and page URLs, and the Application Properties read/write APIs. Bitbucket Pipelines pages will be accessible but may see a brief loading delay. The Bitbucket Trello integration may also be inaccessible during the database maintenance.",
-          "incident_id": "0wx479gw3q6v",
-          "created_at": "2021-05-20T04:47:29.734Z",
-          "updated_at": "2021-05-20T04:47:30.307Z",
-          "display_at": "2021-05-20T04:47:29.734Z",
-          "affected_components": [
-            {
-              "code": "g0lfj4sv2fhf",
-              "name": "Website",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "k0x2yw1435v7",
-              "name": "API",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "rzh2n85q7vtt",
-              "name": "Pipelines",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1395239736634007600
-        }
-      ],
-      "components": [
-        {
-          "id": "rzh2n85q7vtt",
-          "name": "Pipelines",
-          "status": "under_maintenance",
-          "created_at": "2016-08-23T20:04:54.469Z",
-          "updated_at": "2021-05-23T22:01:22.102Z",
-          "position": 9,
-          "description": "Continuous integration and delivery for Bitbucket repos",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "bqlf8qjztdtr",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "k0x2yw1435v7",
-          "name": "API",
-          "status": "under_maintenance",
-          "created_at": "2015-06-05T19:34:43.541Z",
-          "updated_at": "2021-05-23T22:01:21.428Z",
-          "position": 2,
-          "description": "Access to api.bitbucket.org",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "bqlf8qjztdtr",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "g0lfj4sv2fhf",
-          "name": "Website",
-          "status": "under_maintenance",
-          "created_at": "2013-09-26T03:34:27.377Z",
-          "updated_at": "2021-05-23T22:01:21.195Z",
-          "position": 1,
-          "description": "Access to bitbucket.org",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "bqlf8qjztdtr",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2021-05-23T22:00:00.000Z",
-      "scheduled_until": "2021-05-23T22:30:00.000Z"
     }
   ],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
