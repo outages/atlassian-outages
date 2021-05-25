@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-05-25T02:23:30.743Z"
+    "updated_at": "2021-05-25T04:05:58.774Z"
   },
   "components": [
     {
@@ -192,9 +192,9 @@
     {
       "id": "p6v593v4dyp6",
       "name": "Bitbucket Pipelines UI slow to update",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2021-05-25T01:33:04.424Z",
-      "updated_at": "2021-05-25T01:33:05.001Z",
+      "updated_at": "2021-05-25T04:05:58.768Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -202,6 +202,26 @@
       "started_at": "2021-05-25T01:33:04.419Z",
       "page_id": "bqlf8qjztdtr",
       "incident_updates": [
+        {
+          "id": "r7bhz6ypnrx9",
+          "status": "identified",
+          "body": "The issue has been identified and a fix is being implemented.",
+          "incident_id": "p6v593v4dyp6",
+          "created_at": "2021-05-25T04:05:58.380Z",
+          "updated_at": "2021-05-25T04:05:58.765Z",
+          "display_at": "2021-05-25T04:05:58.380Z",
+          "affected_components": [
+            {
+              "code": "rzh2n85q7vtt",
+              "name": "Pipelines",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1397041225711063000
+        },
         {
           "id": "7f9p5ftkry1w",
           "status": "investigating",
