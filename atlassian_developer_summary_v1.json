@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-05-18T13:23:38.952Z"
+    "updated_at": "2021-05-25T10:23:31.153Z"
   },
   "components": [
     {
@@ -165,7 +165,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -486,21 +486,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "3t1y6724xl8q",
-      "name": "In-product Marketplace and app installation (Cloud)",
-      "status": "operational",
-      "created_at": "2013-12-03T00:45:39.973Z",
-      "updated_at": "2021-05-14T16:26:58.772Z",
-      "position": 7,
-      "description": "The ability to discover, install, and manage apps inside of Atlassian's Cloud products (Jira, Confluence, Stride, Bitbucket)",
-      "showcase": false,
-      "start_date": null,
-      "group_id": "d0m8l367qqw5",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "pgqd9x4jl520",
       "name": "Forge Function Invocation",
       "status": "operational",
@@ -511,6 +496,21 @@
       "showcase": true,
       "start_date": "2021-03-23",
       "group_id": "73bt63kd5q9k",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "3t1y6724xl8q",
+      "name": "In-product Marketplace and app installation (Cloud)",
+      "status": "operational",
+      "created_at": "2013-12-03T00:45:39.973Z",
+      "updated_at": "2021-05-14T16:26:58.772Z",
+      "position": 7,
+      "description": "The ability to discover, install, and manage apps inside of Atlassian's Cloud products (Jira, Confluence, Stride, Bitbucket)",
+      "showcase": false,
+      "start_date": null,
+      "group_id": "d0m8l367qqw5",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -546,21 +546,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "y1fdrctjbkx0",
-      "name": "Notifications",
-      "status": "operational",
-      "created_at": "2018-02-01T17:52:26.480Z",
-      "updated_at": "2020-07-09T10:30:48.498Z",
-      "position": 9,
-      "description": "Example notifications include newly posted reviews and new version creation",
-      "showcase": true,
-      "start_date": null,
-      "group_id": "d0m8l367qqw5",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "64gg59lyzrfs",
       "name": "Forge App Logs",
       "status": "operational",
@@ -571,6 +556,21 @@
       "showcase": true,
       "start_date": "2021-05-12",
       "group_id": "73bt63kd5q9k",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "y1fdrctjbkx0",
+      "name": "Notifications",
+      "status": "operational",
+      "created_at": "2018-02-01T17:52:26.480Z",
+      "updated_at": "2020-07-09T10:30:48.498Z",
+      "position": 9,
+      "description": "Example notifications include newly posted reviews and new version creation",
+      "showcase": true,
+      "start_date": null,
+      "group_id": "d0m8l367qqw5",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -623,11 +623,11 @@
     {
       "id": "1vvmngd73171",
       "name": "Vendor management",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-02-01T17:53:33.728Z",
-      "updated_at": "2021-03-24T16:52:56.537Z",
+      "updated_at": "2021-05-25T09:59:14.937Z",
       "position": 13,
-      "description": "We have identified an issue with multiple vendor admins having lost access to their vendor accounts and are currently investigating this. As a precautionary measure, we are blocking access to all vendor roles including Admin, Manage vendor details, Manage vendor payment details, Manage add-on details, Manage add-on pricing, Manage promotions, View sales reports, View all other reports.",
+      "description": "We have identified an issue with multiple vendor accounts with accessing the Promotions tab on the vendor listing page, stopping the ability to create and manage promotions. We're currently investigating this.",
       "showcase": true,
       "start_date": null,
       "group_id": "d0m8l367qqw5",
@@ -654,7 +654,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
