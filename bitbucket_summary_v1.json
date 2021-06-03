@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-06-02T08:23:46.629Z"
+    "updated_at": "2021-06-03T20:23:32.567Z"
   },
   "components": [
     {
@@ -85,9 +85,9 @@
     {
       "id": "rfzky0v13fbp",
       "name": "Webhooks",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2015-07-29T01:37:04.511Z",
-      "updated_at": "2021-06-02T08:17:53.727Z",
+      "updated_at": "2021-06-03T19:46:27.198Z",
       "position": 7,
       "description": "The Bitbucket webhooks service",
       "showcase": false,
@@ -115,9 +115,9 @@
     {
       "id": "rzh2n85q7vtt",
       "name": "Pipelines",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2016-08-23T20:04:54.469Z",
-      "updated_at": "2021-06-02T08:17:53.750Z",
+      "updated_at": "2021-06-03T19:46:27.225Z",
       "position": 9,
       "description": "Continuous integration and delivery for Bitbucket repos",
       "showcase": false,
@@ -188,7 +188,81 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "xlj2gzn7m6vc",
+      "name": "Reports of webhooks and Pipelines builds being delayed",
+      "status": "investigating",
+      "created_at": "2021-06-03T19:46:27.142Z",
+      "updated_at": "2021-06-03T19:46:27.286Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/9wsk225436jz",
+      "started_at": "2021-06-03T19:46:27.131Z",
+      "page_id": "bqlf8qjztdtr",
+      "incident_updates": [
+        {
+          "id": "grwcfkd34zz7",
+          "status": "investigating",
+          "body": "We are investigating cases of degraded webhook and pipelines performance affecting some Atlassian Bitbucket Cloud customers. We have since scaled up our webhooks service and are monitoring customer impact. We have a team investigating the root cause and will provide updates via Statuspage as we learn more.",
+          "incident_id": "xlj2gzn7m6vc",
+          "created_at": "2021-06-03T19:46:27.283Z",
+          "updated_at": "2021-06-03T19:46:27.283Z",
+          "display_at": "2021-06-03T19:46:27.283Z",
+          "affected_components": [
+            {
+              "code": "rfzky0v13fbp",
+              "name": "Webhooks",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "rzh2n85q7vtt",
+              "name": "Pipelines",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "rzh2n85q7vtt",
+          "name": "Pipelines",
+          "status": "degraded_performance",
+          "created_at": "2016-08-23T20:04:54.469Z",
+          "updated_at": "2021-06-03T19:46:27.225Z",
+          "position": 9,
+          "description": "Continuous integration and delivery for Bitbucket repos",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "rfzky0v13fbp",
+          "name": "Webhooks",
+          "status": "degraded_performance",
+          "created_at": "2015-07-29T01:37:04.511Z",
+          "updated_at": "2021-06-03T19:46:27.198Z",
+          "position": 7,
+          "description": "The Bitbucket webhooks service",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [
     {
       "id": "6h7h5cj7fqlj",
@@ -252,9 +326,9 @@
         {
           "id": "rzh2n85q7vtt",
           "name": "Pipelines",
-          "status": "operational",
+          "status": "degraded_performance",
           "created_at": "2016-08-23T20:04:54.469Z",
-          "updated_at": "2021-06-02T08:17:53.750Z",
+          "updated_at": "2021-06-03T19:46:27.225Z",
           "position": 9,
           "description": "Continuous integration and delivery for Bitbucket repos",
           "showcase": false,
@@ -390,9 +464,9 @@
         {
           "id": "rzh2n85q7vtt",
           "name": "Pipelines",
-          "status": "operational",
+          "status": "degraded_performance",
           "created_at": "2016-08-23T20:04:54.469Z",
-          "updated_at": "2021-06-02T08:17:53.750Z",
+          "updated_at": "2021-06-03T19:46:27.225Z",
           "position": 9,
           "description": "Continuous integration and delivery for Bitbucket repos",
           "showcase": false,
@@ -528,9 +602,9 @@
         {
           "id": "rzh2n85q7vtt",
           "name": "Pipelines",
-          "status": "operational",
+          "status": "degraded_performance",
           "created_at": "2016-08-23T20:04:54.469Z",
-          "updated_at": "2021-06-02T08:17:53.750Z",
+          "updated_at": "2021-06-03T19:46:27.225Z",
           "position": 9,
           "description": "Continuous integration and delivery for Bitbucket repos",
           "showcase": false,
@@ -666,9 +740,9 @@
         {
           "id": "rzh2n85q7vtt",
           "name": "Pipelines",
-          "status": "operational",
+          "status": "degraded_performance",
           "created_at": "2016-08-23T20:04:54.469Z",
-          "updated_at": "2021-06-02T08:17:53.750Z",
+          "updated_at": "2021-06-03T19:46:27.225Z",
           "position": 9,
           "description": "Continuous integration and delivery for Bitbucket repos",
           "showcase": false,
@@ -804,9 +878,9 @@
         {
           "id": "rzh2n85q7vtt",
           "name": "Pipelines",
-          "status": "operational",
+          "status": "degraded_performance",
           "created_at": "2016-08-23T20:04:54.469Z",
-          "updated_at": "2021-06-02T08:17:53.750Z",
+          "updated_at": "2021-06-03T19:46:27.225Z",
           "position": 9,
           "description": "Continuous integration and delivery for Bitbucket repos",
           "showcase": false,
@@ -882,7 +956,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
