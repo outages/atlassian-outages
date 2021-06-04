@@ -4,15 +4,15 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-06-04T19:59:33.019Z"
+    "updated_at": "2021-06-04T21:00:35.464Z"
   },
   "components": [
     {
       "id": "g0lfj4sv2fhf",
       "name": "Website",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2013-09-26T03:34:27.377Z",
-      "updated_at": "2021-06-01T21:14:55.792Z",
+      "updated_at": "2021-06-04T21:00:33.765Z",
       "position": 1,
       "description": "Access to bitbucket.org",
       "showcase": false,
@@ -25,9 +25,9 @@
     {
       "id": "k0x2yw1435v7",
       "name": "API",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2015-06-05T19:34:43.541Z",
-      "updated_at": "2021-06-01T21:14:55.805Z",
+      "updated_at": "2021-06-04T21:00:33.799Z",
       "position": 2,
       "description": "Access to api.bitbucket.org",
       "showcase": false,
@@ -40,9 +40,9 @@
     {
       "id": "qmh4tj8h5kbn",
       "name": "SSH",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2013-10-10T17:45:00.679Z",
-      "updated_at": "2021-06-01T21:14:55.818Z",
+      "updated_at": "2021-06-04T21:00:33.828Z",
       "position": 3,
       "description": "Access to Git and Mercurial over SSH",
       "showcase": false,
@@ -70,9 +70,9 @@
     {
       "id": "c1qmcrcbc5zy",
       "name": "Git via HTTPS",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2013-09-26T03:33:27.652Z",
-      "updated_at": "2021-06-01T21:14:55.841Z",
+      "updated_at": "2021-06-04T21:00:33.864Z",
       "position": 5,
       "description": "Access to Git repositories via HTTPS",
       "showcase": false,
@@ -115,9 +115,9 @@
     {
       "id": "rzh2n85q7vtt",
       "name": "Pipelines",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2016-08-23T20:04:54.469Z",
-      "updated_at": "2021-06-04T16:18:42.490Z",
+      "updated_at": "2021-06-04T21:00:33.910Z",
       "position": 9,
       "description": "Continuous integration and delivery for Bitbucket repos",
       "showcase": false,
@@ -227,9 +227,9 @@
         {
           "id": "rzh2n85q7vtt",
           "name": "Pipelines",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2016-08-23T20:04:54.469Z",
-          "updated_at": "2021-06-04T16:18:42.490Z",
+          "updated_at": "2021-06-04T21:00:33.910Z",
           "position": 9,
           "description": "Continuous integration and delivery for Bitbucket repos",
           "showcase": false,
@@ -243,157 +243,6 @@
     }
   ],
   "scheduled_maintenances": [
-    {
-      "id": "6h7h5cj7fqlj",
-      "name": "Storage infrastructure maintenance - repositories briefly read-only",
-      "status": "scheduled",
-      "created_at": "2021-04-27T23:39:41.072Z",
-      "updated_at": "2021-06-04T19:59:32.894Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/0fztfn80m15s",
-      "started_at": "2021-04-27T23:39:41.066Z",
-      "page_id": "bqlf8qjztdtr",
-      "incident_updates": [
-        {
-          "id": "6vp6thdf2h4j",
-          "status": "scheduled",
-          "body": "Maintenance will begin as scheduled in 60 minutes.",
-          "incident_id": "6h7h5cj7fqlj",
-          "created_at": "2021-06-04T19:59:31.363Z",
-          "updated_at": "2021-06-04T19:59:32.890Z",
-          "display_at": "2021-06-04T19:59:31.363Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1400905077754269700
-        },
-        {
-          "id": "w8pjgbcv0s4p",
-          "status": "scheduled",
-          "body": "The Bitbucket team will be performing maintenance to improve our storage infrastructure. To minimize disruption, maintenance will be performed during weekends in May, June, and July 2021 (21:00 Friday - 23:00 Sunday UTC).\n\nA subset of repositories and snippets will be processed every weekend. Each individual repository/snippet will be in a read-only state for a period of time. An active repository/snippet will be read-only for up to 30 minutes. An inactive one will be read-only for up to 4 hours.\n\nWhile a repository/snippet is read-only, it cannot be modified via Bitbucket Cloud Services, including the Website, Git operations via SSH and HTTPS, API requests, and Pipelines. During this period, a git push will fail with the message “Repository is in read only mode.”\n\nAll services are expected to be back to normal after this maintenance is complete.",
-          "incident_id": "6h7h5cj7fqlj",
-          "created_at": "2021-04-27T23:39:41.119Z",
-          "updated_at": "2021-04-27T23:39:41.804Z",
-          "display_at": "2021-04-27T23:39:41.119Z",
-          "affected_components": [
-            {
-              "code": "c1qmcrcbc5zy",
-              "name": "Git via HTTPS",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "g0lfj4sv2fhf",
-              "name": "Website",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "qmh4tj8h5kbn",
-              "name": "SSH",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "k0x2yw1435v7",
-              "name": "API",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "rzh2n85q7vtt",
-              "name": "Pipelines",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1387189741154488300
-        }
-      ],
-      "components": [
-        {
-          "id": "rzh2n85q7vtt",
-          "name": "Pipelines",
-          "status": "operational",
-          "created_at": "2016-08-23T20:04:54.469Z",
-          "updated_at": "2021-06-04T16:18:42.490Z",
-          "position": 9,
-          "description": "Continuous integration and delivery for Bitbucket repos",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "bqlf8qjztdtr",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "c1qmcrcbc5zy",
-          "name": "Git via HTTPS",
-          "status": "operational",
-          "created_at": "2013-09-26T03:33:27.652Z",
-          "updated_at": "2021-06-01T21:14:55.841Z",
-          "position": 5,
-          "description": "Access to Git repositories via HTTPS",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "bqlf8qjztdtr",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "qmh4tj8h5kbn",
-          "name": "SSH",
-          "status": "operational",
-          "created_at": "2013-10-10T17:45:00.679Z",
-          "updated_at": "2021-06-01T21:14:55.818Z",
-          "position": 3,
-          "description": "Access to Git and Mercurial over SSH",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "bqlf8qjztdtr",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "k0x2yw1435v7",
-          "name": "API",
-          "status": "operational",
-          "created_at": "2015-06-05T19:34:43.541Z",
-          "updated_at": "2021-06-01T21:14:55.805Z",
-          "position": 2,
-          "description": "Access to api.bitbucket.org",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "bqlf8qjztdtr",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "g0lfj4sv2fhf",
-          "name": "Website",
-          "status": "operational",
-          "created_at": "2013-09-26T03:34:27.377Z",
-          "updated_at": "2021-06-01T21:14:55.792Z",
-          "position": 1,
-          "description": "Access to bitbucket.org",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "bqlf8qjztdtr",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2021-06-04T21:00:00.000Z",
-      "scheduled_until": "2021-06-06T23:00:00.000Z"
-    },
     {
       "id": "pb5k49cwvrzp",
       "name": "Storage infrastructure maintenance - repositories briefly read-only",
@@ -456,9 +305,9 @@
         {
           "id": "rzh2n85q7vtt",
           "name": "Pipelines",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2016-08-23T20:04:54.469Z",
-          "updated_at": "2021-06-04T16:18:42.490Z",
+          "updated_at": "2021-06-04T21:00:33.910Z",
           "position": 9,
           "description": "Continuous integration and delivery for Bitbucket repos",
           "showcase": false,
@@ -471,9 +320,9 @@
         {
           "id": "c1qmcrcbc5zy",
           "name": "Git via HTTPS",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2013-09-26T03:33:27.652Z",
-          "updated_at": "2021-06-01T21:14:55.841Z",
+          "updated_at": "2021-06-04T21:00:33.864Z",
           "position": 5,
           "description": "Access to Git repositories via HTTPS",
           "showcase": false,
@@ -486,9 +335,9 @@
         {
           "id": "qmh4tj8h5kbn",
           "name": "SSH",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2013-10-10T17:45:00.679Z",
-          "updated_at": "2021-06-01T21:14:55.818Z",
+          "updated_at": "2021-06-04T21:00:33.828Z",
           "position": 3,
           "description": "Access to Git and Mercurial over SSH",
           "showcase": false,
@@ -501,9 +350,9 @@
         {
           "id": "k0x2yw1435v7",
           "name": "API",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2015-06-05T19:34:43.541Z",
-          "updated_at": "2021-06-01T21:14:55.805Z",
+          "updated_at": "2021-06-04T21:00:33.799Z",
           "position": 2,
           "description": "Access to api.bitbucket.org",
           "showcase": false,
@@ -516,9 +365,9 @@
         {
           "id": "g0lfj4sv2fhf",
           "name": "Website",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2013-09-26T03:34:27.377Z",
-          "updated_at": "2021-06-01T21:14:55.792Z",
+          "updated_at": "2021-06-04T21:00:33.765Z",
           "position": 1,
           "description": "Access to bitbucket.org",
           "showcase": false,
@@ -594,9 +443,9 @@
         {
           "id": "rzh2n85q7vtt",
           "name": "Pipelines",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2016-08-23T20:04:54.469Z",
-          "updated_at": "2021-06-04T16:18:42.490Z",
+          "updated_at": "2021-06-04T21:00:33.910Z",
           "position": 9,
           "description": "Continuous integration and delivery for Bitbucket repos",
           "showcase": false,
@@ -609,9 +458,9 @@
         {
           "id": "c1qmcrcbc5zy",
           "name": "Git via HTTPS",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2013-09-26T03:33:27.652Z",
-          "updated_at": "2021-06-01T21:14:55.841Z",
+          "updated_at": "2021-06-04T21:00:33.864Z",
           "position": 5,
           "description": "Access to Git repositories via HTTPS",
           "showcase": false,
@@ -624,9 +473,9 @@
         {
           "id": "qmh4tj8h5kbn",
           "name": "SSH",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2013-10-10T17:45:00.679Z",
-          "updated_at": "2021-06-01T21:14:55.818Z",
+          "updated_at": "2021-06-04T21:00:33.828Z",
           "position": 3,
           "description": "Access to Git and Mercurial over SSH",
           "showcase": false,
@@ -639,9 +488,9 @@
         {
           "id": "k0x2yw1435v7",
           "name": "API",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2015-06-05T19:34:43.541Z",
-          "updated_at": "2021-06-01T21:14:55.805Z",
+          "updated_at": "2021-06-04T21:00:33.799Z",
           "position": 2,
           "description": "Access to api.bitbucket.org",
           "showcase": false,
@@ -654,9 +503,9 @@
         {
           "id": "g0lfj4sv2fhf",
           "name": "Website",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2013-09-26T03:34:27.377Z",
-          "updated_at": "2021-06-01T21:14:55.792Z",
+          "updated_at": "2021-06-04T21:00:33.765Z",
           "position": 1,
           "description": "Access to bitbucket.org",
           "showcase": false,
@@ -732,9 +581,9 @@
         {
           "id": "rzh2n85q7vtt",
           "name": "Pipelines",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2016-08-23T20:04:54.469Z",
-          "updated_at": "2021-06-04T16:18:42.490Z",
+          "updated_at": "2021-06-04T21:00:33.910Z",
           "position": 9,
           "description": "Continuous integration and delivery for Bitbucket repos",
           "showcase": false,
@@ -747,9 +596,9 @@
         {
           "id": "c1qmcrcbc5zy",
           "name": "Git via HTTPS",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2013-09-26T03:33:27.652Z",
-          "updated_at": "2021-06-01T21:14:55.841Z",
+          "updated_at": "2021-06-04T21:00:33.864Z",
           "position": 5,
           "description": "Access to Git repositories via HTTPS",
           "showcase": false,
@@ -762,9 +611,9 @@
         {
           "id": "qmh4tj8h5kbn",
           "name": "SSH",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2013-10-10T17:45:00.679Z",
-          "updated_at": "2021-06-01T21:14:55.818Z",
+          "updated_at": "2021-06-04T21:00:33.828Z",
           "position": 3,
           "description": "Access to Git and Mercurial over SSH",
           "showcase": false,
@@ -777,9 +626,9 @@
         {
           "id": "k0x2yw1435v7",
           "name": "API",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2015-06-05T19:34:43.541Z",
-          "updated_at": "2021-06-01T21:14:55.805Z",
+          "updated_at": "2021-06-04T21:00:33.799Z",
           "position": 2,
           "description": "Access to api.bitbucket.org",
           "showcase": false,
@@ -792,9 +641,9 @@
         {
           "id": "g0lfj4sv2fhf",
           "name": "Website",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2013-09-26T03:34:27.377Z",
-          "updated_at": "2021-06-01T21:14:55.792Z",
+          "updated_at": "2021-06-04T21:00:33.765Z",
           "position": 1,
           "description": "Access to bitbucket.org",
           "showcase": false,
@@ -870,9 +719,9 @@
         {
           "id": "rzh2n85q7vtt",
           "name": "Pipelines",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2016-08-23T20:04:54.469Z",
-          "updated_at": "2021-06-04T16:18:42.490Z",
+          "updated_at": "2021-06-04T21:00:33.910Z",
           "position": 9,
           "description": "Continuous integration and delivery for Bitbucket repos",
           "showcase": false,
@@ -885,9 +734,9 @@
         {
           "id": "c1qmcrcbc5zy",
           "name": "Git via HTTPS",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2013-09-26T03:33:27.652Z",
-          "updated_at": "2021-06-01T21:14:55.841Z",
+          "updated_at": "2021-06-04T21:00:33.864Z",
           "position": 5,
           "description": "Access to Git repositories via HTTPS",
           "showcase": false,
@@ -900,9 +749,9 @@
         {
           "id": "qmh4tj8h5kbn",
           "name": "SSH",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2013-10-10T17:45:00.679Z",
-          "updated_at": "2021-06-01T21:14:55.818Z",
+          "updated_at": "2021-06-04T21:00:33.828Z",
           "position": 3,
           "description": "Access to Git and Mercurial over SSH",
           "showcase": false,
@@ -915,9 +764,9 @@
         {
           "id": "k0x2yw1435v7",
           "name": "API",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2015-06-05T19:34:43.541Z",
-          "updated_at": "2021-06-01T21:14:55.805Z",
+          "updated_at": "2021-06-04T21:00:33.799Z",
           "position": 2,
           "description": "Access to api.bitbucket.org",
           "showcase": false,
@@ -930,9 +779,9 @@
         {
           "id": "g0lfj4sv2fhf",
           "name": "Website",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2013-09-26T03:34:27.377Z",
-          "updated_at": "2021-06-01T21:14:55.792Z",
+          "updated_at": "2021-06-04T21:00:33.765Z",
           "position": 1,
           "description": "Access to bitbucket.org",
           "showcase": false,
@@ -945,10 +794,205 @@
       ],
       "scheduled_for": "2021-07-09T21:00:00.000Z",
       "scheduled_until": "2021-07-11T23:00:00.000Z"
+    },
+    {
+      "id": "6h7h5cj7fqlj",
+      "name": "Storage infrastructure maintenance - repositories briefly read-only",
+      "status": "in_progress",
+      "created_at": "2021-04-27T23:39:41.072Z",
+      "updated_at": "2021-06-04T21:00:35.455Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/0fztfn80m15s",
+      "started_at": "2021-04-27T23:39:41.066Z",
+      "page_id": "bqlf8qjztdtr",
+      "incident_updates": [
+        {
+          "id": "dfxgjp9pr6md",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "6h7h5cj7fqlj",
+          "created_at": "2021-06-04T21:00:33.992Z",
+          "updated_at": "2021-06-04T21:00:35.451Z",
+          "display_at": "2021-06-04T21:00:33.992Z",
+          "affected_components": [
+            {
+              "code": "c1qmcrcbc5zy",
+              "name": "Git via HTTPS",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "g0lfj4sv2fhf",
+              "name": "Website",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "qmh4tj8h5kbn",
+              "name": "SSH",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "k0x2yw1435v7",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "rzh2n85q7vtt",
+              "name": "Pipelines",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1400920439665225700
+        },
+        {
+          "id": "6vp6thdf2h4j",
+          "status": "scheduled",
+          "body": "Maintenance will begin as scheduled in 60 minutes.",
+          "incident_id": "6h7h5cj7fqlj",
+          "created_at": "2021-06-04T19:59:31.363Z",
+          "updated_at": "2021-06-04T19:59:32.890Z",
+          "display_at": "2021-06-04T19:59:31.363Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1400905077754269700
+        },
+        {
+          "id": "w8pjgbcv0s4p",
+          "status": "scheduled",
+          "body": "The Bitbucket team will be performing maintenance to improve our storage infrastructure. To minimize disruption, maintenance will be performed during weekends in May, June, and July 2021 (21:00 Friday - 23:00 Sunday UTC).\n\nA subset of repositories and snippets will be processed every weekend. Each individual repository/snippet will be in a read-only state for a period of time. An active repository/snippet will be read-only for up to 30 minutes. An inactive one will be read-only for up to 4 hours.\n\nWhile a repository/snippet is read-only, it cannot be modified via Bitbucket Cloud Services, including the Website, Git operations via SSH and HTTPS, API requests, and Pipelines. During this period, a git push will fail with the message “Repository is in read only mode.”\n\nAll services are expected to be back to normal after this maintenance is complete.",
+          "incident_id": "6h7h5cj7fqlj",
+          "created_at": "2021-04-27T23:39:41.119Z",
+          "updated_at": "2021-04-27T23:39:41.804Z",
+          "display_at": "2021-04-27T23:39:41.119Z",
+          "affected_components": [
+            {
+              "code": "c1qmcrcbc5zy",
+              "name": "Git via HTTPS",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "g0lfj4sv2fhf",
+              "name": "Website",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "qmh4tj8h5kbn",
+              "name": "SSH",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "k0x2yw1435v7",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "rzh2n85q7vtt",
+              "name": "Pipelines",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1387189741154488300
+        }
+      ],
+      "components": [
+        {
+          "id": "rzh2n85q7vtt",
+          "name": "Pipelines",
+          "status": "under_maintenance",
+          "created_at": "2016-08-23T20:04:54.469Z",
+          "updated_at": "2021-06-04T21:00:33.910Z",
+          "position": 9,
+          "description": "Continuous integration and delivery for Bitbucket repos",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "c1qmcrcbc5zy",
+          "name": "Git via HTTPS",
+          "status": "under_maintenance",
+          "created_at": "2013-09-26T03:33:27.652Z",
+          "updated_at": "2021-06-04T21:00:33.864Z",
+          "position": 5,
+          "description": "Access to Git repositories via HTTPS",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "qmh4tj8h5kbn",
+          "name": "SSH",
+          "status": "under_maintenance",
+          "created_at": "2013-10-10T17:45:00.679Z",
+          "updated_at": "2021-06-04T21:00:33.828Z",
+          "position": 3,
+          "description": "Access to Git and Mercurial over SSH",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "k0x2yw1435v7",
+          "name": "API",
+          "status": "under_maintenance",
+          "created_at": "2015-06-05T19:34:43.541Z",
+          "updated_at": "2021-06-04T21:00:33.799Z",
+          "position": 2,
+          "description": "Access to api.bitbucket.org",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "g0lfj4sv2fhf",
+          "name": "Website",
+          "status": "under_maintenance",
+          "created_at": "2013-09-26T03:34:27.377Z",
+          "updated_at": "2021-06-04T21:00:33.765Z",
+          "position": 1,
+          "description": "Access to bitbucket.org",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2021-06-04T21:00:00.000Z",
+      "scheduled_until": "2021-06-06T23:00:00.000Z"
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
