@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-06-03T20:23:32.567Z"
+    "updated_at": "2021-06-04T00:14:22.319Z"
   },
   "components": [
     {
@@ -192,16 +192,42 @@
     {
       "id": "xlj2gzn7m6vc",
       "name": "Reports of webhooks and Pipelines builds being delayed",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2021-06-03T19:46:27.142Z",
-      "updated_at": "2021-06-03T19:46:27.286Z",
-      "monitoring_at": null,
+      "updated_at": "2021-06-04T00:14:22.317Z",
+      "monitoring_at": "2021-06-04T00:14:22.301Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/9wsk225436jz",
       "started_at": "2021-06-03T19:46:27.131Z",
       "page_id": "bqlf8qjztdtr",
       "incident_updates": [
+        {
+          "id": "3yk2wqwwx7mx",
+          "status": "monitoring",
+          "body": "We've made some changes to scaling and timeout behavior in our async event processing service and will continue to monitor.",
+          "incident_id": "xlj2gzn7m6vc",
+          "created_at": "2021-06-04T00:14:22.301Z",
+          "updated_at": "2021-06-04T00:14:22.301Z",
+          "display_at": "2021-06-04T00:14:22.301Z",
+          "affected_components": [
+            {
+              "code": "rfzky0v13fbp",
+              "name": "Webhooks",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "rzh2n85q7vtt",
+              "name": "Pipelines",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "grwcfkd34zz7",
           "status": "investigating",
