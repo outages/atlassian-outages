@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-06-08T14:30:58.969Z"
+    "updated_at": "2021-06-08T15:04:29.297Z"
   },
   "components": [
     {
@@ -70,9 +70,9 @@
     {
       "id": "c1qmcrcbc5zy",
       "name": "Git via HTTPS",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2013-09-26T03:33:27.652Z",
-      "updated_at": "2021-06-06T23:00:29.727Z",
+      "updated_at": "2021-06-08T15:04:28.645Z",
       "position": 5,
       "description": "Access to Git repositories via HTTPS",
       "showcase": false,
@@ -192,9 +192,9 @@
     {
       "id": "f7xyn7ygcv0b",
       "name": "Git operations over SSH are slow",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2021-06-08T14:30:56.394Z",
-      "updated_at": "2021-06-08T14:30:58.958Z",
+      "updated_at": "2021-06-08T15:04:29.293Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -202,6 +202,32 @@
       "started_at": "2021-06-08T14:30:56.387Z",
       "page_id": "bqlf8qjztdtr",
       "incident_updates": [
+        {
+          "id": "zhwrn6qszlmn",
+          "status": "identified",
+          "body": "We have identified a bottleneck in our infrastructure that causing slowness for Git operations over both SSH and HTTPS. We are working to mitigate the issue and will continue to provide updates as we make progress.",
+          "incident_id": "f7xyn7ygcv0b",
+          "created_at": "2021-06-08T15:04:28.681Z",
+          "updated_at": "2021-06-08T15:04:29.291Z",
+          "display_at": "2021-06-08T15:04:28.681Z",
+          "affected_components": [
+            {
+              "code": "c1qmcrcbc5zy",
+              "name": "Git via HTTPS",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "qmh4tj8h5kbn",
+              "name": "SSH",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1402280374944747500
+        },
         {
           "id": "sst3p8dsv063",
           "status": "investigating",
@@ -224,6 +250,21 @@
         }
       ],
       "components": [
+        {
+          "id": "c1qmcrcbc5zy",
+          "name": "Git via HTTPS",
+          "status": "degraded_performance",
+          "created_at": "2013-09-26T03:33:27.652Z",
+          "updated_at": "2021-06-08T15:04:28.645Z",
+          "position": 5,
+          "description": "Access to Git repositories via HTTPS",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        },
         {
           "id": "qmh4tj8h5kbn",
           "name": "SSH",
@@ -372,9 +413,9 @@
         {
           "id": "c1qmcrcbc5zy",
           "name": "Git via HTTPS",
-          "status": "operational",
+          "status": "degraded_performance",
           "created_at": "2013-09-26T03:33:27.652Z",
-          "updated_at": "2021-06-06T23:00:29.727Z",
+          "updated_at": "2021-06-08T15:04:28.645Z",
           "position": 5,
           "description": "Access to Git repositories via HTTPS",
           "showcase": false,
@@ -510,9 +551,9 @@
         {
           "id": "c1qmcrcbc5zy",
           "name": "Git via HTTPS",
-          "status": "operational",
+          "status": "degraded_performance",
           "created_at": "2013-09-26T03:33:27.652Z",
-          "updated_at": "2021-06-06T23:00:29.727Z",
+          "updated_at": "2021-06-08T15:04:28.645Z",
           "position": 5,
           "description": "Access to Git repositories via HTTPS",
           "showcase": false,
@@ -648,9 +689,9 @@
         {
           "id": "c1qmcrcbc5zy",
           "name": "Git via HTTPS",
-          "status": "operational",
+          "status": "degraded_performance",
           "created_at": "2013-09-26T03:33:27.652Z",
-          "updated_at": "2021-06-06T23:00:29.727Z",
+          "updated_at": "2021-06-08T15:04:28.645Z",
           "position": 5,
           "description": "Access to Git repositories via HTTPS",
           "showcase": false,
@@ -786,9 +827,9 @@
         {
           "id": "c1qmcrcbc5zy",
           "name": "Git via HTTPS",
-          "status": "operational",
+          "status": "degraded_performance",
           "created_at": "2013-09-26T03:33:27.652Z",
-          "updated_at": "2021-06-06T23:00:29.727Z",
+          "updated_at": "2021-06-08T15:04:28.645Z",
           "position": 5,
           "description": "Access to Git repositories via HTTPS",
           "showcase": false,
