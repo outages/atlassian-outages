@@ -4,15 +4,15 @@
     "name": "Atlassian Access",
     "url": "https://access.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-06-08T23:30:04.554Z"
+    "updated_at": "2021-06-09T00:36:32.652Z"
   },
   "components": [
     {
       "id": "hqd5zdvzh5g1",
       "name": "Domain Claims",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2019-05-03T02:39:58.947Z",
-      "updated_at": "2021-06-08T23:30:03.426Z",
+      "updated_at": "2021-06-09T00:36:32.540Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -25,9 +25,9 @@
     {
       "id": "vwb63rvhtqjn",
       "name": "SAML-based SSO",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2019-05-03T02:40:16.879Z",
-      "updated_at": "2021-06-08T23:30:03.570Z",
+      "updated_at": "2021-06-09T00:36:32.553Z",
       "position": 4,
       "description": null,
       "showcase": false,
@@ -40,9 +40,9 @@
     {
       "id": "n6qsfr329pzh",
       "name": "User Provisioning",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2019-05-03T02:40:35.269Z",
-      "updated_at": "2021-06-08T23:30:03.696Z",
+      "updated_at": "2021-06-09T00:36:32.566Z",
       "position": 5,
       "description": null,
       "showcase": false,
@@ -55,9 +55,9 @@
     {
       "id": "b8gbm56ptvw5",
       "name": "Account Management",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2019-05-03T02:41:07.946Z",
-      "updated_at": "2021-06-08T23:30:03.826Z",
+      "updated_at": "2021-06-09T00:36:32.578Z",
       "position": 6,
       "description": null,
       "showcase": false,
@@ -70,9 +70,9 @@
     {
       "id": "yf230szk5s8s",
       "name": "Audit Logs",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2019-05-03T02:42:05.988Z",
-      "updated_at": "2021-06-08T23:30:04.006Z",
+      "updated_at": "2021-06-09T00:36:32.590Z",
       "position": 7,
       "description": null,
       "showcase": false,
@@ -85,9 +85,9 @@
     {
       "id": "856c2dpnfnzq",
       "name": "Signup",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2020-10-09T20:38:53.790Z",
-      "updated_at": "2021-06-08T23:30:04.155Z",
+      "updated_at": "2021-06-09T00:36:32.604Z",
       "position": 8,
       "description": null,
       "showcase": false,
@@ -99,282 +99,9 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "cnn5m8dc0wcp",
-      "name": "Access infrastructure maintenance",
-      "status": "in_progress",
-      "created_at": "2021-06-08T21:46:54.187Z",
-      "updated_at": "2021-06-08T23:30:04.545Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/23ltjhg3mjxs",
-      "started_at": "2021-06-08T21:46:54.177Z",
-      "page_id": "5qmgwsxwsz78",
-      "incident_updates": [
-        {
-          "id": "8q5nccwj13g5",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "cnn5m8dc0wcp",
-          "created_at": "2021-06-08T23:30:04.542Z",
-          "updated_at": "2021-06-08T23:30:04.542Z",
-          "display_at": "2021-06-08T23:30:04.542Z",
-          "affected_components": [
-            {
-              "code": "hqd5zdvzh5g1",
-              "name": "Domain Claims",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "vwb63rvhtqjn",
-              "name": "SAML-based SSO",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "n6qsfr329pzh",
-              "name": "User Provisioning",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "b8gbm56ptvw5",
-              "name": "Account Management",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "yf230szk5s8s",
-              "name": "Audit Logs",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "856c2dpnfnzq",
-              "name": "Signup",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "cfj7qjrms0cg",
-          "status": "scheduled",
-          "body": "Maintenance will begin as scheduled in 60 minutes.",
-          "incident_id": "cnn5m8dc0wcp",
-          "created_at": "2021-06-08T22:29:30.719Z",
-          "updated_at": "2021-06-08T22:29:30.719Z",
-          "display_at": "2021-06-08T22:29:30.719Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "4x3xf9nz9thw",
-          "status": "scheduled",
-          "body": "We will be undergoing scheduled maintenance during this time.",
-          "incident_id": "cnn5m8dc0wcp",
-          "created_at": "2021-06-08T21:49:05.232Z",
-          "updated_at": "2021-06-08T21:49:05.232Z",
-          "display_at": "2021-06-08T21:49:05.232Z",
-          "affected_components": [
-            {
-              "code": "hqd5zdvzh5g1",
-              "name": "Domain Claims",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "vwb63rvhtqjn",
-              "name": "SAML-based SSO",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "n6qsfr329pzh",
-              "name": "User Provisioning",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "b8gbm56ptvw5",
-              "name": "Account Management",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "yf230szk5s8s",
-              "name": "Audit Logs",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "856c2dpnfnzq",
-              "name": "Signup",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "3rt6bq3v7mns",
-          "status": "scheduled",
-          "body": "Between June 8 23:30 UTC and June 9 00:00 UTC, we will be performing some critical infrastructure maintenance. During this time, users may not be able to log in to their cloud products. Additionally, admins may not be able to:\n-  set up user provisioning\n-  view or edit managed accounts\n-  view existing domains \n-  claim new domains",
-          "incident_id": "cnn5m8dc0wcp",
-          "created_at": "2021-06-08T21:46:54.342Z",
-          "updated_at": "2021-06-08T21:48:55.706Z",
-          "display_at": "2021-06-08T21:46:54.342Z",
-          "affected_components": [
-            {
-              "code": "hqd5zdvzh5g1",
-              "name": "Domain Claims",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "vwb63rvhtqjn",
-              "name": "SAML-based SSO",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "n6qsfr329pzh",
-              "name": "User Provisioning",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "b8gbm56ptvw5",
-              "name": "Account Management",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "yf230szk5s8s",
-              "name": "Audit Logs",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "856c2dpnfnzq",
-              "name": "Signup",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "856c2dpnfnzq",
-          "name": "Signup",
-          "status": "under_maintenance",
-          "created_at": "2020-10-09T20:38:53.790Z",
-          "updated_at": "2021-06-08T23:30:04.155Z",
-          "position": 8,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-10-09",
-          "group_id": null,
-          "page_id": "5qmgwsxwsz78",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "yf230szk5s8s",
-          "name": "Audit Logs",
-          "status": "under_maintenance",
-          "created_at": "2019-05-03T02:42:05.988Z",
-          "updated_at": "2021-06-08T23:30:04.006Z",
-          "position": 7,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "5qmgwsxwsz78",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "b8gbm56ptvw5",
-          "name": "Account Management",
-          "status": "under_maintenance",
-          "created_at": "2019-05-03T02:41:07.946Z",
-          "updated_at": "2021-06-08T23:30:03.826Z",
-          "position": 6,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "5qmgwsxwsz78",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "n6qsfr329pzh",
-          "name": "User Provisioning",
-          "status": "under_maintenance",
-          "created_at": "2019-05-03T02:40:35.269Z",
-          "updated_at": "2021-06-08T23:30:03.696Z",
-          "position": 5,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "5qmgwsxwsz78",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "vwb63rvhtqjn",
-          "name": "SAML-based SSO",
-          "status": "under_maintenance",
-          "created_at": "2019-05-03T02:40:16.879Z",
-          "updated_at": "2021-06-08T23:30:03.570Z",
-          "position": 4,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "5qmgwsxwsz78",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "hqd5zdvzh5g1",
-          "name": "Domain Claims",
-          "status": "under_maintenance",
-          "created_at": "2019-05-03T02:39:58.947Z",
-          "updated_at": "2021-06-08T23:30:03.426Z",
-          "position": 3,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "5qmgwsxwsz78",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2021-06-08T23:30:00.000Z",
-      "scheduled_until": "2021-06-09T00:00:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
