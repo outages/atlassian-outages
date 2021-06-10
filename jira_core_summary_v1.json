@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-06-10T14:44:33.569Z"
+    "updated_at": "2021-06-10T15:44:09.534Z"
   },
   "components": [
     {
@@ -173,37 +173,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "2279pt9lny1t",
-      "name": "Problem logging time in issues where time has been previously logged and user language is not English",
-      "status": "identified",
-      "created_at": "2021-06-10T14:44:23.545Z",
-      "updated_at": "2021-06-10T14:44:33.566Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/3qyktxsr3cjj",
-      "started_at": "2021-06-10T14:44:23.538Z",
-      "page_id": "s6f0gm5gcpmy",
-      "incident_updates": [
-        {
-          "id": "zfctwj9k49lp",
-          "status": "identified",
-          "body": "We identified a problem in logging time by a user who has a language set to anything other than English. It has been observed that the save option is disabled for issues where time has been previously tracked. The incident has been identified and we are in the process of fixing it.",
-          "incident_id": "2279pt9lny1t",
-          "created_at": "2021-06-10T14:44:23.578Z",
-          "updated_at": "2021-06-10T14:44:23.578Z",
-          "display_at": "2021-06-10T14:44:23.578Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": []
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [
     {
       "id": "9q8q0br6d26c",
