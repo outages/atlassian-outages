@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-06-10T04:51:13.543Z"
+    "updated_at": "2021-06-10T05:39:37.561Z"
   },
   "components": [
     {
@@ -248,21 +248,21 @@
       "name": "Storage infrastructure maintenance - repositories briefly read-only",
       "status": "scheduled",
       "created_at": "2021-04-27T23:42:06.612Z",
-      "updated_at": "2021-06-09T21:57:33.433Z",
+      "updated_at": "2021-06-10T05:23:29.636Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
       "shortlink": "https://stspg.io/16x8g7s1qd2d",
-      "started_at": "2021-04-27T23:42:06.604Z",
+      "started_at": "2021-04-27T23:42:06.694Z",
       "page_id": "bqlf8qjztdtr",
       "incident_updates": [
         {
           "id": "sw1c3brrfl9y",
           "status": "scheduled",
-          "body": "The Bitbucket team will be performing maintenance to improve our storage infrastructure. To minimize disruption, maintenance will be performed during weekends in May, June, and July 2021 (20:00 Friday - 23:00 Sunday UTC).\n\nA subset of repositories and snippets will be processed every weekend. Each individual repository/snippet will be in a read-only state for a period of time. An active repository/snippet will be read-only for up to 30 minutes. An inactive one will be read-only for up to 4 hours.\n\nWhile a repository/snippet is read-only, it cannot be modified via Bitbucket Cloud Services, including the Website, Git operations via SSH and HTTPS, API requests, and Pipelines. During this period, a git push will fail with the message “Repository is in read only mode.”\n\nAll services are expected to be back to normal after this maintenance is complete.",
+          "body": "The Bitbucket team will be performing maintenance to improve our storage infrastructure. To minimize disruption, maintenance will be performed during weekends in June - August 2021 (20:00 Friday - 23:00 Sunday UTC).\n\nA subset of repositories and snippets will be processed every weekend. Each individual repository/snippet will be in a read-only state for a period of time. An active repository/snippet will be read-only for up to 30 minutes. An inactive one will be read-only for up to 4 hours.\n\nWhile a repository/snippet is read-only, it cannot be modified via Bitbucket Cloud Services, including the Website, Git operations via SSH and HTTPS, API requests, and Pipelines. During this period, a git push will fail with the message “Repository is in read only mode.”\n\nAll services are expected to be back to normal after this maintenance is complete.",
           "incident_id": "pjjbc0my5qjl",
           "created_at": "2021-04-27T23:42:06.694Z",
-          "updated_at": "2021-06-09T21:57:23.650Z",
+          "updated_at": "2021-06-10T05:23:29.508Z",
           "display_at": "2021-04-27T23:42:06.694Z",
           "affected_components": [
             {
@@ -386,21 +386,21 @@
       "name": "Storage infrastructure maintenance - repositories briefly read-only",
       "status": "scheduled",
       "created_at": "2021-04-27T23:43:00.093Z",
-      "updated_at": "2021-06-09T21:58:30.065Z",
+      "updated_at": "2021-06-10T05:23:51.860Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
       "shortlink": "https://stspg.io/bl79m3dkxwv8",
-      "started_at": "2021-04-27T23:43:00.086Z",
+      "started_at": "2021-04-27T23:43:00.135Z",
       "page_id": "bqlf8qjztdtr",
       "incident_updates": [
         {
           "id": "60dflznchn29",
           "status": "scheduled",
-          "body": "The Bitbucket team will be performing maintenance to improve our storage infrastructure. To minimize disruption, maintenance will be performed during weekends in May, June, and July 2021 (20:00 Friday - 23:00 Sunday UTC).\n\nA subset of repositories and snippets will be processed every weekend. Each individual repository/snippet will be in a read-only state for a period of time. An active repository/snippet will be read-only for up to 30 minutes. An inactive one will be read-only for up to 4 hours.\n\nWhile a repository/snippet is read-only, it cannot be modified via Bitbucket Cloud Services, including the Website, Git operations via SSH and HTTPS, API requests, and Pipelines. During this period, a git push will fail with the message “Repository is in read only mode.”\n\nAll services are expected to be back to normal after this maintenance is complete.",
+          "body": "The Bitbucket team will be performing maintenance to improve our storage infrastructure. To minimize disruption, maintenance will be performed during weekends in June - August 2021 (20:00 Friday - 23:00 Sunday UTC).\n\nA subset of repositories and snippets will be processed every weekend. Each individual repository/snippet will be in a read-only state for a period of time. An active repository/snippet will be read-only for up to 30 minutes. An inactive one will be read-only for up to 4 hours.\n\nWhile a repository/snippet is read-only, it cannot be modified via Bitbucket Cloud Services, including the Website, Git operations via SSH and HTTPS, API requests, and Pipelines. During this period, a git push will fail with the message “Repository is in read only mode.”\n\nAll services are expected to be back to normal after this maintenance is complete.",
           "incident_id": "0rlg143mghrn",
           "created_at": "2021-04-27T23:43:00.135Z",
-          "updated_at": "2021-06-09T21:58:21.712Z",
+          "updated_at": "2021-06-10T05:23:51.757Z",
           "display_at": "2021-04-27T23:43:00.135Z",
           "affected_components": [
             {
@@ -524,7 +524,7 @@
       "name": "Storage infrastructure maintenance - repositories briefly read-only",
       "status": "scheduled",
       "created_at": "2021-06-10T04:46:53.978Z",
-      "updated_at": "2021-06-10T04:46:54.474Z",
+      "updated_at": "2021-06-10T05:23:56.483Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -535,10 +535,10 @@
         {
           "id": "zc8vk3bry4jl",
           "status": "scheduled",
-          "body": "The Bitbucket team will be performing maintenance to improve our storage infrastructure. To minimize disruption, maintenance will be performed during weekends in May, June, and July 2021 (20:00 Friday - 23:00 Sunday UTC).\n\nA subset of repositories and snippets will be processed every weekend. Each individual repository/snippet will be in a read-only state for a period of time. An active repository/snippet will be read-only for up to 30 minutes. An inactive one will be read-only for up to 4 hours.\n\nWhile a repository/snippet is read-only, it cannot be modified via Bitbucket Cloud Services, including the Website, Git operations via SSH and HTTPS, API requests, and Pipelines. During this period, a git push will fail with the message “Repository is in read only mode.”\n\nAll services are expected to be back to normal after this maintenance is complete.",
+          "body": "The Bitbucket team will be performing maintenance to improve our storage infrastructure. To minimize disruption, maintenance will be performed during weekends in June - August 2021 (20:00 Friday - 23:00 Sunday UTC).\n\nA subset of repositories and snippets will be processed every weekend. Each individual repository/snippet will be in a read-only state for a period of time. An active repository/snippet will be read-only for up to 30 minutes. An inactive one will be read-only for up to 4 hours.\n\nWhile a repository/snippet is read-only, it cannot be modified via Bitbucket Cloud Services, including the Website, Git operations via SSH and HTTPS, API requests, and Pipelines. During this period, a git push will fail with the message “Repository is in read only mode.”\n\nAll services are expected to be back to normal after this maintenance is complete.",
           "incident_id": "zg0ldfpjhs9m",
           "created_at": "2021-06-10T04:46:54.048Z",
-          "updated_at": "2021-06-10T04:46:54.470Z",
+          "updated_at": "2021-06-10T05:23:56.477Z",
           "display_at": "2021-06-10T04:46:54.048Z",
           "affected_components": [
             {
@@ -662,7 +662,7 @@
       "name": "Storage infrastructure maintenance - repositories briefly read-only",
       "status": "scheduled",
       "created_at": "2021-06-10T04:47:47.728Z",
-      "updated_at": "2021-06-10T04:47:48.290Z",
+      "updated_at": "2021-06-10T05:24:01.124Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -673,10 +673,10 @@
         {
           "id": "80dlbg1wrfwf",
           "status": "scheduled",
-          "body": "The Bitbucket team will be performing maintenance to improve our storage infrastructure. To minimize disruption, maintenance will be performed during weekends in May, June, and July 2021 (20:00 Friday - 23:00 Sunday UTC).\n\nA subset of repositories and snippets will be processed every weekend. Each individual repository/snippet will be in a read-only state for a period of time. An active repository/snippet will be read-only for up to 30 minutes. An inactive one will be read-only for up to 4 hours.\n\nWhile a repository/snippet is read-only, it cannot be modified via Bitbucket Cloud Services, including the Website, Git operations via SSH and HTTPS, API requests, and Pipelines. During this period, a git push will fail with the message “Repository is in read only mode.”\n\nAll services are expected to be back to normal after this maintenance is complete.",
+          "body": "The Bitbucket team will be performing maintenance to improve our storage infrastructure. To minimize disruption, maintenance will be performed during weekends in June - August 2021 (20:00 Friday - 23:00 Sunday UTC).\n\nA subset of repositories and snippets will be processed every weekend. Each individual repository/snippet will be in a read-only state for a period of time. An active repository/snippet will be read-only for up to 30 minutes. An inactive one will be read-only for up to 4 hours.\n\nWhile a repository/snippet is read-only, it cannot be modified via Bitbucket Cloud Services, including the Website, Git operations via SSH and HTTPS, API requests, and Pipelines. During this period, a git push will fail with the message “Repository is in read only mode.”\n\nAll services are expected to be back to normal after this maintenance is complete.",
           "incident_id": "gkrxk4lvvvlj",
           "created_at": "2021-06-10T04:47:47.789Z",
-          "updated_at": "2021-06-10T04:47:48.285Z",
+          "updated_at": "2021-06-10T05:24:01.121Z",
           "display_at": "2021-06-10T04:47:47.789Z",
           "affected_components": [
             {
@@ -800,7 +800,7 @@
       "name": "Storage infrastructure maintenance - repositories briefly read-only",
       "status": "scheduled",
       "created_at": "2021-06-10T04:48:30.962Z",
-      "updated_at": "2021-06-10T04:48:31.806Z",
+      "updated_at": "2021-06-10T05:24:05.472Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -811,10 +811,10 @@
         {
           "id": "744ttdt5gx7k",
           "status": "scheduled",
-          "body": "The Bitbucket team will be performing maintenance to improve our storage infrastructure. To minimize disruption, maintenance will be performed during weekends in May, June, and July 2021 (20:00 Friday - 23:00 Sunday UTC).\n\nA subset of repositories and snippets will be processed every weekend. Each individual repository/snippet will be in a read-only state for a period of time. An active repository/snippet will be read-only for up to 30 minutes. An inactive one will be read-only for up to 4 hours.\n\nWhile a repository/snippet is read-only, it cannot be modified via Bitbucket Cloud Services, including the Website, Git operations via SSH and HTTPS, API requests, and Pipelines. During this period, a git push will fail with the message “Repository is in read only mode.”\n\nAll services are expected to be back to normal after this maintenance is complete.",
+          "body": "The Bitbucket team will be performing maintenance to improve our storage infrastructure. To minimize disruption, maintenance will be performed during weekends in June - August 2021 (20:00 Friday - 23:00 Sunday UTC).\n\nA subset of repositories and snippets will be processed every weekend. Each individual repository/snippet will be in a read-only state for a period of time. An active repository/snippet will be read-only for up to 30 minutes. An inactive one will be read-only for up to 4 hours.\n\nWhile a repository/snippet is read-only, it cannot be modified via Bitbucket Cloud Services, including the Website, Git operations via SSH and HTTPS, API requests, and Pipelines. During this period, a git push will fail with the message “Repository is in read only mode.”\n\nAll services are expected to be back to normal after this maintenance is complete.",
           "incident_id": "sqgh32jj4p3g",
           "created_at": "2021-06-10T04:48:31.018Z",
-          "updated_at": "2021-06-10T04:48:31.802Z",
+          "updated_at": "2021-06-10T05:24:05.469Z",
           "display_at": "2021-06-10T04:48:31.018Z",
           "affected_components": [
             {
@@ -938,7 +938,7 @@
       "name": "Storage infrastructure maintenance - repositories briefly read-only",
       "status": "scheduled",
       "created_at": "2021-06-10T04:49:13.600Z",
-      "updated_at": "2021-06-10T04:49:14.277Z",
+      "updated_at": "2021-06-10T05:24:10.812Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -949,10 +949,10 @@
         {
           "id": "08ts526gg4xq",
           "status": "scheduled",
-          "body": "The Bitbucket team will be performing maintenance to improve our storage infrastructure. To minimize disruption, maintenance will be performed during weekends in May, June, and July 2021 (20:00 Friday - 23:00 Sunday UTC).\n\nA subset of repositories and snippets will be processed every weekend. Each individual repository/snippet will be in a read-only state for a period of time. An active repository/snippet will be read-only for up to 30 minutes. An inactive one will be read-only for up to 4 hours.\n\nWhile a repository/snippet is read-only, it cannot be modified via Bitbucket Cloud Services, including the Website, Git operations via SSH and HTTPS, API requests, and Pipelines. During this period, a git push will fail with the message “Repository is in read only mode.”\n\nAll services are expected to be back to normal after this maintenance is complete.",
+          "body": "The Bitbucket team will be performing maintenance to improve our storage infrastructure. To minimize disruption, maintenance will be performed during weekends in June - August 2021 (20:00 Friday - 23:00 Sunday UTC).\n\nA subset of repositories and snippets will be processed every weekend. Each individual repository/snippet will be in a read-only state for a period of time. An active repository/snippet will be read-only for up to 30 minutes. An inactive one will be read-only for up to 4 hours.\n\nWhile a repository/snippet is read-only, it cannot be modified via Bitbucket Cloud Services, including the Website, Git operations via SSH and HTTPS, API requests, and Pipelines. During this period, a git push will fail with the message “Repository is in read only mode.”\n\nAll services are expected to be back to normal after this maintenance is complete.",
           "incident_id": "rdmcy589gqv7",
           "created_at": "2021-06-10T04:49:13.687Z",
-          "updated_at": "2021-06-10T04:49:14.273Z",
+          "updated_at": "2021-06-10T05:24:10.809Z",
           "display_at": "2021-06-10T04:49:13.687Z",
           "affected_components": [
             {
@@ -1076,7 +1076,7 @@
       "name": "Storage infrastructure maintenance - repositories briefly read-only",
       "status": "scheduled",
       "created_at": "2021-06-10T04:49:57.801Z",
-      "updated_at": "2021-06-10T04:50:00.274Z",
+      "updated_at": "2021-06-10T05:24:15.002Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -1087,10 +1087,10 @@
         {
           "id": "03y8hdyx6y5s",
           "status": "scheduled",
-          "body": "The Bitbucket team will be performing maintenance to improve our storage infrastructure. To minimize disruption, maintenance will be performed during weekends in May, June, and July 2021 (20:00 Friday - 23:00 Sunday UTC).\n\nA subset of repositories and snippets will be processed every weekend. Each individual repository/snippet will be in a read-only state for a period of time. An active repository/snippet will be read-only for up to 30 minutes. An inactive one will be read-only for up to 4 hours.\n\nWhile a repository/snippet is read-only, it cannot be modified via Bitbucket Cloud Services, including the Website, Git operations via SSH and HTTPS, API requests, and Pipelines. During this period, a git push will fail with the message “Repository is in read only mode.”\n\nAll services are expected to be back to normal after this maintenance is complete.",
+          "body": "The Bitbucket team will be performing maintenance to improve our storage infrastructure. To minimize disruption, maintenance will be performed during weekends in June - August 2021 (20:00 Friday - 23:00 Sunday UTC).\n\nA subset of repositories and snippets will be processed every weekend. Each individual repository/snippet will be in a read-only state for a period of time. An active repository/snippet will be read-only for up to 30 minutes. An inactive one will be read-only for up to 4 hours.\n\nWhile a repository/snippet is read-only, it cannot be modified via Bitbucket Cloud Services, including the Website, Git operations via SSH and HTTPS, API requests, and Pipelines. During this period, a git push will fail with the message “Repository is in read only mode.”\n\nAll services are expected to be back to normal after this maintenance is complete.",
           "incident_id": "z72kjd8vdwyc",
           "created_at": "2021-06-10T04:49:57.871Z",
-          "updated_at": "2021-06-10T04:50:00.269Z",
+          "updated_at": "2021-06-10T05:24:14.999Z",
           "display_at": "2021-06-10T04:49:57.871Z",
           "affected_components": [
             {
@@ -1214,7 +1214,7 @@
       "name": "Storage infrastructure maintenance - repositories briefly read-only",
       "status": "scheduled",
       "created_at": "2021-06-10T04:50:36.417Z",
-      "updated_at": "2021-06-10T04:50:37.291Z",
+      "updated_at": "2021-06-10T05:24:19.926Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -1225,10 +1225,10 @@
         {
           "id": "xpj4681f0j9k",
           "status": "scheduled",
-          "body": "The Bitbucket team will be performing maintenance to improve our storage infrastructure. To minimize disruption, maintenance will be performed during weekends in May, June, and July 2021 (20:00 Friday - 23:00 Sunday UTC).\n\nA subset of repositories and snippets will be processed every weekend. Each individual repository/snippet will be in a read-only state for a period of time. An active repository/snippet will be read-only for up to 30 minutes. An inactive one will be read-only for up to 4 hours.\n\nWhile a repository/snippet is read-only, it cannot be modified via Bitbucket Cloud Services, including the Website, Git operations via SSH and HTTPS, API requests, and Pipelines. During this period, a git push will fail with the message “Repository is in read only mode.”\n\nAll services are expected to be back to normal after this maintenance is complete.",
+          "body": "The Bitbucket team will be performing maintenance to improve our storage infrastructure. To minimize disruption, maintenance will be performed during weekends in June - August 2021 (20:00 Friday - 23:00 Sunday UTC).\n\nA subset of repositories and snippets will be processed every weekend. Each individual repository/snippet will be in a read-only state for a period of time. An active repository/snippet will be read-only for up to 30 minutes. An inactive one will be read-only for up to 4 hours.\n\nWhile a repository/snippet is read-only, it cannot be modified via Bitbucket Cloud Services, including the Website, Git operations via SSH and HTTPS, API requests, and Pipelines. During this period, a git push will fail with the message “Repository is in read only mode.”\n\nAll services are expected to be back to normal after this maintenance is complete.",
           "incident_id": "y36w3tnjrn87",
           "created_at": "2021-06-10T04:50:36.504Z",
-          "updated_at": "2021-06-10T04:50:37.288Z",
+          "updated_at": "2021-06-10T05:24:19.923Z",
           "display_at": "2021-06-10T04:50:36.504Z",
           "affected_components": [
             {
@@ -1352,7 +1352,7 @@
       "name": "Storage infrastructure maintenance - repositories briefly read-only",
       "status": "scheduled",
       "created_at": "2021-06-10T04:51:12.808Z",
-      "updated_at": "2021-06-10T04:51:13.537Z",
+      "updated_at": "2021-06-10T05:24:23.898Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -1363,10 +1363,10 @@
         {
           "id": "dt5d87vsf1rq",
           "status": "scheduled",
-          "body": "The Bitbucket team will be performing maintenance to improve our storage infrastructure. To minimize disruption, maintenance will be performed during weekends in May, June, and July 2021 (20:00 Friday - 23:00 Sunday UTC).\n\nA subset of repositories and snippets will be processed every weekend. Each individual repository/snippet will be in a read-only state for a period of time. An active repository/snippet will be read-only for up to 30 minutes. An inactive one will be read-only for up to 4 hours.\n\nWhile a repository/snippet is read-only, it cannot be modified via Bitbucket Cloud Services, including the Website, Git operations via SSH and HTTPS, API requests, and Pipelines. During this period, a git push will fail with the message “Repository is in read only mode.”\n\nAll services are expected to be back to normal after this maintenance is complete.",
+          "body": "The Bitbucket team will be performing maintenance to improve our storage infrastructure. To minimize disruption, maintenance will be performed during weekends in June - August 2021 (20:00 Friday - 23:00 Sunday UTC).\n\nA subset of repositories and snippets will be processed every weekend. Each individual repository/snippet will be in a read-only state for a period of time. An active repository/snippet will be read-only for up to 30 minutes. An inactive one will be read-only for up to 4 hours.\n\nWhile a repository/snippet is read-only, it cannot be modified via Bitbucket Cloud Services, including the Website, Git operations via SSH and HTTPS, API requests, and Pipelines. During this period, a git push will fail with the message “Repository is in read only mode.”\n\nAll services are expected to be back to normal after this maintenance is complete.",
           "incident_id": "hswkmf1jr4ff",
           "created_at": "2021-06-10T04:51:12.888Z",
-          "updated_at": "2021-06-10T04:51:13.534Z",
+          "updated_at": "2021-06-10T05:24:23.895Z",
           "display_at": "2021-06-10T04:51:12.888Z",
           "affected_components": [
             {
