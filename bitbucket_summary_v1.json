@@ -4,15 +4,15 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-06-09T22:23:30.229Z"
+    "updated_at": "2021-06-10T02:23:31.550Z"
   },
   "components": [
     {
       "id": "g0lfj4sv2fhf",
       "name": "Website",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2013-09-26T03:34:27.377Z",
-      "updated_at": "2021-06-06T23:00:29.227Z",
+      "updated_at": "2021-06-10T02:17:25.186Z",
       "position": 1,
       "description": "Access to bitbucket.org",
       "showcase": false,
@@ -190,6 +190,58 @@
   ],
   "incidents": [
     {
+      "id": "ktr3tr0qz7wb",
+      "name": "Delays in pull request creation",
+      "status": "investigating",
+      "created_at": "2021-06-10T02:17:25.148Z",
+      "updated_at": "2021-06-10T02:17:26.188Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/w1c66z60b1mr",
+      "started_at": "2021-06-10T02:17:25.142Z",
+      "page_id": "bqlf8qjztdtr",
+      "incident_updates": [
+        {
+          "id": "1cwnpc1cj2y4",
+          "status": "investigating",
+          "body": "We are currently investigating this issue.",
+          "incident_id": "ktr3tr0qz7wb",
+          "created_at": "2021-06-10T02:17:25.237Z",
+          "updated_at": "2021-06-10T02:17:26.185Z",
+          "display_at": "2021-06-10T02:17:25.237Z",
+          "affected_components": [
+            {
+              "code": "g0lfj4sv2fhf",
+              "name": "Website",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1402812115967115300
+        }
+      ],
+      "components": [
+        {
+          "id": "g0lfj4sv2fhf",
+          "name": "Website",
+          "status": "degraded_performance",
+          "created_at": "2013-09-26T03:34:27.377Z",
+          "updated_at": "2021-06-10T02:17:25.186Z",
+          "position": 1,
+          "description": "Access to bitbucket.org",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    },
+    {
       "id": "6b5mgs514fss",
       "name": "AWS ECR image pull errors in Bitbucket Pipelines for images hosted in eu-west-1.",
       "status": "investigating",
@@ -365,9 +417,9 @@
         {
           "id": "g0lfj4sv2fhf",
           "name": "Website",
-          "status": "operational",
+          "status": "degraded_performance",
           "created_at": "2013-09-26T03:34:27.377Z",
-          "updated_at": "2021-06-06T23:00:29.227Z",
+          "updated_at": "2021-06-10T02:17:25.186Z",
           "position": 1,
           "description": "Access to bitbucket.org",
           "showcase": false,
@@ -503,9 +555,9 @@
         {
           "id": "g0lfj4sv2fhf",
           "name": "Website",
-          "status": "operational",
+          "status": "degraded_performance",
           "created_at": "2013-09-26T03:34:27.377Z",
-          "updated_at": "2021-06-06T23:00:29.227Z",
+          "updated_at": "2021-06-10T02:17:25.186Z",
           "position": 1,
           "description": "Access to bitbucket.org",
           "showcase": false,
@@ -521,7 +573,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
