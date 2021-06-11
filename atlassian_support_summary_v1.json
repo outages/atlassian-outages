@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-06-11T06:00:30.690Z"
+    "updated_at": "2021-06-11T07:01:44.395Z"
   },
   "components": [
     {
@@ -55,9 +55,9 @@
     {
       "id": "x6ljwvfs3ymn",
       "name": "Community",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-11-30T21:48:02.423Z",
-      "updated_at": "2021-06-09T11:00:38.691Z",
+      "updated_at": "2021-06-11T07:01:43.836Z",
       "position": 4,
       "description": null,
       "showcase": true,
@@ -193,9 +193,9 @@
     {
       "id": "69bw5y1qqxlv",
       "name": "Community Scheduled Maintenance",
-      "status": "scheduled",
+      "status": "in_progress",
       "created_at": "2021-06-10T22:50:16.744Z",
-      "updated_at": "2021-06-11T06:00:30.683Z",
+      "updated_at": "2021-06-11T07:01:44.384Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -203,6 +203,26 @@
       "started_at": "2021-06-10T22:50:16.739Z",
       "page_id": "3tbw4lb9t3qp",
       "incident_updates": [
+        {
+          "id": "yz7bc4hh1728",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "69bw5y1qqxlv",
+          "created_at": "2021-06-11T07:01:44.187Z",
+          "updated_at": "2021-06-11T07:01:44.187Z",
+          "display_at": "2021-06-11T07:01:44.187Z",
+          "affected_components": [
+            {
+              "code": "x6ljwvfs3ymn",
+              "name": "Community",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "vknh6hkfhdq6",
           "status": "scheduled",
@@ -241,9 +261,9 @@
         {
           "id": "x6ljwvfs3ymn",
           "name": "Community",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2018-11-30T21:48:02.423Z",
-          "updated_at": "2021-06-09T11:00:38.691Z",
+          "updated_at": "2021-06-11T07:01:43.836Z",
           "position": 4,
           "description": null,
           "showcase": true,
@@ -259,7 +279,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
