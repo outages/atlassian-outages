@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-06-10T23:24:08.559Z"
+    "updated_at": "2021-06-11T06:00:30.690Z"
   },
   "components": [
     {
@@ -195,7 +195,7 @@
       "name": "Community Scheduled Maintenance",
       "status": "scheduled",
       "created_at": "2021-06-10T22:50:16.744Z",
-      "updated_at": "2021-06-10T22:50:16.814Z",
+      "updated_at": "2021-06-11T06:00:30.683Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -203,6 +203,19 @@
       "started_at": "2021-06-10T22:50:16.739Z",
       "page_id": "3tbw4lb9t3qp",
       "incident_updates": [
+        {
+          "id": "vknh6hkfhdq6",
+          "status": "scheduled",
+          "body": "Maintenance will begin as scheduled in 60 minutes.",
+          "incident_id": "69bw5y1qqxlv",
+          "created_at": "2021-06-11T06:00:30.553Z",
+          "updated_at": "2021-06-11T06:00:30.553Z",
+          "display_at": "2021-06-11T06:00:30.553Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "wvzvfc8pkzxb",
           "status": "scheduled",
