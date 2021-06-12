@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-06-12T14:23:41.085Z"
+    "updated_at": "2021-06-12T15:00:14.806Z"
   },
   "components": [
     {
@@ -40,9 +40,9 @@
     {
       "id": "3cgy5c4f3q0r",
       "name": "Knowledge Base",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-11-30T21:47:55.304Z",
-      "updated_at": "2020-04-01T12:37:23.328Z",
+      "updated_at": "2021-06-12T15:00:14.598Z",
       "position": 3,
       "description": null,
       "showcase": true,
@@ -193,9 +193,9 @@
     {
       "id": "xqxzjfgt07wd",
       "name": "confluence.atlassian.com will be undergoing maintenance",
-      "status": "scheduled",
+      "status": "in_progress",
       "created_at": "2021-06-11T14:31:32.664Z",
-      "updated_at": "2021-06-12T14:00:31.110Z",
+      "updated_at": "2021-06-12T15:00:14.782Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -203,6 +203,26 @@
       "started_at": "2021-06-11T14:31:32.660Z",
       "page_id": "3tbw4lb9t3qp",
       "incident_updates": [
+        {
+          "id": "0xvf7f7kq0wq",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "xqxzjfgt07wd",
+          "created_at": "2021-06-12T15:00:14.669Z",
+          "updated_at": "2021-06-12T15:00:14.669Z",
+          "display_at": "2021-06-12T15:00:14.669Z",
+          "affected_components": [
+            {
+              "code": "3cgy5c4f3q0r",
+              "name": "Knowledge Base",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "7cs66xqt09w4",
           "status": "scheduled",
@@ -241,9 +261,9 @@
         {
           "id": "3cgy5c4f3q0r",
           "name": "Knowledge Base",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2018-11-30T21:47:55.304Z",
-          "updated_at": "2020-04-01T12:37:23.328Z",
+          "updated_at": "2021-06-12T15:00:14.598Z",
           "position": 3,
           "description": null,
           "showcase": true,
@@ -259,7 +279,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
