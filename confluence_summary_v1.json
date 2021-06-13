@@ -4,7 +4,7 @@
     "name": "Confluence",
     "url": "https://confluence.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-06-13T19:23:40.259Z"
+    "updated_at": "2021-06-13T20:03:57.953Z"
   },
   "components": [
     {
@@ -115,9 +115,9 @@
     {
       "id": "p8qwf8g1xjs4",
       "name": "Administration",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-11-30T21:50:51.221Z",
-      "updated_at": "2020-07-03T20:51:59.778Z",
+      "updated_at": "2021-06-13T20:03:57.170Z",
       "position": 6,
       "description": "Site, space, and user administration",
       "showcase": false,
@@ -212,9 +212,9 @@
     {
       "id": "lfdm94c5sh4p",
       "name": "Maintenance on media storage affecting usage queries",
-      "status": "scheduled",
+      "status": "in_progress",
       "created_at": "2021-06-01T23:29:32.326Z",
-      "updated_at": "2021-06-13T19:00:36.660Z",
+      "updated_at": "2021-06-13T20:03:57.914Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -222,6 +222,26 @@
       "started_at": "2021-06-01T23:29:32.321Z",
       "page_id": "4g2my7tbhjsq",
       "incident_updates": [
+        {
+          "id": "4f7gtw115s5l",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "lfdm94c5sh4p",
+          "created_at": "2021-06-13T20:03:57.621Z",
+          "updated_at": "2021-06-13T20:03:57.621Z",
+          "display_at": "2021-06-13T20:03:57.621Z",
+          "affected_components": [
+            {
+              "code": "p8qwf8g1xjs4",
+              "name": "Administration",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "7wp1vdj2jrhg",
           "status": "scheduled",
@@ -260,9 +280,9 @@
         {
           "id": "p8qwf8g1xjs4",
           "name": "Administration",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2018-11-30T21:50:51.221Z",
-          "updated_at": "2020-07-03T20:51:59.778Z",
+          "updated_at": "2021-06-13T20:03:57.170Z",
           "position": 6,
           "description": "Site, space, and user administration",
           "showcase": false,
@@ -278,7 +298,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
