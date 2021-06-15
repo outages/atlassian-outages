@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-06-11T22:38:10.966Z"
+    "updated_at": "2021-06-15T00:23:30.151Z"
   },
   "components": [
     {
@@ -188,80 +188,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "6b5mgs514fss",
-      "name": "AWS ECR image pull errors in Bitbucket Pipelines for images hosted in eu-west-1.",
-      "status": "monitoring",
-      "created_at": "2021-06-04T13:16:49.936Z",
-      "updated_at": "2021-06-11T19:09:09.262Z",
-      "monitoring_at": "2021-06-11T19:09:08.875Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/9g3q1rr68gj7",
-      "started_at": "2021-06-04T13:16:49.931Z",
-      "page_id": "bqlf8qjztdtr",
-      "incident_updates": [
-        {
-          "id": "q8y1tdvkfyfs",
-          "status": "monitoring",
-          "body": "A workaround to AWS ECR connectivity issue in eu-west-1 has been implemented. We are monitoring and looking into the root cause.",
-          "incident_id": "6b5mgs514fss",
-          "created_at": "2021-06-11T19:09:08.875Z",
-          "updated_at": "2021-06-11T19:09:09.259Z",
-          "display_at": "2021-06-11T19:09:08.875Z",
-          "affected_components": [
-            {
-              "code": "rzh2n85q7vtt",
-              "name": "Pipelines",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1403429110701904000
-        },
-        {
-          "id": "v89df0xtx1sv",
-          "status": "investigating",
-          "body": "We are investigating issues pulling AWS ECR images hosted in eu-west-1.",
-          "incident_id": "6b5mgs514fss",
-          "created_at": "2021-06-04T13:16:49.988Z",
-          "updated_at": "2021-06-04T13:16:50.356Z",
-          "display_at": "2021-06-04T13:16:49.988Z",
-          "affected_components": [
-            {
-              "code": "rzh2n85q7vtt",
-              "name": "Pipelines",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1400803732909019100
-        }
-      ],
-      "components": [
-        {
-          "id": "rzh2n85q7vtt",
-          "name": "Pipelines",
-          "status": "operational",
-          "created_at": "2016-08-23T20:04:54.469Z",
-          "updated_at": "2021-06-06T23:00:29.756Z",
-          "position": 9,
-          "description": "Continuous integration and delivery for Bitbucket repos",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "bqlf8qjztdtr",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [
     {
       "id": "pjjbc0my5qjl",
