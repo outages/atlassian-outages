@@ -4,7 +4,7 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-06-24T11:25:13.904Z"
+    "updated_at": "2021-06-25T01:19:31.550Z"
   },
   "components": [
     {
@@ -55,9 +55,9 @@
     {
       "id": "sv1xfn9br170",
       "name": "Search",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-01-07T07:51:29.410Z",
-      "updated_at": "2021-06-24T09:50:42.823Z",
+      "updated_at": "2021-06-25T01:19:31.547Z",
       "position": 4,
       "description": "Problems with JQL or quick search",
       "showcase": false,
@@ -176,7 +176,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
