@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-06-30T09:23:32.059Z"
+    "updated_at": "2021-06-30T10:36:57.719Z"
   },
   "components": [
     {
@@ -654,10 +654,10 @@
   "incidents": [
     {
       "id": "94y7fvj2f257",
-      "name": "Marketplace partner reports not showing recent transactions and lincenses.",
+      "name": "Marketplace partner reports not showing recent transactions and licenses.",
       "status": "investigating",
       "created_at": "2021-06-30T09:02:18.559Z",
-      "updated_at": "2021-06-30T09:02:18.656Z",
+      "updated_at": "2021-06-30T10:36:57.716Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
