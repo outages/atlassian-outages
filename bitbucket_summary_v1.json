@@ -4,15 +4,15 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-06-30T14:29:43.911Z"
+    "updated_at": "2021-06-30T17:31:21.963Z"
   },
   "components": [
     {
       "id": "g0lfj4sv2fhf",
       "name": "Website",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2013-09-26T03:34:27.377Z",
-      "updated_at": "2021-06-30T12:44:56.378Z",
+      "updated_at": "2021-06-30T17:24:10.712Z",
       "position": 1,
       "description": "Access to bitbucket.org",
       "showcase": false,
@@ -27,7 +27,7 @@
       "name": "API",
       "status": "operational",
       "created_at": "2015-06-05T19:34:43.541Z",
-      "updated_at": "2021-06-29T21:57:03.176Z",
+      "updated_at": "2021-06-30T17:24:10.731Z",
       "position": 2,
       "description": "Access to api.bitbucket.org",
       "showcase": false,
@@ -190,14 +190,139 @@
   ],
   "incidents": [
     {
+      "id": "n8wx25hn3cw2",
+      "name": "Bitbucket website and API services are returning 502 errors",
+      "status": "monitoring",
+      "created_at": "2021-06-30T17:16:23.406Z",
+      "updated_at": "2021-06-30T17:31:21.961Z",
+      "monitoring_at": "2021-06-30T17:31:13.562Z",
+      "resolved_at": null,
+      "impact": "critical",
+      "shortlink": "https://stspg.io/r0kmc24wm91q",
+      "started_at": "2021-06-30T17:16:23.400Z",
+      "page_id": "bqlf8qjztdtr",
+      "incident_updates": [
+        {
+          "id": "dvcp1l01415b",
+          "status": "monitoring",
+          "body": "Both website and API services have fully recovered. We will continue to monitor our systems and resolve this incident shortly.",
+          "incident_id": "n8wx25hn3cw2",
+          "created_at": "2021-06-30T17:31:13.562Z",
+          "updated_at": "2021-06-30T17:31:14.122Z",
+          "display_at": "2021-06-30T17:31:13.562Z",
+          "affected_components": [
+            {
+              "code": "g0lfj4sv2fhf",
+              "name": "Website",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "k0x2yw1435v7",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1410289837807083500
+        },
+        {
+          "id": "jx9ry22703bv",
+          "status": "identified",
+          "body": "We have increased capacity for website and API services and performance appears to be stabilizing.",
+          "incident_id": "n8wx25hn3cw2",
+          "created_at": "2021-06-30T17:24:10.766Z",
+          "updated_at": "2021-06-30T17:24:11.603Z",
+          "display_at": "2021-06-30T17:24:10.766Z",
+          "affected_components": [
+            {
+              "code": "g0lfj4sv2fhf",
+              "name": "Website",
+              "old_status": "major_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "k0x2yw1435v7",
+              "name": "API",
+              "old_status": "major_outage",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1410288065407451100
+        },
+        {
+          "id": "gmfwq8q2b37f",
+          "status": "investigating",
+          "body": "We are currently investigating an issue with the Bitbucket website and API services.",
+          "incident_id": "n8wx25hn3cw2",
+          "created_at": "2021-06-30T17:16:23.545Z",
+          "updated_at": "2021-06-30T17:16:24.241Z",
+          "display_at": "2021-06-30T17:16:23.545Z",
+          "affected_components": [
+            {
+              "code": "g0lfj4sv2fhf",
+              "name": "Website",
+              "old_status": "degraded_performance",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "k0x2yw1435v7",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1410286105849602000
+        }
+      ],
+      "components": [
+        {
+          "id": "k0x2yw1435v7",
+          "name": "API",
+          "status": "operational",
+          "created_at": "2015-06-05T19:34:43.541Z",
+          "updated_at": "2021-06-30T17:24:10.731Z",
+          "position": 2,
+          "description": "Access to api.bitbucket.org",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "g0lfj4sv2fhf",
+          "name": "Website",
+          "status": "operational",
+          "created_at": "2013-09-26T03:34:27.377Z",
+          "updated_at": "2021-06-30T17:24:10.712Z",
+          "position": 1,
+          "description": "Access to bitbucket.org",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    },
+    {
       "id": "jfy64kktsnjv",
       "name": "Performance Degradation viewing Pull Request Diff",
       "status": "investigating",
       "created_at": "2021-06-30T12:44:56.345Z",
-      "updated_at": "2021-06-30T14:29:43.906Z",
+      "updated_at": "2021-06-30T17:16:23.507Z",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "minor",
+      "impact": "critical",
       "shortlink": "https://stspg.io/v27y838ws0z0",
       "started_at": "2021-06-30T12:44:56.339Z",
       "page_id": "bqlf8qjztdtr",
@@ -247,9 +372,9 @@
         {
           "id": "g0lfj4sv2fhf",
           "name": "Website",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2013-09-26T03:34:27.377Z",
-          "updated_at": "2021-06-30T12:44:56.378Z",
+          "updated_at": "2021-06-30T17:24:10.712Z",
           "position": 1,
           "description": "Access to bitbucket.org",
           "showcase": false,
@@ -372,7 +497,7 @@
           "name": "API",
           "status": "operational",
           "created_at": "2015-06-05T19:34:43.541Z",
-          "updated_at": "2021-06-29T21:57:03.176Z",
+          "updated_at": "2021-06-30T17:24:10.731Z",
           "position": 2,
           "description": "Access to api.bitbucket.org",
           "showcase": false,
@@ -385,9 +510,9 @@
         {
           "id": "g0lfj4sv2fhf",
           "name": "Website",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2013-09-26T03:34:27.377Z",
-          "updated_at": "2021-06-30T12:44:56.378Z",
+          "updated_at": "2021-06-30T17:24:10.712Z",
           "position": 1,
           "description": "Access to bitbucket.org",
           "showcase": false,
@@ -510,7 +635,7 @@
           "name": "API",
           "status": "operational",
           "created_at": "2015-06-05T19:34:43.541Z",
-          "updated_at": "2021-06-29T21:57:03.176Z",
+          "updated_at": "2021-06-30T17:24:10.731Z",
           "position": 2,
           "description": "Access to api.bitbucket.org",
           "showcase": false,
@@ -523,9 +648,9 @@
         {
           "id": "g0lfj4sv2fhf",
           "name": "Website",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2013-09-26T03:34:27.377Z",
-          "updated_at": "2021-06-30T12:44:56.378Z",
+          "updated_at": "2021-06-30T17:24:10.712Z",
           "position": 1,
           "description": "Access to bitbucket.org",
           "showcase": false,
@@ -648,7 +773,7 @@
           "name": "API",
           "status": "operational",
           "created_at": "2015-06-05T19:34:43.541Z",
-          "updated_at": "2021-06-29T21:57:03.176Z",
+          "updated_at": "2021-06-30T17:24:10.731Z",
           "position": 2,
           "description": "Access to api.bitbucket.org",
           "showcase": false,
@@ -661,9 +786,9 @@
         {
           "id": "g0lfj4sv2fhf",
           "name": "Website",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2013-09-26T03:34:27.377Z",
-          "updated_at": "2021-06-30T12:44:56.378Z",
+          "updated_at": "2021-06-30T17:24:10.712Z",
           "position": 1,
           "description": "Access to bitbucket.org",
           "showcase": false,
@@ -786,7 +911,7 @@
           "name": "API",
           "status": "operational",
           "created_at": "2015-06-05T19:34:43.541Z",
-          "updated_at": "2021-06-29T21:57:03.176Z",
+          "updated_at": "2021-06-30T17:24:10.731Z",
           "position": 2,
           "description": "Access to api.bitbucket.org",
           "showcase": false,
@@ -799,9 +924,9 @@
         {
           "id": "g0lfj4sv2fhf",
           "name": "Website",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2013-09-26T03:34:27.377Z",
-          "updated_at": "2021-06-30T12:44:56.378Z",
+          "updated_at": "2021-06-30T17:24:10.712Z",
           "position": 1,
           "description": "Access to bitbucket.org",
           "showcase": false,
@@ -924,7 +1049,7 @@
           "name": "API",
           "status": "operational",
           "created_at": "2015-06-05T19:34:43.541Z",
-          "updated_at": "2021-06-29T21:57:03.176Z",
+          "updated_at": "2021-06-30T17:24:10.731Z",
           "position": 2,
           "description": "Access to api.bitbucket.org",
           "showcase": false,
@@ -937,9 +1062,9 @@
         {
           "id": "g0lfj4sv2fhf",
           "name": "Website",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2013-09-26T03:34:27.377Z",
-          "updated_at": "2021-06-30T12:44:56.378Z",
+          "updated_at": "2021-06-30T17:24:10.712Z",
           "position": 1,
           "description": "Access to bitbucket.org",
           "showcase": false,
@@ -1062,7 +1187,7 @@
           "name": "API",
           "status": "operational",
           "created_at": "2015-06-05T19:34:43.541Z",
-          "updated_at": "2021-06-29T21:57:03.176Z",
+          "updated_at": "2021-06-30T17:24:10.731Z",
           "position": 2,
           "description": "Access to api.bitbucket.org",
           "showcase": false,
@@ -1075,9 +1200,9 @@
         {
           "id": "g0lfj4sv2fhf",
           "name": "Website",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2013-09-26T03:34:27.377Z",
-          "updated_at": "2021-06-30T12:44:56.378Z",
+          "updated_at": "2021-06-30T17:24:10.712Z",
           "position": 1,
           "description": "Access to bitbucket.org",
           "showcase": false,
@@ -1200,7 +1325,7 @@
           "name": "API",
           "status": "operational",
           "created_at": "2015-06-05T19:34:43.541Z",
-          "updated_at": "2021-06-29T21:57:03.176Z",
+          "updated_at": "2021-06-30T17:24:10.731Z",
           "position": 2,
           "description": "Access to api.bitbucket.org",
           "showcase": false,
@@ -1213,9 +1338,9 @@
         {
           "id": "g0lfj4sv2fhf",
           "name": "Website",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2013-09-26T03:34:27.377Z",
-          "updated_at": "2021-06-30T12:44:56.378Z",
+          "updated_at": "2021-06-30T17:24:10.712Z",
           "position": 1,
           "description": "Access to bitbucket.org",
           "showcase": false,
@@ -1338,7 +1463,7 @@
           "name": "API",
           "status": "operational",
           "created_at": "2015-06-05T19:34:43.541Z",
-          "updated_at": "2021-06-29T21:57:03.176Z",
+          "updated_at": "2021-06-30T17:24:10.731Z",
           "position": 2,
           "description": "Access to api.bitbucket.org",
           "showcase": false,
@@ -1351,9 +1476,9 @@
         {
           "id": "g0lfj4sv2fhf",
           "name": "Website",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2013-09-26T03:34:27.377Z",
-          "updated_at": "2021-06-30T12:44:56.378Z",
+          "updated_at": "2021-06-30T17:24:10.712Z",
           "position": 1,
           "description": "Access to bitbucket.org",
           "showcase": false,
@@ -1369,7 +1494,7 @@
     }
   ],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
