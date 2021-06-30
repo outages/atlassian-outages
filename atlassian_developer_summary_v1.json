@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-06-30T14:23:30.708Z"
+    "updated_at": "2021-06-30T15:31:51.396Z"
   },
   "components": [
     {
@@ -165,7 +165,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -593,9 +593,9 @@
     {
       "id": "hk36hlvygg2q",
       "name": "Reporting APIs and dashboards",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2013-12-03T00:45:26.014Z",
-      "updated_at": "2021-06-30T09:02:18.602Z",
+      "updated_at": "2021-06-30T15:31:51.336Z",
       "position": 11,
       "description": "We have identified an issue with our internal services affecting reporting queries with large data. You may see intermittent failures and slow responses. The team is working on a fix.",
       "showcase": true,
@@ -651,80 +651,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "94y7fvj2f257",
-      "name": "Marketplace partner reports not showing recent transactions and licenses.",
-      "status": "identified",
-      "created_at": "2021-06-30T09:02:18.559Z",
-      "updated_at": "2021-06-30T13:03:11.324Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/4g0km37c55kc",
-      "started_at": "2021-06-30T09:02:18.000Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "vrfsvmxwms5f",
-          "status": "identified",
-          "body": "The issue has been identified and a fix is being implemented.",
-          "incident_id": "94y7fvj2f257",
-          "created_at": "2021-06-30T13:03:11.322Z",
-          "updated_at": "2021-06-30T13:03:11.322Z",
-          "display_at": "2021-06-30T13:03:11.322Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "ks7x6mq6s60m",
-          "status": "investigating",
-          "body": "We have identified an issue with Marketplace partner reports where the data seems to be stale and missing some data in the transactions and licenses reports. Our developers are working with internal teams to resolve the issue.",
-          "incident_id": "94y7fvj2f257",
-          "created_at": "2021-06-30T09:02:18.653Z",
-          "updated_at": "2021-06-30T13:02:30.200Z",
-          "display_at": "2021-06-30T09:02:18.000Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "hk36hlvygg2q",
-          "name": "Reporting APIs and dashboards",
-          "status": "partial_outage",
-          "created_at": "2013-12-03T00:45:26.014Z",
-          "updated_at": "2021-06-30T09:02:18.602Z",
-          "position": 11,
-          "description": "We have identified an issue with our internal services affecting reporting queries with large data. You may see intermittent failures and slow responses. The team is working on a fix.",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [
     {
       "id": "dpwhrn0g8gn2",
@@ -782,7 +709,7 @@
     }
   ],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
