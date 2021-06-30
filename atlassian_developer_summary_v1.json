@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-06-30T12:47:37.458Z"
+    "updated_at": "2021-06-30T13:04:33.502Z"
   },
   "components": [
     {
@@ -653,26 +653,26 @@
   ],
   "incidents": [
     {
-      "id": "74khkv50ccvj",
-      "name": "Marketplace partner reports not showing recent transactions and licenses",
+      "id": "94y7fvj2f257",
+      "name": "Marketplace partner reports not showing recent transactions and licenses.",
       "status": "identified",
-      "created_at": "2021-06-30T12:47:37.400Z",
-      "updated_at": "2021-06-30T12:47:37.455Z",
+      "created_at": "2021-06-30T09:02:18.559Z",
+      "updated_at": "2021-06-30T13:03:11.324Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
-      "shortlink": "https://stspg.io/k2vjn4fggr3r",
-      "started_at": "2021-06-30T12:47:37.380Z",
+      "shortlink": "https://stspg.io/4g0km37c55kc",
+      "started_at": "2021-06-30T09:02:18.000Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
         {
-          "id": "jjjq1dv891p9",
+          "id": "vrfsvmxwms5f",
           "status": "identified",
-          "body": "We have identified an issue with Marketplace partner reports where the data seems to be stale and missing some data in the transactions and licenses reports. Our developers are working with internal teams to resolve the issue.",
-          "incident_id": "74khkv50ccvj",
-          "created_at": "2021-06-30T12:47:37.452Z",
-          "updated_at": "2021-06-30T12:47:37.452Z",
-          "display_at": "2021-06-30T12:47:37.452Z",
+          "body": "The issue has been identified and a fix is being implemented.",
+          "incident_id": "94y7fvj2f257",
+          "created_at": "2021-06-30T13:03:11.322Z",
+          "updated_at": "2021-06-30T13:03:11.322Z",
+          "display_at": "2021-06-30T13:03:11.322Z",
           "affected_components": [
             {
               "code": "hk36hlvygg2q",
@@ -684,47 +684,15 @@
           "deliver_notifications": true,
           "custom_tweet": null,
           "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "hk36hlvygg2q",
-          "name": "Reporting APIs and dashboards",
-          "status": "partial_outage",
-          "created_at": "2013-12-03T00:45:26.014Z",
-          "updated_at": "2021-06-30T09:02:18.602Z",
-          "position": 11,
-          "description": "We have identified an issue with our internal services affecting reporting queries with large data. You may see intermittent failures and slow responses. The team is working on a fix.",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    },
-    {
-      "id": "94y7fvj2f257",
-      "name": "Marketplace partner reports not showing recent transactions and licenses.",
-      "status": "investigating",
-      "created_at": "2021-06-30T09:02:18.559Z",
-      "updated_at": "2021-06-30T10:36:57.716Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/4g0km37c55kc",
-      "started_at": "2021-06-30T09:02:18.516Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
+        },
         {
           "id": "ks7x6mq6s60m",
           "status": "investigating",
-          "body": "We are investigating an issue with Marketplace partner reports where the data seems to be stale and missing some data in the transactions and licenses reports. Our developers are working with internal teams to find out the cause of this data discrepancy and resolve",
+          "body": "We have identified an issue with Marketplace partner reports where the data seems to be stale and missing some data in the transactions and licenses reports. Our developers are working with internal teams to resolve the issue.",
           "incident_id": "94y7fvj2f257",
           "created_at": "2021-06-30T09:02:18.653Z",
-          "updated_at": "2021-06-30T09:02:18.653Z",
-          "display_at": "2021-06-30T09:02:18.653Z",
+          "updated_at": "2021-06-30T13:02:30.200Z",
+          "display_at": "2021-06-30T09:02:18.000Z",
           "affected_components": [
             {
               "code": "hk36hlvygg2q",
