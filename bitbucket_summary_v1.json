@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-07-01T20:20:20.132Z"
+    "updated_at": "2021-07-02T01:01:34.905Z"
   },
   "components": [
     {
@@ -194,7 +194,7 @@
       "name": "Performance degradation with pull request diffs",
       "status": "identified",
       "created_at": "2021-07-01T12:07:16.981Z",
-      "updated_at": "2021-07-01T20:20:20.128Z",
+      "updated_at": "2021-07-02T01:01:34.897Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -202,6 +202,32 @@
       "started_at": "2021-07-01T12:07:16.973Z",
       "page_id": "bqlf8qjztdtr",
       "incident_updates": [
+        {
+          "id": "rkwxvbg55z32",
+          "status": "identified",
+          "body": "At 6:31PM UTC on July 1st, we disabled some diff caching logic that we suspect was contributing to a higher pull request error rate for some customers. We are currently deploying a patch that should fix this permanently, however if you are still experiencing errors, watch this Statuspage for updates.",
+          "incident_id": "q6tlcm7ccjy6",
+          "created_at": "2021-07-02T01:01:34.895Z",
+          "updated_at": "2021-07-02T01:01:34.895Z",
+          "display_at": "2021-07-02T01:01:34.895Z",
+          "affected_components": [
+            {
+              "code": "g0lfj4sv2fhf",
+              "name": "Website",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "k0x2yw1435v7",
+              "name": "API",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "xdn4956c2yhf",
           "status": "identified",
