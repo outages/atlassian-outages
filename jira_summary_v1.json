@@ -4,15 +4,15 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-07-09T04:03:30.972Z"
+    "updated_at": "2021-07-09T08:35:24.171Z"
   },
   "components": [
     {
       "id": "jmgfbtr0k28j",
       "name": "Viewing content",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-01-22T20:42:24.651Z",
-      "updated_at": "2021-04-09T05:14:25.026Z",
+      "updated_at": "2021-07-09T08:35:24.093Z",
       "position": 1,
       "description": "Problems viewing issues, dashboards, boards, reports, etc.",
       "showcase": false,
@@ -173,10 +173,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "q05tdsfy7nyp",
+      "name": "Performance degradation for Jira Software viewing linked branches on an issue",
+      "status": "investigating",
+      "created_at": "2021-07-09T08:35:24.055Z",
+      "updated_at": "2021-07-09T08:35:24.168Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/xyt5gtryd2dg",
+      "started_at": "2021-07-09T08:35:24.045Z",
+      "page_id": "7yh3h3y0c0x1",
+      "incident_updates": [
+        {
+          "id": "6gjvtmls2sf6",
+          "status": "investigating",
+          "body": "We are investigating cases of degraded performance for some Jira Software Cloud customers who are trying to view linked Bitbucket branches.\r\n\r\nWe will provide more details within the next hour.",
+          "incident_id": "q05tdsfy7nyp",
+          "created_at": "2021-07-09T08:35:24.164Z",
+          "updated_at": "2021-07-09T08:35:24.164Z",
+          "display_at": "2021-07-09T08:35:24.164Z",
+          "affected_components": [
+            {
+              "code": "jmgfbtr0k28j",
+              "name": "Viewing content",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "jmgfbtr0k28j",
+          "name": "Viewing content",
+          "status": "degraded_performance",
+          "created_at": "2019-01-22T20:42:24.651Z",
+          "updated_at": "2021-07-09T08:35:24.093Z",
+          "position": 1,
+          "description": "Problems viewing issues, dashboards, boards, reports, etc.",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "7yh3h3y0c0x1",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
