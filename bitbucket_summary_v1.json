@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-07-09T11:38:40.415Z"
+    "updated_at": "2021-07-09T12:18:05.155Z"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "k0x2yw1435v7",
       "name": "API",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2015-06-05T19:34:43.541Z",
-      "updated_at": "2021-07-09T08:34:49.668Z",
+      "updated_at": "2021-07-09T12:18:05.149Z",
       "position": 2,
       "description": "Access to api.bitbucket.org",
       "showcase": false,
@@ -297,9 +297,9 @@
         {
           "id": "k0x2yw1435v7",
           "name": "API",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2015-06-05T19:34:43.541Z",
-          "updated_at": "2021-07-09T08:34:49.668Z",
+          "updated_at": "2021-07-09T12:18:05.149Z",
           "position": 2,
           "description": "Access to api.bitbucket.org",
           "showcase": false,
@@ -435,9 +435,9 @@
         {
           "id": "k0x2yw1435v7",
           "name": "API",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2015-06-05T19:34:43.541Z",
-          "updated_at": "2021-07-09T08:34:49.668Z",
+          "updated_at": "2021-07-09T12:18:05.149Z",
           "position": 2,
           "description": "Access to api.bitbucket.org",
           "showcase": false,
@@ -573,9 +573,9 @@
         {
           "id": "k0x2yw1435v7",
           "name": "API",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2015-06-05T19:34:43.541Z",
-          "updated_at": "2021-07-09T08:34:49.668Z",
+          "updated_at": "2021-07-09T12:18:05.149Z",
           "position": 2,
           "description": "Access to api.bitbucket.org",
           "showcase": false,
@@ -711,9 +711,9 @@
         {
           "id": "k0x2yw1435v7",
           "name": "API",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2015-06-05T19:34:43.541Z",
-          "updated_at": "2021-07-09T08:34:49.668Z",
+          "updated_at": "2021-07-09T12:18:05.149Z",
           "position": 2,
           "description": "Access to api.bitbucket.org",
           "showcase": false,
@@ -849,9 +849,9 @@
         {
           "id": "k0x2yw1435v7",
           "name": "API",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2015-06-05T19:34:43.541Z",
-          "updated_at": "2021-07-09T08:34:49.668Z",
+          "updated_at": "2021-07-09T12:18:05.149Z",
           "position": 2,
           "description": "Access to api.bitbucket.org",
           "showcase": false,
@@ -987,9 +987,9 @@
         {
           "id": "k0x2yw1435v7",
           "name": "API",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2015-06-05T19:34:43.541Z",
-          "updated_at": "2021-07-09T08:34:49.668Z",
+          "updated_at": "2021-07-09T12:18:05.149Z",
           "position": 2,
           "description": "Access to api.bitbucket.org",
           "showcase": false,
@@ -1125,9 +1125,9 @@
         {
           "id": "k0x2yw1435v7",
           "name": "API",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2015-06-05T19:34:43.541Z",
-          "updated_at": "2021-07-09T08:34:49.668Z",
+          "updated_at": "2021-07-09T12:18:05.149Z",
           "position": 2,
           "description": "Access to api.bitbucket.org",
           "showcase": false,
@@ -1263,9 +1263,9 @@
         {
           "id": "k0x2yw1435v7",
           "name": "API",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2015-06-05T19:34:43.541Z",
-          "updated_at": "2021-07-09T08:34:49.668Z",
+          "updated_at": "2021-07-09T12:18:05.149Z",
           "position": 2,
           "description": "Access to api.bitbucket.org",
           "showcase": false,
@@ -1296,7 +1296,7 @@
     }
   ],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
