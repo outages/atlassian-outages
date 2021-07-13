@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-07-13T05:23:30.821Z"
+    "updated_at": "2021-07-13T12:21:53.585Z"
   },
   "components": [
     {
@@ -673,14 +673,34 @@
       "name": "Delay in transactions appearing in Marketplace Partner reports",
       "status": "identified",
       "created_at": "2021-07-13T04:41:15.449Z",
-      "updated_at": "2021-07-13T04:41:15.538Z",
+      "updated_at": "2021-07-13T12:21:53.581Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/m9c5n0mngk5p",
-      "started_at": "2021-07-13T04:41:15.442Z",
+      "started_at": "2021-07-13T12:09:40.000Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "fzrq1vgwgrqy",
+          "status": "identified",
+          "body": "The root cause of the issue has been resolved and we're now waiting for the refreshed data to be pulled into the reports, we estimate this will take ~7 hours for full completion.",
+          "incident_id": "ht02qmgjh6fs",
+          "created_at": "2021-07-13T12:09:40.158Z",
+          "updated_at": "2021-07-13T12:21:53.490Z",
+          "display_at": "2021-07-13T12:09:40.000Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "sz6h6rd7xn83",
           "status": "identified",
