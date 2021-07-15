@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-07-15T10:02:38.475Z"
+    "updated_at": "2021-07-15T17:17:21.490Z"
   },
   "components": [
     {
@@ -226,7 +226,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -609,9 +609,9 @@
     {
       "id": "hk36hlvygg2q",
       "name": "Reporting APIs and dashboards",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2013-12-03T00:45:26.014Z",
-      "updated_at": "2021-07-14T08:48:48.997Z",
+      "updated_at": "2021-07-15T17:16:44.106Z",
       "position": 11,
       "description": "We have identified an issue with our internal services affecting reporting queries with large data. You may see intermittent failures and slow responses. The team is working on a fix.",
       "showcase": true,
@@ -668,98 +668,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": "8ct79ws200lm",
-      "name": "Delay in transactions and data discrepancy appearing in Marketplace Partner reports",
-      "status": "identified",
-      "created_at": "2021-07-14T08:48:48.955Z",
-      "updated_at": "2021-07-15T10:02:38.468Z",
-      "monitoring_at": "2021-07-15T07:34:09.227Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/yvz0vg8bnmnf",
-      "started_at": "2021-07-14T08:48:48.947Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "3r2ck8hl20d7",
-          "status": "identified",
-          "body": "Investigating the issue further we have found data discrepancy on license states. The root cause of the issue has been identified and we're applying the fix.",
-          "incident_id": "8ct79ws200lm",
-          "created_at": "2021-07-15T10:02:38.466Z",
-          "updated_at": "2021-07-15T10:02:38.466Z",
-          "display_at": "2021-07-15T10:02:38.466Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "y464w71f4d5n",
-          "status": "monitoring",
-          "body": "We have fixed the delay on data. Due to the nature of the issue the fix will take some hours to be completed.",
-          "incident_id": "8ct79ws200lm",
-          "created_at": "2021-07-15T07:34:09.227Z",
-          "updated_at": "2021-07-15T07:34:09.227Z",
-          "display_at": "2021-07-15T07:34:09.227Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "3n0bn5k4514y",
-          "status": "identified",
-          "body": "We have identified the root cause of the issue and we're working on fixing it.",
-          "incident_id": "8ct79ws200lm",
-          "created_at": "2021-07-14T08:48:49.045Z",
-          "updated_at": "2021-07-14T08:48:49.045Z",
-          "display_at": "2021-07-14T08:48:49.045Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "hk36hlvygg2q",
-          "name": "Reporting APIs and dashboards",
-          "status": "partial_outage",
-          "created_at": "2013-12-03T00:45:26.014Z",
-          "updated_at": "2021-07-14T08:48:48.997Z",
-          "position": 11,
-          "description": "We have identified an issue with our internal services affecting reporting queries with large data. You may see intermittent failures and slow responses. The team is working on a fix.",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    },
     {
       "id": "w850ghrxnmyj",
       "name": "Attachments download using OAuth in Confluence",
