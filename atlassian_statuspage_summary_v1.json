@@ -4,7 +4,7 @@
     "name": "Atlassian Statuspage",
     "url": "http://metastatuspage.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-07-15T11:45:21.445-07:00"
+    "updated_at": "2021-07-15T12:19:49.940-07:00"
   },
   "components": [
     {
@@ -805,16 +805,29 @@
     {
       "id": "vl73fzc6r502",
       "name": "Statuspage Load Balancers Update",
-      "status": "in_progress",
+      "status": "verifying",
       "created_at": "2021-07-13T12:40:02.427-07:00",
-      "updated_at": "2021-07-15T11:04:37.657-07:00",
-      "monitoring_at": null,
+      "updated_at": "2021-07-15T12:19:49.972-07:00",
+      "monitoring_at": "2021-07-15T12:19:49.937-07:00",
       "resolved_at": null,
       "impact": "maintenance",
       "shortlink": "http://mstspg.co/3vjlyqbflgx4",
       "started_at": "2021-07-13T12:40:02.423-07:00",
       "page_id": "y2j98763l56x",
       "incident_updates": [
+        {
+          "id": "xwgtsbj3crmn",
+          "status": "verifying",
+          "body": "Verification is currently underway for the maintenance items.",
+          "incident_id": "vl73fzc6r502",
+          "created_at": "2021-07-15T12:19:49.937-07:00",
+          "updated_at": "2021-07-15T12:19:49.937-07:00",
+          "display_at": "2021-07-15T12:19:49.937-07:00",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "r30j5kb8n290",
           "status": "in_progress",
