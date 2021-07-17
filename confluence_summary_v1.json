@@ -4,15 +4,15 @@
     "name": "Confluence",
     "url": "https://confluence.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-07-16T18:42:13.472Z"
+    "updated_at": "2021-07-17T19:33:53.868Z"
   },
   "components": [
     {
       "id": "bl9mxbb582vk",
       "name": "View Content",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-11-12T04:04:58.123Z",
-      "updated_at": "2021-07-16T17:25:15.563Z",
+      "updated_at": "2021-07-17T19:32:49.132Z",
       "position": 1,
       "description": "Viewing pages or dashboards",
       "showcase": false,
@@ -25,9 +25,9 @@
     {
       "id": "jwv14kjhl1yt",
       "name": "iOS App",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-11-30T21:52:04.382Z",
-      "updated_at": "2021-07-16T17:25:15.603Z",
+      "updated_at": "2021-07-17T19:33:44.466Z",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -40,9 +40,9 @@
     {
       "id": "gxy3929vqtmy",
       "name": "Android App",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-11-30T21:52:16.027Z",
-      "updated_at": "2021-07-16T17:25:15.629Z",
+      "updated_at": "2021-07-17T19:33:53.865Z",
       "position": 2,
       "description": null,
       "showcase": false,
@@ -55,9 +55,9 @@
     {
       "id": "y4z6hxpf7d7t",
       "name": "Create and Edit",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-11-12T04:04:58.145Z",
-      "updated_at": "2021-07-16T17:25:15.648Z",
+      "updated_at": "2021-07-17T19:32:58.269Z",
       "position": 2,
       "description": null,
       "showcase": false,
@@ -70,9 +70,9 @@
     {
       "id": "snpbn00x0g0k",
       "name": "Comments",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-11-30T21:50:37.850Z",
-      "updated_at": "2021-07-16T17:25:15.671Z",
+      "updated_at": "2021-07-17T19:33:06.910Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -100,9 +100,9 @@
     {
       "id": "5fjwzmlch883",
       "name": "Search",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-11-30T21:50:44.178Z",
-      "updated_at": "2021-07-16T17:25:15.690Z",
+      "updated_at": "2021-07-17T19:33:16.404Z",
       "position": 5,
       "description": null,
       "showcase": false,
@@ -130,9 +130,9 @@
     {
       "id": "4gcj9wwwkfrm",
       "name": "Notifications",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-11-30T21:50:59.891Z",
-      "updated_at": "2021-07-16T17:25:15.709Z",
+      "updated_at": "2021-07-17T19:33:26.059Z",
       "position": 7,
       "description": null,
       "showcase": false,
@@ -145,9 +145,9 @@
     {
       "id": "s0zdf6p5dhv7",
       "name": "Marketplace Apps",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-11-30T21:51:46.679Z",
-      "updated_at": "2021-07-16T17:25:15.729Z",
+      "updated_at": "2021-07-17T19:33:34.974Z",
       "position": 8,
       "description": null,
       "showcase": false,
@@ -160,7 +160,7 @@
     {
       "id": "hfrg5dg1l144",
       "name": "Mobile",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-11-30T21:52:04.371Z",
       "updated_at": "2019-05-02T04:25:38.103Z",
       "position": 9,
@@ -210,7 +210,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
