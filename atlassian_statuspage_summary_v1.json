@@ -4,7 +4,7 @@
     "name": "Atlassian Statuspage",
     "url": "http://metastatuspage.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-07-20T14:56:02.310-07:00"
+    "updated_at": "2021-07-20T15:24:10.639-07:00"
   },
   "components": [
     {
@@ -806,7 +806,7 @@
       "name": "SMS Opt-In and Opt-Out Confirmations are not working correctly",
       "status": "investigating",
       "created_at": "2021-07-20T14:56:02.226-07:00",
-      "updated_at": "2021-07-20T14:56:02.310-07:00",
+      "updated_at": "2021-07-20T15:24:10.613-07:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -814,6 +814,26 @@
       "started_at": "2021-07-20T14:56:02.217-07:00",
       "page_id": "y2j98763l56x",
       "incident_updates": [
+        {
+          "id": "8xf0b4rnfkp7",
+          "status": "investigating",
+          "body": "We are continuing to investigate the issue with SMS opt-in confirmations. It affects only SMS opt-in notifications for page subscribers. Incident subscribers as well as other notification types are not affected.",
+          "incident_id": "pw5xnnm3yw54",
+          "created_at": "2021-07-20T15:24:10.610-07:00",
+          "updated_at": "2021-07-20T15:24:10.610-07:00",
+          "display_at": "2021-07-20T15:24:10.610-07:00",
+          "affected_components": [
+            {
+              "code": "hdj6sbn26g26",
+              "name": "Notifications - SMS",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "6qwmgh1xcr6z",
           "status": "investigating",
