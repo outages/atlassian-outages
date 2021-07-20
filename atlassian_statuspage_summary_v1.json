@@ -4,7 +4,7 @@
     "name": "Atlassian Statuspage",
     "url": "http://metastatuspage.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-07-20T16:09:27.924-07:00"
+    "updated_at": "2021-07-20T16:21:27.120-07:00"
   },
   "components": [
     {
@@ -800,120 +800,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "pw5xnnm3yw54",
-      "name": "SMS Opt-In and Opt-Out Confirmations are not working correctly",
-      "status": "monitoring",
-      "created_at": "2021-07-20T14:56:02.226-07:00",
-      "updated_at": "2021-07-20T16:09:27.962-07:00",
-      "monitoring_at": "2021-07-20T16:09:27.920-07:00",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "http://mstspg.co/qn2krt900tjt",
-      "started_at": "2021-07-20T14:56:02.217-07:00",
-      "page_id": "y2j98763l56x",
-      "incident_updates": [
-        {
-          "id": "mt7z8cm7f0fk",
-          "status": "monitoring",
-          "body": "A fix has been implemented and we are monitoring the results.",
-          "incident_id": "pw5xnnm3yw54",
-          "created_at": "2021-07-20T16:09:27.920-07:00",
-          "updated_at": "2021-07-20T16:09:27.920-07:00",
-          "display_at": "2021-07-20T16:09:27.920-07:00",
-          "affected_components": [
-            {
-              "code": "hdj6sbn26g26",
-              "name": "Notifications - SMS",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "vy7bmc6vvgkg",
-          "status": "identified",
-          "body": "The issue has been identified and it was determined to be limited to a single status page. The rest of the customers are unaffected.",
-          "incident_id": "pw5xnnm3yw54",
-          "created_at": "2021-07-20T15:51:36.558-07:00",
-          "updated_at": "2021-07-20T15:51:36.558-07:00",
-          "display_at": "2021-07-20T15:51:36.558-07:00",
-          "affected_components": [
-            {
-              "code": "hdj6sbn26g26",
-              "name": "Notifications - SMS",
-              "old_status": "partial_outage",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "8xf0b4rnfkp7",
-          "status": "investigating",
-          "body": "We are continuing to investigate the issue with SMS opt-in confirmations. It affects only SMS opt-in notifications for page subscribers. Incident subscribers as well as other notification types are not affected.",
-          "incident_id": "pw5xnnm3yw54",
-          "created_at": "2021-07-20T15:24:10.610-07:00",
-          "updated_at": "2021-07-20T15:24:10.610-07:00",
-          "display_at": "2021-07-20T15:24:10.610-07:00",
-          "affected_components": [
-            {
-              "code": "hdj6sbn26g26",
-              "name": "Notifications - SMS",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "6qwmgh1xcr6z",
-          "status": "investigating",
-          "body": "We are currently investigating an issue affecting opt-in confirmations. Customers are unable to subscribe via SMS. Existing subscribers are not affected.",
-          "incident_id": "pw5xnnm3yw54",
-          "created_at": "2021-07-20T14:56:02.307-07:00",
-          "updated_at": "2021-07-20T14:56:02.307-07:00",
-          "display_at": "2021-07-20T14:56:02.307-07:00",
-          "affected_components": [
-            {
-              "code": "hdj6sbn26g26",
-              "name": "Notifications - SMS",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "hdj6sbn26g26",
-          "name": "SMS",
-          "status": "operational",
-          "created_at": "2017-08-21T10:29:50.009-07:00",
-          "updated_at": "2021-07-20T16:09:27.869-07:00",
-          "position": 2,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "131l86jhpwl3",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
