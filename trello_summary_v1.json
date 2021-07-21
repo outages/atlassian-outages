@@ -4,7 +4,7 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2021-07-21T11:45:14.097-04:00"
+    "updated_at": "2021-07-21T12:05:19.767-04:00"
   },
   "components": [
     {
@@ -83,80 +83,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "nf14xvh2j57p",
-      "name": "Trello is slow",
-      "status": "monitoring",
-      "created_at": "2021-07-21T09:59:33.237-04:00",
-      "updated_at": "2021-07-21T11:45:14.090-04:00",
-      "monitoring_at": "2021-07-21T11:45:13.656-04:00",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/wkbd7ppd9m7z",
-      "started_at": "2021-07-21T09:59:33.231-04:00",
-      "page_id": "h5frqhb041yq",
-      "incident_updates": [
-        {
-          "id": "09vx0h4ff24w",
-          "status": "monitoring",
-          "body": "Trello engineers believe they've found the source of the problem, and site performance is back to normal. If you do continue to see any trouble, please don't hesitate to reach out at https://trello.com/contact!",
-          "incident_id": "nf14xvh2j57p",
-          "created_at": "2021-07-21T11:45:13.656-04:00",
-          "updated_at": "2021-07-21T11:45:14.086-04:00",
-          "display_at": "2021-07-21T11:45:13.656-04:00",
-          "affected_components": [
-            {
-              "code": "hsr3nvlz0k2l",
-              "name": "Trello.com",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1417873307353845800
-        },
-        {
-          "id": "z4zb8n2028dj",
-          "status": "investigating",
-          "body": "We've noticed that Trello is responding slowly. This will be present in both the web and mobile apps.\r\n\r\nOur engineering team is actively investigating this incident and working to bring Trello back up to speed as quickly as possible.\r\n \r\nWe'll keep you posted with further updates on this page.",
-          "incident_id": "nf14xvh2j57p",
-          "created_at": "2021-07-21T09:59:33.309-04:00",
-          "updated_at": "2021-07-21T09:59:34.011-04:00",
-          "display_at": "2021-07-21T09:59:33.309-04:00",
-          "affected_components": [
-            {
-              "code": "hsr3nvlz0k2l",
-              "name": "Trello.com",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1417846714807906300
-        }
-      ],
-      "components": [
-        {
-          "id": "hsr3nvlz0k2l",
-          "name": "Trello.com",
-          "status": "operational",
-          "created_at": "2020-01-24T12:50:55.839-05:00",
-          "updated_at": "2021-07-21T11:45:13.628-04:00",
-          "position": 1,
-          "description": "Web client",
-          "showcase": true,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "h5frqhb041yq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
