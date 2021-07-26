@@ -4,15 +4,15 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-07-26T11:57:43.940Z"
+    "updated_at": "2021-07-26T12:27:48.638Z"
   },
   "components": [
     {
       "id": "jmgfbtr0k28j",
       "name": "Viewing content",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-01-22T20:42:24.651Z",
-      "updated_at": "2021-07-26T09:18:33.608Z",
+      "updated_at": "2021-07-26T12:27:48.571Z",
       "position": 1,
       "description": "Problems viewing issues, dashboards, boards, reports, etc.",
       "showcase": false,
@@ -173,83 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "hzw1g8dd4jc0",
-      "name": "Unable to access Jira projects and boards",
-      "status": "monitoring",
-      "created_at": "2021-07-26T09:18:33.566Z",
-      "updated_at": "2021-07-26T11:57:43.937Z",
-      "monitoring_at": "2021-07-26T11:57:43.920Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/cfydz93k8rpr",
-      "started_at": "2021-07-26T09:18:33.560Z",
-      "page_id": "7yh3h3y0c0x1",
-      "incident_updates": [
-        {
-          "id": "lplhcqxc6tn5",
-          "status": "monitoring",
-          "body": "We have identified the root cause of the 503 errors coming on Jira Projects and boards . We are now monitoring closely.",
-          "incident_id": "hzw1g8dd4jc0",
-          "created_at": "2021-07-26T11:57:43.920Z",
-          "updated_at": "2021-07-26T11:57:43.920Z",
-          "display_at": "2021-07-26T11:57:43.920Z",
-          "affected_components": [
-            {
-              "code": "jmgfbtr0k28j",
-              "name": "Viewing content",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "wd7j5g521s92",
-          "status": "investigating",
-          "body": "We are investigating an issue with Jira Projects and boards that is impacting some Jira Software Cloud customers. We will provide more details within the next hour.",
-          "incident_id": "hzw1g8dd4jc0",
-          "created_at": "2021-07-26T09:18:33.682Z",
-          "updated_at": "2021-07-26T09:18:33.682Z",
-          "display_at": "2021-07-26T09:18:33.682Z",
-          "affected_components": [
-            {
-              "code": "jmgfbtr0k28j",
-              "name": "Viewing content",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "jmgfbtr0k28j",
-          "name": "Viewing content",
-          "status": "partial_outage",
-          "created_at": "2019-01-22T20:42:24.651Z",
-          "updated_at": "2021-07-26T09:18:33.608Z",
-          "position": 1,
-          "description": "Problems viewing issues, dashboards, boards, reports, etc.",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "7yh3h3y0c0x1",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
