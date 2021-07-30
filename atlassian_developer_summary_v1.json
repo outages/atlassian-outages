@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-07-30T12:55:02.917Z"
+    "updated_at": "2021-07-30T13:15:05.925Z"
   },
   "components": [
     {
@@ -242,9 +242,9 @@
     {
       "id": "d1hybyzmqlvq",
       "name": "App pricing",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2013-12-03T00:43:13.497Z",
-      "updated_at": "2021-07-30T12:55:02.836Z",
+      "updated_at": "2021-07-30T13:15:05.880Z",
       "position": 3,
       "description": "App pricing queries and updates",
       "showcase": true,
@@ -668,58 +668,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": "xcbd95d1xpd4",
-      "name": "Marketplace app pricing does not show for logged in users on marketplace.atlassian.com app listing.",
-      "status": "identified",
-      "created_at": "2021-07-30T12:55:02.788Z",
-      "updated_at": "2021-07-30T12:55:02.914Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/q8wyn0rs4zq7",
-      "started_at": "2021-07-30T12:55:02.778Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "7b6jktnf9fzv",
-          "status": "identified",
-          "body": "The issue has been identified and a fix is being implemented.",
-          "incident_id": "xcbd95d1xpd4",
-          "created_at": "2021-07-30T12:55:02.911Z",
-          "updated_at": "2021-07-30T12:55:02.911Z",
-          "display_at": "2021-07-30T12:55:02.911Z",
-          "affected_components": [
-            {
-              "code": "d1hybyzmqlvq",
-              "name": "Marketplace - App pricing",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "d1hybyzmqlvq",
-          "name": "App pricing",
-          "status": "partial_outage",
-          "created_at": "2013-12-03T00:43:13.497Z",
-          "updated_at": "2021-07-30T12:55:02.836Z",
-          "position": 3,
-          "description": "App pricing queries and updates",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    },
     {
       "id": "k9v8nz09y1w4",
       "name": "Marketplace partner reports not showing recent transactions and licenses.",
