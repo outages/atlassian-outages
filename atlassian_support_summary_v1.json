@@ -4,15 +4,15 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-07-31T15:00:29.993Z"
+    "updated_at": "2021-07-31T16:00:44.359Z"
   },
   "components": [
     {
       "id": "kvtmh1phs3r9",
       "name": "Support Portal",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-11-16T18:04:38.980Z",
-      "updated_at": "2021-05-10T18:07:58.698Z",
+      "updated_at": "2021-07-31T16:00:44.312Z",
       "position": 1,
       "description": null,
       "showcase": true,
@@ -193,9 +193,9 @@
     {
       "id": "l30zt99wqxpr",
       "name": "getsupport.atlassian.com will be undergoing maintenance",
-      "status": "scheduled",
+      "status": "in_progress",
       "created_at": "2021-07-27T22:00:19.885Z",
-      "updated_at": "2021-07-31T15:00:29.986Z",
+      "updated_at": "2021-07-31T16:00:44.350Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -203,6 +203,26 @@
       "started_at": "2021-07-27T22:00:19.880Z",
       "page_id": "3tbw4lb9t3qp",
       "incident_updates": [
+        {
+          "id": "6xv7hlqhzcdm",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "l30zt99wqxpr",
+          "created_at": "2021-07-31T16:00:44.347Z",
+          "updated_at": "2021-07-31T16:00:44.347Z",
+          "display_at": "2021-07-31T16:00:44.347Z",
+          "affected_components": [
+            {
+              "code": "kvtmh1phs3r9",
+              "name": "Support Portal",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "vmc13vxcsnb0",
           "status": "scheduled",
@@ -261,9 +281,9 @@
         {
           "id": "kvtmh1phs3r9",
           "name": "Support Portal",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2018-11-16T18:04:38.980Z",
-          "updated_at": "2021-05-10T18:07:58.698Z",
+          "updated_at": "2021-07-31T16:00:44.312Z",
           "position": 1,
           "description": null,
           "showcase": true,
@@ -279,7 +299,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }

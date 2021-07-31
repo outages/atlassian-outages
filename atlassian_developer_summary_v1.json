@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-07-30T20:28:00.643Z"
+    "updated_at": "2021-07-31T16:00:45.212Z"
   },
   "components": [
     {
@@ -134,21 +134,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "yjqnzm0tkgsd",
-      "name": "Confluence Cloud APIs",
-      "status": "operational",
-      "created_at": "2018-02-01T17:15:36.411Z",
-      "updated_at": "2021-07-30T20:28:00.594Z",
-      "position": 2,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "w0ld3nc9jvdx",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "bf9d0vz83ykr",
       "name": "Atlassian Support contact form",
       "status": "operational",
@@ -159,6 +144,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "jgnwrfzynh93",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "yjqnzm0tkgsd",
+      "name": "Confluence Cloud APIs",
+      "status": "operational",
+      "created_at": "2018-02-01T17:15:36.411Z",
+      "updated_at": "2021-07-30T20:28:00.594Z",
+      "position": 2,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "w0ld3nc9jvdx",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -330,16 +330,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "jnrvspydmmsd",
-      "name": "User APIs",
+      "id": "vb9xhz9z6zbp",
+      "name": "Forge App Installation",
       "status": "operational",
-      "created_at": "2018-02-01T17:17:26.159Z",
-      "updated_at": "2021-03-23T12:03:17.254Z",
+      "created_at": "2021-03-23T11:55:32.639Z",
+      "updated_at": "2021-03-23T12:04:48.350Z",
       "position": 5,
-      "description": null,
+      "description": "Installation of Forge apps",
       "showcase": true,
-      "start_date": null,
-      "group_id": "w0ld3nc9jvdx",
+      "start_date": "2021-03-23",
+      "group_id": "73bt63kd5q9k",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -375,16 +375,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "vb9xhz9z6zbp",
-      "name": "Forge App Installation",
+      "id": "jnrvspydmmsd",
+      "name": "User APIs",
       "status": "operational",
-      "created_at": "2021-03-23T11:55:32.639Z",
-      "updated_at": "2021-03-23T12:04:48.350Z",
+      "created_at": "2018-02-01T17:17:26.159Z",
+      "updated_at": "2021-03-23T12:03:17.254Z",
       "position": 5,
-      "description": "Installation of Forge apps",
+      "description": null,
       "showcase": true,
-      "start_date": "2021-03-23",
-      "group_id": "73bt63kd5q9k",
+      "start_date": null,
+      "group_id": "w0ld3nc9jvdx",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -392,7 +392,7 @@
     {
       "id": "jgnwrfzynh93",
       "name": "Support",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-02-01T17:27:18.010Z",
       "updated_at": "2018-02-01T17:40:12.769Z",
       "position": 5,
@@ -412,6 +412,21 @@
       ]
     },
     {
+      "id": "bqzdpnq7v22n",
+      "name": "Atlassian Support",
+      "status": "under_maintenance",
+      "created_at": "2019-05-01T23:50:52.594Z",
+      "updated_at": "2021-07-31T16:00:45.164Z",
+      "position": 6,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "jgnwrfzynh93",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "kj290v20168q",
       "name": "Evaluations and purchases",
       "status": "operational",
@@ -422,21 +437,6 @@
       "showcase": true,
       "start_date": null,
       "group_id": "d0m8l367qqw5",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "5rnsdjrhk29s",
-      "name": "Webhooks",
-      "status": "operational",
-      "created_at": "2018-02-01T17:19:01.020Z",
-      "updated_at": "2021-03-23T12:03:17.265Z",
-      "position": 6,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "w0ld3nc9jvdx",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -457,16 +457,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "bqzdpnq7v22n",
-      "name": "Atlassian Support",
+      "id": "5rnsdjrhk29s",
+      "name": "Webhooks",
       "status": "operational",
-      "created_at": "2019-05-01T23:50:52.594Z",
-      "updated_at": "2021-05-10T18:07:59.072Z",
+      "created_at": "2018-02-01T17:19:01.020Z",
+      "updated_at": "2021-03-23T12:03:17.265Z",
       "position": 6,
       "description": null,
-      "showcase": false,
+      "showcase": true,
       "start_date": null,
-      "group_id": "jgnwrfzynh93",
+      "group_id": "w0ld3nc9jvdx",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -487,21 +487,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "3t1y6724xl8q",
-      "name": "In-product Marketplace and app installation (Cloud)",
-      "status": "operational",
-      "created_at": "2013-12-03T00:45:39.973Z",
-      "updated_at": "2021-06-25T14:10:40.299Z",
-      "position": 7,
-      "description": "The ability to discover, install, and manage apps inside of Atlassian's Cloud products (Jira, Confluence, Stride, Bitbucket)",
-      "showcase": false,
-      "start_date": null,
-      "group_id": "d0m8l367qqw5",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "pgqd9x4jl520",
       "name": "Forge Function Invocation",
       "status": "operational",
@@ -512,6 +497,21 @@
       "showcase": true,
       "start_date": "2021-03-23",
       "group_id": "73bt63kd5q9k",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "3t1y6724xl8q",
+      "name": "In-product Marketplace and app installation (Cloud)",
+      "status": "operational",
+      "created_at": "2013-12-03T00:45:39.973Z",
+      "updated_at": "2021-06-25T14:10:40.299Z",
+      "position": 7,
+      "description": "The ability to discover, install, and manage apps inside of Atlassian's Cloud products (Jira, Confluence, Stride, Bitbucket)",
+      "showcase": false,
+      "start_date": null,
+      "group_id": "d0m8l367qqw5",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -577,21 +577,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "khz72mns34gk",
-      "name": "Developer console",
-      "status": "operational",
-      "created_at": "2021-07-09T01:52:46.683Z",
-      "updated_at": "2021-07-09T01:52:46.683Z",
-      "position": 10,
-      "description": "Reliability of https://developer.atlassian.com/console",
-      "showcase": true,
-      "start_date": "2021-07-08",
-      "group_id": "73bt63kd5q9k",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "7lx3k072bl6z",
       "name": "Private listings",
       "status": "operational",
@@ -602,6 +587,21 @@
       "showcase": true,
       "start_date": null,
       "group_id": "d0m8l367qqw5",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "khz72mns34gk",
+      "name": "Developer console",
+      "status": "operational",
+      "created_at": "2021-07-09T01:52:46.683Z",
+      "updated_at": "2021-07-09T01:52:46.683Z",
+      "position": 10,
+      "description": "Reliability of https://developer.atlassian.com/console",
+      "showcase": true,
+      "start_date": "2021-07-08",
+      "group_id": "73bt63kd5q9k",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -670,7 +670,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
