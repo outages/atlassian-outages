@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-08-02T15:02:33.527Z"
+    "updated_at": "2021-08-02T15:40:48.479Z"
   },
   "components": [
     {
@@ -174,48 +174,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": "h766qq45shtl",
-      "name": "Jira outage for some customers",
-      "status": "monitoring",
-      "created_at": "2021-08-02T14:10:31.821Z",
-      "updated_at": "2021-08-02T15:02:33.524Z",
-      "monitoring_at": "2021-08-02T15:02:33.490Z",
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/tfr5pww7r3dw",
-      "started_at": "2021-08-02T14:10:31.813Z",
-      "page_id": "s6f0gm5gcpmy",
-      "incident_updates": [
-        {
-          "id": "9cn7tlvr71tp",
-          "status": "monitoring",
-          "body": "We have identified the root cause of Jira being unusable for some customers and have mitigated the problem. We are now monitoring closely.",
-          "incident_id": "h766qq45shtl",
-          "created_at": "2021-08-02T15:02:33.490Z",
-          "updated_at": "2021-08-02T15:02:33.490Z",
-          "display_at": "2021-08-02T15:02:33.490Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "xtzl0nskn791",
-          "status": "investigating",
-          "body": "We are investigating an issue with Jira being unusable for some customers of Jira Work Management, Jira Service Management, Jira Software, and Jira Align Cloud. We will provide more details within the next hour.",
-          "incident_id": "h766qq45shtl",
-          "created_at": "2021-08-02T14:10:31.859Z",
-          "updated_at": "2021-08-02T14:10:31.859Z",
-          "display_at": "2021-08-02T14:10:31.859Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": []
-    },
     {
       "id": "5rpdcv3cwg12",
       "name": "Marketplace apps fail to load for a few jira customers",
