@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-08-01T18:23:31.929Z"
+    "updated_at": "2021-08-02T06:57:57.984Z"
   },
   "components": [
     {
@@ -671,9 +671,9 @@
     {
       "id": "jtd1pc1k74dj",
       "name": "Marketplace partner reports not showing recent transactions and licenses.",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2021-08-01T18:07:34.512Z",
-      "updated_at": "2021-08-01T18:07:34.635Z",
+      "updated_at": "2021-08-02T06:57:57.975Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -681,6 +681,26 @@
       "started_at": "2021-08-01T18:07:34.501Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "tsn6x3pyh0nf",
+          "status": "identified",
+          "body": "The team has implemented the fix and the data refresh is underway. We will keep posting the updates for the status.",
+          "incident_id": "jtd1pc1k74dj",
+          "created_at": "2021-08-02T06:57:57.973Z",
+          "updated_at": "2021-08-02T06:57:57.973Z",
+          "display_at": "2021-08-02T06:57:57.973Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "0sk8j3rlbnzp",
           "status": "investigating",
