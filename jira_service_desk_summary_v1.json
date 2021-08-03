@@ -4,15 +4,15 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-08-03T03:57:30.915Z"
+    "updated_at": "2021-08-03T04:28:04.563Z"
   },
   "components": [
     {
       "id": "4kcs01hbh4l6",
       "name": "Jira Service Mangement Web",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-11-16T18:06:14.831Z",
-      "updated_at": "2021-08-02T09:09:52.791Z",
+      "updated_at": "2021-08-03T04:27:53.427Z",
       "position": 1,
       "description": "Problems with queues, issues, reports, searching, and anything else impacting an agent's ability to complete their work",
       "showcase": false,
@@ -25,9 +25,9 @@
     {
       "id": "hzbyfxf686qd",
       "name": "Service Portal",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-11-16T18:06:14.848Z",
-      "updated_at": "2021-08-02T09:09:52.814Z",
+      "updated_at": "2021-08-03T04:28:04.560Z",
       "position": 2,
       "description": "Problems related to the service desk portals where end-users make requests or raise issues",
       "showcase": false,
@@ -176,7 +176,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
