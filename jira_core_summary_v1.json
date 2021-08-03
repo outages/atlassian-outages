@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-08-03T01:09:43.124Z"
+    "updated_at": "2021-08-03T03:57:31.350Z"
   },
   "components": [
     {
@@ -173,100 +173,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "5rpdcv3cwg12",
-      "name": "Marketplace apps fail to load for a few jira customers",
-      "status": "identified",
-      "created_at": "2021-08-02T09:09:52.745Z",
-      "updated_at": "2021-08-03T01:09:43.114Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/vyf8bv97m973",
-      "started_at": "2021-08-02T09:09:52.736Z",
-      "page_id": "s6f0gm5gcpmy",
-      "incident_updates": [
-        {
-          "id": "gpghynd9m036",
-          "status": "identified",
-          "body": "We continue to work on resolving the connect app experiences for Jira Work Management, Jira Service Management, and Jira Software. The majority of customers in the US are still impacted. We have identified the root cause and expect recovery shortly for customers in all regions.",
-          "incident_id": "5rpdcv3cwg12",
-          "created_at": "2021-08-03T01:09:43.111Z",
-          "updated_at": "2021-08-03T01:09:43.111Z",
-          "display_at": "2021-08-03T01:09:43.111Z",
-          "affected_components": [
-            {
-              "code": "l4fp2xkkygv4",
-              "name": "Viewing content",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "cvvr9fr68nnw",
-          "status": "identified",
-          "body": "We continue to work on resolving the marketplace addon experiences for Jira Work Management, Jira Service Management, and Jira Software. We have identified the root cause and expect recovery shortly.",
-          "incident_id": "5rpdcv3cwg12",
-          "created_at": "2021-08-02T10:30:58.785Z",
-          "updated_at": "2021-08-02T10:30:58.785Z",
-          "display_at": "2021-08-02T10:30:58.785Z",
-          "affected_components": [
-            {
-              "code": "l4fp2xkkygv4",
-              "name": "Viewing content",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "ck66m7cmn67q",
-          "status": "investigating",
-          "body": "We are investigating cases of degraded performance for Jira Work Management, Jira Service Management, and Jira Software.\r\nConnect-based marketplace apps might fail to load for some customers on Jira issues.\r\nWe will provide more details within two hours hour.",
-          "incident_id": "5rpdcv3cwg12",
-          "created_at": "2021-08-02T09:09:52.866Z",
-          "updated_at": "2021-08-02T09:09:52.866Z",
-          "display_at": "2021-08-02T09:09:52.866Z",
-          "affected_components": [
-            {
-              "code": "l4fp2xkkygv4",
-              "name": "Viewing content",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "l4fp2xkkygv4",
-          "name": "Viewing content",
-          "status": "degraded_performance",
-          "created_at": "2018-11-16T18:17:29.270Z",
-          "updated_at": "2021-08-02T09:09:52.811Z",
-          "position": 1,
-          "description": "Problems viewing issues, dashboards, boards, reports, etc.",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "s6f0gm5gcpmy",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "minor",
