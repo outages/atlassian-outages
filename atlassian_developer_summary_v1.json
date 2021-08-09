@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-08-06T09:52:12.197Z"
+    "updated_at": "2021-08-09T06:26:49.476Z"
   },
   "components": [
     {
@@ -226,7 +226,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -609,9 +609,9 @@
     {
       "id": "hk36hlvygg2q",
       "name": "Reporting APIs and dashboards",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2013-12-03T00:45:26.014Z",
-      "updated_at": "2021-08-06T09:52:12.075Z",
+      "updated_at": "2021-08-09T06:26:49.429Z",
       "position": 11,
       "description": "We have identified an issue with our internal services affecting reporting queries with large data. You may see intermittent failures and slow responses. The team is working on a fix.",
       "showcase": true,
@@ -667,10 +667,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "gny5sk4yg3q6",
+      "name": "Marketplace partner reports will show stale data due an incident with the upstream service.",
+      "status": "investigating",
+      "created_at": "2021-08-09T06:26:49.398Z",
+      "updated_at": "2021-08-09T06:26:49.474Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "critical",
+      "shortlink": "https://stspg.io/k92g1kf1mzlb",
+      "started_at": "2021-08-09T06:26:49.391Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "1j7cf7h65bgm",
+          "status": "investigating",
+          "body": "One of the upstream services is facing an incident causing delay in the data of Marketplace Partner reports. We are working with the team for the resolution. We will keep the status updated with the progress.",
+          "incident_id": "gny5sk4yg3q6",
+          "created_at": "2021-08-09T06:26:49.471Z",
+          "updated_at": "2021-08-09T06:26:49.471Z",
+          "display_at": "2021-08-09T06:26:49.471Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "hk36hlvygg2q",
+          "name": "Reporting APIs and dashboards",
+          "status": "major_outage",
+          "created_at": "2013-12-03T00:45:26.014Z",
+          "updated_at": "2021-08-09T06:26:49.429Z",
+          "position": 11,
+          "description": "We have identified an issue with our internal services affecting reporting queries with large data. You may see intermittent failures and slow responses. The team is working on a fix.",
+          "showcase": true,
+          "start_date": null,
+          "group_id": "d0m8l367qqw5",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "major",
+    "description": "Partial System Outage"
   }
 }
