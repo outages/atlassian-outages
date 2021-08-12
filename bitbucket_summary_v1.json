@@ -4,15 +4,15 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-08-12T15:34:37.624Z"
+    "updated_at": "2021-08-12T15:56:33.810Z"
   },
   "components": [
     {
       "id": "g0lfj4sv2fhf",
       "name": "Website",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2013-09-26T03:34:27.377Z",
-      "updated_at": "2021-08-12T14:26:08.865Z",
+      "updated_at": "2021-08-12T15:56:33.239Z",
       "position": 1,
       "description": "Access to bitbucket.org",
       "showcase": false,
@@ -188,80 +188,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "ksx0l8ryq4rs",
-      "name": "Degraded website performance",
-      "status": "identified",
-      "created_at": "2021-08-12T14:26:08.824Z",
-      "updated_at": "2021-08-12T15:34:37.617Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/c10r7wb97nv8",
-      "started_at": "2021-08-12T14:26:08.817Z",
-      "page_id": "bqlf8qjztdtr",
-      "incident_updates": [
-        {
-          "id": "5m0177w8x5p7",
-          "status": "identified",
-          "body": "We have scaled up services and we are seeing slightly improved performance as a result. We are continuing to work on addressing the root cause.",
-          "incident_id": "ksx0l8ryq4rs",
-          "created_at": "2021-08-12T15:34:37.243Z",
-          "updated_at": "2021-08-12T15:34:37.615Z",
-          "display_at": "2021-08-12T15:34:37.243Z",
-          "affected_components": [
-            {
-              "code": "g0lfj4sv2fhf",
-              "name": "Website",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1425843170932183000
-        },
-        {
-          "id": "zqxw6c6qzsvj",
-          "status": "investigating",
-          "body": "We are aware of an issue in our file system layer causing degraded website performance, primarily affecting views that access source code e.g. browsing files and reviewing pull requests. We are actively investigating and will update this incident with more info shortly.",
-          "incident_id": "ksx0l8ryq4rs",
-          "created_at": "2021-08-12T14:26:08.940Z",
-          "updated_at": "2021-08-12T14:26:09.571Z",
-          "display_at": "2021-08-12T14:26:08.940Z",
-          "affected_components": [
-            {
-              "code": "g0lfj4sv2fhf",
-              "name": "Website",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1425825940366450700
-        }
-      ],
-      "components": [
-        {
-          "id": "g0lfj4sv2fhf",
-          "name": "Website",
-          "status": "degraded_performance",
-          "created_at": "2013-09-26T03:34:27.377Z",
-          "updated_at": "2021-08-12T14:26:08.865Z",
-          "position": 1,
-          "description": "Access to bitbucket.org",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "bqlf8qjztdtr",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [
     {
       "id": "z72kjd8vdwyc",
@@ -385,9 +312,9 @@
         {
           "id": "g0lfj4sv2fhf",
           "name": "Website",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2013-09-26T03:34:27.377Z",
-          "updated_at": "2021-08-12T14:26:08.865Z",
+          "updated_at": "2021-08-12T15:56:33.239Z",
           "position": 1,
           "description": "Access to bitbucket.org",
           "showcase": false,
@@ -523,9 +450,9 @@
         {
           "id": "g0lfj4sv2fhf",
           "name": "Website",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2013-09-26T03:34:27.377Z",
-          "updated_at": "2021-08-12T14:26:08.865Z",
+          "updated_at": "2021-08-12T15:56:33.239Z",
           "position": 1,
           "description": "Access to bitbucket.org",
           "showcase": false,
@@ -661,9 +588,9 @@
         {
           "id": "g0lfj4sv2fhf",
           "name": "Website",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2013-09-26T03:34:27.377Z",
-          "updated_at": "2021-08-12T14:26:08.865Z",
+          "updated_at": "2021-08-12T15:56:33.239Z",
           "position": 1,
           "description": "Access to bitbucket.org",
           "showcase": false,
@@ -679,7 +606,7 @@
     }
   ],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
