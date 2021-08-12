@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-08-11T10:26:24.703Z"
+    "updated_at": "2021-08-12T03:50:32.273Z"
   },
   "components": [
     {
@@ -226,7 +226,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -547,21 +547,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "64gg59lyzrfs",
-      "name": "Forge App Logs",
-      "status": "operational",
-      "created_at": "2021-05-12T00:18:57.324Z",
-      "updated_at": "2021-05-12T00:18:57.324Z",
-      "position": 9,
-      "description": "Access and retrieve app logs via Forge CLI and admin.atlassian.com",
-      "showcase": true,
-      "start_date": "2021-05-12",
-      "group_id": "73bt63kd5q9k",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "y1fdrctjbkx0",
       "name": "Notifications",
       "status": "operational",
@@ -577,16 +562,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "7lx3k072bl6z",
-      "name": "Private listings",
+      "id": "64gg59lyzrfs",
+      "name": "Forge App Logs",
       "status": "operational",
-      "created_at": "2018-02-01T17:52:40.782Z",
-      "updated_at": "2020-09-07T04:56:35.564Z",
-      "position": 10,
-      "description": null,
+      "created_at": "2021-05-12T00:18:57.324Z",
+      "updated_at": "2021-05-12T00:18:57.324Z",
+      "position": 9,
+      "description": "Access and retrieve app logs via Forge CLI and admin.atlassian.com",
       "showcase": true,
-      "start_date": null,
-      "group_id": "d0m8l367qqw5",
+      "start_date": "2021-05-12",
+      "group_id": "73bt63kd5q9k",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -607,13 +592,28 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "7lx3k072bl6z",
+      "name": "Private listings",
+      "status": "operational",
+      "created_at": "2018-02-01T17:52:40.782Z",
+      "updated_at": "2020-09-07T04:56:35.564Z",
+      "position": 10,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "d0m8l367qqw5",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "hk36hlvygg2q",
       "name": "Reporting APIs and dashboards",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2013-12-03T00:45:26.014Z",
-      "updated_at": "2021-08-11T07:33:30.468Z",
+      "updated_at": "2021-08-12T03:50:32.269Z",
       "position": 11,
-      "description": "We have identified an issue with our internal services affecting reporting queries with large data. You may see intermittent failures and slow responses. The team is working on a fix.",
+      "description": "We have identified a problem with an underlying service to fetch data because of which only the BETA APIs for reporting may return errors. We are actively working with the dependent system to get this addressed asap.",
       "showcase": true,
       "start_date": null,
       "group_id": "d0m8l367qqw5",
@@ -670,7 +670,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
