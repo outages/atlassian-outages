@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-08-16T10:29:00.711Z"
+    "updated_at": "2021-08-16T17:24:08.617Z"
   },
   "components": [
     {
@@ -668,6 +668,58 @@
     }
   ],
   "incidents": [
+    {
+      "id": "wcmntsk98yyh",
+      "name": "New sub-tasks are created without a parent",
+      "status": "investigating",
+      "created_at": "2021-08-16T17:24:08.561Z",
+      "updated_at": "2021-08-16T17:24:08.615Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/9lq5n5kf75hp",
+      "started_at": "2021-08-16T17:24:08.550Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "dnjfxzbqlqq1",
+          "status": "investigating",
+          "body": "We are looking into reports of a possible regression, where sub-tasks in Jira are created without the parent field set.",
+          "incident_id": "wcmntsk98yyh",
+          "created_at": "2021-08-16T17:24:08.612Z",
+          "updated_at": "2021-08-16T17:24:08.612Z",
+          "display_at": "2021-08-16T17:24:08.612Z",
+          "affected_components": [
+            {
+              "code": "cc6gw24m02wp",
+              "name": "APIs - Jira Cloud APIs",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "cc6gw24m02wp",
+          "name": "Jira Cloud APIs",
+          "status": "operational",
+          "created_at": "2018-02-01T17:16:54.648Z",
+          "updated_at": "2021-03-23T12:03:04.808Z",
+          "position": 3,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": "w0ld3nc9jvdx",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    },
     {
       "id": "dswkpgjnjv4y",
       "name": "Marketplace partner reports facing delays",
