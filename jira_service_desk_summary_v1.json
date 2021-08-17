@@ -4,15 +4,15 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-08-17T13:33:25.442Z"
+    "updated_at": "2021-08-17T14:23:55.039Z"
   },
   "components": [
     {
       "id": "4kcs01hbh4l6",
       "name": "Jira Service Mangement Web",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-11-16T18:06:14.831Z",
-      "updated_at": "2021-08-17T13:33:25.374Z",
+      "updated_at": "2021-08-17T14:17:51.938Z",
       "position": 1,
       "description": "Problems with queues, issues, reports, searching, and anything else impacting an agent's ability to complete their work",
       "showcase": false,
@@ -173,63 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "2qp8yj749765",
-      "name": "Request type \"Incident\" is not loading",
-      "status": "investigating",
-      "created_at": "2021-08-17T13:33:25.336Z",
-      "updated_at": "2021-08-17T13:33:25.439Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/4p7sltjcc95q",
-      "started_at": "2021-08-17T13:33:25.330Z",
-      "page_id": "pv54g7ltsc24",
-      "incident_updates": [
-        {
-          "id": "25g5v51hy0bl",
-          "status": "investigating",
-          "body": "We are investigating issues where agents are unable to load the tickets with request type \"Incident\". More updates to follow soon",
-          "incident_id": "2qp8yj749765",
-          "created_at": "2021-08-17T13:33:25.436Z",
-          "updated_at": "2021-08-17T13:33:25.436Z",
-          "display_at": "2021-08-17T13:33:25.436Z",
-          "affected_components": [
-            {
-              "code": "4kcs01hbh4l6",
-              "name": "Jira Service Mangement Web",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "4kcs01hbh4l6",
-          "name": "Jira Service Mangement Web",
-          "status": "partial_outage",
-          "created_at": "2018-11-16T18:06:14.831Z",
-          "updated_at": "2021-08-17T13:33:25.374Z",
-          "position": 1,
-          "description": "Problems with queues, issues, reports, searching, and anything else impacting an agent's ability to complete their work",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
