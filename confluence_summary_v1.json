@@ -4,7 +4,7 @@
     "name": "Confluence",
     "url": "https://confluence.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-08-17T16:17:20.712Z"
+    "updated_at": "2021-08-17T16:27:34.443Z"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "bl9mxbb582vk",
       "name": "View Content",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-11-12T04:04:58.123Z",
-      "updated_at": "2021-08-17T16:17:20.458Z",
+      "updated_at": "2021-08-17T16:26:47.764Z",
       "position": 1,
       "description": "Viewing pages or dashboards",
       "showcase": false,
@@ -40,9 +40,9 @@
     {
       "id": "y4z6hxpf7d7t",
       "name": "Create and Edit",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-11-12T04:04:58.145Z",
-      "updated_at": "2021-08-17T16:17:20.494Z",
+      "updated_at": "2021-08-17T16:26:57.212Z",
       "position": 2,
       "description": null,
       "showcase": false,
@@ -70,9 +70,9 @@
     {
       "id": "snpbn00x0g0k",
       "name": "Comments",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-11-30T21:50:37.850Z",
-      "updated_at": "2021-08-17T16:17:20.525Z",
+      "updated_at": "2021-08-17T16:27:06.128Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -85,9 +85,9 @@
     {
       "id": "n779hf70xvvb",
       "name": "Authentication and User Management",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-05-02T04:25:15.382Z",
-      "updated_at": "2021-08-17T16:17:20.566Z",
+      "updated_at": "2021-08-17T16:27:19.373Z",
       "position": 4,
       "description": null,
       "showcase": false,
@@ -100,9 +100,9 @@
     {
       "id": "5fjwzmlch883",
       "name": "Search",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-11-30T21:50:44.178Z",
-      "updated_at": "2021-08-17T16:17:20.634Z",
+      "updated_at": "2021-08-17T16:27:34.440Z",
       "position": 5,
       "description": null,
       "showcase": false,
@@ -207,147 +207,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "vzpjmvl585m1",
-      "name": "Confluence Cloud inaccessible for some customers",
-      "status": "investigating",
-      "created_at": "2021-08-17T16:17:20.373Z",
-      "updated_at": "2021-08-17T16:17:20.707Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/vhqslj15dbwl",
-      "started_at": "2021-08-17T16:17:20.358Z",
-      "page_id": "4g2my7tbhjsq",
-      "incident_updates": [
-        {
-          "id": "75l6551s2433",
-          "status": "investigating",
-          "body": "We are investigating reports of SOME Confluence Cloud customers unable to access their Confluence sites. We will provide more details once we identify the root cause.",
-          "incident_id": "vzpjmvl585m1",
-          "created_at": "2021-08-17T16:17:20.703Z",
-          "updated_at": "2021-08-17T16:17:20.703Z",
-          "display_at": "2021-08-17T16:17:20.703Z",
-          "affected_components": [
-            {
-              "code": "bl9mxbb582vk",
-              "name": "View Content",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "y4z6hxpf7d7t",
-              "name": "Create and Edit",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "snpbn00x0g0k",
-              "name": "Comments",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "5fjwzmlch883",
-              "name": "Search",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "n779hf70xvvb",
-              "name": "Authentication and User Management",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "5fjwzmlch883",
-          "name": "Search",
-          "status": "degraded_performance",
-          "created_at": "2018-11-30T21:50:44.178Z",
-          "updated_at": "2021-08-17T16:17:20.634Z",
-          "position": 5,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "4g2my7tbhjsq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "n779hf70xvvb",
-          "name": "Authentication and User Management",
-          "status": "degraded_performance",
-          "created_at": "2019-05-02T04:25:15.382Z",
-          "updated_at": "2021-08-17T16:17:20.566Z",
-          "position": 4,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "4g2my7tbhjsq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "snpbn00x0g0k",
-          "name": "Comments",
-          "status": "degraded_performance",
-          "created_at": "2018-11-30T21:50:37.850Z",
-          "updated_at": "2021-08-17T16:17:20.525Z",
-          "position": 3,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "4g2my7tbhjsq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "y4z6hxpf7d7t",
-          "name": "Create and Edit",
-          "status": "degraded_performance",
-          "created_at": "2018-11-12T04:04:58.145Z",
-          "updated_at": "2021-08-17T16:17:20.494Z",
-          "position": 2,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "4g2my7tbhjsq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "bl9mxbb582vk",
-          "name": "View Content",
-          "status": "degraded_performance",
-          "created_at": "2018-11-12T04:04:58.123Z",
-          "updated_at": "2021-08-17T16:17:20.458Z",
-          "position": 1,
-          "description": "Viewing pages or dashboards",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "4g2my7tbhjsq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
