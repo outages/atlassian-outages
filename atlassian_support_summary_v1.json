@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-07-31T21:28:51.378Z"
+    "updated_at": "2021-08-18T22:25:49.043Z"
   },
   "components": [
     {
@@ -189,7 +189,62 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "jbq1y5mynjc4",
+      "name": "Community Scheduled Maintenance",
+      "status": "scheduled",
+      "created_at": "2021-08-18T22:25:48.982Z",
+      "updated_at": "2021-08-18T22:25:49.041Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/0ybrhsz36cjc",
+      "started_at": "2021-08-18T22:25:48.978Z",
+      "page_id": "3tbw4lb9t3qp",
+      "incident_updates": [
+        {
+          "id": "fw7zf5f18bln",
+          "status": "scheduled",
+          "body": "Atlassian Community (community.atlassian.com) scheduled maintenance window:\n\n- Starting at 9:00 AM PT Thursday, Aug 19\n- Ending at 11:30 AM PT Thursday, Aug 19\n\nThere might be some downtime during the window and the site could be completely unavailable for about an hour if/when the servers are restarted.",
+          "incident_id": "jbq1y5mynjc4",
+          "created_at": "2021-08-18T22:25:49.039Z",
+          "updated_at": "2021-08-18T22:25:49.039Z",
+          "display_at": "2021-08-18T22:25:49.039Z",
+          "affected_components": [
+            {
+              "code": "x6ljwvfs3ymn",
+              "name": "Community",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "x6ljwvfs3ymn",
+          "name": "Community",
+          "status": "operational",
+          "created_at": "2018-11-30T21:48:02.423Z",
+          "updated_at": "2021-07-14T11:00:37.342Z",
+          "position": 4,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "3tbw4lb9t3qp",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2021-08-19T16:00:00.000Z",
+      "scheduled_until": "2021-08-19T18:30:00.000Z"
+    }
+  ],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
