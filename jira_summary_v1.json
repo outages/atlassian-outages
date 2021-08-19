@@ -4,7 +4,7 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-08-18T14:53:20.444Z"
+    "updated_at": "2021-08-19T10:42:09.292Z"
   },
   "components": [
     {
@@ -160,9 +160,9 @@
     {
       "id": "9hyf9lm0fswd",
       "name": "Automation for Jira",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2020-12-23T01:40:32.378Z",
-      "updated_at": "2021-08-18T14:53:20.441Z",
+      "updated_at": "2021-08-19T10:42:09.238Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -173,10 +173,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "x6bhs7gw22t0",
+      "name": "Automation for Jira rules are not processing",
+      "status": "investigating",
+      "created_at": "2021-08-19T10:42:09.201Z",
+      "updated_at": "2021-08-19T10:42:09.288Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/s4ty59sq45c9",
+      "started_at": "2021-08-19T10:42:09.196Z",
+      "page_id": "7yh3h3y0c0x1",
+      "incident_updates": [
+        {
+          "id": "s61qyjfhwrtl",
+          "status": "investigating",
+          "body": "We are investigating an issue with Automation for Jira rules stuck in In Progress that is impacting few Jira Service Management & Jira Software Cloud customers. We will provide more details within the next hour.",
+          "incident_id": "x6bhs7gw22t0",
+          "created_at": "2021-08-19T10:42:09.285Z",
+          "updated_at": "2021-08-19T10:42:09.285Z",
+          "display_at": "2021-08-19T10:42:09.285Z",
+          "affected_components": [
+            {
+              "code": "9hyf9lm0fswd",
+              "name": "Automation for Jira",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "9hyf9lm0fswd",
+          "name": "Automation for Jira",
+          "status": "partial_outage",
+          "created_at": "2020-12-23T01:40:32.378Z",
+          "updated_at": "2021-08-19T10:42:09.238Z",
+          "position": 11,
+          "description": null,
+          "showcase": false,
+          "start_date": "2020-12-23",
+          "group_id": null,
+          "page_id": "7yh3h3y0c0x1",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
