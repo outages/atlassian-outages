@@ -4,7 +4,7 @@
     "name": "Jira Align",
     "url": "https://jira-align.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-08-02T15:40:48.566Z"
+    "updated_at": "2021-08-19T01:23:52.146Z"
   },
   "components": [
     {
@@ -357,7 +357,7 @@
       "name": "Pod 24",
       "status": "operational",
       "created_at": "2020-01-22T19:53:08.942Z",
-      "updated_at": "2020-07-17T22:19:29.948Z",
+      "updated_at": "2021-08-19T01:17:35.587Z",
       "position": 24,
       "description": null,
       "showcase": false,
