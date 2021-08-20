@@ -4,15 +4,15 @@
     "name": "Atlassian Partners",
     "url": "https://partners.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-08-20T19:00:41.627Z"
+    "updated_at": "2021-08-20T20:00:31.052Z"
   },
   "components": [
     {
       "id": "4l5b50t3yc3t",
       "name": "Partner Portal",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-11-16T18:04:29.761Z",
-      "updated_at": "2021-08-20T19:00:41.549Z",
+      "updated_at": "2021-08-20T20:00:30.964Z",
       "position": 1,
       "description": "https://partners.atlassian.com/",
       "showcase": true,
@@ -84,97 +84,9 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "6s2561rrjtpz",
-      "name": "Partner Portal will be upgraded",
-      "status": "in_progress",
-      "created_at": "2021-08-20T17:41:40.587Z",
-      "updated_at": "2021-08-20T19:00:41.610Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/v25fv39hk8fq",
-      "started_at": "2021-08-20T17:41:40.582Z",
-      "page_id": "tfc0vzc0cq1n",
-      "incident_updates": [
-        {
-          "id": "pdrbp36rqfpr",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "6s2561rrjtpz",
-          "created_at": "2021-08-20T19:00:41.607Z",
-          "updated_at": "2021-08-20T19:00:41.607Z",
-          "display_at": "2021-08-20T19:00:41.607Z",
-          "affected_components": [
-            {
-              "code": "4l5b50t3yc3t",
-              "name": "Partner Portal",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "sx60s4tjj8j2",
-          "status": "scheduled",
-          "body": "Maintenance will begin as scheduled in 60 minutes.",
-          "incident_id": "6s2561rrjtpz",
-          "created_at": "2021-08-20T18:00:48.360Z",
-          "updated_at": "2021-08-20T18:00:48.360Z",
-          "display_at": "2021-08-20T18:00:48.360Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "tr87d2qnh9gy",
-          "status": "scheduled",
-          "body": "Partner Portal (https://partners.atlassian.com) will be undergoing a minor upgrade. There will be around 20 minutes of downtime during the upgrade process.",
-          "incident_id": "6s2561rrjtpz",
-          "created_at": "2021-08-20T17:41:40.640Z",
-          "updated_at": "2021-08-20T17:41:40.640Z",
-          "display_at": "2021-08-20T17:41:40.640Z",
-          "affected_components": [
-            {
-              "code": "4l5b50t3yc3t",
-              "name": "Partner Portal",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "4l5b50t3yc3t",
-          "name": "Partner Portal",
-          "status": "under_maintenance",
-          "created_at": "2018-11-16T18:04:29.761Z",
-          "updated_at": "2021-08-20T19:00:41.549Z",
-          "position": 1,
-          "description": "https://partners.atlassian.com/",
-          "showcase": true,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "tfc0vzc0cq1n",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2021-08-20T19:00:00.000Z",
-      "scheduled_until": "2021-08-20T20:00:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
