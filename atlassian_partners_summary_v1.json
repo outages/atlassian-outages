@@ -4,7 +4,7 @@
     "name": "Atlassian Partners",
     "url": "https://partners.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-08-20T17:41:40.647Z"
+    "updated_at": "2021-08-20T18:00:49.442Z"
   },
   "components": [
     {
@@ -90,7 +90,7 @@
       "name": "Partner Portal will be upgraded",
       "status": "scheduled",
       "created_at": "2021-08-20T17:41:40.587Z",
-      "updated_at": "2021-08-20T17:41:40.644Z",
+      "updated_at": "2021-08-20T18:00:49.320Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -98,6 +98,19 @@
       "started_at": "2021-08-20T17:41:40.582Z",
       "page_id": "tfc0vzc0cq1n",
       "incident_updates": [
+        {
+          "id": "sx60s4tjj8j2",
+          "status": "scheduled",
+          "body": "Maintenance will begin as scheduled in 60 minutes.",
+          "incident_id": "6s2561rrjtpz",
+          "created_at": "2021-08-20T18:00:48.360Z",
+          "updated_at": "2021-08-20T18:00:48.360Z",
+          "display_at": "2021-08-20T18:00:48.360Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "tr87d2qnh9gy",
           "status": "scheduled",
