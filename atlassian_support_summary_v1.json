@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-08-21T04:23:40.020Z"
+    "updated_at": "2021-08-21T23:00:37.349Z"
   },
   "components": [
     {
@@ -195,7 +195,7 @@
       "name": "confluence.atlassian.com will be undergoing maintenance",
       "status": "scheduled",
       "created_at": "2021-08-21T04:00:30.748Z",
-      "updated_at": "2021-08-21T04:00:30.841Z",
+      "updated_at": "2021-08-21T23:00:37.338Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -203,6 +203,19 @@
       "started_at": "2021-08-21T04:00:30.742Z",
       "page_id": "3tbw4lb9t3qp",
       "incident_updates": [
+        {
+          "id": "g2qh5y3ppj9q",
+          "status": "scheduled",
+          "body": "Maintenance will begin as scheduled in 60 minutes.",
+          "incident_id": "jqwvx0d02gmp",
+          "created_at": "2021-08-21T23:00:37.117Z",
+          "updated_at": "2021-08-21T23:00:37.117Z",
+          "display_at": "2021-08-21T23:00:37.117Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "d4qvymgs8b1d",
           "status": "scheduled",
