@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-08-22T00:04:09.205Z"
+    "updated_at": "2021-08-22T06:00:38.149Z"
   },
   "components": [
     {
@@ -40,9 +40,9 @@
     {
       "id": "3cgy5c4f3q0r",
       "name": "Knowledge Base",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-11-30T21:47:55.304Z",
-      "updated_at": "2021-08-22T00:04:08.001Z",
+      "updated_at": "2021-08-22T06:00:38.094Z",
       "position": 3,
       "description": null,
       "showcase": true,
@@ -189,97 +189,9 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "jqwvx0d02gmp",
-      "name": "confluence.atlassian.com will be undergoing maintenance",
-      "status": "in_progress",
-      "created_at": "2021-08-21T04:00:30.748Z",
-      "updated_at": "2021-08-22T00:04:09.193Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/k468j4z285n4",
-      "started_at": "2021-08-21T04:00:30.742Z",
-      "page_id": "3tbw4lb9t3qp",
-      "incident_updates": [
-        {
-          "id": "h0l4l2hkr0tq",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "jqwvx0d02gmp",
-          "created_at": "2021-08-22T00:04:09.188Z",
-          "updated_at": "2021-08-22T00:04:09.188Z",
-          "display_at": "2021-08-22T00:04:09.188Z",
-          "affected_components": [
-            {
-              "code": "3cgy5c4f3q0r",
-              "name": "Knowledge Base",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "g2qh5y3ppj9q",
-          "status": "scheduled",
-          "body": "Maintenance will begin as scheduled in 60 minutes.",
-          "incident_id": "jqwvx0d02gmp",
-          "created_at": "2021-08-21T23:00:37.117Z",
-          "updated_at": "2021-08-21T23:00:37.117Z",
-          "display_at": "2021-08-21T23:00:37.117Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "d4qvymgs8b1d",
-          "status": "scheduled",
-          "body": "confluence.atlassian.com will be undergoing maintenance",
-          "incident_id": "jqwvx0d02gmp",
-          "created_at": "2021-08-21T04:00:30.838Z",
-          "updated_at": "2021-08-21T04:00:30.838Z",
-          "display_at": "2021-08-21T04:00:30.838Z",
-          "affected_components": [
-            {
-              "code": "3cgy5c4f3q0r",
-              "name": "Knowledge Base",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "3cgy5c4f3q0r",
-          "name": "Knowledge Base",
-          "status": "under_maintenance",
-          "created_at": "2018-11-30T21:47:55.304Z",
-          "updated_at": "2021-08-22T00:04:08.001Z",
-          "position": 3,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "3tbw4lb9t3qp",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2021-08-22T00:00:00.000Z",
-      "scheduled_until": "2021-08-22T06:00:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
