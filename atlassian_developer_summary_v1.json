@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-08-25T16:34:43.027Z"
+    "updated_at": "2021-08-25T17:41:34.925Z"
   },
   "components": [
     {
@@ -667,120 +667,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "yzbw7mzht60c",
-      "name": "Delay in licenses and transactions data appearing in Marketplace Partner reports",
-      "status": "monitoring",
-      "created_at": "2021-08-24T12:53:08.436Z",
-      "updated_at": "2021-08-25T16:34:43.024Z",
-      "monitoring_at": "2021-08-25T16:33:03.000Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/lztrtydm46pf",
-      "started_at": "2021-08-24T12:53:08.428Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "1csffzz1h0sk",
-          "status": "monitoring",
-          "body": "The data is refreshed and is reflecting in reports and we are monitoring the results.",
-          "incident_id": "yzbw7mzht60c",
-          "created_at": "2021-08-25T16:33:03.931Z",
-          "updated_at": "2021-08-25T16:34:43.008Z",
-          "display_at": "2021-08-25T16:33:03.000Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "partial_outage",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "sql2ysp36d8x",
-          "status": "identified",
-          "body": "The data refresh job is still currently in progress.we estimate the updated data to be available in ~5 hrs.",
-          "incident_id": "yzbw7mzht60c",
-          "created_at": "2021-08-25T13:39:58.693Z",
-          "updated_at": "2021-08-25T13:39:58.693Z",
-          "display_at": "2021-08-25T13:39:58.693Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "zdlf73zql27k",
-          "status": "identified",
-          "body": "The issue has been addressed and the jobs for data refresh is underway.",
-          "incident_id": "yzbw7mzht60c",
-          "created_at": "2021-08-25T03:21:08.714Z",
-          "updated_at": "2021-08-25T03:21:08.714Z",
-          "display_at": "2021-08-25T03:21:08.714Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "711gclgwdfsr",
-          "status": "investigating",
-          "body": "We have identified an issue with Marketplace partner reports where the data seems to be delayed. Our developers are working with internal teams to resolve the issue.",
-          "incident_id": "yzbw7mzht60c",
-          "created_at": "2021-08-24T12:53:08.484Z",
-          "updated_at": "2021-08-24T12:53:08.484Z",
-          "display_at": "2021-08-24T12:53:08.484Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "hk36hlvygg2q",
-          "name": "Reporting APIs and dashboards",
-          "status": "operational",
-          "created_at": "2013-12-03T00:45:26.014Z",
-          "updated_at": "2021-08-25T16:33:03.895Z",
-          "position": 11,
-          "description": "We have identified a problem with an underlying service to fetch data because of which there is a delay in transactions appearing in Marketplace Partner reports. We are actively working with the dependent system to get this addressed asap.",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
