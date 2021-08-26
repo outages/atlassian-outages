@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-08-25T23:29:31.000Z"
+    "updated_at": "2021-08-26T00:30:12.946Z"
   },
   "components": [
     {
@@ -85,9 +85,9 @@
     {
       "id": "rfzky0v13fbp",
       "name": "Webhooks",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2015-07-29T01:37:04.511Z",
-      "updated_at": "2021-08-05T18:52:39.745Z",
+      "updated_at": "2021-08-26T00:30:08.863Z",
       "position": 7,
       "description": "The Bitbucket webhooks service",
       "showcase": false,
@@ -193,9 +193,9 @@
     {
       "id": "1l51l5byt9dk",
       "name": "Webhooks DB migration",
-      "status": "scheduled",
+      "status": "in_progress",
       "created_at": "2021-08-24T07:38:37.045Z",
-      "updated_at": "2021-08-25T23:29:30.995Z",
+      "updated_at": "2021-08-26T00:30:12.934Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -203,6 +203,26 @@
       "started_at": "2021-08-24T07:38:37.040Z",
       "page_id": "bqlf8qjztdtr",
       "incident_updates": [
+        {
+          "id": "5zl219nc700b",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "1l51l5byt9dk",
+          "created_at": "2021-08-26T00:30:09.246Z",
+          "updated_at": "2021-08-26T00:30:12.929Z",
+          "display_at": "2021-08-26T00:30:09.246Z",
+          "affected_components": [
+            {
+              "code": "rfzky0v13fbp",
+              "name": "Webhooks",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1430688997773217800
+        },
         {
           "id": "cp21hr9ypcrf",
           "status": "scheduled",
@@ -241,9 +261,9 @@
         {
           "id": "rfzky0v13fbp",
           "name": "Webhooks",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2015-07-29T01:37:04.511Z",
-          "updated_at": "2021-08-05T18:52:39.745Z",
+          "updated_at": "2021-08-26T00:30:08.863Z",
           "position": 7,
           "description": "The Bitbucket webhooks service",
           "showcase": false,
@@ -259,7 +279,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
