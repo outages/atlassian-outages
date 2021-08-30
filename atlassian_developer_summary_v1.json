@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-08-30T06:36:09.666Z"
+    "updated_at": "2021-08-30T14:51:51.851Z"
   },
   "components": [
     {
@@ -673,7 +673,7 @@
       "name": "Marketplace partner reports facing delays",
       "status": "identified",
       "created_at": "2021-08-29T12:06:47.409Z",
-      "updated_at": "2021-08-30T06:36:09.654Z",
+      "updated_at": "2021-08-30T14:51:51.841Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -681,6 +681,26 @@
       "started_at": "2021-08-29T12:06:47.400Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "55kdmfjvb9nj",
+          "status": "identified",
+          "body": "We faced issues again with the ongoing data refresh and fixed it. The job is progressing as expected now and ETA for completion is around 9 hrs from now. Partners will continue to see no data from 29th August'21 onwards till the data is not refreshed successfully. We will update here with regular status.",
+          "incident_id": "02mq3s9w3wms",
+          "created_at": "2021-08-30T14:51:51.838Z",
+          "updated_at": "2021-08-30T14:51:51.838Z",
+          "display_at": "2021-08-30T14:51:51.838Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "r986gv45qkc9",
           "status": "identified",
