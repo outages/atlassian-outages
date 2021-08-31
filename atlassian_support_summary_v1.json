@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-08-31T18:57:53.973Z"
+    "updated_at": "2021-08-31T19:21:02.048Z"
   },
   "components": [
     {
@@ -188,80 +188,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "2q3djyk9pbv5",
-      "name": "Outage with university.atlassian.com",
-      "status": "monitoring",
-      "created_at": "2021-08-31T18:12:28.877Z",
-      "updated_at": "2021-08-31T18:57:53.970Z",
-      "monitoring_at": "2021-08-31T18:57:53.953Z",
-      "resolved_at": null,
-      "impact": "critical",
-      "shortlink": "https://stspg.io/x0bgtn05fyhq",
-      "started_at": "2021-08-31T18:12:28.870Z",
-      "page_id": "3tbw4lb9t3qp",
-      "incident_updates": [
-        {
-          "id": "k3cr0179j7rz",
-          "status": "monitoring",
-          "body": "The site is back up and running, we are monitoring for stability.",
-          "incident_id": "2q3djyk9pbv5",
-          "created_at": "2021-08-31T18:57:53.953Z",
-          "updated_at": "2021-08-31T18:57:53.953Z",
-          "display_at": "2021-08-31T18:57:53.953Z",
-          "affected_components": [
-            {
-              "code": "69dcpfrpy69y",
-              "name": "Training",
-              "old_status": "major_outage",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "7fqf0wfxn4lp",
-          "status": "investigating",
-          "body": "We are investigating an issue that is impacting university.atlassian.com. Customers trying to view this page would experience a 504 error. We will provide more details within the next hour.",
-          "incident_id": "2q3djyk9pbv5",
-          "created_at": "2021-08-31T18:12:28.975Z",
-          "updated_at": "2021-08-31T18:12:28.975Z",
-          "display_at": "2021-08-31T18:12:28.975Z",
-          "affected_components": [
-            {
-              "code": "69dcpfrpy69y",
-              "name": "Training",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "69dcpfrpy69y",
-          "name": "Training",
-          "status": "operational",
-          "created_at": "2019-01-28T19:52:18.637Z",
-          "updated_at": "2021-08-31T18:57:53.917Z",
-          "position": 7,
-          "description": "Atlassian training and certification found at training.atlassian.com",
-          "showcase": true,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "3tbw4lb9t3qp",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
