@@ -4,7 +4,7 @@
     "name": "Atlassian Statuspage",
     "url": "http://metastatuspage.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-09-03T11:00:41.464-07:00"
+    "updated_at": "2021-09-03T11:32:55.104-07:00"
   },
   "components": [
     {
@@ -805,16 +805,36 @@
     {
       "id": "snczg6mkgry8",
       "name": "JiraOps Automation Update",
-      "status": "in_progress",
+      "status": "verifying",
       "created_at": "2021-08-23T12:34:09.054-07:00",
-      "updated_at": "2021-09-03T11:00:41.464-07:00",
-      "monitoring_at": null,
+      "updated_at": "2021-09-03T11:32:55.135-07:00",
+      "monitoring_at": "2021-09-03T11:32:55.102-07:00",
       "resolved_at": null,
       "impact": "maintenance",
       "shortlink": "http://mstspg.co/x6mmb26kqnsh",
       "started_at": "2021-08-23T12:34:09.046-07:00",
       "page_id": "y2j98763l56x",
       "incident_updates": [
+        {
+          "id": "tprgm2tt08mt",
+          "status": "verifying",
+          "body": "Verification is currently underway for the maintenance items.",
+          "incident_id": "snczg6mkgry8",
+          "created_at": "2021-09-03T11:32:55.102-07:00",
+          "updated_at": "2021-09-03T11:32:55.102-07:00",
+          "display_at": "2021-09-03T11:32:55.102-07:00",
+          "affected_components": [
+            {
+              "code": "f3kzxwdmmy7q",
+              "name": "Automation - JiraOps",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "41h617wnjv7g",
           "status": "in_progress",
