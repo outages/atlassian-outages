@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-09-08T02:48:37.863Z"
+    "updated_at": "2021-09-08T05:20:21.249Z"
   },
   "components": [
     {
@@ -173,113 +173,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "8jhb9r9w82l9",
-      "name": "Provisioning of new instances is failing",
-      "status": "monitoring",
-      "created_at": "2021-09-07T22:59:04.654Z",
-      "updated_at": "2021-09-08T02:48:37.854Z",
-      "monitoring_at": "2021-09-08T00:36:34.779Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/6lq686495tjf",
-      "started_at": "2021-09-07T22:59:04.647Z",
-      "page_id": "s6f0gm5gcpmy",
-      "incident_updates": [
-        {
-          "id": "95vmzscm3x4j",
-          "status": "monitoring",
-          "body": "Provisioning of new instances and sign-ups are now working properly, the root cause has been addressed. We are now monitoring closely.",
-          "incident_id": "8jhb9r9w82l9",
-          "created_at": "2021-09-08T02:48:37.852Z",
-          "updated_at": "2021-09-08T02:48:37.852Z",
-          "display_at": "2021-09-08T02:48:37.852Z",
-          "affected_components": [
-            {
-              "code": "y9tv8pscq9rj",
-              "name": "Signup",
-              "old_status": "partial_outage",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "v4bld39tyngl",
-          "status": "identified",
-          "body": "Due to a burst of retries, this problem has continued to impact new provisioning requests. We continue to work on resolving the underlying issue. We have identified the root cause and expect full recovery shortly.",
-          "incident_id": "8jhb9r9w82l9",
-          "created_at": "2021-09-08T01:54:56.021Z",
-          "updated_at": "2021-09-08T01:54:56.021Z",
-          "display_at": "2021-09-08T01:54:56.021Z",
-          "affected_components": [
-            {
-              "code": "y9tv8pscq9rj",
-              "name": "Signup",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "wpd2cxz1fy64",
-          "status": "monitoring",
-          "body": "We have identified the root cause of the failed activations and have mitigated the problem. We are now monitoring closely.",
-          "incident_id": "8jhb9r9w82l9",
-          "created_at": "2021-09-08T00:36:34.779Z",
-          "updated_at": "2021-09-08T00:36:34.779Z",
-          "display_at": "2021-09-08T00:36:34.779Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "pzt65cpnp90p",
-          "status": "investigating",
-          "body": "We are investigating reports of failing provisioning of new instances. We will provide more details once we identify the root cause.",
-          "incident_id": "8jhb9r9w82l9",
-          "created_at": "2021-09-07T22:59:04.722Z",
-          "updated_at": "2021-09-07T22:59:04.722Z",
-          "display_at": "2021-09-07T22:59:04.722Z",
-          "affected_components": [
-            {
-              "code": "y9tv8pscq9rj",
-              "name": "Signup",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "y9tv8pscq9rj",
-          "name": "Signup",
-          "status": "operational",
-          "created_at": "2020-10-09T20:43:13.570Z",
-          "updated_at": "2021-09-08T02:48:37.823Z",
-          "position": 10,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-10-09",
-          "group_id": null,
-          "page_id": "s6f0gm5gcpmy",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
