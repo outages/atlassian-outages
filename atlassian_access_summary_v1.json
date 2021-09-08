@@ -4,7 +4,7 @@
     "name": "Atlassian Access",
     "url": "https://access.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-09-07T23:24:15.576Z"
+    "updated_at": "2021-09-08T00:36:34.809Z"
   },
   "components": [
     {
@@ -102,16 +102,29 @@
     {
       "id": "spz3j76flmkp",
       "name": "Provisioning of new instances is failing",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2021-09-07T22:59:04.667Z",
-      "updated_at": "2021-09-07T22:59:04.756Z",
-      "monitoring_at": null,
+      "updated_at": "2021-09-08T00:36:34.806Z",
+      "monitoring_at": "2021-09-08T00:36:34.788Z",
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/pb8qq4dqcyl7",
       "started_at": "2021-09-07T22:59:04.659Z",
       "page_id": "5qmgwsxwsz78",
       "incident_updates": [
+        {
+          "id": "bvnqj6swhbx3",
+          "status": "monitoring",
+          "body": "We have identified the root cause of the failed activations and have mitigated the problem. We are now monitoring closely.",
+          "incident_id": "spz3j76flmkp",
+          "created_at": "2021-09-08T00:36:34.788Z",
+          "updated_at": "2021-09-08T00:36:34.788Z",
+          "display_at": "2021-09-08T00:36:34.788Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "dq4kf8nblzsq",
           "status": "investigating",
