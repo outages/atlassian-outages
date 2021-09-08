@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-09-08T08:06:17.620Z"
+    "updated_at": "2021-09-08T08:23:40.259Z"
   },
   "components": [
     {
@@ -192,16 +192,49 @@
     {
       "id": "1z61lrzz0qhw",
       "name": "Investigating Pipelines Error related to misconfiguration in your bitbucket-pipelines.yml file",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2021-09-08T08:06:17.483Z",
-      "updated_at": "2021-09-08T08:06:17.617Z",
-      "monitoring_at": null,
+      "updated_at": "2021-09-08T08:22:02.821Z",
+      "monitoring_at": "2021-09-08T08:22:02.794Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/kzwpj0jcl5hp",
       "started_at": "2021-09-08T08:06:17.474Z",
       "page_id": "bqlf8qjztdtr",
       "incident_updates": [
+        {
+          "id": "w9vxz1kzhwys",
+          "status": "monitoring",
+          "body": "We have identified the root cause of the Bitbucket Pipelines errors and have mitigated the problem. We are now monitoring closely.",
+          "incident_id": "1z61lrzz0qhw",
+          "created_at": "2021-09-08T08:22:02.794Z",
+          "updated_at": "2021-09-08T08:22:02.794Z",
+          "display_at": "2021-09-08T08:22:02.794Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "prdkcrtzxn41",
+          "status": "identified",
+          "body": "We continue to work on resolving the error on Bitbucket Pipelines. We have identified the root cause and expect recovery shortly.",
+          "incident_id": "1z61lrzz0qhw",
+          "created_at": "2021-09-08T08:20:17.891Z",
+          "updated_at": "2021-09-08T08:20:17.891Z",
+          "display_at": "2021-09-08T08:20:17.891Z",
+          "affected_components": [
+            {
+              "code": "rzh2n85q7vtt",
+              "name": "Pipelines",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "88mt9gbhx5y4",
           "status": "investigating",
