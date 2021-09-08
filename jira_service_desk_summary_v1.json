@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-09-08T05:20:21.116Z"
+    "updated_at": "2021-09-08T15:01:32.757Z"
   },
   "components": [
     {
@@ -160,9 +160,9 @@
     {
       "id": "7rq3yg76vvbc",
       "name": "Automation for Jira",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2020-12-23T01:40:13.601Z",
-      "updated_at": "2021-08-19T11:21:07.477Z",
+      "updated_at": "2021-09-08T15:01:32.663Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -173,10 +173,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "knkc2nc1jrkk",
+      "name": "Automation rules fail to edit Insight custom fields",
+      "status": "identified",
+      "created_at": "2021-09-08T15:01:32.627Z",
+      "updated_at": "2021-09-08T15:01:32.754Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/x9ywxhslf3j4",
+      "started_at": "2021-09-08T15:01:32.622Z",
+      "page_id": "pv54g7ltsc24",
+      "incident_updates": [
+        {
+          "id": "4nqcp3gxgq1t",
+          "status": "identified",
+          "body": "Automation rules that edit Insight custom fields are currently failing with an unauthorized error. We've identified the problem and are currently working on a fix.",
+          "incident_id": "knkc2nc1jrkk",
+          "created_at": "2021-09-08T15:01:32.751Z",
+          "updated_at": "2021-09-08T15:01:32.751Z",
+          "display_at": "2021-09-08T15:01:32.751Z",
+          "affected_components": [
+            {
+              "code": "7rq3yg76vvbc",
+              "name": "Automation for Jira",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "7rq3yg76vvbc",
+          "name": "Automation for Jira",
+          "status": "partial_outage",
+          "created_at": "2020-12-23T01:40:13.601Z",
+          "updated_at": "2021-09-08T15:01:32.663Z",
+          "position": 11,
+          "description": null,
+          "showcase": false,
+          "start_date": "2020-12-23",
+          "group_id": null,
+          "page_id": "pv54g7ltsc24",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
