@@ -4,15 +4,15 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-09-08T05:20:21.113Z"
+    "updated_at": "2021-09-10T03:38:21.411Z"
   },
   "components": [
     {
       "id": "jmgfbtr0k28j",
       "name": "Viewing content",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-01-22T20:42:24.651Z",
-      "updated_at": "2021-08-03T04:25:50.686Z",
+      "updated_at": "2021-09-10T03:38:21.344Z",
       "position": 1,
       "description": "Problems viewing issues, dashboards, boards, reports, etc.",
       "showcase": false,
@@ -173,10 +173,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "wh79x080brvq",
+      "name": "Degraded performance on Chrome 92 Windows with Crowdstrike agent",
+      "status": "identified",
+      "created_at": "2021-09-10T03:38:21.299Z",
+      "updated_at": "2021-09-10T03:38:21.408Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/hq13zk65pv7q",
+      "started_at": "2021-09-10T03:38:21.294Z",
+      "page_id": "7yh3h3y0c0x1",
+      "incident_updates": [
+        {
+          "id": "sdz73s9s3m5r",
+          "status": "identified",
+          "body": "There is a known performance degradation for the customers using Windows with Google Chrome major version 92 and the CrowdStrike agent installed (https://www.crowdstrike.com/). (https://bugs.chromium.org/p/chromium/issues/detail?id=1238289). We believe this is caused by a bug in the CrowdStrike agent which causes Chrome to have significantly reduced performance for some websites, including Jira Cloud. The observed regression varies between 3 and 8 seconds for page load times depending on the hardware and software being used. We have been working with the Crowdstrike team who are planning to release a fix in September.\n\nWorkaround until the fix is released by Crowdstrike:\n1. Upgrade your Chrome browser from version 92 to version 93 (latest). \n2. Please use an alternate browser other than Chrome version 92. We recommend Firefox, Safari and Edge for best experience.",
+          "incident_id": "wh79x080brvq",
+          "created_at": "2021-09-10T03:38:21.406Z",
+          "updated_at": "2021-09-10T03:38:21.406Z",
+          "display_at": "2021-09-10T03:38:21.406Z",
+          "affected_components": [
+            {
+              "code": "jmgfbtr0k28j",
+              "name": "Viewing content",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "jmgfbtr0k28j",
+          "name": "Viewing content",
+          "status": "degraded_performance",
+          "created_at": "2019-01-22T20:42:24.651Z",
+          "updated_at": "2021-09-10T03:38:21.344Z",
+          "position": 1,
+          "description": "Problems viewing issues, dashboards, boards, reports, etc.",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "7yh3h3y0c0x1",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
