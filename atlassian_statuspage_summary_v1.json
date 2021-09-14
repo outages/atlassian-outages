@@ -4,7 +4,7 @@
     "name": "Atlassian Statuspage",
     "url": "http://metastatuspage.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-09-14T13:01:32.005-07:00"
+    "updated_at": "2021-09-14T13:30:49.272-07:00"
   },
   "components": [
     {
@@ -628,9 +628,9 @@
     {
       "id": "f3kzxwdmmy7q",
       "name": "JiraOps",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-10-17T15:12:57.166-07:00",
-      "updated_at": "2021-09-14T13:01:31.953-07:00",
+      "updated_at": "2021-09-14T13:30:49.230-07:00",
       "position": 5,
       "description": null,
       "showcase": false,
@@ -688,7 +688,7 @@
     {
       "id": "l459pg65jrqf",
       "name": "Automation",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-08-21T10:22:29.732-07:00",
       "updated_at": "2017-08-24T12:33:47.951-07:00",
       "position": 6,
@@ -801,97 +801,9 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "q498zq30kr6s",
-      "name": "JiraOps Automation Update",
-      "status": "in_progress",
-      "created_at": "2021-09-10T10:55:55.243-07:00",
-      "updated_at": "2021-09-14T13:01:32.005-07:00",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "http://mstspg.co/md97ky6ltb9t",
-      "started_at": "2021-09-10T10:55:55.236-07:00",
-      "page_id": "y2j98763l56x",
-      "incident_updates": [
-        {
-          "id": "3szl995jlrgy",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "q498zq30kr6s",
-          "created_at": "2021-09-14T13:01:32.002-07:00",
-          "updated_at": "2021-09-14T13:01:32.002-07:00",
-          "display_at": "2021-09-14T13:01:32.002-07:00",
-          "affected_components": [
-            {
-              "code": "f3kzxwdmmy7q",
-              "name": "Automation - JiraOps",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "wlyzpdg3r4c5",
-          "status": "scheduled",
-          "body": "Maintenance will begin as scheduled in 60 minutes.",
-          "incident_id": "q498zq30kr6s",
-          "created_at": "2021-09-14T12:00:15.446-07:00",
-          "updated_at": "2021-09-14T12:00:15.446-07:00",
-          "display_at": "2021-09-14T12:00:15.446-07:00",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "6dhtg2zf08js",
-          "status": "scheduled",
-          "body": "Statuspage will be updating its JiraOps integration between 1PM-2PM PDT. The update might result in short interruption of JiraOps automation and should not affect any other Statuspage services. If you’re experiencing issues, please reach out to our support team through support.atlassian.com.",
-          "incident_id": "q498zq30kr6s",
-          "created_at": "2021-09-10T10:55:55.300-07:00",
-          "updated_at": "2021-09-10T10:55:55.300-07:00",
-          "display_at": "2021-09-10T10:55:55.300-07:00",
-          "affected_components": [
-            {
-              "code": "f3kzxwdmmy7q",
-              "name": "Automation - JiraOps",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "f3kzxwdmmy7q",
-          "name": "JiraOps",
-          "status": "under_maintenance",
-          "created_at": "2018-10-17T15:12:57.166-07:00",
-          "updated_at": "2021-09-14T13:01:31.953-07:00",
-          "position": 5,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "l459pg65jrqf",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2021-09-14T13:00:00.000-07:00",
-      "scheduled_until": "2021-09-14T14:00:00.000-07:00"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
