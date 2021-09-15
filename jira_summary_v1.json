@@ -4,7 +4,7 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-09-15T20:23:58.379Z"
+    "updated_at": "2021-09-15T21:39:57.473Z"
   },
   "components": [
     {
@@ -177,9 +177,9 @@
     {
       "id": "t2j8cg07yj15",
       "name": "Outlook users not receiving emails from Jira products",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2021-09-15T19:38:29.582Z",
-      "updated_at": "2021-09-15T19:38:29.671Z",
+      "updated_at": "2021-09-15T21:39:57.466Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,26 @@
       "started_at": "2021-09-15T19:38:29.574Z",
       "page_id": "7yh3h3y0c0x1",
       "incident_updates": [
+        {
+          "id": "qsssm07059st",
+          "status": "identified",
+          "body": "We continue to work on resolving the delivery of emails for outlook users for Jira Work Management, Jira Service Management, and Jira Software. \r\nWe have identified the root cause of the issue which is the integration between Microsoft Outlook servers and our mail provider. \r\n\r\nWe will keep updating this status page incident in the next 2 hours with more information.\r\nThanks for your patience",
+          "incident_id": "t2j8cg07yj15",
+          "created_at": "2021-09-15T21:39:57.463Z",
+          "updated_at": "2021-09-15T21:39:57.463Z",
+          "display_at": "2021-09-15T21:39:57.463Z",
+          "affected_components": [
+            {
+              "code": "yzll2534txvb",
+              "name": "Notifications",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "pqv2rw3sm6qg",
           "status": "investigating",
