@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-09-15T22:23:43.949Z"
+    "updated_at": "2021-09-15T22:46:43.162Z"
   },
   "components": [
     {
@@ -191,13 +191,13 @@
   "incidents": [
     {
       "id": "npg2tf3t8jh3",
-      "name": "Outlook users not receiving emails from Jira products",
+      "name": "Outlook users not receiving emails",
       "status": "identified",
       "created_at": "2021-09-15T22:13:13.365Z",
-      "updated_at": "2021-09-15T22:13:13.415Z",
+      "updated_at": "2021-09-15T22:46:26.352Z",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "none",
+      "impact": "minor",
       "shortlink": "https://stspg.io/xngy2jqc9nx8",
       "started_at": "2021-09-15T22:13:13.356Z",
       "page_id": "bqlf8qjztdtr",
@@ -212,35 +212,6 @@
           "display_at": "2021-09-15T22:13:13.412Z",
           "affected_components": null,
           "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": []
-    },
-    {
-      "id": "h8skc86hw373",
-      "name": "Bitbucket users may not receive invitations.",
-      "status": "investigating",
-      "created_at": "2021-09-15T22:09:24.503Z",
-      "updated_at": "2021-09-15T22:09:52.441Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/cv6tp2tqfzrr",
-      "started_at": "2021-09-15T22:09:24.495Z",
-      "page_id": "bqlf8qjztdtr",
-      "incident_updates": [
-        {
-          "id": "hg82g98wlt8h",
-          "status": "investigating",
-          "body": "Bitbucket users are not receiving invitations and our engineering team is working on the investigation. We will provide more details as we make progress.",
-          "incident_id": "h8skc86hw373",
-          "created_at": "2021-09-15T22:09:24.562Z",
-          "updated_at": "2021-09-15T22:09:24.562Z",
-          "display_at": "2021-09-15T22:09:24.562Z",
-          "affected_components": null,
-          "deliver_notifications": false,
           "custom_tweet": null,
           "tweet_id": null
         }

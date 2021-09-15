@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-09-15T22:13:13.408Z"
+    "updated_at": "2021-09-15T22:45:27.804Z"
   },
   "components": [
     {
@@ -176,10 +176,10 @@
   "incidents": [
     {
       "id": "kqvgg2g366dx",
-      "name": "Outlook users not receiving emails from Jira products",
+      "name": "Outlook users not receiving emails",
       "status": "identified",
       "created_at": "2021-09-15T19:38:29.552Z",
-      "updated_at": "2021-09-15T22:13:13.398Z",
+      "updated_at": "2021-09-15T22:45:27.798Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
