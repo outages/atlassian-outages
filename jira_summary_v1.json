@@ -4,7 +4,7 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-09-20T09:23:50.084Z"
+    "updated_at": "2021-09-20T10:44:10.890Z"
   },
   "components": [
     {
@@ -177,9 +177,9 @@
     {
       "id": "h8zq0z6sz00g",
       "name": "Unable to load Boards and Backlog",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2021-09-20T09:17:34.006Z",
-      "updated_at": "2021-09-20T09:18:50.400Z",
+      "updated_at": "2021-09-20T10:44:10.882Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -187,6 +187,26 @@
       "started_at": "2021-09-20T09:17:34.001Z",
       "page_id": "7yh3h3y0c0x1",
       "incident_updates": [
+        {
+          "id": "r3l0r9s6rws6",
+          "status": "identified",
+          "body": "We continue to work on resolving the issue in loading boards and backlog for Jira Software. We have identified the root cause and expect recovery shortly. Meanwhile, the workaround to load the board is as follows:\n1. Click on Your Work Tab and navigate to Go to Your Work Page\n2. Reload the Web Page\n3. Go to the Boards\nWe will provide more details next hour.",
+          "incident_id": "h8zq0z6sz00g",
+          "created_at": "2021-09-20T10:44:10.880Z",
+          "updated_at": "2021-09-20T10:44:10.880Z",
+          "display_at": "2021-09-20T10:44:10.880Z",
+          "affected_components": [
+            {
+              "code": "jmgfbtr0k28j",
+              "name": "Viewing content",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "97wl3rgbsds9",
           "status": "investigating",
