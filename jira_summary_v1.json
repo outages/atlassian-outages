@@ -4,15 +4,15 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-09-20T10:44:10.890Z"
+    "updated_at": "2021-09-20T11:40:02.895Z"
   },
   "components": [
     {
       "id": "jmgfbtr0k28j",
       "name": "Viewing content",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-01-22T20:42:24.651Z",
-      "updated_at": "2021-09-10T03:38:21.344Z",
+      "updated_at": "2021-09-20T11:40:02.823Z",
       "position": 1,
       "description": "Problems viewing issues, dashboards, boards, reports, etc.",
       "showcase": false,
@@ -175,78 +175,6 @@
   ],
   "incidents": [
     {
-      "id": "h8zq0z6sz00g",
-      "name": "Unable to load Boards and Backlog",
-      "status": "identified",
-      "created_at": "2021-09-20T09:17:34.006Z",
-      "updated_at": "2021-09-20T10:44:10.882Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/5lfnc6vzxpy8",
-      "started_at": "2021-09-20T09:17:34.001Z",
-      "page_id": "7yh3h3y0c0x1",
-      "incident_updates": [
-        {
-          "id": "r3l0r9s6rws6",
-          "status": "identified",
-          "body": "We continue to work on resolving the issue in loading boards and backlog for Jira Software. We have identified the root cause and expect recovery shortly. Meanwhile, the workaround to load the board is as follows:\n1. Click on Your Work Tab and navigate to Go to Your Work Page\n2. Reload the Web Page\n3. Go to the Boards\nWe will provide more details next hour.",
-          "incident_id": "h8zq0z6sz00g",
-          "created_at": "2021-09-20T10:44:10.880Z",
-          "updated_at": "2021-09-20T10:44:10.880Z",
-          "display_at": "2021-09-20T10:44:10.880Z",
-          "affected_components": [
-            {
-              "code": "jmgfbtr0k28j",
-              "name": "Viewing content",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "97wl3rgbsds9",
-          "status": "investigating",
-          "body": "We are investigating an issue with loading of boards & backlogs that is impacting some of the Jira Software Cloud customers. We will provide more details within the next hour.",
-          "incident_id": "h8zq0z6sz00g",
-          "created_at": "2021-09-20T09:17:34.069Z",
-          "updated_at": "2021-09-20T09:17:34.069Z",
-          "display_at": "2021-09-20T09:17:34.069Z",
-          "affected_components": [
-            {
-              "code": "jmgfbtr0k28j",
-              "name": "Viewing content",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "jmgfbtr0k28j",
-          "name": "Viewing content",
-          "status": "degraded_performance",
-          "created_at": "2019-01-22T20:42:24.651Z",
-          "updated_at": "2021-09-10T03:38:21.344Z",
-          "position": 1,
-          "description": "Problems viewing issues, dashboards, boards, reports, etc.",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "7yh3h3y0c0x1",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    },
-    {
       "id": "wh79x080brvq",
       "name": "Degraded performance on Chrome 92 Windows with Crowdstrike agent",
       "status": "identified",
@@ -304,9 +232,9 @@
         {
           "id": "jmgfbtr0k28j",
           "name": "Viewing content",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2019-01-22T20:42:24.651Z",
-          "updated_at": "2021-09-10T03:38:21.344Z",
+          "updated_at": "2021-09-20T11:40:02.823Z",
           "position": 1,
           "description": "Problems viewing issues, dashboards, boards, reports, etc.",
           "showcase": false,
@@ -321,7 +249,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
