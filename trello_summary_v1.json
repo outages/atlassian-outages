@@ -4,7 +4,7 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2021-09-20T14:54:59.414-04:00"
+    "updated_at": "2021-09-20T18:59:31.282-04:00"
   },
   "components": [
     {
@@ -12,7 +12,7 @@
       "name": "Trello.com",
       "status": "operational",
       "created_at": "2020-01-24T12:50:55.839-05:00",
-      "updated_at": "2021-09-20T13:12:56.759-04:00",
+      "updated_at": "2021-09-20T18:58:51.724-04:00",
       "position": 1,
       "description": "Web client",
       "showcase": true,
@@ -27,7 +27,7 @@
       "name": "API",
       "status": "operational",
       "created_at": "2020-01-24T12:50:17.715-05:00",
-      "updated_at": "2021-09-20T13:12:56.784-04:00",
+      "updated_at": "2021-09-20T18:59:31.278-04:00",
       "position": 2,
       "description": null,
       "showcase": true,
