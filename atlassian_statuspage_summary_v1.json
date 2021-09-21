@@ -4,15 +4,15 @@
     "name": "Atlassian Statuspage",
     "url": "http://metastatuspage.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-09-21T10:34:27.700-07:00"
+    "updated_at": "2021-09-21T12:04:46.719-07:00"
   },
   "components": [
     {
       "id": "fyzs60wyq01d",
       "name": "Web Portal",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-08-21T10:22:01.379-07:00",
-      "updated_at": "2021-09-21T09:36:37.484-07:00",
+      "updated_at": "2021-09-21T12:04:46.612-07:00",
       "position": 1,
       "description": null,
       "showcase": true,
@@ -40,7 +40,7 @@
     {
       "id": "hchd2wyk50h7",
       "name": "Hosted Pages",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-08-21T10:20:23.801-07:00",
       "updated_at": "2017-08-21T10:28:03.987-07:00",
       "position": 1,
@@ -137,9 +137,9 @@
     {
       "id": "rkld00070vm9",
       "name": "HTTP Pages",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-08-21T10:20:23.847-07:00",
-      "updated_at": "2021-09-21T09:36:37.503-07:00",
+      "updated_at": "2021-09-21T12:04:46.647-07:00",
       "position": 1,
       "description": null,
       "showcase": true,
@@ -152,9 +152,9 @@
     {
       "id": "3bg3nq9mm436",
       "name": "HTTPS Pages",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-08-21T10:20:23.888-07:00",
-      "updated_at": "2021-09-21T09:36:37.513-07:00",
+      "updated_at": "2021-09-21T12:04:46.666-07:00",
       "position": 2,
       "description": null,
       "showcase": true,
@@ -272,7 +272,7 @@
     {
       "id": "jk3l62p3pcfy",
       "name": "Management",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-08-21T10:22:01.354-07:00",
       "updated_at": "2017-08-24T12:33:47.091-07:00",
       "position": 2,
@@ -804,16 +804,48 @@
     {
       "id": "fb3rqbdmv95l",
       "name": "Increased latency with manage and pages",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2021-09-21T09:36:37.460-07:00",
-      "updated_at": "2021-09-21T10:34:27.700-07:00",
-      "monitoring_at": null,
+      "updated_at": "2021-09-21T12:04:46.763-07:00",
+      "monitoring_at": "2021-09-21T12:04:46.716-07:00",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "http://mstspg.co/qrv7wjdngzv7",
       "started_at": "2021-09-21T09:36:37.448-07:00",
       "page_id": "y2j98763l56x",
       "incident_updates": [
+        {
+          "id": "yf4xqbsll4sg",
+          "status": "monitoring",
+          "body": "A fix has been implemented and we are monitoring for results.",
+          "incident_id": "fb3rqbdmv95l",
+          "created_at": "2021-09-21T12:04:46.716-07:00",
+          "updated_at": "2021-09-21T12:04:46.716-07:00",
+          "display_at": "2021-09-21T12:04:46.716-07:00",
+          "affected_components": [
+            {
+              "code": "rkld00070vm9",
+              "name": "Hosted Pages - HTTP Pages",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "3bg3nq9mm436",
+              "name": "Hosted Pages - HTTPS Pages",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "fyzs60wyq01d",
+              "name": "Management - Web Portal",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "036td1wx8ccf",
           "status": "identified",
@@ -883,9 +915,9 @@
         {
           "id": "rkld00070vm9",
           "name": "HTTP Pages",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2017-08-21T10:20:23.847-07:00",
-          "updated_at": "2021-09-21T09:36:37.503-07:00",
+          "updated_at": "2021-09-21T12:04:46.647-07:00",
           "position": 1,
           "description": null,
           "showcase": true,
@@ -898,9 +930,9 @@
         {
           "id": "fyzs60wyq01d",
           "name": "Web Portal",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2017-08-21T10:22:01.379-07:00",
-          "updated_at": "2021-09-21T09:36:37.484-07:00",
+          "updated_at": "2021-09-21T12:04:46.612-07:00",
           "position": 1,
           "description": null,
           "showcase": true,
@@ -913,9 +945,9 @@
         {
           "id": "3bg3nq9mm436",
           "name": "HTTPS Pages",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2017-08-21T10:20:23.888-07:00",
-          "updated_at": "2021-09-21T09:36:37.513-07:00",
+          "updated_at": "2021-09-21T12:04:46.666-07:00",
           "position": 2,
           "description": null,
           "showcase": true,
@@ -930,7 +962,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
