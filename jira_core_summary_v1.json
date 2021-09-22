@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-09-22T18:49:15.189Z"
+    "updated_at": "2021-09-22T23:46:59.135Z"
   },
   "components": [
     {
@@ -174,61 +174,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": "zwjydm0nk1y4",
-      "name": "Jira Cloud performance degraded across all browsers",
-      "status": "monitoring",
-      "created_at": "2021-09-22T14:44:42.450Z",
-      "updated_at": "2021-09-22T18:49:15.180Z",
-      "monitoring_at": "2021-09-22T18:47:45.367Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/9660qb43bnsq",
-      "started_at": "2021-09-22T14:44:42.444Z",
-      "page_id": "s6f0gm5gcpmy",
-      "incident_updates": [
-        {
-          "id": "1zc1km03j9rc",
-          "status": "monitoring",
-          "body": "A fix has been implemented and we are monitoring the results.",
-          "incident_id": "zwjydm0nk1y4",
-          "created_at": "2021-09-22T18:47:45.367Z",
-          "updated_at": "2021-09-22T18:47:45.367Z",
-          "display_at": "2021-09-22T18:47:45.367Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "xwb67hdr68s8",
-          "status": "investigating",
-          "body": "We have identified the possible root cause of the increased error rates and applied a fix. We are now monitoring closely.",
-          "incident_id": "zwjydm0nk1y4",
-          "created_at": "2021-09-22T18:47:19.887Z",
-          "updated_at": "2021-09-22T18:49:15.174Z",
-          "display_at": "2021-09-22T18:47:19.000Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "h0bxhg0qg2ch",
-          "status": "investigating",
-          "body": "We are investigating cases of degraded performance for multiple Jira Cloud customers. We will provide more details within the next hour.",
-          "incident_id": "zwjydm0nk1y4",
-          "created_at": "2021-09-22T14:44:42.489Z",
-          "updated_at": "2021-09-22T14:44:42.489Z",
-          "display_at": "2021-09-22T14:44:42.489Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": []
-    },
     {
       "id": "55k01gxggcpf",
       "name": "Degraded performance on Chrome 92 Windows with Crowdstrike agent",
