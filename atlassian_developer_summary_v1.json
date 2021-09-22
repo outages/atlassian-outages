@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-09-21T21:17:50.283Z"
+    "updated_at": "2021-09-22T09:44:09.136Z"
   },
   "components": [
     {
@@ -196,7 +196,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -609,9 +609,9 @@
     {
       "id": "hk36hlvygg2q",
       "name": "Reporting APIs and dashboards",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2013-12-03T00:45:26.014Z",
-      "updated_at": "2021-09-21T21:17:50.279Z",
+      "updated_at": "2021-09-22T09:44:09.131Z",
       "position": 11,
       "description": "We have identified a problem with an underlying service to fetch data because of which there is a delay in transactions appearing in Marketplace Partner reports. We are actively working with the dependent system to get this addressed asap.",
       "showcase": true,
@@ -670,7 +670,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
