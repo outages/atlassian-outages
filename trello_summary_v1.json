@@ -4,15 +4,15 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2021-09-22T16:23:41.664-04:00"
+    "updated_at": "2021-09-22T16:38:53.836-04:00"
   },
   "components": [
     {
       "id": "hsr3nvlz0k2l",
       "name": "Trello.com",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-01-24T12:50:55.839-05:00",
-      "updated_at": "2021-09-22T15:31:35.003-04:00",
+      "updated_at": "2021-09-22T16:38:53.833-04:00",
       "position": 1,
       "description": "Web client",
       "showcase": true,
@@ -86,7 +86,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
