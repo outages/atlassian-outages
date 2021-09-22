@@ -4,7 +4,7 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-09-21T19:58:43.521Z"
+    "updated_at": "2021-09-22T04:48:17.876Z"
   },
   "components": [
     {
@@ -309,7 +309,83 @@
       ]
     }
   ],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "hnbjvn0pf49f",
+      "name": "Jira Cloud Software database maintenance",
+      "status": "scheduled",
+      "created_at": "2021-09-22T04:48:17.821Z",
+      "updated_at": "2021-09-22T04:48:17.874Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/dptnr8mxzbym",
+      "started_at": "2021-09-22T04:48:17.816Z",
+      "page_id": "7yh3h3y0c0x1",
+      "incident_updates": [
+        {
+          "id": "f04bvcfnnt3j",
+          "status": "scheduled",
+          "body": "Graph Platform DevOps API will undergo a planned database upgrade.\nDuring this time, the below Jira Software features may not work properly:\n- Code In Jira: The Code tab on the left navigation menu in your Jira project.\n- On-Call: The On-Call tab on the left navigation menu in your Jira project.\n- Opsgenie link under the Project Settings menu.\n- The Opsgenie alerts section of the Sprint Report (from the Reports tab in your company-managed project).",
+          "incident_id": "hnbjvn0pf49f",
+          "created_at": "2021-09-22T04:48:17.871Z",
+          "updated_at": "2021-09-22T04:48:17.871Z",
+          "display_at": "2021-09-22T04:48:17.871Z",
+          "affected_components": [
+            {
+              "code": "b01bgtvb4q2j",
+              "name": "Create and edit",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "jmgfbtr0k28j",
+              "name": "Viewing content",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "jmgfbtr0k28j",
+          "name": "Viewing content",
+          "status": "operational",
+          "created_at": "2019-01-22T20:42:24.651Z",
+          "updated_at": "2021-09-20T11:40:02.823Z",
+          "position": 1,
+          "description": "Problems viewing issues, dashboards, boards, reports, etc.",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "7yh3h3y0c0x1",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "b01bgtvb4q2j",
+          "name": "Create and edit",
+          "status": "operational",
+          "created_at": "2019-01-07T07:49:50.950Z",
+          "updated_at": "2021-08-03T04:26:01.703Z",
+          "position": 2,
+          "description": "Problems creating or editing issues, projects, boards, reports, dashboards and the ability to comment, assign, and attach media.",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "7yh3h3y0c0x1",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2021-09-26T22:00:00.000Z",
+      "scheduled_until": "2021-09-26T23:00:00.000Z"
+    }
+  ],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
