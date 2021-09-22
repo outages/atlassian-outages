@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-09-22T06:45:57.952Z"
+    "updated_at": "2021-09-22T11:00:36.628Z"
   },
   "components": [
     {
@@ -55,9 +55,9 @@
     {
       "id": "x6ljwvfs3ymn",
       "name": "Community",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-11-30T21:48:02.423Z",
-      "updated_at": "2021-09-22T06:45:57.132Z",
+      "updated_at": "2021-09-22T11:00:36.538Z",
       "position": 4,
       "description": null,
       "showcase": true,
@@ -189,97 +189,9 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "0k119ghbzqd4",
-      "name": "Atlassian Community Scheduled Maintenance",
-      "status": "in_progress",
-      "created_at": "2021-09-21T22:07:06.353Z",
-      "updated_at": "2021-09-22T06:45:57.708Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/m37rrlzhq4hn",
-      "started_at": "2021-09-21T22:07:06.347Z",
-      "page_id": "3tbw4lb9t3qp",
-      "incident_updates": [
-        {
-          "id": "mlfzvtm5swb8",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "0k119ghbzqd4",
-          "created_at": "2021-09-22T06:45:57.703Z",
-          "updated_at": "2021-09-22T06:45:57.703Z",
-          "display_at": "2021-09-22T06:45:57.703Z",
-          "affected_components": [
-            {
-              "code": "x6ljwvfs3ymn",
-              "name": "Community",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "5tl78xb4k38v",
-          "status": "scheduled",
-          "body": "Maintenance will begin as scheduled in 60 minutes.",
-          "incident_id": "0k119ghbzqd4",
-          "created_at": "2021-09-22T05:45:30.534Z",
-          "updated_at": "2021-09-22T05:45:30.534Z",
-          "display_at": "2021-09-22T05:45:30.534Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "r569kxtcvccj",
-          "status": "scheduled",
-          "body": "Atlassian Community (community.atlassian.com) scheduled maintenance window:\n\n- Starting at 11:59 PM PT Tuesday, September 21st\n\n- Ending at 4:00 AM PT Wednesday, September 22nd\n\nThere might be some downtime during the window and the site could be completely unavailable for about an hour if/when the servers are restarted.",
-          "incident_id": "0k119ghbzqd4",
-          "created_at": "2021-09-21T22:07:06.421Z",
-          "updated_at": "2021-09-21T22:07:06.421Z",
-          "display_at": "2021-09-21T22:07:06.421Z",
-          "affected_components": [
-            {
-              "code": "x6ljwvfs3ymn",
-              "name": "Community",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "x6ljwvfs3ymn",
-          "name": "Community",
-          "status": "under_maintenance",
-          "created_at": "2018-11-30T21:48:02.423Z",
-          "updated_at": "2021-09-22T06:45:57.132Z",
-          "position": 4,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "3tbw4lb9t3qp",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2021-09-22T06:45:00.000Z",
-      "scheduled_until": "2021-09-22T11:00:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
