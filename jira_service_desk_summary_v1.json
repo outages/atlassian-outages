@@ -4,15 +4,15 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-09-22T23:47:19.412Z"
+    "updated_at": "2021-09-23T02:05:05.476Z"
   },
   "components": [
     {
       "id": "4kcs01hbh4l6",
       "name": "Jira Service Mangement Web",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-11-16T18:06:14.831Z",
-      "updated_at": "2021-09-10T03:39:16.777Z",
+      "updated_at": "2021-09-23T02:05:05.410Z",
       "position": 1,
       "description": "Problems with queues, issues, reports, searching, and anything else impacting an agent's ability to complete their work",
       "showcase": false,
@@ -173,123 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "srtpq07jqg5m",
-      "name": "Degraded performance on Chrome 92 Windows with Crowdstrike agent",
-      "status": "monitoring",
-      "created_at": "2021-09-10T03:39:16.728Z",
-      "updated_at": "2021-09-21T01:53:55.403Z",
-      "monitoring_at": "2021-09-21T01:53:55.384Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/tfxylpv4j79y",
-      "started_at": "2021-09-10T03:39:16.722Z",
-      "page_id": "pv54g7ltsc24",
-      "incident_updates": [
-        {
-          "id": "xgv39bvr872k",
-          "status": "monitoring",
-          "body": "Analysis across our userbase shows a strong and consistent performance increase by upgrading to Chrome 93. We are continuing to monitor performance for affected customers on Chrome 92.",
-          "incident_id": "srtpq07jqg5m",
-          "created_at": "2021-09-21T01:53:55.384Z",
-          "updated_at": "2021-09-21T01:53:55.384Z",
-          "display_at": "2021-09-21T01:53:55.384Z",
-          "affected_components": [
-            {
-              "code": "4kcs01hbh4l6",
-              "name": "Jira Service Mangement Web",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "jt8nt908dvrl",
-          "status": "identified",
-          "body": "We have been working with the CrowdStrike team who are planning to release a fix in September for version 6.29.x.\n\nIf you are affected by this issue, please follow the workarounds listed. If you are unable to upgrade your browser immediately, please contact CrowdStrike support referencing \"reference Poor Chrome performance due to Call Stack Analysis bug\" who can enable a workaround.",
-          "incident_id": "srtpq07jqg5m",
-          "created_at": "2021-09-12T23:56:27.685Z",
-          "updated_at": "2021-09-12T23:56:27.685Z",
-          "display_at": "2021-09-12T23:56:27.685Z",
-          "affected_components": [
-            {
-              "code": "4kcs01hbh4l6",
-              "name": "Jira Service Mangement Web",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "3zm2c76kv94j",
-          "status": "identified",
-          "body": "The issue has been identified and a fix is being implemented.",
-          "incident_id": "srtpq07jqg5m",
-          "created_at": "2021-09-10T03:39:26.402Z",
-          "updated_at": "2021-09-10T03:39:26.402Z",
-          "display_at": "2021-09-10T03:39:26.402Z",
-          "affected_components": [
-            {
-              "code": "4kcs01hbh4l6",
-              "name": "Jira Service Mangement Web",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "13wnq7xvmdll",
-          "status": "investigating",
-          "body": "There is a known performance degradation for the customers using Windows with Google Chrome major version 92 and the CrowdStrike agent installed (https://www.crowdstrike.com/). (https://bugs.chromium.org/p/chromium/issues/detail?id=1238289). We believe this is caused by a bug in the CrowdStrike agent which causes Chrome to have significantly reduced performance for some websites, including Jira Cloud. The observed regression varies between 3 and 8 seconds for page load times depending on the hardware and software being used. We have been working with the Crowdstrike team who are planning to release a fix in September.\n\nWorkaround until the fix is released by Crowdstrike:\n1. Upgrade your Chrome browser from version 92 to version 93 (latest). \n2. Please use an alternate browser other than Chrome version 92. We recommend Firefox, Safari and Edge for best experience.",
-          "incident_id": "srtpq07jqg5m",
-          "created_at": "2021-09-10T03:39:16.832Z",
-          "updated_at": "2021-09-10T03:39:16.832Z",
-          "display_at": "2021-09-10T03:39:16.832Z",
-          "affected_components": [
-            {
-              "code": "4kcs01hbh4l6",
-              "name": "Jira Service Mangement Web",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "4kcs01hbh4l6",
-          "name": "Jira Service Mangement Web",
-          "status": "degraded_performance",
-          "created_at": "2018-11-16T18:06:14.831Z",
-          "updated_at": "2021-09-10T03:39:16.777Z",
-          "position": 1,
-          "description": "Problems with queues, issues, reports, searching, and anything else impacting an agent's ability to complete their work",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }

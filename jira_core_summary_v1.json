@@ -4,15 +4,15 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-09-22T23:46:59.135Z"
+    "updated_at": "2021-09-23T02:05:46.700Z"
   },
   "components": [
     {
       "id": "l4fp2xkkygv4",
       "name": "Viewing content",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-11-16T18:17:29.270Z",
-      "updated_at": "2021-09-10T03:38:49.490Z",
+      "updated_at": "2021-09-23T02:05:46.651Z",
       "position": 1,
       "description": "Problems viewing issues, dashboards, boards, reports, etc.",
       "showcase": false,
@@ -173,103 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "55k01gxggcpf",
-      "name": "Degraded performance on Chrome 92 Windows with Crowdstrike agent",
-      "status": "monitoring",
-      "created_at": "2021-09-10T03:38:49.448Z",
-      "updated_at": "2021-09-21T01:53:35.434Z",
-      "monitoring_at": "2021-09-21T01:53:35.418Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/bcnqhxwp55f2",
-      "started_at": "2021-09-10T03:38:49.443Z",
-      "page_id": "s6f0gm5gcpmy",
-      "incident_updates": [
-        {
-          "id": "nz09pbklj76m",
-          "status": "monitoring",
-          "body": "Analysis across our userbase shows a strong and consistent performance increase by upgrading to Chrome 93. We are continuing to monitor performance for affected customers on Chrome 92.",
-          "incident_id": "55k01gxggcpf",
-          "created_at": "2021-09-21T01:53:35.418Z",
-          "updated_at": "2021-09-21T01:53:35.418Z",
-          "display_at": "2021-09-21T01:53:35.418Z",
-          "affected_components": [
-            {
-              "code": "l4fp2xkkygv4",
-              "name": "Viewing content",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "z90phv32bngr",
-          "status": "identified",
-          "body": "We have been working with the CrowdStrike team who are planning to release a fix in September for version 6.29.x.\n\nIf you are affected by this issue, please follow the workarounds listed. If you are unable to upgrade your browser immediately, please contact CrowdStrike support referencing \"reference Poor Chrome performance due to Call Stack Analysis bug\" who can enable a workaround.",
-          "incident_id": "55k01gxggcpf",
-          "created_at": "2021-09-12T23:57:22.717Z",
-          "updated_at": "2021-09-12T23:57:22.717Z",
-          "display_at": "2021-09-12T23:57:22.717Z",
-          "affected_components": [
-            {
-              "code": "l4fp2xkkygv4",
-              "name": "Viewing content",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "nkf13hyyg77j",
-          "status": "identified",
-          "body": "There is a known performance degradation for the customers using Windows with Google Chrome major version 92 and the CrowdStrike agent installed (https://www.crowdstrike.com/). (https://bugs.chromium.org/p/chromium/issues/detail?id=1238289). We believe this is caused by a bug in the CrowdStrike agent which causes Chrome to have significantly reduced performance for some websites, including Jira Cloud. The observed regression varies between 3 and 8 seconds for page load times depending on the hardware and software being used. We have been working with the Crowdstrike team who are planning to release a fix in September.\n\nWorkaround until the fix is released by Crowdstrike:\n1. Upgrade your Chrome browser from version 92 to version 93 (latest). \n2. Please use an alternate browser other than Chrome version 92. We recommend Firefox, Safari and Edge for best experience.",
-          "incident_id": "55k01gxggcpf",
-          "created_at": "2021-09-10T03:38:49.540Z",
-          "updated_at": "2021-09-10T03:38:49.540Z",
-          "display_at": "2021-09-10T03:38:49.540Z",
-          "affected_components": [
-            {
-              "code": "l4fp2xkkygv4",
-              "name": "Viewing content",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "l4fp2xkkygv4",
-          "name": "Viewing content",
-          "status": "degraded_performance",
-          "created_at": "2018-11-16T18:17:29.270Z",
-          "updated_at": "2021-09-10T03:38:49.490Z",
-          "position": 1,
-          "description": "Problems viewing issues, dashboards, boards, reports, etc.",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "s6f0gm5gcpmy",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
