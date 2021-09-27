@@ -4,7 +4,7 @@
     "name": "Confluence",
     "url": "https://confluence.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-09-27T09:02:34.262Z"
+    "updated_at": "2021-09-27T09:24:07.873Z"
   },
   "components": [
     {
@@ -213,7 +213,7 @@
       "name": "Unable to create or edit confluence pages",
       "status": "investigating",
       "created_at": "2021-09-27T09:01:19.067Z",
-      "updated_at": "2021-09-27T09:02:34.255Z",
+      "updated_at": "2021-09-27T09:14:29.453Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -247,8 +247,8 @@
           "body": "We are continuing to investigate this issue.",
           "incident_id": "503sr8fhp7m0",
           "created_at": "2021-09-27T09:01:35.649Z",
-          "updated_at": "2021-09-27T09:01:35.649Z",
-          "display_at": "2021-09-27T09:01:35.649Z",
+          "updated_at": "2021-09-27T09:14:29.447Z",
+          "display_at": "2021-09-27T09:01:35.000Z",
           "affected_components": [
             {
               "code": "y4z6hxpf7d7t",
