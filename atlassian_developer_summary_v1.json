@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-09-28T06:30:46.692Z"
+    "updated_at": "2021-09-28T07:09:05.933Z"
   },
   "components": [
     {
@@ -673,7 +673,7 @@
       "name": "Marketplace Reports are missing data",
       "status": "investigating",
       "created_at": "2021-09-28T05:38:02.101Z",
-      "updated_at": "2021-09-28T06:30:46.685Z",
+      "updated_at": "2021-09-28T07:09:05.925Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
@@ -681,6 +681,26 @@
       "started_at": "2021-09-28T05:38:02.000Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "79xxsxqqs6qp",
+          "status": "investigating",
+          "body": "We are continuing to investigate this issue.",
+          "incident_id": "19xwbjmdj08f",
+          "created_at": "2021-09-28T07:09:05.923Z",
+          "updated_at": "2021-09-28T07:09:05.923Z",
+          "display_at": "2021-09-28T07:09:05.923Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "4nplzs4554gx",
           "status": "investigating",
@@ -704,10 +724,10 @@
         {
           "id": "6rx5946rlr9r",
           "status": "investigating",
-          "body": "We have identified an issue with transactions being under-reported from 8th Sep,2021 onwards. We are actively investigating the issue.",
+          "body": "We have identified an issue with historical transactions being under-reported. We are actively investigating the issue.",
           "incident_id": "19xwbjmdj08f",
           "created_at": "2021-09-28T05:38:02.217Z",
-          "updated_at": "2021-09-28T06:30:46.682Z",
+          "updated_at": "2021-09-28T07:09:02.987Z",
           "display_at": "2021-09-28T05:38:02.000Z",
           "affected_components": [
             {
