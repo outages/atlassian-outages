@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-09-28T05:38:02.225Z"
+    "updated_at": "2021-09-28T05:53:18.844Z"
   },
   "components": [
     {
@@ -673,22 +673,22 @@
       "name": "Marketplace Reports are missing data",
       "status": "investigating",
       "created_at": "2021-09-28T05:38:02.101Z",
-      "updated_at": "2021-09-28T05:38:02.221Z",
+      "updated_at": "2021-09-28T05:53:18.836Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
       "shortlink": "https://stspg.io/88sjd4rc8cx8",
-      "started_at": "2021-09-28T05:38:02.089Z",
+      "started_at": "2021-09-28T05:38:02.000Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
         {
           "id": "6rx5946rlr9r",
           "status": "investigating",
-          "body": "We have identified an issue where the transaction data is missing for the last couple of weeks. We are actively investigating the issue.",
+          "body": "We have identified an issue where the transaction data is missing for 8th Sep,2021. We are actively investigating the issue.",
           "incident_id": "19xwbjmdj08f",
           "created_at": "2021-09-28T05:38:02.217Z",
-          "updated_at": "2021-09-28T05:38:02.217Z",
-          "display_at": "2021-09-28T05:38:02.217Z",
+          "updated_at": "2021-09-28T05:53:18.724Z",
+          "display_at": "2021-09-28T05:38:02.000Z",
           "affected_components": [
             {
               "code": "hk36hlvygg2q",
