@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-09-28T05:53:18.844Z"
+    "updated_at": "2021-09-28T06:30:46.692Z"
   },
   "components": [
     {
@@ -673,7 +673,7 @@
       "name": "Marketplace Reports are missing data",
       "status": "investigating",
       "created_at": "2021-09-28T05:38:02.101Z",
-      "updated_at": "2021-09-28T05:53:18.836Z",
+      "updated_at": "2021-09-28T06:30:46.685Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
@@ -682,12 +682,32 @@
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
         {
+          "id": "4nplzs4554gx",
+          "status": "investigating",
+          "body": "We are continuing to investigate this issue.",
+          "incident_id": "19xwbjmdj08f",
+          "created_at": "2021-09-28T06:29:36.819Z",
+          "updated_at": "2021-09-28T06:29:36.819Z",
+          "display_at": "2021-09-28T06:29:36.819Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
           "id": "6rx5946rlr9r",
           "status": "investigating",
-          "body": "We have identified an issue where the transaction data is missing for 8th Sep,2021. We are actively investigating the issue.",
+          "body": "We have identified an issue with transactions being under-reported from 8th Sep,2021 onwards. We are actively investigating the issue.",
           "incident_id": "19xwbjmdj08f",
           "created_at": "2021-09-28T05:38:02.217Z",
-          "updated_at": "2021-09-28T05:53:18.724Z",
+          "updated_at": "2021-09-28T06:30:46.682Z",
           "display_at": "2021-09-28T05:38:02.000Z",
           "affected_components": [
             {
