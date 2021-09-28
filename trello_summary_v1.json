@@ -4,7 +4,7 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2021-09-28T15:07:46.525-04:00"
+    "updated_at": "2021-09-28T15:27:35.152-04:00"
   },
   "components": [
     {
@@ -87,9 +87,9 @@
     {
       "id": "chv2tkcbmd46",
       "name": "Trello is slow or unavailable for some users",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2021-09-28T14:36:35.245-04:00",
-      "updated_at": "2021-09-28T15:07:46.519-04:00",
+      "updated_at": "2021-09-28T15:27:35.144-04:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -97,6 +97,32 @@
       "started_at": "2021-09-28T14:36:35.239-04:00",
       "page_id": "h5frqhb041yq",
       "incident_updates": [
+        {
+          "id": "xwk1mc0bbdgs",
+          "status": "identified",
+          "body": "The issue has been identified and a fix is being implemented.",
+          "incident_id": "chv2tkcbmd46",
+          "created_at": "2021-09-28T15:27:34.717-04:00",
+          "updated_at": "2021-09-28T15:27:35.136-04:00",
+          "display_at": "2021-09-28T15:27:34.717-04:00",
+          "affected_components": [
+            {
+              "code": "y1nllgnkxn9d",
+              "name": "API",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "hsr3nvlz0k2l",
+              "name": "Trello.com",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1442934026612863000
+        },
         {
           "id": "v47sb3r1mg30",
           "status": "investigating",
