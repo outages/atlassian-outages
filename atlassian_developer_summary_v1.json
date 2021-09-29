@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-09-29T09:27:48.124Z"
+    "updated_at": "2021-09-29T12:44:21.156Z"
   },
   "components": [
     {
@@ -77,51 +77,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "yjqnzm0tkgsd",
-      "name": "Confluence Cloud APIs",
-      "status": "operational",
-      "created_at": "2018-02-01T17:15:36.411Z",
-      "updated_at": "2021-07-30T20:28:00.594Z",
-      "position": 2,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "w0ld3nc9jvdx",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "g04n852g3nt6",
-      "name": "App listings",
-      "status": "partial_outage",
-      "created_at": "2013-12-03T00:43:13.481Z",
-      "updated_at": "2021-09-29T09:05:16.279Z",
-      "position": 2,
-      "description": "The detailed listing page for each app",
-      "showcase": true,
-      "start_date": null,
-      "group_id": "d0m8l367qqw5",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "hfflf63kcp1l",
-      "name": "Artifactory (Maven repository)",
-      "status": "operational",
-      "created_at": "2018-02-01T17:21:49.804Z",
-      "updated_at": "2021-03-23T12:04:34.080Z",
-      "position": 2,
-      "description": "https://maven.atlassian.com",
-      "showcase": true,
-      "start_date": null,
-      "group_id": "73bt63kd5q9k",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "bf9d0vz83ykr",
       "name": "Atlassian Support contact form",
       "status": "operational",
@@ -164,16 +119,61 @@
       ]
     },
     {
-      "id": "xjs8wcvjw85c",
-      "name": "Developer community",
-      "status": "operational",
-      "created_at": "2018-02-01T17:22:27.268Z",
-      "updated_at": "2020-03-18T01:48:19.818Z",
-      "position": 3,
-      "description": "https://community.developer.atlassian.com",
+      "id": "g04n852g3nt6",
+      "name": "App listings",
+      "status": "partial_outage",
+      "created_at": "2013-12-03T00:43:13.481Z",
+      "updated_at": "2021-09-29T09:05:16.279Z",
+      "position": 2,
+      "description": "The detailed listing page for each app",
       "showcase": true,
       "start_date": null,
-      "group_id": "jgnwrfzynh93",
+      "group_id": "d0m8l367qqw5",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "hfflf63kcp1l",
+      "name": "Artifactory (Maven repository)",
+      "status": "operational",
+      "created_at": "2018-02-01T17:21:49.804Z",
+      "updated_at": "2021-03-23T12:04:34.080Z",
+      "position": 2,
+      "description": "https://maven.atlassian.com",
+      "showcase": true,
+      "start_date": null,
+      "group_id": "73bt63kd5q9k",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "yjqnzm0tkgsd",
+      "name": "Confluence Cloud APIs",
+      "status": "operational",
+      "created_at": "2018-02-01T17:15:36.411Z",
+      "updated_at": "2021-07-30T20:28:00.594Z",
+      "position": 2,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "w0ld3nc9jvdx",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "d1hybyzmqlvq",
+      "name": "App pricing",
+      "status": "operational",
+      "created_at": "2013-12-03T00:43:13.497Z",
+      "updated_at": "2021-07-30T13:15:05.880Z",
+      "position": 3,
+      "description": "App pricing queries and updates",
+      "showcase": true,
+      "start_date": null,
+      "group_id": "d0m8l367qqw5",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -225,16 +225,16 @@
       ]
     },
     {
-      "id": "d1hybyzmqlvq",
-      "name": "App pricing",
+      "id": "xjs8wcvjw85c",
+      "name": "Developer community",
       "status": "operational",
-      "created_at": "2013-12-03T00:43:13.497Z",
-      "updated_at": "2021-07-30T13:15:05.880Z",
+      "created_at": "2018-02-01T17:22:27.268Z",
+      "updated_at": "2020-03-18T01:48:19.818Z",
       "position": 3,
-      "description": "App pricing queries and updates",
+      "description": "https://community.developer.atlassian.com",
       "showcase": true,
       "start_date": null,
-      "group_id": "d0m8l367qqw5",
+      "group_id": "jgnwrfzynh93",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -255,16 +255,31 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "fjsq71xwd3rn",
-      "name": "Authentication and user management",
+      "id": "7z6w09hl9mn0",
+      "name": "App submissions",
       "status": "operational",
-      "created_at": "2019-05-02T04:22:28.554Z",
-      "updated_at": "2021-02-28T06:04:09.891Z",
+      "created_at": "2018-02-01T17:48:45.038Z",
+      "updated_at": "2020-11-05T11:28:22.429Z",
       "position": 4,
       "description": null,
       "showcase": true,
       "start_date": null,
-      "group_id": null,
+      "group_id": "d0m8l367qqw5",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "dnstnjnbm2vs",
+      "name": "Product Events",
+      "status": "operational",
+      "created_at": "2021-03-23T11:58:48.255Z",
+      "updated_at": "2021-03-23T12:03:17.244Z",
+      "position": 4,
+      "description": "Invocation of Forge functions from product events.",
+      "showcase": true,
+      "start_date": "2021-03-23",
+      "group_id": "w0ld3nc9jvdx",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -285,21 +300,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "7z6w09hl9mn0",
-      "name": "App submissions",
-      "status": "operational",
-      "created_at": "2018-02-01T17:48:45.038Z",
-      "updated_at": "2020-11-05T11:28:22.429Z",
-      "position": 4,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "d0m8l367qqw5",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "ft3y6psz31vm",
       "name": "Developer documentation",
       "status": "operational",
@@ -315,16 +315,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "dnstnjnbm2vs",
-      "name": "Product Events",
+      "id": "fjsq71xwd3rn",
+      "name": "Authentication and user management",
       "status": "operational",
-      "created_at": "2021-03-23T11:58:48.255Z",
-      "updated_at": "2021-03-23T12:03:17.244Z",
+      "created_at": "2019-05-02T04:22:28.554Z",
+      "updated_at": "2021-02-28T06:04:09.891Z",
       "position": 4,
-      "description": "Invocation of Forge functions from product events.",
+      "description": null,
       "showcase": true,
-      "start_date": "2021-03-23",
-      "group_id": "w0ld3nc9jvdx",
+      "start_date": null,
+      "group_id": null,
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -547,21 +547,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "y1fdrctjbkx0",
-      "name": "Notifications",
-      "status": "operational",
-      "created_at": "2018-02-01T17:52:26.480Z",
-      "updated_at": "2020-07-09T10:30:48.498Z",
-      "position": 9,
-      "description": "Example notifications include newly posted reviews and new version creation",
-      "showcase": true,
-      "start_date": null,
-      "group_id": "d0m8l367qqw5",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "64gg59lyzrfs",
       "name": "Forge App Logs",
       "status": "operational",
@@ -572,6 +557,21 @@
       "showcase": true,
       "start_date": "2021-05-12",
       "group_id": "73bt63kd5q9k",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "y1fdrctjbkx0",
+      "name": "Notifications",
+      "status": "operational",
+      "created_at": "2018-02-01T17:52:26.480Z",
+      "updated_at": "2020-07-09T10:30:48.498Z",
+      "position": 9,
+      "description": "Example notifications include newly posted reviews and new version creation",
+      "showcase": true,
+      "start_date": null,
+      "group_id": "d0m8l367qqw5",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -609,9 +609,9 @@
     {
       "id": "hk36hlvygg2q",
       "name": "Reporting APIs and dashboards",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2013-12-03T00:45:26.014Z",
-      "updated_at": "2021-09-28T07:53:42.176Z",
+      "updated_at": "2021-09-29T12:44:21.095Z",
       "position": 11,
       "description": "We have identified a problem with an underlying service to fetch data because of which there is a delay in transactions appearing in Marketplace Partner reports. We are actively working with the dependent system to get this addressed asap.",
       "showcase": true,
@@ -731,138 +731,6 @@
           "updated_at": "2021-09-29T09:05:16.279Z",
           "position": 2,
           "description": "The detailed listing page for each app",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    },
-    {
-      "id": "19xwbjmdj08f",
-      "name": "Marketplace Reports are missing data",
-      "status": "monitoring",
-      "created_at": "2021-09-28T05:38:02.000Z",
-      "updated_at": "2021-09-29T06:28:14.711Z",
-      "monitoring_at": "2021-09-29T06:28:14.694Z",
-      "resolved_at": null,
-      "impact": "critical",
-      "shortlink": "https://stspg.io/88sjd4rc8cx8",
-      "started_at": "2021-09-28T05:38:02.000Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "cc2ljkplvlqd",
-          "status": "monitoring",
-          "body": "The pipeline is fixed and working as expected now. We are monitoring at out end.",
-          "incident_id": "19xwbjmdj08f",
-          "created_at": "2021-09-29T06:28:14.694Z",
-          "updated_at": "2021-09-29T06:28:14.694Z",
-          "display_at": "2021-09-29T06:28:14.694Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "8l6ykpd7813l",
-          "status": "identified",
-          "body": "We have identified the issue with one of the upstream systems affecting the reporting. We are working on the fix for which the ETA is ~24hrs.\n\nIn the interim we have made a fix for all the data till 27th September'21 to be reflected correctly. \n\nThe following info will be not available for now :-\n1. The extra data insights and discounts data which went live on 1st September'21 https://developer.atlassian.com/platform/marketplace/parent-insights-and-discounts-data/ would not be available for now. \n2. The lastUpdatedDate is not reliable",
-          "incident_id": "19xwbjmdj08f",
-          "created_at": "2021-09-28T07:53:42.212Z",
-          "updated_at": "2021-09-28T07:53:42.212Z",
-          "display_at": "2021-09-28T07:53:42.212Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "major_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "79xxsxqqs6qp",
-          "status": "investigating",
-          "body": "We are continuing to investigate this issue.",
-          "incident_id": "19xwbjmdj08f",
-          "created_at": "2021-09-28T07:09:05.923Z",
-          "updated_at": "2021-09-28T07:09:05.923Z",
-          "display_at": "2021-09-28T07:09:05.923Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "4nplzs4554gx",
-          "status": "investigating",
-          "body": "We are continuing to investigate this issue.",
-          "incident_id": "19xwbjmdj08f",
-          "created_at": "2021-09-28T06:29:36.819Z",
-          "updated_at": "2021-09-28T06:29:36.819Z",
-          "display_at": "2021-09-28T06:29:36.819Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "6rx5946rlr9r",
-          "status": "investigating",
-          "body": "We have identified an issue with historical transactions being under-reported. We are actively investigating the issue.",
-          "incident_id": "19xwbjmdj08f",
-          "created_at": "2021-09-28T05:38:02.217Z",
-          "updated_at": "2021-09-28T07:09:02.987Z",
-          "display_at": "2021-09-28T05:38:02.000Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "hk36hlvygg2q",
-          "name": "Reporting APIs and dashboards",
-          "status": "partial_outage",
-          "created_at": "2013-12-03T00:45:26.014Z",
-          "updated_at": "2021-09-28T07:53:42.176Z",
-          "position": 11,
-          "description": "We have identified a problem with an underlying service to fetch data because of which there is a delay in transactions appearing in Marketplace Partner reports. We are actively working with the dependent system to get this addressed asap.",
           "showcase": true,
           "start_date": null,
           "group_id": "d0m8l367qqw5",
