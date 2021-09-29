@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-09-28T07:53:42.223Z"
+    "updated_at": "2021-09-29T06:28:14.714Z"
   },
   "components": [
     {
@@ -671,16 +671,36 @@
     {
       "id": "19xwbjmdj08f",
       "name": "Marketplace Reports are missing data",
-      "status": "identified",
-      "created_at": "2021-09-28T05:38:02.101Z",
-      "updated_at": "2021-09-28T07:53:42.215Z",
-      "monitoring_at": null,
+      "status": "monitoring",
+      "created_at": "2021-09-28T05:38:02.000Z",
+      "updated_at": "2021-09-29T06:28:14.711Z",
+      "monitoring_at": "2021-09-29T06:28:14.694Z",
       "resolved_at": null,
       "impact": "critical",
       "shortlink": "https://stspg.io/88sjd4rc8cx8",
       "started_at": "2021-09-28T05:38:02.000Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "cc2ljkplvlqd",
+          "status": "monitoring",
+          "body": "The pipeline is fixed and working as expected now. We are monitoring at out end.",
+          "incident_id": "19xwbjmdj08f",
+          "created_at": "2021-09-29T06:28:14.694Z",
+          "updated_at": "2021-09-29T06:28:14.694Z",
+          "display_at": "2021-09-29T06:28:14.694Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "8l6ykpd7813l",
           "status": "identified",
