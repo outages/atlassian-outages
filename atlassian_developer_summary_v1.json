@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-10-01T07:25:58.457Z"
+    "updated_at": "2021-10-01T08:29:08.564Z"
   },
   "components": [
     {
@@ -671,9 +671,9 @@
     {
       "id": "srnqlbj4hqyx",
       "name": "Entitlements data starting 30th September'21 is delayed in the reports",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2021-10-01T07:25:58.375Z",
-      "updated_at": "2021-10-01T07:25:58.455Z",
+      "updated_at": "2021-10-01T08:29:08.553Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -681,6 +681,26 @@
       "started_at": "2021-10-01T07:25:58.368Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "ymx712p909s1",
+          "status": "identified",
+          "body": "The issue has been identified with one of the upstream systems and the fix has been implemented. The data refresh would take around ~10hrs to complete. We will update once the refresh is successful.",
+          "incident_id": "srnqlbj4hqyx",
+          "created_at": "2021-10-01T08:29:08.549Z",
+          "updated_at": "2021-10-01T08:29:08.549Z",
+          "display_at": "2021-10-01T08:29:08.549Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "v451s308mctr",
           "status": "investigating",
