@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-10-08T09:28:02.167Z"
+    "updated_at": "2021-10-08T09:46:26.505Z"
   },
   "components": [
     {
@@ -673,10 +673,10 @@
       "name": "Duplicate license entries are seen while exporting Marketplace license reports.",
       "status": "investigating",
       "created_at": "2021-10-08T09:27:53.716Z",
-      "updated_at": "2021-10-08T09:28:02.159Z",
+      "updated_at": "2021-10-08T09:46:26.498Z",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "minor",
+      "impact": "major",
       "shortlink": "https://stspg.io/p92xycfxj10s",
       "started_at": "2021-10-08T09:27:53.708Z",
       "page_id": "n8766lc3ybbs",
