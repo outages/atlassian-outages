@@ -4,7 +4,7 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2021-10-18T10:23:38.348-04:00"
+    "updated_at": "2021-10-18T10:52:26.678-04:00"
   },
   "components": [
     {
@@ -89,7 +89,7 @@
       "name": "Trello is slow or unavailable",
       "status": "investigating",
       "created_at": "2021-10-18T09:23:20.896-04:00",
-      "updated_at": "2021-10-18T10:23:38.344-04:00",
+      "updated_at": "2021-10-18T10:52:26.670-04:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -100,11 +100,11 @@
         {
           "id": "sdzv1fnb38zl",
           "status": "investigating",
-          "body": "Users may find that Trello is currently slow or unavailable.\n\nOur engineering team is actively investigating this incident and working to bring Trello back up as quickly as possible.\n\nUsers affected by this incident may notice that Trello is slow or completely unavailable in both the web and mobile apps.\n\nWe will update this page as we have additional information.",
+          "body": "Trello’s Engineering team is still working to identify the problem, and we’ll be back to normal as soon as we can!",
           "incident_id": "mh9y7y2hbm09",
           "created_at": "2021-10-18T10:23:26.814-04:00",
-          "updated_at": "2021-10-18T10:23:26.814-04:00",
-          "display_at": "2021-10-18T10:23:26.814-04:00",
+          "updated_at": "2021-10-18T10:52:26.665-04:00",
+          "display_at": "2021-10-18T10:52:26.000-04:00",
           "affected_components": [
             {
               "code": "y1nllgnkxn9d",
