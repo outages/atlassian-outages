@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-10-15T09:31:29.272Z"
+    "updated_at": "2021-10-20T22:54:57.463Z"
   },
   "components": [
     {
@@ -25,7 +25,7 @@
     {
       "id": "w0ld3nc9jvdx",
       "name": "APIs",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2018-02-01T17:15:10.342Z",
       "updated_at": "2018-02-01T17:16:31.201Z",
       "position": 1,
@@ -164,6 +164,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "xjs8wcvjw85c",
+      "name": "Developer community",
+      "status": "operational",
+      "created_at": "2018-02-01T17:22:27.268Z",
+      "updated_at": "2020-03-18T01:48:19.818Z",
+      "position": 3,
+      "description": "https://community.developer.atlassian.com",
+      "showcase": true,
+      "start_date": null,
+      "group_id": "jgnwrfzynh93",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "d1hybyzmqlvq",
       "name": "App pricing",
       "status": "operational",
@@ -240,14 +255,14 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "xjs8wcvjw85c",
-      "name": "Developer community",
+      "id": "crfmnmkyvltr",
+      "name": "Developer service desk",
       "status": "operational",
-      "created_at": "2018-02-01T17:22:27.268Z",
-      "updated_at": "2020-03-18T01:48:19.818Z",
-      "position": 3,
-      "description": "https://community.developer.atlassian.com",
-      "showcase": true,
+      "created_at": "2018-02-01T17:27:59.399Z",
+      "updated_at": "2018-02-21T00:14:50.224Z",
+      "position": 4,
+      "description": "Jira Service Desk project accessible at http://go.atlassian.com/developer-support",
+      "showcase": false,
       "start_date": null,
       "group_id": "jgnwrfzynh93",
       "page_id": "n8766lc3ybbs",
@@ -270,31 +285,31 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "dnstnjnbm2vs",
-      "name": "Product Events",
+      "id": "fjsq71xwd3rn",
+      "name": "Authentication and user management",
       "status": "operational",
-      "created_at": "2021-03-23T11:58:48.255Z",
-      "updated_at": "2021-03-23T12:03:17.244Z",
+      "created_at": "2019-05-02T04:22:28.554Z",
+      "updated_at": "2021-02-28T06:04:09.891Z",
       "position": 4,
-      "description": "Invocation of Forge functions from product events.",
+      "description": null,
       "showcase": true,
-      "start_date": "2021-03-23",
-      "group_id": "w0ld3nc9jvdx",
+      "start_date": null,
+      "group_id": null,
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
     },
     {
-      "id": "crfmnmkyvltr",
-      "name": "Developer service desk",
-      "status": "operational",
-      "created_at": "2018-02-01T17:27:59.399Z",
-      "updated_at": "2018-02-21T00:14:50.224Z",
+      "id": "dnstnjnbm2vs",
+      "name": "Product Events",
+      "status": "partial_outage",
+      "created_at": "2021-03-23T11:58:48.255Z",
+      "updated_at": "2021-10-20T22:54:57.415Z",
       "position": 4,
-      "description": "Jira Service Desk project accessible at http://go.atlassian.com/developer-support",
-      "showcase": false,
-      "start_date": null,
-      "group_id": "jgnwrfzynh93",
+      "description": "Invocation of Forge functions from product events.",
+      "showcase": true,
+      "start_date": "2021-03-23",
+      "group_id": "w0ld3nc9jvdx",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -310,21 +325,6 @@
       "showcase": true,
       "start_date": null,
       "group_id": "d0m8l367qqw5",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "fjsq71xwd3rn",
-      "name": "Authentication and user management",
-      "status": "operational",
-      "created_at": "2019-05-02T04:22:28.554Z",
-      "updated_at": "2021-02-28T06:04:09.891Z",
-      "position": 4,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": null,
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -547,21 +547,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "y1fdrctjbkx0",
-      "name": "Notifications",
-      "status": "operational",
-      "created_at": "2018-02-01T17:52:26.480Z",
-      "updated_at": "2020-07-09T10:30:48.498Z",
-      "position": 9,
-      "description": "Example notifications include newly posted reviews and new version creation",
-      "showcase": true,
-      "start_date": null,
-      "group_id": "d0m8l367qqw5",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "64gg59lyzrfs",
       "name": "Forge App Logs",
       "status": "operational",
@@ -577,16 +562,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "khz72mns34gk",
-      "name": "Developer console",
+      "id": "y1fdrctjbkx0",
+      "name": "Notifications",
       "status": "operational",
-      "created_at": "2021-07-09T01:52:46.683Z",
-      "updated_at": "2021-07-09T01:52:46.683Z",
-      "position": 10,
-      "description": "Reliability of https://developer.atlassian.com/console",
+      "created_at": "2018-02-01T17:52:26.480Z",
+      "updated_at": "2020-07-09T10:30:48.498Z",
+      "position": 9,
+      "description": "Example notifications include newly posted reviews and new version creation",
       "showcase": true,
-      "start_date": "2021-07-08",
-      "group_id": "73bt63kd5q9k",
+      "start_date": null,
+      "group_id": "d0m8l367qqw5",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -602,6 +587,21 @@
       "showcase": true,
       "start_date": null,
       "group_id": "d0m8l367qqw5",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "khz72mns34gk",
+      "name": "Developer console",
+      "status": "operational",
+      "created_at": "2021-07-09T01:52:46.683Z",
+      "updated_at": "2021-07-09T01:52:46.683Z",
+      "position": 10,
+      "description": "Reliability of https://developer.atlassian.com/console",
+      "showcase": true,
+      "start_date": "2021-07-08",
+      "group_id": "73bt63kd5q9k",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -667,10 +667,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "3935jvlttbzy",
+      "name": "Product trigger events are not being delivered in Confluence Cloud Forge apps",
+      "status": "investigating",
+      "created_at": "2021-10-20T22:54:57.377Z",
+      "updated_at": "2021-10-20T22:54:57.461Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/cxy1c043lb70",
+      "started_at": "2021-10-20T22:54:57.368Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "07y7fm435bj3",
+          "status": "investigating",
+          "body": "Confluence product trigger events are currently not being delivered to Forge apps. We have identified the underlying cause and are currently deploying a fix. \n\nImpact start time: UTC Wed, Oct 20 2021 6:13:10 pm +00:00\nETA to resolution: UTC Wed, Oct 20 2021 11:05:00 pm +00:00",
+          "incident_id": "3935jvlttbzy",
+          "created_at": "2021-10-20T22:54:57.458Z",
+          "updated_at": "2021-10-20T22:54:57.458Z",
+          "display_at": "2021-10-20T22:54:57.458Z",
+          "affected_components": [
+            {
+              "code": "dnstnjnbm2vs",
+              "name": "APIs - Product Events",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "dnstnjnbm2vs",
+          "name": "Product Events",
+          "status": "partial_outage",
+          "created_at": "2021-03-23T11:58:48.255Z",
+          "updated_at": "2021-10-20T22:54:57.415Z",
+          "position": 4,
+          "description": "Invocation of Forge functions from product events.",
+          "showcase": true,
+          "start_date": "2021-03-23",
+          "group_id": "w0ld3nc9jvdx",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
