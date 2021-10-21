@@ -4,7 +4,7 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-10-21T12:23:40.685Z"
+    "updated_at": "2021-10-21T12:57:26.131Z"
   },
   "components": [
     {
@@ -765,16 +765,36 @@
     {
       "id": "7wwy08mc7gcx",
       "name": "Opsgenie UI is not reachable for some customers on EU region",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2021-10-21T11:34:39.163Z",
-      "updated_at": "2021-10-21T11:43:58.592Z",
-      "monitoring_at": null,
+      "updated_at": "2021-10-21T12:57:26.128Z",
+      "monitoring_at": "2021-10-21T12:57:26.113Z",
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/487ypnwwf08t",
       "started_at": "2021-10-21T11:34:39.155Z",
       "page_id": "t05vdsszxwtq",
       "incident_updates": [
+        {
+          "id": "4k06spfwdltm",
+          "status": "monitoring",
+          "body": "A fix has been implemented and we are monitoring the results.",
+          "incident_id": "7wwy08mc7gcx",
+          "created_at": "2021-10-21T12:57:26.113Z",
+          "updated_at": "2021-10-21T12:57:26.113Z",
+          "display_at": "2021-10-21T12:57:26.113Z",
+          "affected_components": [
+            {
+              "code": "9mk8r5t0mzbk",
+              "name": "EU - Web Application",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "phmrs0lgq124",
           "status": "investigating",
