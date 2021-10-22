@@ -1,0 +1,13 @@
+{
+  "page": {
+    "id": "0f54fx204jpt",
+    "name": "Atlassian",
+    "url": "https://status.atlassian.com",
+    "time_zone": "Etc/UTC",
+    "updated_at": "2021-09-18T01:23:49.001Z"
+  },
+  "status": {
+    "indicator": "none",
+    "description": "All Systems Operational"
+  }
+}
