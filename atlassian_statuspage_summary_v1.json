@@ -4,9 +4,24 @@
     "name": "Atlassian Statuspage",
     "url": "http://metastatuspage.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-10-06T11:45:20.350-07:00"
+    "updated_at": "2021-10-22T10:30:10.585-07:00"
   },
   "components": [
+    {
+      "id": "rkld00070vm9",
+      "name": "HTTP Pages",
+      "status": "operational",
+      "created_at": "2017-08-21T10:20:23.847-07:00",
+      "updated_at": "2021-09-21T12:04:46.647-07:00",
+      "position": 1,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "hchd2wyk50h7",
+      "page_id": "y2j98763l56x",
+      "group": false,
+      "only_show_if_degraded": false
+    },
     {
       "id": "fyzs60wyq01d",
       "name": "Web Portal",
@@ -135,16 +150,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "rkld00070vm9",
-      "name": "HTTP Pages",
+      "id": "pht8mbkmkb7t",
+      "name": "External",
       "status": "operational",
-      "created_at": "2017-08-21T10:20:23.847-07:00",
-      "updated_at": "2021-09-21T12:04:46.647-07:00",
-      "position": 1,
+      "created_at": "2017-08-21T10:22:18.272-07:00",
+      "updated_at": "2021-06-20T10:48:30.239-07:00",
+      "position": 2,
       "description": null,
-      "showcase": true,
+      "showcase": false,
       "start_date": null,
-      "group_id": "hchd2wyk50h7",
+      "group_id": "bpcwggjv4tm7",
       "page_id": "y2j98763l56x",
       "group": false,
       "only_show_if_degraded": false
@@ -180,6 +195,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "3g0c0h5n5cp1",
+      "name": "Authenticated API",
+      "status": "degraded_performance",
+      "created_at": "2017-08-21T10:21:45.963-07:00",
+      "updated_at": "2021-10-22T10:30:10.535-07:00",
+      "position": 2,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "jk3l62p3pcfy",
+      "page_id": "y2j98763l56x",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "hdj6sbn26g26",
       "name": "SMS",
       "status": "operational",
@@ -210,21 +240,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "95l8v513nw1q",
-      "name": "Knowledge Base",
-      "status": "operational",
-      "created_at": "2017-08-21T10:32:30.574-07:00",
-      "updated_at": "2019-08-30T11:11:37.490-07:00",
-      "position": 2,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "k118btf0g74r",
-      "page_id": "y2j98763l56x",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "hsc388fhkjnv",
       "name": "Librato Integration",
       "status": "operational",
@@ -235,21 +250,6 @@
       "showcase": false,
       "start_date": null,
       "group_id": "v9191vsctr8q",
-      "page_id": "y2j98763l56x",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "3g0c0h5n5cp1",
-      "name": "Authenticated API",
-      "status": "operational",
-      "created_at": "2017-08-21T10:21:45.963-07:00",
-      "updated_at": "2021-06-20T10:48:30.267-07:00",
-      "position": 2,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "jk3l62p3pcfy",
       "page_id": "y2j98763l56x",
       "group": false,
       "only_show_if_degraded": false
@@ -270,9 +270,24 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "95l8v513nw1q",
+      "name": "Knowledge Base",
+      "status": "operational",
+      "created_at": "2017-08-21T10:32:30.574-07:00",
+      "updated_at": "2019-08-30T11:11:37.490-07:00",
+      "position": 2,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "k118btf0g74r",
+      "page_id": "y2j98763l56x",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "jk3l62p3pcfy",
       "name": "Management",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:22:01.354-07:00",
       "updated_at": "2017-08-24T12:33:47.091-07:00",
       "position": 2,
@@ -290,21 +305,6 @@
         "ff2cz0c51928",
         "v9dcxzcs9ypj"
       ]
-    },
-    {
-      "id": "pht8mbkmkb7t",
-      "name": "External",
-      "status": "operational",
-      "created_at": "2017-08-21T10:22:18.272-07:00",
-      "updated_at": "2021-06-20T10:48:30.239-07:00",
-      "position": 2,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "bpcwggjv4tm7",
-      "page_id": "y2j98763l56x",
-      "group": false,
-      "only_show_if_degraded": false
     },
     {
       "id": "l8q89tvjrf66",
@@ -800,10 +800,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "mlq2h28smbjj",
+      "name": "Elevated Server Errors in the Manage API in US Eastern Region",
+      "status": "investigating",
+      "created_at": "2021-10-22T10:30:10.503-07:00",
+      "updated_at": "2021-10-22T10:30:10.585-07:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "http://mstspg.co/jxpybmg882yp",
+      "started_at": "2021-10-22T10:30:10.493-07:00",
+      "page_id": "y2j98763l56x",
+      "incident_updates": [
+        {
+          "id": "0gn34s2srs67",
+          "status": "investigating",
+          "body": "We are currently investigating this issue.",
+          "incident_id": "mlq2h28smbjj",
+          "created_at": "2021-10-22T10:30:10.583-07:00",
+          "updated_at": "2021-10-22T10:30:10.583-07:00",
+          "display_at": "2021-10-22T10:30:10.583-07:00",
+          "affected_components": [
+            {
+              "code": "3g0c0h5n5cp1",
+              "name": "Management - Authenticated API",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "3g0c0h5n5cp1",
+          "name": "Authenticated API",
+          "status": "degraded_performance",
+          "created_at": "2017-08-21T10:21:45.963-07:00",
+          "updated_at": "2021-10-22T10:30:10.535-07:00",
+          "position": 2,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": "jk3l62p3pcfy",
+          "page_id": "y2j98763l56x",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
