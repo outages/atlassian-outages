@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-10-26T12:23:31.849Z"
+    "updated_at": "2021-10-27T04:35:40.698Z"
   },
   "components": [
     {
@@ -181,7 +181,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -317,9 +317,9 @@
     {
       "id": "7z6w09hl9mn0",
       "name": "App submissions",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:48:45.038Z",
-      "updated_at": "2021-10-26T11:40:35.536Z",
+      "updated_at": "2021-10-27T04:35:40.641Z",
       "position": 4,
       "description": null,
       "showcase": true,
@@ -667,83 +667,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "qs89nmj5884r",
-      "name": "Marketplace Hub is not creating new app versions",
-      "status": "monitoring",
-      "created_at": "2021-10-26T11:40:35.489Z",
-      "updated_at": "2021-10-26T12:02:20.181Z",
-      "monitoring_at": "2021-10-26T12:02:20.167Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/1x27dkfqd3sw",
-      "started_at": "2021-10-26T11:40:35.480Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "wq5jszfvgx6h",
-          "status": "monitoring",
-          "body": "A fix has been implemented and we are monitoring the results.",
-          "incident_id": "qs89nmj5884r",
-          "created_at": "2021-10-26T12:02:20.167Z",
-          "updated_at": "2021-10-26T12:02:20.167Z",
-          "display_at": "2021-10-26T12:02:20.167Z",
-          "affected_components": [
-            {
-              "code": "7z6w09hl9mn0",
-              "name": "Marketplace - App submissions",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "gr216tskp3qm",
-          "status": "investigating",
-          "body": "We are currently investigating the issue where the Marketplace bot is not creating new versions",
-          "incident_id": "qs89nmj5884r",
-          "created_at": "2021-10-26T11:40:35.592Z",
-          "updated_at": "2021-10-26T11:40:35.592Z",
-          "display_at": "2021-10-26T11:40:35.592Z",
-          "affected_components": [
-            {
-              "code": "7z6w09hl9mn0",
-              "name": "Marketplace - App submissions",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "7z6w09hl9mn0",
-          "name": "App submissions",
-          "status": "partial_outage",
-          "created_at": "2018-02-01T17:48:45.038Z",
-          "updated_at": "2021-10-26T11:40:35.536Z",
-          "position": 4,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
