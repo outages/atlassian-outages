@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-10-27T12:24:54.284Z"
+    "updated_at": "2021-10-27T13:04:27.541Z"
   },
   "components": [
     {
@@ -173,50 +173,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "ykhvbdj5clq9",
-      "name": "Performance issue affecting some Jira cloud instances",
-      "status": "investigating",
-      "created_at": "2021-10-27T12:00:12.178Z",
-      "updated_at": "2021-10-27T12:00:21.266Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/pd7pk9d5bym4",
-      "started_at": "2021-10-27T12:00:12.172Z",
-      "page_id": "s6f0gm5gcpmy",
-      "incident_updates": [
-        {
-          "id": "hpc7ng0dgc0t",
-          "status": "investigating",
-          "body": "We are continuing to investigate this issue.",
-          "incident_id": "ykhvbdj5clq9",
-          "created_at": "2021-10-27T12:00:21.262Z",
-          "updated_at": "2021-10-27T12:00:21.262Z",
-          "display_at": "2021-10-27T12:00:21.262Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "kdrmdrhvf6lx",
-          "status": "investigating",
-          "body": "We are currently investigating a performance related issue that is affecting some Jira cloud instances which is degrading its capabilities making the product unusable.",
-          "incident_id": "ykhvbdj5clq9",
-          "created_at": "2021-10-27T12:00:12.213Z",
-          "updated_at": "2021-10-27T12:00:12.213Z",
-          "display_at": "2021-10-27T12:00:12.213Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": []
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
