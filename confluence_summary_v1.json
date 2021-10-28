@@ -4,15 +4,15 @@
     "name": "Confluence",
     "url": "https://confluence.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-10-27T22:23:54.341Z"
+    "updated_at": "2021-10-28T07:47:16.278Z"
   },
   "components": [
     {
       "id": "bl9mxbb582vk",
       "name": "View Content",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2018-11-12T04:04:58.123Z",
-      "updated_at": "2021-08-17T16:26:47.764Z",
+      "updated_at": "2021-10-28T07:47:16.234Z",
       "position": 1,
       "description": "Viewing pages or dashboards",
       "showcase": false,
@@ -207,10 +207,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "pv6w51zqr29x",
+      "name": "Confluence pages that include excerpt include macro shows loading error",
+      "status": "investigating",
+      "created_at": "2021-10-28T07:47:16.203Z",
+      "updated_at": "2021-10-28T07:47:16.275Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/4qbwskpv504v",
+      "started_at": "2021-10-28T07:47:16.196Z",
+      "page_id": "4g2my7tbhjsq",
+      "incident_updates": [
+        {
+          "id": "7ysh4wmc29fm",
+          "status": "investigating",
+          "body": "We are investigating reports of Confluence pages that include excerpt include macro not loading. We are are investigating the root-cause and will provide an update once we have more details",
+          "incident_id": "pv6w51zqr29x",
+          "created_at": "2021-10-28T07:47:16.272Z",
+          "updated_at": "2021-10-28T07:47:16.272Z",
+          "display_at": "2021-10-28T07:47:16.272Z",
+          "affected_components": [
+            {
+              "code": "bl9mxbb582vk",
+              "name": "View Content",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "bl9mxbb582vk",
+          "name": "View Content",
+          "status": "partial_outage",
+          "created_at": "2018-11-12T04:04:58.123Z",
+          "updated_at": "2021-10-28T07:47:16.234Z",
+          "position": 1,
+          "description": "Viewing pages or dashboards",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "4g2my7tbhjsq",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
