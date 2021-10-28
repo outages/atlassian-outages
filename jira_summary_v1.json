@@ -4,7 +4,7 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-10-28T19:35:58.357Z"
+    "updated_at": "2021-10-28T20:50:51.594Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Delayed Email Notifications",
       "status": "identified",
       "created_at": "2021-10-28T18:39:40.715Z",
-      "updated_at": "2021-10-28T19:35:58.349Z",
+      "updated_at": "2021-10-28T20:50:51.587Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,26 @@
       "started_at": "2021-10-28T18:39:40.706Z",
       "page_id": "7yh3h3y0c0x1",
       "incident_updates": [
+        {
+          "id": "j20z67h3hfsz",
+          "status": "identified",
+          "body": "We continue to work on resolving the delayed email notifications issue for Confluence, Jira Work Management, Jira Service Management, Jira Software, Trello, and Atlassian Bitbucket. Our email delivery vendor is making progress identifying the root cause, and recovery has started with email delivery resuming for queued messages. Email notifications will be delivered once the incident has been fully resolved.",
+          "incident_id": "xtyyqz696jxw",
+          "created_at": "2021-10-28T20:50:51.584Z",
+          "updated_at": "2021-10-28T20:50:51.584Z",
+          "display_at": "2021-10-28T20:50:51.584Z",
+          "affected_components": [
+            {
+              "code": "yzll2534txvb",
+              "name": "Notifications",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "0mtcf1yvhwzy",
           "status": "identified",
