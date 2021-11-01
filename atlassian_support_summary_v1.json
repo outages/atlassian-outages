@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-10-29T23:47:39.654Z"
+    "updated_at": "2021-11-01T06:42:45.780Z"
   },
   "components": [
     {
@@ -189,7 +189,62 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "r7y33yy9dc47",
+      "name": "Maintenance for Jira.atlassian.com",
+      "status": "scheduled",
+      "created_at": "2021-11-01T06:38:47.987Z",
+      "updated_at": "2021-11-01T06:42:45.771Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/0bd5y4xvw082",
+      "started_at": "2021-11-01T06:38:48.181Z",
+      "page_id": "3tbw4lb9t3qp",
+      "incident_updates": [
+        {
+          "id": "qldnkt8s0dcz",
+          "status": "scheduled",
+          "body": "We will be undergoing scheduled maintenance during this time. The public issues tracker (jira.atlassian.com) will be unavailable for the maintenance period.",
+          "incident_id": "r7y33yy9dc47",
+          "created_at": "2021-11-01T06:38:48.181Z",
+          "updated_at": "2021-11-01T06:42:45.704Z",
+          "display_at": "2021-11-01T06:38:48.181Z",
+          "affected_components": [
+            {
+              "code": "gmpjxdbnlw8r",
+              "name": "Public Issues Tracker",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "gmpjxdbnlw8r",
+          "name": "Public Issues Tracker",
+          "status": "operational",
+          "created_at": "2018-11-30T21:48:47.309Z",
+          "updated_at": "2020-02-09T01:00:50.427Z",
+          "position": 6,
+          "description": "Atlassian's public issue tracker which can be found at jira.atlassian.com",
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "3tbw4lb9t3qp",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2021-11-02T01:30:00.000Z",
+      "scheduled_until": "2021-11-02T02:30:00.000Z"
+    }
+  ],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
