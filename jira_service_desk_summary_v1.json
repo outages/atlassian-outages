@@ -4,15 +4,15 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-10-29T02:30:26.699Z"
+    "updated_at": "2021-11-02T14:24:46.132Z"
   },
   "components": [
     {
       "id": "4kcs01hbh4l6",
       "name": "Jira Service Mangement Web",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-11-16T18:06:14.831Z",
-      "updated_at": "2021-10-05T10:00:52.110Z",
+      "updated_at": "2021-11-02T14:24:46.027Z",
       "position": 1,
       "description": "Problems with queues, issues, reports, searching, and anything else impacting an agent's ability to complete their work",
       "showcase": false,
@@ -25,9 +25,9 @@
     {
       "id": "hzbyfxf686qd",
       "name": "Service Portal",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-11-16T18:06:14.848Z",
-      "updated_at": "2021-08-03T04:28:04.560Z",
+      "updated_at": "2021-11-02T14:24:46.046Z",
       "position": 2,
       "description": "Problems related to the service desk portals where end-users make requests or raise issues",
       "showcase": false,
@@ -160,9 +160,9 @@
     {
       "id": "7rq3yg76vvbc",
       "name": "Automation for Jira",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-12-23T01:40:13.601Z",
-      "updated_at": "2021-10-14T10:49:05.263Z",
+      "updated_at": "2021-11-02T14:24:46.065Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -173,10 +173,105 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "76md6zqncy37",
+      "name": "User searches in EU West failing",
+      "status": "monitoring",
+      "created_at": "2021-11-02T14:24:45.981Z",
+      "updated_at": "2021-11-02T14:24:46.129Z",
+      "monitoring_at": "2021-11-02T14:24:46.118Z",
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/k63jbbsrv98d",
+      "started_at": "2021-11-02T14:24:45.971Z",
+      "page_id": "pv54g7ltsc24",
+      "incident_updates": [
+        {
+          "id": "mdbf3z60w94s",
+          "status": "monitoring",
+          "body": "We are investigating cases of degraded performance for some Confluence, Jira Work Management, Jira Service Management, and Jira Software Cloud customers. We will provide more details within the next hour.",
+          "incident_id": "76md6zqncy37",
+          "created_at": "2021-11-02T14:24:46.118Z",
+          "updated_at": "2021-11-02T14:24:46.118Z",
+          "display_at": "2021-11-02T14:24:46.118Z",
+          "affected_components": [
+            {
+              "code": "4kcs01hbh4l6",
+              "name": "Jira Service Mangement Web",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "hzbyfxf686qd",
+              "name": "Service Portal",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "7rq3yg76vvbc",
+              "name": "Automation for Jira",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "4kcs01hbh4l6",
+          "name": "Jira Service Mangement Web",
+          "status": "degraded_performance",
+          "created_at": "2018-11-16T18:06:14.831Z",
+          "updated_at": "2021-11-02T14:24:46.027Z",
+          "position": 1,
+          "description": "Problems with queues, issues, reports, searching, and anything else impacting an agent's ability to complete their work",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "pv54g7ltsc24",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "hzbyfxf686qd",
+          "name": "Service Portal",
+          "status": "degraded_performance",
+          "created_at": "2018-11-16T18:06:14.848Z",
+          "updated_at": "2021-11-02T14:24:46.046Z",
+          "position": 2,
+          "description": "Problems related to the service desk portals where end-users make requests or raise issues",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "pv54g7ltsc24",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "7rq3yg76vvbc",
+          "name": "Automation for Jira",
+          "status": "degraded_performance",
+          "created_at": "2020-12-23T01:40:13.601Z",
+          "updated_at": "2021-11-02T14:24:46.065Z",
+          "position": 11,
+          "description": null,
+          "showcase": false,
+          "start_date": "2020-12-23",
+          "group_id": null,
+          "page_id": "pv54g7ltsc24",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
