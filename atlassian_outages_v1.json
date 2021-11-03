@@ -4,10 +4,10 @@
     "name": "Atlassian",
     "url": "https://status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-11-03T03:24:15.908Z"
+    "updated_at": "2021-11-03T19:24:26.917Z"
   },
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
