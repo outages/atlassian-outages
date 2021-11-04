@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-11-03T19:24:18.932Z"
+    "updated_at": "2021-11-04T03:43:42.207Z"
   },
   "components": [
     {
@@ -670,10 +670,10 @@
   "incidents": [
     {
       "id": "1xsfm6wjkd4c",
-      "name": "Transactions from Nov 2nd will be delayed.",
+      "name": "Marketplace Reporting delays and data issues",
       "status": "identified",
       "created_at": "2021-11-03T07:09:39.765Z",
-      "updated_at": "2021-11-03T09:14:57.436Z",
+      "updated_at": "2021-11-04T03:43:42.198Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -681,6 +681,26 @@
       "started_at": "2021-11-03T07:09:39.758Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "86k3klxzkxn1",
+          "status": "identified",
+          "body": "While we fixed the delays in the pipeline, we have identified some missing transactions data and duplicate entries in the transactions exports. The team is now investigating this.",
+          "incident_id": "1xsfm6wjkd4c",
+          "created_at": "2021-11-04T03:43:42.195Z",
+          "updated_at": "2021-11-04T03:43:42.195Z",
+          "display_at": "2021-11-04T03:43:42.195Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "zct86bfg7kp2",
           "status": "identified",
