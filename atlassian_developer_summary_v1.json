@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-11-04T04:50:04.091Z"
+    "updated_at": "2021-11-04T05:23:31.389Z"
   },
   "components": [
     {
@@ -781,7 +781,62 @@
       ]
     }
   ],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "ntqbnjh7wsw0",
+      "name": "Upstream production service scheduled maintenance- New app installs/upgrades will be unavailable for 10 minutes.",
+      "status": "scheduled",
+      "created_at": "2021-11-04T05:16:43.655Z",
+      "updated_at": "2021-11-04T05:16:43.704Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/ys96x2mc7704",
+      "started_at": "2021-11-04T05:16:43.648Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "qjhh3fm3d38k",
+          "status": "scheduled",
+          "body": "Production upgrade of one of the upstream systems is scheduled between 11:00 am to 11:10 am AEDT on 07th Nov'21 .As a result, new app installs and app upgrades will be unavailable during this time window (upgrades will retry at the next available time window)",
+          "incident_id": "ntqbnjh7wsw0",
+          "created_at": "2021-11-04T05:16:43.702Z",
+          "updated_at": "2021-11-04T05:16:43.702Z",
+          "display_at": "2021-11-04T05:16:43.702Z",
+          "affected_components": [
+            {
+              "code": "3t1y6724xl8q",
+              "name": "Marketplace - In-product Marketplace and app installation (Cloud)",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "3t1y6724xl8q",
+          "name": "In-product Marketplace and app installation (Cloud)",
+          "status": "operational",
+          "created_at": "2013-12-03T00:45:39.973Z",
+          "updated_at": "2021-09-29T18:05:57.274Z",
+          "position": 7,
+          "description": "The ability to discover, install, and manage apps inside of Atlassian's Cloud products (Jira, Confluence, Stride, Bitbucket)",
+          "showcase": false,
+          "start_date": null,
+          "group_id": "d0m8l367qqw5",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2021-11-07T00:00:00.000Z",
+      "scheduled_until": "2021-11-07T00:10:00.000Z"
+    }
+  ],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
