@@ -4,7 +4,7 @@
     "name": "Atlassian Statuspage",
     "url": "http://metastatuspage.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-11-05T17:45:20.910-07:00"
+    "updated_at": "2021-11-05T19:06:24.830-07:00"
   },
   "components": [
     {
@@ -800,80 +800,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "0nt2rj3ktr6k",
-      "name": "Minor Login Issues with the Manage Portal",
-      "status": "monitoring",
-      "created_at": "2021-11-05T17:34:24.000-07:00",
-      "updated_at": "2021-11-05T17:37:29.743-07:00",
-      "monitoring_at": "2021-11-05T17:34:24.000-07:00",
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "http://mstspg.co/3233dtkd2b61",
-      "started_at": "2021-11-05T17:34:24.000-07:00",
-      "page_id": "y2j98763l56x",
-      "incident_updates": [
-        {
-          "id": "2s8384bh78bv",
-          "status": "monitoring",
-          "body": "We are continuing to monitor for any further issues.",
-          "incident_id": "0nt2rj3ktr6k",
-          "created_at": "2021-11-05T17:37:29.741-07:00",
-          "updated_at": "2021-11-05T17:37:29.741-07:00",
-          "display_at": "2021-11-05T17:37:29.741-07:00",
-          "affected_components": [
-            {
-              "code": "fyzs60wyq01d",
-              "name": "Management - Web Portal",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "2qnxsq7n2dqz",
-          "status": "monitoring",
-          "body": "Due to a problem with our authentication layer, we had a brief service degradation between 5:05 and 5:10 PM PDT that prevented some users from logging into the manage portal. We have implemented a fix and we are now monitoring the system.",
-          "incident_id": "0nt2rj3ktr6k",
-          "created_at": "2021-11-05T17:34:24.724-07:00",
-          "updated_at": "2021-11-05T17:37:19.647-07:00",
-          "display_at": "2021-11-05T17:34:24.000-07:00",
-          "affected_components": [
-            {
-              "code": "fyzs60wyq01d",
-              "name": "Management - Web Portal",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "fyzs60wyq01d",
-          "name": "Web Portal",
-          "status": "operational",
-          "created_at": "2017-08-21T10:22:01.379-07:00",
-          "updated_at": "2021-09-21T12:04:46.612-07:00",
-          "position": 1,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "jk3l62p3pcfy",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [
     {
       "id": "wb1h5t6nxknn",
