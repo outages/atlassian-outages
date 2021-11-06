@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-11-06T02:12:45.902Z"
+    "updated_at": "2021-11-06T10:39:31.702Z"
   },
   "components": [
     {
@@ -134,21 +134,6 @@
       ]
     },
     {
-      "id": "g04n852g3nt6",
-      "name": "App listings",
-      "status": "operational",
-      "created_at": "2013-12-03T00:43:13.481Z",
-      "updated_at": "2021-11-05T18:32:28.193Z",
-      "position": 2,
-      "description": "The detailed listing page for each app",
-      "showcase": true,
-      "start_date": null,
-      "group_id": "d0m8l367qqw5",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "yjqnzm0tkgsd",
       "name": "Confluence Cloud APIs",
       "status": "operational",
@@ -164,13 +149,13 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "d1hybyzmqlvq",
-      "name": "App pricing",
+      "id": "g04n852g3nt6",
+      "name": "App listings",
       "status": "operational",
-      "created_at": "2013-12-03T00:43:13.497Z",
-      "updated_at": "2021-09-29T18:05:57.180Z",
-      "position": 3,
-      "description": "App pricing queries and updates",
+      "created_at": "2013-12-03T00:43:13.481Z",
+      "updated_at": "2021-11-05T18:32:28.193Z",
+      "position": 2,
+      "description": "The detailed listing page for each app",
       "showcase": true,
       "start_date": null,
       "group_id": "d0m8l367qqw5",
@@ -179,24 +164,9 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "xjs8wcvjw85c",
-      "name": "Developer community",
-      "status": "operational",
-      "created_at": "2018-02-01T17:22:27.268Z",
-      "updated_at": "2020-03-18T01:48:19.818Z",
-      "position": 3,
-      "description": "https://community.developer.atlassian.com",
-      "showcase": true,
-      "start_date": null,
-      "group_id": "jgnwrfzynh93",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -223,6 +193,21 @@
         "1vvmngd73171",
         "wm1wfkvnffmt"
       ]
+    },
+    {
+      "id": "d1hybyzmqlvq",
+      "name": "App pricing",
+      "status": "operational",
+      "created_at": "2013-12-03T00:43:13.497Z",
+      "updated_at": "2021-09-29T18:05:57.180Z",
+      "position": 3,
+      "description": "App pricing queries and updates",
+      "showcase": true,
+      "start_date": null,
+      "group_id": "d0m8l367qqw5",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
     },
     {
       "id": "cc6gw24m02wp",
@@ -255,31 +240,31 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "7z6w09hl9mn0",
-      "name": "App submissions",
+      "id": "xjs8wcvjw85c",
+      "name": "Developer community",
       "status": "operational",
-      "created_at": "2018-02-01T17:48:45.038Z",
-      "updated_at": "2021-10-27T04:35:40.641Z",
-      "position": 4,
-      "description": null,
+      "created_at": "2018-02-01T17:22:27.268Z",
+      "updated_at": "2020-03-18T01:48:19.818Z",
+      "position": 3,
+      "description": "https://community.developer.atlassian.com",
       "showcase": true,
       "start_date": null,
-      "group_id": "d0m8l367qqw5",
+      "group_id": "jgnwrfzynh93",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
     },
     {
-      "id": "ft3y6psz31vm",
-      "name": "Developer documentation",
+      "id": "dnstnjnbm2vs",
+      "name": "Product Events",
       "status": "operational",
-      "created_at": "2018-02-01T17:23:24.905Z",
-      "updated_at": "2021-10-06T21:03:57.450Z",
+      "created_at": "2021-03-23T11:58:48.255Z",
+      "updated_at": "2021-10-20T23:48:16.146Z",
       "position": 4,
-      "description": "The ability to access documentation at https://developer.atlassian.com/docs",
+      "description": "Invocation of Forge functions from product events.",
       "showcase": true,
-      "start_date": null,
-      "group_id": "73bt63kd5q9k",
+      "start_date": "2021-03-23",
+      "group_id": "w0ld3nc9jvdx",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -315,16 +300,31 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "dnstnjnbm2vs",
-      "name": "Product Events",
+      "id": "7z6w09hl9mn0",
+      "name": "App submissions",
       "status": "operational",
-      "created_at": "2021-03-23T11:58:48.255Z",
-      "updated_at": "2021-10-20T23:48:16.146Z",
+      "created_at": "2018-02-01T17:48:45.038Z",
+      "updated_at": "2021-10-27T04:35:40.641Z",
       "position": 4,
-      "description": "Invocation of Forge functions from product events.",
+      "description": null,
       "showcase": true,
-      "start_date": "2021-03-23",
-      "group_id": "w0ld3nc9jvdx",
+      "start_date": null,
+      "group_id": "d0m8l367qqw5",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "ft3y6psz31vm",
+      "name": "Developer documentation",
+      "status": "operational",
+      "created_at": "2018-02-01T17:23:24.905Z",
+      "updated_at": "2021-10-06T21:03:57.450Z",
+      "position": 4,
+      "description": "The ability to access documentation at https://developer.atlassian.com/docs",
+      "showcase": true,
+      "start_date": null,
+      "group_id": "73bt63kd5q9k",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -340,6 +340,21 @@
       "showcase": true,
       "start_date": "2021-03-23",
       "group_id": "73bt63kd5q9k",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "bdrd3wct69vq",
+      "name": "Marketplace service desk",
+      "status": "operational",
+      "created_at": "2017-07-24T21:40:38.551Z",
+      "updated_at": "2018-02-21T00:14:50.256Z",
+      "position": 5,
+      "description": "Jira Service Desk project accessible at http://go.atlassian.com/marketplace-support",
+      "showcase": false,
+      "start_date": null,
+      "group_id": "jgnwrfzynh93",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -392,21 +407,6 @@
       "showcase": true,
       "start_date": null,
       "group_id": "w0ld3nc9jvdx",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "bdrd3wct69vq",
-      "name": "Marketplace service desk",
-      "status": "operational",
-      "created_at": "2017-07-24T21:40:38.551Z",
-      "updated_at": "2018-02-21T00:14:50.256Z",
-      "position": 5,
-      "description": "Jira Service Desk project accessible at http://go.atlassian.com/marketplace-support",
-      "showcase": false,
-      "start_date": null,
-      "group_id": "jgnwrfzynh93",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -609,11 +609,11 @@
     {
       "id": "hk36hlvygg2q",
       "name": "Reporting APIs and dashboards",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2013-12-03T00:45:26.014Z",
-      "updated_at": "2021-11-05T18:29:47.971Z",
+      "updated_at": "2021-11-06T10:39:31.698Z",
       "position": 11,
-      "description": "We have identified a problem with an underlying service to fetch data because of which there is a delay in transactions appearing in Marketplace Partner reports. We are actively working with the dependent system to get this addressed asap.",
+      "description": "Marketplace Attribution reports have some delay in scheduled run. We are expecting this to be back to normal in the next 2 hours.",
       "showcase": true,
       "start_date": null,
       "group_id": "d0m8l367qqw5",
@@ -725,7 +725,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
