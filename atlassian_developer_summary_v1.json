@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-11-06T10:39:31.702Z"
+    "updated_at": "2021-11-06T12:01:30.709Z"
   },
   "components": [
     {
@@ -166,7 +166,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -609,11 +609,11 @@
     {
       "id": "hk36hlvygg2q",
       "name": "Reporting APIs and dashboards",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2013-12-03T00:45:26.014Z",
-      "updated_at": "2021-11-06T10:39:31.698Z",
+      "updated_at": "2021-11-06T12:01:30.706Z",
       "position": 11,
-      "description": "Marketplace Attribution reports have some delay in scheduled run. We are expecting this to be back to normal in the next 2 hours.",
+      "description": "Marketing attribution reports are now operational.",
       "showcase": true,
       "start_date": null,
       "group_id": "d0m8l367qqw5",
@@ -725,7 +725,7 @@
     }
   ],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
