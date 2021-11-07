@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-11-06T02:54:48.310Z"
+    "updated_at": "2021-11-07T01:01:01.293Z"
   },
   "components": [
     {
@@ -195,7 +195,7 @@
       "name": "Scheduled maintenance for jira.atlassian.com",
       "status": "scheduled",
       "created_at": "2021-11-04T03:47:37.160Z",
-      "updated_at": "2021-11-04T03:47:37.229Z",
+      "updated_at": "2021-11-07T01:01:01.144Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -203,6 +203,19 @@
       "started_at": "2021-11-04T03:47:37.155Z",
       "page_id": "3tbw4lb9t3qp",
       "incident_updates": [
+        {
+          "id": "17ydjty7h9w2",
+          "status": "scheduled",
+          "body": "Maintenance will begin as scheduled in 60 minutes.",
+          "incident_id": "p934gwc0l3cd",
+          "created_at": "2021-11-07T01:00:58.209Z",
+          "updated_at": "2021-11-07T01:00:58.209Z",
+          "display_at": "2021-11-07T01:00:58.209Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "xtklhky8gmzy",
           "status": "scheduled",
