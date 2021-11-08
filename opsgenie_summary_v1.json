@@ -4,7 +4,7 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-11-03T05:23:43.920Z"
+    "updated_at": "2021-11-08T04:03:29.853Z"
   },
   "components": [
     {
@@ -768,7 +768,7 @@
       "name": "Opsgenie Reporting & Analytics is under maintenance in EU",
       "status": "scheduled",
       "created_at": "2021-11-03T05:02:58.243Z",
-      "updated_at": "2021-11-03T05:02:58.313Z",
+      "updated_at": "2021-11-08T04:03:29.848Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -814,8 +814,8 @@
           "only_show_if_degraded": false
         }
       ],
-      "scheduled_for": "2021-11-08T11:00:00.000Z",
-      "scheduled_until": "2021-11-08T12:00:00.000Z"
+      "scheduled_for": "2021-11-09T05:30:00.000Z",
+      "scheduled_until": "2021-11-09T06:30:00.000Z"
     }
   ],
   "status": {
