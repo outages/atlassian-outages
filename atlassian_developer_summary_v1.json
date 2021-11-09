@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-11-07T00:10:30.198Z"
+    "updated_at": "2021-11-09T06:40:01.950Z"
   },
   "components": [
     {
@@ -226,7 +226,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -487,21 +487,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "3t1y6724xl8q",
-      "name": "In-product Marketplace and app installation (Cloud)",
-      "status": "operational",
-      "created_at": "2013-12-03T00:45:39.973Z",
-      "updated_at": "2021-11-07T00:10:30.139Z",
-      "position": 7,
-      "description": "The ability to discover, install, and manage apps inside of Atlassian's Cloud products (Jira, Confluence, Stride, Bitbucket)",
-      "showcase": false,
-      "start_date": null,
-      "group_id": "d0m8l367qqw5",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "pgqd9x4jl520",
       "name": "Forge Function Invocation",
       "status": "operational",
@@ -517,14 +502,14 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "ngby5fdfj3px",
-      "name": "In-product Marketplace and app installation (Server)",
+      "id": "3t1y6724xl8q",
+      "name": "In-product Marketplace and app installation (Cloud)",
       "status": "operational",
-      "created_at": "2018-02-01T17:38:37.793Z",
-      "updated_at": "2021-09-29T18:05:57.299Z",
-      "position": 8,
-      "description": "The ability to discover, install, and manage apps inside of Atlassian's Server products (Jira, Confluence, Bitbucket, Bamboo, Fisheye / Crucible, Hipchat)",
-      "showcase": true,
+      "created_at": "2013-12-03T00:45:39.973Z",
+      "updated_at": "2021-11-07T00:10:30.139Z",
+      "position": 7,
+      "description": "The ability to discover, install, and manage apps inside of Atlassian's Cloud products (Jira, Confluence, Stride, Bitbucket)",
+      "showcase": false,
       "start_date": null,
       "group_id": "d0m8l367qqw5",
       "page_id": "n8766lc3ybbs",
@@ -547,16 +532,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "64gg59lyzrfs",
-      "name": "Forge App Logs",
+      "id": "ngby5fdfj3px",
+      "name": "In-product Marketplace and app installation (Server)",
       "status": "operational",
-      "created_at": "2021-05-12T00:18:57.324Z",
-      "updated_at": "2021-09-01T03:00:06.000Z",
-      "position": 9,
-      "description": "Access and retrieve app logs via Forge CLI and admin.atlassian.com",
+      "created_at": "2018-02-01T17:38:37.793Z",
+      "updated_at": "2021-09-29T18:05:57.299Z",
+      "position": 8,
+      "description": "The ability to discover, install, and manage apps inside of Atlassian's Server products (Jira, Confluence, Bitbucket, Bamboo, Fisheye / Crucible, Hipchat)",
       "showcase": true,
-      "start_date": "2021-05-12",
-      "group_id": "73bt63kd5q9k",
+      "start_date": null,
+      "group_id": "d0m8l367qqw5",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -577,16 +562,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "7lx3k072bl6z",
-      "name": "Private listings",
+      "id": "64gg59lyzrfs",
+      "name": "Forge App Logs",
       "status": "operational",
-      "created_at": "2018-02-01T17:52:40.782Z",
-      "updated_at": "2021-09-29T18:05:57.322Z",
-      "position": 10,
-      "description": null,
+      "created_at": "2021-05-12T00:18:57.324Z",
+      "updated_at": "2021-09-01T03:00:06.000Z",
+      "position": 9,
+      "description": "Access and retrieve app logs via Forge CLI and admin.atlassian.com",
       "showcase": true,
-      "start_date": null,
-      "group_id": "d0m8l367qqw5",
+      "start_date": "2021-05-12",
+      "group_id": "73bt63kd5q9k",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -607,11 +592,26 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "7lx3k072bl6z",
+      "name": "Private listings",
+      "status": "operational",
+      "created_at": "2018-02-01T17:52:40.782Z",
+      "updated_at": "2021-09-29T18:05:57.322Z",
+      "position": 10,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "d0m8l367qqw5",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "hk36hlvygg2q",
       "name": "Reporting APIs and dashboards",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2013-12-03T00:45:26.014Z",
-      "updated_at": "2021-11-06T12:01:30.706Z",
+      "updated_at": "2021-11-09T06:32:11.823Z",
       "position": 11,
       "description": "Marketing attribution reports are now operational.",
       "showcase": true,
@@ -667,10 +667,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "jsbbtmf6cxdp",
+      "name": "Dip in active installations count for Confluence apps on Marketplace",
+      "status": "investigating",
+      "created_at": "2021-11-09T06:32:11.789Z",
+      "updated_at": "2021-11-09T06:40:01.946Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/jw8q4g998qy8",
+      "started_at": "2021-11-09T06:32:11.000Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "hvvh402nscfd",
+          "status": "investigating",
+          "body": "We're investigating an issue where we noticed a dip in the active installations count for confluence apps in Marketplace reports. Our developers are working with internal teams to resolve the issue.",
+          "incident_id": "jsbbtmf6cxdp",
+          "created_at": "2021-11-09T06:32:11.866Z",
+          "updated_at": "2021-11-09T06:40:01.872Z",
+          "display_at": "2021-11-09T06:32:11.000Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "hk36hlvygg2q",
+          "name": "Reporting APIs and dashboards",
+          "status": "partial_outage",
+          "created_at": "2013-12-03T00:45:26.014Z",
+          "updated_at": "2021-11-09T06:32:11.823Z",
+          "position": 11,
+          "description": "Marketing attribution reports are now operational.",
+          "showcase": true,
+          "start_date": null,
+          "group_id": "d0m8l367qqw5",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
