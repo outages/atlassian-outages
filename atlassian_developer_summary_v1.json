@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-11-11T15:39:56.831Z"
+    "updated_at": "2021-11-12T14:02:04.538Z"
   },
   "components": [
     {
@@ -781,7 +781,62 @@
       ]
     }
   ],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "m04lg0qcw05f",
+      "name": "SEN Replacement work",
+      "status": "scheduled",
+      "created_at": "2021-11-12T14:02:04.484Z",
+      "updated_at": "2021-11-12T14:02:04.536Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/0hkf6tycgbj4",
+      "started_at": "2021-11-12T14:02:04.478Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "8b2yvnvzx1jn",
+          "status": "scheduled",
+          "body": "Marketplace reporting APIs are undergoing a scheduled maintenance because of Underlying data sources maintenance.\n\nReporting data will be delayed during the maintenance window.",
+          "incident_id": "m04lg0qcw05f",
+          "created_at": "2021-11-12T14:02:04.533Z",
+          "updated_at": "2021-11-12T14:02:04.533Z",
+          "display_at": "2021-11-12T14:02:04.533Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "hk36hlvygg2q",
+          "name": "Reporting APIs and dashboards",
+          "status": "partial_outage",
+          "created_at": "2013-12-03T00:45:26.014Z",
+          "updated_at": "2021-11-09T06:32:11.823Z",
+          "position": 11,
+          "description": "Marketing attribution reports are now operational.",
+          "showcase": true,
+          "start_date": null,
+          "group_id": "d0m8l367qqw5",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2021-11-13T00:00:00.000Z",
+      "scheduled_until": "2021-11-15T04:30:00.000Z"
+    }
+  ],
   "status": {
     "indicator": "minor",
     "description": "Minor Service Outage"
