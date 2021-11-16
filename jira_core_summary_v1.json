@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-11-10T19:23:56.960Z"
+    "updated_at": "2021-11-16T10:40:04.596Z"
   },
   "components": [
     {
@@ -70,9 +70,9 @@
     {
       "id": "5436s7p7v28b",
       "name": "Notifications",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-01-23T17:05:14.913Z",
-      "updated_at": "2021-10-29T02:30:26.934Z",
+      "updated_at": "2021-11-16T10:40:04.540Z",
       "position": 5,
       "description": "Email and in-web-app notifications",
       "showcase": false,
@@ -173,10 +173,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "xdwmj1cwp6l5",
+      "name": "Jira personal settings page is not loading",
+      "status": "investigating",
+      "created_at": "2021-11-16T10:40:04.499Z",
+      "updated_at": "2021-11-16T10:40:04.593Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/2sxw914xvf64",
+      "started_at": "2021-11-16T10:40:04.493Z",
+      "page_id": "s6f0gm5gcpmy",
+      "incident_updates": [
+        {
+          "id": "y473str741nj",
+          "status": "investigating",
+          "body": "We are investigating an issue with personal settings page that is impacting all Jira Software, Jira Service Management, and Jira Work Management cloud customers. \nWe are investigating, and will post updates within the next hour.",
+          "incident_id": "xdwmj1cwp6l5",
+          "created_at": "2021-11-16T10:40:04.590Z",
+          "updated_at": "2021-11-16T10:40:04.590Z",
+          "display_at": "2021-11-16T10:40:04.590Z",
+          "affected_components": [
+            {
+              "code": "5436s7p7v28b",
+              "name": "Notifications",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "5436s7p7v28b",
+          "name": "Notifications",
+          "status": "partial_outage",
+          "created_at": "2019-01-23T17:05:14.913Z",
+          "updated_at": "2021-11-16T10:40:04.540Z",
+          "position": 5,
+          "description": "Email and in-web-app notifications",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "s6f0gm5gcpmy",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
