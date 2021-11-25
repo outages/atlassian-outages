@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-11-25T04:23:30.859Z"
+    "updated_at": "2021-11-25T09:50:28.719Z"
   },
   "components": [
     {
@@ -673,7 +673,7 @@
       "name": "Top selling apps search results are inconsistent on Marketplace.",
       "status": "investigating",
       "created_at": "2021-11-25T03:38:21.927Z",
-      "updated_at": "2021-11-25T03:38:46.014Z",
+      "updated_at": "2021-11-25T09:50:28.709Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -704,11 +704,11 @@
         {
           "id": "3r4zvzc0tp7v",
           "status": "investigating",
-          "body": "We have identified an issue with the Top selling apps functionality in Marketplace where we see discrepancies in the search results for top selling apps. Our developers are working on fixing this issue.",
+          "body": "We are investigating an issue with the Top selling apps functionality in Marketplace where we see discrepancies in the search results for top selling apps. Our developers are working on fixing this issue.",
           "incident_id": "ppmkkhlsfzsb",
           "created_at": "2021-11-25T03:38:22.013Z",
-          "updated_at": "2021-11-25T03:38:22.013Z",
-          "display_at": "2021-11-25T03:38:22.013Z",
+          "updated_at": "2021-11-25T09:50:28.703Z",
+          "display_at": "2021-11-25T03:38:22.000Z",
           "affected_components": [
             {
               "code": "64gk05kc0lrz",
