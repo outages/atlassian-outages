@@ -4,7 +4,7 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-11-27T13:58:12.920Z"
+    "updated_at": "2021-11-27T14:23:47.314Z"
   },
   "components": [
     {
@@ -765,16 +765,156 @@
     {
       "id": "0qcc802n9fm0",
       "name": "We observe increased error rates due to the cloud provider in US region",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2021-11-27T13:33:41.759Z",
-      "updated_at": "2021-11-27T13:58:12.914Z",
-      "monitoring_at": null,
+      "updated_at": "2021-11-27T14:21:35.230Z",
+      "monitoring_at": "2021-11-27T14:21:35.217Z",
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/6f0zgfflg6py",
       "started_at": "2021-11-27T13:33:41.730Z",
       "page_id": "t05vdsszxwtq",
       "incident_updates": [
+        {
+          "id": "g53sg1h8q8yj",
+          "status": "monitoring",
+          "body": "We are starting to see improved success rates and decreased latency in the US Region. We are going to continue monitoring.",
+          "incident_id": "0qcc802n9fm0",
+          "created_at": "2021-11-27T14:21:35.217Z",
+          "updated_at": "2021-11-27T14:21:35.217Z",
+          "display_at": "2021-11-27T14:21:35.217Z",
+          "affected_components": [
+            {
+              "code": "421fc33d5s3x",
+              "name": "US - Incident Flow",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "j3zxnkhxxsnz",
+              "name": "US - Alert Flow",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "7gksbx75r5rn",
+              "name": "US - Email Notification Delivery",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "fqgh9nvrlck3",
+              "name": "US - SMS Notification Delivery",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "mpqtdxmvtwg7",
+              "name": "US - Voice Notification Delivery",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "s8szfv793n8p",
+              "name": "US - Mobile Notification Delivery",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "l2bd49mqw0sb",
+              "name": "US - Heartbeat Monitoring",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hm409hh7bt8j",
+              "name": "US - Incident REST API",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "ncf16yqw34wc",
+              "name": "US - Alert REST API",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "z6cv7z290s6n",
+              "name": "US - Heartbeat REST API",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "1x1wnb2847r4",
+              "name": "US - Incoming Email Service",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "yl0hpw3k6kjb",
+              "name": "US - Incoming Integration Flow",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "25p0d7gb1mwv",
+              "name": "US - Outgoing Integration Flow",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "yf2lb8rzjt6l",
+              "name": "US - Signup, Login & Authorization",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "sr0pvy7nzzzk",
+              "name": "US - Opsgenie Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "j8bt86sx70hm",
+              "name": "US - Web Application",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "g8fjk21d469p",
+              "name": "US - Mobile Application",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "mjdmrksdqcpb",
+              "name": "US - Configuration REST APIs",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "p88rmktvpp6p",
+              "name": "US - Reporting & Analytics",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "1c4c0wys29bv",
+              "name": "US - Pricing & Billing",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "0nw75j1095rv",
+              "name": "US - Incoming Call Routing",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "1z9jkwj458fq",
           "status": "identified",
