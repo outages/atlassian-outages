@@ -4,15 +4,15 @@
     "name": "Atlassian Statuspage",
     "url": "http://metastatuspage.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-12-01T14:59:22.052-08:00"
+    "updated_at": "2021-12-01T15:30:11.869-08:00"
   },
   "components": [
     {
       "id": "l30vy16dqpkn",
       "name": "Ticketing",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-08-21T10:32:17.335-07:00",
-      "updated_at": "2021-12-01T14:01:54.289-08:00",
+      "updated_at": "2021-12-01T15:30:11.529-08:00",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -25,9 +25,9 @@
     {
       "id": "0j0dpr5q595q",
       "name": "Email",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-08-21T10:29:36.370-07:00",
-      "updated_at": "2021-12-01T14:01:54.273-08:00",
+      "updated_at": "2021-12-01T15:30:11.571-08:00",
       "position": 1,
       "description": null,
       "showcase": true,
@@ -55,9 +55,9 @@
     {
       "id": "fyzs60wyq01d",
       "name": "Web Portal",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-08-21T10:22:01.379-07:00",
-      "updated_at": "2021-12-01T14:01:54.306-08:00",
+      "updated_at": "2021-12-01T15:30:11.585-08:00",
       "position": 1,
       "description": null,
       "showcase": true,
@@ -70,7 +70,7 @@
     {
       "id": "hchd2wyk50h7",
       "name": "Hosted Pages",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-08-21T10:20:23.801-07:00",
       "updated_at": "2017-08-21T10:28:03.987-07:00",
       "position": 1,
@@ -137,9 +137,9 @@
     {
       "id": "rkld00070vm9",
       "name": "HTTP Pages",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-08-21T10:20:23.847-07:00",
-      "updated_at": "2021-12-01T14:01:54.239-08:00",
+      "updated_at": "2021-12-01T15:30:11.557-08:00",
       "position": 1,
       "description": null,
       "showcase": true,
@@ -167,9 +167,9 @@
     {
       "id": "3bg3nq9mm436",
       "name": "HTTPS Pages",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-08-21T10:20:23.888-07:00",
-      "updated_at": "2021-12-01T14:01:54.406-08:00",
+      "updated_at": "2021-12-01T15:30:11.656-08:00",
       "position": 2,
       "description": null,
       "showcase": true,
@@ -227,9 +227,9 @@
     {
       "id": "hdj6sbn26g26",
       "name": "SMS",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-08-21T10:29:50.009-07:00",
-      "updated_at": "2021-12-01T14:01:54.391-08:00",
+      "updated_at": "2021-12-01T15:30:11.640-08:00",
       "position": 2,
       "description": null,
       "showcase": true,
@@ -242,9 +242,9 @@
     {
       "id": "3g0c0h5n5cp1",
       "name": "Authenticated API",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-08-21T10:21:45.963-07:00",
-      "updated_at": "2021-12-01T14:01:54.372-08:00",
+      "updated_at": "2021-12-01T15:30:11.613-08:00",
       "position": 2,
       "description": null,
       "showcase": true,
@@ -257,9 +257,9 @@
     {
       "id": "95l8v513nw1q",
       "name": "Knowledge Base",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-08-21T10:32:30.574-07:00",
-      "updated_at": "2021-12-01T14:01:54.322-08:00",
+      "updated_at": "2021-12-01T15:30:11.599-08:00",
       "position": 2,
       "description": null,
       "showcase": false,
@@ -272,7 +272,7 @@
     {
       "id": "jk3l62p3pcfy",
       "name": "Management",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-08-21T10:22:01.354-07:00",
       "updated_at": "2017-08-24T12:33:47.091-07:00",
       "position": 2,
@@ -309,7 +309,7 @@
     {
       "id": "131l86jhpwl3",
       "name": "Notifications",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-08-21T10:29:36.356-07:00",
       "updated_at": "2017-08-23T15:54:00.714-07:00",
       "position": 3,
@@ -330,9 +330,9 @@
     {
       "id": "2k3fhq6zhd4j",
       "name": "Status Embed Widget",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-08-21T10:20:23.913-07:00",
-      "updated_at": "2021-12-01T14:01:54.455-08:00",
+      "updated_at": "2021-12-01T15:30:11.704-08:00",
       "position": 3,
       "description": null,
       "showcase": true,
@@ -345,9 +345,9 @@
     {
       "id": "bv7ffhfxmsx0",
       "name": "Webhook",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-08-21T10:29:59.976-07:00",
-      "updated_at": "2021-12-01T14:01:54.439-08:00",
+      "updated_at": "2021-12-01T15:30:11.690-08:00",
       "position": 3,
       "description": null,
       "showcase": true,
@@ -360,9 +360,9 @@
     {
       "id": "l8q89tvjrf66",
       "name": "API Documentation",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-08-21T10:32:45.240-07:00",
-      "updated_at": "2021-12-01T14:01:54.422-08:00",
+      "updated_at": "2021-12-01T15:30:11.676-08:00",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -420,9 +420,9 @@
     {
       "id": "zfvjppljf2bm",
       "name": "DNS Validation",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-08-21T10:22:01.437-07:00",
-      "updated_at": "2021-12-01T14:01:54.471-08:00",
+      "updated_at": "2021-12-01T15:30:11.718-08:00",
       "position": 3,
       "description": null,
       "showcase": true,
@@ -435,9 +435,9 @@
     {
       "id": "dsvt60wpqw23",
       "name": "Twitter",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-08-21T10:30:12.878-07:00",
-      "updated_at": "2021-12-01T14:01:54.488-08:00",
+      "updated_at": "2021-12-01T15:30:11.745-08:00",
       "position": 4,
       "description": null,
       "showcase": true,
@@ -529,9 +529,9 @@
     {
       "id": "ff2cz0c51928",
       "name": "SSL Provisioning",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-04-21T14:15:17.557-07:00",
-      "updated_at": "2021-12-01T14:01:54.504-08:00",
+      "updated_at": "2021-12-01T15:30:11.759-08:00",
       "position": 4,
       "description": null,
       "showcase": true,
@@ -544,9 +544,9 @@
     {
       "id": "s0p4y2k09klc",
       "name": "Public API",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-08-21T10:20:23.944-07:00",
-      "updated_at": "2021-12-01T14:01:54.520-08:00",
+      "updated_at": "2021-12-01T15:30:11.772-08:00",
       "position": 4,
       "description": null,
       "showcase": true,
@@ -628,9 +628,9 @@
     {
       "id": "tpvwg6y7ltx2",
       "name": "Shortlinks",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-08-24T12:32:09.812-07:00",
-      "updated_at": "2021-12-01T14:01:54.571-08:00",
+      "updated_at": "2021-12-01T15:30:11.813-08:00",
       "position": 5,
       "description": null,
       "showcase": true,
@@ -643,9 +643,9 @@
     {
       "id": "p1sx4gq857t2",
       "name": "Marketing Site (www.statuspage.io)",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2019-11-15T15:55:21.733-08:00",
-      "updated_at": "2021-12-01T14:01:54.537-08:00",
+      "updated_at": "2021-12-01T15:30:11.786-08:00",
       "position": 5,
       "description": null,
       "showcase": false,
@@ -658,9 +658,9 @@
     {
       "id": "v9dcxzcs9ypj",
       "name": "Billing",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-08-21T10:22:01.547-07:00",
-      "updated_at": "2021-12-01T14:01:54.553-08:00",
+      "updated_at": "2021-12-01T15:30:11.799-08:00",
       "position": 5,
       "description": null,
       "showcase": true,
@@ -765,7 +765,7 @@
     {
       "id": "k118btf0g74r",
       "name": "Support Sites",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-08-21T10:32:17.199-07:00",
       "updated_at": "2017-08-24T12:33:48.865-07:00",
       "position": 9,
@@ -787,9 +787,9 @@
     {
       "id": "wgxgj3x4gjyy",
       "name": "Signup",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2020-10-23T14:12:27.848-07:00",
-      "updated_at": "2021-12-01T14:01:54.583-08:00",
+      "updated_at": "2021-12-01T15:30:11.837-08:00",
       "position": 10,
       "description": null,
       "showcase": false,
@@ -864,9 +864,9 @@
         {
           "id": "rkld00070vm9",
           "name": "HTTP Pages",
-          "status": "under_maintenance",
+          "status": "operational",
           "created_at": "2017-08-21T10:20:23.847-07:00",
-          "updated_at": "2021-12-01T14:01:54.239-08:00",
+          "updated_at": "2021-12-01T15:30:11.557-08:00",
           "position": 1,
           "description": null,
           "showcase": true,
@@ -879,9 +879,9 @@
         {
           "id": "3bg3nq9mm436",
           "name": "HTTPS Pages",
-          "status": "under_maintenance",
+          "status": "operational",
           "created_at": "2017-08-21T10:20:23.888-07:00",
-          "updated_at": "2021-12-01T14:01:54.406-08:00",
+          "updated_at": "2021-12-01T15:30:11.656-08:00",
           "position": 2,
           "description": null,
           "showcase": true,
@@ -894,9 +894,9 @@
         {
           "id": "2k3fhq6zhd4j",
           "name": "Status Embed Widget",
-          "status": "under_maintenance",
+          "status": "operational",
           "created_at": "2017-08-21T10:20:23.913-07:00",
-          "updated_at": "2021-12-01T14:01:54.455-08:00",
+          "updated_at": "2021-12-01T15:30:11.704-08:00",
           "position": 3,
           "description": null,
           "showcase": true,
@@ -909,9 +909,9 @@
         {
           "id": "s0p4y2k09klc",
           "name": "Public API",
-          "status": "under_maintenance",
+          "status": "operational",
           "created_at": "2017-08-21T10:20:23.944-07:00",
-          "updated_at": "2021-12-01T14:01:54.520-08:00",
+          "updated_at": "2021-12-01T15:30:11.772-08:00",
           "position": 4,
           "description": null,
           "showcase": true,
@@ -924,9 +924,9 @@
         {
           "id": "tpvwg6y7ltx2",
           "name": "Shortlinks",
-          "status": "under_maintenance",
+          "status": "operational",
           "created_at": "2017-08-24T12:32:09.812-07:00",
-          "updated_at": "2021-12-01T14:01:54.571-08:00",
+          "updated_at": "2021-12-01T15:30:11.813-08:00",
           "position": 5,
           "description": null,
           "showcase": true,
@@ -939,839 +939,10 @@
       ],
       "scheduled_for": "2021-12-06T10:00:00.000-08:00",
       "scheduled_until": "2021-12-06T13:00:00.000-08:00"
-    },
-    {
-      "id": "kgxjp9t30rcp",
-      "name": "Primary Database Modification",
-      "status": "in_progress",
-      "created_at": "2021-11-22T10:29:03.759-08:00",
-      "updated_at": "2021-12-01T14:59:22.043-08:00",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "http://mstspg.co/98k2gds16ylh",
-      "started_at": "2021-11-22T10:29:03.673-08:00",
-      "page_id": "y2j98763l56x",
-      "incident_updates": [
-        {
-          "id": "jh5qjhy0dwgb",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is still in progress. The Authenticated API has returned to normal operations.",
-          "incident_id": "kgxjp9t30rcp",
-          "created_at": "2021-12-01T14:59:22.040-08:00",
-          "updated_at": "2021-12-01T14:59:22.040-08:00",
-          "display_at": "2021-12-01T14:59:22.040-08:00",
-          "affected_components": [
-            {
-              "code": "rkld00070vm9",
-              "name": "Hosted Pages - HTTP Pages",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "3bg3nq9mm436",
-              "name": "Hosted Pages - HTTPS Pages",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "2k3fhq6zhd4j",
-              "name": "Hosted Pages - Status Embed Widget",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "s0p4y2k09klc",
-              "name": "Hosted Pages - Public API",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "tpvwg6y7ltx2",
-              "name": "Hosted Pages - Shortlinks",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "fyzs60wyq01d",
-              "name": "Management - Web Portal",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "3g0c0h5n5cp1",
-              "name": "Management - Authenticated API",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "zfvjppljf2bm",
-              "name": "Management - DNS Validation",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "ff2cz0c51928",
-              "name": "Management - SSL Provisioning",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "v9dcxzcs9ypj",
-              "name": "Management - Billing",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "0j0dpr5q595q",
-              "name": "Notifications - Email",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "hdj6sbn26g26",
-              "name": "Notifications - SMS",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "bv7ffhfxmsx0",
-              "name": "Notifications - Webhook",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "dsvt60wpqw23",
-              "name": "Notifications - Twitter",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "l30vy16dqpkn",
-              "name": "Support Sites - Ticketing",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "95l8v513nw1q",
-              "name": "Support Sites - Knowledge Base",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "l8q89tvjrf66",
-              "name": "Support Sites - API Documentation",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "p1sx4gq857t2",
-              "name": "Support Sites - Marketing Site (www.statuspage.io)",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "wgxgj3x4gjyy",
-              "name": "Signup",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "9g3s6kznnpd7",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is still in progress. The Authenticated API is experiencing degraded performance.",
-          "incident_id": "kgxjp9t30rcp",
-          "created_at": "2021-12-01T14:42:07.181-08:00",
-          "updated_at": "2021-12-01T14:42:07.181-08:00",
-          "display_at": "2021-12-01T14:42:07.181-08:00",
-          "affected_components": [
-            {
-              "code": "rkld00070vm9",
-              "name": "Hosted Pages - HTTP Pages",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "3bg3nq9mm436",
-              "name": "Hosted Pages - HTTPS Pages",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "2k3fhq6zhd4j",
-              "name": "Hosted Pages - Status Embed Widget",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "s0p4y2k09klc",
-              "name": "Hosted Pages - Public API",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "tpvwg6y7ltx2",
-              "name": "Hosted Pages - Shortlinks",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "fyzs60wyq01d",
-              "name": "Management - Web Portal",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "3g0c0h5n5cp1",
-              "name": "Management - Authenticated API",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "zfvjppljf2bm",
-              "name": "Management - DNS Validation",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "ff2cz0c51928",
-              "name": "Management - SSL Provisioning",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "v9dcxzcs9ypj",
-              "name": "Management - Billing",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "0j0dpr5q595q",
-              "name": "Notifications - Email",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "hdj6sbn26g26",
-              "name": "Notifications - SMS",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "bv7ffhfxmsx0",
-              "name": "Notifications - Webhook",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "dsvt60wpqw23",
-              "name": "Notifications - Twitter",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "l30vy16dqpkn",
-              "name": "Support Sites - Ticketing",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "95l8v513nw1q",
-              "name": "Support Sites - Knowledge Base",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "l8q89tvjrf66",
-              "name": "Support Sites - API Documentation",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "p1sx4gq857t2",
-              "name": "Support Sites - Marketing Site (www.statuspage.io)",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "wgxgj3x4gjyy",
-              "name": "Signup",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "2cfzkk22szkb",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "kgxjp9t30rcp",
-          "created_at": "2021-12-01T14:01:54.617-08:00",
-          "updated_at": "2021-12-01T14:01:54.617-08:00",
-          "display_at": "2021-12-01T14:01:54.617-08:00",
-          "affected_components": [
-            {
-              "code": "rkld00070vm9",
-              "name": "Hosted Pages - HTTP Pages",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "3bg3nq9mm436",
-              "name": "Hosted Pages - HTTPS Pages",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "2k3fhq6zhd4j",
-              "name": "Hosted Pages - Status Embed Widget",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "s0p4y2k09klc",
-              "name": "Hosted Pages - Public API",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "tpvwg6y7ltx2",
-              "name": "Hosted Pages - Shortlinks",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "fyzs60wyq01d",
-              "name": "Management - Web Portal",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "3g0c0h5n5cp1",
-              "name": "Management - Authenticated API",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "zfvjppljf2bm",
-              "name": "Management - DNS Validation",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "ff2cz0c51928",
-              "name": "Management - SSL Provisioning",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "v9dcxzcs9ypj",
-              "name": "Management - Billing",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "0j0dpr5q595q",
-              "name": "Notifications - Email",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "hdj6sbn26g26",
-              "name": "Notifications - SMS",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "bv7ffhfxmsx0",
-              "name": "Notifications - Webhook",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "dsvt60wpqw23",
-              "name": "Notifications - Twitter",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "l30vy16dqpkn",
-              "name": "Support Sites - Ticketing",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "95l8v513nw1q",
-              "name": "Support Sites - Knowledge Base",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "l8q89tvjrf66",
-              "name": "Support Sites - API Documentation",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "p1sx4gq857t2",
-              "name": "Support Sites - Marketing Site (www.statuspage.io)",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "wgxgj3x4gjyy",
-              "name": "Signup",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "j4mqqhqx2ddg",
-          "status": "scheduled",
-          "body": "Maintenance will begin as scheduled in 60 minutes.",
-          "incident_id": "kgxjp9t30rcp",
-          "created_at": "2021-12-01T12:59:30.160-08:00",
-          "updated_at": "2021-12-01T12:59:30.160-08:00",
-          "display_at": "2021-12-01T12:59:30.160-08:00",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "g641073ld6db",
-          "status": "scheduled",
-          "body": "We will be performing a minor modification to our primary database instance. The maintenance will not take more than 60 minutes and will include a downtime of 10 minutes for all services.\n\nDuring the downtime window, our management portal and hosted pages won't be accessible and notification delivery would be paused. The cached version of the page will be presented for public pages. We will resume our platform operations after the maintenance is completed.",
-          "incident_id": "kgxjp9t30rcp",
-          "created_at": "2021-11-22T10:29:03.828-08:00",
-          "updated_at": "2021-11-29T10:36:27.870-08:00",
-          "display_at": "2021-11-22T10:29:03.828-08:00",
-          "affected_components": [
-            {
-              "code": "rkld00070vm9",
-              "name": "Hosted Pages - HTTP Pages",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "3bg3nq9mm436",
-              "name": "Hosted Pages - HTTPS Pages",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "2k3fhq6zhd4j",
-              "name": "Hosted Pages - Status Embed Widget",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "s0p4y2k09klc",
-              "name": "Hosted Pages - Public API",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "tpvwg6y7ltx2",
-              "name": "Hosted Pages - Shortlinks",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "fyzs60wyq01d",
-              "name": "Management - Web Portal",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "3g0c0h5n5cp1",
-              "name": "Management - Authenticated API",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "zfvjppljf2bm",
-              "name": "Management - DNS Validation",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "ff2cz0c51928",
-              "name": "Management - SSL Provisioning",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "v9dcxzcs9ypj",
-              "name": "Management - Billing",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "0j0dpr5q595q",
-              "name": "Notifications - Email",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "hdj6sbn26g26",
-              "name": "Notifications - SMS",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "bv7ffhfxmsx0",
-              "name": "Notifications - Webhook",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "dsvt60wpqw23",
-              "name": "Notifications - Twitter",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "l30vy16dqpkn",
-              "name": "Support Sites - Ticketing",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "95l8v513nw1q",
-              "name": "Support Sites - Knowledge Base",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "l8q89tvjrf66",
-              "name": "Support Sites - API Documentation",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "p1sx4gq857t2",
-              "name": "Support Sites - Marketing Site (www.statuspage.io)",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "wgxgj3x4gjyy",
-              "name": "Signup",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "l30vy16dqpkn",
-          "name": "Ticketing",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:32:17.335-07:00",
-          "updated_at": "2021-12-01T14:01:54.289-08:00",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "k118btf0g74r",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "rkld00070vm9",
-          "name": "HTTP Pages",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:20:23.847-07:00",
-          "updated_at": "2021-12-01T14:01:54.239-08:00",
-          "position": 1,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "hchd2wyk50h7",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "0j0dpr5q595q",
-          "name": "Email",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:29:36.370-07:00",
-          "updated_at": "2021-12-01T14:01:54.273-08:00",
-          "position": 1,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "131l86jhpwl3",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "fyzs60wyq01d",
-          "name": "Web Portal",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:22:01.379-07:00",
-          "updated_at": "2021-12-01T14:01:54.306-08:00",
-          "position": 1,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "jk3l62p3pcfy",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "95l8v513nw1q",
-          "name": "Knowledge Base",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:32:30.574-07:00",
-          "updated_at": "2021-12-01T14:01:54.322-08:00",
-          "position": 2,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "k118btf0g74r",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "3g0c0h5n5cp1",
-          "name": "Authenticated API",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:21:45.963-07:00",
-          "updated_at": "2021-12-01T14:01:54.372-08:00",
-          "position": 2,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "jk3l62p3pcfy",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "hdj6sbn26g26",
-          "name": "SMS",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:29:50.009-07:00",
-          "updated_at": "2021-12-01T14:01:54.391-08:00",
-          "position": 2,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "131l86jhpwl3",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "3bg3nq9mm436",
-          "name": "HTTPS Pages",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:20:23.888-07:00",
-          "updated_at": "2021-12-01T14:01:54.406-08:00",
-          "position": 2,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "hchd2wyk50h7",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "l8q89tvjrf66",
-          "name": "API Documentation",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:32:45.240-07:00",
-          "updated_at": "2021-12-01T14:01:54.422-08:00",
-          "position": 3,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "k118btf0g74r",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "bv7ffhfxmsx0",
-          "name": "Webhook",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:29:59.976-07:00",
-          "updated_at": "2021-12-01T14:01:54.439-08:00",
-          "position": 3,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "131l86jhpwl3",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "2k3fhq6zhd4j",
-          "name": "Status Embed Widget",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:20:23.913-07:00",
-          "updated_at": "2021-12-01T14:01:54.455-08:00",
-          "position": 3,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "hchd2wyk50h7",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "zfvjppljf2bm",
-          "name": "DNS Validation",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:22:01.437-07:00",
-          "updated_at": "2021-12-01T14:01:54.471-08:00",
-          "position": 3,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "jk3l62p3pcfy",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "dsvt60wpqw23",
-          "name": "Twitter",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:30:12.878-07:00",
-          "updated_at": "2021-12-01T14:01:54.488-08:00",
-          "position": 4,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "131l86jhpwl3",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "ff2cz0c51928",
-          "name": "SSL Provisioning",
-          "status": "under_maintenance",
-          "created_at": "2017-04-21T14:15:17.557-07:00",
-          "updated_at": "2021-12-01T14:01:54.504-08:00",
-          "position": 4,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "jk3l62p3pcfy",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "s0p4y2k09klc",
-          "name": "Public API",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:20:23.944-07:00",
-          "updated_at": "2021-12-01T14:01:54.520-08:00",
-          "position": 4,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "hchd2wyk50h7",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "p1sx4gq857t2",
-          "name": "Marketing Site (www.statuspage.io)",
-          "status": "under_maintenance",
-          "created_at": "2019-11-15T15:55:21.733-08:00",
-          "updated_at": "2021-12-01T14:01:54.537-08:00",
-          "position": 5,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "k118btf0g74r",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "v9dcxzcs9ypj",
-          "name": "Billing",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:22:01.547-07:00",
-          "updated_at": "2021-12-01T14:01:54.553-08:00",
-          "position": 5,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "jk3l62p3pcfy",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "tpvwg6y7ltx2",
-          "name": "Shortlinks",
-          "status": "under_maintenance",
-          "created_at": "2017-08-24T12:32:09.812-07:00",
-          "updated_at": "2021-12-01T14:01:54.571-08:00",
-          "position": 5,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "hchd2wyk50h7",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "wgxgj3x4gjyy",
-          "name": "Signup",
-          "status": "under_maintenance",
-          "created_at": "2020-10-23T14:12:27.848-07:00",
-          "updated_at": "2021-12-01T14:01:54.583-08:00",
-          "position": 10,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-10-23",
-          "group_id": null,
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2021-12-01T14:00:00.000-08:00",
-      "scheduled_until": "2021-12-01T15:00:00.000-08:00"
     }
   ],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
