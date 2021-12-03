@@ -1,0 +1,92 @@
+{
+  "page": {
+    "id": "tfc0vzc0cq1n",
+    "name": "Atlassian Partners",
+    "url": "https://partners.status.atlassian.com",
+    "time_zone": "Etc/UTC",
+    "updated_at": "2021-10-29T23:41:09.092Z"
+  },
+  "components": [
+    {
+      "id": "4l5b50t3yc3t",
+      "name": "Partner Portal",
+      "status": "operational",
+      "created_at": "2018-11-16T18:04:29.761Z",
+      "updated_at": "2021-10-29T23:41:08.879Z",
+      "position": 1,
+      "description": "https://partners.atlassian.com/",
+      "showcase": true,
+      "start_date": null,
+      "group_id": null,
+      "page_id": "tfc0vzc0cq1n",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "j78nb9lncctw",
+      "name": "Partner Support Portal",
+      "status": "operational",
+      "created_at": "2018-11-16T18:04:29.782Z",
+      "updated_at": "2021-06-26T23:00:43.599Z",
+      "position": 2,
+      "description": "https://partners-jira.atlassian.com/",
+      "showcase": true,
+      "start_date": null,
+      "group_id": null,
+      "page_id": "tfc0vzc0cq1n",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "z8vxkczh38k7",
+      "name": "Partner Directory",
+      "status": "operational",
+      "created_at": "2018-12-11T19:25:05.654Z",
+      "updated_at": "2021-06-26T23:00:43.613Z",
+      "position": 3,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": null,
+      "page_id": "tfc0vzc0cq1n",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "9f041r69v7jn",
+      "name": "Partner Business Center",
+      "status": "operational",
+      "created_at": "2018-12-11T19:25:15.922Z",
+      "updated_at": "2021-06-26T23:00:43.632Z",
+      "position": 4,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": null,
+      "page_id": "tfc0vzc0cq1n",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "8xm1yr40fxgz",
+      "name": "Enablement Academy",
+      "status": "operational",
+      "created_at": "2018-12-11T19:24:14.031Z",
+      "updated_at": "2021-06-26T23:00:43.678Z",
+      "position": 5,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": null,
+      "page_id": "tfc0vzc0cq1n",
+      "group": false,
+      "only_show_if_degraded": false
+    }
+  ],
+  "incidents": [],
+  "scheduled_maintenances": [],
+  "status": {
+    "indicator": "none",
+    "description": "All Systems Operational"
+  }
+}
