@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-12-06T19:23:46.940Z"
+    "updated_at": "2021-12-06T20:19:54.376Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Intermittent Errors in Jira Cloud",
       "status": "investigating",
       "created_at": "2021-12-06T19:11:09.437Z",
-      "updated_at": "2021-12-06T19:11:09.571Z",
+      "updated_at": "2021-12-06T20:19:54.367Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,32 @@
       "started_at": "2021-12-06T19:11:09.429Z",
       "page_id": "s6f0gm5gcpmy",
       "incident_updates": [
+        {
+          "id": "s3g8z245xlxr",
+          "status": "investigating",
+          "body": "We are still working to identify a root cause for the intermittent errors impacting some Jira Cloud customers. We are continuing to investigate and will post updates as they are available.",
+          "incident_id": "857hct005hk6",
+          "created_at": "2021-12-06T20:19:54.364Z",
+          "updated_at": "2021-12-06T20:19:54.364Z",
+          "display_at": "2021-12-06T20:19:54.364Z",
+          "affected_components": [
+            {
+              "code": "l4fp2xkkygv4",
+              "name": "Viewing content",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "dwt504s3m4c1",
+              "name": "Create and edit",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "mp9ny560h29l",
           "status": "investigating",

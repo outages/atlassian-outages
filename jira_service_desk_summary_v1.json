@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-12-06T19:23:46.838Z"
+    "updated_at": "2021-12-06T20:19:42.244Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Intermittent Errors in Jira Cloud",
       "status": "investigating",
       "created_at": "2021-12-06T19:10:38.882Z",
-      "updated_at": "2021-12-06T19:10:38.982Z",
+      "updated_at": "2021-12-06T20:19:42.235Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,26 @@
       "started_at": "2021-12-06T19:10:38.876Z",
       "page_id": "pv54g7ltsc24",
       "incident_updates": [
+        {
+          "id": "3cvhm6kmz6z0",
+          "status": "investigating",
+          "body": "We are still working to identify a root cause for the intermittent errors impacting some Jira Cloud customers. We are continuing to investigate and will post updates as they are available.",
+          "incident_id": "hwrrz6585yyz",
+          "created_at": "2021-12-06T20:19:42.233Z",
+          "updated_at": "2021-12-06T20:19:42.233Z",
+          "display_at": "2021-12-06T20:19:42.233Z",
+          "affected_components": [
+            {
+              "code": "4kcs01hbh4l6",
+              "name": "Jira Service Mangement Web",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "3xsxw33m8cwd",
           "status": "investigating",
