@@ -4,7 +4,7 @@
     "name": "Atlassian Statuspage",
     "url": "http://metastatuspage.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-12-07T12:41:02.178-08:00"
+    "updated_at": "2021-12-07T13:25:25.584-08:00"
   },
   "components": [
     {
@@ -85,7 +85,7 @@
     {
       "id": "hchd2wyk50h7",
       "name": "Hosted Pages",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:20:23.801-07:00",
       "updated_at": "2017-08-21T10:28:03.987-07:00",
       "position": 1,
@@ -279,9 +279,9 @@
     {
       "id": "3bg3nq9mm436",
       "name": "HTTPS Pages",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:20:23.888-07:00",
-      "updated_at": "2021-12-06T11:10:45.943-08:00",
+      "updated_at": "2021-12-07T13:25:25.524-08:00",
       "position": 2,
       "description": null,
       "showcase": true,
@@ -557,31 +557,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "p1sx4gq857t2",
-      "name": "Marketing Site (www.statuspage.io)",
+      "id": "f3kzxwdmmy7q",
+      "name": "JiraOps",
       "status": "operational",
-      "created_at": "2019-11-15T15:55:21.733-08:00",
-      "updated_at": "2021-12-01T15:30:11.786-08:00",
+      "created_at": "2018-10-17T15:12:57.166-07:00",
+      "updated_at": "2021-09-14T13:30:49.230-07:00",
       "position": 5,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "k118btf0g74r",
-      "page_id": "y2j98763l56x",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "tpvwg6y7ltx2",
-      "name": "Shortlinks",
-      "status": "operational",
-      "created_at": "2017-08-24T12:32:09.812-07:00",
-      "updated_at": "2021-12-06T11:10:45.990-08:00",
-      "position": 5,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "hchd2wyk50h7",
+      "group_id": "l459pg65jrqf",
       "page_id": "y2j98763l56x",
       "group": false,
       "only_show_if_degraded": false
@@ -656,31 +641,31 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "f3kzxwdmmy7q",
-      "name": "JiraOps",
+      "id": "p1sx4gq857t2",
+      "name": "Marketing Site (www.statuspage.io)",
       "status": "operational",
-      "created_at": "2018-10-17T15:12:57.166-07:00",
-      "updated_at": "2021-09-14T13:30:49.230-07:00",
+      "created_at": "2019-11-15T15:55:21.733-08:00",
+      "updated_at": "2021-12-01T15:30:11.786-08:00",
       "position": 5,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "l459pg65jrqf",
+      "group_id": "k118btf0g74r",
       "page_id": "y2j98763l56x",
       "group": false,
       "only_show_if_degraded": false
     },
     {
-      "id": "45b0h3k4ky7f",
-      "name": "Page SAML 2.0",
+      "id": "tpvwg6y7ltx2",
+      "name": "Shortlinks",
       "status": "operational",
-      "created_at": "2017-08-21T10:21:07.134-07:00",
-      "updated_at": "2021-06-20T10:48:30.548-07:00",
-      "position": 6,
+      "created_at": "2017-08-24T12:32:09.812-07:00",
+      "updated_at": "2021-12-06T11:10:45.990-08:00",
+      "position": 5,
       "description": null,
-      "showcase": false,
+      "showcase": true,
       "start_date": null,
-      "group_id": "kg33xy05zdyq",
+      "group_id": "hchd2wyk50h7",
       "page_id": "y2j98763l56x",
       "group": false,
       "only_show_if_degraded": false
@@ -706,6 +691,21 @@
         "2267qzw6yfc0",
         "f3kzxwdmmy7q"
       ]
+    },
+    {
+      "id": "45b0h3k4ky7f",
+      "name": "Page SAML 2.0",
+      "status": "operational",
+      "created_at": "2017-08-21T10:21:07.134-07:00",
+      "updated_at": "2021-06-20T10:48:30.548-07:00",
+      "position": 6,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "kg33xy05zdyq",
+      "page_id": "y2j98763l56x",
+      "group": false,
+      "only_show_if_degraded": false
     },
     {
       "id": "kc0l63y8v8r5",
@@ -806,14 +806,58 @@
       "name": "Infrastructure Issues - Billing and signup impacted",
       "status": "identified",
       "created_at": "2021-12-07T10:59:02.848-08:00",
-      "updated_at": "2021-12-07T12:41:02.170-08:00",
+      "updated_at": "2021-12-07T13:25:25.584-08:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "http://mstspg.co/7t3p5pl29rx6",
-      "started_at": "2021-12-07T10:59:02.830-08:00",
+      "started_at": "2021-12-07T10:59:02.000-08:00",
       "page_id": "y2j98763l56x",
       "incident_updates": [
+        {
+          "id": "5l6cz1svhs2m",
+          "status": "identified",
+          "body": "We are continuing to work on a fix for this issue.",
+          "incident_id": "4qgqxtz1br4h",
+          "created_at": "2021-12-07T13:25:25.580-08:00",
+          "updated_at": "2021-12-07T13:25:25.580-08:00",
+          "display_at": "2021-12-07T13:25:25.580-08:00",
+          "affected_components": [
+            {
+              "code": "3bg3nq9mm436",
+              "name": "Hosted Pages - HTTPS Pages",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "cj7ylrcthmdz",
+              "name": "Authentication - Admin Google Auth",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "2516dq72k9lj",
+              "name": "Authentication - Admin SAML 2.0",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "v9dcxzcs9ypj",
+              "name": "Management - Billing",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "wgxgj3x4gjyy",
+              "name": "Signup",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "djwl4b1sc7v3",
           "status": "identified",
@@ -893,11 +937,11 @@
         {
           "id": "25rdvjptqwl6",
           "status": "identified",
-          "body": "We're investigating issues affecting billing and signup. More information will be made available as soon as we can determine the cause and work toward a fix.",
+          "body": "We're investigating issues affecting billing and signup, which may impact signing into the manage portal and private pages. More information will be made available as soon as we can determine the cause and work toward a fix.",
           "incident_id": "4qgqxtz1br4h",
           "created_at": "2021-12-07T10:59:02.940-08:00",
-          "updated_at": "2021-12-07T10:59:02.940-08:00",
-          "display_at": "2021-12-07T10:59:02.940-08:00",
+          "updated_at": "2021-12-07T13:20:13.047-08:00",
+          "display_at": "2021-12-07T10:59:02.000-08:00",
           "affected_components": [
             {
               "code": "v9dcxzcs9ypj",
@@ -918,6 +962,21 @@
         }
       ],
       "components": [
+        {
+          "id": "3bg3nq9mm436",
+          "name": "HTTPS Pages",
+          "status": "degraded_performance",
+          "created_at": "2017-08-21T10:20:23.888-07:00",
+          "updated_at": "2021-12-07T13:25:25.524-08:00",
+          "position": 2,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": "hchd2wyk50h7",
+          "page_id": "y2j98763l56x",
+          "group": false,
+          "only_show_if_degraded": false
+        },
         {
           "id": "cj7ylrcthmdz",
           "name": "Admin Google Auth",
