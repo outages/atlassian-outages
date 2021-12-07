@@ -4,7 +4,7 @@
     "name": "Jira Align",
     "url": "https://jira-align.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-10-14T21:24:03.896Z"
+    "updated_at": "2021-12-07T18:11:17.153Z"
   },
   "components": [
     {
@@ -533,7 +533,669 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "6k12m144p6ph",
+      "name": "Email in US degraded",
+      "status": "identified",
+      "created_at": "2021-12-07T18:11:17.038Z",
+      "updated_at": "2021-12-07T18:11:17.151Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/jr3ld1b8wn94",
+      "started_at": "2021-12-07T18:11:17.018Z",
+      "page_id": "jrg4crndtsgz",
+      "incident_updates": [
+        {
+          "id": "m0qp4n1dmmwb",
+          "status": "identified",
+          "body": "There are potential delays in US customer email processing due to an ongoing AWS US East outage.",
+          "incident_id": "6k12m144p6ph",
+          "created_at": "2021-12-07T18:11:17.147Z",
+          "updated_at": "2021-12-07T18:11:17.147Z",
+          "display_at": "2021-12-07T18:11:17.147Z",
+          "affected_components": [
+            {
+              "code": "ymcrstjjhzq3",
+              "name": "Pod 1",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "5430hkfqg6gy",
+              "name": "Pod 2",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "q3xfdgncv07t",
+              "name": "Pod 4",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "dcnhymg22428",
+              "name": "Pod 5",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "zvrlb38lt2xt",
+              "name": "Pod 6",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "lxpz0ddg35t1",
+              "name": "Pod 8",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "qp2978dxrrqm",
+              "name": "Pod 9",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "fgggrtlrlvks",
+              "name": "Pod 10",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "5jl3156dj6v1",
+              "name": "Pod 11",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "b6v4j45kb0vv",
+              "name": "Pod 12",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "mqdq6f9ct67q",
+              "name": "Pod 14",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "krht83kvt551",
+              "name": "Pod 15",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "2lr45jjg10f2",
+              "name": "Pod 16",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "gqc5kz0tfht4",
+              "name": "Pod 17",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "66ngnn0czcsr",
+              "name": "Pod 18",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "r1gccv0vdnjm",
+              "name": "Pod 19",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "22fkt87d8frz",
+              "name": "Pod 20",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "p0npt2w79xnt",
+              "name": "Pod 22",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "g2t50bvl2x47",
+              "name": "Pod 23",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "kcqvlzdnzh0m",
+              "name": "Pod 24",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "l7sshlvz53mb",
+              "name": "Pod 25",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "8hvdl02v5255",
+              "name": "Pod 26",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "ynktqfd7fbh7",
+              "name": "Pod 27",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "0mf8b975r9dc",
+              "name": "Pod 28",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "vcx28z5xqh5m",
+              "name": "Pod 30",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "d12z323zxwxv",
+              "name": "Pod 31",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "smdv6dkfnzk2",
+              "name": "Pod 32",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "2jswj3ccnqmc",
+              "name": "Pod 33",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "jghx0wn0xvrl",
+              "name": "Pod 34",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "v42lmb2r8ql2",
+              "name": "Pod 35",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "ymcrstjjhzq3",
+          "name": "Pod 1",
+          "status": "operational",
+          "created_at": "2019-08-19T15:55:11.110Z",
+          "updated_at": "2020-07-17T22:19:29.687Z",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "5430hkfqg6gy",
+          "name": "Pod 2",
+          "status": "operational",
+          "created_at": "2019-08-19T15:55:23.246Z",
+          "updated_at": "2020-07-17T22:19:29.700Z",
+          "position": 2,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "q3xfdgncv07t",
+          "name": "Pod 4",
+          "status": "operational",
+          "created_at": "2019-08-19T15:55:46.536Z",
+          "updated_at": "2020-07-17T22:19:29.722Z",
+          "position": 4,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "dcnhymg22428",
+          "name": "Pod 5",
+          "status": "operational",
+          "created_at": "2019-08-19T15:56:07.715Z",
+          "updated_at": "2020-07-17T22:19:29.732Z",
+          "position": 5,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "zvrlb38lt2xt",
+          "name": "Pod 6",
+          "status": "operational",
+          "created_at": "2019-08-19T15:57:10.662Z",
+          "updated_at": "2020-07-17T22:19:29.744Z",
+          "position": 6,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "lxpz0ddg35t1",
+          "name": "Pod 8",
+          "status": "operational",
+          "created_at": "2019-08-19T15:57:34.766Z",
+          "updated_at": "2020-07-17T22:19:29.765Z",
+          "position": 8,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "qp2978dxrrqm",
+          "name": "Pod 9",
+          "status": "operational",
+          "created_at": "2019-08-19T15:57:45.246Z",
+          "updated_at": "2020-07-17T22:19:29.776Z",
+          "position": 9,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "fgggrtlrlvks",
+          "name": "Pod 10",
+          "status": "operational",
+          "created_at": "2019-08-19T15:58:45.811Z",
+          "updated_at": "2020-07-17T22:19:29.788Z",
+          "position": 10,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "5jl3156dj6v1",
+          "name": "Pod 11",
+          "status": "operational",
+          "created_at": "2019-08-19T15:58:56.580Z",
+          "updated_at": "2020-07-17T22:19:29.798Z",
+          "position": 11,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "b6v4j45kb0vv",
+          "name": "Pod 12",
+          "status": "operational",
+          "created_at": "2019-08-19T15:59:08.086Z",
+          "updated_at": "2020-07-17T22:19:29.810Z",
+          "position": 12,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "mqdq6f9ct67q",
+          "name": "Pod 14",
+          "status": "operational",
+          "created_at": "2020-01-22T19:50:51.261Z",
+          "updated_at": "2020-07-17T22:19:29.832Z",
+          "position": 14,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "krht83kvt551",
+          "name": "Pod 15",
+          "status": "operational",
+          "created_at": "2020-01-22T19:51:03.217Z",
+          "updated_at": "2020-07-17T22:19:29.843Z",
+          "position": 15,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "2lr45jjg10f2",
+          "name": "Pod 16",
+          "status": "operational",
+          "created_at": "2020-01-22T19:51:18.788Z",
+          "updated_at": "2020-07-17T22:19:29.854Z",
+          "position": 16,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "gqc5kz0tfht4",
+          "name": "Pod 17",
+          "status": "operational",
+          "created_at": "2020-01-22T19:51:34.557Z",
+          "updated_at": "2020-07-17T22:19:29.865Z",
+          "position": 17,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "66ngnn0czcsr",
+          "name": "Pod 18",
+          "status": "operational",
+          "created_at": "2020-01-22T19:51:51.137Z",
+          "updated_at": "2020-07-17T22:19:29.876Z",
+          "position": 18,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "r1gccv0vdnjm",
+          "name": "Pod 19",
+          "status": "operational",
+          "created_at": "2020-01-22T19:52:04.811Z",
+          "updated_at": "2020-07-17T22:19:29.886Z",
+          "position": 19,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "22fkt87d8frz",
+          "name": "Pod 20",
+          "status": "operational",
+          "created_at": "2020-01-22T19:52:16.120Z",
+          "updated_at": "2020-07-17T22:19:29.897Z",
+          "position": 20,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "p0npt2w79xnt",
+          "name": "Pod 22",
+          "status": "operational",
+          "created_at": "2020-01-22T19:52:40.230Z",
+          "updated_at": "2020-07-17T22:19:29.927Z",
+          "position": 22,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "g2t50bvl2x47",
+          "name": "Pod 23",
+          "status": "operational",
+          "created_at": "2020-01-22T19:52:54.349Z",
+          "updated_at": "2020-07-17T22:19:29.938Z",
+          "position": 23,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "kcqvlzdnzh0m",
+          "name": "Pod 24",
+          "status": "operational",
+          "created_at": "2020-01-22T19:53:08.942Z",
+          "updated_at": "2021-08-19T01:17:35.587Z",
+          "position": 24,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "l7sshlvz53mb",
+          "name": "Pod 25",
+          "status": "operational",
+          "created_at": "2020-01-22T19:53:20.826Z",
+          "updated_at": "2020-07-17T22:19:29.960Z",
+          "position": 25,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "8hvdl02v5255",
+          "name": "Pod 26",
+          "status": "operational",
+          "created_at": "2021-03-12T20:35:02.190Z",
+          "updated_at": "2021-03-12T20:39:32.811Z",
+          "position": 26,
+          "description": null,
+          "showcase": false,
+          "start_date": "2021-03-12",
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "ynktqfd7fbh7",
+          "name": "Pod 27",
+          "status": "operational",
+          "created_at": "2021-03-12T20:35:49.572Z",
+          "updated_at": "2021-03-12T20:40:17.984Z",
+          "position": 27,
+          "description": null,
+          "showcase": false,
+          "start_date": "2021-03-12",
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "0mf8b975r9dc",
+          "name": "Pod 28",
+          "status": "operational",
+          "created_at": "2021-03-12T20:36:18.803Z",
+          "updated_at": "2021-03-12T20:40:30.143Z",
+          "position": 28,
+          "description": null,
+          "showcase": false,
+          "start_date": "2021-03-12",
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "vcx28z5xqh5m",
+          "name": "Pod 30",
+          "status": "operational",
+          "created_at": "2021-03-12T20:36:48.611Z",
+          "updated_at": "2021-03-12T20:41:02.318Z",
+          "position": 30,
+          "description": null,
+          "showcase": false,
+          "start_date": "2021-03-12",
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "d12z323zxwxv",
+          "name": "Pod 31",
+          "status": "operational",
+          "created_at": "2021-03-12T20:37:12.296Z",
+          "updated_at": "2021-03-12T20:41:20.759Z",
+          "position": 31,
+          "description": null,
+          "showcase": false,
+          "start_date": "2021-03-12",
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "smdv6dkfnzk2",
+          "name": "Pod 32",
+          "status": "operational",
+          "created_at": "2021-03-12T20:37:22.659Z",
+          "updated_at": "2021-03-12T20:42:00.718Z",
+          "position": 32,
+          "description": null,
+          "showcase": false,
+          "start_date": "2021-03-12",
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "2jswj3ccnqmc",
+          "name": "Pod 33",
+          "status": "operational",
+          "created_at": "2021-03-12T20:37:36.904Z",
+          "updated_at": "2021-03-12T20:42:40.529Z",
+          "position": 33,
+          "description": null,
+          "showcase": false,
+          "start_date": "2021-03-12",
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "jghx0wn0xvrl",
+          "name": "Pod 34",
+          "status": "operational",
+          "created_at": "2021-03-12T20:37:53.635Z",
+          "updated_at": "2021-03-12T20:42:52.337Z",
+          "position": 34,
+          "description": null,
+          "showcase": false,
+          "start_date": "2021-03-12",
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "v42lmb2r8ql2",
+          "name": "Pod 35",
+          "status": "operational",
+          "created_at": "2021-03-12T20:38:07.313Z",
+          "updated_at": "2021-03-12T20:43:04.023Z",
+          "position": 35,
+          "description": null,
+          "showcase": false,
+          "start_date": "2021-03-12",
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
