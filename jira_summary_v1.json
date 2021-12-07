@@ -4,7 +4,7 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-12-07T17:43:20.776Z"
+    "updated_at": "2021-12-07T18:25:26.753Z"
   },
   "components": [
     {
@@ -160,9 +160,9 @@
     {
       "id": "9hyf9lm0fswd",
       "name": "Automation for Jira",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2020-12-23T01:40:32.378Z",
-      "updated_at": "2021-12-07T17:43:20.717Z",
+      "updated_at": "2021-12-07T18:25:26.707Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -173,10 +173,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "c7r8fv9f74mj",
+      "name": "Multiple products experiencing elevated error rates for cloud customers",
+      "status": "identified",
+      "created_at": "2021-12-07T18:25:26.676Z",
+      "updated_at": "2021-12-07T18:25:26.750Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "critical",
+      "shortlink": "https://stspg.io/3r2ydmszy6s6",
+      "started_at": "2021-12-07T18:25:26.670Z",
+      "page_id": "7yh3h3y0c0x1",
+      "incident_updates": [
+        {
+          "id": "m7hhfhc04qw6",
+          "status": "identified",
+          "body": "We are currently investigating an incident resulting in elevated error rates for multiple products. We will provide additional updates as soon a possible.",
+          "incident_id": "c7r8fv9f74mj",
+          "created_at": "2021-12-07T18:25:26.748Z",
+          "updated_at": "2021-12-07T18:25:26.748Z",
+          "display_at": "2021-12-07T18:25:26.748Z",
+          "affected_components": [
+            {
+              "code": "9hyf9lm0fswd",
+              "name": "Automation for Jira",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "9hyf9lm0fswd",
+          "name": "Automation for Jira",
+          "status": "major_outage",
+          "created_at": "2020-12-23T01:40:32.378Z",
+          "updated_at": "2021-12-07T18:25:26.707Z",
+          "position": 11,
+          "description": null,
+          "showcase": false,
+          "start_date": "2020-12-23",
+          "group_id": null,
+          "page_id": "7yh3h3y0c0x1",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "major",
+    "description": "Partial System Outage"
   }
 }
