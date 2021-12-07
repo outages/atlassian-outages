@@ -4,15 +4,15 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-12-07T17:37:03.894Z"
+    "updated_at": "2021-12-07T17:43:20.776Z"
   },
   "components": [
     {
       "id": "jmgfbtr0k28j",
       "name": "Viewing content",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2019-01-22T20:42:24.651Z",
-      "updated_at": "2021-12-07T17:37:03.618Z",
+      "updated_at": "2021-12-07T17:43:20.565Z",
       "position": 1,
       "description": "Problems viewing issues, dashboards, boards, reports, etc.",
       "showcase": false,
@@ -25,9 +25,9 @@
     {
       "id": "b01bgtvb4q2j",
       "name": "Create and edit",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2019-01-07T07:49:50.950Z",
-      "updated_at": "2021-12-07T17:37:03.641Z",
+      "updated_at": "2021-12-07T17:43:20.585Z",
       "position": 2,
       "description": "Problems creating or editing issues, projects, boards, reports, dashboards and the ability to comment, assign, and attach media.",
       "showcase": false,
@@ -40,9 +40,9 @@
     {
       "id": "y76gc542s6nd",
       "name": "Authentication and User Management",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2019-05-02T04:31:02.277Z",
-      "updated_at": "2021-12-07T17:37:03.663Z",
+      "updated_at": "2021-12-07T17:43:20.604Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -55,9 +55,9 @@
     {
       "id": "sv1xfn9br170",
       "name": "Search",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2019-01-07T07:51:29.410Z",
-      "updated_at": "2021-12-07T17:37:03.686Z",
+      "updated_at": "2021-12-07T17:43:20.622Z",
       "position": 4,
       "description": "Problems with JQL or quick search",
       "showcase": false,
@@ -70,9 +70,9 @@
     {
       "id": "yzll2534txvb",
       "name": "Notifications",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2019-01-07T07:51:55.162Z",
-      "updated_at": "2021-12-07T17:37:03.707Z",
+      "updated_at": "2021-12-07T17:43:20.641Z",
       "position": 5,
       "description": "Email and in-web-app notifications",
       "showcase": false,
@@ -85,9 +85,9 @@
     {
       "id": "sftzwrxsjrry",
       "name": "Administration",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2019-01-07T07:52:42.745Z",
-      "updated_at": "2021-12-07T17:37:03.730Z",
+      "updated_at": "2021-12-07T17:43:20.660Z",
       "position": 6,
       "description": "Site, project, and user administration",
       "showcase": false,
@@ -115,9 +115,9 @@
     {
       "id": "39kyw28g27ws",
       "name": "Mobile",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2019-01-07T07:53:59.871Z",
-      "updated_at": "2021-12-07T17:37:03.751Z",
+      "updated_at": "2021-12-07T17:43:20.679Z",
       "position": 8,
       "description": "Covers any problems specific to native iOS or Android mobile apps.",
       "showcase": false,
@@ -145,9 +145,9 @@
     {
       "id": "fgq39r8cz7mj",
       "name": "Signup",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2020-10-09T20:37:16.295Z",
-      "updated_at": "2021-12-07T17:37:03.791Z",
+      "updated_at": "2021-12-07T17:43:20.698Z",
       "position": 10,
       "description": null,
       "showcase": false,
@@ -160,9 +160,9 @@
     {
       "id": "9hyf9lm0fswd",
       "name": "Automation for Jira",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2020-12-23T01:40:32.378Z",
-      "updated_at": "2021-12-07T17:37:03.813Z",
+      "updated_at": "2021-12-07T17:43:20.717Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -173,231 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "j6bcmb5tn0mj",
-      "name": "Jira is down for some customer in single AWS region",
-      "status": "monitoring",
-      "created_at": "2021-12-07T17:37:03.539Z",
-      "updated_at": "2021-12-07T17:37:03.890Z",
-      "monitoring_at": "2021-12-07T17:37:03.876Z",
-      "resolved_at": null,
-      "impact": "critical",
-      "shortlink": "https://stspg.io/wr5cm0941whf",
-      "started_at": "2021-12-07T17:37:03.522Z",
-      "page_id": "7yh3h3y0c0x1",
-      "incident_updates": [
-        {
-          "id": "pzkcvdl93ny1",
-          "status": "monitoring",
-          "body": "We are investigating an issue with jira being down that is impacting some Jira Work Management, Jira Service Management, and Jira Software Cloud customers in us-east1 region. We will provide more details within the next hour.",
-          "incident_id": "j6bcmb5tn0mj",
-          "created_at": "2021-12-07T17:37:03.876Z",
-          "updated_at": "2021-12-07T17:37:03.876Z",
-          "display_at": "2021-12-07T17:37:03.876Z",
-          "affected_components": [
-            {
-              "code": "b01bgtvb4q2j",
-              "name": "Create and edit",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "sv1xfn9br170",
-              "name": "Search",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "yzll2534txvb",
-              "name": "Notifications",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "sftzwrxsjrry",
-              "name": "Administration",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "39kyw28g27ws",
-              "name": "Mobile",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "jmgfbtr0k28j",
-              "name": "Viewing content",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "y76gc542s6nd",
-              "name": "Authentication and User Management",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "fgq39r8cz7mj",
-              "name": "Signup",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "9hyf9lm0fswd",
-              "name": "Automation for Jira",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "jmgfbtr0k28j",
-          "name": "Viewing content",
-          "status": "major_outage",
-          "created_at": "2019-01-22T20:42:24.651Z",
-          "updated_at": "2021-12-07T17:37:03.618Z",
-          "position": 1,
-          "description": "Problems viewing issues, dashboards, boards, reports, etc.",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "7yh3h3y0c0x1",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "b01bgtvb4q2j",
-          "name": "Create and edit",
-          "status": "major_outage",
-          "created_at": "2019-01-07T07:49:50.950Z",
-          "updated_at": "2021-12-07T17:37:03.641Z",
-          "position": 2,
-          "description": "Problems creating or editing issues, projects, boards, reports, dashboards and the ability to comment, assign, and attach media.",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "7yh3h3y0c0x1",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "y76gc542s6nd",
-          "name": "Authentication and User Management",
-          "status": "major_outage",
-          "created_at": "2019-05-02T04:31:02.277Z",
-          "updated_at": "2021-12-07T17:37:03.663Z",
-          "position": 3,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "7yh3h3y0c0x1",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "sv1xfn9br170",
-          "name": "Search",
-          "status": "major_outage",
-          "created_at": "2019-01-07T07:51:29.410Z",
-          "updated_at": "2021-12-07T17:37:03.686Z",
-          "position": 4,
-          "description": "Problems with JQL or quick search",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "7yh3h3y0c0x1",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "yzll2534txvb",
-          "name": "Notifications",
-          "status": "major_outage",
-          "created_at": "2019-01-07T07:51:55.162Z",
-          "updated_at": "2021-12-07T17:37:03.707Z",
-          "position": 5,
-          "description": "Email and in-web-app notifications",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "7yh3h3y0c0x1",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "sftzwrxsjrry",
-          "name": "Administration",
-          "status": "major_outage",
-          "created_at": "2019-01-07T07:52:42.745Z",
-          "updated_at": "2021-12-07T17:37:03.730Z",
-          "position": 6,
-          "description": "Site, project, and user administration",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "7yh3h3y0c0x1",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "39kyw28g27ws",
-          "name": "Mobile",
-          "status": "major_outage",
-          "created_at": "2019-01-07T07:53:59.871Z",
-          "updated_at": "2021-12-07T17:37:03.751Z",
-          "position": 8,
-          "description": "Covers any problems specific to native iOS or Android mobile apps.",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "7yh3h3y0c0x1",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "fgq39r8cz7mj",
-          "name": "Signup",
-          "status": "major_outage",
-          "created_at": "2020-10-09T20:37:16.295Z",
-          "updated_at": "2021-12-07T17:37:03.791Z",
-          "position": 10,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-10-09",
-          "group_id": null,
-          "page_id": "7yh3h3y0c0x1",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "9hyf9lm0fswd",
-          "name": "Automation for Jira",
-          "status": "major_outage",
-          "created_at": "2020-12-23T01:40:32.378Z",
-          "updated_at": "2021-12-07T17:37:03.813Z",
-          "position": 11,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-12-23",
-          "group_id": null,
-          "page_id": "7yh3h3y0c0x1",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
