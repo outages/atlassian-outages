@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-12-07T20:40:15.892Z"
+    "updated_at": "2021-12-07T23:08:36.279Z"
   },
   "components": [
     {
@@ -671,16 +671,36 @@
     {
       "id": "hwc4gczg78lc",
       "name": "Marketplace partner reports facing issues",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2021-12-07T17:36:34.567Z",
-      "updated_at": "2021-12-07T20:40:15.884Z",
-      "monitoring_at": null,
+      "updated_at": "2021-12-07T23:08:36.276Z",
+      "monitoring_at": "2021-12-07T23:08:36.259Z",
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/6kzfxbk0lgln",
       "started_at": "2021-12-07T17:36:34.559Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "p7ns6c2f5r9r",
+          "status": "monitoring",
+          "body": "We have started to see recovery on the data pipeline and reporting API consumption issues. We are now monitoring closely and expect recovery shortly.",
+          "incident_id": "hwc4gczg78lc",
+          "created_at": "2021-12-07T23:08:36.259Z",
+          "updated_at": "2021-12-07T23:08:36.259Z",
+          "display_at": "2021-12-07T23:08:36.259Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "0t926699pprc",
           "status": "identified",
