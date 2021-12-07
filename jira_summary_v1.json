@@ -4,7 +4,7 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-12-07T18:25:26.753Z"
+    "updated_at": "2021-12-07T19:03:59.201Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Multiple products experiencing elevated error rates for cloud customers",
       "status": "identified",
       "created_at": "2021-12-07T18:25:26.676Z",
-      "updated_at": "2021-12-07T18:25:26.750Z",
+      "updated_at": "2021-12-07T19:03:59.192Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
@@ -187,6 +187,26 @@
       "started_at": "2021-12-07T18:25:26.670Z",
       "page_id": "7yh3h3y0c0x1",
       "incident_updates": [
+        {
+          "id": "1fjvgwnqbdg7",
+          "status": "identified",
+          "body": "We continue to work on resolving the incident with elevated errors on Jira automation. We have identified the root cause and will provide additional updates as soon as possible.",
+          "incident_id": "c7r8fv9f74mj",
+          "created_at": "2021-12-07T19:03:59.188Z",
+          "updated_at": "2021-12-07T19:03:59.188Z",
+          "display_at": "2021-12-07T19:03:59.188Z",
+          "affected_components": [
+            {
+              "code": "9hyf9lm0fswd",
+              "name": "Automation for Jira",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "m7hhfhc04qw6",
           "status": "identified",

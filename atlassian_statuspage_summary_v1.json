@@ -4,7 +4,7 @@
     "name": "Atlassian Statuspage",
     "url": "http://metastatuspage.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-12-06T11:41:30.091-08:00"
+    "updated_at": "2021-12-07T10:59:02.942-08:00"
   },
   "components": [
     {
@@ -197,7 +197,7 @@
     {
       "id": "jk3l62p3pcfy",
       "name": "Management",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:22:01.354-07:00",
       "updated_at": "2017-08-24T12:33:47.091-07:00",
       "position": 2,
@@ -448,21 +448,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "ff2cz0c51928",
-      "name": "SSL Provisioning",
-      "status": "operational",
-      "created_at": "2017-04-21T14:15:17.557-07:00",
-      "updated_at": "2021-12-01T15:30:11.759-08:00",
-      "position": 4,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "jk3l62p3pcfy",
-      "page_id": "y2j98763l56x",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "s0p4y2k09klc",
       "name": "Public API",
       "status": "operational",
@@ -527,6 +512,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "ff2cz0c51928",
+      "name": "SSL Provisioning",
+      "status": "operational",
+      "created_at": "2017-04-21T14:15:17.557-07:00",
+      "updated_at": "2021-12-01T15:30:11.759-08:00",
+      "position": 4,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "jk3l62p3pcfy",
+      "page_id": "y2j98763l56x",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "4s2tjjrhf4d5",
       "name": "Datadog Integration",
       "status": "operational",
@@ -557,16 +557,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "v9dcxzcs9ypj",
-      "name": "Billing",
+      "id": "p1sx4gq857t2",
+      "name": "Marketing Site (www.statuspage.io)",
       "status": "operational",
-      "created_at": "2017-08-21T10:22:01.547-07:00",
-      "updated_at": "2021-12-01T15:30:11.799-08:00",
+      "created_at": "2019-11-15T15:55:21.733-08:00",
+      "updated_at": "2021-12-01T15:30:11.786-08:00",
       "position": 5,
       "description": null,
-      "showcase": true,
+      "showcase": false,
       "start_date": null,
-      "group_id": "jk3l62p3pcfy",
+      "group_id": "k118btf0g74r",
       "page_id": "y2j98763l56x",
       "group": false,
       "only_show_if_degraded": false
@@ -582,6 +582,21 @@
       "showcase": true,
       "start_date": null,
       "group_id": "hchd2wyk50h7",
+      "page_id": "y2j98763l56x",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "v9dcxzcs9ypj",
+      "name": "Billing",
+      "status": "degraded_performance",
+      "created_at": "2017-08-21T10:22:01.547-07:00",
+      "updated_at": "2021-12-07T10:59:02.877-08:00",
+      "position": 5,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "jk3l62p3pcfy",
       "page_id": "y2j98763l56x",
       "group": false,
       "only_show_if_degraded": false
@@ -609,21 +624,6 @@
         "45b0h3k4ky7f",
         "kc0l63y8v8r5"
       ]
-    },
-    {
-      "id": "p1sx4gq857t2",
-      "name": "Marketing Site (www.statuspage.io)",
-      "status": "operational",
-      "created_at": "2019-11-15T15:55:21.733-08:00",
-      "updated_at": "2021-12-01T15:30:11.786-08:00",
-      "position": 5,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "k118btf0g74r",
-      "page_id": "y2j98763l56x",
-      "group": false,
-      "only_show_if_degraded": false
     },
     {
       "id": "wnvlx7c8mfql",
@@ -671,6 +671,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "45b0h3k4ky7f",
+      "name": "Page SAML 2.0",
+      "status": "operational",
+      "created_at": "2017-08-21T10:21:07.134-07:00",
+      "updated_at": "2021-06-20T10:48:30.548-07:00",
+      "position": 6,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "kg33xy05zdyq",
+      "page_id": "y2j98763l56x",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "l459pg65jrqf",
       "name": "Automation",
       "status": "operational",
@@ -693,12 +708,12 @@
       ]
     },
     {
-      "id": "45b0h3k4ky7f",
-      "name": "Page SAML 2.0",
+      "id": "kc0l63y8v8r5",
+      "name": "Page IP Restriction",
       "status": "operational",
-      "created_at": "2017-08-21T10:21:07.134-07:00",
-      "updated_at": "2021-06-20T10:48:30.548-07:00",
-      "position": 6,
+      "created_at": "2017-08-21T10:21:07.159-07:00",
+      "updated_at": "2021-06-20T10:48:30.562-07:00",
+      "position": 7,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -724,21 +739,6 @@
       "components": [
         "lhzq37ts0ppj"
       ]
-    },
-    {
-      "id": "kc0l63y8v8r5",
-      "name": "Page IP Restriction",
-      "status": "operational",
-      "created_at": "2017-08-21T10:21:07.159-07:00",
-      "updated_at": "2021-06-20T10:48:30.562-07:00",
-      "position": 7,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "kg33xy05zdyq",
-      "page_id": "y2j98763l56x",
-      "group": false,
-      "only_show_if_degraded": false
     },
     {
       "id": "v9191vsctr8q",
@@ -787,9 +787,9 @@
     {
       "id": "wgxgj3x4gjyy",
       "name": "Signup",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-10-23T14:12:27.848-07:00",
-      "updated_at": "2021-12-01T15:30:11.837-08:00",
+      "updated_at": "2021-12-07T10:59:02.903-08:00",
       "position": 10,
       "description": null,
       "showcase": false,
@@ -800,7 +800,81 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "4qgqxtz1br4h",
+      "name": "Infrastructure Issues - Billing and signup impacted",
+      "status": "identified",
+      "created_at": "2021-12-07T10:59:02.848-08:00",
+      "updated_at": "2021-12-07T10:59:02.942-08:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "http://mstspg.co/7t3p5pl29rx6",
+      "started_at": "2021-12-07T10:59:02.830-08:00",
+      "page_id": "y2j98763l56x",
+      "incident_updates": [
+        {
+          "id": "25rdvjptqwl6",
+          "status": "identified",
+          "body": "We're investigating issues affecting billing and signup. More information will be made available as soon as we can determine the cause and work toward a fix.",
+          "incident_id": "4qgqxtz1br4h",
+          "created_at": "2021-12-07T10:59:02.940-08:00",
+          "updated_at": "2021-12-07T10:59:02.940-08:00",
+          "display_at": "2021-12-07T10:59:02.940-08:00",
+          "affected_components": [
+            {
+              "code": "v9dcxzcs9ypj",
+              "name": "Management - Billing",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "wgxgj3x4gjyy",
+              "name": "Signup",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "v9dcxzcs9ypj",
+          "name": "Billing",
+          "status": "degraded_performance",
+          "created_at": "2017-08-21T10:22:01.547-07:00",
+          "updated_at": "2021-12-07T10:59:02.877-08:00",
+          "position": 5,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": "jk3l62p3pcfy",
+          "page_id": "y2j98763l56x",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "wgxgj3x4gjyy",
+          "name": "Signup",
+          "status": "degraded_performance",
+          "created_at": "2020-10-23T14:12:27.848-07:00",
+          "updated_at": "2021-12-07T10:59:02.903-08:00",
+          "position": 10,
+          "description": null,
+          "showcase": false,
+          "start_date": "2020-10-23",
+          "group_id": null,
+          "page_id": "y2j98763l56x",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [
     {
       "id": "7nrjl81k8ph0",
@@ -858,7 +932,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
