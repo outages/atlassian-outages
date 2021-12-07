@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-12-07T19:29:39.464Z"
+    "updated_at": "2021-12-07T20:00:08.811Z"
   },
   "components": [
     {
@@ -139,7 +139,7 @@
     {
       "id": "73bt63kd5q9k",
       "name": "Developer",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2018-02-01T17:21:34.889Z",
       "updated_at": "2019-05-02T04:22:45.333Z",
       "position": 2,
@@ -549,9 +549,9 @@
     {
       "id": "64gg59lyzrfs",
       "name": "Forge App Logs",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2021-05-12T00:18:57.324Z",
-      "updated_at": "2021-11-29T03:00:06.000Z",
+      "updated_at": "2021-12-07T20:00:06.000Z",
       "position": 9,
       "description": "Access and retrieve app logs via Forge CLI and admin.atlassian.com",
       "showcase": true,
@@ -743,7 +743,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "major",
+    "description": "Partial System Outage"
   }
 }
