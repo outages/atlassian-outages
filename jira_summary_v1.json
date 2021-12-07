@@ -4,7 +4,7 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-12-07T20:41:46.188Z"
+    "updated_at": "2021-12-07T22:35:32.426Z"
   },
   "components": [
     {
@@ -177,16 +177,36 @@
     {
       "id": "c7r8fv9f74mj",
       "name": "Multiple products experiencing elevated error rates for cloud customers",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2021-12-07T18:25:26.676Z",
-      "updated_at": "2021-12-07T20:41:46.180Z",
-      "monitoring_at": null,
+      "updated_at": "2021-12-07T22:35:32.424Z",
+      "monitoring_at": "2021-12-07T22:35:32.411Z",
       "resolved_at": null,
       "impact": "critical",
       "shortlink": "https://stspg.io/3r2ydmszy6s6",
       "started_at": "2021-12-07T18:25:26.670Z",
       "page_id": "7yh3h3y0c0x1",
       "incident_updates": [
+        {
+          "id": "y644xfg0tg4f",
+          "status": "monitoring",
+          "body": "We have started to see recovery for this issue involving elevated error rates for multiple products. We are now monitoring closely and expect recovery shortly.",
+          "incident_id": "c7r8fv9f74mj",
+          "created_at": "2021-12-07T22:35:32.411Z",
+          "updated_at": "2021-12-07T22:35:32.411Z",
+          "display_at": "2021-12-07T22:35:32.411Z",
+          "affected_components": [
+            {
+              "code": "9hyf9lm0fswd",
+              "name": "Automation for Jira",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "b9lmz1t4y2wl",
           "status": "identified",
