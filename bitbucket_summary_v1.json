@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-12-07T19:38:52.978Z"
+    "updated_at": "2021-12-07T20:40:00.993Z"
   },
   "components": [
     {
@@ -194,7 +194,7 @@
       "name": "Bitbucket Pipelines are not operational, Webhooks History is unavailable",
       "status": "identified",
       "created_at": "2021-12-07T16:33:43.336Z",
-      "updated_at": "2021-12-07T19:38:52.968Z",
+      "updated_at": "2021-12-07T20:40:00.989Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
@@ -202,6 +202,32 @@
       "started_at": "2021-12-07T16:33:43.329Z",
       "page_id": "bqlf8qjztdtr",
       "incident_updates": [
+        {
+          "id": "2z8dctkjv1c1",
+          "status": "identified",
+          "body": "We continue to work together with AWS to resolve the customer impact and get our services restored as soon as possible. Our incident team has assessed the impact of the expected surge in load once the AWS outage is resolved and has put the necessary mitigations in place.\n\nWebhooks History is unavailable and has been root caused to a downstream outage with in our underlying platform provider AWS in us-east-1. Webhooks delivery is not impacted and continues to function normally.",
+          "incident_id": "k6pbf7mbxhdd",
+          "created_at": "2021-12-07T20:40:00.613Z",
+          "updated_at": "2021-12-07T20:40:00.984Z",
+          "display_at": "2021-12-07T20:40:00.613Z",
+          "affected_components": [
+            {
+              "code": "rfzky0v13fbp",
+              "name": "Webhooks",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "rzh2n85q7vtt",
+              "name": "Pipelines",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1468319404999934000
+        },
         {
           "id": "jzct6zhsv0yj",
           "status": "identified",

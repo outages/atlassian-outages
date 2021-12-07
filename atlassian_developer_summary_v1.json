@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-12-07T20:00:08.811Z"
+    "updated_at": "2021-12-07T20:40:15.892Z"
   },
   "components": [
     {
@@ -673,7 +673,7 @@
       "name": "Marketplace partner reports facing issues",
       "status": "identified",
       "created_at": "2021-12-07T17:36:34.567Z",
-      "updated_at": "2021-12-07T19:29:39.458Z",
+      "updated_at": "2021-12-07T20:40:15.884Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -681,6 +681,26 @@
       "started_at": "2021-12-07T17:36:34.559Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "0t926699pprc",
+          "status": "identified",
+          "body": "We continue to work on resolving the incident causing delayed data pipelines and intermittent issues with reporting API consumption. We have identified the root cause and will provide additional updates as soon as possible.",
+          "incident_id": "hwc4gczg78lc",
+          "created_at": "2021-12-07T20:40:15.881Z",
+          "updated_at": "2021-12-07T20:40:15.881Z",
+          "display_at": "2021-12-07T20:40:15.881Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "gyppqyhnfsm4",
           "status": "identified",
