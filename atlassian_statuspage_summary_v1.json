@@ -4,7 +4,7 @@
     "name": "Atlassian Statuspage",
     "url": "http://metastatuspage.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-12-08T10:41:30.107-08:00"
+    "updated_at": "2021-12-08T13:23:37.444-08:00"
   },
   "components": [
     {
@@ -247,16 +247,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "hsc388fhkjnv",
-      "name": "Librato Integration",
+      "id": "pht8mbkmkb7t",
+      "name": "External",
       "status": "operational",
-      "created_at": "2017-08-21T10:31:11.000-07:00",
-      "updated_at": "2021-06-20T10:48:30.281-07:00",
+      "created_at": "2017-08-21T10:22:18.272-07:00",
+      "updated_at": "2021-06-20T10:48:30.239-07:00",
       "position": 2,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "v9191vsctr8q",
+      "group_id": "bpcwggjv4tm7",
       "page_id": "y2j98763l56x",
       "group": false,
       "only_show_if_degraded": false
@@ -292,16 +292,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "pht8mbkmkb7t",
-      "name": "External",
+      "id": "hsc388fhkjnv",
+      "name": "Librato Integration",
       "status": "operational",
-      "created_at": "2017-08-21T10:22:18.272-07:00",
-      "updated_at": "2021-06-20T10:48:30.239-07:00",
+      "created_at": "2017-08-21T10:31:11.000-07:00",
+      "updated_at": "2021-06-20T10:48:30.281-07:00",
       "position": 2,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "bpcwggjv4tm7",
+      "group_id": "v9191vsctr8q",
       "page_id": "y2j98763l56x",
       "group": false,
       "only_show_if_degraded": false
@@ -510,9 +510,9 @@
     {
       "id": "9n71kgx29snq",
       "name": "Metastatuspage",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2019-08-13T10:02:04.673-07:00",
-      "updated_at": "2019-08-13T11:15:31.816-07:00",
+      "updated_at": "2021-12-08T13:23:37.392-08:00",
       "position": 4,
       "description": "The statuspage for Statuspage itself, at www.metastatuspage.com",
       "showcase": false,
@@ -765,7 +765,7 @@
     {
       "id": "k118btf0g74r",
       "name": "Support Sites",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2017-08-21T10:32:17.199-07:00",
       "updated_at": "2017-08-24T12:33:48.865-07:00",
       "position": 9,
@@ -803,11 +803,42 @@
   "incidents": [],
   "scheduled_maintenances": [
     {
+      "id": "9x04wt1z64xf",
+      "name": "Statuspage Load Balancers Update",
+      "status": "scheduled",
+      "created_at": "2021-12-08T10:33:01.706-08:00",
+      "updated_at": "2021-12-08T10:33:01.773-08:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "http://mstspg.co/252s7nmpgx61",
+      "started_at": "2021-12-08T10:33:01.702-08:00",
+      "page_id": "y2j98763l56x",
+      "incident_updates": [
+        {
+          "id": "qskh0xk6jg97",
+          "status": "scheduled",
+          "body": "Statuspage will be updating its load balancers between 5:45PM-6:45PM PST. The upgrades should not affect any Statuspage services. If you’re experiencing issues, please reach out to our support team through support.atlassian.com.",
+          "incident_id": "9x04wt1z64xf",
+          "created_at": "2021-12-08T10:33:01.770-08:00",
+          "updated_at": "2021-12-08T10:33:01.770-08:00",
+          "display_at": "2021-12-08T10:33:01.770-08:00",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "scheduled_for": "2021-12-09T17:45:00.000-08:00",
+      "scheduled_until": "2021-12-09T18:45:00.000-08:00"
+    },
+    {
       "id": "7nrjl81k8ph0",
       "name": "Metastatuspage Database Version Upgrade",
-      "status": "scheduled",
+      "status": "in_progress",
       "created_at": "2021-12-03T10:30:02.122-08:00",
-      "updated_at": "2021-12-08T09:25:12.879-08:00",
+      "updated_at": "2021-12-08T13:23:37.443-08:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -815,6 +846,26 @@
       "started_at": "2021-12-03T10:30:02.112-08:00",
       "page_id": "y2j98763l56x",
       "incident_updates": [
+        {
+          "id": "1x9xg1yxvllw",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "7nrjl81k8ph0",
+          "created_at": "2021-12-08T13:23:37.440-08:00",
+          "updated_at": "2021-12-08T13:23:37.440-08:00",
+          "display_at": "2021-12-08T13:23:37.440-08:00",
+          "affected_components": [
+            {
+              "code": "9n71kgx29snq",
+              "name": "Support Sites - Metastatuspage",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "x9c0wh2r6p91",
           "status": "scheduled",
@@ -853,9 +904,9 @@
         {
           "id": "9n71kgx29snq",
           "name": "Metastatuspage",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2019-08-13T10:02:04.673-07:00",
-          "updated_at": "2019-08-13T11:15:31.816-07:00",
+          "updated_at": "2021-12-08T13:23:37.392-08:00",
           "position": 4,
           "description": "The statuspage for Statuspage itself, at www.metastatuspage.com",
           "showcase": false,
@@ -868,41 +919,10 @@
       ],
       "scheduled_for": "2021-12-08T13:00:00.000-08:00",
       "scheduled_until": "2021-12-08T15:00:00.000-08:00"
-    },
-    {
-      "id": "9x04wt1z64xf",
-      "name": "Statuspage Load Balancers Update",
-      "status": "scheduled",
-      "created_at": "2021-12-08T10:33:01.706-08:00",
-      "updated_at": "2021-12-08T10:33:01.773-08:00",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "http://mstspg.co/252s7nmpgx61",
-      "started_at": "2021-12-08T10:33:01.702-08:00",
-      "page_id": "y2j98763l56x",
-      "incident_updates": [
-        {
-          "id": "qskh0xk6jg97",
-          "status": "scheduled",
-          "body": "Statuspage will be updating its load balancers between 5:45PM-6:45PM PST. The upgrades should not affect any Statuspage services. If you’re experiencing issues, please reach out to our support team through support.atlassian.com.",
-          "incident_id": "9x04wt1z64xf",
-          "created_at": "2021-12-08T10:33:01.770-08:00",
-          "updated_at": "2021-12-08T10:33:01.770-08:00",
-          "display_at": "2021-12-08T10:33:01.770-08:00",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "scheduled_for": "2021-12-09T17:45:00.000-08:00",
-      "scheduled_until": "2021-12-09T18:45:00.000-08:00"
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
