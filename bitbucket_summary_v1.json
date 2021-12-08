@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-12-08T00:38:04.515Z"
+    "updated_at": "2021-12-08T01:46:55.172Z"
   },
   "components": [
     {
@@ -115,9 +115,9 @@
     {
       "id": "rzh2n85q7vtt",
       "name": "Pipelines",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2016-08-23T20:04:54.469Z",
-      "updated_at": "2021-12-08T00:33:34.602Z",
+      "updated_at": "2021-12-08T01:46:54.659Z",
       "position": 9,
       "description": "Continuous integration and delivery for Bitbucket repos",
       "showcase": false,
@@ -188,222 +188,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "k6pbf7mbxhdd",
-      "name": "Bitbucket Pipelines are not operational, Webhooks History is unavailable",
-      "status": "monitoring",
-      "created_at": "2021-12-07T16:33:43.336Z",
-      "updated_at": "2021-12-08T00:33:35.287Z",
-      "monitoring_at": "2021-12-07T22:38:15.107Z",
-      "resolved_at": null,
-      "impact": "critical",
-      "shortlink": "https://stspg.io/69hm1vzmmwf5",
-      "started_at": "2021-12-07T16:33:43.329Z",
-      "page_id": "bqlf8qjztdtr",
-      "incident_updates": [
-        {
-          "id": "klnz65ryjs8z",
-          "status": "monitoring",
-          "body": "We are continuing to monitor for any further issues. Most of the features in Bitbucket Pipelines are back to normal and the service if mostly recovered and operational. We are still investigating and monitoring minor impact caused by some errors in AWS ECR during the build execution.",
-          "incident_id": "k6pbf7mbxhdd",
-          "created_at": "2021-12-08T00:33:34.641Z",
-          "updated_at": "2021-12-08T00:33:35.279Z",
-          "display_at": "2021-12-08T00:33:34.641Z",
-          "affected_components": [
-            {
-              "code": "rfzky0v13fbp",
-              "name": "Webhooks",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "rzh2n85q7vtt",
-              "name": "Pipelines",
-              "old_status": "major_outage",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1468378185112817700
-        },
-        {
-          "id": "jc01qcnbg5t0",
-          "status": "monitoring",
-          "body": "We have started to see recovery for both Pipelines and Webhook History. We are now monitoring closely and expect recovery shortly.",
-          "incident_id": "k6pbf7mbxhdd",
-          "created_at": "2021-12-07T22:38:15.107Z",
-          "updated_at": "2021-12-07T22:38:15.613Z",
-          "display_at": "2021-12-07T22:38:15.107Z",
-          "affected_components": [
-            {
-              "code": "rfzky0v13fbp",
-              "name": "Webhooks",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "rzh2n85q7vtt",
-              "name": "Pipelines",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1468349161971937300
-        },
-        {
-          "id": "2z8dctkjv1c1",
-          "status": "identified",
-          "body": "We continue to work together with AWS to resolve the customer impact and get our services restored as soon as possible. Our incident team has assessed the impact of the expected surge in load once the AWS outage is resolved and has put the necessary mitigations in place.\n\nWebhooks History is unavailable and has been root caused to a downstream outage with in our underlying platform provider AWS in us-east-1. Webhooks delivery is not impacted and continues to function normally.",
-          "incident_id": "k6pbf7mbxhdd",
-          "created_at": "2021-12-07T20:40:00.613Z",
-          "updated_at": "2021-12-07T20:40:00.984Z",
-          "display_at": "2021-12-07T20:40:00.613Z",
-          "affected_components": [
-            {
-              "code": "rfzky0v13fbp",
-              "name": "Webhooks",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "rzh2n85q7vtt",
-              "name": "Pipelines",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1468319404999934000
-        },
-        {
-          "id": "jzct6zhsv0yj",
-          "status": "identified",
-          "body": "We continue to work together with AWS to resolve the customer impact and get our services restored as soon as possible. Our incident team has assessed the impact of the expected surge in load once the AWS outage is resolved and has put the necessary mitigations in place.\n\nWebhooks History is unavailable and has been root caused to a downstream outage with in our underlying platform provider AWS in us-east-1. Webhooks delivery is not impacted and continues to function normally.",
-          "incident_id": "k6pbf7mbxhdd",
-          "created_at": "2021-12-07T19:38:51.823Z",
-          "updated_at": "2021-12-07T19:38:52.958Z",
-          "display_at": "2021-12-07T19:38:51.823Z",
-          "affected_components": [
-            {
-              "code": "rfzky0v13fbp",
-              "name": "Webhooks",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "rzh2n85q7vtt",
-              "name": "Pipelines",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1468304020175409200
-        },
-        {
-          "id": "st9fdc3g9t6m",
-          "status": "identified",
-          "body": "We continue to work on resolving the incident with pipelines stuck in \"pending\" status. We have identified the root cause and will provide additional updates as soon as possible.",
-          "incident_id": "k6pbf7mbxhdd",
-          "created_at": "2021-12-07T19:01:25.505Z",
-          "updated_at": "2021-12-07T19:01:25.921Z",
-          "display_at": "2021-12-07T19:01:25.505Z",
-          "affected_components": [
-            {
-              "code": "rzh2n85q7vtt",
-              "name": "Pipelines",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1468294595431727000
-        },
-        {
-          "id": "g6cwbs9bwzyp",
-          "status": "identified",
-          "body": "Bitbucket Pipelines is still not operational with builds currently stuck in \"pending\" state. We have identified the issue to be related with a downstream outage in our underlying platform provider AWS in us-east-1. We are working together with AWS to resolve the customer impact and get our services restored as soon as possible. You may be required to restart your Pipelines once the issue is resolved.",
-          "incident_id": "k6pbf7mbxhdd",
-          "created_at": "2021-12-07T17:52:36.555Z",
-          "updated_at": "2021-12-07T17:52:37.598Z",
-          "display_at": "2021-12-07T17:52:36.555Z",
-          "affected_components": [
-            {
-              "code": "rzh2n85q7vtt",
-              "name": "Pipelines",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1468277279990050800
-        },
-        {
-          "id": "yxnccc3nf9vm",
-          "status": "investigating",
-          "body": "We are currently investigating this issue. Your Pipelines could be stuck in \"Pending\" state while we resolve this issue. You may be required to restart your Pipelines once the issue is resolved.",
-          "incident_id": "k6pbf7mbxhdd",
-          "created_at": "2021-12-07T16:33:43.422Z",
-          "updated_at": "2021-12-07T16:33:44.216Z",
-          "display_at": "2021-12-07T16:33:43.422Z",
-          "affected_components": [
-            {
-              "code": "rzh2n85q7vtt",
-              "name": "Pipelines",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1468257426633748500
-        }
-      ],
-      "components": [
-        {
-          "id": "rfzky0v13fbp",
-          "name": "Webhooks",
-          "status": "operational",
-          "created_at": "2015-07-29T01:37:04.511Z",
-          "updated_at": "2021-12-08T00:38:04.512Z",
-          "position": 7,
-          "description": "The Bitbucket webhooks service",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "bqlf8qjztdtr",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "rzh2n85q7vtt",
-          "name": "Pipelines",
-          "status": "degraded_performance",
-          "created_at": "2016-08-23T20:04:54.469Z",
-          "updated_at": "2021-12-08T00:33:34.602Z",
-          "position": 9,
-          "description": "Continuous integration and delivery for Bitbucket repos",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "bqlf8qjztdtr",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }

@@ -4,7 +4,7 @@
     "name": "Confluence",
     "url": "https://confluence.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-12-07T22:35:10.829Z"
+    "updated_at": "2021-12-08T01:54:47.730Z"
   },
   "components": [
     {
@@ -85,9 +85,9 @@
     {
       "id": "n779hf70xvvb",
       "name": "Authentication and User Management",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-05-02T04:25:15.382Z",
-      "updated_at": "2021-12-07T17:40:16.117Z",
+      "updated_at": "2021-12-08T01:52:44.573Z",
       "position": 4,
       "description": null,
       "showcase": false,
@@ -100,9 +100,9 @@
     {
       "id": "5fjwzmlch883",
       "name": "Search",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-11-30T21:50:44.178Z",
-      "updated_at": "2021-12-07T17:40:16.136Z",
+      "updated_at": "2021-12-08T01:52:44.594Z",
       "position": 5,
       "description": null,
       "showcase": false,
@@ -115,9 +115,9 @@
     {
       "id": "p8qwf8g1xjs4",
       "name": "Administration",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-11-30T21:50:51.221Z",
-      "updated_at": "2021-12-07T17:40:16.155Z",
+      "updated_at": "2021-12-08T01:52:44.613Z",
       "position": 6,
       "description": "Site, space, and user administration",
       "showcase": false,
@@ -179,9 +179,9 @@
     {
       "id": "hht3wjcyn1fv",
       "name": "Purchasing & Licensing",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-04-28T00:48:12.013Z",
-      "updated_at": "2021-12-07T17:40:16.173Z",
+      "updated_at": "2021-12-08T01:52:44.631Z",
       "position": 10,
       "description": null,
       "showcase": false,
@@ -194,9 +194,9 @@
     {
       "id": "qkxm9wlprp6h",
       "name": "Signup",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-10-09T20:36:17.712Z",
-      "updated_at": "2021-12-07T17:40:16.192Z",
+      "updated_at": "2021-12-08T01:52:44.652Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -208,274 +208,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": "d5k91z4qp1y6",
-      "name": "Multiple products experiencing elevated error rates for cloud customers",
-      "status": "monitoring",
-      "created_at": "2021-12-07T17:40:16.055Z",
-      "updated_at": "2021-12-07T22:35:10.827Z",
-      "monitoring_at": "2021-12-07T22:35:10.810Z",
-      "resolved_at": null,
-      "impact": "critical",
-      "shortlink": "https://stspg.io/vnzb4110n9gm",
-      "started_at": "2021-12-07T17:40:16.046Z",
-      "page_id": "4g2my7tbhjsq",
-      "incident_updates": [
-        {
-          "id": "nkr5g8zhjc4v",
-          "status": "monitoring",
-          "body": "We have started to see recovery for this issue involving elevated error rates for multiple products. We are now monitoring closely and expect recovery shortly.",
-          "incident_id": "d5k91z4qp1y6",
-          "created_at": "2021-12-07T22:35:10.810Z",
-          "updated_at": "2021-12-07T22:35:10.810Z",
-          "display_at": "2021-12-07T22:35:10.810Z",
-          "affected_components": [
-            {
-              "code": "5fjwzmlch883",
-              "name": "Search",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "p8qwf8g1xjs4",
-              "name": "Administration",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "n779hf70xvvb",
-              "name": "Authentication and User Management",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "hht3wjcyn1fv",
-              "name": "Purchasing & Licensing",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "qkxm9wlprp6h",
-              "name": "Signup",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "crlgmswv8zjp",
-          "status": "identified",
-          "body": "We continue to work on resolving the incident with elevated error rates for multiple products. We have identified the root cause and will provide additional updates as soon as possible.",
-          "incident_id": "d5k91z4qp1y6",
-          "created_at": "2021-12-07T20:40:42.746Z",
-          "updated_at": "2021-12-07T20:40:42.746Z",
-          "display_at": "2021-12-07T20:40:42.746Z",
-          "affected_components": [
-            {
-              "code": "5fjwzmlch883",
-              "name": "Search",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "p8qwf8g1xjs4",
-              "name": "Administration",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "n779hf70xvvb",
-              "name": "Authentication and User Management",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "hht3wjcyn1fv",
-              "name": "Purchasing & Licensing",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "qkxm9wlprp6h",
-              "name": "Signup",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "t22wjfmwfvbb",
-          "status": "identified",
-          "body": "We continue to work on resolving the incident with elevated error rates for multiple products. We have identified the root cause and will provide additional updates as soon as possible.",
-          "incident_id": "d5k91z4qp1y6",
-          "created_at": "2021-12-07T18:56:01.584Z",
-          "updated_at": "2021-12-07T18:56:01.584Z",
-          "display_at": "2021-12-07T18:56:01.584Z",
-          "affected_components": [
-            {
-              "code": "5fjwzmlch883",
-              "name": "Search",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "p8qwf8g1xjs4",
-              "name": "Administration",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "n779hf70xvvb",
-              "name": "Authentication and User Management",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "hht3wjcyn1fv",
-              "name": "Purchasing & Licensing",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "qkxm9wlprp6h",
-              "name": "Signup",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "hhxdqv0ghlzr",
-          "status": "identified",
-          "body": "We are currently investigating an incident resulting in elevated error rates for multiple products. We will provide additional updates as soon a possible.",
-          "incident_id": "d5k91z4qp1y6",
-          "created_at": "2021-12-07T17:40:16.243Z",
-          "updated_at": "2021-12-07T17:40:16.243Z",
-          "display_at": "2021-12-07T17:40:16.243Z",
-          "affected_components": [
-            {
-              "code": "5fjwzmlch883",
-              "name": "Search",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "p8qwf8g1xjs4",
-              "name": "Administration",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "n779hf70xvvb",
-              "name": "Authentication and User Management",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "hht3wjcyn1fv",
-              "name": "Purchasing & Licensing",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "qkxm9wlprp6h",
-              "name": "Signup",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "n779hf70xvvb",
-          "name": "Authentication and User Management",
-          "status": "degraded_performance",
-          "created_at": "2019-05-02T04:25:15.382Z",
-          "updated_at": "2021-12-07T17:40:16.117Z",
-          "position": 4,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "4g2my7tbhjsq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "5fjwzmlch883",
-          "name": "Search",
-          "status": "partial_outage",
-          "created_at": "2018-11-30T21:50:44.178Z",
-          "updated_at": "2021-12-07T17:40:16.136Z",
-          "position": 5,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "4g2my7tbhjsq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "p8qwf8g1xjs4",
-          "name": "Administration",
-          "status": "degraded_performance",
-          "created_at": "2018-11-30T21:50:51.221Z",
-          "updated_at": "2021-12-07T17:40:16.155Z",
-          "position": 6,
-          "description": "Site, space, and user administration",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "4g2my7tbhjsq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "hht3wjcyn1fv",
-          "name": "Purchasing & Licensing",
-          "status": "degraded_performance",
-          "created_at": "2020-04-28T00:48:12.013Z",
-          "updated_at": "2021-12-07T17:40:16.173Z",
-          "position": 10,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "4g2my7tbhjsq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "qkxm9wlprp6h",
-          "name": "Signup",
-          "status": "degraded_performance",
-          "created_at": "2020-10-09T20:36:17.712Z",
-          "updated_at": "2021-12-07T17:40:16.192Z",
-          "position": 11,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-10-09",
-          "group_id": null,
-          "page_id": "4g2my7tbhjsq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    },
     {
       "id": "1yscj9jxk64x",
       "name": "Performance issues with Chromium based browsers in Confluence editor",
@@ -532,6 +264,6 @@
   "scheduled_maintenances": [],
   "status": {
     "indicator": "minor",
-    "description": "Minor Service Outage"
+    "description": "Partially Degraded Service"
   }
 }

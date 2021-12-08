@@ -4,15 +4,15 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2021-12-07T17:44:10.084-05:00"
+    "updated_at": "2021-12-07T20:55:33.898-05:00"
   },
   "components": [
     {
       "id": "hsr3nvlz0k2l",
       "name": "Trello.com",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-01-24T12:50:55.839-05:00",
-      "updated_at": "2021-12-07T11:19:05.723-05:00",
+      "updated_at": "2021-12-07T20:55:33.113-05:00",
       "position": 1,
       "description": "Web client",
       "showcase": true,
@@ -83,163 +83,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "hz4l1hj6cl4d",
-      "name": "Degraded performance in Trello",
-      "status": "monitoring",
-      "created_at": "2021-12-07T11:19:05.687-05:00",
-      "updated_at": "2021-12-07T17:44:10.082-05:00",
-      "monitoring_at": "2021-12-07T17:44:10.070-05:00",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/ysr4n4cs4m4l",
-      "started_at": "2021-12-07T11:19:05.682-05:00",
-      "page_id": "h5frqhb041yq",
-      "incident_updates": [
-        {
-          "id": "1ng4nm6q2vlp",
-          "status": "monitoring",
-          "body": "We have started to see recovery on the email-to-board and dashcard features. We are now monitoring closely and expect recovery shortly.",
-          "incident_id": "hz4l1hj6cl4d",
-          "created_at": "2021-12-07T17:44:10.070-05:00",
-          "updated_at": "2021-12-07T17:44:10.070-05:00",
-          "display_at": "2021-12-07T17:44:10.070-05:00",
-          "affected_components": [
-            {
-              "code": "hsr3nvlz0k2l",
-              "name": "Trello.com",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "vjk2n3r1bvrs",
-          "status": "identified",
-          "body": "We have started to see recovery on the email-to-board and dashcard features. We are now monitoring closely and expect recovery shortly.",
-          "incident_id": "hz4l1hj6cl4d",
-          "created_at": "2021-12-07T17:43:47.117-05:00",
-          "updated_at": "2021-12-07T17:43:47.555-05:00",
-          "display_at": "2021-12-07T17:43:47.117-05:00",
-          "affected_components": [
-            {
-              "code": "hsr3nvlz0k2l",
-              "name": "Trello.com",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1468350554145386500
-        },
-        {
-          "id": "2dtzwxg771ls",
-          "status": "identified",
-          "body": "We continue to work on resolving the incident with degraded performance on the email-to-board and dashcard features. We have identified the root cause and will provide additional updates as soon as possible.",
-          "incident_id": "hz4l1hj6cl4d",
-          "created_at": "2021-12-07T15:42:42.544-05:00",
-          "updated_at": "2021-12-07T15:42:43.356-05:00",
-          "display_at": "2021-12-07T15:42:42.544-05:00",
-          "affected_components": [
-            {
-              "code": "hsr3nvlz0k2l",
-              "name": "Trello.com",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1468320085978714000
-        },
-        {
-          "id": "q4vcl8m16g15",
-          "status": "identified",
-          "body": "We continue to work on resolving the incident with degraded performance on the email-to-board and dashcard features. We have identified the root cause and will provide additional updates as soon as possible.",
-          "incident_id": "hz4l1hj6cl4d",
-          "created_at": "2021-12-07T14:41:39.769-05:00",
-          "updated_at": "2021-12-07T14:41:40.357-05:00",
-          "display_at": "2021-12-07T14:41:39.769-05:00",
-          "affected_components": [
-            {
-              "code": "hsr3nvlz0k2l",
-              "name": "Trello.com",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1468304722251563000
-        },
-        {
-          "id": "4hyk0r6wk6v3",
-          "status": "investigating",
-          "body": "Our engineers have identified the email-to-board and dashcards features as experiencing degraded performance. We’ll update with more information when it’s available.",
-          "incident_id": "hz4l1hj6cl4d",
-          "created_at": "2021-12-07T12:26:36.579-05:00",
-          "updated_at": "2021-12-07T12:37:57.793-05:00",
-          "display_at": "2021-12-07T12:26:36.000-05:00",
-          "affected_components": [
-            {
-              "code": "hsr3nvlz0k2l",
-              "name": "Trello.com",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1468270735646871600
-        },
-        {
-          "id": "0m6m9814sbdl",
-          "status": "investigating",
-          "body": "You may notice degraded performance with certain features in Trello. \n\nOur engineers are closely monitoring the outages with related services and will update with more info when it’s available.",
-          "incident_id": "hz4l1hj6cl4d",
-          "created_at": "2021-12-07T11:19:05.769-05:00",
-          "updated_at": "2021-12-07T11:19:06.286-05:00",
-          "display_at": "2021-12-07T11:19:05.769-05:00",
-          "affected_components": [
-            {
-              "code": "hsr3nvlz0k2l",
-              "name": "Trello.com",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1468253744294817800
-        }
-      ],
-      "components": [
-        {
-          "id": "hsr3nvlz0k2l",
-          "name": "Trello.com",
-          "status": "degraded_performance",
-          "created_at": "2020-01-24T12:50:55.839-05:00",
-          "updated_at": "2021-12-07T11:19:05.723-05:00",
-          "position": 1,
-          "description": "Web client",
-          "showcase": true,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "h5frqhb041yq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
