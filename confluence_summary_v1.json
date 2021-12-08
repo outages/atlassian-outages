@@ -4,7 +4,7 @@
     "name": "Confluence",
     "url": "https://confluence.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-12-08T21:37:32.681Z"
+    "updated_at": "2021-12-08T22:23:42.197Z"
   },
   "components": [
     {
@@ -207,60 +207,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "1yscj9jxk64x",
-      "name": "Performance issues with Chromium based browsers in Confluence editor",
-      "status": "identified",
-      "created_at": "2021-12-01T03:59:18.604Z",
-      "updated_at": "2021-12-01T03:59:18.703Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/s189jsq2bmwz",
-      "started_at": "2021-12-01T03:59:18.599Z",
-      "page_id": "4g2my7tbhjsq",
-      "incident_updates": [
-        {
-          "id": "t8fbtwfr9br5",
-          "status": "identified",
-          "body": "A recent change to how chromium based browses like Chrome, Edge, and Brave, does spellchecking can cause the performance of the Editor experience to slow down.\n\nThe performance impact will be relative to the size of document and number of words which are identified as misspelt by the chrome browser red squiggle underline.\n\nAs this performance issue is coming from the browsers built in spellchecking, Atlassian is limited in how we can mitigate the issue.\n\nThe current suggested workaround is to disable spellchecking, or use an alternate browser.\nMore details on the issue, and the workaround can be found in the ticket below.\nhttps://jira.atlassian.com/browse/CONFCLOUD-73213\n\nWe are continuing to track the Chrome issue, and are also exploring the ability to disable spellchecking in the Editor experience.\n\nThe chromium bug also has reports of this issue impacting other web based editors such as Dropbox, Notion and Wikipedia.\nhttps://bugs.chromium.org/p/chromium/issues/detail?id=1271918",
-          "incident_id": "1yscj9jxk64x",
-          "created_at": "2021-12-01T03:59:18.700Z",
-          "updated_at": "2021-12-01T03:59:18.700Z",
-          "display_at": "2021-12-01T03:59:18.700Z",
-          "affected_components": [
-            {
-              "code": "y4z6hxpf7d7t",
-              "name": "Create and Edit",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "y4z6hxpf7d7t",
-          "name": "Create and Edit",
-          "status": "degraded_performance",
-          "created_at": "2018-11-12T04:04:58.145Z",
-          "updated_at": "2021-12-01T03:59:18.648Z",
-          "position": 2,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "4g2my7tbhjsq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "minor",
