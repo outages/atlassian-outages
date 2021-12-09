@@ -4,7 +4,7 @@
     "name": "Atlassian Statuspage",
     "url": "http://metastatuspage.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-12-09T12:19:56.336-08:00"
+    "updated_at": "2021-12-09T12:28:22.596-08:00"
   },
   "components": [
     {
@@ -804,9 +804,9 @@
     {
       "id": "thn7v90q77y6",
       "name": "Delays in SSL certificate provisioning",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2021-12-09T12:19:56.248-08:00",
-      "updated_at": "2021-12-09T12:19:56.336-08:00",
+      "updated_at": "2021-12-09T12:28:22.596-08:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -814,6 +814,26 @@
       "started_at": "2021-12-09T12:19:56.240-08:00",
       "page_id": "y2j98763l56x",
       "incident_updates": [
+        {
+          "id": "b106z5wrrkqt",
+          "status": "identified",
+          "body": "The issue has been identified and a fix is being implemented.",
+          "incident_id": "thn7v90q77y6",
+          "created_at": "2021-12-09T12:28:22.594-08:00",
+          "updated_at": "2021-12-09T12:28:22.594-08:00",
+          "display_at": "2021-12-09T12:28:22.594-08:00",
+          "affected_components": [
+            {
+              "code": "ff2cz0c51928",
+              "name": "Management - SSL Provisioning",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "dv5qx78q6jrd",
           "status": "investigating",
