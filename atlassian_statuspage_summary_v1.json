@@ -4,7 +4,7 @@
     "name": "Atlassian Statuspage",
     "url": "http://metastatuspage.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-12-09T13:01:41.357-08:00"
+    "updated_at": "2021-12-09T13:34:16.373-08:00"
   },
   "components": [
     {
@@ -152,7 +152,7 @@
     {
       "id": "jk3l62p3pcfy",
       "name": "Management",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-08-21T10:22:01.354-07:00",
       "updated_at": "2017-08-24T12:33:47.091-07:00",
       "position": 2,
@@ -514,9 +514,9 @@
     {
       "id": "ff2cz0c51928",
       "name": "SSL Provisioning",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-04-21T14:15:17.557-07:00",
-      "updated_at": "2021-12-09T12:19:56.279-08:00",
+      "updated_at": "2021-12-09T13:34:16.323-08:00",
       "position": 4,
       "description": null,
       "showcase": true,
@@ -800,100 +800,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "thn7v90q77y6",
-      "name": "Delays in SSL certificate provisioning",
-      "status": "monitoring",
-      "created_at": "2021-12-09T12:19:56.248-08:00",
-      "updated_at": "2021-12-09T13:01:41.381-08:00",
-      "monitoring_at": "2021-12-09T13:01:41.355-08:00",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "http://mstspg.co/sb309b2fwx5n",
-      "started_at": "2021-12-09T12:19:56.240-08:00",
-      "page_id": "y2j98763l56x",
-      "incident_updates": [
-        {
-          "id": "ntnxywsrcrrt",
-          "status": "monitoring",
-          "body": "A fix has been implemented and we are monitoring the results.",
-          "incident_id": "thn7v90q77y6",
-          "created_at": "2021-12-09T13:01:41.355-08:00",
-          "updated_at": "2021-12-09T13:01:41.355-08:00",
-          "display_at": "2021-12-09T13:01:41.355-08:00",
-          "affected_components": [
-            {
-              "code": "ff2cz0c51928",
-              "name": "Management - SSL Provisioning",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "b106z5wrrkqt",
-          "status": "identified",
-          "body": "The issue has been identified and a fix is being implemented.",
-          "incident_id": "thn7v90q77y6",
-          "created_at": "2021-12-09T12:28:22.594-08:00",
-          "updated_at": "2021-12-09T12:28:22.594-08:00",
-          "display_at": "2021-12-09T12:28:22.594-08:00",
-          "affected_components": [
-            {
-              "code": "ff2cz0c51928",
-              "name": "Management - SSL Provisioning",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "dv5qx78q6jrd",
-          "status": "investigating",
-          "body": "We are currently investigating this issue.",
-          "incident_id": "thn7v90q77y6",
-          "created_at": "2021-12-09T12:19:56.334-08:00",
-          "updated_at": "2021-12-09T12:19:56.334-08:00",
-          "display_at": "2021-12-09T12:19:56.334-08:00",
-          "affected_components": [
-            {
-              "code": "ff2cz0c51928",
-              "name": "Management - SSL Provisioning",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "ff2cz0c51928",
-          "name": "SSL Provisioning",
-          "status": "degraded_performance",
-          "created_at": "2017-04-21T14:15:17.557-07:00",
-          "updated_at": "2021-12-09T12:19:56.279-08:00",
-          "position": 4,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "jk3l62p3pcfy",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [
     {
       "id": "9x04wt1z64xf",
@@ -928,7 +835,7 @@
     }
   ],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
