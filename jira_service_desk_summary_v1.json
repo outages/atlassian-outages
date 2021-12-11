@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-12-08T04:26:42.345Z"
+    "updated_at": "2021-12-11T11:23:40.698Z"
   },
   "components": [
     {
@@ -100,9 +100,9 @@
     {
       "id": "n459f7qbgm7b",
       "name": "Jira Service Management Email Requests",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-01-08T23:33:42.607Z",
-      "updated_at": "2021-12-07T17:43:21.397Z",
+      "updated_at": "2021-12-11T11:18:39.465Z",
       "position": 7,
       "description": "Problems related to end-user's ability to raise requests via email",
       "showcase": false,
@@ -173,10 +173,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "wsps2b9r7shq",
+      "name": "Some incoming emails not being processed",
+      "status": "identified",
+      "created_at": "2021-12-11T11:18:39.436Z",
+      "updated_at": "2021-12-11T11:18:39.509Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/2510hy5xz839",
+      "started_at": "2021-12-11T11:18:39.430Z",
+      "page_id": "pv54g7ltsc24",
+      "incident_updates": [
+        {
+          "id": "ybr17zx34jy2",
+          "status": "identified",
+          "body": "We are investigating reports of problems with incoming emails being incorrectly rejected for some Jira Service Management Cloud customers. The issue is now resolved for new incoming emails. We are working to re-process the rejected emails.",
+          "incident_id": "wsps2b9r7shq",
+          "created_at": "2021-12-11T11:18:39.507Z",
+          "updated_at": "2021-12-11T11:18:39.507Z",
+          "display_at": "2021-12-11T11:18:39.507Z",
+          "affected_components": [
+            {
+              "code": "n459f7qbgm7b",
+              "name": "Jira Service Management Email Requests",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "n459f7qbgm7b",
+          "name": "Jira Service Management Email Requests",
+          "status": "partial_outage",
+          "created_at": "2019-01-08T23:33:42.607Z",
+          "updated_at": "2021-12-11T11:18:39.465Z",
+          "position": 7,
+          "description": "Problems related to end-user's ability to raise requests via email",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "pv54g7ltsc24",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
