@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-12-13T05:23:31.081Z"
+    "updated_at": "2021-12-13T08:41:55.441Z"
   },
   "components": [
     {
@@ -668,6 +668,58 @@
     }
   ],
   "incidents": [
+    {
+      "id": "dllrb43pbcf4",
+      "name": "The active installation count is showing a dip for Marketplace apps",
+      "status": "identified",
+      "created_at": "2021-12-13T08:41:41.140Z",
+      "updated_at": "2021-12-13T08:41:55.437Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/2vl5j80tgc0p",
+      "started_at": "2021-12-13T08:41:41.130Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "gbdvn5s4xrsf",
+          "status": "identified",
+          "body": "We identified an issue where apps are showing a dip in installation count. The dip is not a genuine dip and a fix is already implemented which would put back the right numbers starting next Monday i.e. 20th Dec'21 on the UI as well.",
+          "incident_id": "dllrb43pbcf4",
+          "created_at": "2021-12-13T08:41:41.247Z",
+          "updated_at": "2021-12-13T08:41:41.247Z",
+          "display_at": "2021-12-13T08:41:41.247Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "hk36hlvygg2q",
+          "name": "Reporting APIs and dashboards",
+          "status": "partial_outage",
+          "created_at": "2013-12-03T00:45:26.014Z",
+          "updated_at": "2021-12-13T04:48:12.311Z",
+          "position": 11,
+          "description": "Marketing attribution reports are now operational.",
+          "showcase": true,
+          "start_date": null,
+          "group_id": "d0m8l367qqw5",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    },
     {
       "id": "xqgmxs9h8mgy",
       "name": "Contacts and Partner Data missing in the latest transaction data",
