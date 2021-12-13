@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-12-13T09:23:55.008Z"
+    "updated_at": "2021-12-13T11:07:06.650Z"
   },
   "components": [
     {
@@ -669,31 +669,51 @@
   ],
   "incidents": [
     {
-      "id": "dllrb43pbcf4",
-      "name": "The active installation count is showing a dip for Marketplace apps",
+      "id": "xqgmxs9h8mgy",
+      "name": "Contacts and Partner Data missing in the latest transaction data",
       "status": "identified",
-      "created_at": "2021-12-13T08:41:41.140Z",
-      "updated_at": "2021-12-13T08:41:55.437Z",
+      "created_at": "2021-12-13T04:48:12.265Z",
+      "updated_at": "2021-12-13T11:07:06.641Z",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/2vl5j80tgc0p",
-      "started_at": "2021-12-13T08:41:41.130Z",
+      "impact": "major",
+      "shortlink": "https://stspg.io/fz3z3gly0dfb",
+      "started_at": "2021-12-13T04:48:12.255Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
         {
-          "id": "gbdvn5s4xrsf",
+          "id": "fj155wr5ycn4",
           "status": "identified",
-          "body": "We identified an issue where apps are showing a dip in installation count. The dip is not a genuine dip and a fix is already implemented which would put back the right numbers starting next Monday i.e. 20th Dec'21 on the UI as well.",
-          "incident_id": "dllrb43pbcf4",
-          "created_at": "2021-12-13T08:41:41.247Z",
-          "updated_at": "2021-12-13T08:41:41.247Z",
-          "display_at": "2021-12-13T08:41:41.247Z",
+          "body": "We have identified an issue with one of the upstream systems. We will update when we have more information.",
+          "incident_id": "xqgmxs9h8mgy",
+          "created_at": "2021-12-13T11:07:06.639Z",
+          "updated_at": "2021-12-13T11:07:06.639Z",
+          "display_at": "2021-12-13T11:07:06.639Z",
           "affected_components": [
             {
               "code": "hk36hlvygg2q",
               "name": "Marketplace - Reporting APIs and dashboards",
               "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "3r9g3xk4qkbd",
+          "status": "investigating",
+          "body": "Some of the latest transactions and licenses might not have contacts and partner data. We are investigating the issue.",
+          "incident_id": "xqgmxs9h8mgy",
+          "created_at": "2021-12-13T04:48:12.367Z",
+          "updated_at": "2021-12-13T04:48:12.367Z",
+          "display_at": "2021-12-13T04:48:12.367Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "operational",
               "new_status": "partial_outage"
             }
           ],
@@ -721,31 +741,31 @@
       ]
     },
     {
-      "id": "xqgmxs9h8mgy",
-      "name": "Contacts and Partner Data missing in the latest transaction data",
-      "status": "investigating",
-      "created_at": "2021-12-13T04:48:12.265Z",
-      "updated_at": "2021-12-13T04:48:12.371Z",
+      "id": "dllrb43pbcf4",
+      "name": "The active installation count is showing a dip for Marketplace apps",
+      "status": "identified",
+      "created_at": "2021-12-13T08:41:41.140Z",
+      "updated_at": "2021-12-13T08:41:55.437Z",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/fz3z3gly0dfb",
-      "started_at": "2021-12-13T04:48:12.255Z",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/2vl5j80tgc0p",
+      "started_at": "2021-12-13T08:41:41.130Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
         {
-          "id": "3r9g3xk4qkbd",
-          "status": "investigating",
-          "body": "Some of the latest transactions and licenses might not have contacts and partner data. We are investigating the issue.",
-          "incident_id": "xqgmxs9h8mgy",
-          "created_at": "2021-12-13T04:48:12.367Z",
-          "updated_at": "2021-12-13T04:48:12.367Z",
-          "display_at": "2021-12-13T04:48:12.367Z",
+          "id": "gbdvn5s4xrsf",
+          "status": "identified",
+          "body": "We identified an issue where apps are showing a dip in installation count. The dip is not a genuine dip and a fix is already implemented which would put back the right numbers starting next Monday i.e. 20th Dec'21 on the UI as well.",
+          "incident_id": "dllrb43pbcf4",
+          "created_at": "2021-12-13T08:41:41.247Z",
+          "updated_at": "2021-12-13T08:41:41.247Z",
+          "display_at": "2021-12-13T08:41:41.247Z",
           "affected_components": [
             {
               "code": "hk36hlvygg2q",
               "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "operational",
+              "old_status": "partial_outage",
               "new_status": "partial_outage"
             }
           ],
