@@ -4,7 +4,7 @@
     "name": "Confluence",
     "url": "https://confluence.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-12-13T22:42:00.246Z"
+    "updated_at": "2021-12-14T00:40:39.321Z"
   },
   "components": [
     {
@@ -42,7 +42,7 @@
       "name": "Create and Edit",
       "status": "operational",
       "created_at": "2018-11-12T04:04:58.145Z",
-      "updated_at": "2021-12-09T03:57:54.026Z",
+      "updated_at": "2021-12-14T00:38:58.223Z",
       "position": 2,
       "description": null,
       "showcase": false,
