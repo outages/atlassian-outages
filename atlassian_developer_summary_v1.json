@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-12-16T00:23:33.085Z"
+    "updated_at": "2021-12-16T02:10:49.823Z"
   },
   "components": [
     {
@@ -40,7 +40,7 @@
     {
       "id": "w0ld3nc9jvdx",
       "name": "APIs",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:15:10.342Z",
       "updated_at": "2018-02-01T17:16:31.201Z",
       "position": 1,
@@ -94,9 +94,9 @@
     {
       "id": "yjqnzm0tkgsd",
       "name": "Confluence Cloud APIs",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:15:36.411Z",
-      "updated_at": "2021-12-12T23:26:06.969Z",
+      "updated_at": "2021-12-16T02:10:49.776Z",
       "position": 2,
       "description": null,
       "showcase": true,
@@ -669,78 +669,6 @@
   ],
   "incidents": [
     {
-      "id": "9c9n8zvkq1d1",
-      "name": "Create a space via API fails if permissions are provided",
-      "status": "monitoring",
-      "created_at": "2021-12-12T23:26:06.929Z",
-      "updated_at": "2021-12-15T23:19:59.663Z",
-      "monitoring_at": "2021-12-15T23:19:59.632Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/hsyz4w7khf5d",
-      "started_at": "2021-12-12T23:26:06.920Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "s2c3w4cgfq42",
-          "status": "monitoring",
-          "body": "A fix has been implemented and we are monitoring the results.",
-          "incident_id": "9c9n8zvkq1d1",
-          "created_at": "2021-12-15T23:19:59.632Z",
-          "updated_at": "2021-12-15T23:19:59.632Z",
-          "display_at": "2021-12-15T23:19:59.632Z",
-          "affected_components": [
-            {
-              "code": "yjqnzm0tkgsd",
-              "name": "APIs - Confluence Cloud APIs",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "5qtrfb3tzt0g",
-          "status": "identified",
-          "body": "The issue has been identified and a fix is being implemented.",
-          "incident_id": "9c9n8zvkq1d1",
-          "created_at": "2021-12-12T23:26:07.014Z",
-          "updated_at": "2021-12-12T23:26:07.014Z",
-          "display_at": "2021-12-12T23:26:07.014Z",
-          "affected_components": [
-            {
-              "code": "yjqnzm0tkgsd",
-              "name": "APIs - Confluence Cloud APIs",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "yjqnzm0tkgsd",
-          "name": "Confluence Cloud APIs",
-          "status": "partial_outage",
-          "created_at": "2018-02-01T17:15:36.411Z",
-          "updated_at": "2021-12-12T23:26:06.969Z",
-          "position": 2,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "w0ld3nc9jvdx",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    },
-    {
       "id": "dllrb43pbcf4",
       "name": "The active installation count is showing a dip for Marketplace apps",
       "status": "identified",
@@ -795,7 +723,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
