@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-12-17T19:23:32.843Z"
+    "updated_at": "2021-12-17T20:28:50.966Z"
   },
   "components": [
     {
@@ -519,9 +519,9 @@
     {
       "id": "ngby5fdfj3px",
       "name": "In-product Marketplace and app installation (Server)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:38:37.793Z",
-      "updated_at": "2021-12-17T18:34:06.494Z",
+      "updated_at": "2021-12-17T20:28:50.909Z",
       "position": 8,
       "description": "The ability to discover, install, and manage apps inside of Atlassian's Server products (Jira, Confluence, Bitbucket, Bamboo, Fisheye / Crucible, Hipchat)",
       "showcase": true,
@@ -711,58 +711,6 @@
           "updated_at": "2021-12-17T19:15:59.073Z",
           "position": 11,
           "description": "Marketing attribution reports are now operational.",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    },
-    {
-      "id": "81gdrzmdbvh4",
-      "name": "Marketplace Apps are not configurable on all Server/DC products",
-      "status": "investigating",
-      "created_at": "2021-12-17T18:34:06.465Z",
-      "updated_at": "2021-12-17T18:35:58.351Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/xhvxxmgdn61n",
-      "started_at": "2021-12-17T18:34:06.459Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "g01vkdcd88mh",
-          "status": "investigating",
-          "body": "We are currently investigating this issue.",
-          "incident_id": "81gdrzmdbvh4",
-          "created_at": "2021-12-17T18:34:06.531Z",
-          "updated_at": "2021-12-17T18:34:06.531Z",
-          "display_at": "2021-12-17T18:34:06.531Z",
-          "affected_components": [
-            {
-              "code": "ngby5fdfj3px",
-              "name": "Marketplace - In-product Marketplace and app installation (Server)",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "ngby5fdfj3px",
-          "name": "In-product Marketplace and app installation (Server)",
-          "status": "partial_outage",
-          "created_at": "2018-02-01T17:38:37.793Z",
-          "updated_at": "2021-12-17T18:34:06.494Z",
-          "position": 8,
-          "description": "The ability to discover, install, and manage apps inside of Atlassian's Server products (Jira, Confluence, Bitbucket, Bamboo, Fisheye / Crucible, Hipchat)",
           "showcase": true,
           "start_date": null,
           "group_id": "d0m8l367qqw5",
