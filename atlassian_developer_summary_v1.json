@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-12-18T17:00:34.465Z"
+    "updated_at": "2021-12-18T21:00:32.702Z"
   },
   "components": [
     {
@@ -347,7 +347,7 @@
     {
       "id": "jgnwrfzynh93",
       "name": "Support",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-02-01T17:27:18.010Z",
       "updated_at": "2018-02-01T17:40:12.769Z",
       "position": 5,
@@ -429,9 +429,9 @@
     {
       "id": "bqzdpnq7v22n",
       "name": "Atlassian Support",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2019-05-01T23:50:52.594Z",
-      "updated_at": "2021-12-18T17:00:34.412Z",
+      "updated_at": "2021-12-18T21:00:32.689Z",
       "position": 6,
       "description": null,
       "showcase": false,
@@ -723,7 +723,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
