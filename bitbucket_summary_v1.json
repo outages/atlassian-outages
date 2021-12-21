@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-12-20T23:23:30.936Z"
+    "updated_at": "2021-12-21T00:11:09.101Z"
   },
   "components": [
     {
@@ -203,60 +203,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "9ncw2dvmwym3",
-      "name": "Dockerhub outage causing builds to fail",
-      "status": "identified",
-      "created_at": "2021-12-20T23:11:52.681Z",
-      "updated_at": "2021-12-20T23:11:53.237Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/c22dhx2rg5nn",
-      "started_at": "2021-12-20T23:11:52.676Z",
-      "page_id": "bqlf8qjztdtr",
-      "incident_updates": [
-        {
-          "id": "3g6zwrhm1z56",
-          "status": "identified",
-          "body": "Dockerhub are experiencing an incident which is preventing images from being pulled. Please follow Dockehub's status for updates at https://status.docker.com/",
-          "incident_id": "9ncw2dvmwym3",
-          "created_at": "2021-12-20T23:11:52.733Z",
-          "updated_at": "2021-12-20T23:11:53.232Z",
-          "display_at": "2021-12-20T23:11:52.733Z",
-          "affected_components": [
-            {
-              "code": "rzh2n85q7vtt",
-              "name": "Pipelines",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1473068666820251600
-        }
-      ],
-      "components": [
-        {
-          "id": "rzh2n85q7vtt",
-          "name": "Pipelines",
-          "status": "operational",
-          "created_at": "2016-08-23T20:04:54.469Z",
-          "updated_at": "2021-12-09T10:21:36.777Z",
-          "position": 9,
-          "description": "Continuous integration and delivery for Bitbucket repos",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "bqlf8qjztdtr",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
