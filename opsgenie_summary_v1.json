@@ -4,7 +4,7 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-12-21T04:30:30.035Z"
+    "updated_at": "2021-12-21T05:30:37.861Z"
   },
   "components": [
     {
@@ -79,7 +79,7 @@
     {
       "id": "k7gyfk44wrsr",
       "name": "EU",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2019-02-12T13:47:54.389Z",
       "updated_at": "2019-02-12T13:47:54.389Z",
       "position": 2,
@@ -658,9 +658,9 @@
     {
       "id": "lz2zqb1vtlp4",
       "name": "Reporting & Analytics",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2019-02-12T13:47:54.400Z",
-      "updated_at": "2021-12-13T10:59:39.011Z",
+      "updated_at": "2021-12-21T05:30:37.807Z",
       "position": 20,
       "description": "Reporting Page",
       "showcase": true,
@@ -764,78 +764,11 @@
   "incidents": [],
   "scheduled_maintenances": [
     {
-      "id": "wfpd8v8ypgx8",
-      "name": "Opsgenie Reporting & Analytics is under maintenance in EU",
-      "status": "scheduled",
-      "created_at": "2021-12-20T08:22:22.440Z",
-      "updated_at": "2021-12-21T04:30:30.024Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/r86vbjkjhg9v",
-      "started_at": "2021-12-20T08:22:22.431Z",
-      "page_id": "t05vdsszxwtq",
-      "incident_updates": [
-        {
-          "id": "lvlg574wchzz",
-          "status": "scheduled",
-          "body": "Maintenance will begin as scheduled in 60 minutes.",
-          "incident_id": "wfpd8v8ypgx8",
-          "created_at": "2021-12-21T04:30:29.875Z",
-          "updated_at": "2021-12-21T04:30:29.875Z",
-          "display_at": "2021-12-21T04:30:29.875Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "z37jzf22j8sp",
-          "status": "scheduled",
-          "body": "We will be undergoing scheduled maintenance during this time",
-          "incident_id": "wfpd8v8ypgx8",
-          "created_at": "2021-12-20T08:22:22.507Z",
-          "updated_at": "2021-12-20T08:22:22.507Z",
-          "display_at": "2021-12-20T08:22:22.507Z",
-          "affected_components": [
-            {
-              "code": "lz2zqb1vtlp4",
-              "name": "EU - Reporting & Analytics",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "lz2zqb1vtlp4",
-          "name": "Reporting & Analytics",
-          "status": "operational",
-          "created_at": "2019-02-12T13:47:54.400Z",
-          "updated_at": "2021-12-13T10:59:39.011Z",
-          "position": 20,
-          "description": "Reporting Page",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "k7gyfk44wrsr",
-          "page_id": "t05vdsszxwtq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2021-12-21T05:30:00.000Z",
-      "scheduled_until": "2021-12-21T06:30:00.000Z"
-    },
-    {
       "id": "zzh5p3hqwv9l",
       "name": "Opsgenie Reporting & Analytics is under maintenance in US",
       "status": "scheduled",
       "created_at": "2021-12-20T08:24:03.254Z",
-      "updated_at": "2021-12-20T08:24:03.301Z",
+      "updated_at": "2021-12-21T05:30:30.661Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -843,6 +776,19 @@
       "started_at": "2021-12-20T08:24:03.248Z",
       "page_id": "t05vdsszxwtq",
       "incident_updates": [
+        {
+          "id": "wxp2pfrfclsx",
+          "status": "scheduled",
+          "body": "Maintenance will begin as scheduled in 60 minutes.",
+          "incident_id": "zzh5p3hqwv9l",
+          "created_at": "2021-12-21T05:30:30.313Z",
+          "updated_at": "2021-12-21T05:30:30.313Z",
+          "display_at": "2021-12-21T05:30:30.313Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "gqv31gj8dgpb",
           "status": "scheduled",
@@ -883,10 +829,97 @@
       ],
       "scheduled_for": "2021-12-21T06:30:00.000Z",
       "scheduled_until": "2021-12-21T07:30:00.000Z"
+    },
+    {
+      "id": "wfpd8v8ypgx8",
+      "name": "Opsgenie Reporting & Analytics is under maintenance in EU",
+      "status": "in_progress",
+      "created_at": "2021-12-20T08:22:22.440Z",
+      "updated_at": "2021-12-21T05:30:37.849Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/r86vbjkjhg9v",
+      "started_at": "2021-12-20T08:22:22.431Z",
+      "page_id": "t05vdsszxwtq",
+      "incident_updates": [
+        {
+          "id": "nk0hmb1srq25",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "wfpd8v8ypgx8",
+          "created_at": "2021-12-21T05:30:37.846Z",
+          "updated_at": "2021-12-21T05:30:37.846Z",
+          "display_at": "2021-12-21T05:30:37.846Z",
+          "affected_components": [
+            {
+              "code": "lz2zqb1vtlp4",
+              "name": "EU - Reporting & Analytics",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "lvlg574wchzz",
+          "status": "scheduled",
+          "body": "Maintenance will begin as scheduled in 60 minutes.",
+          "incident_id": "wfpd8v8ypgx8",
+          "created_at": "2021-12-21T04:30:29.875Z",
+          "updated_at": "2021-12-21T04:30:29.875Z",
+          "display_at": "2021-12-21T04:30:29.875Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "z37jzf22j8sp",
+          "status": "scheduled",
+          "body": "We will be undergoing scheduled maintenance during this time",
+          "incident_id": "wfpd8v8ypgx8",
+          "created_at": "2021-12-20T08:22:22.507Z",
+          "updated_at": "2021-12-20T08:22:22.507Z",
+          "display_at": "2021-12-20T08:22:22.507Z",
+          "affected_components": [
+            {
+              "code": "lz2zqb1vtlp4",
+              "name": "EU - Reporting & Analytics",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "lz2zqb1vtlp4",
+          "name": "Reporting & Analytics",
+          "status": "under_maintenance",
+          "created_at": "2019-02-12T13:47:54.400Z",
+          "updated_at": "2021-12-21T05:30:37.807Z",
+          "position": 20,
+          "description": "Reporting Page",
+          "showcase": true,
+          "start_date": null,
+          "group_id": "k7gyfk44wrsr",
+          "page_id": "t05vdsszxwtq",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2021-12-21T05:30:00.000Z",
+      "scheduled_until": "2021-12-21T06:30:00.000Z"
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
