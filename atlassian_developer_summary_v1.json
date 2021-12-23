@@ -4,15 +4,15 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-12-21T06:29:43.005Z"
+    "updated_at": "2021-12-23T23:13:35.371Z"
   },
   "components": [
     {
       "id": "wzmg8phvmrwh",
       "name": "App Deployment",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2021-03-23T12:00:27.385Z",
-      "updated_at": "2021-11-23T03:03:03.428Z",
+      "updated_at": "2021-12-23T23:13:29.614Z",
       "position": 1,
       "description": null,
       "showcase": true,
@@ -139,7 +139,7 @@
     {
       "id": "73bt63kd5q9k",
       "name": "Developer",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2018-02-01T17:21:34.889Z",
       "updated_at": "2019-05-02T04:22:45.333Z",
       "position": 2,
@@ -667,10 +667,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "p0rhrwl77my5",
+      "name": "Forge apps cannot be deployed",
+      "status": "investigating",
+      "created_at": "2021-12-23T23:13:29.585Z",
+      "updated_at": "2021-12-23T23:13:35.368Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/nw61z6rn1x7p",
+      "started_at": "2021-12-23T23:13:29.579Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "zwxmynnt3v45",
+          "status": "investigating",
+          "body": "We are currently investigating this issue.",
+          "incident_id": "p0rhrwl77my5",
+          "created_at": "2021-12-23T23:13:29.649Z",
+          "updated_at": "2021-12-23T23:13:29.649Z",
+          "display_at": "2021-12-23T23:13:29.649Z",
+          "affected_components": [
+            {
+              "code": "wzmg8phvmrwh",
+              "name": "Developer - App Deployment",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "wzmg8phvmrwh",
+          "name": "App Deployment",
+          "status": "partial_outage",
+          "created_at": "2021-03-23T12:00:27.385Z",
+          "updated_at": "2021-12-23T23:13:29.614Z",
+          "position": 1,
+          "description": null,
+          "showcase": true,
+          "start_date": "2021-03-23",
+          "group_id": "73bt63kd5q9k",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
