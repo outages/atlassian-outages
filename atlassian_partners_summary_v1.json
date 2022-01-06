@@ -4,7 +4,7 @@
     "name": "Atlassian Partners",
     "url": "https://partners.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-01-04T21:23:42.637Z"
+    "updated_at": "2022-01-06T04:37:48.379Z"
   },
   "components": [
     {
@@ -84,7 +84,83 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "d223dp326348",
+      "name": "Scheduled maintenance for partners.atlassian.com",
+      "status": "scheduled",
+      "created_at": "2022-01-06T04:37:48.318Z",
+      "updated_at": "2022-01-06T04:37:48.376Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/6b9ks0mf7scl",
+      "started_at": "2022-01-06T04:37:48.312Z",
+      "page_id": "tfc0vzc0cq1n",
+      "incident_updates": [
+        {
+          "id": "z0dkqr8gdh7w",
+          "status": "scheduled",
+          "body": "We will be undergoing scheduled maintenance for partners.atlassian.com.",
+          "incident_id": "d223dp326348",
+          "created_at": "2022-01-06T04:37:48.373Z",
+          "updated_at": "2022-01-06T04:37:48.373Z",
+          "display_at": "2022-01-06T04:37:48.373Z",
+          "affected_components": [
+            {
+              "code": "4l5b50t3yc3t",
+              "name": "Partner Portal",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "j78nb9lncctw",
+              "name": "Partner Support Portal",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "4l5b50t3yc3t",
+          "name": "Partner Portal",
+          "status": "operational",
+          "created_at": "2018-11-16T18:04:29.761Z",
+          "updated_at": "2021-10-29T23:41:08.879Z",
+          "position": 1,
+          "description": "https://partners.atlassian.com/",
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "tfc0vzc0cq1n",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "j78nb9lncctw",
+          "name": "Partner Support Portal",
+          "status": "operational",
+          "created_at": "2018-11-16T18:04:29.782Z",
+          "updated_at": "2021-06-26T23:00:43.599Z",
+          "position": 2,
+          "description": "https://partners-jira.atlassian.com/",
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "tfc0vzc0cq1n",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2022-01-08T22:00:00.000Z",
+      "scheduled_until": "2022-01-08T23:00:00.000Z"
+    }
+  ],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
