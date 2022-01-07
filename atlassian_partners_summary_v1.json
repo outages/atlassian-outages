@@ -4,7 +4,7 @@
     "name": "Atlassian Partners",
     "url": "https://partners.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-01-06T05:23:44.695Z"
+    "updated_at": "2022-01-07T08:35:39.393Z"
   },
   "components": [
     {
@@ -77,6 +77,21 @@
       "description": null,
       "showcase": true,
       "start_date": null,
+      "group_id": null,
+      "page_id": "tfc0vzc0cq1n",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "zxmvxw8fjvmx",
+      "name": "Partner Portal dashboard",
+      "status": "operational",
+      "created_at": "2022-01-07T08:35:39.390Z",
+      "updated_at": "2022-01-07T08:35:39.390Z",
+      "position": 6,
+      "description": "https://tableau-embedded-analytics.services.atlassian.com/",
+      "showcase": true,
+      "start_date": "2022-01-07",
       "group_id": null,
       "page_id": "tfc0vzc0cq1n",
       "group": false,
