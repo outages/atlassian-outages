@@ -4,15 +4,15 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-01-10T19:31:34.051Z"
+    "updated_at": "2022-01-19T14:59:55.184Z"
   },
   "components": [
     {
       "id": "jmgfbtr0k28j",
       "name": "Viewing content",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-01-22T20:42:24.651Z",
-      "updated_at": "2021-12-07T17:43:20.565Z",
+      "updated_at": "2022-01-19T14:59:55.131Z",
       "position": 1,
       "description": "Problems viewing issues, dashboards, boards, reports, etc.",
       "showcase": false,
@@ -173,10 +173,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "5j5754ghwmsl",
+      "name": "Jira Cloud failing with Redux Devtools extension enabled",
+      "status": "monitoring",
+      "created_at": "2022-01-19T14:59:55.099Z",
+      "updated_at": "2022-01-19T14:59:55.182Z",
+      "monitoring_at": "2022-01-19T14:59:55.173Z",
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/yvj6580z5pt0",
+      "started_at": "2022-01-19T14:59:55.092Z",
+      "page_id": "7yh3h3y0c0x1",
+      "incident_updates": [
+        {
+          "id": "myc57p7vst4z",
+          "status": "monitoring",
+          "body": "On Jan 19 Jira Cloud Software experienced reports that Jira backlogs and boards were not loading. We've narrowed the problem to the Redux Devtools extension version 3.0.4. Disabling the extension in the browser mitigates the problem. The extension maintainers are aware of the problem and working on a fix. Customers can follow updates on https://github.com/reduxjs/redux-devtools/issues/1032",
+          "incident_id": "5j5754ghwmsl",
+          "created_at": "2022-01-19T14:59:55.173Z",
+          "updated_at": "2022-01-19T14:59:55.173Z",
+          "display_at": "2022-01-19T14:59:55.173Z",
+          "affected_components": [
+            {
+              "code": "jmgfbtr0k28j",
+              "name": "Viewing content",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "jmgfbtr0k28j",
+          "name": "Viewing content",
+          "status": "partial_outage",
+          "created_at": "2019-01-22T20:42:24.651Z",
+          "updated_at": "2022-01-19T14:59:55.131Z",
+          "position": 1,
+          "description": "Problems viewing issues, dashboards, boards, reports, etc.",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "7yh3h3y0c0x1",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
