@@ -4,7 +4,7 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-01-19T15:23:44.689Z"
+    "updated_at": "2022-01-20T04:17:31.873Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Jira Cloud failing with Redux Devtools extension enabled",
       "status": "monitoring",
       "created_at": "2022-01-19T14:59:55.099Z",
-      "updated_at": "2022-01-19T14:59:55.182Z",
+      "updated_at": "2022-01-20T04:17:31.862Z",
       "monitoring_at": "2022-01-19T14:59:55.173Z",
       "resolved_at": null,
       "impact": "major",
@@ -187,6 +187,26 @@
       "started_at": "2022-01-19T14:59:55.092Z",
       "page_id": "7yh3h3y0c0x1",
       "incident_updates": [
+        {
+          "id": "ljpntgqzcxjz",
+          "status": "monitoring",
+          "body": "Users of Jira Cloud that have the Redux Devtools extension enabled reported problems with loading classic boards and backlogs in Jira since January 19th. The maintainers of the extension were made aware of the issue and have published an update that addresses the problem. While the update gets released, we recommend users to disable the Redux Devtools extension temporarily.\nCustomers can follow updates on https://github.com/reduxjs/redux-devtools/issues/1032.",
+          "incident_id": "5j5754ghwmsl",
+          "created_at": "2022-01-20T04:17:31.860Z",
+          "updated_at": "2022-01-20T04:17:31.860Z",
+          "display_at": "2022-01-20T04:17:31.860Z",
+          "affected_components": [
+            {
+              "code": "jmgfbtr0k28j",
+              "name": "Viewing content",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "myc57p7vst4z",
           "status": "monitoring",
