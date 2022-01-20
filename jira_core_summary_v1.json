@@ -4,15 +4,15 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-01-20T04:23:59.132Z"
+    "updated_at": "2022-01-20T05:07:28.450Z"
   },
   "components": [
     {
       "id": "l4fp2xkkygv4",
       "name": "Viewing content",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-11-16T18:17:29.270Z",
-      "updated_at": "2022-01-19T14:59:55.125Z",
+      "updated_at": "2022-01-20T05:07:28.395Z",
       "position": 1,
       "description": "Problems viewing issues, dashboards, boards, reports, etc.",
       "showcase": false,
@@ -173,83 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "1b3rdcddrmpr",
-      "name": "Jira Cloud failing with Redux Devtools extension enabled",
-      "status": "monitoring",
-      "created_at": "2022-01-19T14:59:55.086Z",
-      "updated_at": "2022-01-20T04:21:23.646Z",
-      "monitoring_at": "2022-01-19T14:59:55.175Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/9cky3wgk7x24",
-      "started_at": "2022-01-19T14:59:55.078Z",
-      "page_id": "s6f0gm5gcpmy",
-      "incident_updates": [
-        {
-          "id": "8hn7806q1202",
-          "status": "monitoring",
-          "body": "Users of Jira Cloud that have the Redux Devtools extension enabled reported problems with loading classic boards and backlogs in Jira since January 19th. The maintainers of the extension were made aware of the issue and have published an update that addresses the problem. While the update gets released, we recommend users to disable the Redux Devtools extension temporarily.\nCustomers can follow updates on https://github.com/reduxjs/redux-devtools/issues/1032.",
-          "incident_id": "1b3rdcddrmpr",
-          "created_at": "2022-01-20T04:21:23.643Z",
-          "updated_at": "2022-01-20T04:21:23.643Z",
-          "display_at": "2022-01-20T04:21:23.643Z",
-          "affected_components": [
-            {
-              "code": "l4fp2xkkygv4",
-              "name": "Viewing content",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "7yjq6tcs31z9",
-          "status": "monitoring",
-          "body": "On Jan 19 Jira Cloud Software experienced reports that Jira backlogs and boards were not loading. We've narrowed the problem to the Redux Devtools extension version 3.0.4. Disabling the extension in the browser mitigates the problem. The extension maintainers are aware of the problem and working on a fix. Customers can follow updates on https://github.com/reduxjs/redux-devtools/issues/1032",
-          "incident_id": "1b3rdcddrmpr",
-          "created_at": "2022-01-19T14:59:55.175Z",
-          "updated_at": "2022-01-19T14:59:55.175Z",
-          "display_at": "2022-01-19T14:59:55.175Z",
-          "affected_components": [
-            {
-              "code": "l4fp2xkkygv4",
-              "name": "Viewing content",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "l4fp2xkkygv4",
-          "name": "Viewing content",
-          "status": "partial_outage",
-          "created_at": "2018-11-16T18:17:29.270Z",
-          "updated_at": "2022-01-19T14:59:55.125Z",
-          "position": 1,
-          "description": "Problems viewing issues, dashboards, boards, reports, etc.",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "s6f0gm5gcpmy",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
