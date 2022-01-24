@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-01-24T12:23:35.127Z"
+    "updated_at": "2022-01-24T21:03:38.320Z"
   },
   "components": [
     {
@@ -40,7 +40,7 @@
     {
       "id": "w0ld3nc9jvdx",
       "name": "APIs",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:15:10.342Z",
       "updated_at": "2018-02-01T17:16:31.201Z",
       "position": 1,
@@ -94,9 +94,9 @@
     {
       "id": "yjqnzm0tkgsd",
       "name": "Confluence Cloud APIs",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:15:36.411Z",
-      "updated_at": "2022-01-24T05:18:36.890Z",
+      "updated_at": "2022-01-24T21:03:38.274Z",
       "position": 2,
       "description": null,
       "showcase": true,
@@ -667,60 +667,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "x2jvlgrh894c",
-      "name": "PDF page export is not calling renderModes",
-      "status": "investigating",
-      "created_at": "2022-01-24T05:18:36.855Z",
-      "updated_at": "2022-01-24T05:18:36.934Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/c8h381vgx06m",
-      "started_at": "2022-01-24T05:18:36.847Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "90n0c5pt6z2m",
-          "status": "investigating",
-          "body": "We are currently investigating this issue.",
-          "incident_id": "x2jvlgrh894c",
-          "created_at": "2022-01-24T05:18:36.932Z",
-          "updated_at": "2022-01-24T05:18:36.932Z",
-          "display_at": "2022-01-24T05:18:36.932Z",
-          "affected_components": [
-            {
-              "code": "yjqnzm0tkgsd",
-              "name": "APIs - Confluence Cloud APIs",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "yjqnzm0tkgsd",
-          "name": "Confluence Cloud APIs",
-          "status": "partial_outage",
-          "created_at": "2018-02-01T17:15:36.411Z",
-          "updated_at": "2022-01-24T05:18:36.890Z",
-          "position": 2,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "w0ld3nc9jvdx",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [
     {
       "id": "j6bpcqdys91h",
@@ -925,7 +872,7 @@
     }
   ],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
