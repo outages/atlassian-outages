@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-01-25T09:33:27.168Z"
+    "updated_at": "2022-01-25T11:21:50.922Z"
   },
   "components": [
     {
@@ -302,9 +302,9 @@
     {
       "id": "fjsq71xwd3rn",
       "name": "Authentication and user management",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-05-02T04:22:28.554Z",
-      "updated_at": "2022-01-25T09:05:11.874Z",
+      "updated_at": "2022-01-25T11:21:50.846Z",
       "position": 4,
       "description": null,
       "showcase": true,
@@ -444,9 +444,9 @@
     {
       "id": "kj290v20168q",
       "name": "Evaluations and purchases",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2018-02-01T17:50:19.946Z",
-      "updated_at": "2022-01-25T04:09:47.061Z",
+      "updated_at": "2022-01-25T11:21:50.864Z",
       "position": 6,
       "description": null,
       "showcase": true,
@@ -639,9 +639,9 @@
     {
       "id": "1vvmngd73171",
       "name": "Vendor management",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2018-02-01T17:53:33.728Z",
-      "updated_at": "2022-01-25T04:09:47.128Z",
+      "updated_at": "2022-01-25T11:21:50.881Z",
       "position": 13,
       "description": null,
       "showcase": true,
@@ -671,9 +671,9 @@
     {
       "id": "0skpyptyy879",
       "name": "Intermittent Failures while accessing Atlassian Marketplace",
-      "status": "monitoring",
+      "status": "identified",
       "created_at": "2022-01-25T05:37:58.847Z",
-      "updated_at": "2022-01-25T09:33:27.165Z",
+      "updated_at": "2022-01-25T11:21:50.913Z",
       "monitoring_at": "2022-01-25T09:33:27.147Z",
       "resolved_at": null,
       "impact": "major",
@@ -681,6 +681,50 @@
       "started_at": "2022-01-25T05:37:58.837Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "sk9kkjr9w5fj",
+          "status": "identified",
+          "body": "We are still seeing intermittent Failures(503's) while accessing Atlassian Marketplace, We are continuing to fix this issue.",
+          "incident_id": "0skpyptyy879",
+          "created_at": "2022-01-25T11:21:50.910Z",
+          "updated_at": "2022-01-25T11:21:50.910Z",
+          "display_at": "2022-01-25T11:21:50.910Z",
+          "affected_components": [
+            {
+              "code": "mlr76v811c20",
+              "name": "Marketplace - App listing management",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "kj290v20168q",
+              "name": "Marketplace - Evaluations and purchases",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "3t1y6724xl8q",
+              "name": "Marketplace - In-product Marketplace and app installation (Cloud)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "1vvmngd73171",
+              "name": "Marketplace - Vendor management",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "fjsq71xwd3rn",
+              "name": "Authentication and user management",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "84wywq8cch2c",
           "status": "monitoring",
@@ -791,14 +835,29 @@
         {
           "id": "fjsq71xwd3rn",
           "name": "Authentication and user management",
-          "status": "operational",
+          "status": "partial_outage",
           "created_at": "2019-05-02T04:22:28.554Z",
-          "updated_at": "2022-01-25T09:05:11.874Z",
+          "updated_at": "2022-01-25T11:21:50.846Z",
           "position": 4,
           "description": null,
           "showcase": true,
           "start_date": null,
           "group_id": null,
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "kj290v20168q",
+          "name": "Evaluations and purchases",
+          "status": "partial_outage",
+          "created_at": "2018-02-01T17:50:19.946Z",
+          "updated_at": "2022-01-25T11:21:50.864Z",
+          "position": 6,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": "d0m8l367qqw5",
           "page_id": "n8766lc3ybbs",
           "group": false,
           "only_show_if_degraded": false
@@ -812,6 +871,21 @@
           "position": 7,
           "description": "The ability to discover, install, and manage apps inside of Atlassian's Cloud products (Jira, Confluence, Stride, Bitbucket)",
           "showcase": false,
+          "start_date": null,
+          "group_id": "d0m8l367qqw5",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "1vvmngd73171",
+          "name": "Vendor management",
+          "status": "partial_outage",
+          "created_at": "2018-02-01T17:53:33.728Z",
+          "updated_at": "2022-01-25T11:21:50.881Z",
+          "position": 13,
+          "description": null,
+          "showcase": true,
           "start_date": null,
           "group_id": "d0m8l367qqw5",
           "page_id": "n8766lc3ybbs",
