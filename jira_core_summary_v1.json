@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-01-27T10:59:29.277Z"
+    "updated_at": "2022-01-27T13:48:00.402Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Unable to create and view Webhooks",
       "status": "identified",
       "created_at": "2022-01-27T10:14:13.201Z",
-      "updated_at": "2022-01-27T10:59:29.267Z",
+      "updated_at": "2022-01-27T13:48:00.394Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -203,10 +203,10 @@
         {
           "id": "yh9d9w0ydrb5",
           "status": "investigating",
-          "body": "We are investigating an issue with unable to create and view Webhook that is impacting some Jira Cloud customers. We will provide more details within the next hour.",
+          "body": "We are investigating an issue with unable to manage webhooks in the Jira administration console that is impacting some Jira Cloud customers. We will provide more details within the next hour.",
           "incident_id": "770zt2v7rl2k",
           "created_at": "2022-01-27T10:14:13.240Z",
-          "updated_at": "2022-01-27T10:20:18.323Z",
+          "updated_at": "2022-01-27T13:48:00.390Z",
           "display_at": "2022-01-27T10:14:13.000Z",
           "affected_components": null,
           "deliver_notifications": false,
