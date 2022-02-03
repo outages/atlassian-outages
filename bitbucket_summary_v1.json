@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-02-03T23:23:32.333Z"
+    "updated_at": "2022-02-03T23:49:39.839Z"
   },
   "components": [
     {
@@ -203,80 +203,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "43bdkd2q5948",
-      "name": "Git operations via SSH are not working",
-      "status": "monitoring",
-      "created_at": "2022-02-03T23:15:59.019Z",
-      "updated_at": "2022-02-03T23:21:46.293Z",
-      "monitoring_at": "2022-02-03T23:21:45.622Z",
-      "resolved_at": null,
-      "impact": "critical",
-      "shortlink": "https://stspg.io/gfkkrzhwj7f1",
-      "started_at": "2022-02-03T23:15:59.014Z",
-      "page_id": "bqlf8qjztdtr",
-      "incident_updates": [
-        {
-          "id": "1v140dny3t6f",
-          "status": "monitoring",
-          "body": "The service is operational again, the team is monitoring to make sure the service remain stable.",
-          "incident_id": "43bdkd2q5948",
-          "created_at": "2022-02-03T23:21:45.622Z",
-          "updated_at": "2022-02-03T23:21:46.286Z",
-          "display_at": "2022-02-03T23:21:45.622Z",
-          "affected_components": [
-            {
-              "code": "qmh4tj8h5kbn",
-              "name": "Git via SSH",
-              "old_status": "major_outage",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1489378608149721000
-        },
-        {
-          "id": "vwhqpg9d109n",
-          "status": "investigating",
-          "body": "The Bitbucket engineering team is currently analyzing the problem and working on a solution",
-          "incident_id": "43bdkd2q5948",
-          "created_at": "2022-02-03T23:15:59.093Z",
-          "updated_at": "2022-02-03T23:15:59.604Z",
-          "display_at": "2022-02-03T23:15:59.093Z",
-          "affected_components": [
-            {
-              "code": "qmh4tj8h5kbn",
-              "name": "Git via SSH",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1489377154215264300
-        }
-      ],
-      "components": [
-        {
-          "id": "qmh4tj8h5kbn",
-          "name": "Git via SSH",
-          "status": "operational",
-          "created_at": "2013-10-10T17:45:00.679Z",
-          "updated_at": "2022-02-03T23:21:45.584Z",
-          "position": 3,
-          "description": "Access to Git over SSH.",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "bqlf8qjztdtr",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
