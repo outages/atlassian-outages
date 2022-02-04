@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-02-04T21:31:59.585Z"
+    "updated_at": "2022-02-04T21:49:52.870Z"
   },
   "components": [
     {
@@ -332,7 +332,7 @@
     {
       "id": "jgnwrfzynh93",
       "name": "Support",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-02-01T17:27:18.010Z",
       "updated_at": "2018-02-01T17:40:12.769Z",
       "position": 5,
@@ -520,9 +520,9 @@
     {
       "id": "slvmv5jvbr4p",
       "name": "Vulnerability management [AMS]",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2022-02-04T21:31:59.580Z",
-      "updated_at": "2022-02-04T21:31:59.580Z",
+      "updated_at": "2022-02-04T21:49:52.819Z",
       "position": 7,
       "description": null,
       "showcase": true,
@@ -683,10 +683,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "vp76f05zb05t",
+      "name": "AMS Vulnerability Attribution Bug",
+      "status": "investigating",
+      "created_at": "2022-02-04T21:49:52.784Z",
+      "updated_at": "2022-02-04T21:49:52.866Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/td7nfzpj9zrf",
+      "started_at": "2022-02-04T21:49:52.776Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "1fmm4rfrn48b",
+          "status": "investigating",
+          "body": "Atlassian is experiencing a bug that is impacting our ability to attribute security contacts to vulnerability tickets in AMS. As a result, admins are being assigned to tickets, and security contacts may be temporarily unable to access tickets. Our developers are working with internal teams to resolve this issue.",
+          "incident_id": "vp76f05zb05t",
+          "created_at": "2022-02-04T21:49:52.864Z",
+          "updated_at": "2022-02-04T21:49:52.864Z",
+          "display_at": "2022-02-04T21:49:52.864Z",
+          "affected_components": [
+            {
+              "code": "slvmv5jvbr4p",
+              "name": "Support - Vulnerability management [AMS]",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "slvmv5jvbr4p",
+          "name": "Vulnerability management [AMS]",
+          "status": "degraded_performance",
+          "created_at": "2022-02-04T21:31:59.580Z",
+          "updated_at": "2022-02-04T21:49:52.819Z",
+          "position": 7,
+          "description": null,
+          "showcase": true,
+          "start_date": "2022-02-04",
+          "group_id": "jgnwrfzynh93",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
