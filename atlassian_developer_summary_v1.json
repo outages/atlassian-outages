@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-02-04T04:24:12.971Z"
+    "updated_at": "2022-02-04T04:55:57.707Z"
   },
   "components": [
     {
@@ -671,9 +671,9 @@
     {
       "id": "1cj8p0mgc8yg",
       "name": "Delay in Feb 3rd - transactions and Licenses reports for marketplace partners",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2022-02-04T04:23:13.084Z",
-      "updated_at": "2022-02-04T04:23:13.160Z",
+      "updated_at": "2022-02-04T04:55:57.697Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -681,6 +681,26 @@
       "started_at": "2022-02-04T04:23:13.077Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "98513x71n2s1",
+          "status": "identified",
+          "body": "We have identified the issue and a fix has been implemented. data refresh to pull the latest data is underway.",
+          "incident_id": "1cj8p0mgc8yg",
+          "created_at": "2022-02-04T04:55:57.693Z",
+          "updated_at": "2022-02-04T04:55:57.693Z",
+          "display_at": "2022-02-04T04:55:57.693Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "w84x6r54whmn",
           "status": "investigating",
