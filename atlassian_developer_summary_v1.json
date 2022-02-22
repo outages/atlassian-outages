@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-02-22T04:13:00.140Z"
+    "updated_at": "2022-02-22T04:25:00.300Z"
   },
   "components": [
     {
@@ -689,10 +689,10 @@
       "name": "Contacts data is missing in reports for new created records",
       "status": "identified",
       "created_at": "2022-02-22T04:13:00.089Z",
-      "updated_at": "2022-02-22T04:13:00.137Z",
+      "updated_at": "2022-02-22T04:25:00.292Z",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "none",
+      "impact": "minor",
       "shortlink": "https://stspg.io/t1n82yvndnz8",
       "started_at": "2022-02-22T04:13:00.082Z",
       "page_id": "n8766lc3ybbs",
