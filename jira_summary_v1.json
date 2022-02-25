@@ -4,7 +4,7 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-02-18T23:23:38.596Z"
+    "updated_at": "2022-02-25T23:26:10.289Z"
   },
   "components": [
     {
@@ -173,38 +173,40 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
+  "incidents": [],
+  "scheduled_maintenances": [
     {
-      "id": "v3vm6tr2kk93",
-      "name": "Data residency moves are temporarily paused",
-      "status": "monitoring",
-      "created_at": "2022-02-18T22:58:30.750Z",
-      "updated_at": "2022-02-18T22:58:30.808Z",
-      "monitoring_at": "2022-02-18T22:58:30.796Z",
+      "id": "fts8yftb4n7p",
+      "name": "Data residency move requests are currently paused.",
+      "status": "scheduled",
+      "created_at": "2022-02-25T23:26:10.224Z",
+      "updated_at": "2022-02-25T23:26:10.285Z",
+      "monitoring_at": null,
       "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/zdc556tj8qqp",
-      "started_at": "2022-02-18T22:58:30.741Z",
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/v94nx2gllg68",
+      "started_at": "2022-02-25T23:26:10.219Z",
       "page_id": "7yh3h3y0c0x1",
       "incident_updates": [
         {
-          "id": "v5w3xdfrhtlz",
-          "status": "monitoring",
-          "body": "Data residency move requests are currently paused. They'll resume for:\r\nPremium and Enterprise plans on March 7\r\nStandard plans on March 14\r\n\r\nDue to an uptick in data residency migrations, we observed a backlog of migrations resulting in us pausing them while we are clearing the backlog and working on improving the scheduling mechanism, and implementing more optimizations",
-          "incident_id": "v3vm6tr2kk93",
-          "created_at": "2022-02-18T22:58:30.796Z",
-          "updated_at": "2022-02-18T22:58:30.796Z",
-          "display_at": "2022-02-18T22:58:30.796Z",
+          "id": "yj027dx1kx4c",
+          "status": "scheduled",
+          "body": "Data residency move requests are currently paused. They'll resume for:\nPremium and Enterprise plans on March 7\nStandard plans on March 14\n\nDue to an uptick in data residency migrations, we observed a backlog of migrations resulting in us pausing them while we are clearing the backlog and working on improving the scheduling mechanism, and implementing more optimizations",
+          "incident_id": "fts8yftb4n7p",
+          "created_at": "2022-02-25T23:26:10.282Z",
+          "updated_at": "2022-02-25T23:26:10.282Z",
+          "display_at": "2022-02-25T23:26:10.282Z",
           "affected_components": null,
           "deliver_notifications": false,
           "custom_tweet": null,
           "tweet_id": null
         }
       ],
-      "components": []
+      "components": [],
+      "scheduled_for": "2022-03-14T23:25:00.000Z",
+      "scheduled_until": "2022-03-15T00:25:00.000Z"
     }
   ],
-  "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
