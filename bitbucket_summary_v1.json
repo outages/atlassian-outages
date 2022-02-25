@@ -4,15 +4,15 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-02-25T10:26:22.407Z"
+    "updated_at": "2022-02-25T11:12:20.055Z"
   },
   "components": [
     {
       "id": "g0lfj4sv2fhf",
       "name": "Website",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2013-09-26T03:34:27.377Z",
-      "updated_at": "2022-02-25T10:26:22.340Z",
+      "updated_at": "2022-02-25T11:12:19.328Z",
       "position": 1,
       "description": "Access to bitbucket.org",
       "showcase": false,
@@ -25,9 +25,9 @@
     {
       "id": "k0x2yw1435v7",
       "name": "API",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2015-06-05T19:34:43.541Z",
-      "updated_at": "2022-02-25T10:26:22.357Z",
+      "updated_at": "2022-02-25T11:12:19.344Z",
       "position": 2,
       "description": "Access to api.bitbucket.org",
       "showcase": false,
@@ -203,84 +203,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "pgfzvm4ysk4x",
-      "name": "Investigating reports of slowness affecting Bitbucket website and Api",
-      "status": "investigating",
-      "created_at": "2022-02-25T10:26:22.302Z",
-      "updated_at": "2022-02-25T10:26:22.404Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/bknx24b9jn26",
-      "started_at": "2022-02-25T10:26:22.294Z",
-      "page_id": "bqlf8qjztdtr",
-      "incident_updates": [
-        {
-          "id": "dbw5q9n6t1sg",
-          "status": "investigating",
-          "body": "We are investigating reports of platform slowness for website access and API for Atlassian Bitbucket Cloud customers. We will provide more details within the next hour.",
-          "incident_id": "pgfzvm4ysk4x",
-          "created_at": "2022-02-25T10:26:22.402Z",
-          "updated_at": "2022-02-25T10:26:22.402Z",
-          "display_at": "2022-02-25T10:26:22.402Z",
-          "affected_components": [
-            {
-              "code": "g0lfj4sv2fhf",
-              "name": "Website",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "k0x2yw1435v7",
-              "name": "API",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "g0lfj4sv2fhf",
-          "name": "Website",
-          "status": "degraded_performance",
-          "created_at": "2013-09-26T03:34:27.377Z",
-          "updated_at": "2022-02-25T10:26:22.340Z",
-          "position": 1,
-          "description": "Access to bitbucket.org",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "bqlf8qjztdtr",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "k0x2yw1435v7",
-          "name": "API",
-          "status": "degraded_performance",
-          "created_at": "2015-06-05T19:34:43.541Z",
-          "updated_at": "2022-02-25T10:26:22.357Z",
-          "position": 2,
-          "description": "Access to api.bitbucket.org",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "bqlf8qjztdtr",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
