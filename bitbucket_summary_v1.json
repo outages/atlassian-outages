@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-03-03T00:32:03.328Z"
+    "updated_at": "2022-03-03T03:03:43.464Z"
   },
   "components": [
     {
@@ -115,9 +115,9 @@
     {
       "id": "rzh2n85q7vtt",
       "name": "Pipelines",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2016-08-23T20:04:54.469Z",
-      "updated_at": "2022-03-02T15:36:46.323Z",
+      "updated_at": "2022-03-03T03:03:42.747Z",
       "position": 9,
       "description": "Continuous integration and delivery for Bitbucket repos",
       "showcase": false,
@@ -203,103 +203,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "4p2cg1jpj1cm",
-      "name": "Scheduling of pipelines is delayed",
-      "status": "monitoring",
-      "created_at": "2022-03-02T15:36:46.287Z",
-      "updated_at": "2022-03-03T00:32:03.322Z",
-      "monitoring_at": "2022-03-03T00:32:02.798Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/n2zjsmn62f0h",
-      "started_at": "2022-03-02T15:36:46.282Z",
-      "page_id": "bqlf8qjztdtr",
-      "incident_updates": [
-        {
-          "id": "9qj4pl2r4grw",
-          "status": "monitoring",
-          "body": "A fix has been implemented and we are monitoring the results.",
-          "incident_id": "4p2cg1jpj1cm",
-          "created_at": "2022-03-03T00:32:02.798Z",
-          "updated_at": "2022-03-03T00:32:03.317Z",
-          "display_at": "2022-03-03T00:32:02.798Z",
-          "affected_components": [
-            {
-              "code": "rzh2n85q7vtt",
-              "name": "Pipelines",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1499180767926046700
-        },
-        {
-          "id": "1xtf6pp73d6s",
-          "status": "investigating",
-          "body": "We are continuing to investigate this issue.",
-          "incident_id": "4p2cg1jpj1cm",
-          "created_at": "2022-03-02T16:06:58.251Z",
-          "updated_at": "2022-03-02T16:06:58.977Z",
-          "display_at": "2022-03-02T16:06:58.251Z",
-          "affected_components": [
-            {
-              "code": "rzh2n85q7vtt",
-              "name": "Pipelines",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1499053661955051500
-        },
-        {
-          "id": "whbnfyc3jt1m",
-          "status": "investigating",
-          "body": "We are investigating an issue where some pipelines are slow to be scheduled for execution, and stuck in pending for an extended period of time.",
-          "incident_id": "4p2cg1jpj1cm",
-          "created_at": "2022-03-02T15:36:46.370Z",
-          "updated_at": "2022-03-02T15:36:46.846Z",
-          "display_at": "2022-03-02T15:36:46.370Z",
-          "affected_components": [
-            {
-              "code": "rzh2n85q7vtt",
-              "name": "Pipelines",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1499046061821677600
-        }
-      ],
-      "components": [
-        {
-          "id": "rzh2n85q7vtt",
-          "name": "Pipelines",
-          "status": "degraded_performance",
-          "created_at": "2016-08-23T20:04:54.469Z",
-          "updated_at": "2022-03-02T15:36:46.323Z",
-          "position": 9,
-          "description": "Continuous integration and delivery for Bitbucket repos",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "bqlf8qjztdtr",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
