@@ -4,15 +4,15 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2022-03-03T18:44:31.245-05:00"
+    "updated_at": "2022-03-03T19:45:38.316-05:00"
   },
   "components": [
     {
       "id": "hsr3nvlz0k2l",
       "name": "Trello.com",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2020-01-24T12:50:55.839-05:00",
-      "updated_at": "2022-02-08T12:02:05.166-05:00",
+      "updated_at": "2022-03-03T19:45:37.492-05:00",
       "position": 1,
       "description": "Web client",
       "showcase": true,
@@ -25,9 +25,9 @@
     {
       "id": "y1nllgnkxn9d",
       "name": "API",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2020-01-24T12:50:17.715-05:00",
-      "updated_at": "2022-02-08T12:02:05.187-05:00",
+      "updated_at": "2022-03-03T19:45:37.527-05:00",
       "position": 2,
       "description": null,
       "showcase": true,
@@ -88,9 +88,9 @@
     {
       "id": "p68yjn3kxz40",
       "name": "Scheduled Maintenance",
-      "status": "scheduled",
+      "status": "in_progress",
       "created_at": "2022-03-03T11:50:18.961-05:00",
-      "updated_at": "2022-03-03T18:44:31.241-05:00",
+      "updated_at": "2022-03-03T19:45:38.298-05:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -98,6 +98,32 @@
       "started_at": "2022-03-03T11:50:18.953-05:00",
       "page_id": "h5frqhb041yq",
       "incident_updates": [
+        {
+          "id": "s74wdb5gn2ss",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "p68yjn3kxz40",
+          "created_at": "2022-03-03T19:45:37.589-05:00",
+          "updated_at": "2022-03-03T19:45:38.292-05:00",
+          "display_at": "2022-03-03T19:45:37.589-05:00",
+          "affected_components": [
+            {
+              "code": "y1nllgnkxn9d",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "hsr3nvlz0k2l",
+              "name": "Trello.com",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1499546573935579100
+        },
         {
           "id": "rh6kk035mh66",
           "status": "scheduled",
@@ -142,9 +168,9 @@
         {
           "id": "hsr3nvlz0k2l",
           "name": "Trello.com",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2020-01-24T12:50:55.839-05:00",
-          "updated_at": "2022-02-08T12:02:05.166-05:00",
+          "updated_at": "2022-03-03T19:45:37.492-05:00",
           "position": 1,
           "description": "Web client",
           "showcase": true,
@@ -157,9 +183,9 @@
         {
           "id": "y1nllgnkxn9d",
           "name": "API",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2020-01-24T12:50:17.715-05:00",
-          "updated_at": "2022-02-08T12:02:05.187-05:00",
+          "updated_at": "2022-03-03T19:45:37.527-05:00",
           "position": 2,
           "description": null,
           "showcase": true,
@@ -175,7 +201,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
