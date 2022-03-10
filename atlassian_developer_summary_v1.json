@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-03-10T13:17:41.978Z"
+    "updated_at": "2022-03-10T16:23:15.118Z"
   },
   "components": [
     {
@@ -196,7 +196,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -475,9 +475,9 @@
     {
       "id": "3t1y6724xl8q",
       "name": "In-product Marketplace and app installation (Cloud)",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2013-12-03T00:45:39.973Z",
-      "updated_at": "2022-03-10T13:17:41.922Z",
+      "updated_at": "2022-03-10T16:23:15.061Z",
       "position": 7,
       "description": "The ability to discover, install, and manage apps inside of Atlassian's Cloud products (Jira, Confluence, Stride, Bitbucket)",
       "showcase": false,
@@ -687,9 +687,9 @@
     {
       "id": "km95q9l2f1hs",
       "name": "install webhooks for Connect apps are sent to the wrong region",
-      "status": "monitoring",
+      "status": "identified",
       "created_at": "2022-03-10T11:51:50.835Z",
-      "updated_at": "2022-03-10T13:17:41.975Z",
+      "updated_at": "2022-03-10T16:23:15.108Z",
       "monitoring_at": "2022-03-10T13:17:41.960Z",
       "resolved_at": null,
       "impact": "major",
@@ -697,6 +697,26 @@
       "started_at": "2022-03-10T11:51:50.825Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "q5sl21s3qrm1",
+          "status": "identified",
+          "body": "We have confirmed that some of the aforementioned 16 apps with enabled data residency were affected. We're working on deploying a hotfix right now. After the hotfix is deployed, we will trigger the installation sync process that will send installation hooks to all of the affected tenants to the correct region. This will happen in the next 6-12 hours.\r\n\r\nWe will provide more details once the fix is deployed.",
+          "incident_id": "km95q9l2f1hs",
+          "created_at": "2022-03-10T16:23:15.105Z",
+          "updated_at": "2022-03-10T16:23:15.105Z",
+          "display_at": "2022-03-10T16:23:15.105Z",
+          "affected_components": [
+            {
+              "code": "3t1y6724xl8q",
+              "name": "Marketplace - In-product Marketplace and app installation (Cloud)",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "jkht94bggqwb",
           "status": "monitoring",
@@ -742,9 +762,9 @@
         {
           "id": "3t1y6724xl8q",
           "name": "In-product Marketplace and app installation (Cloud)",
-          "status": "operational",
+          "status": "partial_outage",
           "created_at": "2013-12-03T00:45:39.973Z",
-          "updated_at": "2022-03-10T13:17:41.922Z",
+          "updated_at": "2022-03-10T16:23:15.061Z",
           "position": 7,
           "description": "The ability to discover, install, and manage apps inside of Atlassian's Cloud products (Jira, Confluence, Stride, Bitbucket)",
           "showcase": false,
@@ -759,7 +779,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
