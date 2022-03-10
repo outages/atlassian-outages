@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-02-26T00:23:47.455Z"
+    "updated_at": "2022-03-10T05:28:58.376Z"
   },
   "components": [
     {
@@ -167,6 +167,21 @@
       "description": null,
       "showcase": false,
       "start_date": "2020-12-23",
+      "group_id": null,
+      "page_id": "pv54g7ltsc24",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "6vlshpbyx93m",
+      "name": "Assist",
+      "status": "operational",
+      "created_at": "2022-03-10T05:28:23.804Z",
+      "updated_at": "2022-03-10T05:28:58.373Z",
+      "position": 12,
+      "description": "For JSM Chat related outages",
+      "showcase": false,
+      "start_date": "2022-03-10",
       "group_id": null,
       "page_id": "pv54g7ltsc24",
       "group": false,
