@@ -4,7 +4,7 @@
     "name": "Atlassian Statuspage",
     "url": "http://metastatuspage.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2022-03-10T14:33:54.004-08:00"
+    "updated_at": "2022-03-10T14:57:05.672-08:00"
   },
   "components": [
     {
@@ -227,7 +227,7 @@
     {
       "id": "jk3l62p3pcfy",
       "name": "Management",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-08-21T10:22:01.354-07:00",
       "updated_at": "2017-08-24T12:33:47.091-07:00",
       "position": 2,
@@ -264,9 +264,9 @@
     {
       "id": "3g0c0h5n5cp1",
       "name": "Authenticated API",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-08-21T10:21:45.963-07:00",
-      "updated_at": "2022-03-10T14:06:45.698-08:00",
+      "updated_at": "2022-03-10T14:57:05.616-08:00",
       "position": 2,
       "description": null,
       "showcase": true,
@@ -1239,9 +1239,9 @@
         {
           "id": "3g0c0h5n5cp1",
           "name": "Authenticated API",
-          "status": "under_maintenance",
+          "status": "operational",
           "created_at": "2017-08-21T10:21:45.963-07:00",
-          "updated_at": "2022-03-10T14:06:45.698-08:00",
+          "updated_at": "2022-03-10T14:57:05.616-08:00",
           "position": 2,
           "description": null,
           "showcase": true,
@@ -1569,117 +1569,10 @@
       ],
       "scheduled_for": "2022-03-15T10:00:00.000-07:00",
       "scheduled_until": "2022-03-15T12:00:00.000-07:00"
-    },
-    {
-      "id": "wwp6mfrwbydm",
-      "name": "Manage API Maintenance",
-      "status": "verifying",
-      "created_at": "2022-03-02T16:26:37.054-08:00",
-      "updated_at": "2022-03-10T14:33:54.002-08:00",
-      "monitoring_at": "2022-03-10T14:33:53.991-08:00",
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "http://mstspg.co/dlm6gtzt9gjy",
-      "started_at": "2022-03-02T16:26:37.038-08:00",
-      "page_id": "y2j98763l56x",
-      "incident_updates": [
-        {
-          "id": "h6gz56x678qm",
-          "status": "verifying",
-          "body": "Verification is currently underway for the maintenance items.",
-          "incident_id": "wwp6mfrwbydm",
-          "created_at": "2022-03-10T14:33:53.991-08:00",
-          "updated_at": "2022-03-10T14:33:53.991-08:00",
-          "display_at": "2022-03-10T14:33:53.991-08:00",
-          "affected_components": [
-            {
-              "code": "3g0c0h5n5cp1",
-              "name": "Management - Authenticated API",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "6rs8ldm0tld2",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "wwp6mfrwbydm",
-          "created_at": "2022-03-10T14:06:45.754-08:00",
-          "updated_at": "2022-03-10T14:06:45.754-08:00",
-          "display_at": "2022-03-10T14:06:45.754-08:00",
-          "affected_components": [
-            {
-              "code": "3g0c0h5n5cp1",
-              "name": "Management - Authenticated API",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "t9s46kcln7bh",
-          "status": "scheduled",
-          "body": "Maintenance will begin as scheduled in 60 minutes.",
-          "incident_id": "wwp6mfrwbydm",
-          "created_at": "2022-03-10T12:59:30.170-08:00",
-          "updated_at": "2022-03-10T12:59:30.170-08:00",
-          "display_at": "2022-03-10T12:59:30.170-08:00",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "v8pnbcprkj7c",
-          "status": "scheduled",
-          "body": "Statuspage will be updating the Manage API between 2PM-3PM PST. This will result in the Manage API being unavailable for approximately 1 min. No other services will be affected. Should you experience any issues, please reach out to our support team through support.atlassian.com.",
-          "incident_id": "wwp6mfrwbydm",
-          "created_at": "2022-03-02T16:26:37.102-08:00",
-          "updated_at": "2022-03-02T16:26:37.102-08:00",
-          "display_at": "2022-03-02T16:26:37.102-08:00",
-          "affected_components": [
-            {
-              "code": "3g0c0h5n5cp1",
-              "name": "Management - Authenticated API",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "3g0c0h5n5cp1",
-          "name": "Authenticated API",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:21:45.963-07:00",
-          "updated_at": "2022-03-10T14:06:45.698-08:00",
-          "position": 2,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "jk3l62p3pcfy",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2022-03-10T14:00:00.000-08:00",
-      "scheduled_until": "2022-03-10T15:00:00.000-08:00"
     }
   ],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
