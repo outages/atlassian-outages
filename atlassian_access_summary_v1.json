@@ -4,7 +4,7 @@
     "name": "Atlassian Access",
     "url": "https://access.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-03-14T21:38:10.531Z"
+    "updated_at": "2022-03-14T23:20:34.312Z"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "vwb63rvhtqjn",
       "name": "SAML-based SSO",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-05-03T02:40:16.879Z",
-      "updated_at": "2022-03-14T21:36:25.138Z",
+      "updated_at": "2022-03-14T23:20:34.260Z",
       "position": 4,
       "description": null,
       "showcase": false,
@@ -102,16 +102,56 @@
     {
       "id": "ldbxdggpncl1",
       "name": "SSO IDP initiated logins and 2FA is failing intermittently",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2022-03-14T21:36:25.084Z",
-      "updated_at": "2022-03-14T21:38:10.526Z",
-      "monitoring_at": null,
+      "updated_at": "2022-03-14T23:20:34.302Z",
+      "monitoring_at": "2022-03-14T23:17:52.299Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/gs724t9srbxp",
       "started_at": "2022-03-14T21:36:25.079Z",
       "page_id": "5qmgwsxwsz78",
       "incident_updates": [
+        {
+          "id": "0zwx3s7478c6",
+          "status": "monitoring",
+          "body": "We are continuing to monitor for any further issues.",
+          "incident_id": "ldbxdggpncl1",
+          "created_at": "2022-03-14T23:20:34.299Z",
+          "updated_at": "2022-03-14T23:20:34.299Z",
+          "display_at": "2022-03-14T23:20:34.299Z",
+          "affected_components": [
+            {
+              "code": "vwb63rvhtqjn",
+              "name": "SAML-based SSO",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "qjc7633yzqr3",
+          "status": "monitoring",
+          "body": "We have rolled back a recent commit from Sign-in-service and started to see service recovery. We are now monitoring closely and expect service recovery for all impacted customers.",
+          "incident_id": "ldbxdggpncl1",
+          "created_at": "2022-03-14T23:17:52.299Z",
+          "updated_at": "2022-03-14T23:17:52.299Z",
+          "display_at": "2022-03-14T23:17:52.299Z",
+          "affected_components": [
+            {
+              "code": "vwb63rvhtqjn",
+              "name": "SAML-based SSO",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "t7kvv7y2ycff",
           "status": "investigating",
@@ -137,9 +177,9 @@
         {
           "id": "vwb63rvhtqjn",
           "name": "SAML-based SSO",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2019-05-03T02:40:16.879Z",
-          "updated_at": "2022-03-14T21:36:25.138Z",
+          "updated_at": "2022-03-14T23:20:34.260Z",
           "position": 4,
           "description": null,
           "showcase": false,
@@ -154,7 +194,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
