@@ -4,7 +4,7 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-03-14T23:36:38.213Z"
+    "updated_at": "2022-03-15T00:36:38.614Z"
   },
   "components": [
     {
@@ -174,52 +174,7 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "fts8yftb4n7p",
-      "name": "Data residency move requests are currently paused.",
-      "status": "in_progress",
-      "created_at": "2022-02-25T23:26:10.224Z",
-      "updated_at": "2022-03-14T23:25:28.784Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/v94nx2gllg68",
-      "started_at": "2022-02-25T23:26:10.219Z",
-      "page_id": "7yh3h3y0c0x1",
-      "incident_updates": [
-        {
-          "id": "pk2fb0d17gpn",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "fts8yftb4n7p",
-          "created_at": "2022-03-14T23:25:28.779Z",
-          "updated_at": "2022-03-14T23:25:28.779Z",
-          "display_at": "2022-03-14T23:25:28.779Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "yj027dx1kx4c",
-          "status": "scheduled",
-          "body": "Data residency move requests are currently paused. They'll resume for:\nPremium and Enterprise plans on March 7\nStandard plans on March 14\n\nDue to an uptick in data residency migrations, we observed a backlog of migrations resulting in us pausing them while we are clearing the backlog and working on improving the scheduling mechanism, and implementing more optimizations",
-          "incident_id": "fts8yftb4n7p",
-          "created_at": "2022-02-25T23:26:10.282Z",
-          "updated_at": "2022-02-25T23:26:10.282Z",
-          "display_at": "2022-02-25T23:26:10.282Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "scheduled_for": "2022-03-14T23:25:00.000Z",
-      "scheduled_until": "2022-03-15T00:25:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
