@@ -4,7 +4,7 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-03-15T00:36:38.614Z"
+    "updated_at": "2022-03-21T03:48:32.968Z"
   },
   "components": [
     {
@@ -55,9 +55,9 @@
     {
       "id": "sv1xfn9br170",
       "name": "Search",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-01-07T07:51:29.410Z",
-      "updated_at": "2021-12-07T17:43:20.622Z",
+      "updated_at": "2022-03-21T03:48:32.920Z",
       "position": 4,
       "description": "Problems with JQL or quick search",
       "showcase": false,
@@ -173,10 +173,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "0wqjnrr4tx8c",
+      "name": "Various features are not working for some Atlassian Cloud customer",
+      "status": "investigating",
+      "created_at": "2022-03-21T03:48:32.885Z",
+      "updated_at": "2022-03-21T03:48:32.965Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/gbc58v89n9ng",
+      "started_at": "2022-03-21T03:48:32.878Z",
+      "page_id": "7yh3h3y0c0x1",
+      "incident_updates": [
+        {
+          "id": "2475msx6y3qs",
+          "status": "investigating",
+          "body": "We are investigating reports of intermittent errors for some Atlassian Cloud customers. We will provide more details once we identify the root cause.",
+          "incident_id": "0wqjnrr4tx8c",
+          "created_at": "2022-03-21T03:48:32.963Z",
+          "updated_at": "2022-03-21T03:48:32.963Z",
+          "display_at": "2022-03-21T03:48:32.963Z",
+          "affected_components": [
+            {
+              "code": "sv1xfn9br170",
+              "name": "Search",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "sv1xfn9br170",
+          "name": "Search",
+          "status": "degraded_performance",
+          "created_at": "2019-01-07T07:51:29.410Z",
+          "updated_at": "2022-03-21T03:48:32.920Z",
+          "position": 4,
+          "description": "Problems with JQL or quick search",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "7yh3h3y0c0x1",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
