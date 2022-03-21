@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-03-16T06:36:10.457Z"
+    "updated_at": "2022-03-21T00:34:53.299Z"
   },
   "components": [
     {
@@ -703,9 +703,9 @@
     {
       "id": "6m6lyp9jz846",
       "name": "Forge direct app distribution is not available for some users",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2022-03-16T05:49:47.151Z",
-      "updated_at": "2022-03-16T05:49:47.275Z",
+      "updated_at": "2022-03-21T00:15:58.784Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -713,6 +713,26 @@
       "started_at": "2022-03-16T05:49:47.138Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "p4l5jlscnr0f",
+          "status": "identified",
+          "body": "We have identified the causes of the majority of the issues developers face when using this feature and are currently working on rolling out changes over the next couple of days to address them.\n\nWhat we have done so far:\n- Disabled the installations tab (this is a temporary change until we have a more permanent fix for people who are admin of large number of sites)\n- Adjusted our polling intervals to avoid getting rate limited\n\nWhat is coming soon:\n- Check whether an installation exist on a site before allowing users to install on that site\n- Monitor changes made on our polling intervals and verify whether the fix worked as expected",
+          "incident_id": "6m6lyp9jz846",
+          "created_at": "2022-03-21T00:15:58.781Z",
+          "updated_at": "2022-03-21T00:15:58.781Z",
+          "display_at": "2022-03-21T00:15:58.781Z",
+          "affected_components": [
+            {
+              "code": "x9bxzb5jlltj",
+              "name": "Developer - Forge direct app distribution",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "cpcvwv1fxnhn",
           "status": "investigating",
