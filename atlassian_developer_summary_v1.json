@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-03-24T07:24:12.500Z"
+    "updated_at": "2022-03-25T00:36:33.787Z"
   },
   "components": [
     {
@@ -699,7 +699,100 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "dzqvy8d7klrd",
+      "name": "Some apps are unable to call REST API GET /rest/agile/1.0/board",
+      "status": "investigating",
+      "created_at": "2022-03-25T00:09:16.071Z",
+      "updated_at": "2022-03-25T00:36:33.777Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/4jj57kf2drll",
+      "started_at": "2022-03-25T00:09:16.000Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "cm25z3n2jy7l",
+          "status": "investigating",
+          "body": "This fix is estimated to reach production tenants at around 2PM, March 25, 2022 AEDT / 8PM, March 24, 2022 PDT.",
+          "incident_id": "dzqvy8d7klrd",
+          "created_at": "2022-03-25T00:30:14.237Z",
+          "updated_at": "2022-03-25T00:36:33.771Z",
+          "display_at": "2022-03-25T00:30:14.000Z",
+          "affected_components": [
+            {
+              "code": "cc6gw24m02wp",
+              "name": "APIs - Jira Cloud APIs",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "nx9lyjxjnb4j",
+          "status": "investigating",
+          "body": "A fix has been identified and is being deployed. An estimate of when the fix will be available will be provided soon.",
+          "incident_id": "dzqvy8d7klrd",
+          "created_at": "2022-03-25T00:13:19.741Z",
+          "updated_at": "2022-03-25T00:13:19.741Z",
+          "display_at": "2022-03-25T00:13:19.741Z",
+          "affected_components": [
+            {
+              "code": "cc6gw24m02wp",
+              "name": "APIs - Jira Cloud APIs",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "vmdf0q8v9tl5",
+          "status": "investigating",
+          "body": "Some apps are unable to call REST API GET /rest/agile/1.0/board due to the addition of a scope without notice. The API originally did not require any scopes, but now requires read:board-scope:jira-software. This change is not backward compatible and no deprecation notice nor period for migrating apps was provided.",
+          "incident_id": "dzqvy8d7klrd",
+          "created_at": "2022-03-25T00:09:16.127Z",
+          "updated_at": "2022-03-25T00:17:12.583Z",
+          "display_at": "2022-03-25T00:09:16.000Z",
+          "affected_components": [
+            {
+              "code": "cc6gw24m02wp",
+              "name": "APIs - Jira Cloud APIs",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "cc6gw24m02wp",
+          "name": "Jira Cloud APIs",
+          "status": "operational",
+          "created_at": "2018-02-01T17:16:54.648Z",
+          "updated_at": "2021-12-08T04:17:45.496Z",
+          "position": 3,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": "w0ld3nc9jvdx",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "minor",
