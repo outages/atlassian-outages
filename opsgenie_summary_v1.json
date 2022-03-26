@@ -4,7 +4,7 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-03-25T19:34:10.378Z"
+    "updated_at": "2022-03-26T05:52:35.153Z"
   },
   "components": [
     {
@@ -25,7 +25,7 @@
     {
       "id": "jzqq334r65mx",
       "name": "US",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-02-12T13:47:31.055Z",
       "updated_at": "2019-03-15T08:16:16.977Z",
       "position": 1,
@@ -79,7 +79,7 @@
     {
       "id": "k7gyfk44wrsr",
       "name": "EU",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-02-12T13:47:54.389Z",
       "updated_at": "2019-02-12T13:47:54.389Z",
       "position": 2,
@@ -118,9 +118,9 @@
     {
       "id": "x3kw060dyr9f",
       "name": "Alert Flow",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-03-15T08:10:19.021Z",
-      "updated_at": "2022-03-25T18:56:20.077Z",
+      "updated_at": "2022-03-26T05:52:35.151Z",
       "position": 2,
       "description": null,
       "showcase": true,
@@ -133,9 +133,9 @@
     {
       "id": "j3zxnkhxxsnz",
       "name": "Alert Flow",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-03-15T08:09:27.497Z",
-      "updated_at": "2022-03-25T18:56:20.059Z",
+      "updated_at": "2022-03-26T05:52:16.456Z",
       "position": 2,
       "description": null,
       "showcase": true,
@@ -764,7 +764,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
