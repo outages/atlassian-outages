@@ -4,7 +4,7 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-03-31T17:47:54.788Z"
+    "updated_at": "2022-03-31T18:11:08.498Z"
   },
   "components": [
     {
@@ -25,7 +25,7 @@
     {
       "id": "jzqq334r65mx",
       "name": "US",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-02-12T13:47:31.055Z",
       "updated_at": "2019-03-15T08:16:16.977Z",
       "position": 1,
@@ -94,7 +94,7 @@
     {
       "id": "k7gyfk44wrsr",
       "name": "EU",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-02-12T13:47:54.389Z",
       "updated_at": "2019-02-12T13:47:54.389Z",
       "position": 2,
@@ -193,9 +193,9 @@
     {
       "id": "pk367fsgz1yq",
       "name": "SMS Notification Delivery",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-03-15T08:10:55.832Z",
-      "updated_at": "2022-03-31T17:47:54.726Z",
+      "updated_at": "2022-03-31T17:55:47.750Z",
       "position": 4,
       "description": null,
       "showcase": true,
@@ -208,9 +208,9 @@
     {
       "id": "fqgh9nvrlck3",
       "name": "SMS Notification Delivery",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-03-15T08:09:52.866Z",
-      "updated_at": "2022-03-31T17:47:54.701Z",
+      "updated_at": "2022-03-31T17:55:47.735Z",
       "position": 4,
       "description": null,
       "showcase": true,
@@ -761,84 +761,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "mctzfjyxsstw",
-      "name": "We observed problems in our SMS delivery for +33 country coded numbers",
-      "status": "identified",
-      "created_at": "2022-03-31T17:47:54.649Z",
-      "updated_at": "2022-03-31T17:47:54.784Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/dqvygjb3gwy3",
-      "started_at": "2022-03-31T17:47:54.635Z",
-      "page_id": "t05vdsszxwtq",
-      "incident_updates": [
-        {
-          "id": "kbmr2vt72y6k",
-          "status": "identified",
-          "body": "We observe increased error rates due to the 3rd party provider in France. We are working on the identification of the root cause with them and we'll keep you posted with further updates.",
-          "incident_id": "mctzfjyxsstw",
-          "created_at": "2022-03-31T17:47:54.780Z",
-          "updated_at": "2022-03-31T17:47:54.780Z",
-          "display_at": "2022-03-31T17:47:54.780Z",
-          "affected_components": [
-            {
-              "code": "fqgh9nvrlck3",
-              "name": "US - SMS Notification Delivery",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "pk367fsgz1yq",
-              "name": "EU - SMS Notification Delivery",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "fqgh9nvrlck3",
-          "name": "SMS Notification Delivery",
-          "status": "degraded_performance",
-          "created_at": "2019-03-15T08:09:52.866Z",
-          "updated_at": "2022-03-31T17:47:54.701Z",
-          "position": 4,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "jzqq334r65mx",
-          "page_id": "t05vdsszxwtq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "pk367fsgz1yq",
-          "name": "SMS Notification Delivery",
-          "status": "degraded_performance",
-          "created_at": "2019-03-15T08:10:55.832Z",
-          "updated_at": "2022-03-31T17:47:54.726Z",
-          "position": 4,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "k7gyfk44wrsr",
-          "page_id": "t05vdsszxwtq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
