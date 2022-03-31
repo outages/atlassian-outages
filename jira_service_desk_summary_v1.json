@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-03-31T01:32:17.692Z"
+    "updated_at": "2022-03-31T03:51:38.837Z"
   },
   "components": [
     {
@@ -188,37 +188,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "z9hryd2q3mjl",
-      "name": "JWM, JSM, JSW users do not receiving mobile notifications via iOS App",
-      "status": "investigating",
-      "created_at": "2022-03-31T00:45:50.987Z",
-      "updated_at": "2022-03-31T00:45:51.028Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/8dpz9657nsb5",
-      "started_at": "2022-03-31T00:45:50.981Z",
-      "page_id": "pv54g7ltsc24",
-      "incident_updates": [
-        {
-          "id": "7ys881138pb1",
-          "status": "investigating",
-          "body": "We are investigating an issue where push notifications are not working for iOS. This is currently affecting Jira Service Management, Jira Software and Jira Work Management.",
-          "incident_id": "z9hryd2q3mjl",
-          "created_at": "2022-03-31T00:45:51.025Z",
-          "updated_at": "2022-03-31T00:45:51.025Z",
-          "display_at": "2022-03-31T00:45:51.025Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": []
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",

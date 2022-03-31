@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-03-31T01:32:17.776Z"
+    "updated_at": "2022-03-31T04:02:31.821Z"
   },
   "components": [
     {
@@ -70,9 +70,9 @@
     {
       "id": "5436s7p7v28b",
       "name": "Notifications",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-01-23T17:05:14.913Z",
-      "updated_at": "2022-03-31T00:45:51.168Z",
+      "updated_at": "2022-03-31T04:02:31.818Z",
       "position": 5,
       "description": "Email and in-web-app notifications",
       "showcase": false,
@@ -173,63 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "prqdy52rphx3",
-      "name": "JWM, JSM, JSW users do not receiving mobile notifications via iOS App",
-      "status": "investigating",
-      "created_at": "2022-03-31T00:45:51.122Z",
-      "updated_at": "2022-03-31T00:45:51.231Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/mj1nt7shxgn2",
-      "started_at": "2022-03-31T00:45:51.112Z",
-      "page_id": "s6f0gm5gcpmy",
-      "incident_updates": [
-        {
-          "id": "4sfhj5tq0gqn",
-          "status": "investigating",
-          "body": "We are investigating an issue where push notifications are not working for iOS. This is currently affecting Jira Service Management, Jira Software and Jira Work Management.",
-          "incident_id": "prqdy52rphx3",
-          "created_at": "2022-03-31T00:45:51.227Z",
-          "updated_at": "2022-03-31T00:45:51.227Z",
-          "display_at": "2022-03-31T00:45:51.227Z",
-          "affected_components": [
-            {
-              "code": "5436s7p7v28b",
-              "name": "Notifications",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "5436s7p7v28b",
-          "name": "Notifications",
-          "status": "partial_outage",
-          "created_at": "2019-01-23T17:05:14.913Z",
-          "updated_at": "2022-03-31T00:45:51.168Z",
-          "position": 5,
-          "description": "Email and in-web-app notifications",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "s6f0gm5gcpmy",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
