@@ -4,7 +4,7 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-03-26T05:52:35.153Z"
+    "updated_at": "2022-03-31T17:47:54.788Z"
   },
   "components": [
     {
@@ -25,7 +25,7 @@
     {
       "id": "jzqq334r65mx",
       "name": "US",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-02-12T13:47:31.055Z",
       "updated_at": "2019-03-15T08:16:16.977Z",
       "position": 1,
@@ -77,9 +77,24 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "j3zxnkhxxsnz",
+      "name": "Alert Flow",
+      "status": "operational",
+      "created_at": "2019-03-15T08:09:27.497Z",
+      "updated_at": "2022-03-26T05:52:16.456Z",
+      "position": 2,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "jzqq334r65mx",
+      "page_id": "t05vdsszxwtq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "k7gyfk44wrsr",
       "name": "EU",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-02-12T13:47:54.389Z",
       "updated_at": "2019-02-12T13:47:54.389Z",
       "position": 2,
@@ -131,36 +146,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "j3zxnkhxxsnz",
-      "name": "Alert Flow",
-      "status": "operational",
-      "created_at": "2019-03-15T08:09:27.497Z",
-      "updated_at": "2022-03-26T05:52:16.456Z",
-      "position": 2,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "jzqq334r65mx",
-      "page_id": "t05vdsszxwtq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "7gksbx75r5rn",
-      "name": "Email Notification Delivery",
-      "status": "operational",
-      "created_at": "2019-03-15T08:09:44.195Z",
-      "updated_at": "2021-12-15T16:22:24.812Z",
-      "position": 3,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "jzqq334r65mx",
-      "page_id": "t05vdsszxwtq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "zv3xlkn13rqs",
       "name": "Email Notification Delivery",
       "status": "operational",
@@ -191,12 +176,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "fqgh9nvrlck3",
-      "name": "SMS Notification Delivery",
+      "id": "7gksbx75r5rn",
+      "name": "Email Notification Delivery",
       "status": "operational",
-      "created_at": "2019-03-15T08:09:52.866Z",
-      "updated_at": "2021-12-15T16:22:24.837Z",
-      "position": 4,
+      "created_at": "2019-03-15T08:09:44.195Z",
+      "updated_at": "2021-12-15T16:22:24.812Z",
+      "position": 3,
       "description": null,
       "showcase": true,
       "start_date": null,
@@ -208,9 +193,9 @@
     {
       "id": "pk367fsgz1yq",
       "name": "SMS Notification Delivery",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-03-15T08:10:55.832Z",
-      "updated_at": "2021-06-10T22:14:45.006Z",
+      "updated_at": "2022-03-31T17:47:54.726Z",
       "position": 4,
       "description": null,
       "showcase": true,
@@ -221,16 +206,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "92ty6vgyj0nw",
-      "name": "Voice Notification Delivery",
-      "status": "operational",
-      "created_at": "2019-03-15T08:11:07.813Z",
-      "updated_at": "2021-12-09T10:06:57.261Z",
-      "position": 5,
+      "id": "fqgh9nvrlck3",
+      "name": "SMS Notification Delivery",
+      "status": "degraded_performance",
+      "created_at": "2019-03-15T08:09:52.866Z",
+      "updated_at": "2022-03-31T17:47:54.701Z",
+      "position": 4,
       "description": null,
       "showcase": true,
       "start_date": null,
-      "group_id": "k7gyfk44wrsr",
+      "group_id": "jzqq334r65mx",
       "page_id": "t05vdsszxwtq",
       "group": false,
       "only_show_if_degraded": false
@@ -246,6 +231,21 @@
       "showcase": true,
       "start_date": null,
       "group_id": "jzqq334r65mx",
+      "page_id": "t05vdsszxwtq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "92ty6vgyj0nw",
+      "name": "Voice Notification Delivery",
+      "status": "operational",
+      "created_at": "2019-03-15T08:11:07.813Z",
+      "updated_at": "2021-12-09T10:06:57.261Z",
+      "position": 5,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "k7gyfk44wrsr",
       "page_id": "t05vdsszxwtq",
       "group": false,
       "only_show_if_degraded": false
@@ -311,21 +311,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "ddps6r8cr94r",
-      "name": "Incident REST API",
-      "status": "operational",
-      "created_at": "2019-03-15T08:11:53.408Z",
-      "updated_at": "2021-02-04T14:18:05.118Z",
-      "position": 8,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "k7gyfk44wrsr",
-      "page_id": "t05vdsszxwtq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "hm409hh7bt8j",
       "name": "Incident REST API",
       "status": "operational",
@@ -341,12 +326,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "67whqr77thzg",
-      "name": "Alert REST API",
+      "id": "ddps6r8cr94r",
+      "name": "Incident REST API",
       "status": "operational",
-      "created_at": "2019-03-15T08:12:03.670Z",
-      "updated_at": "2021-06-10T22:14:45.075Z",
-      "position": 9,
+      "created_at": "2019-03-15T08:11:53.408Z",
+      "updated_at": "2021-02-04T14:18:05.118Z",
+      "position": 8,
       "description": null,
       "showcase": true,
       "start_date": null,
@@ -366,6 +351,21 @@
       "showcase": true,
       "start_date": null,
       "group_id": "jzqq334r65mx",
+      "page_id": "t05vdsszxwtq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "67whqr77thzg",
+      "name": "Alert REST API",
+      "status": "operational",
+      "created_at": "2019-03-15T08:12:03.670Z",
+      "updated_at": "2021-06-10T22:14:45.075Z",
+      "position": 9,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "k7gyfk44wrsr",
       "page_id": "t05vdsszxwtq",
       "group": false,
       "only_show_if_degraded": false
@@ -431,21 +431,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "yl0hpw3k6kjb",
-      "name": "Incoming Integration Flow",
-      "status": "operational",
-      "created_at": "2019-03-15T08:12:41.638Z",
-      "updated_at": "2021-11-27T14:45:06.204Z",
-      "position": 12,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "jzqq334r65mx",
-      "page_id": "t05vdsszxwtq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "p9phmxm8nn64",
       "name": "Incoming Integration Flow",
       "status": "operational",
@@ -456,6 +441,21 @@
       "showcase": true,
       "start_date": null,
       "group_id": "k7gyfk44wrsr",
+      "page_id": "t05vdsszxwtq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "yl0hpw3k6kjb",
+      "name": "Incoming Integration Flow",
+      "status": "operational",
+      "created_at": "2019-03-15T08:12:41.638Z",
+      "updated_at": "2021-11-27T14:45:06.204Z",
+      "position": 12,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "jzqq334r65mx",
       "page_id": "t05vdsszxwtq",
       "group": false,
       "only_show_if_degraded": false
@@ -551,21 +551,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "j8bt86sx70hm",
-      "name": "Web Application",
-      "status": "operational",
-      "created_at": "2019-03-15T08:27:28.877Z",
-      "updated_at": "2022-03-07T19:47:19.118Z",
-      "position": 16,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "jzqq334r65mx",
-      "page_id": "t05vdsszxwtq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "9mk8r5t0mzbk",
       "name": "Web Application",
       "status": "operational",
@@ -576,6 +561,21 @@
       "showcase": true,
       "start_date": null,
       "group_id": "k7gyfk44wrsr",
+      "page_id": "t05vdsszxwtq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "j8bt86sx70hm",
+      "name": "Web Application",
+      "status": "operational",
+      "created_at": "2019-03-15T08:27:28.877Z",
+      "updated_at": "2022-03-07T19:47:19.118Z",
+      "position": 16,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "jzqq334r65mx",
       "page_id": "t05vdsszxwtq",
       "group": false,
       "only_show_if_degraded": false
@@ -611,21 +611,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "jpbb5kpt55l9",
-      "name": "Configuration REST APIs",
-      "status": "operational",
-      "created_at": "2019-03-15T08:13:38.109Z",
-      "updated_at": "2019-11-12T08:26:58.470Z",
-      "position": 18,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "k7gyfk44wrsr",
-      "page_id": "t05vdsszxwtq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "mjdmrksdqcpb",
       "name": "Configuration REST APIs",
       "status": "operational",
@@ -636,6 +621,21 @@
       "showcase": true,
       "start_date": null,
       "group_id": "jzqq334r65mx",
+      "page_id": "t05vdsszxwtq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "jpbb5kpt55l9",
+      "name": "Configuration REST APIs",
+      "status": "operational",
+      "created_at": "2019-03-15T08:13:38.109Z",
+      "updated_at": "2019-11-12T08:26:58.470Z",
+      "position": 18,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "k7gyfk44wrsr",
       "page_id": "t05vdsszxwtq",
       "group": false,
       "only_show_if_degraded": false
@@ -686,21 +686,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "y244ppd3z0pc",
-      "name": "Pricing & Billing",
-      "status": "operational",
-      "created_at": "2019-03-15T08:13:59.152Z",
-      "updated_at": "2019-11-12T08:26:58.508Z",
-      "position": 21,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "k7gyfk44wrsr",
-      "page_id": "t05vdsszxwtq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "31n4p2y44b06",
       "name": "Logs",
       "status": "operational",
@@ -716,12 +701,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "6lw18sw0dgsj",
-      "name": "Logs",
+      "id": "y244ppd3z0pc",
+      "name": "Pricing & Billing",
       "status": "operational",
-      "created_at": "2019-03-15T08:14:15.298Z",
-      "updated_at": "2021-06-11T00:25:24.678Z",
-      "position": 22,
+      "created_at": "2019-03-15T08:13:59.152Z",
+      "updated_at": "2019-11-12T08:26:58.508Z",
+      "position": 21,
       "description": null,
       "showcase": true,
       "start_date": null,
@@ -746,6 +731,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "6lw18sw0dgsj",
+      "name": "Logs",
+      "status": "operational",
+      "created_at": "2019-03-15T08:14:15.298Z",
+      "updated_at": "2021-06-11T00:25:24.678Z",
+      "position": 22,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "k7gyfk44wrsr",
+      "page_id": "t05vdsszxwtq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "cyjlhb3s6zzn",
       "name": "Incoming Call Routing",
       "status": "operational",
@@ -761,10 +761,84 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "mctzfjyxsstw",
+      "name": "We observed problems in our SMS delivery for +33 country coded numbers",
+      "status": "identified",
+      "created_at": "2022-03-31T17:47:54.649Z",
+      "updated_at": "2022-03-31T17:47:54.784Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/dqvygjb3gwy3",
+      "started_at": "2022-03-31T17:47:54.635Z",
+      "page_id": "t05vdsszxwtq",
+      "incident_updates": [
+        {
+          "id": "kbmr2vt72y6k",
+          "status": "identified",
+          "body": "We observe increased error rates due to the 3rd party provider in France. We are working on the identification of the root cause with them and we'll keep you posted with further updates.",
+          "incident_id": "mctzfjyxsstw",
+          "created_at": "2022-03-31T17:47:54.780Z",
+          "updated_at": "2022-03-31T17:47:54.780Z",
+          "display_at": "2022-03-31T17:47:54.780Z",
+          "affected_components": [
+            {
+              "code": "fqgh9nvrlck3",
+              "name": "US - SMS Notification Delivery",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "pk367fsgz1yq",
+              "name": "EU - SMS Notification Delivery",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "fqgh9nvrlck3",
+          "name": "SMS Notification Delivery",
+          "status": "degraded_performance",
+          "created_at": "2019-03-15T08:09:52.866Z",
+          "updated_at": "2022-03-31T17:47:54.701Z",
+          "position": 4,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": "jzqq334r65mx",
+          "page_id": "t05vdsszxwtq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "pk367fsgz1yq",
+          "name": "SMS Notification Delivery",
+          "status": "degraded_performance",
+          "created_at": "2019-03-15T08:10:55.832Z",
+          "updated_at": "2022-03-31T17:47:54.726Z",
+          "position": 4,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": "k7gyfk44wrsr",
+          "page_id": "t05vdsszxwtq",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
