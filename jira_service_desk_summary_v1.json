@@ -4,15 +4,15 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-05T04:31:07.850Z"
+    "updated_at": "2022-04-05T09:01:12.503Z"
   },
   "components": [
     {
       "id": "4kcs01hbh4l6",
       "name": "Jira Service Mangement Web",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-11-16T18:06:14.831Z",
-      "updated_at": "2022-02-07T03:12:40.370Z",
+      "updated_at": "2022-04-05T09:01:12.445Z",
       "position": 1,
       "description": "Problems with queues, issues, reports, searching, and anything else impacting an agent's ability to complete their work",
       "showcase": false,
@@ -188,10 +188,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "0bcftpvmjkpt",
+      "name": "Multiple sites showing down/under maintenance",
+      "status": "investigating",
+      "created_at": "2022-04-05T09:01:12.403Z",
+      "updated_at": "2022-04-05T09:01:12.499Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/jmkcwfnld0ql",
+      "started_at": "2022-04-05T09:01:12.397Z",
+      "page_id": "pv54g7ltsc24",
+      "incident_updates": [
+        {
+          "id": "78nl7hg83ck8",
+          "status": "investigating",
+          "body": "We are investigating an issue with multiple Cloud instances showing under maintenance that is impacting some Jira Work Management,Confluence, Jira Service Management, Jira Software, Atlassian Access Cloud customers. We will provide more details within the next hour.",
+          "incident_id": "0bcftpvmjkpt",
+          "created_at": "2022-04-05T09:01:12.496Z",
+          "updated_at": "2022-04-05T09:01:12.496Z",
+          "display_at": "2022-04-05T09:01:12.496Z",
+          "affected_components": [
+            {
+              "code": "4kcs01hbh4l6",
+              "name": "Jira Service Mangement Web",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "4kcs01hbh4l6",
+          "name": "Jira Service Mangement Web",
+          "status": "under_maintenance",
+          "created_at": "2018-11-16T18:06:14.831Z",
+          "updated_at": "2022-04-05T09:01:12.445Z",
+          "position": 1,
+          "description": "Problems with queues, issues, reports, searching, and anything else impacting an agent's ability to complete their work",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "pv54g7ltsc24",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
