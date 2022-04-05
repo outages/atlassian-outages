@@ -4,7 +4,7 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-05T11:12:44.199Z"
+    "updated_at": "2022-04-05T11:18:09.794Z"
   },
   "components": [
     {
@@ -767,10 +767,10 @@
       "name": "Multiple sites showing down/under maintenance",
       "status": "identified",
       "created_at": "2022-04-05T09:44:35.874Z",
-      "updated_at": "2022-04-05T11:12:44.190Z",
+      "updated_at": "2022-04-05T11:18:09.788Z",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "none",
+      "impact": "critical",
       "shortlink": "https://stspg.io/5jkg9rrvm1j3",
       "started_at": "2022-04-05T09:44:35.865Z",
       "page_id": "t05vdsszxwtq",
