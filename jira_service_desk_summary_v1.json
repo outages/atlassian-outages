@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-06T00:10:00.054Z"
+    "updated_at": "2022-04-06T06:14:50.830Z"
   },
   "components": [
     {
@@ -194,7 +194,7 @@
       "name": "Multiple sites showing down/under maintenance",
       "status": "identified",
       "created_at": "2022-04-05T09:01:12.403Z",
-      "updated_at": "2022-04-06T00:10:00.043Z",
+      "updated_at": "2022-04-06T06:14:50.819Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
@@ -202,6 +202,26 @@
       "started_at": "2022-04-05T09:01:12.397Z",
       "page_id": "pv54g7ltsc24",
       "incident_updates": [
+        {
+          "id": "yv1j1y99f21b",
+          "status": "identified",
+          "body": "We continue to work on the resolution of the incident for a number of our Jira Work Management, Jira Service Management, Confluence, Jira Software, Atlassian Access, Jira Product Discovery, and Opsgenie Cloud customers. This continues to be a high priority for Atlassian, and while we have made progress, these applications still remain unavailable for some customers. We will provide more detail as we progress through resolution.",
+          "incident_id": "0bcftpvmjkpt",
+          "created_at": "2022-04-06T06:14:50.816Z",
+          "updated_at": "2022-04-06T06:14:50.816Z",
+          "display_at": "2022-04-06T06:14:50.816Z",
+          "affected_components": [
+            {
+              "code": "4kcs01hbh4l6",
+              "name": "Jira Service Mangement Web",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "bwfxnxvpfrd1",
           "status": "identified",
