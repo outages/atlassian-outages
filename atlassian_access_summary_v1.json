@@ -4,7 +4,7 @@
     "name": "Atlassian Access",
     "url": "https://access.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-06T12:04:28.083Z"
+    "updated_at": "2022-04-06T18:50:56.657Z"
   },
   "components": [
     {
@@ -104,7 +104,7 @@
       "name": "Multiple sites showing down/under maintenance",
       "status": "identified",
       "created_at": "2022-04-05T09:03:33.651Z",
-      "updated_at": "2022-04-06T12:04:28.073Z",
+      "updated_at": "2022-04-06T18:50:56.648Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
@@ -112,6 +112,19 @@
       "started_at": "2022-04-05T09:03:33.643Z",
       "page_id": "5qmgwsxwsz78",
       "incident_updates": [
+        {
+          "id": "nl1v0bvrz2xf",
+          "status": "identified",
+          "body": "We are continuing to work on the resolution of the incidents for some Jira Work Management, Jira Service Management, Confluence, Jira Software, Atlassian Access, Jira Product Discovery, and Opsgenie Cloud customers. We will provide updates every 3 hours.",
+          "incident_id": "2j0sksm2qyt0",
+          "created_at": "2022-04-06T18:50:56.646Z",
+          "updated_at": "2022-04-06T18:50:56.646Z",
+          "display_at": "2022-04-06T18:50:56.646Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "tyr6gxs81wm0",
           "status": "identified",
