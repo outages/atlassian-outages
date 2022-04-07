@@ -4,7 +4,7 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-06T22:11:12.218Z"
+    "updated_at": "2022-04-07T04:58:42.962Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Multiple sites showing down/under maintenance",
       "status": "identified",
       "created_at": "2022-04-05T09:03:00.612Z",
-      "updated_at": "2022-04-06T22:11:12.208Z",
+      "updated_at": "2022-04-07T04:58:42.953Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
@@ -187,6 +187,19 @@
       "started_at": "2022-04-05T09:03:00.605Z",
       "page_id": "7yh3h3y0c0x1",
       "incident_updates": [
+        {
+          "id": "sbw6m8rl1mrg",
+          "status": "identified",
+          "body": "We are continuing work in the verification stage on a subset of instances. Once reenabled, support will update accounts via opened incident tickets. Restoration of customer sites remains our first priority and we are coordinating with teams globally to ensure that work continues 24/7 until all instances are restored.",
+          "incident_id": "gms0m979jxbr",
+          "created_at": "2022-04-07T04:58:42.951Z",
+          "updated_at": "2022-04-07T04:58:42.951Z",
+          "display_at": "2022-04-07T04:58:42.951Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "wflm42p22tkk",
           "status": "identified",
