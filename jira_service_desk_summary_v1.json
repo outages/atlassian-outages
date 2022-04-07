@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-07T12:30:39.854Z"
+    "updated_at": "2022-04-07T18:03:36.391Z"
   },
   "components": [
     {
@@ -194,7 +194,7 @@
       "name": "Multiple sites showing down/under maintenance",
       "status": "identified",
       "created_at": "2022-04-05T09:01:12.403Z",
-      "updated_at": "2022-04-07T12:27:48.119Z",
+      "updated_at": "2022-04-07T18:03:36.382Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
@@ -202,6 +202,26 @@
       "started_at": "2022-04-05T09:01:12.397Z",
       "page_id": "pv54g7ltsc24",
       "incident_updates": [
+        {
+          "id": "99q64kwyyyqg",
+          "status": "identified",
+          "body": "We are beginning partial restoration to a cohort of customers. The early stages of this process will be controlled and hands-on, as we work with customers live to get feedback and ensure that restoration is working well before we accelerate the process for the next cohort. We will continue to post updates here as we move along this process.",
+          "incident_id": "0bcftpvmjkpt",
+          "created_at": "2022-04-07T18:03:36.379Z",
+          "updated_at": "2022-04-07T18:03:36.379Z",
+          "display_at": "2022-04-07T18:03:36.379Z",
+          "affected_components": [
+            {
+              "code": "4kcs01hbh4l6",
+              "name": "Jira Service Mangement Web",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "lh033nz3hpd4",
           "status": "identified",
