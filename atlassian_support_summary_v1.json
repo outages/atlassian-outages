@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-07T16:44:10.581Z"
+    "updated_at": "2022-04-07T16:58:56.991Z"
   },
   "components": [
     {
@@ -192,9 +192,9 @@
       "name": "Preferences Center",
       "status": "operational",
       "created_at": "2022-04-07T16:44:10.578Z",
-      "updated_at": "2022-04-07T16:44:10.578Z",
+      "updated_at": "2022-04-07T16:58:56.987Z",
       "position": 13,
-      "description": "Update email preferences and subscriptions.",
+      "description": "A tool to update email preferences and subscriptions found at preferences.atlassian.com. This can be accessed either from the \"Unsubscribe\" link on Atlassian marketing emails or from https://id.atlassian.com/manage-profile/email while logged into your Atlassian account.",
       "showcase": true,
       "start_date": "2022-04-07",
       "group_id": null,
