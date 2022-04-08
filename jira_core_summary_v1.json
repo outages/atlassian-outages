@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-08T10:59:25.435Z"
+    "updated_at": "2022-04-08T14:01:02.703Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Multiple sites showing down/under maintenance",
       "status": "identified",
       "created_at": "2022-04-05T09:04:06.185Z",
-      "updated_at": "2022-04-08T10:59:25.429Z",
+      "updated_at": "2022-04-08T14:01:02.691Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
@@ -187,6 +187,19 @@
       "started_at": "2022-04-05T09:04:06.178Z",
       "page_id": "s6f0gm5gcpmy",
       "incident_updates": [
+        {
+          "id": "rwpn2rcv91mp",
+          "status": "identified",
+          "body": "We have started successfully restoring sites and continue to work on restoration to a wider cohort of customers. We are taking a controlled and hands-on approach as we gather feedback from customers to ensure the integrity of these site restorations.",
+          "incident_id": "5l4zmgd3q1jz",
+          "created_at": "2022-04-08T14:01:02.687Z",
+          "updated_at": "2022-04-08T14:01:02.687Z",
+          "display_at": "2022-04-08T14:01:02.687Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "ccs7bxzj5j53",
           "status": "identified",
