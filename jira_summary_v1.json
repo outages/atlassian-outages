@@ -4,7 +4,7 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-09T06:33:56.094Z"
+    "updated_at": "2022-04-09T10:47:10.999Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Multiple sites showing down/under maintenance",
       "status": "identified",
       "created_at": "2022-04-05T09:03:00.612Z",
-      "updated_at": "2022-04-09T06:33:56.086Z",
+      "updated_at": "2022-04-09T10:47:10.988Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
@@ -187,6 +187,19 @@
       "started_at": "2022-04-05T09:03:00.605Z",
       "page_id": "7yh3h3y0c0x1",
       "incident_updates": [
+        {
+          "id": "9d75dvj27tvl",
+          "status": "identified",
+          "body": "Our team is working 24/7 to progress through site restoration work. Core functionality has been restored across a number of sites. We are continuously improving the process with the aim of accelerating the restoration process from here.",
+          "incident_id": "gms0m979jxbr",
+          "created_at": "2022-04-09T10:47:10.986Z",
+          "updated_at": "2022-04-09T10:47:10.986Z",
+          "display_at": "2022-04-09T10:47:10.986Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "yg49ymk8jz44",
           "status": "identified",
