@@ -4,7 +4,7 @@
     "name": "Confluence",
     "url": "https://confluence.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-09T20:44:43.634Z"
+    "updated_at": "2022-04-09T23:08:19.240Z"
   },
   "components": [
     {
@@ -213,7 +213,7 @@
       "name": "Multiple sites showing down/under maintenance",
       "status": "identified",
       "created_at": "2022-04-05T09:02:12.453Z",
-      "updated_at": "2022-04-09T20:44:43.626Z",
+      "updated_at": "2022-04-09T23:08:19.230Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
@@ -221,6 +221,19 @@
       "started_at": "2022-04-05T09:02:12.446Z",
       "page_id": "4g2my7tbhjsq",
       "incident_updates": [
+        {
+          "id": "g16glt41fpk3",
+          "status": "identified",
+          "body": "The restoration process is underway. At this time we have no new significant updates, but the team continues to work around the clock to bring our customers back online.",
+          "incident_id": "hf1xxft08nj5",
+          "created_at": "2022-04-09T23:08:19.227Z",
+          "updated_at": "2022-04-09T23:08:19.227Z",
+          "display_at": "2022-04-09T23:08:19.227Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "wjk0696zlmnl",
           "status": "identified",
