@@ -4,7 +4,7 @@
     "name": "Atlassian Access",
     "url": "https://access.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-11T12:10:19.646Z"
+    "updated_at": "2022-04-11T15:33:39.935Z"
   },
   "components": [
     {
@@ -104,7 +104,7 @@
       "name": "Multiple sites showing down/under maintenance",
       "status": "identified",
       "created_at": "2022-04-05T09:03:33.651Z",
-      "updated_at": "2022-04-11T12:10:19.634Z",
+      "updated_at": "2022-04-11T15:33:39.923Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
@@ -112,6 +112,19 @@
       "started_at": "2022-04-05T09:03:33.643Z",
       "page_id": "5qmgwsxwsz78",
       "incident_updates": [
+        {
+          "id": "dmsqzxt6bk3y",
+          "status": "identified",
+          "body": "A small number of Atlassian customers continue to experience service outages and are unable to access their sites. Our global engineering teams are working 24/7 to make progress on this incident. At this time, we have rebuilt functionality for over 35% of the users who are impacted by the service outage, with no reported data loss. The rebuild stage is particularly complex due to several steps that are required to validate sites and verify data. These steps require extra time, but are critical to ensuring the integrity of rebuilt sites. We apologize for the length and severity of this incident and have taken steps to avoid a recurrence in the future.",
+          "incident_id": "2j0sksm2qyt0",
+          "created_at": "2022-04-11T15:33:39.920Z",
+          "updated_at": "2022-04-11T15:33:39.920Z",
+          "display_at": "2022-04-11T15:33:39.920Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "mcq1dhgfxcp1",
           "status": "identified",
