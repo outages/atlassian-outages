@@ -4,7 +4,7 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-11T08:27:50.774Z"
+    "updated_at": "2022-04-11T12:11:03.620Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Multiple sites showing down/under maintenance",
       "status": "identified",
       "created_at": "2022-04-05T09:03:00.612Z",
-      "updated_at": "2022-04-11T08:27:50.766Z",
+      "updated_at": "2022-04-11T12:11:03.612Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
@@ -187,6 +187,19 @@
       "started_at": "2022-04-05T09:03:00.605Z",
       "page_id": "7yh3h3y0c0x1",
       "incident_updates": [
+        {
+          "id": "d850zwqctfb7",
+          "status": "identified",
+          "body": "A small number of Atlassian customers continue to experience service outages and are unable to access their sites. Our global engineering teams are working 24/7 to make progress on this incident. At this time, we have rebuilt functionality for over 35% of the users who are impacted by the service outage, with no reported data loss. The rebuild stage is particularly complex due to several steps that are required to validate sites and verify data. These steps require extra time, but are critical to ensuring the integrity of rebuilt sites. We apologize for the length and severity of this incident and have taken steps to avoid a recurrence in the future.",
+          "incident_id": "gms0m979jxbr",
+          "created_at": "2022-04-11T12:11:03.609Z",
+          "updated_at": "2022-04-11T12:11:03.609Z",
+          "display_at": "2022-04-11T12:11:03.609Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "rf10wnlb0cc6",
           "status": "identified",
