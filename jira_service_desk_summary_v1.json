@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-12T09:34:50.538Z"
+    "updated_at": "2022-04-13T03:37:07.432Z"
   },
   "components": [
     {
@@ -194,7 +194,7 @@
       "name": "Multiple sites showing down/under maintenance",
       "status": "identified",
       "created_at": "2022-04-05T09:01:12.403Z",
-      "updated_at": "2022-04-12T09:34:50.528Z",
+      "updated_at": "2022-04-13T03:37:07.423Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
@@ -202,6 +202,26 @@
       "started_at": "2022-04-05T09:01:12.397Z",
       "page_id": "pv54g7ltsc24",
       "incident_updates": [
+        {
+          "id": "vhqy3cf3khxj",
+          "status": "identified",
+          "body": "The team is continuing the restoration process for the ~400 impacted customers. We have restored functionality for 45% of impacted users. As a reminder this incident is not a result of a cyber attack and most of our restored customers have not seen any data loss. You can read a more detailed technical overview of the situation directly from our CTO, Sri Viswanath, in our Engineering blog - https://www.atlassian.com/engineering/april-2022-outage-update",
+          "incident_id": "0bcftpvmjkpt",
+          "created_at": "2022-04-13T03:37:07.421Z",
+          "updated_at": "2022-04-13T03:37:07.421Z",
+          "display_at": "2022-04-13T03:37:07.421Z",
+          "affected_components": [
+            {
+              "code": "4kcs01hbh4l6",
+              "name": "Jira Service Mangement Web",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "dm3mzkq2ftd7",
           "status": "identified",
