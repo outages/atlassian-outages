@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-14T04:12:37.730Z"
+    "updated_at": "2022-04-14T20:02:02.428Z"
   },
   "components": [
     {
@@ -194,7 +194,7 @@
       "name": "Multiple sites showing down/under maintenance",
       "status": "identified",
       "created_at": "2022-04-05T09:01:12.403Z",
-      "updated_at": "2022-04-14T04:12:37.715Z",
+      "updated_at": "2022-04-14T20:02:02.417Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
@@ -202,6 +202,26 @@
       "started_at": "2022-04-05T09:01:12.397Z",
       "page_id": "pv54g7ltsc24",
       "incident_updates": [
+        {
+          "id": "pjm96fzn33tp",
+          "status": "identified",
+          "body": "We have now restored functionality for 53% of users impacted by the outage.\n\nAs outlined in yesterday’s update, we are restoring affected customers using a three step process:\n\n   1. Technical restoration of affected sites\n   2. Internal validation of restored sites\n   3. Validating with affected customers before enabling their users\n\nBy automating some of our validation steps, we have now reduced time for internal validation of restored sites by half, which allows our support engineers to more quickly engage restored customers for validation and full site handover.\n\nIf you are still experiencing an outage and do not have access to your open ticket, please contact us at https://support.atlassian.com/contact/#/ (choose the Billing, Payments, & Pricing options from the drop down menu).",
+          "incident_id": "0bcftpvmjkpt",
+          "created_at": "2022-04-14T20:02:02.414Z",
+          "updated_at": "2022-04-14T20:02:02.414Z",
+          "display_at": "2022-04-14T20:02:02.414Z",
+          "affected_components": [
+            {
+              "code": "4kcs01hbh4l6",
+              "name": "Jira Service Mangement Web",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "k35dy12l0x72",
           "status": "identified",
