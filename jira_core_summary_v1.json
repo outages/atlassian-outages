@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-14T20:28:44.027Z"
+    "updated_at": "2022-04-15T02:24:22.974Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Multiple sites showing down/under maintenance",
       "status": "identified",
       "created_at": "2022-04-05T09:04:06.185Z",
-      "updated_at": "2022-04-14T20:03:49.690Z",
+      "updated_at": "2022-04-15T02:24:22.965Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
@@ -187,6 +187,19 @@
       "started_at": "2022-04-05T09:04:06.178Z",
       "page_id": "s6f0gm5gcpmy",
       "incident_updates": [
+        {
+          "id": "24sx0g2fp80d",
+          "status": "identified",
+          "body": "We have now restored functionality for 55% of users impacted by the outage.\nWith automation in full effect, we have  significantly increased the pace at which we are conducting technical restoration of affected customer sites, and we have reduced the time required for the validation of restored sites by half.\nIf you are still experiencing an outage and do not have access to your open ticket, please contact us at https://support.atlassian.com/contact/#/ (choose the Billing, Payments, & Pricing options from the drop down menu).",
+          "incident_id": "5l4zmgd3q1jz",
+          "created_at": "2022-04-15T02:24:22.962Z",
+          "updated_at": "2022-04-15T02:24:22.962Z",
+          "display_at": "2022-04-15T02:24:22.962Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "qps1gbljph8v",
           "status": "identified",
