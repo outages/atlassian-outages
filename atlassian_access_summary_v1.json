@@ -4,7 +4,7 @@
     "name": "Atlassian Access",
     "url": "https://access.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-15T20:07:49.202Z"
+    "updated_at": "2022-04-16T02:28:14.747Z"
   },
   "components": [
     {
@@ -104,7 +104,7 @@
       "name": "Multiple sites showing down/under maintenance",
       "status": "identified",
       "created_at": "2022-04-05T09:03:33.651Z",
-      "updated_at": "2022-04-15T20:07:49.191Z",
+      "updated_at": "2022-04-16T01:42:05.605Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
@@ -112,6 +112,19 @@
       "started_at": "2022-04-14T04:02:19.000Z",
       "page_id": "5qmgwsxwsz78",
       "incident_updates": [
+        {
+          "id": "9lfbzfzf516g",
+          "status": "identified",
+          "body": "We have now restored 78% of users impacted by the outage as we continue to move with more speed and accuracy. Our teams will continue to restore sites through the weekend, and we expect to have all sites restored no later than end of day Tuesday, April 19th PT. As we restore your site and hand it over to you for validation, please reach out to our teams should you find any issues so that our support engineers can work to get you fully restored.\nYou can contact us at https://support.atlassian.com/contact/#/ (choose the Billing, Payments, & Pricing options from the drop down menu).",
+          "incident_id": "2j0sksm2qyt0",
+          "created_at": "2022-04-16T01:42:05.603Z",
+          "updated_at": "2022-04-16T01:42:05.603Z",
+          "display_at": "2022-04-16T01:42:05.603Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "nz55vxyhbhnh",
           "status": "identified",
