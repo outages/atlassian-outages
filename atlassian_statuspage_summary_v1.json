@@ -4,7 +4,7 @@
     "name": "Atlassian Statuspage",
     "url": "http://metastatuspage.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2022-04-16T21:19:44.304-07:00"
+    "updated_at": "2022-04-16T21:21:45.529-07:00"
   },
   "components": [
     {
@@ -806,7 +806,7 @@
       "name": "Multiple sites showing down/under maintenance",
       "status": "identified",
       "created_at": "2022-04-05T06:45:01.881-07:00",
-      "updated_at": "2022-04-16T21:19:44.298-07:00",
+      "updated_at": "2022-04-16T21:21:45.521-07:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -817,11 +817,11 @@
         {
           "id": "dsjvlw2sh55x",
           "status": "identified",
-          "body": "We are continuing to work on a fix for this issue.",
+          "body": "We have now restored 99% of users impacted by the outage and have reached out to all affected customers.\nOur teams are available to help customers with any concerns. If you need assistance, please reply to your support ticket so that our engineers can work with you.\nIf you have any trouble accessing your support ticket, contact us at https://support.atlassian.com/contact/#/ (choose the Billing, Payments, & Pricing options from the drop down menu).",
           "incident_id": "pw6358jnkb85",
           "created_at": "2022-04-16T21:19:44.296-07:00",
-          "updated_at": "2022-04-16T21:19:44.296-07:00",
-          "display_at": "2022-04-16T21:19:44.296-07:00",
+          "updated_at": "2022-04-16T21:21:45.517-07:00",
+          "display_at": "2022-04-16T21:19:44.000-07:00",
           "affected_components": [
             {
               "code": "rkld00070vm9",

@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-17T04:19:39.009Z"
+    "updated_at": "2022-04-17T04:21:24.877Z"
   },
   "components": [
     {
@@ -194,7 +194,7 @@
       "name": "Multiple sites showing down/under maintenance",
       "status": "identified",
       "created_at": "2022-04-05T09:01:12.403Z",
-      "updated_at": "2022-04-17T04:19:39.002Z",
+      "updated_at": "2022-04-17T04:21:24.869Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -205,10 +205,10 @@
         {
           "id": "gvmb6yncknp8",
           "status": "identified",
-          "body": "We are continuing to work on a fix for this issue.",
+          "body": "We have now restored 99% of users impacted by the outage and have reached out to all affected customers.\nOur teams are available to help customers with any concerns. If you need assistance, please reply to your support ticket so that our engineers can work with you.\nIf you have any trouble accessing your support ticket, contact us at https://support.atlassian.com/contact/#/ (choose the Billing, Payments, & Pricing options from the drop down menu).",
           "incident_id": "0bcftpvmjkpt",
           "created_at": "2022-04-17T04:19:39.000Z",
-          "updated_at": "2022-04-17T04:19:39.000Z",
+          "updated_at": "2022-04-17T04:21:24.864Z",
           "display_at": "2022-04-17T04:19:39.000Z",
           "affected_components": [
             {
