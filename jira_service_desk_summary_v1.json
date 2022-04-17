@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-16T20:28:10.999Z"
+    "updated_at": "2022-04-17T04:19:39.009Z"
   },
   "components": [
     {
@@ -194,14 +194,34 @@
       "name": "Multiple sites showing down/under maintenance",
       "status": "identified",
       "created_at": "2022-04-05T09:01:12.403Z",
-      "updated_at": "2022-04-16T20:07:53.189Z",
+      "updated_at": "2022-04-17T04:19:39.002Z",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "critical",
+      "impact": "major",
       "shortlink": "https://stspg.io/jmkcwfnld0ql",
       "started_at": "2022-04-05T09:01:12.397Z",
       "page_id": "pv54g7ltsc24",
       "incident_updates": [
+        {
+          "id": "gvmb6yncknp8",
+          "status": "identified",
+          "body": "We are continuing to work on a fix for this issue.",
+          "incident_id": "0bcftpvmjkpt",
+          "created_at": "2022-04-17T04:19:39.000Z",
+          "updated_at": "2022-04-17T04:19:39.000Z",
+          "display_at": "2022-04-17T04:19:39.000Z",
+          "affected_components": [
+            {
+              "code": "4kcs01hbh4l6",
+              "name": "Jira Service Mangement Web",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "vrk4g2fbbx6d",
           "status": "identified",

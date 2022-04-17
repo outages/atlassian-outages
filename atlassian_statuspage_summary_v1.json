@@ -4,7 +4,7 @@
     "name": "Atlassian Statuspage",
     "url": "http://metastatuspage.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2022-04-16T13:12:25.150-07:00"
+    "updated_at": "2022-04-16T21:19:44.304-07:00"
   },
   "components": [
     {
@@ -806,14 +806,52 @@
       "name": "Multiple sites showing down/under maintenance",
       "status": "identified",
       "created_at": "2022-04-05T06:45:01.881-07:00",
-      "updated_at": "2022-04-16T13:12:25.143-07:00",
+      "updated_at": "2022-04-16T21:19:44.298-07:00",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "critical",
+      "impact": "major",
       "shortlink": "http://mstspg.co/kbz1kp63vq11",
       "started_at": "2022-04-05T06:45:01.859-07:00",
       "page_id": "y2j98763l56x",
       "incident_updates": [
+        {
+          "id": "dsjvlw2sh55x",
+          "status": "identified",
+          "body": "We are continuing to work on a fix for this issue.",
+          "incident_id": "pw6358jnkb85",
+          "created_at": "2022-04-16T21:19:44.296-07:00",
+          "updated_at": "2022-04-16T21:19:44.296-07:00",
+          "display_at": "2022-04-16T21:19:44.296-07:00",
+          "affected_components": [
+            {
+              "code": "rkld00070vm9",
+              "name": "Hosted Pages - HTTP Pages",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "3bg3nq9mm436",
+              "name": "Hosted Pages - HTTPS Pages",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "fyzs60wyq01d",
+              "name": "Management - Web Portal",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "3g0c0h5n5cp1",
+              "name": "Management - Authenticated API",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "br16wg9pfrnf",
           "status": "identified",
