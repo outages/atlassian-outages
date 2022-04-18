@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-17T22:25:48.639Z"
+    "updated_at": "2022-04-18T05:05:35.729Z"
   },
   "components": [
     {
@@ -192,16 +192,36 @@
     {
       "id": "0bcftpvmjkpt",
       "name": "Multiple sites showing down/under maintenance",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2022-04-05T09:01:12.403Z",
-      "updated_at": "2022-04-17T22:25:48.632Z",
-      "monitoring_at": null,
+      "updated_at": "2022-04-18T05:05:35.726Z",
+      "monitoring_at": "2022-04-18T05:05:35.706Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/jmkcwfnld0ql",
       "started_at": "2022-04-05T09:01:12.397Z",
       "page_id": "pv54g7ltsc24",
       "incident_updates": [
+        {
+          "id": "7kjm6n09vr2l",
+          "status": "monitoring",
+          "body": "We have now restored our customers impacted by the outage and have reached out to key contacts for each affected site.\nOur support teams are working with individual customers through any site specific needs. If you need assistance, please reply to your support ticket so that our engineers can work with you as soon as possible.\nIf you have any trouble accessing your support ticket, contact us at https://support.atlassian.com/contact/#/ (choose the Billing, Payments, & Pricing options from the drop down menu).",
+          "incident_id": "0bcftpvmjkpt",
+          "created_at": "2022-04-18T05:05:35.706Z",
+          "updated_at": "2022-04-18T05:05:35.706Z",
+          "display_at": "2022-04-18T05:05:35.706Z",
+          "affected_components": [
+            {
+              "code": "4kcs01hbh4l6",
+              "name": "Jira Service Mangement Web",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "nz29z98fp4fx",
           "status": "identified",
