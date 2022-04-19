@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-07T17:30:42.867Z"
+    "updated_at": "2022-04-19T21:42:38.540Z"
   },
   "components": [
     {
@@ -204,7 +204,62 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "m7tgcfxspc67",
+      "name": "Atlassian Community Scheduled Maintenance",
+      "status": "scheduled",
+      "created_at": "2022-04-19T21:42:38.482Z",
+      "updated_at": "2022-04-19T21:42:38.537Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/hgd7nmz4ghmv",
+      "started_at": "2022-04-19T21:42:38.477Z",
+      "page_id": "3tbw4lb9t3qp",
+      "incident_updates": [
+        {
+          "id": "p11b4410316d",
+          "status": "scheduled",
+          "body": "Atlassian Community (community.atlassian.com) scheduled maintenance window:\n\n- Starting at 11:59 PM Pacific Time, Tuesday, April 19th\n\n- Ending at 4:00 AM Pacific Time, Wednesday, April 20th\n\nThere might be some downtime during the window and the site could be completely unavailable for about an hour if/when the servers are restarted.",
+          "incident_id": "m7tgcfxspc67",
+          "created_at": "2022-04-19T21:42:38.534Z",
+          "updated_at": "2022-04-19T21:42:38.534Z",
+          "display_at": "2022-04-19T21:42:38.534Z",
+          "affected_components": [
+            {
+              "code": "x6ljwvfs3ymn",
+              "name": "Community",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "x6ljwvfs3ymn",
+          "name": "Community",
+          "status": "operational",
+          "created_at": "2018-11-30T21:48:02.423Z",
+          "updated_at": "2022-03-02T12:00:30.460Z",
+          "position": 4,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "3tbw4lb9t3qp",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2022-04-20T06:45:00.000Z",
+      "scheduled_until": "2022-04-20T11:00:00.000Z"
+    }
+  ],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
