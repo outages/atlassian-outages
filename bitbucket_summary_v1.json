@@ -4,15 +4,15 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-20T20:34:45.931Z"
+    "updated_at": "2022-04-20T21:04:29.698Z"
   },
   "components": [
     {
       "id": "g0lfj4sv2fhf",
       "name": "Website",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2013-09-26T03:34:27.377Z",
-      "updated_at": "2022-04-20T18:55:33.277Z",
+      "updated_at": "2022-04-20T21:04:29.063Z",
       "position": 1,
       "description": "Access to bitbucket.org",
       "showcase": false,
@@ -204,124 +204,9 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "z7f7djp10rj0",
-      "name": "Emergency Pull Request history database maintenance",
-      "status": "in_progress",
-      "created_at": "2022-04-20T17:37:38.924Z",
-      "updated_at": "2022-04-20T20:34:45.923Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/lwdg5m5gjtz4",
-      "started_at": "2022-04-20T17:37:38.971Z",
-      "page_id": "bqlf8qjztdtr",
-      "incident_updates": [
-        {
-          "id": "c9z97f9gjbb5",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.\n\nThe maintenance windows has been extended through 22:00 Hrs UTC",
-          "incident_id": "z7f7djp10rj0",
-          "created_at": "2022-04-20T18:55:33.328Z",
-          "updated_at": "2022-04-20T20:34:45.919Z",
-          "display_at": "2022-04-20T18:55:33.328Z",
-          "affected_components": [
-            {
-              "code": "g0lfj4sv2fhf",
-              "name": "Website",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1516853096537747500
-        },
-        {
-          "id": "ygwqp18kyl5p",
-          "status": "scheduled",
-          "body": "We will be undergoing scheduled maintenance during this time.",
-          "incident_id": "z7f7djp10rj0",
-          "created_at": "2022-04-20T18:54:21.515Z",
-          "updated_at": "2022-04-20T18:54:21.979Z",
-          "display_at": "2022-04-20T18:54:21.515Z",
-          "affected_components": [
-            {
-              "code": "g0lfj4sv2fhf",
-              "name": "Website",
-              "old_status": "under_maintenance",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1516852791351808000
-        },
-        {
-          "id": "pbkx2cmx12cz",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "z7f7djp10rj0",
-          "created_at": "2022-04-20T18:30:34.816Z",
-          "updated_at": "2022-04-20T18:30:35.559Z",
-          "display_at": "2022-04-20T18:30:34.816Z",
-          "affected_components": [
-            {
-              "code": "g0lfj4sv2fhf",
-              "name": "Website",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1516846808491647000
-        },
-        {
-          "id": "h52s485lv4tp",
-          "status": "scheduled",
-          "body": "Bitbucket will be applying an emergency maintenance on the database that holds some pull request historical data.  During this time the activity tab in the pull request view might become unavailable.  Additionally, when performing some updates to pull requests, like approving it, the transaction could time out with a \"Something went wrong\" error message; if this happens you can refresh the pull request to see the changes.  This functionality will become available again after the maintenance is complete.",
-          "incident_id": "z7f7djp10rj0",
-          "created_at": "2022-04-20T17:37:38.971Z",
-          "updated_at": "2022-04-20T18:54:13.182Z",
-          "display_at": "2022-04-20T17:37:38.971Z",
-          "affected_components": [
-            {
-              "code": "g0lfj4sv2fhf",
-              "name": "Website",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1516833486610440200
-        }
-      ],
-      "components": [
-        {
-          "id": "g0lfj4sv2fhf",
-          "name": "Website",
-          "status": "under_maintenance",
-          "created_at": "2013-09-26T03:34:27.377Z",
-          "updated_at": "2022-04-20T18:55:33.277Z",
-          "position": 1,
-          "description": "Access to bitbucket.org",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "bqlf8qjztdtr",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2022-04-20T18:30:00.000Z",
-      "scheduled_until": "2022-04-20T22:00:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
