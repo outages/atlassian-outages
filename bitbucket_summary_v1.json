@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-20T18:55:34.773Z"
+    "updated_at": "2022-04-20T20:34:45.931Z"
   },
   "components": [
     {
@@ -210,21 +210,21 @@
       "name": "Emergency Pull Request history database maintenance",
       "status": "in_progress",
       "created_at": "2022-04-20T17:37:38.924Z",
-      "updated_at": "2022-04-20T18:55:34.757Z",
+      "updated_at": "2022-04-20T20:34:45.923Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
       "shortlink": "https://stspg.io/lwdg5m5gjtz4",
-      "started_at": "2022-04-20T17:37:38.919Z",
+      "started_at": "2022-04-20T17:37:38.971Z",
       "page_id": "bqlf8qjztdtr",
       "incident_updates": [
         {
           "id": "c9z97f9gjbb5",
           "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.\n\nThe maintenance windows has been extended through 22:00 Hrs UTC",
           "incident_id": "z7f7djp10rj0",
           "created_at": "2022-04-20T18:55:33.328Z",
-          "updated_at": "2022-04-20T18:55:34.745Z",
+          "updated_at": "2022-04-20T20:34:45.919Z",
           "display_at": "2022-04-20T18:55:33.328Z",
           "affected_components": [
             {
@@ -317,7 +317,7 @@
         }
       ],
       "scheduled_for": "2022-04-20T18:30:00.000Z",
-      "scheduled_until": "2022-04-20T20:30:00.000Z"
+      "scheduled_until": "2022-04-20T22:00:00.000Z"
     }
   ],
   "status": {
