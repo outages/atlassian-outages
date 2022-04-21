@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-12T09:27:06.973Z"
+    "updated_at": "2022-04-21T05:56:01.032Z"
   },
   "components": [
     {
@@ -626,9 +626,9 @@
     {
       "id": "hk36hlvygg2q",
       "name": "Reporting APIs and dashboards",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2013-12-03T00:45:26.014Z",
-      "updated_at": "2022-04-12T09:27:06.921Z",
+      "updated_at": "2022-04-21T05:56:00.979Z",
       "position": 11,
       "description": "Marketing attribution reports are now operational.",
       "showcase": true,
@@ -700,6 +700,58 @@
     }
   ],
   "incidents": [
+    {
+      "id": "sk8pvdp7j8t7",
+      "name": "Delay in Licenses and Transactions data in the reporting for marketplace partners",
+      "status": "identified",
+      "created_at": "2022-04-21T05:56:00.939Z",
+      "updated_at": "2022-04-21T05:56:01.029Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/k524q1yk0wg6",
+      "started_at": "2022-04-21T05:56:00.931Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "12f05r3kzgm5",
+          "status": "identified",
+          "body": "The issue has been identified and a fix is being implemented.",
+          "incident_id": "sk8pvdp7j8t7",
+          "created_at": "2022-04-21T05:56:01.026Z",
+          "updated_at": "2022-04-21T05:56:01.026Z",
+          "display_at": "2022-04-21T05:56:01.026Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "hk36hlvygg2q",
+          "name": "Reporting APIs and dashboards",
+          "status": "degraded_performance",
+          "created_at": "2013-12-03T00:45:26.014Z",
+          "updated_at": "2022-04-21T05:56:00.979Z",
+          "position": 11,
+          "description": "Marketing attribution reports are now operational.",
+          "showcase": true,
+          "start_date": null,
+          "group_id": "d0m8l367qqw5",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    },
     {
       "id": "lc7cnnkpf3k2",
       "name": "Some marketplace partners are unable to update Partner account details on Marketplace.",
