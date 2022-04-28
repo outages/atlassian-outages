@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-28T05:25:33.431Z"
+    "updated_at": "2022-04-28T06:33:42.819Z"
   },
   "components": [
     {
@@ -85,9 +85,9 @@
     {
       "id": "gmpjxdbnlw8r",
       "name": "Public Issues Tracker",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-11-30T21:48:47.309Z",
-      "updated_at": "2022-04-28T05:00:50.549Z",
+      "updated_at": "2022-04-28T06:33:42.775Z",
       "position": 6,
       "description": "Atlassian's public issue tracker which can be found at jira.atlassian.com",
       "showcase": true,
@@ -204,104 +204,9 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "4w7pbltn4mh5",
-      "name": "Public Issues Tracker (jira.atlassian.com) upgraded.",
-      "status": "in_progress",
-      "created_at": "2022-04-28T04:50:46.852Z",
-      "updated_at": "2022-04-28T05:05:41.175Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/x3mw9wb3f69n",
-      "started_at": "2022-04-28T04:50:46.846Z",
-      "page_id": "3tbw4lb9t3qp",
-      "incident_updates": [
-        {
-          "id": "nyq7l1762ql2",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "4w7pbltn4mh5",
-          "created_at": "2022-04-28T05:05:41.173Z",
-          "updated_at": "2022-04-28T05:05:41.173Z",
-          "display_at": "2022-04-28T05:05:41.173Z",
-          "affected_components": [
-            {
-              "code": "gmpjxdbnlw8r",
-              "name": "Public Issues Tracker",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "jdp47fcr6jpn",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "4w7pbltn4mh5",
-          "created_at": "2022-04-28T05:00:50.580Z",
-          "updated_at": "2022-04-28T05:00:50.580Z",
-          "display_at": "2022-04-28T05:00:50.580Z",
-          "affected_components": [
-            {
-              "code": "gmpjxdbnlw8r",
-              "name": "Public Issues Tracker",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "hsh0lrkw5l86",
-          "status": "scheduled",
-          "body": "jira.atlassian.com will be undergoing scheduled maintenance and will be upgraded to Jira 8.20.8. During this time the service may be briefly inaccessible.",
-          "incident_id": "4w7pbltn4mh5",
-          "created_at": "2022-04-28T04:50:46.907Z",
-          "updated_at": "2022-04-28T04:50:46.907Z",
-          "display_at": "2022-04-28T04:50:46.907Z",
-          "affected_components": [
-            {
-              "code": "gmpjxdbnlw8r",
-              "name": "Public Issues Tracker",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "gmpjxdbnlw8r",
-          "name": "Public Issues Tracker",
-          "status": "under_maintenance",
-          "created_at": "2018-11-30T21:48:47.309Z",
-          "updated_at": "2022-04-28T05:00:50.549Z",
-          "position": 6,
-          "description": "Atlassian's public issue tracker which can be found at jira.atlassian.com",
-          "showcase": true,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "3tbw4lb9t3qp",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2022-04-28T05:00:00.000Z",
-      "scheduled_until": "2022-04-28T07:00:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
