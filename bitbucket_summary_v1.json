@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-05-02T21:36:59.931Z"
+    "updated_at": "2022-05-02T21:39:36.707Z"
   },
   "components": [
     {
@@ -100,9 +100,9 @@
     {
       "id": "28h8dvv2qfzw",
       "name": "Source downloads",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2013-09-26T05:30:21.132Z",
-      "updated_at": "2022-05-02T19:08:39.380Z",
+      "updated_at": "2022-05-02T21:39:01.692Z",
       "position": 8,
       "description": "Archive (zip, tar.gz, bzip) downloads of repositories",
       "showcase": false,
@@ -115,9 +115,9 @@
     {
       "id": "rzh2n85q7vtt",
       "name": "Pipelines",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2016-08-23T20:04:54.469Z",
-      "updated_at": "2022-05-02T19:08:39.397Z",
+      "updated_at": "2022-05-02T21:39:14.539Z",
       "position": 9,
       "description": "Continuous integration and delivery for Bitbucket repos",
       "showcase": false,
@@ -130,9 +130,9 @@
     {
       "id": "g0c8l3nn2vr1",
       "name": "Git LFS",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-03-06T20:22:58.463Z",
-      "updated_at": "2022-05-02T19:08:39.417Z",
+      "updated_at": "2022-05-02T21:39:26.636Z",
       "position": 10,
       "description": "Git Large File Storage",
       "showcase": false,
@@ -175,9 +175,9 @@
     {
       "id": "tmjhkbvskftr",
       "name": "Signup",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-10-09T20:39:28.376Z",
-      "updated_at": "2022-05-02T19:08:39.435Z",
+      "updated_at": "2022-05-02T21:39:36.705Z",
       "position": 14,
       "description": null,
       "showcase": false,
@@ -206,7 +206,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
