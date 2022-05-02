@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-05-02T15:24:18.724Z"
+    "updated_at": "2022-05-02T17:04:32.378Z"
   },
   "components": [
     {
@@ -705,7 +705,7 @@
       "name": "Users would be unable to start trial of apps from the UPM manage app page.",
       "status": "investigating",
       "created_at": "2022-05-02T14:40:50.898Z",
-      "updated_at": "2022-05-02T14:41:26.350Z",
+      "updated_at": "2022-05-02T17:04:32.367Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -713,6 +713,26 @@
       "started_at": "2022-05-02T14:40:50.890Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "29c8wcqycstt",
+          "status": "investigating",
+          "body": "A bug ticket for the error has been created and the progress can be tracked at https://jira.atlassian.com/browse/JRACLOUD-78971. We have also provided the workaround in the bug ticket. We estimate the bugfix to be rolled out within 12 hours.",
+          "incident_id": "tyhylspzr4qd",
+          "created_at": "2022-05-02T17:04:32.364Z",
+          "updated_at": "2022-05-02T17:04:32.364Z",
+          "display_at": "2022-05-02T17:04:32.364Z",
+          "affected_components": [
+            {
+              "code": "kj290v20168q",
+              "name": "Marketplace - Evaluations and purchases",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "tgdw878jds2y",
           "status": "investigating",
