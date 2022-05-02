@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-05-02T19:24:16.311Z"
+    "updated_at": "2022-05-02T20:10:06.106Z"
   },
   "components": [
     {
@@ -207,16 +207,128 @@
     {
       "id": "r6jvgswd238m",
       "name": "Certificate error for bitbucket.org on chrome browsers",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2022-05-02T19:08:39.269Z",
-      "updated_at": "2022-05-02T19:08:39.484Z",
-      "monitoring_at": null,
+      "updated_at": "2022-05-02T20:10:06.102Z",
+      "monitoring_at": "2022-05-02T20:10:06.086Z",
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/3g5kl31q4vwy",
       "started_at": "2022-05-02T19:08:39.256Z",
       "page_id": "bqlf8qjztdtr",
       "incident_updates": [
+        {
+          "id": "vlj4d82nmg39",
+          "status": "monitoring",
+          "body": "We have identified the root cause of the certificate and have mitigated the problem. We are now monitoring closely.",
+          "incident_id": "r6jvgswd238m",
+          "created_at": "2022-05-02T20:10:06.086Z",
+          "updated_at": "2022-05-02T20:10:06.086Z",
+          "display_at": "2022-05-02T20:10:06.086Z",
+          "affected_components": [
+            {
+              "code": "c1qmcrcbc5zy",
+              "name": "Git via HTTPS",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "g0lfj4sv2fhf",
+              "name": "Website",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "28h8dvv2qfzw",
+              "name": "Source downloads",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "k0x2yw1435v7",
+              "name": "API",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "rzh2n85q7vtt",
+              "name": "Pipelines",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "g0c8l3nn2vr1",
+              "name": "Git LFS",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "tmjhkbvskftr",
+              "name": "Signup",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "8hbt6jqg2c62",
+          "status": "identified",
+          "body": "We continue to work on resolving the certificate issue for Atlassian Bitbucket. We have identified the root cause and expect recovery shortly.",
+          "incident_id": "r6jvgswd238m",
+          "created_at": "2022-05-02T19:57:49.326Z",
+          "updated_at": "2022-05-02T19:57:49.326Z",
+          "display_at": "2022-05-02T19:57:49.326Z",
+          "affected_components": [
+            {
+              "code": "c1qmcrcbc5zy",
+              "name": "Git via HTTPS",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "g0lfj4sv2fhf",
+              "name": "Website",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "28h8dvv2qfzw",
+              "name": "Source downloads",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "k0x2yw1435v7",
+              "name": "API",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "rzh2n85q7vtt",
+              "name": "Pipelines",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "g0c8l3nn2vr1",
+              "name": "Git LFS",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "tmjhkbvskftr",
+              "name": "Signup",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "jnwqch3rjps9",
           "status": "investigating",
