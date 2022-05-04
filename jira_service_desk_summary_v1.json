@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-05-03T15:35:26.289Z"
+    "updated_at": "2022-05-04T04:23:54.040Z"
   },
   "components": [
     {
@@ -188,63 +188,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "qz9cqvk536cr",
-      "name": "Users are not able to search users, assign fields, and user mention",
-      "status": "monitoring",
-      "created_at": "2022-05-03T14:21:55.860Z",
-      "updated_at": "2022-05-03T15:35:26.280Z",
-      "monitoring_at": "2022-05-03T15:34:38.661Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/4x9xl24440m5",
-      "started_at": "2022-05-03T14:21:55.854Z",
-      "page_id": "pv54g7ltsc24",
-      "incident_updates": [
-        {
-          "id": "xhg1dlmh3n06",
-          "status": "monitoring",
-          "body": "We are continuing to monitor for any further issues.",
-          "incident_id": "qz9cqvk536cr",
-          "created_at": "2022-05-03T15:35:26.277Z",
-          "updated_at": "2022-05-03T15:35:26.277Z",
-          "display_at": "2022-05-03T15:35:26.277Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "7v0y50bb62z3",
-          "status": "monitoring",
-          "body": "Between 1:21 PM UTC to 2:12 PM UTC, some customers experienced issues with user search, assigning fields, and user mentions. The root cause was due to a scaling failure with the service responsible for user search across multiple products. We have deployed a fix to mitigate the issue and have verified that the services have recovered. The conditions that cause the bug have been addressed and we’re actively working on a permanent fix. The issue has been resolved and the service is operating normally.",
-          "incident_id": "qz9cqvk536cr",
-          "created_at": "2022-05-03T15:34:38.661Z",
-          "updated_at": "2022-05-03T15:34:38.661Z",
-          "display_at": "2022-05-03T15:34:38.661Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "vlmm3z5fcvsg",
-          "status": "identified",
-          "body": "We are investigating an issue with user search, assigning fields, and user mentions that are impacting some Confluence, Jira Service Management, Jira Software, and Bitbucket customers. We will provide more details within the next hour.",
-          "incident_id": "qz9cqvk536cr",
-          "created_at": "2022-05-03T14:21:55.895Z",
-          "updated_at": "2022-05-03T14:21:55.895Z",
-          "display_at": "2022-05-03T14:21:55.895Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": []
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
