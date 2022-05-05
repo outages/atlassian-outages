@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-05-04T10:37:57.659Z"
+    "updated_at": "2022-05-05T02:30:24.672Z"
   },
   "components": [
     {
@@ -706,7 +706,7 @@
       "name": "Scheduled maintenance of Reporting API and dashboards.",
       "status": "scheduled",
       "created_at": "2022-05-04T07:25:21.242Z",
-      "updated_at": "2022-05-04T07:25:21.297Z",
+      "updated_at": "2022-05-05T02:30:24.658Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -714,6 +714,19 @@
       "started_at": "2022-05-04T07:25:21.233Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "m37dnk60jypc",
+          "status": "scheduled",
+          "body": "Maintenance will begin as scheduled in 60 minutes.",
+          "incident_id": "56hvn27mtghs",
+          "created_at": "2022-05-05T02:30:24.438Z",
+          "updated_at": "2022-05-05T02:30:24.438Z",
+          "display_at": "2022-05-05T02:30:24.438Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "gnlpcp6dnqk7",
           "status": "scheduled",
