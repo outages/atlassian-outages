@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-05-03T15:32:35.998Z"
+    "updated_at": "2022-05-05T19:55:52.601Z"
   },
   "components": [
     {
@@ -204,7 +204,167 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "rjpq7vvbq0zf",
+      "name": "Storage network maintenance",
+      "status": "scheduled",
+      "created_at": "2022-05-05T19:55:51.950Z",
+      "updated_at": "2022-05-05T19:55:52.594Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/4zb32h9p5l61",
+      "started_at": "2022-05-05T19:55:51.941Z",
+      "page_id": "bqlf8qjztdtr",
+      "incident_updates": [
+        {
+          "id": "93v6bqwpsh4n",
+          "status": "scheduled",
+          "body": "Our storage vendor will be performing proactive maintenance to increase network capacity.  One half of each pair of redundant links will be under maintenance at a time, and we will monitor system health throughout.  No disruption is expected.",
+          "incident_id": "rjpq7vvbq0zf",
+          "created_at": "2022-05-05T19:55:52.004Z",
+          "updated_at": "2022-05-05T19:55:52.588Z",
+          "display_at": "2022-05-05T19:55:52.004Z",
+          "affected_components": [
+            {
+              "code": "c1qmcrcbc5zy",
+              "name": "Git via HTTPS",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "g0lfj4sv2fhf",
+              "name": "Website",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "28h8dvv2qfzw",
+              "name": "Source downloads",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "qmh4tj8h5kbn",
+              "name": "Git via SSH",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "k0x2yw1435v7",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "g0c8l3nn2vr1",
+              "name": "Git LFS",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1522304088746070000
+        }
+      ],
+      "components": [
+        {
+          "id": "g0lfj4sv2fhf",
+          "name": "Website",
+          "status": "operational",
+          "created_at": "2013-09-26T03:34:27.377Z",
+          "updated_at": "2022-05-02T21:36:35.522Z",
+          "position": 1,
+          "description": "Access to bitbucket.org",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "k0x2yw1435v7",
+          "name": "API",
+          "status": "operational",
+          "created_at": "2015-06-05T19:34:43.541Z",
+          "updated_at": "2022-05-02T21:36:47.578Z",
+          "position": 2,
+          "description": "Access to api.bitbucket.org",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "qmh4tj8h5kbn",
+          "name": "Git via SSH",
+          "status": "operational",
+          "created_at": "2013-10-10T17:45:00.679Z",
+          "updated_at": "2022-03-28T23:30:22.969Z",
+          "position": 3,
+          "description": "Access to Git over SSH.",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "c1qmcrcbc5zy",
+          "name": "Git via HTTPS",
+          "status": "operational",
+          "created_at": "2013-09-26T03:33:27.652Z",
+          "updated_at": "2022-05-02T21:36:59.928Z",
+          "position": 5,
+          "description": "Access to Git repositories via HTTPS",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "28h8dvv2qfzw",
+          "name": "Source downloads",
+          "status": "operational",
+          "created_at": "2013-09-26T05:30:21.132Z",
+          "updated_at": "2022-05-02T21:39:01.692Z",
+          "position": 8,
+          "description": "Archive (zip, tar.gz, bzip) downloads of repositories",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "g0c8l3nn2vr1",
+          "name": "Git LFS",
+          "status": "operational",
+          "created_at": "2017-03-06T20:22:58.463Z",
+          "updated_at": "2022-05-02T21:39:26.636Z",
+          "position": 10,
+          "description": "Git Large File Storage",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2022-05-13T21:00:00.000Z",
+      "scheduled_until": "2022-05-13T22:30:00.000Z"
+    }
+  ],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
