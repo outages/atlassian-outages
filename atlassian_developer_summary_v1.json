@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-05-05T04:30:35.673Z"
+    "updated_at": "2022-05-06T11:06:31.752Z"
   },
   "components": [
     {
@@ -182,7 +182,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -641,9 +641,9 @@
     {
       "id": "hk36hlvygg2q",
       "name": "Reporting APIs and dashboards",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2013-12-03T00:45:26.014Z",
-      "updated_at": "2022-05-05T04:30:35.621Z",
+      "updated_at": "2022-05-06T11:06:31.703Z",
       "position": 11,
       "description": "Marketing attribution reports are now operational.",
       "showcase": true,
@@ -699,10 +699,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "1gzzysrwryfz",
+      "name": "Delay in updating Marketplace Partner Reporting data",
+      "status": "identified",
+      "created_at": "2022-05-06T11:06:31.665Z",
+      "updated_at": "2022-05-06T11:06:31.749Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/6hkh10w3lpn1",
+      "started_at": "2022-05-06T11:06:31.644Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "dng5xwd09b9s",
+          "status": "identified",
+          "body": "There is a delay in the reporting data and our teams are working on it to get the latest data.",
+          "incident_id": "1gzzysrwryfz",
+          "created_at": "2022-05-06T11:06:31.747Z",
+          "updated_at": "2022-05-06T11:06:31.747Z",
+          "display_at": "2022-05-06T11:06:31.747Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "hk36hlvygg2q",
+          "name": "Reporting APIs and dashboards",
+          "status": "partial_outage",
+          "created_at": "2013-12-03T00:45:26.014Z",
+          "updated_at": "2022-05-06T11:06:31.703Z",
+          "position": 11,
+          "description": "Marketing attribution reports are now operational.",
+          "showcase": true,
+          "start_date": null,
+          "group_id": "d0m8l367qqw5",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
