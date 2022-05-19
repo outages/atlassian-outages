@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-05-17T20:23:29.879Z"
+    "updated_at": "2022-05-19T09:49:15.277Z"
   },
   "components": [
     {
@@ -203,7 +203,37 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "zb99h30vw6zb",
+      "name": "Significant degradation in search with the majority of requests failing.",
+      "status": "monitoring",
+      "created_at": "2022-05-19T09:49:14.793Z",
+      "updated_at": "2022-05-19T09:49:15.272Z",
+      "monitoring_at": "2022-05-19T09:49:14.832Z",
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/7m0skfs243tc",
+      "started_at": "2022-05-19T09:49:14.785Z",
+      "page_id": "bqlf8qjztdtr",
+      "incident_updates": [
+        {
+          "id": "0fd9v0prhmn3",
+          "status": "monitoring",
+          "body": "We have identified an incident that has caused the degradation of search performance for some of the Bitbucket Cloud customers and have mitigated the problem. We are now monitoring closely.",
+          "incident_id": "zb99h30vw6zb",
+          "created_at": "2022-05-19T09:49:14.832Z",
+          "updated_at": "2022-05-19T09:49:15.269Z",
+          "display_at": "2022-05-19T09:49:14.832Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1527224857389301800
+        }
+      ],
+      "components": []
+    }
+  ],
   "scheduled_maintenances": [
     {
       "id": "kzlstx087hgc",
