@@ -4,15 +4,15 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-05-23T20:00:28.113Z"
+    "updated_at": "2022-05-23T21:00:37.701Z"
   },
   "components": [
     {
       "id": "g0lfj4sv2fhf",
       "name": "Website",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2013-09-26T03:34:27.377Z",
-      "updated_at": "2022-05-02T21:36:35.522Z",
+      "updated_at": "2022-05-23T21:00:35.632Z",
       "position": 1,
       "description": "Access to bitbucket.org",
       "showcase": false,
@@ -25,9 +25,9 @@
     {
       "id": "k0x2yw1435v7",
       "name": "API",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2015-06-05T19:34:43.541Z",
-      "updated_at": "2022-05-02T21:36:47.578Z",
+      "updated_at": "2022-05-23T21:00:35.662Z",
       "position": 2,
       "description": "Access to api.bitbucket.org",
       "showcase": false,
@@ -40,9 +40,9 @@
     {
       "id": "qmh4tj8h5kbn",
       "name": "Git via SSH",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2013-10-10T17:45:00.679Z",
-      "updated_at": "2022-03-28T23:30:22.969Z",
+      "updated_at": "2022-05-23T21:00:35.690Z",
       "position": 3,
       "description": "Access to Git over SSH.",
       "showcase": false,
@@ -70,9 +70,9 @@
     {
       "id": "c1qmcrcbc5zy",
       "name": "Git via HTTPS",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2013-09-26T03:33:27.652Z",
-      "updated_at": "2022-05-02T21:36:59.928Z",
+      "updated_at": "2022-05-23T21:00:35.719Z",
       "position": 5,
       "description": "Access to Git repositories via HTTPS",
       "showcase": false,
@@ -85,9 +85,9 @@
     {
       "id": "rfzky0v13fbp",
       "name": "Webhooks",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2015-07-29T01:37:04.511Z",
-      "updated_at": "2021-12-22T14:30:59.600Z",
+      "updated_at": "2022-05-23T21:00:35.751Z",
       "position": 7,
       "description": "The Bitbucket webhooks service",
       "showcase": false,
@@ -100,9 +100,9 @@
     {
       "id": "28h8dvv2qfzw",
       "name": "Source downloads",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2013-09-26T05:30:21.132Z",
-      "updated_at": "2022-05-02T21:39:01.692Z",
+      "updated_at": "2022-05-23T21:00:35.781Z",
       "position": 8,
       "description": "Archive (zip, tar.gz, bzip) downloads of repositories",
       "showcase": false,
@@ -115,9 +115,9 @@
     {
       "id": "rzh2n85q7vtt",
       "name": "Pipelines",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2016-08-23T20:04:54.469Z",
-      "updated_at": "2022-05-11T12:36:25.452Z",
+      "updated_at": "2022-05-23T21:00:35.805Z",
       "position": 9,
       "description": "Continuous integration and delivery for Bitbucket repos",
       "showcase": false,
@@ -130,9 +130,9 @@
     {
       "id": "g0c8l3nn2vr1",
       "name": "Git LFS",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2017-03-06T20:22:58.463Z",
-      "updated_at": "2022-05-02T21:39:26.636Z",
+      "updated_at": "2022-05-23T21:00:35.829Z",
       "position": 10,
       "description": "Git Large File Storage",
       "showcase": false,
@@ -208,9 +208,9 @@
     {
       "id": "kzlstx087hgc",
       "name": "Storage network maintenance",
-      "status": "scheduled",
+      "status": "in_progress",
       "created_at": "2022-05-17T20:03:10.598Z",
-      "updated_at": "2022-05-23T20:00:28.101Z",
+      "updated_at": "2022-05-23T21:00:37.691Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -218,6 +218,68 @@
       "started_at": "2022-05-17T20:03:10.587Z",
       "page_id": "bqlf8qjztdtr",
       "incident_updates": [
+        {
+          "id": "nmr28rd6kny9",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "kzlstx087hgc",
+          "created_at": "2022-05-23T21:00:35.904Z",
+          "updated_at": "2022-05-23T21:00:37.681Z",
+          "display_at": "2022-05-23T21:00:35.904Z",
+          "affected_components": [
+            {
+              "code": "c1qmcrcbc5zy",
+              "name": "Git via HTTPS",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "g0lfj4sv2fhf",
+              "name": "Website",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "28h8dvv2qfzw",
+              "name": "Source downloads",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "qmh4tj8h5kbn",
+              "name": "Git via SSH",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "k0x2yw1435v7",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "rfzky0v13fbp",
+              "name": "Webhooks",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "rzh2n85q7vtt",
+              "name": "Pipelines",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "g0c8l3nn2vr1",
+              "name": "Git LFS",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1528843365445382100
+        },
         {
           "id": "qhd21kynfpmm",
           "status": "scheduled",
@@ -298,9 +360,9 @@
         {
           "id": "g0lfj4sv2fhf",
           "name": "Website",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2013-09-26T03:34:27.377Z",
-          "updated_at": "2022-05-02T21:36:35.522Z",
+          "updated_at": "2022-05-23T21:00:35.632Z",
           "position": 1,
           "description": "Access to bitbucket.org",
           "showcase": false,
@@ -313,9 +375,9 @@
         {
           "id": "k0x2yw1435v7",
           "name": "API",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2015-06-05T19:34:43.541Z",
-          "updated_at": "2022-05-02T21:36:47.578Z",
+          "updated_at": "2022-05-23T21:00:35.662Z",
           "position": 2,
           "description": "Access to api.bitbucket.org",
           "showcase": false,
@@ -328,9 +390,9 @@
         {
           "id": "qmh4tj8h5kbn",
           "name": "Git via SSH",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2013-10-10T17:45:00.679Z",
-          "updated_at": "2022-03-28T23:30:22.969Z",
+          "updated_at": "2022-05-23T21:00:35.690Z",
           "position": 3,
           "description": "Access to Git over SSH.",
           "showcase": false,
@@ -343,9 +405,9 @@
         {
           "id": "c1qmcrcbc5zy",
           "name": "Git via HTTPS",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2013-09-26T03:33:27.652Z",
-          "updated_at": "2022-05-02T21:36:59.928Z",
+          "updated_at": "2022-05-23T21:00:35.719Z",
           "position": 5,
           "description": "Access to Git repositories via HTTPS",
           "showcase": false,
@@ -358,9 +420,9 @@
         {
           "id": "rfzky0v13fbp",
           "name": "Webhooks",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2015-07-29T01:37:04.511Z",
-          "updated_at": "2021-12-22T14:30:59.600Z",
+          "updated_at": "2022-05-23T21:00:35.751Z",
           "position": 7,
           "description": "The Bitbucket webhooks service",
           "showcase": false,
@@ -373,9 +435,9 @@
         {
           "id": "28h8dvv2qfzw",
           "name": "Source downloads",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2013-09-26T05:30:21.132Z",
-          "updated_at": "2022-05-02T21:39:01.692Z",
+          "updated_at": "2022-05-23T21:00:35.781Z",
           "position": 8,
           "description": "Archive (zip, tar.gz, bzip) downloads of repositories",
           "showcase": false,
@@ -388,9 +450,9 @@
         {
           "id": "rzh2n85q7vtt",
           "name": "Pipelines",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2016-08-23T20:04:54.469Z",
-          "updated_at": "2022-05-11T12:36:25.452Z",
+          "updated_at": "2022-05-23T21:00:35.805Z",
           "position": 9,
           "description": "Continuous integration and delivery for Bitbucket repos",
           "showcase": false,
@@ -403,9 +465,9 @@
         {
           "id": "g0c8l3nn2vr1",
           "name": "Git LFS",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2017-03-06T20:22:58.463Z",
-          "updated_at": "2022-05-02T21:39:26.636Z",
+          "updated_at": "2022-05-23T21:00:35.829Z",
           "position": 10,
           "description": "Git Large File Storage",
           "showcase": false,
@@ -421,7 +483,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
