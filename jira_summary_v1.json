@@ -4,7 +4,7 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-05-20T04:59:39.598Z"
+    "updated_at": "2022-05-23T01:14:28.999Z"
   },
   "components": [
     {
@@ -162,7 +162,7 @@
       "name": "Automation for Jira",
       "status": "operational",
       "created_at": "2020-12-23T01:40:32.378Z",
-      "updated_at": "2021-12-08T04:15:58.748Z",
+      "updated_at": "2022-05-23T00:56:00.970Z",
       "position": 11,
       "description": null,
       "showcase": false,
