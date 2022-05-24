@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-05-21T13:23:30.232Z"
+    "updated_at": "2022-05-24T01:06:45.108Z"
   },
   "components": [
     {
@@ -92,32 +92,19 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "73bt63kd5q9k",
-      "name": "Developer",
+      "id": "g04n852g3nt6",
+      "name": "App listings",
       "status": "operational",
-      "created_at": "2018-02-01T17:21:34.889Z",
-      "updated_at": "2019-05-02T04:22:45.333Z",
+      "created_at": "2013-12-03T00:43:13.481Z",
+      "updated_at": "2021-11-05T18:32:28.193Z",
       "position": 2,
-      "description": null,
-      "showcase": false,
+      "description": "The detailed listing page for each app",
+      "showcase": true,
       "start_date": null,
-      "group_id": null,
+      "group_id": "d0m8l367qqw5",
       "page_id": "n8766lc3ybbs",
-      "group": true,
-      "only_show_if_degraded": false,
-      "components": [
-        "wzmg8phvmrwh",
-        "hfflf63kcp1l",
-        "ccbm394hy8pk",
-        "ft3y6psz31vm",
-        "vb9xhz9z6zbp",
-        "v19cs464rk5f",
-        "pgqd9x4jl520",
-        "sq83n9jrwk7c",
-        "64gg59lyzrfs",
-        "khz72mns34gk",
-        "x9bxzb5jlltj"
-      ]
+      "group": false,
+      "only_show_if_degraded": false
     },
     {
       "id": "yjqnzm0tkgsd",
@@ -150,19 +137,32 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "g04n852g3nt6",
-      "name": "App listings",
+      "id": "73bt63kd5q9k",
+      "name": "Developer",
       "status": "operational",
-      "created_at": "2013-12-03T00:43:13.481Z",
-      "updated_at": "2021-11-05T18:32:28.193Z",
+      "created_at": "2018-02-01T17:21:34.889Z",
+      "updated_at": "2019-05-02T04:22:45.333Z",
       "position": 2,
-      "description": "The detailed listing page for each app",
-      "showcase": true,
+      "description": null,
+      "showcase": false,
       "start_date": null,
-      "group_id": "d0m8l367qqw5",
+      "group_id": null,
       "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
+      "group": true,
+      "only_show_if_degraded": false,
+      "components": [
+        "wzmg8phvmrwh",
+        "hfflf63kcp1l",
+        "ccbm394hy8pk",
+        "ft3y6psz31vm",
+        "vb9xhz9z6zbp",
+        "v19cs464rk5f",
+        "pgqd9x4jl520",
+        "sq83n9jrwk7c",
+        "64gg59lyzrfs",
+        "khz72mns34gk",
+        "x9bxzb5jlltj"
+      ]
     },
     {
       "id": "d1hybyzmqlvq",
@@ -318,9 +318,9 @@
     {
       "id": "fjsq71xwd3rn",
       "name": "Authentication and user management",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-05-02T04:22:28.554Z",
-      "updated_at": "2022-05-19T05:56:51.099Z",
+      "updated_at": "2022-05-24T01:06:45.106Z",
       "position": 4,
       "description": null,
       "showcase": true,
@@ -414,36 +414,6 @@
       ]
     },
     {
-      "id": "kj290v20168q",
-      "name": "Evaluations and purchases",
-      "status": "operational",
-      "created_at": "2018-02-01T17:50:19.946Z",
-      "updated_at": "2022-05-04T05:57:56.942Z",
-      "position": 6,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "d0m8l367qqw5",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "v19cs464rk5f",
-      "name": "Forge CDN (Custom UI)",
-      "status": "operational",
-      "created_at": "2021-03-23T11:57:30.618Z",
-      "updated_at": "2021-03-23T12:05:08.811Z",
-      "position": 6,
-      "description": "Static asset serving for Forge apps.",
-      "showcase": true,
-      "start_date": "2021-03-23",
-      "group_id": "73bt63kd5q9k",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "5rnsdjrhk29s",
       "name": "Webhooks",
       "status": "operational",
@@ -474,16 +444,31 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "pgqd9x4jl520",
-      "name": "Forge Function Invocation",
+      "id": "v19cs464rk5f",
+      "name": "Forge CDN (Custom UI)",
       "status": "operational",
-      "created_at": "2021-03-23T11:56:37.167Z",
-      "updated_at": "2021-05-12T00:19:48.687Z",
-      "position": 7,
-      "description": null,
+      "created_at": "2021-03-23T11:57:30.618Z",
+      "updated_at": "2021-03-23T12:05:08.811Z",
+      "position": 6,
+      "description": "Static asset serving for Forge apps.",
       "showcase": true,
       "start_date": "2021-03-23",
       "group_id": "73bt63kd5q9k",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "kj290v20168q",
+      "name": "Evaluations and purchases",
+      "status": "operational",
+      "created_at": "2018-02-01T17:50:19.946Z",
+      "updated_at": "2022-05-04T05:57:56.942Z",
+      "position": 6,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "d0m8l367qqw5",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -534,16 +519,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "ngby5fdfj3px",
-      "name": "In-product Marketplace and app installation (Server)",
+      "id": "pgqd9x4jl520",
+      "name": "Forge Function Invocation",
       "status": "operational",
-      "created_at": "2018-02-01T17:38:37.793Z",
-      "updated_at": "2022-01-25T04:09:47.089Z",
-      "position": 8,
-      "description": "The ability to discover, install, and manage apps inside of Atlassian's Server products (Jira, Confluence, Bitbucket, Bamboo, Fisheye / Crucible, Hipchat)",
+      "created_at": "2021-03-23T11:56:37.167Z",
+      "updated_at": "2021-05-12T00:19:48.687Z",
+      "position": 7,
+      "description": null,
       "showcase": true,
-      "start_date": null,
-      "group_id": "d0m8l367qqw5",
+      "start_date": "2021-03-23",
+      "group_id": "73bt63kd5q9k",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -564,13 +549,13 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "y1fdrctjbkx0",
-      "name": "Notifications",
+      "id": "ngby5fdfj3px",
+      "name": "In-product Marketplace and app installation (Server)",
       "status": "operational",
-      "created_at": "2018-02-01T17:52:26.480Z",
-      "updated_at": "2020-07-09T10:30:48.498Z",
-      "position": 9,
-      "description": "Example notifications include newly posted reviews and new version creation",
+      "created_at": "2018-02-01T17:38:37.793Z",
+      "updated_at": "2022-01-25T04:09:47.089Z",
+      "position": 8,
+      "description": "The ability to discover, install, and manage apps inside of Atlassian's Server products (Jira, Confluence, Bitbucket, Bamboo, Fisheye / Crucible, Hipchat)",
       "showcase": true,
       "start_date": null,
       "group_id": "d0m8l367qqw5",
@@ -589,6 +574,21 @@
       "showcase": true,
       "start_date": "2021-05-12",
       "group_id": "73bt63kd5q9k",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "y1fdrctjbkx0",
+      "name": "Notifications",
+      "status": "operational",
+      "created_at": "2018-02-01T17:52:26.480Z",
+      "updated_at": "2020-07-09T10:30:48.498Z",
+      "position": 9,
+      "description": "Example notifications include newly posted reviews and new version creation",
+      "showcase": true,
+      "start_date": null,
+      "group_id": "d0m8l367qqw5",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -624,21 +624,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "hk36hlvygg2q",
-      "name": "Reporting APIs and dashboards",
-      "status": "operational",
-      "created_at": "2013-12-03T00:45:26.014Z",
-      "updated_at": "2022-05-21T12:30:48.432Z",
-      "position": 11,
-      "description": "Marketing attribution reports are now operational.",
-      "showcase": true,
-      "start_date": null,
-      "group_id": "d0m8l367qqw5",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "x9bxzb5jlltj",
       "name": "Forge direct app distribution",
       "status": "operational",
@@ -649,6 +634,21 @@
       "showcase": true,
       "start_date": "2022-03-15",
       "group_id": "73bt63kd5q9k",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "hk36hlvygg2q",
+      "name": "Reporting APIs and dashboards",
+      "status": "operational",
+      "created_at": "2013-12-03T00:45:26.014Z",
+      "updated_at": "2022-05-21T12:30:48.432Z",
+      "position": 11,
+      "description": "Marketing attribution reports are now operational.",
+      "showcase": true,
+      "start_date": null,
+      "group_id": "d0m8l367qqw5",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -702,7 +702,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
