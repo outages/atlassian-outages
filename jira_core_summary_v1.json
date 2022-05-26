@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-05-26T11:34:27.881Z"
+    "updated_at": "2022-05-26T12:56:20.129Z"
   },
   "components": [
     {
@@ -85,9 +85,9 @@
     {
       "id": "mfs4w2r40sf7",
       "name": "Administration",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-01-23T17:06:39.034Z",
-      "updated_at": "2022-05-26T11:34:27.825Z",
+      "updated_at": "2022-05-26T12:56:20.073Z",
       "position": 6,
       "description": "Viewing and editing \"site\" and \"Jira\" adminstration",
       "showcase": false,
@@ -145,9 +145,9 @@
     {
       "id": "y9tv8pscq9rj",
       "name": "Signup",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-10-09T20:43:13.570Z",
-      "updated_at": "2022-05-26T11:34:27.841Z",
+      "updated_at": "2022-05-26T12:56:20.087Z",
       "position": 10,
       "description": null,
       "showcase": false,
@@ -173,110 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "grrk3965nk6v",
-      "name": "admin.atlassian.com is not accessible",
-      "status": "identified",
-      "created_at": "2022-05-26T11:18:26.652Z",
-      "updated_at": "2022-05-26T11:34:27.873Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "critical",
-      "shortlink": "https://stspg.io/xzmx9x6dvqwt",
-      "started_at": "2022-05-26T11:18:26.645Z",
-      "page_id": "s6f0gm5gcpmy",
-      "incident_updates": [
-        {
-          "id": "57yqhg3r6ct4",
-          "status": "identified",
-          "body": "We are gradually seeing sites recovering with access to admin.atlassian.com through the browser . We're continuing to monitor the service and deploy the fix.",
-          "incident_id": "grrk3965nk6v",
-          "created_at": "2022-05-26T11:34:27.871Z",
-          "updated_at": "2022-05-26T11:34:27.871Z",
-          "display_at": "2022-05-26T11:34:27.871Z",
-          "affected_components": [
-            {
-              "code": "mfs4w2r40sf7",
-              "name": "Administration",
-              "old_status": "major_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "y9tv8pscq9rj",
-              "name": "Signup",
-              "old_status": "major_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "xlzq90dcv5xk",
-          "status": "investigating",
-          "body": "We are investigating an issue that is impacting access to admin.atlassian.com through the browser. We will provide more details within the next hour.",
-          "incident_id": "grrk3965nk6v",
-          "created_at": "2022-05-26T11:18:26.758Z",
-          "updated_at": "2022-05-26T11:18:26.758Z",
-          "display_at": "2022-05-26T11:18:26.758Z",
-          "affected_components": [
-            {
-              "code": "mfs4w2r40sf7",
-              "name": "Administration",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "y9tv8pscq9rj",
-              "name": "Signup",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "mfs4w2r40sf7",
-          "name": "Administration",
-          "status": "partial_outage",
-          "created_at": "2019-01-23T17:06:39.034Z",
-          "updated_at": "2022-05-26T11:34:27.825Z",
-          "position": 6,
-          "description": "Viewing and editing \"site\" and \"Jira\" adminstration",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "s6f0gm5gcpmy",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "y9tv8pscq9rj",
-          "name": "Signup",
-          "status": "partial_outage",
-          "created_at": "2020-10-09T20:43:13.570Z",
-          "updated_at": "2022-05-26T11:34:27.841Z",
-          "position": 10,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-10-09",
-          "group_id": null,
-          "page_id": "s6f0gm5gcpmy",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
