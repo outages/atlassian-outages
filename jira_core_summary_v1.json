@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-05-31T04:49:38.844Z"
+    "updated_at": "2022-06-02T03:20:56.065Z"
   },
   "components": [
     {
@@ -12,7 +12,7 @@
       "name": "Viewing content",
       "status": "operational",
       "created_at": "2018-11-16T18:17:29.270Z",
-      "updated_at": "2022-01-20T05:07:28.395Z",
+      "updated_at": "2022-06-02T03:20:55.959Z",
       "position": 1,
       "description": "Problems viewing issues, dashboards, boards, reports, etc.",
       "showcase": false,
@@ -42,7 +42,7 @@
       "name": "Authentication and User Management",
       "status": "operational",
       "created_at": "2019-05-02T04:26:34.383Z",
-      "updated_at": "2021-12-07T17:43:20.654Z",
+      "updated_at": "2022-06-02T03:20:55.981Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -57,7 +57,7 @@
       "name": "Search",
       "status": "operational",
       "created_at": "2019-01-23T17:04:57.213Z",
-      "updated_at": "2022-03-21T07:44:56.235Z",
+      "updated_at": "2022-06-02T03:20:56.001Z",
       "position": 4,
       "description": "Problems with JQL or quick search",
       "showcase": false,
