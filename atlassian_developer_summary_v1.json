@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-06-02T09:15:59.749Z"
+    "updated_at": "2022-06-02T09:23:35.056Z"
   },
   "components": [
     {
@@ -705,7 +705,7 @@
       "name": "Some Marketplace Functionalities Not working",
       "status": "investigating",
       "created_at": "2022-06-02T08:58:02.653Z",
-      "updated_at": "2022-06-02T09:15:59.740Z",
+      "updated_at": "2022-06-02T09:23:35.049Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -716,11 +716,11 @@
         {
           "id": "gv8pdlmkfny0",
           "status": "investigating",
-          "body": "In-product home page app recommendations are turned off for further analysis",
+          "body": "In-product home page app recommendations are turned off for further analysis. All other functionalities are now working.",
           "incident_id": "8kw8fwwbdtv2",
           "created_at": "2022-06-02T09:15:59.737Z",
-          "updated_at": "2022-06-02T09:15:59.737Z",
-          "display_at": "2022-06-02T09:15:59.737Z",
+          "updated_at": "2022-06-02T09:23:35.044Z",
+          "display_at": "2022-06-02T09:15:59.000Z",
           "affected_components": [
             {
               "code": "kj290v20168q",
