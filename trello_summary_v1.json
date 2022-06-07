@@ -4,15 +4,15 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2022-06-07T08:47:15.806-04:00"
+    "updated_at": "2022-06-07T10:14:53.907-04:00"
   },
   "components": [
     {
       "id": "hsr3nvlz0k2l",
       "name": "Trello.com",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2020-01-24T12:50:55.839-05:00",
-      "updated_at": "2022-05-09T18:59:06.448-04:00",
+      "updated_at": "2022-06-07T10:14:53.293-04:00",
       "position": 1,
       "description": "Web client",
       "showcase": true,
@@ -83,10 +83,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "v4twpv5gf1r2",
+      "name": "Trello search not working",
+      "status": "investigating",
+      "created_at": "2022-06-07T10:14:53.260-04:00",
+      "updated_at": "2022-06-07T10:14:53.900-04:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/f22ggnydkg0w",
+      "started_at": "2022-06-07T10:14:53.255-04:00",
+      "page_id": "h5frqhb041yq",
+      "incident_updates": [
+        {
+          "id": "1nbtjn1qc27t",
+          "status": "investigating",
+          "body": "Search in Trello is currently not returning results. Trello Engineers are investigating and we'll get things back up and running as soon as we can!",
+          "incident_id": "v4twpv5gf1r2",
+          "created_at": "2022-06-07T10:14:53.334-04:00",
+          "updated_at": "2022-06-07T10:14:53.896-04:00",
+          "display_at": "2022-06-07T10:14:53.334-04:00",
+          "affected_components": [
+            {
+              "code": "hsr3nvlz0k2l",
+              "name": "Trello.com",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1534177078383243300
+        }
+      ],
+      "components": [
+        {
+          "id": "hsr3nvlz0k2l",
+          "name": "Trello.com",
+          "status": "partial_outage",
+          "created_at": "2020-01-24T12:50:55.839-05:00",
+          "updated_at": "2022-06-07T10:14:53.293-04:00",
+          "position": 1,
+          "description": "Web client",
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "h5frqhb041yq",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
