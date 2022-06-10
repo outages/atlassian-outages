@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-06-10T11:21:46.666Z"
+    "updated_at": "2022-06-10T11:22:37.854Z"
   },
   "components": [
     {
@@ -705,7 +705,7 @@
       "name": "Some transactions are missing and duplicate transactions are appearing in Marketplace transaction reports.",
       "status": "identified",
       "created_at": "2022-06-10T05:54:18.208Z",
-      "updated_at": "2022-06-10T11:21:46.658Z",
+      "updated_at": "2022-06-10T11:22:37.847Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -736,11 +736,11 @@
         {
           "id": "zl2ync23nwvm",
           "status": "investigating",
-          "body": "We have identified an issue with Marketplace partner reports where we are seeing a few duplicate transactions in the reports and some missing transactions. Our developers are looking into this issue.",
+          "body": "We are investigating an issue with Marketplace partner reports where we are seeing a few duplicate transactions in the reports and some missing transactions. Our developers are looking into this issue.",
           "incident_id": "ck8kxymyg4fx",
           "created_at": "2022-06-10T10:28:33.111Z",
-          "updated_at": "2022-06-10T10:28:33.111Z",
-          "display_at": "2022-06-10T10:28:33.111Z",
+          "updated_at": "2022-06-10T11:22:37.844Z",
+          "display_at": "2022-06-10T10:28:33.000Z",
           "affected_components": [
             {
               "code": "hk36hlvygg2q",
