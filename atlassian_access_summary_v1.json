@@ -1,0 +1,107 @@
+{
+  "page": {
+    "id": "5qmgwsxwsz78",
+    "name": "Atlassian Access",
+    "url": "https://access.status.atlassian.com",
+    "time_zone": "Etc/UTC",
+    "updated_at": "2022-05-31T04:31:55.930Z"
+  },
+  "components": [
+    {
+      "id": "hqd5zdvzh5g1",
+      "name": "Domain Claims",
+      "status": "operational",
+      "created_at": "2019-05-03T02:39:58.947Z",
+      "updated_at": "2021-06-09T00:36:32.540Z",
+      "position": 3,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": null,
+      "page_id": "5qmgwsxwsz78",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "vwb63rvhtqjn",
+      "name": "SAML-based SSO",
+      "status": "operational",
+      "created_at": "2019-05-03T02:40:16.879Z",
+      "updated_at": "2022-03-14T23:20:34.260Z",
+      "position": 4,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": null,
+      "page_id": "5qmgwsxwsz78",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "n6qsfr329pzh",
+      "name": "User Provisioning",
+      "status": "operational",
+      "created_at": "2019-05-03T02:40:35.269Z",
+      "updated_at": "2021-06-09T00:36:32.566Z",
+      "position": 5,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": null,
+      "page_id": "5qmgwsxwsz78",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "b8gbm56ptvw5",
+      "name": "Account Management",
+      "status": "operational",
+      "created_at": "2019-05-03T02:41:07.946Z",
+      "updated_at": "2022-05-26T12:54:23.648Z",
+      "position": 6,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": null,
+      "page_id": "5qmgwsxwsz78",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "yf230szk5s8s",
+      "name": "Audit Logs",
+      "status": "operational",
+      "created_at": "2019-05-03T02:42:05.988Z",
+      "updated_at": "2021-06-09T00:36:32.590Z",
+      "position": 7,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": null,
+      "page_id": "5qmgwsxwsz78",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "856c2dpnfnzq",
+      "name": "Signup",
+      "status": "operational",
+      "created_at": "2020-10-09T20:38:53.790Z",
+      "updated_at": "2022-05-26T12:54:23.664Z",
+      "position": 8,
+      "description": null,
+      "showcase": false,
+      "start_date": "2020-10-09",
+      "group_id": null,
+      "page_id": "5qmgwsxwsz78",
+      "group": false,
+      "only_show_if_degraded": false
+    }
+  ],
+  "incidents": [],
+  "scheduled_maintenances": [],
+  "status": {
+    "indicator": "none",
+    "description": "All Systems Operational"
+  }
+}
