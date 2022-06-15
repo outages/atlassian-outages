@@ -4,24 +4,9 @@
     "name": "Confluence",
     "url": "https://confluence.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-06-06T02:38:19.121Z"
+    "updated_at": "2022-06-15T10:00:55.600Z"
   },
   "components": [
-    {
-      "id": "bl9mxbb582vk",
-      "name": "View Content",
-      "status": "operational",
-      "created_at": "2018-11-12T04:04:58.123Z",
-      "updated_at": "2022-05-11T15:24:38.973Z",
-      "position": 1,
-      "description": "Viewing pages or dashboards",
-      "showcase": false,
-      "start_date": null,
-      "group_id": null,
-      "page_id": "4g2my7tbhjsq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
     {
       "id": "jwv14kjhl1yt",
       "name": "iOS App",
@@ -33,6 +18,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "hfrg5dg1l144",
+      "page_id": "4g2my7tbhjsq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "bl9mxbb582vk",
+      "name": "View Content",
+      "status": "degraded_performance",
+      "created_at": "2018-11-12T04:04:58.123Z",
+      "updated_at": "2022-06-15T10:00:46.006Z",
+      "position": 1,
+      "description": "Viewing pages or dashboards",
+      "showcase": false,
+      "start_date": null,
+      "group_id": null,
       "page_id": "4g2my7tbhjsq",
       "group": false,
       "only_show_if_degraded": false
@@ -207,10 +207,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "67c3b5ry7hxq",
+      "name": "After confluence space migration some of the pages are broken with \" We've hit a snag \" error",
+      "status": "investigating",
+      "created_at": "2022-06-15T10:00:45.971Z",
+      "updated_at": "2022-06-15T10:00:55.596Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/flx1c119kzmq",
+      "started_at": "2022-06-15T10:00:45.966Z",
+      "page_id": "4g2my7tbhjsq",
+      "incident_updates": [
+        {
+          "id": "10n3z8g1bmq8",
+          "status": "investigating",
+          "body": "We are investigating an issue with Confluence where after importing a space the content on the pages with legacy editor appears broken with an error. We will provide more details within the next hour.",
+          "incident_id": "67c3b5ry7hxq",
+          "created_at": "2022-06-15T10:00:46.048Z",
+          "updated_at": "2022-06-15T10:00:46.048Z",
+          "display_at": "2022-06-15T10:00:46.048Z",
+          "affected_components": [
+            {
+              "code": "bl9mxbb582vk",
+              "name": "View Content",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "bl9mxbb582vk",
+          "name": "View Content",
+          "status": "degraded_performance",
+          "created_at": "2018-11-12T04:04:58.123Z",
+          "updated_at": "2022-06-15T10:00:46.006Z",
+          "position": 1,
+          "description": "Viewing pages or dashboards",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "4g2my7tbhjsq",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
