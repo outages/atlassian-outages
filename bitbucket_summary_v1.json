@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-06-19T08:04:09.605Z"
+    "updated_at": "2022-06-21T01:33:24.801Z"
   },
   "components": [
     {
@@ -115,9 +115,9 @@
     {
       "id": "rzh2n85q7vtt",
       "name": "Pipelines",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2016-08-23T20:04:54.469Z",
-      "updated_at": "2022-06-15T17:23:22.118Z",
+      "updated_at": "2022-06-21T00:44:55.777Z",
       "position": 9,
       "description": "Continuous integration and delivery for Bitbucket repos",
       "showcase": false,
@@ -203,10 +203,103 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "54bpqch4cm0b",
+      "name": "Pipelines using deployments are failing to run",
+      "status": "monitoring",
+      "created_at": "2022-06-21T00:44:55.748Z",
+      "updated_at": "2022-06-21T01:33:24.794Z",
+      "monitoring_at": "2022-06-21T01:33:24.450Z",
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/sjyqpjvq89mp",
+      "started_at": "2022-06-21T00:44:55.744Z",
+      "page_id": "bqlf8qjztdtr",
+      "incident_updates": [
+        {
+          "id": "gqtfn5dd2k1d",
+          "status": "monitoring",
+          "body": "A fix has been implemented and we are monitoring the results.",
+          "incident_id": "54bpqch4cm0b",
+          "created_at": "2022-06-21T01:33:24.450Z",
+          "updated_at": "2022-06-21T01:33:24.789Z",
+          "display_at": "2022-06-21T01:33:24.450Z",
+          "affected_components": [
+            {
+              "code": "rzh2n85q7vtt",
+              "name": "Pipelines",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1539058874581258200
+        },
+        {
+          "id": "0t9bbx681th1",
+          "status": "identified",
+          "body": "The issue has been identified and a fix is being implemented.",
+          "incident_id": "54bpqch4cm0b",
+          "created_at": "2022-06-21T01:27:23.574Z",
+          "updated_at": "2022-06-21T01:27:24.045Z",
+          "display_at": "2022-06-21T01:27:23.574Z",
+          "affected_components": [
+            {
+              "code": "rzh2n85q7vtt",
+              "name": "Pipelines",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1539057361490325500
+        },
+        {
+          "id": "svt9ps4dpfkr",
+          "status": "investigating",
+          "body": "We’ve identified a performance causing pipelines using deployments to fail to be triggered. We suspect non deployment pipelines are also impacted.",
+          "incident_id": "54bpqch4cm0b",
+          "created_at": "2022-06-21T00:44:55.813Z",
+          "updated_at": "2022-06-21T00:44:56.256Z",
+          "display_at": "2022-06-21T00:44:55.813Z",
+          "affected_components": [
+            {
+              "code": "rzh2n85q7vtt",
+              "name": "Pipelines",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1539046675242553300
+        }
+      ],
+      "components": [
+        {
+          "id": "rzh2n85q7vtt",
+          "name": "Pipelines",
+          "status": "partial_outage",
+          "created_at": "2016-08-23T20:04:54.469Z",
+          "updated_at": "2022-06-21T00:44:55.777Z",
+          "position": 9,
+          "description": "Continuous integration and delivery for Bitbucket repos",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
