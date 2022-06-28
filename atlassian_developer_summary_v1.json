@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-06-28T04:06:21.139Z"
+    "updated_at": "2022-06-28T10:49:14.644Z"
   },
   "components": [
     {
@@ -705,7 +705,7 @@
       "name": "Few licenses for some partners have stale license end date in marketplace partner reports",
       "status": "identified",
       "created_at": "2022-06-27T09:20:00.212Z",
-      "updated_at": "2022-06-28T04:06:21.130Z",
+      "updated_at": "2022-06-28T10:49:14.634Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -713,6 +713,26 @@
       "started_at": "2022-06-27T09:20:00.205Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "9k7yfss1hpxs",
+          "status": "identified",
+          "body": "We are continuing to fix the licenses that had stale license end date , some licenses that had discrepancies are already updated with the latest data and the remaining are in the process of being updated . Will share more updates as we make progress.",
+          "incident_id": "rzgwpch18wpp",
+          "created_at": "2022-06-28T10:49:14.632Z",
+          "updated_at": "2022-06-28T10:49:14.632Z",
+          "display_at": "2022-06-28T10:49:14.632Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "dflzl1f86jt4",
           "status": "identified",
