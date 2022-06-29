@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-06-29T06:23:37.337Z"
+    "updated_at": "2022-06-29T06:59:20.013Z"
   },
   "components": [
     {
@@ -227,7 +227,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -641,9 +641,9 @@
     {
       "id": "hk36hlvygg2q",
       "name": "Reporting APIs and dashboards",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2013-12-03T00:45:26.014Z",
-      "updated_at": "2022-06-29T04:55:49.036Z",
+      "updated_at": "2022-06-29T06:59:19.969Z",
       "position": 11,
       "description": "Marketing attribution reports are now operational.",
       "showcase": true,
@@ -751,63 +751,11 @@
           "only_show_if_degraded": false
         }
       ]
-    },
-    {
-      "id": "6jw5n9xkx3z5",
-      "name": "Duplicate and missing data in transaction in marketplace reporting.",
-      "status": "investigating",
-      "created_at": "2022-06-29T04:55:48.993Z",
-      "updated_at": "2022-06-29T04:55:49.084Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/fs23nq80fgw5",
-      "started_at": "2022-06-29T04:55:48.984Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "2b9kj1kmr05j",
-          "status": "investigating",
-          "body": "We are currently investigating this issue.",
-          "incident_id": "6jw5n9xkx3z5",
-          "created_at": "2022-06-29T04:55:49.081Z",
-          "updated_at": "2022-06-29T04:55:49.081Z",
-          "display_at": "2022-06-29T04:55:49.081Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "hk36hlvygg2q",
-          "name": "Reporting APIs and dashboards",
-          "status": "partial_outage",
-          "created_at": "2013-12-03T00:45:26.014Z",
-          "updated_at": "2022-06-29T04:55:49.036Z",
-          "position": 11,
-          "description": "Marketing attribution reports are now operational.",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
     }
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
