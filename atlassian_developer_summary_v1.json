@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-06-30T11:22:43.411Z"
+    "updated_at": "2022-06-30T11:33:36.662Z"
   },
   "components": [
     {
@@ -705,10 +705,10 @@
       "name": "ISSUE_QUICK_ADD_CLICKED event is not triggered on Jira issue view",
       "status": "identified",
       "created_at": "2022-06-29T13:33:01.403Z",
-      "updated_at": "2022-06-30T11:22:43.404Z",
+      "updated_at": "2022-06-30T11:33:36.658Z",
       "monitoring_at": "2022-06-30T06:57:31.707Z",
       "resolved_at": null,
-      "impact": "none",
+      "impact": "minor",
       "shortlink": "https://stspg.io/q54y635hdzwz",
       "started_at": "2022-06-29T13:33:01.396Z",
       "page_id": "n8766lc3ybbs",
