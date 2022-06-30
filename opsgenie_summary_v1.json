@@ -4,7 +4,7 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-06-30T03:23:37.514Z"
+    "updated_at": "2022-06-30T04:00:41.129Z"
   },
   "components": [
     {
@@ -18,21 +18,6 @@
       "showcase": true,
       "start_date": null,
       "group_id": "jzqq334r65mx",
-      "page_id": "t05vdsszxwtq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "y6v6v83g2t8m",
-      "name": "Incident Flow",
-      "status": "operational",
-      "created_at": "2019-03-15T08:09:42.626Z",
-      "updated_at": "2020-11-04T12:56:07.227Z",
-      "position": 1,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "k7gyfk44wrsr",
       "page_id": "t05vdsszxwtq",
       "group": false,
       "only_show_if_degraded": false
@@ -77,9 +62,24 @@
       ]
     },
     {
+      "id": "y6v6v83g2t8m",
+      "name": "Incident Flow",
+      "status": "operational",
+      "created_at": "2019-03-15T08:09:42.626Z",
+      "updated_at": "2020-11-04T12:56:07.227Z",
+      "position": 1,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "k7gyfk44wrsr",
+      "page_id": "t05vdsszxwtq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "k7gyfk44wrsr",
       "name": "EU",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2019-02-12T13:47:54.389Z",
       "updated_at": "2019-02-12T13:47:54.389Z",
       "position": 2,
@@ -146,6 +146,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "7gksbx75r5rn",
+      "name": "Email Notification Delivery",
+      "status": "operational",
+      "created_at": "2019-03-15T08:09:44.195Z",
+      "updated_at": "2021-12-15T16:22:24.812Z",
+      "position": 3,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "jzqq334r65mx",
+      "page_id": "t05vdsszxwtq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "zv3xlkn13rqs",
       "name": "Email Notification Delivery",
       "status": "operational",
@@ -176,12 +191,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "7gksbx75r5rn",
-      "name": "Email Notification Delivery",
+      "id": "fqgh9nvrlck3",
+      "name": "SMS Notification Delivery",
       "status": "operational",
-      "created_at": "2019-03-15T08:09:44.195Z",
-      "updated_at": "2021-12-15T16:22:24.812Z",
-      "position": 3,
+      "created_at": "2019-03-15T08:09:52.866Z",
+      "updated_at": "2022-03-31T17:55:47.735Z",
+      "position": 4,
       "description": null,
       "showcase": true,
       "start_date": null,
@@ -201,21 +216,6 @@
       "showcase": true,
       "start_date": null,
       "group_id": "k7gyfk44wrsr",
-      "page_id": "t05vdsszxwtq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "fqgh9nvrlck3",
-      "name": "SMS Notification Delivery",
-      "status": "operational",
-      "created_at": "2019-03-15T08:09:52.866Z",
-      "updated_at": "2022-03-31T17:55:47.735Z",
-      "position": 4,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "jzqq334r65mx",
       "page_id": "t05vdsszxwtq",
       "group": false,
       "only_show_if_degraded": false
@@ -251,21 +251,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "jf0l1ds2mm5z",
-      "name": "Mobile Notification Delivery",
-      "status": "operational",
-      "created_at": "2019-03-15T08:11:21.736Z",
-      "updated_at": "2021-06-10T22:14:45.046Z",
-      "position": 6,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "k7gyfk44wrsr",
-      "page_id": "t05vdsszxwtq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "s8szfv793n8p",
       "name": "Mobile Notification Delivery",
       "status": "operational",
@@ -281,16 +266,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "l2bd49mqw0sb",
-      "name": "Heartbeat Monitoring",
+      "id": "jf0l1ds2mm5z",
+      "name": "Mobile Notification Delivery",
       "status": "operational",
-      "created_at": "2019-03-15T08:10:33.361Z",
-      "updated_at": "2021-11-27T14:45:06.096Z",
-      "position": 7,
+      "created_at": "2019-03-15T08:11:21.736Z",
+      "updated_at": "2021-06-10T22:14:45.046Z",
+      "position": 6,
       "description": null,
       "showcase": true,
       "start_date": null,
-      "group_id": "jzqq334r65mx",
+      "group_id": "k7gyfk44wrsr",
       "page_id": "t05vdsszxwtq",
       "group": false,
       "only_show_if_degraded": false
@@ -311,16 +296,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "ddps6r8cr94r",
-      "name": "Incident REST API",
+      "id": "l2bd49mqw0sb",
+      "name": "Heartbeat Monitoring",
       "status": "operational",
-      "created_at": "2019-03-15T08:11:53.408Z",
-      "updated_at": "2021-02-04T14:18:05.118Z",
-      "position": 8,
+      "created_at": "2019-03-15T08:10:33.361Z",
+      "updated_at": "2021-11-27T14:45:06.096Z",
+      "position": 7,
       "description": null,
       "showcase": true,
       "start_date": null,
-      "group_id": "k7gyfk44wrsr",
+      "group_id": "jzqq334r65mx",
       "page_id": "t05vdsszxwtq",
       "group": false,
       "only_show_if_degraded": false
@@ -341,12 +326,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "67whqr77thzg",
-      "name": "Alert REST API",
+      "id": "ddps6r8cr94r",
+      "name": "Incident REST API",
       "status": "operational",
-      "created_at": "2019-03-15T08:12:03.670Z",
-      "updated_at": "2021-06-10T22:14:45.075Z",
-      "position": 9,
+      "created_at": "2019-03-15T08:11:53.408Z",
+      "updated_at": "2021-02-04T14:18:05.118Z",
+      "position": 8,
       "description": null,
       "showcase": true,
       "start_date": null,
@@ -366,6 +351,21 @@
       "showcase": true,
       "start_date": null,
       "group_id": "jzqq334r65mx",
+      "page_id": "t05vdsszxwtq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "67whqr77thzg",
+      "name": "Alert REST API",
+      "status": "operational",
+      "created_at": "2019-03-15T08:12:03.670Z",
+      "updated_at": "2021-06-10T22:14:45.075Z",
+      "position": 9,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "k7gyfk44wrsr",
       "page_id": "t05vdsszxwtq",
       "group": false,
       "only_show_if_degraded": false
@@ -461,21 +461,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "25p0d7gb1mwv",
-      "name": "Outgoing Integration Flow",
-      "status": "operational",
-      "created_at": "2019-03-15T08:14:41.130Z",
-      "updated_at": "2021-11-27T14:45:06.226Z",
-      "position": 13,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "jzqq334r65mx",
-      "page_id": "t05vdsszxwtq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "tkttksj201cz",
       "name": "Outgoing Integration Flow",
       "status": "operational",
@@ -491,16 +476,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "357vyw1pjtlj",
-      "name": "Signup, Login & Authorization",
+      "id": "25p0d7gb1mwv",
+      "name": "Outgoing Integration Flow",
       "status": "operational",
-      "created_at": "2019-03-15T08:12:55.374Z",
-      "updated_at": "2021-02-28T06:06:52.641Z",
-      "position": 14,
+      "created_at": "2019-03-15T08:14:41.130Z",
+      "updated_at": "2021-11-27T14:45:06.226Z",
+      "position": 13,
       "description": null,
       "showcase": true,
       "start_date": null,
-      "group_id": "k7gyfk44wrsr",
+      "group_id": "jzqq334r65mx",
       "page_id": "t05vdsszxwtq",
       "group": false,
       "only_show_if_degraded": false
@@ -516,6 +501,21 @@
       "showcase": true,
       "start_date": null,
       "group_id": "jzqq334r65mx",
+      "page_id": "t05vdsszxwtq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "357vyw1pjtlj",
+      "name": "Signup, Login & Authorization",
+      "status": "operational",
+      "created_at": "2019-03-15T08:12:55.374Z",
+      "updated_at": "2021-02-28T06:06:52.641Z",
+      "position": 14,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "k7gyfk44wrsr",
       "page_id": "t05vdsszxwtq",
       "group": false,
       "only_show_if_degraded": false
@@ -611,21 +611,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "mjdmrksdqcpb",
-      "name": "Configuration REST APIs",
-      "status": "operational",
-      "created_at": "2019-03-15T08:28:02.946Z",
-      "updated_at": "2022-03-09T23:00:18.553Z",
-      "position": 18,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "jzqq334r65mx",
-      "page_id": "t05vdsszxwtq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "jpbb5kpt55l9",
       "name": "Configuration REST APIs",
       "status": "operational",
@@ -636,6 +621,21 @@
       "showcase": true,
       "start_date": null,
       "group_id": "k7gyfk44wrsr",
+      "page_id": "t05vdsszxwtq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "mjdmrksdqcpb",
+      "name": "Configuration REST APIs",
+      "status": "operational",
+      "created_at": "2019-03-15T08:28:02.946Z",
+      "updated_at": "2022-03-09T23:00:18.553Z",
+      "position": 18,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "jzqq334r65mx",
       "page_id": "t05vdsszxwtq",
       "group": false,
       "only_show_if_degraded": false
@@ -658,9 +658,9 @@
     {
       "id": "lz2zqb1vtlp4",
       "name": "Reporting & Analytics",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2019-02-12T13:47:54.400Z",
-      "updated_at": "2021-12-21T06:30:30.080Z",
+      "updated_at": "2022-06-30T04:00:40.994Z",
       "position": 20,
       "description": "Reporting Page",
       "showcase": true,
@@ -766,9 +766,9 @@
     {
       "id": "q81yyk1tsv9m",
       "name": "Opsgenie Analytics is under maintenance in the EU",
-      "status": "scheduled",
+      "status": "in_progress",
       "created_at": "2022-06-27T03:55:00.977Z",
-      "updated_at": "2022-06-30T03:00:24.587Z",
+      "updated_at": "2022-06-30T04:00:41.083Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -776,6 +776,26 @@
       "started_at": "2022-06-27T03:55:00.968Z",
       "page_id": "t05vdsszxwtq",
       "incident_updates": [
+        {
+          "id": "dx7hpjhgnh3m",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "q81yyk1tsv9m",
+          "created_at": "2022-06-30T04:00:41.077Z",
+          "updated_at": "2022-06-30T04:00:41.077Z",
+          "display_at": "2022-06-30T04:00:41.077Z",
+          "affected_components": [
+            {
+              "code": "lz2zqb1vtlp4",
+              "name": "EU - Reporting & Analytics",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "7r2kdvddhvx0",
           "status": "scheduled",
@@ -814,9 +834,9 @@
         {
           "id": "lz2zqb1vtlp4",
           "name": "Reporting & Analytics",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2019-02-12T13:47:54.400Z",
-          "updated_at": "2021-12-21T06:30:30.080Z",
+          "updated_at": "2022-06-30T04:00:40.994Z",
           "position": 20,
           "description": "Reporting Page",
           "showcase": true,
@@ -832,7 +852,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
