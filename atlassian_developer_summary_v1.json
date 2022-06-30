@@ -4,9 +4,24 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-06-30T13:06:52.001Z"
+    "updated_at": "2022-06-30T15:26:38.594Z"
   },
   "components": [
+    {
+      "id": "mlr76v811c20",
+      "name": "App listing management",
+      "status": "operational",
+      "created_at": "2018-02-01T17:46:24.130Z",
+      "updated_at": "2022-01-25T12:22:54.237Z",
+      "position": 1,
+      "description": "The ability to manage app listings on https://marketplace.atlassian.com",
+      "showcase": true,
+      "start_date": null,
+      "group_id": "d0m8l367qqw5",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
     {
       "id": "w0ld3nc9jvdx",
       "name": "APIs",
@@ -32,36 +47,6 @@
       ]
     },
     {
-      "id": "wzmg8phvmrwh",
-      "name": "App Deployment",
-      "status": "operational",
-      "created_at": "2021-03-23T12:00:27.385Z",
-      "updated_at": "2022-05-12T13:25:07.771Z",
-      "position": 1,
-      "description": null,
-      "showcase": true,
-      "start_date": "2021-03-23",
-      "group_id": "73bt63kd5q9k",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "mlr76v811c20",
-      "name": "App listing management",
-      "status": "operational",
-      "created_at": "2018-02-01T17:46:24.130Z",
-      "updated_at": "2022-01-25T12:22:54.237Z",
-      "position": 1,
-      "description": "The ability to manage app listings on https://marketplace.atlassian.com",
-      "showcase": true,
-      "start_date": null,
-      "group_id": "d0m8l367qqw5",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "c1zr70381q86",
       "name": "Bitbucket Cloud APIs",
       "status": "operational",
@@ -77,16 +62,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "bf9d0vz83ykr",
-      "name": "Atlassian Support contact form",
+      "id": "wzmg8phvmrwh",
+      "name": "App Deployment",
       "status": "operational",
-      "created_at": "2018-02-02T00:25:01.592Z",
-      "updated_at": "2018-02-02T00:25:43.669Z",
-      "position": 2,
+      "created_at": "2021-03-23T12:00:27.385Z",
+      "updated_at": "2022-05-12T13:25:07.771Z",
+      "position": 1,
       "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "jgnwrfzynh93",
+      "showcase": true,
+      "start_date": "2021-03-23",
+      "group_id": "73bt63kd5q9k",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -107,9 +92,39 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "bf9d0vz83ykr",
+      "name": "Atlassian Support contact form",
+      "status": "operational",
+      "created_at": "2018-02-02T00:25:01.592Z",
+      "updated_at": "2018-02-02T00:25:43.669Z",
+      "position": 2,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "jgnwrfzynh93",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "yjqnzm0tkgsd",
+      "name": "Confluence Cloud APIs",
+      "status": "operational",
+      "created_at": "2018-02-01T17:15:36.411Z",
+      "updated_at": "2022-06-22T13:02:51.992Z",
+      "position": 2,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "w0ld3nc9jvdx",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "73bt63kd5q9k",
       "name": "Developer",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2018-02-01T17:21:34.889Z",
       "updated_at": "2019-05-02T04:22:45.333Z",
       "position": 2,
@@ -150,19 +165,35 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "yjqnzm0tkgsd",
-      "name": "Confluence Cloud APIs",
-      "status": "operational",
-      "created_at": "2018-02-01T17:15:36.411Z",
-      "updated_at": "2022-06-22T13:02:51.992Z",
-      "position": 2,
-      "description": null,
-      "showcase": true,
+      "id": "d0m8l367qqw5",
+      "name": "Marketplace",
+      "status": "major_outage",
+      "created_at": "2018-02-01T17:24:49.970Z",
+      "updated_at": "2019-05-02T04:22:45.342Z",
+      "position": 3,
+      "description": "https://marketplace.atlassian.com and related features / APIs",
+      "showcase": false,
       "start_date": null,
-      "group_id": "w0ld3nc9jvdx",
+      "group_id": null,
       "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
+      "group": true,
+      "only_show_if_degraded": false,
+      "components": [
+        "mlr76v811c20",
+        "g04n852g3nt6",
+        "d1hybyzmqlvq",
+        "7z6w09hl9mn0",
+        "ydgwbb3wn2c6",
+        "kj290v20168q",
+        "3t1y6724xl8q",
+        "ngby5fdfj3px",
+        "y1fdrctjbkx0",
+        "7lx3k072bl6z",
+        "hk36hlvygg2q",
+        "64gk05kc0lrz",
+        "1vvmngd73171",
+        "wm1wfkvnffmt"
+      ]
     },
     {
       "id": "ccbm394hy8pk",
@@ -225,52 +256,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "d0m8l367qqw5",
-      "name": "Marketplace",
-      "status": "operational",
-      "created_at": "2018-02-01T17:24:49.970Z",
-      "updated_at": "2019-05-02T04:22:45.342Z",
-      "position": 3,
-      "description": "https://marketplace.atlassian.com and related features / APIs",
-      "showcase": false,
-      "start_date": null,
-      "group_id": null,
-      "page_id": "n8766lc3ybbs",
-      "group": true,
-      "only_show_if_degraded": false,
-      "components": [
-        "mlr76v811c20",
-        "g04n852g3nt6",
-        "d1hybyzmqlvq",
-        "7z6w09hl9mn0",
-        "ydgwbb3wn2c6",
-        "kj290v20168q",
-        "3t1y6724xl8q",
-        "ngby5fdfj3px",
-        "y1fdrctjbkx0",
-        "7lx3k072bl6z",
-        "hk36hlvygg2q",
-        "64gk05kc0lrz",
-        "1vvmngd73171",
-        "wm1wfkvnffmt"
-      ]
-    },
-    {
-      "id": "ft3y6psz31vm",
-      "name": "Developer documentation",
-      "status": "operational",
-      "created_at": "2018-02-01T17:23:24.905Z",
-      "updated_at": "2021-10-06T21:03:57.450Z",
-      "position": 4,
-      "description": "The ability to access documentation at https://developer.atlassian.com/docs",
-      "showcase": true,
-      "start_date": null,
-      "group_id": "73bt63kd5q9k",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "dnstnjnbm2vs",
       "name": "Product Events",
       "status": "operational",
@@ -281,36 +266,6 @@
       "showcase": true,
       "start_date": "2021-03-23",
       "group_id": "w0ld3nc9jvdx",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "crfmnmkyvltr",
-      "name": "Developer service desk",
-      "status": "operational",
-      "created_at": "2018-02-01T17:27:59.399Z",
-      "updated_at": "2018-02-21T00:14:50.224Z",
-      "position": 4,
-      "description": "Jira Service Desk project accessible at http://go.atlassian.com/developer-support",
-      "showcase": false,
-      "start_date": null,
-      "group_id": "jgnwrfzynh93",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "7z6w09hl9mn0",
-      "name": "App submissions",
-      "status": "operational",
-      "created_at": "2018-02-01T17:48:45.038Z",
-      "updated_at": "2022-02-16T14:36:17.510Z",
-      "position": 4,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "d0m8l367qqw5",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -331,12 +286,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "ydgwbb3wn2c6",
-      "name": "Category landing pages",
+      "id": "7z6w09hl9mn0",
+      "name": "App submissions",
       "status": "operational",
-      "created_at": "2018-03-16T16:51:24.514Z",
-      "updated_at": "2021-09-29T18:05:57.225Z",
-      "position": 5,
+      "created_at": "2018-02-01T17:48:45.038Z",
+      "updated_at": "2022-02-16T14:36:17.510Z",
+      "position": 4,
       "description": null,
       "showcase": true,
       "start_date": null,
@@ -346,11 +301,41 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "ft3y6psz31vm",
+      "name": "Developer documentation",
+      "status": "operational",
+      "created_at": "2018-02-01T17:23:24.905Z",
+      "updated_at": "2021-10-06T21:03:57.450Z",
+      "position": 4,
+      "description": "The ability to access documentation at https://developer.atlassian.com/docs",
+      "showcase": true,
+      "start_date": null,
+      "group_id": "73bt63kd5q9k",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "crfmnmkyvltr",
+      "name": "Developer service desk",
+      "status": "operational",
+      "created_at": "2018-02-01T17:27:59.399Z",
+      "updated_at": "2018-02-21T00:14:50.224Z",
+      "position": 4,
+      "description": "Jira Service Desk project accessible at http://go.atlassian.com/developer-support",
+      "showcase": false,
+      "start_date": null,
+      "group_id": "jgnwrfzynh93",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "vb9xhz9z6zbp",
       "name": "Forge App Installation",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2021-03-23T11:55:32.639Z",
-      "updated_at": "2021-03-23T12:04:48.350Z",
+      "updated_at": "2022-06-30T15:26:38.505Z",
       "position": 5,
       "description": "Installation of Forge apps",
       "showcase": true,
@@ -371,6 +356,36 @@
       "showcase": false,
       "start_date": null,
       "group_id": "jgnwrfzynh93",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "ydgwbb3wn2c6",
+      "name": "Category landing pages",
+      "status": "operational",
+      "created_at": "2018-03-16T16:51:24.514Z",
+      "updated_at": "2021-09-29T18:05:57.225Z",
+      "position": 5,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "d0m8l367qqw5",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "jnrvspydmmsd",
+      "name": "User APIs",
+      "status": "operational",
+      "created_at": "2018-02-01T17:17:26.159Z",
+      "updated_at": "2021-03-23T12:03:17.254Z",
+      "position": 5,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "w0ld3nc9jvdx",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -397,36 +412,6 @@
         "bqzdpnq7v22n",
         "slvmv5jvbr4p"
       ]
-    },
-    {
-      "id": "jnrvspydmmsd",
-      "name": "User APIs",
-      "status": "operational",
-      "created_at": "2018-02-01T17:17:26.159Z",
-      "updated_at": "2021-03-23T12:03:17.254Z",
-      "position": 5,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "w0ld3nc9jvdx",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "v19cs464rk5f",
-      "name": "Forge CDN (Custom UI)",
-      "status": "operational",
-      "created_at": "2021-03-23T11:57:30.618Z",
-      "updated_at": "2021-03-23T12:05:08.811Z",
-      "position": 6,
-      "description": "Static asset serving for Forge apps.",
-      "showcase": true,
-      "start_date": "2021-03-23",
-      "group_id": "73bt63kd5q9k",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
     },
     {
       "id": "kj290v20168q",
@@ -474,11 +459,26 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "v19cs464rk5f",
+      "name": "Forge CDN (Custom UI)",
+      "status": "operational",
+      "created_at": "2021-03-23T11:57:30.618Z",
+      "updated_at": "2021-03-23T12:05:08.811Z",
+      "position": 6,
+      "description": "Static asset serving for Forge apps.",
+      "showcase": true,
+      "start_date": "2021-03-23",
+      "group_id": "73bt63kd5q9k",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "3t1y6724xl8q",
       "name": "In-product Marketplace and app installation (Cloud)",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2013-12-03T00:45:39.973Z",
-      "updated_at": "2022-06-02T09:15:59.684Z",
+      "updated_at": "2022-06-30T15:26:38.531Z",
       "position": 7,
       "description": "The ability to discover, install, and manage apps inside of Atlassian's Cloud products (Jira, Confluence, Stride, Bitbucket)",
       "showcase": true,
@@ -489,16 +489,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "slvmv5jvbr4p",
-      "name": "Vulnerability management [AMS]",
+      "id": "pgqd9x4jl520",
+      "name": "Forge Function Invocation",
       "status": "operational",
-      "created_at": "2022-02-04T21:31:59.580Z",
-      "updated_at": "2022-02-07T18:46:28.092Z",
+      "created_at": "2021-03-23T11:56:37.167Z",
+      "updated_at": "2021-05-12T00:19:48.687Z",
       "position": 7,
       "description": null,
       "showcase": true,
-      "start_date": "2022-02-04",
-      "group_id": "jgnwrfzynh93",
+      "start_date": "2021-03-23",
+      "group_id": "73bt63kd5q9k",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -519,16 +519,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "pgqd9x4jl520",
-      "name": "Forge Function Invocation",
+      "id": "slvmv5jvbr4p",
+      "name": "Vulnerability management [AMS]",
       "status": "operational",
-      "created_at": "2021-03-23T11:56:37.167Z",
-      "updated_at": "2021-05-12T00:19:48.687Z",
+      "created_at": "2022-02-04T21:31:59.580Z",
+      "updated_at": "2022-02-07T18:46:28.092Z",
       "position": 7,
       "description": null,
       "showcase": true,
-      "start_date": "2021-03-23",
-      "group_id": "73bt63kd5q9k",
+      "start_date": "2022-02-04",
+      "group_id": "jgnwrfzynh93",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -624,21 +624,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "x9bxzb5jlltj",
-      "name": "Forge direct app distribution",
-      "status": "operational",
-      "created_at": "2022-03-15T10:00:31.590Z",
-      "updated_at": "2022-03-23T23:18:45.625Z",
-      "position": 11,
-      "description": "A way to share your apps with a set of trusted site admins: https://developer.atlassian.com/platform/forge/distribute-your-apps/#start-sharing-your-app",
-      "showcase": true,
-      "start_date": "2022-03-15",
-      "group_id": "73bt63kd5q9k",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "hk36hlvygg2q",
       "name": "Reporting APIs and dashboards",
       "status": "operational",
@@ -649,6 +634,21 @@
       "showcase": true,
       "start_date": null,
       "group_id": "d0m8l367qqw5",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "x9bxzb5jlltj",
+      "name": "Forge direct app distribution",
+      "status": "operational",
+      "created_at": "2022-03-15T10:00:31.590Z",
+      "updated_at": "2022-03-23T23:18:45.625Z",
+      "position": 11,
+      "description": "A way to share your apps with a set of trusted site admins: https://developer.atlassian.com/platform/forge/distribute-your-apps/#start-sharing-your-app",
+      "showcase": true,
+      "start_date": "2022-03-15",
+      "group_id": "73bt63kd5q9k",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -700,6 +700,79 @@
     }
   ],
   "incidents": [
+    {
+      "id": "zcqjv8t7jgqn",
+      "name": "Forge applications installations are never finishing - stuck in installing state",
+      "status": "investigating",
+      "created_at": "2022-06-30T15:26:38.460Z",
+      "updated_at": "2022-06-30T15:26:38.590Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "critical",
+      "shortlink": "https://stspg.io/f86wvzvlcj32",
+      "started_at": "2022-06-30T15:26:38.445Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "vyfrwqflpqpl",
+          "status": "investigating",
+          "body": "We have discovered incident where the Forge applications installation is stuck indefinitely. We are investigating the root cause of this problem.",
+          "incident_id": "zcqjv8t7jgqn",
+          "created_at": "2022-06-30T15:26:38.586Z",
+          "updated_at": "2022-06-30T15:26:38.586Z",
+          "display_at": "2022-06-30T15:26:38.586Z",
+          "affected_components": [
+            {
+              "code": "vb9xhz9z6zbp",
+              "name": "Developer - Forge App Installation",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "3t1y6724xl8q",
+              "name": "Marketplace - In-product Marketplace and app installation (Cloud)",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "vb9xhz9z6zbp",
+          "name": "Forge App Installation",
+          "status": "major_outage",
+          "created_at": "2021-03-23T11:55:32.639Z",
+          "updated_at": "2022-06-30T15:26:38.505Z",
+          "position": 5,
+          "description": "Installation of Forge apps",
+          "showcase": true,
+          "start_date": "2021-03-23",
+          "group_id": "73bt63kd5q9k",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "3t1y6724xl8q",
+          "name": "In-product Marketplace and app installation (Cloud)",
+          "status": "major_outage",
+          "created_at": "2013-12-03T00:45:39.973Z",
+          "updated_at": "2022-06-30T15:26:38.531Z",
+          "position": 7,
+          "description": "The ability to discover, install, and manage apps inside of Atlassian's Cloud products (Jira, Confluence, Stride, Bitbucket)",
+          "showcase": true,
+          "start_date": null,
+          "group_id": "d0m8l367qqw5",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    },
     {
       "id": "rgbvndqkvmq6",
       "name": "ISSUE_QUICK_ADD_CLICKED event is not triggered on Jira issue view",
@@ -795,7 +868,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "major",
+    "description": "Partial System Outage"
   }
 }
