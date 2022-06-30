@@ -4,13 +4,13 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-06-30T21:23:40.870Z"
+    "updated_at": "2022-06-30T22:09:33.459Z"
   },
   "components": [
     {
       "id": "jzqq334r65mx",
       "name": "US",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-02-12T13:47:31.055Z",
       "updated_at": "2019-03-15T08:16:16.977Z",
       "position": 1,
@@ -373,9 +373,9 @@
     {
       "id": "z6cv7z290s6n",
       "name": "Heartbeat REST API",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-03-15T08:11:45.475Z",
-      "updated_at": "2022-06-30T21:15:21.340Z",
+      "updated_at": "2022-06-30T21:58:14.829Z",
       "position": 10,
       "description": null,
       "showcase": true,
@@ -553,9 +553,9 @@
     {
       "id": "j8bt86sx70hm",
       "name": "Web Application",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-03-15T08:27:28.877Z",
-      "updated_at": "2022-06-30T21:15:21.358Z",
+      "updated_at": "2022-06-30T21:58:14.852Z",
       "position": 16,
       "description": null,
       "showcase": true,
@@ -628,9 +628,9 @@
     {
       "id": "mjdmrksdqcpb",
       "name": "Configuration REST APIs",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-03-15T08:28:02.946Z",
-      "updated_at": "2022-06-30T21:15:21.373Z",
+      "updated_at": "2022-06-30T21:58:14.874Z",
       "position": 18,
       "description": null,
       "showcase": true,
@@ -761,102 +761,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "zz7xj6k63bsh",
-      "name": "Partial outage at addition/update/deletion operations of team, schedule, forwarding and escalations in USA",
-      "status": "identified",
-      "created_at": "2022-06-30T21:15:21.304Z",
-      "updated_at": "2022-06-30T21:15:21.411Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/x8yhxb689vfh",
-      "started_at": "2022-06-30T21:15:21.295Z",
-      "page_id": "t05vdsszxwtq",
-      "incident_updates": [
-        {
-          "id": "r29hxbs6lx75",
-          "status": "identified",
-          "body": "Our team has identified the issue with addition/update/deletion operations of team, schedule, forwarding and escalations. We are working to fix it. Check back soon for another update! Our team is working hard to get Opsgenie up and running in full performance again.",
-          "incident_id": "zz7xj6k63bsh",
-          "created_at": "2022-06-30T21:15:21.409Z",
-          "updated_at": "2022-06-30T21:15:21.409Z",
-          "display_at": "2022-06-30T21:15:21.409Z",
-          "affected_components": [
-            {
-              "code": "z6cv7z290s6n",
-              "name": "US - Heartbeat REST API",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "j8bt86sx70hm",
-              "name": "US - Web Application",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "mjdmrksdqcpb",
-              "name": "US - Configuration REST APIs",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "z6cv7z290s6n",
-          "name": "Heartbeat REST API",
-          "status": "partial_outage",
-          "created_at": "2019-03-15T08:11:45.475Z",
-          "updated_at": "2022-06-30T21:15:21.340Z",
-          "position": 10,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "jzqq334r65mx",
-          "page_id": "t05vdsszxwtq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "j8bt86sx70hm",
-          "name": "Web Application",
-          "status": "partial_outage",
-          "created_at": "2019-03-15T08:27:28.877Z",
-          "updated_at": "2022-06-30T21:15:21.358Z",
-          "position": 16,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "jzqq334r65mx",
-          "page_id": "t05vdsszxwtq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "mjdmrksdqcpb",
-          "name": "Configuration REST APIs",
-          "status": "partial_outage",
-          "created_at": "2019-03-15T08:28:02.946Z",
-          "updated_at": "2022-06-30T21:15:21.373Z",
-          "position": 18,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "jzqq334r65mx",
-          "page_id": "t05vdsszxwtq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [
     {
       "id": "3hx3cxfmxtfg",
@@ -914,7 +819,7 @@
     }
   ],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
