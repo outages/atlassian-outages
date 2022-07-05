@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-07-05T23:21:44.367Z"
+    "updated_at": "2022-07-05T23:42:48.518Z"
   },
   "components": [
     {
@@ -206,10 +206,10 @@
   "incidents": [
     {
       "id": "l3shc3dpkm16",
-      "name": "Unable to raise support tickets via GSAC",
+      "name": "Unable to raise support tickets via Support Portal",
       "status": "monitoring",
       "created_at": "2022-07-05T20:08:33.124Z",
-      "updated_at": "2022-07-05T23:21:44.365Z",
+      "updated_at": "2022-07-05T23:42:48.515Z",
       "monitoring_at": "2022-07-05T23:21:44.352Z",
       "resolved_at": null,
       "impact": "major",
