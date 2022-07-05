@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-07-05T20:08:33.423Z"
+    "updated_at": "2022-07-05T23:21:44.646Z"
   },
   "components": [
     {
@@ -348,7 +348,7 @@
     {
       "id": "jgnwrfzynh93",
       "name": "Support",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:27:18.010Z",
       "updated_at": "2018-02-01T17:40:12.769Z",
       "position": 5,
@@ -431,9 +431,9 @@
     {
       "id": "bqzdpnq7v22n",
       "name": "Atlassian Support",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-05-01T23:50:52.594Z",
-      "updated_at": "2022-07-05T20:08:33.419Z",
+      "updated_at": "2022-07-05T23:21:44.641Z",
       "position": 6,
       "description": null,
       "showcase": false,
@@ -702,7 +702,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
