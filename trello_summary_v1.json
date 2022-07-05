@@ -4,7 +4,7 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2022-07-05T14:23:38.981-04:00"
+    "updated_at": "2022-07-05T16:08:36.099-04:00"
   },
   "components": [
     {
@@ -55,9 +55,9 @@
     {
       "id": "rmthn8dprv1q",
       "name": "Atlassian Support - Support Portal",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2020-07-30T11:21:25.969-04:00",
-      "updated_at": "2022-03-28T13:35:12.413-04:00",
+      "updated_at": "2022-07-05T16:08:36.095-04:00",
       "position": 6,
       "description": "Support portal contact forms allow customers to raise support issues. Delays here might mean there's an issue with submitting a support request.",
       "showcase": true,
@@ -70,9 +70,9 @@
     {
       "id": "3zgtmwsprtcs",
       "name": "Atlassian Support Ticketing",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2020-07-30T12:28:08.222-04:00",
-      "updated_at": "2020-07-30T12:34:20.555-04:00",
+      "updated_at": "2022-07-05T16:08:35.220-04:00",
       "position": 7,
       "description": "Trello Support tickets can be replied to via email or from the ticket view on getsupport.atlassian.com. If there's an outage, you may be unable to view support tickets from getsupport.atlassian.com temporarily, but customers can reply to existing tickets by email.",
       "showcase": true,
@@ -139,7 +139,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "major",
+    "description": "Partial System Outage"
   }
 }

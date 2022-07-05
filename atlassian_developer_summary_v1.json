@@ -4,20 +4,20 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-07-05T04:23:29.723Z"
+    "updated_at": "2022-07-05T20:08:33.423Z"
   },
   "components": [
     {
-      "id": "mlr76v811c20",
-      "name": "App listing management",
+      "id": "wzmg8phvmrwh",
+      "name": "App Deployment",
       "status": "operational",
-      "created_at": "2018-02-01T17:46:24.130Z",
-      "updated_at": "2022-01-25T12:22:54.237Z",
+      "created_at": "2021-03-23T12:00:27.385Z",
+      "updated_at": "2022-05-12T13:25:07.771Z",
       "position": 1,
-      "description": "The ability to manage app listings on https://marketplace.atlassian.com",
+      "description": null,
       "showcase": true,
-      "start_date": null,
-      "group_id": "d0m8l367qqw5",
+      "start_date": "2021-03-23",
+      "group_id": "73bt63kd5q9k",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -38,16 +38,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "wzmg8phvmrwh",
-      "name": "App Deployment",
+      "id": "mlr76v811c20",
+      "name": "App listing management",
       "status": "operational",
-      "created_at": "2021-03-23T12:00:27.385Z",
-      "updated_at": "2022-05-12T13:25:07.771Z",
+      "created_at": "2018-02-01T17:46:24.130Z",
+      "updated_at": "2022-01-25T12:22:54.237Z",
       "position": 1,
-      "description": null,
+      "description": "The ability to manage app listings on https://marketplace.atlassian.com",
       "showcase": true,
-      "start_date": "2021-03-23",
-      "group_id": "73bt63kd5q9k",
+      "start_date": null,
+      "group_id": "d0m8l367qqw5",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -74,34 +74,6 @@
         "jnrvspydmmsd",
         "5rnsdjrhk29s",
         "ssdy05xtmgvs"
-      ]
-    },
-    {
-      "id": "73bt63kd5q9k",
-      "name": "Developer",
-      "status": "operational",
-      "created_at": "2018-02-01T17:21:34.889Z",
-      "updated_at": "2019-05-02T04:22:45.333Z",
-      "position": 2,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": null,
-      "page_id": "n8766lc3ybbs",
-      "group": true,
-      "only_show_if_degraded": false,
-      "components": [
-        "wzmg8phvmrwh",
-        "hfflf63kcp1l",
-        "ccbm394hy8pk",
-        "ft3y6psz31vm",
-        "vb9xhz9z6zbp",
-        "v19cs464rk5f",
-        "pgqd9x4jl520",
-        "sq83n9jrwk7c",
-        "64gg59lyzrfs",
-        "khz72mns34gk",
-        "x9bxzb5jlltj"
       ]
     },
     {
@@ -150,6 +122,34 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "73bt63kd5q9k",
+      "name": "Developer",
+      "status": "operational",
+      "created_at": "2018-02-01T17:21:34.889Z",
+      "updated_at": "2019-05-02T04:22:45.333Z",
+      "position": 2,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": null,
+      "page_id": "n8766lc3ybbs",
+      "group": true,
+      "only_show_if_degraded": false,
+      "components": [
+        "wzmg8phvmrwh",
+        "hfflf63kcp1l",
+        "ccbm394hy8pk",
+        "ft3y6psz31vm",
+        "vb9xhz9z6zbp",
+        "v19cs464rk5f",
+        "pgqd9x4jl520",
+        "sq83n9jrwk7c",
+        "64gg59lyzrfs",
+        "khz72mns34gk",
+        "x9bxzb5jlltj"
+      ]
+    },
+    {
       "id": "bf9d0vz83ykr",
       "name": "Atlassian Support contact form",
       "status": "operational",
@@ -165,16 +165,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "d1hybyzmqlvq",
-      "name": "App pricing",
+      "id": "ccbm394hy8pk",
+      "name": "Create and manage apps",
       "status": "operational",
-      "created_at": "2013-12-03T00:43:13.497Z",
-      "updated_at": "2021-11-22T06:54:16.949Z",
+      "created_at": "2018-02-01T17:21:34.902Z",
+      "updated_at": "2022-05-24T13:49:06.598Z",
       "position": 3,
-      "description": "App pricing queries and updates",
+      "description": "The ability to create and manage apps at https://developer.atlassian.com/apps",
       "showcase": true,
       "start_date": null,
-      "group_id": "d0m8l367qqw5",
+      "group_id": "73bt63kd5q9k",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -211,16 +211,16 @@
       ]
     },
     {
-      "id": "ccbm394hy8pk",
-      "name": "Create and manage apps",
+      "id": "cc6gw24m02wp",
+      "name": "Jira Cloud APIs",
       "status": "operational",
-      "created_at": "2018-02-01T17:21:34.902Z",
-      "updated_at": "2022-05-24T13:49:06.598Z",
+      "created_at": "2018-02-01T17:16:54.648Z",
+      "updated_at": "2022-06-23T14:37:47.916Z",
       "position": 3,
-      "description": "The ability to create and manage apps at https://developer.atlassian.com/apps",
+      "description": null,
       "showcase": true,
       "start_date": null,
-      "group_id": "73bt63kd5q9k",
+      "group_id": "w0ld3nc9jvdx",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -241,16 +241,46 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "cc6gw24m02wp",
-      "name": "Jira Cloud APIs",
+      "id": "d1hybyzmqlvq",
+      "name": "App pricing",
       "status": "operational",
-      "created_at": "2018-02-01T17:16:54.648Z",
-      "updated_at": "2022-06-23T14:37:47.916Z",
+      "created_at": "2013-12-03T00:43:13.497Z",
+      "updated_at": "2021-11-22T06:54:16.949Z",
       "position": 3,
+      "description": "App pricing queries and updates",
+      "showcase": true,
+      "start_date": null,
+      "group_id": "d0m8l367qqw5",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "ft3y6psz31vm",
+      "name": "Developer documentation",
+      "status": "operational",
+      "created_at": "2018-02-01T17:23:24.905Z",
+      "updated_at": "2021-10-06T21:03:57.450Z",
+      "position": 4,
+      "description": "The ability to access documentation at https://developer.atlassian.com/docs",
+      "showcase": true,
+      "start_date": null,
+      "group_id": "73bt63kd5q9k",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "7z6w09hl9mn0",
+      "name": "App submissions",
+      "status": "operational",
+      "created_at": "2018-02-01T17:48:45.038Z",
+      "updated_at": "2022-02-16T14:36:17.510Z",
+      "position": 4,
       "description": null,
       "showcase": true,
       "start_date": null,
-      "group_id": "w0ld3nc9jvdx",
+      "group_id": "d0m8l367qqw5",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -301,12 +331,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "7z6w09hl9mn0",
-      "name": "App submissions",
+      "id": "ydgwbb3wn2c6",
+      "name": "Category landing pages",
       "status": "operational",
-      "created_at": "2018-02-01T17:48:45.038Z",
-      "updated_at": "2022-02-16T14:36:17.510Z",
-      "position": 4,
+      "created_at": "2018-03-16T16:51:24.514Z",
+      "updated_at": "2021-09-29T18:05:57.225Z",
+      "position": 5,
       "description": null,
       "showcase": true,
       "start_date": null,
@@ -316,19 +346,27 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "ft3y6psz31vm",
-      "name": "Developer documentation",
-      "status": "operational",
-      "created_at": "2018-02-01T17:23:24.905Z",
-      "updated_at": "2021-10-06T21:03:57.450Z",
-      "position": 4,
-      "description": "The ability to access documentation at https://developer.atlassian.com/docs",
-      "showcase": true,
+      "id": "jgnwrfzynh93",
+      "name": "Support",
+      "status": "partial_outage",
+      "created_at": "2018-02-01T17:27:18.010Z",
+      "updated_at": "2018-02-01T17:40:12.769Z",
+      "position": 5,
+      "description": null,
+      "showcase": false,
       "start_date": null,
-      "group_id": "73bt63kd5q9k",
+      "group_id": null,
       "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
+      "group": true,
+      "only_show_if_degraded": false,
+      "components": [
+        "bf9d0vz83ykr",
+        "xjs8wcvjw85c",
+        "crfmnmkyvltr",
+        "bdrd3wct69vq",
+        "bqzdpnq7v22n",
+        "slvmv5jvbr4p"
+      ]
     },
     {
       "id": "bdrd3wct69vq",
@@ -376,44 +414,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "jgnwrfzynh93",
-      "name": "Support",
-      "status": "operational",
-      "created_at": "2018-02-01T17:27:18.010Z",
-      "updated_at": "2018-02-01T17:40:12.769Z",
-      "position": 5,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": null,
-      "page_id": "n8766lc3ybbs",
-      "group": true,
-      "only_show_if_degraded": false,
-      "components": [
-        "bf9d0vz83ykr",
-        "xjs8wcvjw85c",
-        "crfmnmkyvltr",
-        "bdrd3wct69vq",
-        "bqzdpnq7v22n",
-        "slvmv5jvbr4p"
-      ]
-    },
-    {
-      "id": "ydgwbb3wn2c6",
-      "name": "Category landing pages",
-      "status": "operational",
-      "created_at": "2018-03-16T16:51:24.514Z",
-      "updated_at": "2021-09-29T18:05:57.225Z",
-      "position": 5,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "d0m8l367qqw5",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "kj290v20168q",
       "name": "Evaluations and purchases",
       "status": "operational",
@@ -424,6 +424,21 @@
       "showcase": true,
       "start_date": null,
       "group_id": "d0m8l367qqw5",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "bqzdpnq7v22n",
+      "name": "Atlassian Support",
+      "status": "partial_outage",
+      "created_at": "2019-05-01T23:50:52.594Z",
+      "updated_at": "2022-07-05T20:08:33.419Z",
+      "position": 6,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "jgnwrfzynh93",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -459,36 +474,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "bqzdpnq7v22n",
-      "name": "Atlassian Support",
-      "status": "operational",
-      "created_at": "2019-05-01T23:50:52.594Z",
-      "updated_at": "2022-03-28T17:35:09.784Z",
-      "position": 6,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "jgnwrfzynh93",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "pgqd9x4jl520",
-      "name": "Forge Function Invocation",
-      "status": "operational",
-      "created_at": "2021-03-23T11:56:37.167Z",
-      "updated_at": "2022-07-05T03:52:57.235Z",
-      "position": 7,
-      "description": null,
-      "showcase": true,
-      "start_date": "2021-03-23",
-      "group_id": "73bt63kd5q9k",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "3t1y6724xl8q",
       "name": "In-product Marketplace and app installation (Cloud)",
       "status": "operational",
@@ -514,6 +499,21 @@
       "showcase": true,
       "start_date": "2022-02-04",
       "group_id": "jgnwrfzynh93",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "pgqd9x4jl520",
+      "name": "Forge Function Invocation",
+      "status": "operational",
+      "created_at": "2021-03-23T11:56:37.167Z",
+      "updated_at": "2022-07-05T03:52:57.235Z",
+      "position": 7,
+      "description": null,
+      "showcase": true,
+      "start_date": "2021-03-23",
+      "group_id": "73bt63kd5q9k",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -594,21 +594,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "7lx3k072bl6z",
-      "name": "Private listings",
-      "status": "operational",
-      "created_at": "2018-02-01T17:52:40.782Z",
-      "updated_at": "2022-01-25T04:09:47.102Z",
-      "position": 10,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "d0m8l367qqw5",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "khz72mns34gk",
       "name": "Developer console",
       "status": "operational",
@@ -619,6 +604,21 @@
       "showcase": true,
       "start_date": "2021-07-08",
       "group_id": "73bt63kd5q9k",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "7lx3k072bl6z",
+      "name": "Private listings",
+      "status": "operational",
+      "created_at": "2018-02-01T17:52:40.782Z",
+      "updated_at": "2022-01-25T04:09:47.102Z",
+      "position": 10,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "d0m8l367qqw5",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -702,7 +702,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
