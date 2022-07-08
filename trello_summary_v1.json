@@ -4,7 +4,7 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2022-07-08T05:33:23.176-04:00"
+    "updated_at": "2022-07-08T17:57:46.299-04:00"
   },
   "components": [
     {
@@ -42,7 +42,7 @@
       "name": "help.trello.com",
       "status": "operational",
       "created_at": "2019-12-05T10:33:27.119-05:00",
-      "updated_at": "2020-08-15T08:30:32.738-04:00",
+      "updated_at": "2022-07-08T17:57:46.296-04:00",
       "position": 3,
       "description": "Trello's Help docs system, serving docs at help.trello.com",
       "showcase": true,
