@@ -4,7 +4,7 @@
     "name": "Confluence",
     "url": "https://confluence.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-07-08T00:23:45.039Z"
+    "updated_at": "2022-07-12T01:43:34.723Z"
   },
   "components": [
     {
@@ -207,7 +207,50 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "2lbldrmrn266",
+      "name": "Intermittent authentication failures across Atlassian Cloud",
+      "status": "investigating",
+      "created_at": "2022-07-12T00:24:41.735Z",
+      "updated_at": "2022-07-12T01:43:34.712Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/d6n1wxkhkldt",
+      "started_at": "2022-07-12T00:24:41.729Z",
+      "page_id": "4g2my7tbhjsq",
+      "incident_updates": [
+        {
+          "id": "1xprydxhpl83",
+          "status": "investigating",
+          "body": "We do not yet have a root cause for the intermittent errors when authenticating impacting a small portion of Atlassian Cloud customers. We are continuing to investigate and will post updates on any significant development",
+          "incident_id": "2lbldrmrn266",
+          "created_at": "2022-07-12T01:43:34.710Z",
+          "updated_at": "2022-07-12T01:43:34.710Z",
+          "display_at": "2022-07-12T01:43:34.710Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "x6tzpymmbrgd",
+          "status": "investigating",
+          "body": "We are investigating reports of intermittent errors when attempting to authenticate for some Cloud customers. We will provide more details once we identify the root cause.",
+          "incident_id": "2lbldrmrn266",
+          "created_at": "2022-07-12T00:24:41.792Z",
+          "updated_at": "2022-07-12T00:24:41.792Z",
+          "display_at": "2022-07-12T00:24:41.792Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": []
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
