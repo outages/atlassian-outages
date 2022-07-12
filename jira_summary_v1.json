@@ -4,7 +4,7 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-07-12T01:43:35.402Z"
+    "updated_at": "2022-07-12T03:18:31.320Z"
   },
   "components": [
     {
@@ -174,48 +174,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": "mz3d7d7w1twj",
-      "name": "Intermittent authentication failures across Atlassian Cloud",
-      "status": "investigating",
-      "created_at": "2022-07-12T00:24:41.737Z",
-      "updated_at": "2022-07-12T01:43:35.392Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/w6k2jh2bq843",
-      "started_at": "2022-07-12T00:24:41.730Z",
-      "page_id": "7yh3h3y0c0x1",
-      "incident_updates": [
-        {
-          "id": "dd1419bg65p0",
-          "status": "investigating",
-          "body": "We do not yet have a root cause for the intermittent errors when authenticating impacting a small portion of Atlassian Cloud customers. We are continuing to investigate and will post updates on any significant development",
-          "incident_id": "mz3d7d7w1twj",
-          "created_at": "2022-07-12T01:43:35.389Z",
-          "updated_at": "2022-07-12T01:43:35.389Z",
-          "display_at": "2022-07-12T01:43:35.389Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "qz3t40h2k8b9",
-          "status": "investigating",
-          "body": "We are investigating reports of intermittent errors when attempting to authenticate for some Cloud customers. We will provide more details once we identify the root cause.",
-          "incident_id": "mz3d7d7w1twj",
-          "created_at": "2022-07-12T00:24:41.792Z",
-          "updated_at": "2022-07-12T00:24:41.792Z",
-          "display_at": "2022-07-12T00:24:41.792Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": []
-    },
     {
       "id": "zb5kv1l1shy5",
       "name": "Some customers encounter errors when trying to create issues",
