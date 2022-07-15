@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-07-15T08:23:32.185Z"
+    "updated_at": "2022-07-15T17:26:06.220Z"
   },
   "components": [
     {
@@ -12,7 +12,7 @@
       "name": "Website",
       "status": "operational",
       "created_at": "2013-09-26T03:34:27.377Z",
-      "updated_at": "2022-05-23T22:00:17.081Z",
+      "updated_at": "2022-07-15T17:26:05.628Z",
       "position": 1,
       "description": "Access to bitbucket.org",
       "showcase": false,
@@ -27,7 +27,7 @@
       "name": "API",
       "status": "operational",
       "created_at": "2015-06-05T19:34:43.541Z",
-      "updated_at": "2022-05-23T22:00:17.107Z",
+      "updated_at": "2022-07-15T17:26:05.642Z",
       "position": 2,
       "description": "Access to api.bitbucket.org",
       "showcase": false,
@@ -203,7 +203,107 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "hrj0w34rlr09",
+      "name": "High error rate on Website and API services",
+      "status": "monitoring",
+      "created_at": "2022-07-15T17:06:26.157Z",
+      "updated_at": "2022-07-15T17:26:06.201Z",
+      "monitoring_at": "2022-07-15T17:26:05.666Z",
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/mkxrhr193yrj",
+      "started_at": "2022-07-15T17:06:26.150Z",
+      "page_id": "bqlf8qjztdtr",
+      "incident_updates": [
+        {
+          "id": "kf4k07q4t433",
+          "status": "monitoring",
+          "body": "A fix has been implemented and we are monitoring the results.",
+          "incident_id": "hrj0w34rlr09",
+          "created_at": "2022-07-15T17:26:05.666Z",
+          "updated_at": "2022-07-15T17:26:06.185Z",
+          "display_at": "2022-07-15T17:26:05.666Z",
+          "affected_components": [
+            {
+              "code": "g0lfj4sv2fhf",
+              "name": "Website",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "k0x2yw1435v7",
+              "name": "API",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1547995935485005800
+        },
+        {
+          "id": "n6n354phr5yg",
+          "status": "investigating",
+          "body": "We are aware of an incident that is causing a high error rate on the Bitbucket Cloud Website and API, the team is currently investigating",
+          "incident_id": "hrj0w34rlr09",
+          "created_at": "2022-07-15T17:06:26.309Z",
+          "updated_at": "2022-07-15T17:06:27.079Z",
+          "display_at": "2022-07-15T17:06:26.309Z",
+          "affected_components": [
+            {
+              "code": "g0lfj4sv2fhf",
+              "name": "Website",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "k0x2yw1435v7",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1547990989981134800
+        }
+      ],
+      "components": [
+        {
+          "id": "g0lfj4sv2fhf",
+          "name": "Website",
+          "status": "operational",
+          "created_at": "2013-09-26T03:34:27.377Z",
+          "updated_at": "2022-07-15T17:26:05.628Z",
+          "position": 1,
+          "description": "Access to bitbucket.org",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "k0x2yw1435v7",
+          "name": "API",
+          "status": "operational",
+          "created_at": "2015-06-05T19:34:43.541Z",
+          "updated_at": "2022-07-15T17:26:05.642Z",
+          "position": 2,
+          "description": "Access to api.bitbucket.org",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
