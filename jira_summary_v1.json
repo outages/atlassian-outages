@@ -4,7 +4,7 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-07-18T06:47:35.194Z"
+    "updated_at": "2022-07-18T07:03:13.525Z"
   },
   "components": [
     {
@@ -145,9 +145,9 @@
     {
       "id": "fgq39r8cz7mj",
       "name": "Signup",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-10-09T20:37:16.295Z",
-      "updated_at": "2022-07-18T02:16:03.114Z",
+      "updated_at": "2022-07-18T07:02:20.283Z",
       "position": 10,
       "description": null,
       "showcase": false,
@@ -174,6 +174,78 @@
     }
   ],
   "incidents": [
+    {
+      "id": "htz7jdrzj0m8",
+      "name": "Allow Access consent loop",
+      "status": "identified",
+      "created_at": "2022-07-18T02:18:52.106Z",
+      "updated_at": "2022-07-18T07:03:13.518Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/f928n7fhw5k6",
+      "started_at": "2022-07-18T02:18:52.100Z",
+      "page_id": "7yh3h3y0c0x1",
+      "incident_updates": [
+        {
+          "id": "zb2xx4v1zlwh",
+          "status": "identified",
+          "body": "We continue to work on resolving the Forge access grant for Confluence, Jira Work Management and Jira Software. We have identified the issue is caused by caching in the browser or a front end system. \r\n\r\nA browser page refresh on the access grant page will allow the access to be granted and it will then not loop.",
+          "incident_id": "htz7jdrzj0m8",
+          "created_at": "2022-07-18T07:03:13.516Z",
+          "updated_at": "2022-07-18T07:03:13.516Z",
+          "display_at": "2022-07-18T07:03:13.516Z",
+          "affected_components": [
+            {
+              "code": "50wvm3nm8nd3",
+              "name": "Marketplace",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "dz1hqgqy0zy0",
+          "status": "investigating",
+          "body": "We are investigating reports of a consent loop when upgrading scopes on a Forge app. We are currently trying to reproduce the issue. We will provide more details once we identify the root cause.",
+          "incident_id": "htz7jdrzj0m8",
+          "created_at": "2022-07-18T02:18:52.168Z",
+          "updated_at": "2022-07-18T02:18:52.168Z",
+          "display_at": "2022-07-18T02:18:52.168Z",
+          "affected_components": [
+            {
+              "code": "50wvm3nm8nd3",
+              "name": "Marketplace",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "50wvm3nm8nd3",
+          "name": "Marketplace",
+          "status": "partial_outage",
+          "created_at": "2019-01-07T07:53:34.665Z",
+          "updated_at": "2022-07-18T02:18:52.133Z",
+          "position": 7,
+          "description": "Installing and managing apps. For the status of Marketplace Developer tools, please visit status.developer.atlassian.com",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "7yh3h3y0c0x1",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    },
     {
       "id": "n27m57jjspxd",
       "name": "Some customers encounter errors when trying to create issues",
@@ -217,150 +289,6 @@
           "updated_at": "2022-07-18T06:47:35.164Z",
           "position": 2,
           "description": "Problems creating or editing issues, projects, boards, reports, dashboards and the ability to comment, assign, and attach media.",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "7yh3h3y0c0x1",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    },
-    {
-      "id": "nrsh89wb3v0w",
-      "name": "Investigating",
-      "status": "monitoring",
-      "created_at": "2022-07-18T02:16:03.073Z",
-      "updated_at": "2022-07-18T06:33:05.023Z",
-      "monitoring_at": "2022-07-18T06:33:05.010Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/mk0khdjcf8mw",
-      "started_at": "2022-07-18T02:16:03.064Z",
-      "page_id": "7yh3h3y0c0x1",
-      "incident_updates": [
-        {
-          "id": "dlmc0zkq7ksk",
-          "status": "monitoring",
-          "body": "The new customers whose provisioning failed are being re-provisioned now. That is expected to be completed in 90 minutes.",
-          "incident_id": "nrsh89wb3v0w",
-          "created_at": "2022-07-18T06:33:05.010Z",
-          "updated_at": "2022-07-18T06:33:05.010Z",
-          "display_at": "2022-07-18T06:33:05.010Z",
-          "affected_components": [
-            {
-              "code": "fgq39r8cz7mj",
-              "name": "Signup",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "jrsh180lqnhv",
-          "status": "identified",
-          "body": "We continue to work on resolving the customer provisioning for Confluence and Jira Software. We have identified the root cause and are working on recovery for the affected customers.",
-          "incident_id": "nrsh89wb3v0w",
-          "created_at": "2022-07-18T03:27:45.819Z",
-          "updated_at": "2022-07-18T03:27:45.819Z",
-          "display_at": "2022-07-18T03:27:45.819Z",
-          "affected_components": [
-            {
-              "code": "fgq39r8cz7mj",
-              "name": "Signup",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "4696jd8mpb53",
-          "status": "identified",
-          "body": "We are investigating an issue with new customer provisioning that is impacting some new Confluence and Jira Software Cloud customers. We will provide more details within the next hour.",
-          "incident_id": "nrsh89wb3v0w",
-          "created_at": "2022-07-18T02:16:03.163Z",
-          "updated_at": "2022-07-18T02:16:03.163Z",
-          "display_at": "2022-07-18T02:16:03.163Z",
-          "affected_components": [
-            {
-              "code": "fgq39r8cz7mj",
-              "name": "Signup",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "fgq39r8cz7mj",
-          "name": "Signup",
-          "status": "partial_outage",
-          "created_at": "2020-10-09T20:37:16.295Z",
-          "updated_at": "2022-07-18T02:16:03.114Z",
-          "position": 10,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-10-09",
-          "group_id": null,
-          "page_id": "7yh3h3y0c0x1",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    },
-    {
-      "id": "htz7jdrzj0m8",
-      "name": "Allow Access consent loop",
-      "status": "investigating",
-      "created_at": "2022-07-18T02:18:52.106Z",
-      "updated_at": "2022-07-18T02:18:52.170Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/f928n7fhw5k6",
-      "started_at": "2022-07-18T02:18:52.100Z",
-      "page_id": "7yh3h3y0c0x1",
-      "incident_updates": [
-        {
-          "id": "dz1hqgqy0zy0",
-          "status": "investigating",
-          "body": "We are investigating reports of a consent loop when upgrading scopes on a Forge app. We are currently trying to reproduce the issue. We will provide more details once we identify the root cause.",
-          "incident_id": "htz7jdrzj0m8",
-          "created_at": "2022-07-18T02:18:52.168Z",
-          "updated_at": "2022-07-18T02:18:52.168Z",
-          "display_at": "2022-07-18T02:18:52.168Z",
-          "affected_components": [
-            {
-              "code": "50wvm3nm8nd3",
-              "name": "Marketplace",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "50wvm3nm8nd3",
-          "name": "Marketplace",
-          "status": "partial_outage",
-          "created_at": "2019-01-07T07:53:34.665Z",
-          "updated_at": "2022-07-18T02:18:52.133Z",
-          "position": 7,
-          "description": "Installing and managing apps. For the status of Marketplace Developer tools, please visit status.developer.atlassian.com",
           "showcase": false,
           "start_date": null,
           "group_id": null,

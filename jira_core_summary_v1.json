@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-07-18T02:23:38.218Z"
+    "updated_at": "2022-07-18T07:03:14.361Z"
   },
   "components": [
     {
@@ -177,9 +177,9 @@
     {
       "id": "lblhw03242ct",
       "name": "Allow Access consent loop",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2022-07-18T02:18:52.120Z",
-      "updated_at": "2022-07-18T02:18:52.212Z",
+      "updated_at": "2022-07-18T07:03:14.352Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -187,6 +187,26 @@
       "started_at": "2022-07-18T02:18:52.111Z",
       "page_id": "s6f0gm5gcpmy",
       "incident_updates": [
+        {
+          "id": "yw8z5zgsmd8n",
+          "status": "identified",
+          "body": "We continue to work on resolving the Forge access grant for Confluence, Jira Work Management and Jira Software. We have identified the issue is caused by caching in the browser or a front end system. \r\n\r\nA browser page refresh on the access grant page will allow the access to be granted and it will then not loop.",
+          "incident_id": "lblhw03242ct",
+          "created_at": "2022-07-18T07:03:14.349Z",
+          "updated_at": "2022-07-18T07:03:14.349Z",
+          "display_at": "2022-07-18T07:03:14.349Z",
+          "affected_components": [
+            {
+              "code": "66v4z7zq30yc",
+              "name": "Marketplace",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "nhm5x73fjt6c",
           "status": "investigating",
