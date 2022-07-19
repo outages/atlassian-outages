@@ -4,13 +4,13 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-07-19T06:38:20.130Z"
+    "updated_at": "2022-07-19T07:30:12.937Z"
   },
   "components": [
     {
       "id": "jzqq334r65mx",
       "name": "US",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-02-12T13:47:31.055Z",
       "updated_at": "2019-03-15T08:16:16.977Z",
       "position": 1,
@@ -94,7 +94,7 @@
     {
       "id": "k7gyfk44wrsr",
       "name": "EU",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-02-12T13:47:54.389Z",
       "updated_at": "2019-02-12T13:47:54.389Z",
       "position": 2,
@@ -493,9 +493,9 @@
     {
       "id": "357vyw1pjtlj",
       "name": "Signup, Login & Authorization",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-03-15T08:12:55.374Z",
-      "updated_at": "2022-07-19T06:31:33.328Z",
+      "updated_at": "2022-07-19T07:30:12.806Z",
       "position": 14,
       "description": null,
       "showcase": true,
@@ -508,9 +508,9 @@
     {
       "id": "yf2lb8rzjt6l",
       "name": "Signup, Login & Authorization",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-03-15T08:26:48.659Z",
-      "updated_at": "2022-07-19T06:31:33.345Z",
+      "updated_at": "2022-07-19T07:30:12.822Z",
       "position": 14,
       "description": null,
       "showcase": true,
@@ -553,9 +553,9 @@
     {
       "id": "j8bt86sx70hm",
       "name": "Web Application",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-03-15T08:27:28.877Z",
-      "updated_at": "2022-07-19T06:31:33.361Z",
+      "updated_at": "2022-07-19T07:30:12.837Z",
       "position": 16,
       "description": null,
       "showcase": true,
@@ -568,9 +568,9 @@
     {
       "id": "9mk8r5t0mzbk",
       "name": "Web Application",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-03-15T08:13:16.102Z",
-      "updated_at": "2022-07-19T06:31:33.390Z",
+      "updated_at": "2022-07-19T07:30:12.851Z",
       "position": 16,
       "description": null,
       "showcase": true,
@@ -583,9 +583,9 @@
     {
       "id": "c82mjhtcnk2n",
       "name": "Mobile Application",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-03-15T08:13:26.230Z",
-      "updated_at": "2022-07-19T06:31:33.406Z",
+      "updated_at": "2022-07-19T07:30:12.866Z",
       "position": 17,
       "description": null,
       "showcase": true,
@@ -598,9 +598,9 @@
     {
       "id": "g8fjk21d469p",
       "name": "Mobile Application",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-03-15T08:27:44.516Z",
-      "updated_at": "2022-07-19T06:38:20.088Z",
+      "updated_at": "2022-07-19T07:30:12.880Z",
       "position": 17,
       "description": null,
       "showcase": true,
@@ -765,16 +765,66 @@
     {
       "id": "zydckhfqc0kn",
       "name": "Web and Mobile Application are slow or unavailable",
-      "status": "identified",
-      "created_at": "2022-07-19T06:01:01.107Z",
-      "updated_at": "2022-07-19T06:38:20.123Z",
-      "monitoring_at": null,
+      "status": "monitoring",
+      "created_at": "2022-07-19T06:01:01.000Z",
+      "updated_at": "2022-07-19T07:30:12.935Z",
+      "monitoring_at": "2022-07-19T07:30:12.922Z",
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/0xkkzzsn2rqv",
       "started_at": "2022-07-19T06:01:01.000Z",
       "page_id": "t05vdsszxwtq",
       "incident_updates": [
+        {
+          "id": "jq2jgtrnb6tp",
+          "status": "monitoring",
+          "body": "The Fix has been deployed and rapid recovery is seen. We are monitoring the system for a full recovery.",
+          "incident_id": "zydckhfqc0kn",
+          "created_at": "2022-07-19T07:30:12.922Z",
+          "updated_at": "2022-07-19T07:30:12.922Z",
+          "display_at": "2022-07-19T07:30:12.922Z",
+          "affected_components": [
+            {
+              "code": "yf2lb8rzjt6l",
+              "name": "US - Signup, Login & Authorization",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "j8bt86sx70hm",
+              "name": "US - Web Application",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "g8fjk21d469p",
+              "name": "US - Mobile Application",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "357vyw1pjtlj",
+              "name": "EU - Signup, Login & Authorization",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "9mk8r5t0mzbk",
+              "name": "EU - Web Application",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "c82mjhtcnk2n",
+              "name": "EU - Mobile Application",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "5ltl5gzy3422",
           "status": "identified",
@@ -980,9 +1030,9 @@
         {
           "id": "357vyw1pjtlj",
           "name": "Signup, Login & Authorization",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2019-03-15T08:12:55.374Z",
-          "updated_at": "2022-07-19T06:31:33.328Z",
+          "updated_at": "2022-07-19T07:30:12.806Z",
           "position": 14,
           "description": null,
           "showcase": true,
@@ -995,9 +1045,9 @@
         {
           "id": "yf2lb8rzjt6l",
           "name": "Signup, Login & Authorization",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2019-03-15T08:26:48.659Z",
-          "updated_at": "2022-07-19T06:31:33.345Z",
+          "updated_at": "2022-07-19T07:30:12.822Z",
           "position": 14,
           "description": null,
           "showcase": true,
@@ -1010,9 +1060,9 @@
         {
           "id": "9mk8r5t0mzbk",
           "name": "Web Application",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2019-03-15T08:13:16.102Z",
-          "updated_at": "2022-07-19T06:31:33.390Z",
+          "updated_at": "2022-07-19T07:30:12.851Z",
           "position": 16,
           "description": null,
           "showcase": true,
@@ -1025,9 +1075,9 @@
         {
           "id": "j8bt86sx70hm",
           "name": "Web Application",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2019-03-15T08:27:28.877Z",
-          "updated_at": "2022-07-19T06:31:33.361Z",
+          "updated_at": "2022-07-19T07:30:12.837Z",
           "position": 16,
           "description": null,
           "showcase": true,
@@ -1040,9 +1090,9 @@
         {
           "id": "c82mjhtcnk2n",
           "name": "Mobile Application",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2019-03-15T08:13:26.230Z",
-          "updated_at": "2022-07-19T06:31:33.406Z",
+          "updated_at": "2022-07-19T07:30:12.866Z",
           "position": 17,
           "description": null,
           "showcase": true,
@@ -1055,9 +1105,9 @@
         {
           "id": "g8fjk21d469p",
           "name": "Mobile Application",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2019-03-15T08:27:44.516Z",
-          "updated_at": "2022-07-19T06:38:20.088Z",
+          "updated_at": "2022-07-19T07:30:12.880Z",
           "position": 17,
           "description": null,
           "showcase": true,
@@ -1072,7 +1122,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
