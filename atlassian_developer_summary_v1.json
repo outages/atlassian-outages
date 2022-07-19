@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-07-19T07:23:30.896Z"
+    "updated_at": "2022-07-19T08:17:39.550Z"
   },
   "components": [
     {
@@ -701,18 +701,90 @@
   ],
   "incidents": [
     {
+      "id": "1y7hcrt6mlrt",
+      "name": "Incorrect app version being installed for some apps",
+      "status": "investigating",
+      "created_at": "2022-07-19T08:17:39.500Z",
+      "updated_at": "2022-07-19T08:17:39.548Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/qvq3fmfvf213",
+      "started_at": "2022-07-19T08:17:39.492Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "wtyc33gndb67",
+          "status": "investigating",
+          "body": "We are currently investigating this issue.",
+          "incident_id": "1y7hcrt6mlrt",
+          "created_at": "2022-07-19T08:17:39.545Z",
+          "updated_at": "2022-07-19T08:17:39.545Z",
+          "display_at": "2022-07-19T08:17:39.545Z",
+          "affected_components": [
+            {
+              "code": "3t1y6724xl8q",
+              "name": "Marketplace - In-product Marketplace and app installation (Cloud)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "3t1y6724xl8q",
+          "name": "In-product Marketplace and app installation (Cloud)",
+          "status": "partial_outage",
+          "created_at": "2013-12-03T00:45:39.973Z",
+          "updated_at": "2022-07-18T02:18:52.173Z",
+          "position": 7,
+          "description": "The ability to discover, install, and manage apps inside of Atlassian's Cloud products (Jira, Confluence, Stride, Bitbucket)",
+          "showcase": true,
+          "start_date": null,
+          "group_id": "d0m8l367qqw5",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    },
+    {
       "id": "my8yfx8m7c54",
       "name": "Some users are experiencing 502 Errors while accessing Atlassian Marketplace",
       "status": "investigating",
       "created_at": "2022-07-19T07:21:02.374Z",
-      "updated_at": "2022-07-19T07:21:29.722Z",
+      "updated_at": "2022-07-19T08:00:33.445Z",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "minor",
+      "impact": "major",
       "shortlink": "https://stspg.io/3wqsbcq5tclv",
       "started_at": "2022-07-19T07:21:02.366Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "tqpl8fb9whkq",
+          "status": "investigating",
+          "body": "Upon further investigation , there are intermittent failures for some users from the EU region. We will provide more details once we identify the cause.",
+          "incident_id": "my8yfx8m7c54",
+          "created_at": "2022-07-19T08:00:03.540Z",
+          "updated_at": "2022-07-19T08:00:03.540Z",
+          "display_at": "2022-07-19T08:00:03.540Z",
+          "affected_components": [
+            {
+              "code": "g04n852g3nt6",
+              "name": "Marketplace - App listings",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "09vz2skh2462",
           "status": "investigating",
