@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-07-19T08:17:39.550Z"
+    "updated_at": "2022-07-19T08:43:04.822Z"
   },
   "components": [
     {
@@ -700,6 +700,35 @@
     }
   ],
   "incidents": [
+    {
+      "id": "q1c8jvmwvd74",
+      "name": "Intermittent errors across multiple products in eu-central",
+      "status": "monitoring",
+      "created_at": "2022-07-19T08:43:04.773Z",
+      "updated_at": "2022-07-19T08:43:04.819Z",
+      "monitoring_at": "2022-07-19T08:43:04.810Z",
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/2dgsqf1yvyk2",
+      "started_at": "2022-07-19T08:43:04.765Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "68c4v5xp960v",
+          "status": "monitoring",
+          "body": "Multiple Atlassian Cloud products and addons were unavailable to customers in some EU regions. The issue has been resolved and we are monitoring for further impact.",
+          "incident_id": "q1c8jvmwvd74",
+          "created_at": "2022-07-19T08:43:04.810Z",
+          "updated_at": "2022-07-19T08:43:04.810Z",
+          "display_at": "2022-07-19T08:43:04.810Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": []
+    },
     {
       "id": "1y7hcrt6mlrt",
       "name": "Incorrect app version being installed for some apps",
