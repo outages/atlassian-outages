@@ -4,7 +4,7 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-07-19T08:43:05.006Z"
+    "updated_at": "2022-07-19T08:52:04.941Z"
   },
   "components": [
     {
@@ -174,35 +174,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": "hqx5c93q9pn4",
-      "name": "Intermittent errors across multiple products in eu-central",
-      "status": "monitoring",
-      "created_at": "2022-07-19T08:43:04.964Z",
-      "updated_at": "2022-07-19T08:43:05.004Z",
-      "monitoring_at": "2022-07-19T08:43:04.995Z",
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/c94mt33vjjly",
-      "started_at": "2022-07-19T08:43:04.957Z",
-      "page_id": "7yh3h3y0c0x1",
-      "incident_updates": [
-        {
-          "id": "xkr6fwszxnjq",
-          "status": "monitoring",
-          "body": "Multiple Atlassian Cloud products and addons were unavailable to customers in some EU regions. The issue has been resolved and we are monitoring for further impact.",
-          "incident_id": "hqx5c93q9pn4",
-          "created_at": "2022-07-19T08:43:04.995Z",
-          "updated_at": "2022-07-19T08:43:04.995Z",
-          "display_at": "2022-07-19T08:43:04.995Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": []
-    },
     {
       "id": "htz7jdrzj0m8",
       "name": "Allow Access consent loop",
