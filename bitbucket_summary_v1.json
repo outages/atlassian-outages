@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-07-20T08:04:40.280Z"
+    "updated_at": "2022-07-20T23:26:27.488Z"
   },
   "components": [
     {
@@ -205,6 +205,249 @@
   ],
   "incidents": [],
   "scheduled_maintenances": [
+    {
+      "id": "jfsxyf8gzh3p",
+      "name": "Network Infrastructure Maintenance",
+      "status": "scheduled",
+      "created_at": "2022-07-20T23:26:26.370Z",
+      "updated_at": "2022-07-20T23:26:27.482Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/nxngfdd45wdv",
+      "started_at": "2022-07-20T23:26:26.360Z",
+      "page_id": "bqlf8qjztdtr",
+      "incident_updates": [
+        {
+          "id": "hv75q184w14t",
+          "status": "scheduled",
+          "body": "The Bitbucket and Edge teams will be performing maintenance in our network infrastructure. During this time, some long running in-flight connections/sessions might get dropped.",
+          "incident_id": "jfsxyf8gzh3p",
+          "created_at": "2022-07-20T23:26:26.428Z",
+          "updated_at": "2022-07-20T23:26:27.476Z",
+          "display_at": "2022-07-20T23:26:26.428Z",
+          "affected_components": [
+            {
+              "code": "c1qmcrcbc5zy",
+              "name": "Git via HTTPS",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "g0lfj4sv2fhf",
+              "name": "Website",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "28h8dvv2qfzw",
+              "name": "Source downloads",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "qmh4tj8h5kbn",
+              "name": "Git via SSH",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "k0x2yw1435v7",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "rfzky0v13fbp",
+              "name": "Webhooks",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "rzh2n85q7vtt",
+              "name": "Pipelines",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "g0c8l3nn2vr1",
+              "name": "Git LFS",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "qfsxh5mgnyyn",
+              "name": "Authentication and user management",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "tmjhkbvskftr",
+              "name": "Signup",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1549898561097068500
+        }
+      ],
+      "components": [
+        {
+          "id": "g0lfj4sv2fhf",
+          "name": "Website",
+          "status": "operational",
+          "created_at": "2013-09-26T03:34:27.377Z",
+          "updated_at": "2022-07-15T17:26:05.628Z",
+          "position": 1,
+          "description": "Access to bitbucket.org",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "k0x2yw1435v7",
+          "name": "API",
+          "status": "operational",
+          "created_at": "2015-06-05T19:34:43.541Z",
+          "updated_at": "2022-07-15T17:26:05.642Z",
+          "position": 2,
+          "description": "Access to api.bitbucket.org",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "qmh4tj8h5kbn",
+          "name": "Git via SSH",
+          "status": "operational",
+          "created_at": "2013-10-10T17:45:00.679Z",
+          "updated_at": "2022-05-23T22:00:17.138Z",
+          "position": 3,
+          "description": "Access to Git over SSH.",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "qfsxh5mgnyyn",
+          "name": "Authentication and user management",
+          "status": "operational",
+          "created_at": "2019-05-02T04:19:58.553Z",
+          "updated_at": "2022-07-13T01:33:41.495Z",
+          "position": 4,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "c1qmcrcbc5zy",
+          "name": "Git via HTTPS",
+          "status": "operational",
+          "created_at": "2013-09-26T03:33:27.652Z",
+          "updated_at": "2022-05-23T22:00:17.169Z",
+          "position": 5,
+          "description": "Access to Git repositories via HTTPS",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "rfzky0v13fbp",
+          "name": "Webhooks",
+          "status": "operational",
+          "created_at": "2015-07-29T01:37:04.511Z",
+          "updated_at": "2022-06-22T00:38:44.485Z",
+          "position": 7,
+          "description": "The Bitbucket webhooks service",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "28h8dvv2qfzw",
+          "name": "Source downloads",
+          "status": "operational",
+          "created_at": "2013-09-26T05:30:21.132Z",
+          "updated_at": "2022-05-23T22:00:17.205Z",
+          "position": 8,
+          "description": "Archive (zip, tar.gz, bzip) downloads of repositories",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "rzh2n85q7vtt",
+          "name": "Pipelines",
+          "status": "operational",
+          "created_at": "2016-08-23T20:04:54.469Z",
+          "updated_at": "2022-06-27T12:20:00.870Z",
+          "position": 9,
+          "description": "Continuous integration and delivery for Bitbucket repos",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "g0c8l3nn2vr1",
+          "name": "Git LFS",
+          "status": "operational",
+          "created_at": "2017-03-06T20:22:58.463Z",
+          "updated_at": "2022-05-23T22:00:17.236Z",
+          "position": 10,
+          "description": "Git Large File Storage",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "tmjhkbvskftr",
+          "name": "Signup",
+          "status": "operational",
+          "created_at": "2020-10-09T20:39:28.376Z",
+          "updated_at": "2022-05-02T21:39:36.705Z",
+          "position": 14,
+          "description": null,
+          "showcase": false,
+          "start_date": "2020-10-09",
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2022-07-21T23:30:00.000Z",
+      "scheduled_until": "2022-07-22T01:30:00.000Z"
+    },
     {
       "id": "q185nnp5rf7q",
       "name": "Database maintenance",
