@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-07-21T07:16:31.344Z"
+    "updated_at": "2022-07-21T07:49:41.264Z"
   },
   "components": [
     {
@@ -100,9 +100,9 @@
     {
       "id": "66v4z7zq30yc",
       "name": "Marketplace",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-01-23T17:06:59.587Z",
-      "updated_at": "2022-07-18T02:18:52.161Z",
+      "updated_at": "2022-07-21T07:49:41.261Z",
       "position": 7,
       "description": "Installing and managing apps. For the status of Marketplace Developer tools, please visit status.developer.atlassian.com",
       "showcase": false,
@@ -176,7 +176,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
