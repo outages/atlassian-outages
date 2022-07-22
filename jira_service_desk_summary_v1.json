@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-07-19T09:24:17.620Z"
+    "updated_at": "2022-07-22T05:42:04.605Z"
   },
   "components": [
     {
@@ -189,7 +189,62 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "4z1p4xzf1z6y",
+      "name": "Insight cloud marketplace app removal.",
+      "status": "scheduled",
+      "created_at": "2022-07-22T05:42:04.559Z",
+      "updated_at": "2022-07-22T05:42:04.603Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/q79j60h9fdsj",
+      "started_at": "2022-07-22T05:42:04.555Z",
+      "page_id": "pv54g7ltsc24",
+      "incident_updates": [
+        {
+          "id": "7b2tn5z1phy2",
+          "status": "scheduled",
+          "body": "This message is for our customers who have the legacy Insight cloud marketplace app installed on their Atlassian site. If you don’t have it installed please ignore this.\n\nThe Insight cloud marketplace app is now retired. If you tried to access the app recently you will have noticed it can no longer be used and will have been redirected to a message regarding the apps end of life. We are now removing it from the Apps dropdown menu on your site completely. This means all data stored by this app has also been permanently removed and is no longer be retrievable (either by users or by our support teams).  \n\nThe maintenance will start at the scheduled time and will be performed gradually over the next 4 days.",
+          "incident_id": "4z1p4xzf1z6y",
+          "created_at": "2022-07-22T05:42:04.601Z",
+          "updated_at": "2022-07-22T05:42:04.601Z",
+          "display_at": "2022-07-22T05:42:04.601Z",
+          "affected_components": [
+            {
+              "code": "4kcs01hbh4l6",
+              "name": "Jira Service Mangement Web",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "4kcs01hbh4l6",
+          "name": "Jira Service Mangement Web",
+          "status": "operational",
+          "created_at": "2018-11-16T18:06:14.831Z",
+          "updated_at": "2022-07-18T12:20:22.257Z",
+          "position": 1,
+          "description": "Problems with queues, issues, reports, searching, and anything else impacting an agent's ability to complete their work",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "pv54g7ltsc24",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2022-07-26T03:00:00.000Z",
+      "scheduled_until": "2022-07-30T03:00:00.000Z"
+    }
+  ],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
