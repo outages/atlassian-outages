@@ -4,7 +4,7 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-07-26T01:39:40.853Z"
+    "updated_at": "2022-07-26T02:21:46.117Z"
   },
   "components": [
     {
@@ -40,7 +40,7 @@
     {
       "id": "jzqq334r65mx",
       "name": "US",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-02-12T13:47:31.055Z",
       "updated_at": "2019-03-15T08:16:16.977Z",
       "position": 1,
@@ -643,9 +643,9 @@
     {
       "id": "p88rmktvpp6p",
       "name": "Reporting & Analytics",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-02-12T13:47:31.068Z",
-      "updated_at": "2022-07-26T01:03:23.714Z",
+      "updated_at": "2022-07-26T02:21:46.059Z",
       "position": 19,
       "description": "Reporting page",
       "showcase": true,
@@ -761,110 +761,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "1nfzvcln1fgb",
-      "name": "Opsgenie Analytics is slow or unavailable",
-      "status": "identified",
-      "created_at": "2022-07-26T01:03:23.670Z",
-      "updated_at": "2022-07-26T01:39:40.844Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/0vfb2tcyfy9k",
-      "started_at": "2022-07-26T01:03:23.658Z",
-      "page_id": "t05vdsszxwtq",
-      "incident_updates": [
-        {
-          "id": "1x4k7ppc28vd",
-          "status": "identified",
-          "body": "We have identified the issue and working on resolving it",
-          "incident_id": "1nfzvcln1fgb",
-          "created_at": "2022-07-26T01:39:40.841Z",
-          "updated_at": "2022-07-26T01:39:40.841Z",
-          "display_at": "2022-07-26T01:39:40.841Z",
-          "affected_components": [
-            {
-              "code": "p88rmktvpp6p",
-              "name": "US - Reporting & Analytics",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "lz2zqb1vtlp4",
-              "name": "EU - Reporting & Analytics",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "fccwfp82kfy8",
-          "status": "investigating",
-          "body": "We've noticed that Reporting and Analytics is responding slowly. The issue is related to emailing of reports and csv downloads. Our web interface for reporting continues to work as expected.\n\nOur engineering team is actively investigating this incident and working to bring Opsgenie back up to speed as quickly as possible.\n\nWe'll keep you posted with further updates on this page.",
-          "incident_id": "1nfzvcln1fgb",
-          "created_at": "2022-07-26T01:03:23.761Z",
-          "updated_at": "2022-07-26T01:03:23.761Z",
-          "display_at": "2022-07-26T01:03:23.761Z",
-          "affected_components": [
-            {
-              "code": "p88rmktvpp6p",
-              "name": "US - Reporting & Analytics",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "lz2zqb1vtlp4",
-              "name": "EU - Reporting & Analytics",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "p88rmktvpp6p",
-          "name": "Reporting & Analytics",
-          "status": "degraded_performance",
-          "created_at": "2019-02-12T13:47:31.068Z",
-          "updated_at": "2022-07-26T01:03:23.714Z",
-          "position": 19,
-          "description": "Reporting page",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "jzqq334r65mx",
-          "page_id": "t05vdsszxwtq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "lz2zqb1vtlp4",
-          "name": "Reporting & Analytics",
-          "status": "operational",
-          "created_at": "2019-02-12T13:47:54.400Z",
-          "updated_at": "2022-06-30T05:20:40.278Z",
-          "position": 20,
-          "description": "Reporting Page",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "k7gyfk44wrsr",
-          "page_id": "t05vdsszxwtq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
