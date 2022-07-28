@@ -4,15 +4,15 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-07-26T03:00:33.638Z"
+    "updated_at": "2022-07-28T12:23:42.546Z"
   },
   "components": [
     {
       "id": "4kcs01hbh4l6",
       "name": "Jira Service Mangement Web",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2018-11-16T18:06:14.831Z",
-      "updated_at": "2022-07-18T12:20:22.257Z",
+      "updated_at": "2022-07-28T11:57:48.452Z",
       "position": 1,
       "description": "Problems with queues, issues, reports, searching, and anything else impacting an agent's ability to complete their work",
       "showcase": false,
@@ -188,7 +188,60 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "zsbmt1xrddhf",
+      "name": "Unable to import configuration in JSM Insight",
+      "status": "investigating",
+      "created_at": "2022-07-28T11:57:48.411Z",
+      "updated_at": "2022-07-28T11:57:48.506Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/9jpvhpdjlt5g",
+      "started_at": "2022-07-28T11:57:48.402Z",
+      "page_id": "pv54g7ltsc24",
+      "incident_updates": [
+        {
+          "id": "c6drwp8zrcd2",
+          "status": "investigating",
+          "body": "We are investigating reports of errors when importing configuration for Jira Service Management Cloud - Insight customers. We will provide more details once we identify the root cause.",
+          "incident_id": "zsbmt1xrddhf",
+          "created_at": "2022-07-28T11:57:48.503Z",
+          "updated_at": "2022-07-28T11:57:48.503Z",
+          "display_at": "2022-07-28T11:57:48.503Z",
+          "affected_components": [
+            {
+              "code": "4kcs01hbh4l6",
+              "name": "Jira Service Mangement Web",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "4kcs01hbh4l6",
+          "name": "Jira Service Mangement Web",
+          "status": "partial_outage",
+          "created_at": "2018-11-16T18:06:14.831Z",
+          "updated_at": "2022-07-28T11:57:48.452Z",
+          "position": 1,
+          "description": "Problems with queues, issues, reports, searching, and anything else impacting an agent's ability to complete their work",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "pv54g7ltsc24",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [
     {
       "id": "4z1p4xzf1z6y",
@@ -254,9 +307,9 @@
         {
           "id": "4kcs01hbh4l6",
           "name": "Jira Service Mangement Web",
-          "status": "operational",
+          "status": "partial_outage",
           "created_at": "2018-11-16T18:06:14.831Z",
-          "updated_at": "2022-07-18T12:20:22.257Z",
+          "updated_at": "2022-07-28T11:57:48.452Z",
           "position": 1,
           "description": "Problems with queues, issues, reports, searching, and anything else impacting an agent's ability to complete their work",
           "showcase": false,
@@ -272,7 +325,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
