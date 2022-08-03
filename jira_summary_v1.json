@@ -4,7 +4,7 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-08-03T17:56:16.157Z"
+    "updated_at": "2022-08-03T18:41:57.288Z"
   },
   "components": [
     {
@@ -173,76 +173,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "7kg7rbs0x4cc",
-      "name": "Degraded Forge App Rendering",
-      "status": "monitoring",
-      "created_at": "2022-08-03T12:09:49.028Z",
-      "updated_at": "2022-08-03T17:56:16.154Z",
-      "monitoring_at": "2022-08-03T17:56:16.134Z",
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/bxw2f9mhhgfg",
-      "started_at": "2022-08-03T12:09:49.021Z",
-      "page_id": "7yh3h3y0c0x1",
-      "incident_updates": [
-        {
-          "id": "bx6yhcwtpxk5",
-          "status": "monitoring",
-          "body": "We have mitigated the problem that resulted in Forge app rendering failures or modules not being present and degraded performance. We are now monitoring closely.",
-          "incident_id": "7kg7rbs0x4cc",
-          "created_at": "2022-08-03T17:56:16.134Z",
-          "updated_at": "2022-08-03T17:56:16.134Z",
-          "display_at": "2022-08-03T17:56:16.134Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "jlsrx85zx77h",
-          "status": "identified",
-          "body": "The incident response team has identified the root cause of the failure and is working on bringing the services back to fully operational.",
-          "incident_id": "7kg7rbs0x4cc",
-          "created_at": "2022-08-03T16:05:07.783Z",
-          "updated_at": "2022-08-03T16:05:07.783Z",
-          "display_at": "2022-08-03T16:05:07.783Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "rl5w79pd2swf",
-          "status": "investigating",
-          "body": "Forge modules may be slow to load or disappear completely for some time.\r\nAt this moment we managed to isolate the impact to us-east customers.\r\nWe are working on fix to fully recover the system.",
-          "incident_id": "7kg7rbs0x4cc",
-          "created_at": "2022-08-03T15:52:37.422Z",
-          "updated_at": "2022-08-03T15:52:37.422Z",
-          "display_at": "2022-08-03T15:52:37.422Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "61dyw07k2fzn",
-          "status": "investigating",
-          "body": "We are investigating cases of degraded performance for some Confluence, Jira Work Management, Jira Service Management, Jira Software, and Compass Cloud customers. Forge apps may be slower to load or occasionally fail to load.",
-          "incident_id": "7kg7rbs0x4cc",
-          "created_at": "2022-08-03T12:09:49.068Z",
-          "updated_at": "2022-08-03T12:09:49.068Z",
-          "display_at": "2022-08-03T12:09:49.068Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": []
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
