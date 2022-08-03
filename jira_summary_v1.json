@@ -4,7 +4,7 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-08-03T16:05:07.798Z"
+    "updated_at": "2022-08-03T17:56:16.157Z"
   },
   "components": [
     {
@@ -177,16 +177,29 @@
     {
       "id": "7kg7rbs0x4cc",
       "name": "Degraded Forge App Rendering",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2022-08-03T12:09:49.028Z",
-      "updated_at": "2022-08-03T16:05:07.786Z",
-      "monitoring_at": null,
+      "updated_at": "2022-08-03T17:56:16.154Z",
+      "monitoring_at": "2022-08-03T17:56:16.134Z",
       "resolved_at": null,
       "impact": "none",
       "shortlink": "https://stspg.io/bxw2f9mhhgfg",
       "started_at": "2022-08-03T12:09:49.021Z",
       "page_id": "7yh3h3y0c0x1",
       "incident_updates": [
+        {
+          "id": "bx6yhcwtpxk5",
+          "status": "monitoring",
+          "body": "We have mitigated the problem that resulted in Forge app rendering failures or modules not being present and degraded performance. We are now monitoring closely.",
+          "incident_id": "7kg7rbs0x4cc",
+          "created_at": "2022-08-03T17:56:16.134Z",
+          "updated_at": "2022-08-03T17:56:16.134Z",
+          "display_at": "2022-08-03T17:56:16.134Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "jlsrx85zx77h",
           "status": "identified",
