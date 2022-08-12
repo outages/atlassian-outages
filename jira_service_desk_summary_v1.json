@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-08-10T16:23:47.105Z"
+    "updated_at": "2022-08-12T14:13:38.060Z"
   },
   "components": [
     {
@@ -188,37 +188,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "cshcpkwt9nsw",
-      "name": "Performance issues - 5xx errors",
-      "status": "monitoring",
-      "created_at": "2022-08-10T15:33:03.244Z",
-      "updated_at": "2022-08-10T15:34:20.371Z",
-      "monitoring_at": "2022-08-10T15:33:03.293Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/j8qb1cx1dnn5",
-      "started_at": "2022-08-10T15:33:03.235Z",
-      "page_id": "pv54g7ltsc24",
-      "incident_updates": [
-        {
-          "id": "dqffltzk5l7k",
-          "status": "monitoring",
-          "body": "Between 13:42 UTC to 14:06 UTC, some customers experienced server errors (5xx) for Jira Service Management, Proforma, Jira Software, and Confluence. The conditions that cause the issue have been addressed and we're actively working on a permanent fix. The issue has been resolved and the service is operating normally.",
-          "incident_id": "cshcpkwt9nsw",
-          "created_at": "2022-08-10T15:33:03.293Z",
-          "updated_at": "2022-08-10T15:33:03.293Z",
-          "display_at": "2022-08-10T15:33:03.293Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": []
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
