@@ -4,7 +4,7 @@
     "name": "Confluence",
     "url": "https://confluence.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-08-15T19:23:40.797Z"
+    "updated_at": "2022-08-15T20:16:33.275Z"
   },
   "components": [
     {
@@ -211,16 +211,66 @@
     {
       "id": "tkn7lb82jl5v",
       "name": "Degraded Confluence Experience - US East",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2022-08-15T18:56:01.898Z",
-      "updated_at": "2022-08-15T18:56:02.033Z",
-      "monitoring_at": null,
+      "updated_at": "2022-08-15T20:16:33.273Z",
+      "monitoring_at": "2022-08-15T20:16:33.258Z",
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/4gpnxpqr9nnp",
       "started_at": "2022-08-15T18:56:01.889Z",
       "page_id": "4g2my7tbhjsq",
       "incident_updates": [
+        {
+          "id": "dqnd4s806ck0",
+          "status": "monitoring",
+          "body": "Between 5:33 PM UTC to 7:11 PM UTC, some customers from US EAST had issues not allowing Confluence to be accessed and properly used. The experiences have been stable and the mitigation measures are currently being monitored.",
+          "incident_id": "tkn7lb82jl5v",
+          "created_at": "2022-08-15T20:16:33.258Z",
+          "updated_at": "2022-08-15T20:16:33.258Z",
+          "display_at": "2022-08-15T20:16:33.258Z",
+          "affected_components": [
+            {
+              "code": "bl9mxbb582vk",
+              "name": "View Content",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "y4z6hxpf7d7t",
+              "name": "Create and Edit",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "snpbn00x0g0k",
+              "name": "Comments",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "5fjwzmlch883",
+              "name": "Search",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "p8qwf8g1xjs4",
+              "name": "Administration",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "qkxm9wlprp6h",
+              "name": "Signup",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "q2db01cwp13x",
           "status": "investigating",
