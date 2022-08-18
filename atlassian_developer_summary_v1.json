@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-08-16T08:23:45.159Z"
+    "updated_at": "2022-08-18T05:26:01.913Z"
   },
   "components": [
     {
@@ -754,6 +754,102 @@
       ],
       "scheduled_for": "2022-08-19T01:00:00.000Z",
       "scheduled_until": "2022-08-19T02:00:00.000Z"
+    },
+    {
+      "id": "m8mlhwtqhw1p",
+      "name": "Migration of app and pricing information to the new billing system",
+      "status": "scheduled",
+      "created_at": "2022-08-18T05:26:01.859Z",
+      "updated_at": "2022-08-18T05:26:01.911Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/wwjwj4gwccc0",
+      "started_at": "2022-08-18T05:26:01.849Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "rmvf0n6zpvtc",
+          "status": "scheduled",
+          "body": "We are migrating app data to our new billing system. You can read more about this on https://community.developer.atlassian.com/t/app-migration-process-commences-on-22nd-aug-2022/60742\n\nThe impact is only for select partners in any given week. And each partner will only be affected for a period of 24 hours. \n\nMarketplace Partners whose apps are to be migrated from 22nd Aug - 26th Aug:\n55 Degrees AB\nAdaptavist\nAlpha Serve\nAmoeboids Technologies Pvt Ltd\nAtlas Inc.\nBilith (Asana apps)\ncodefortynine GmbH\nCollabSoft\nDavid Simpson Apps\nDeviniti\nFulstech\nGrovr\nikuTeam (Office 365 & Gsuite Apps)\nK15t\nMidori Global Consulting Kft.\nModus Create\nMove Work Forward\nOBSS\nOrah Apps\nProjectBalm\nRailsware Products Studio, Inc.\nRedmoon Software Ltd\nSaaSJet\nServiceRocket\nWallSync",
+          "incident_id": "m8mlhwtqhw1p",
+          "created_at": "2022-08-18T05:26:01.909Z",
+          "updated_at": "2022-08-18T05:26:01.909Z",
+          "display_at": "2022-08-18T05:26:01.909Z",
+          "affected_components": [
+            {
+              "code": "mlr76v811c20",
+              "name": "Marketplace - App listing management",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "d1hybyzmqlvq",
+              "name": "Marketplace - App pricing",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "7z6w09hl9mn0",
+              "name": "Marketplace - App submissions",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "mlr76v811c20",
+          "name": "App listing management",
+          "status": "operational",
+          "created_at": "2018-02-01T17:46:24.130Z",
+          "updated_at": "2022-01-25T12:22:54.237Z",
+          "position": 1,
+          "description": "The ability to manage app listings on https://marketplace.atlassian.com",
+          "showcase": true,
+          "start_date": null,
+          "group_id": "d0m8l367qqw5",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "d1hybyzmqlvq",
+          "name": "App pricing",
+          "status": "operational",
+          "created_at": "2013-12-03T00:43:13.497Z",
+          "updated_at": "2022-07-29T17:10:26.262Z",
+          "position": 3,
+          "description": "App pricing queries and updates",
+          "showcase": true,
+          "start_date": null,
+          "group_id": "d0m8l367qqw5",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "7z6w09hl9mn0",
+          "name": "App submissions",
+          "status": "operational",
+          "created_at": "2018-02-01T17:48:45.038Z",
+          "updated_at": "2022-02-16T14:36:17.510Z",
+          "position": 4,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": "d0m8l367qqw5",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2022-08-22T00:00:00.000Z",
+      "scheduled_until": "2022-08-27T00:00:00.000Z"
     }
   ],
   "status": {
