@@ -4,7 +4,7 @@
     "name": "Atlassian Statuspage",
     "url": "http://metastatuspage.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2022-08-25T18:20:13.893-07:00"
+    "updated_at": "2022-08-29T13:56:19.366-07:00"
   },
   "components": [
     {
@@ -817,7 +817,62 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "l85bpxy7znt9",
+      "name": "Upcoming changes to enforce pagination for the authenticated REST API",
+      "status": "scheduled",
+      "created_at": "2022-08-29T13:56:19.322-07:00",
+      "updated_at": "2022-08-29T13:56:19.363-07:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "http://mstspg.co/6hnmgp76dsjn",
+      "started_at": "2022-08-29T13:56:19.315-07:00",
+      "page_id": "y2j98763l56x",
+      "incident_updates": [
+        {
+          "id": "9nxxc6hc1qgr",
+          "status": "scheduled",
+          "body": "We're making important performance-based changes to the authenticated REST API by enforcing pagination for a specific set of endpoints. If you have an existing integration with our REST API, you may need to make changes to your REST API calls to accommodate these changes. You can <a href=\"https://community.atlassian.com/t5/Statuspage-articles/Upcoming-changes-to-enforce-pagination-for-Statuspage-s/ba-p/2089947\" target=\"_blank\">learn more</a> about these changes on our community blog.",
+          "incident_id": "l85bpxy7znt9",
+          "created_at": "2022-08-29T13:56:19.361-07:00",
+          "updated_at": "2022-08-29T13:56:19.361-07:00",
+          "display_at": "2022-08-29T13:56:19.361-07:00",
+          "affected_components": [
+            {
+              "code": "3g0c0h5n5cp1",
+              "name": "Management - Authenticated API",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "3g0c0h5n5cp1",
+          "name": "Authenticated API",
+          "status": "operational",
+          "created_at": "2017-08-21T10:21:45.963-07:00",
+          "updated_at": "2022-04-05T14:11:56.283-07:00",
+          "position": 2,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": "jk3l62p3pcfy",
+          "page_id": "y2j98763l56x",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2023-02-28T11:00:00.000-08:00",
+      "scheduled_until": "2023-02-28T12:00:00.000-08:00"
+    }
+  ],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
