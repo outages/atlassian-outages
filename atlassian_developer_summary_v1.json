@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-09-06T04:00:39.414Z"
+    "updated_at": "2022-09-06T07:28:38.776Z"
   },
   "components": [
     {
@@ -722,21 +722,21 @@
       "name": "Migration of app and pricing information to the new billing system",
       "status": "in_progress",
       "created_at": "2022-09-02T11:28:34.527Z",
-      "updated_at": "2022-09-06T04:00:39.400Z",
+      "updated_at": "2022-09-06T07:28:38.770Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
       "shortlink": "https://stspg.io/s9x7ss3v6wn9",
-      "started_at": "2022-09-02T11:49:20.484Z",
+      "started_at": "2022-09-06T04:00:20.484Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
         {
           "id": "pngyd4qdf944",
           "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "body": "App catalog migration has began. For details see here https://community.developer.atlassian.com/t/app-catalog-migration-process-commences-on-22nd-aug-2022/60742\n\nThis is the list of partners that is being migrated today:\nAlpha Serve\nAtlas Inc.\nJiBrok\nActonic GmbH\nProdule\nAppFox\nTransition Technologies PSC\n\nThe list will keep updating every day so keep an eye for updates on the list of the maintenance period.",
           "incident_id": "3dzmhbbr1m37",
           "created_at": "2022-09-06T04:00:39.397Z",
-          "updated_at": "2022-09-06T04:00:39.397Z",
+          "updated_at": "2022-09-06T07:28:38.673Z",
           "display_at": "2022-09-06T04:00:39.397Z",
           "affected_components": [
             {
