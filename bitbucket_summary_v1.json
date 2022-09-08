@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-09-08T21:38:06.167Z"
+    "updated_at": "2022-09-08T22:57:13.722Z"
   },
   "components": [
     {
@@ -115,9 +115,9 @@
     {
       "id": "rzh2n85q7vtt",
       "name": "Pipelines",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2016-08-23T20:04:54.469Z",
-      "updated_at": "2022-07-22T01:30:40.383Z",
+      "updated_at": "2022-09-08T22:57:13.676Z",
       "position": 9,
       "description": "Continuous integration and delivery for Bitbucket repos",
       "showcase": false,
@@ -203,10 +203,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "v92hf4y2b7j6",
+      "name": "Bitbucket Pipelines delayed updating of commit statuses",
+      "status": "investigating",
+      "created_at": "2022-09-08T22:57:13.622Z",
+      "updated_at": "2022-09-08T22:57:13.719Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/j4vhk1bvpyyz",
+      "started_at": "2022-09-08T22:57:13.614Z",
+      "page_id": "bqlf8qjztdtr",
+      "incident_updates": [
+        {
+          "id": "jz4nsjgt54tq",
+          "status": "investigating",
+          "body": "We are investigating an issue where commit status updates are being delayed, preventing pull requests that require a green build from being merged.",
+          "incident_id": "v92hf4y2b7j6",
+          "created_at": "2022-09-08T22:57:13.716Z",
+          "updated_at": "2022-09-08T22:57:13.716Z",
+          "display_at": "2022-09-08T22:57:13.716Z",
+          "affected_components": [
+            {
+              "code": "rzh2n85q7vtt",
+              "name": "Pipelines",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "rzh2n85q7vtt",
+          "name": "Pipelines",
+          "status": "degraded_performance",
+          "created_at": "2016-08-23T20:04:54.469Z",
+          "updated_at": "2022-09-08T22:57:13.676Z",
+          "position": 9,
+          "description": "Continuous integration and delivery for Bitbucket repos",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
