@@ -4,7 +4,7 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-09-14T17:01:11.480Z"
+    "updated_at": "2022-09-14T17:23:35.436Z"
   },
   "components": [
     {
@@ -25,7 +25,7 @@
     {
       "id": "jzqq334r65mx",
       "name": "US",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2019-02-12T13:47:31.055Z",
       "updated_at": "2019-03-15T08:16:16.977Z",
       "position": 1,
@@ -109,7 +109,7 @@
     {
       "id": "k7gyfk44wrsr",
       "name": "EU",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2019-02-12T13:47:54.389Z",
       "updated_at": "2019-02-12T13:47:54.389Z",
       "position": 2,
@@ -163,9 +163,9 @@
     {
       "id": "zv3xlkn13rqs",
       "name": "Email Notification Delivery",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2019-03-15T08:10:32.965Z",
-      "updated_at": "2022-09-14T16:59:34.226Z",
+      "updated_at": "2022-09-14T17:07:34.021Z",
       "position": 3,
       "description": null,
       "showcase": true,
@@ -178,9 +178,9 @@
     {
       "id": "7gksbx75r5rn",
       "name": "Email Notification Delivery",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2019-03-15T08:09:44.195Z",
-      "updated_at": "2022-09-14T16:59:34.247Z",
+      "updated_at": "2022-09-14T17:07:34.075Z",
       "position": 3,
       "description": null,
       "showcase": true,
@@ -193,9 +193,9 @@
     {
       "id": "fqgh9nvrlck3",
       "name": "SMS Notification Delivery",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2019-03-15T08:09:52.866Z",
-      "updated_at": "2022-09-14T16:59:34.266Z",
+      "updated_at": "2022-09-14T17:07:34.096Z",
       "position": 4,
       "description": null,
       "showcase": true,
@@ -208,10 +208,25 @@
     {
       "id": "pk367fsgz1yq",
       "name": "SMS Notification Delivery",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2019-03-15T08:10:55.832Z",
-      "updated_at": "2022-09-14T16:59:34.282Z",
+      "updated_at": "2022-09-14T17:07:34.118Z",
       "position": 4,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "k7gyfk44wrsr",
+      "page_id": "t05vdsszxwtq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "92ty6vgyj0nw",
+      "name": "Voice Notification Delivery",
+      "status": "operational",
+      "created_at": "2019-03-15T08:11:07.813Z",
+      "updated_at": "2022-09-14T17:07:34.161Z",
+      "position": 5,
       "description": null,
       "showcase": true,
       "start_date": null,
@@ -223,9 +238,9 @@
     {
       "id": "mpqtdxmvtwg7",
       "name": "Voice Notification Delivery",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2019-03-15T08:25:35.331Z",
-      "updated_at": "2022-09-14T16:59:34.315Z",
+      "updated_at": "2022-09-14T17:07:34.140Z",
       "position": 5,
       "description": null,
       "showcase": true,
@@ -236,26 +251,11 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "92ty6vgyj0nw",
-      "name": "Voice Notification Delivery",
-      "status": "major_outage",
-      "created_at": "2019-03-15T08:11:07.813Z",
-      "updated_at": "2022-09-14T16:59:34.298Z",
-      "position": 5,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "k7gyfk44wrsr",
-      "page_id": "t05vdsszxwtq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "s8szfv793n8p",
       "name": "Mobile Notification Delivery",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2019-03-15T08:10:23.207Z",
-      "updated_at": "2022-09-14T16:59:34.348Z",
+      "updated_at": "2022-09-14T17:07:34.202Z",
       "position": 6,
       "description": null,
       "showcase": true,
@@ -268,9 +268,9 @@
     {
       "id": "jf0l1ds2mm5z",
       "name": "Mobile Notification Delivery",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2019-03-15T08:11:21.736Z",
-      "updated_at": "2022-09-14T16:59:34.331Z",
+      "updated_at": "2022-09-14T17:07:34.182Z",
       "position": 6,
       "description": null,
       "showcase": true,
@@ -761,272 +761,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "0rhnlx7w47w4",
-      "name": "Delays in notification service",
-      "status": "identified",
-      "created_at": "2022-09-14T16:59:34.177Z",
-      "updated_at": "2022-09-14T17:01:11.471Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "critical",
-      "shortlink": "https://stspg.io/fdbdmdhbfhtv",
-      "started_at": "2022-09-14T16:59:34.160Z",
-      "page_id": "t05vdsszxwtq",
-      "incident_updates": [
-        {
-          "id": "7mljdtmk722k",
-          "status": "identified",
-          "body": "The issue is caused by a faulty deployment. We started to revert process and we are expecting that notification service will return normal state in a short time.",
-          "incident_id": "0rhnlx7w47w4",
-          "created_at": "2022-09-14T17:01:11.468Z",
-          "updated_at": "2022-09-14T17:01:11.468Z",
-          "display_at": "2022-09-14T17:01:11.468Z",
-          "affected_components": [
-            {
-              "code": "7gksbx75r5rn",
-              "name": "US - Email Notification Delivery",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "fqgh9nvrlck3",
-              "name": "US - SMS Notification Delivery",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "mpqtdxmvtwg7",
-              "name": "US - Voice Notification Delivery",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "s8szfv793n8p",
-              "name": "US - Mobile Notification Delivery",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "zv3xlkn13rqs",
-              "name": "EU - Email Notification Delivery",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "pk367fsgz1yq",
-              "name": "EU - SMS Notification Delivery",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "92ty6vgyj0nw",
-              "name": "EU - Voice Notification Delivery",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "jf0l1ds2mm5z",
-              "name": "EU - Mobile Notification Delivery",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "v5wpkcpf7rh3",
-          "status": "investigating",
-          "body": "We are currently investigating an issue at notification service. All notifications are delivered with delays up to 50 minutes.",
-          "incident_id": "0rhnlx7w47w4",
-          "created_at": "2022-09-14T16:59:34.388Z",
-          "updated_at": "2022-09-14T16:59:34.388Z",
-          "display_at": "2022-09-14T16:59:34.388Z",
-          "affected_components": [
-            {
-              "code": "7gksbx75r5rn",
-              "name": "US - Email Notification Delivery",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "fqgh9nvrlck3",
-              "name": "US - SMS Notification Delivery",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "mpqtdxmvtwg7",
-              "name": "US - Voice Notification Delivery",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "s8szfv793n8p",
-              "name": "US - Mobile Notification Delivery",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "zv3xlkn13rqs",
-              "name": "EU - Email Notification Delivery",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "pk367fsgz1yq",
-              "name": "EU - SMS Notification Delivery",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "92ty6vgyj0nw",
-              "name": "EU - Voice Notification Delivery",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "jf0l1ds2mm5z",
-              "name": "EU - Mobile Notification Delivery",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "7gksbx75r5rn",
-          "name": "Email Notification Delivery",
-          "status": "major_outage",
-          "created_at": "2019-03-15T08:09:44.195Z",
-          "updated_at": "2022-09-14T16:59:34.247Z",
-          "position": 3,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "jzqq334r65mx",
-          "page_id": "t05vdsszxwtq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "zv3xlkn13rqs",
-          "name": "Email Notification Delivery",
-          "status": "major_outage",
-          "created_at": "2019-03-15T08:10:32.965Z",
-          "updated_at": "2022-09-14T16:59:34.226Z",
-          "position": 3,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "k7gyfk44wrsr",
-          "page_id": "t05vdsszxwtq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "pk367fsgz1yq",
-          "name": "SMS Notification Delivery",
-          "status": "major_outage",
-          "created_at": "2019-03-15T08:10:55.832Z",
-          "updated_at": "2022-09-14T16:59:34.282Z",
-          "position": 4,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "k7gyfk44wrsr",
-          "page_id": "t05vdsszxwtq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "fqgh9nvrlck3",
-          "name": "SMS Notification Delivery",
-          "status": "major_outage",
-          "created_at": "2019-03-15T08:09:52.866Z",
-          "updated_at": "2022-09-14T16:59:34.266Z",
-          "position": 4,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "jzqq334r65mx",
-          "page_id": "t05vdsszxwtq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "92ty6vgyj0nw",
-          "name": "Voice Notification Delivery",
-          "status": "major_outage",
-          "created_at": "2019-03-15T08:11:07.813Z",
-          "updated_at": "2022-09-14T16:59:34.298Z",
-          "position": 5,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "k7gyfk44wrsr",
-          "page_id": "t05vdsszxwtq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "mpqtdxmvtwg7",
-          "name": "Voice Notification Delivery",
-          "status": "major_outage",
-          "created_at": "2019-03-15T08:25:35.331Z",
-          "updated_at": "2022-09-14T16:59:34.315Z",
-          "position": 5,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "jzqq334r65mx",
-          "page_id": "t05vdsszxwtq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "s8szfv793n8p",
-          "name": "Mobile Notification Delivery",
-          "status": "major_outage",
-          "created_at": "2019-03-15T08:10:23.207Z",
-          "updated_at": "2022-09-14T16:59:34.348Z",
-          "position": 6,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "jzqq334r65mx",
-          "page_id": "t05vdsszxwtq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "jf0l1ds2mm5z",
-          "name": "Mobile Notification Delivery",
-          "status": "major_outage",
-          "created_at": "2019-03-15T08:11:21.736Z",
-          "updated_at": "2022-09-14T16:59:34.331Z",
-          "position": 6,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "k7gyfk44wrsr",
-          "page_id": "t05vdsszxwtq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
