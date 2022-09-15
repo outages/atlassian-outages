@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-09-14T14:01:16.885Z"
+    "updated_at": "2022-09-15T02:08:03.319Z"
   },
   "components": [
     {
@@ -737,7 +737,7 @@
       "name": "Certain special characters in strings handled by Forge apps appear garbled",
       "status": "identified",
       "created_at": "2022-09-13T23:42:34.235Z",
-      "updated_at": "2022-09-14T14:01:16.879Z",
+      "updated_at": "2022-09-15T02:08:03.311Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -745,6 +745,32 @@
       "started_at": "2022-09-13T23:42:34.225Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "b64qzlnwz5cw",
+          "status": "identified",
+          "body": "We are still working on narrowing down the final set of instances and apps are affected.\n\nHowever, we can confirm that only non-US ASCII characters are garbled if affected.\n\nOnce we have narrowed down the affected instances, we will share more information on our next steps. \n\nWe will provide an update within the next another 4 hours.",
+          "incident_id": "bzw2g6j0wmn7",
+          "created_at": "2022-09-15T02:06:26.146Z",
+          "updated_at": "2022-09-15T02:08:03.305Z",
+          "display_at": "2022-09-15T02:06:26.000Z",
+          "affected_components": [
+            {
+              "code": "dnstnjnbm2vs",
+              "name": "APIs - Product Events",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "9nthl2bkwn0x",
+              "name": "Developer - Hosted storage",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "xk793nck5phn",
           "status": "identified",
@@ -890,7 +916,7 @@
       "name": "Intermittent issues in Forge Function Invocation capability",
       "status": "investigating",
       "created_at": "2022-09-14T02:10:11.340Z",
-      "updated_at": "2022-09-14T02:10:11.430Z",
+      "updated_at": "2022-09-14T23:58:17.111Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -898,6 +924,26 @@
       "started_at": "2022-09-14T02:10:11.329Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "wl8qwwz6hh8w",
+          "status": "investigating",
+          "body": "Since the last update, we have seen one more occurrence of this issue around September 14th 16:23 - September 14th 16:55 UTC. \r\n\r\nPast occurrences \r\n- September 13th 16:42 - September 13th 17:53 UTC\r\n- September 13th 01:11 - September 13th 03:32 UTC\r\n- September 12th 19:03 - September 12th 19:17 UTC\r\n- September 12th 15:42 - September 12th 16:07 UTC\r\n- September 7th 18:00 - September 7th 18:50 UTC\r\n\r\nDuring these time frames, customers would have seen an error when the invocation failed. One possible workaround is for the impacted users to retry the function invocation i.e refresh the page.\r\n\r\nWe are working on determining the root cause of the issue. You can expect the next update here within 24 hours.",
+          "incident_id": "56ltdsj1jkpc",
+          "created_at": "2022-09-14T23:58:17.108Z",
+          "updated_at": "2022-09-14T23:58:17.108Z",
+          "display_at": "2022-09-14T23:58:17.108Z",
+          "affected_components": [
+            {
+              "code": "pgqd9x4jl520",
+              "name": "Developer - Forge Function Invocation",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "0m25xpmv6h7x",
           "status": "investigating",
