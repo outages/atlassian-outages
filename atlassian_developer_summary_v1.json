@@ -4,20 +4,20 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-09-16T04:23:29.415Z"
+    "updated_at": "2022-09-16T06:35:48.561Z"
   },
   "components": [
     {
-      "id": "mlr76v811c20",
-      "name": "App listing management",
-      "status": "under_maintenance",
-      "created_at": "2018-02-01T17:46:24.130Z",
-      "updated_at": "2022-09-16T03:58:43.393Z",
+      "id": "wzmg8phvmrwh",
+      "name": "App Deployment",
+      "status": "operational",
+      "created_at": "2021-03-23T12:00:27.385Z",
+      "updated_at": "2022-07-20T10:33:04.406Z",
       "position": 1,
-      "description": "The ability to manage app listings on https://marketplace.atlassian.com",
+      "description": null,
       "showcase": true,
-      "start_date": null,
-      "group_id": "d0m8l367qqw5",
+      "start_date": "2021-03-23",
+      "group_id": "73bt63kd5q9k",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -47,21 +47,6 @@
       ]
     },
     {
-      "id": "wzmg8phvmrwh",
-      "name": "App Deployment",
-      "status": "operational",
-      "created_at": "2021-03-23T12:00:27.385Z",
-      "updated_at": "2022-07-20T10:33:04.406Z",
-      "position": 1,
-      "description": null,
-      "showcase": true,
-      "start_date": "2021-03-23",
-      "group_id": "73bt63kd5q9k",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "c1zr70381q86",
       "name": "Bitbucket Cloud APIs",
       "status": "operational",
@@ -77,6 +62,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "mlr76v811c20",
+      "name": "App listing management",
+      "status": "under_maintenance",
+      "created_at": "2018-02-01T17:46:24.130Z",
+      "updated_at": "2022-09-16T03:58:43.393Z",
+      "position": 1,
+      "description": "The ability to manage app listings on https://marketplace.atlassian.com",
+      "showcase": true,
+      "start_date": null,
+      "group_id": "d0m8l367qqw5",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "hfflf63kcp1l",
       "name": "Artifactory (Maven repository)",
       "status": "operational",
@@ -87,6 +87,21 @@
       "showcase": true,
       "start_date": null,
       "group_id": "73bt63kd5q9k",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "yjqnzm0tkgsd",
+      "name": "Confluence Cloud APIs",
+      "status": "operational",
+      "created_at": "2018-02-01T17:15:36.411Z",
+      "updated_at": "2022-06-22T13:02:51.992Z",
+      "position": 2,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "w0ld3nc9jvdx",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -137,21 +152,6 @@
       ]
     },
     {
-      "id": "yjqnzm0tkgsd",
-      "name": "Confluence Cloud APIs",
-      "status": "operational",
-      "created_at": "2018-02-01T17:15:36.411Z",
-      "updated_at": "2022-06-22T13:02:51.992Z",
-      "position": 2,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "w0ld3nc9jvdx",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "bf9d0vz83ykr",
       "name": "Atlassian Support contact form",
       "status": "operational",
@@ -197,24 +197,9 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "xjs8wcvjw85c",
-      "name": "Developer community",
-      "status": "operational",
-      "created_at": "2018-02-01T17:22:27.268Z",
-      "updated_at": "2020-03-18T01:48:19.818Z",
-      "position": 3,
-      "description": "https://community.developer.atlassian.com",
-      "showcase": true,
-      "start_date": null,
-      "group_id": "jgnwrfzynh93",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "degraded_performance",
+      "status": "under_maintenance",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -241,6 +226,21 @@
         "1vvmngd73171",
         "wm1wfkvnffmt"
       ]
+    },
+    {
+      "id": "xjs8wcvjw85c",
+      "name": "Developer community",
+      "status": "operational",
+      "created_at": "2018-02-01T17:22:27.268Z",
+      "updated_at": "2020-03-18T01:48:19.818Z",
+      "position": 3,
+      "description": "https://community.developer.atlassian.com",
+      "showcase": true,
+      "start_date": null,
+      "group_id": "jgnwrfzynh93",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
     },
     {
       "id": "cc6gw24m02wp",
@@ -273,16 +273,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "7z6w09hl9mn0",
-      "name": "App submissions",
-      "status": "under_maintenance",
-      "created_at": "2018-02-01T17:48:45.038Z",
-      "updated_at": "2022-09-16T03:58:43.448Z",
+      "id": "dnstnjnbm2vs",
+      "name": "Product Events",
+      "status": "operational",
+      "created_at": "2021-03-23T11:58:48.255Z",
+      "updated_at": "2022-09-14T14:01:16.835Z",
       "position": 4,
-      "description": null,
+      "description": "Invocation of Forge functions from product events.",
       "showcase": true,
-      "start_date": null,
-      "group_id": "d0m8l367qqw5",
+      "start_date": "2021-03-23",
+      "group_id": "w0ld3nc9jvdx",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -318,16 +318,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "dnstnjnbm2vs",
-      "name": "Product Events",
-      "status": "operational",
-      "created_at": "2021-03-23T11:58:48.255Z",
-      "updated_at": "2022-09-14T14:01:16.835Z",
+      "id": "7z6w09hl9mn0",
+      "name": "App submissions",
+      "status": "under_maintenance",
+      "created_at": "2018-02-01T17:48:45.038Z",
+      "updated_at": "2022-09-16T03:58:43.448Z",
       "position": 4,
-      "description": "Invocation of Forge functions from product events.",
+      "description": null,
       "showcase": true,
-      "start_date": "2021-03-23",
-      "group_id": "w0ld3nc9jvdx",
+      "start_date": null,
+      "group_id": "d0m8l367qqw5",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -596,21 +596,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "7lx3k072bl6z",
-      "name": "Private listings",
-      "status": "operational",
-      "created_at": "2018-02-01T17:52:40.782Z",
-      "updated_at": "2022-09-01T03:35:45.849Z",
-      "position": 10,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "d0m8l367qqw5",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "y429ymc92xq4",
       "name": "Forge App Monitoring",
       "status": "operational",
@@ -626,13 +611,13 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "hk36hlvygg2q",
-      "name": "Reporting APIs and dashboards",
-      "status": "degraded_performance",
-      "created_at": "2013-12-03T00:45:26.014Z",
-      "updated_at": "2022-09-15T20:57:52.260Z",
-      "position": 11,
-      "description": "Marketing attribution reports are now operational.",
+      "id": "7lx3k072bl6z",
+      "name": "Private listings",
+      "status": "operational",
+      "created_at": "2018-02-01T17:52:40.782Z",
+      "updated_at": "2022-09-01T03:35:45.849Z",
+      "position": 10,
+      "description": null,
       "showcase": true,
       "start_date": null,
       "group_id": "d0m8l367qqw5",
@@ -651,6 +636,21 @@
       "showcase": true,
       "start_date": "2021-07-08",
       "group_id": "73bt63kd5q9k",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "hk36hlvygg2q",
+      "name": "Reporting APIs and dashboards",
+      "status": "operational",
+      "created_at": "2013-12-03T00:45:26.014Z",
+      "updated_at": "2022-09-16T06:35:48.513Z",
+      "position": 11,
+      "description": "Marketing attribution reports are now operational.",
+      "showcase": true,
+      "start_date": null,
+      "group_id": "d0m8l367qqw5",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -686,21 +686,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "1vvmngd73171",
-      "name": "Vendor management",
-      "status": "under_maintenance",
-      "created_at": "2018-02-01T17:53:33.728Z",
-      "updated_at": "2022-09-16T03:58:43.465Z",
-      "position": 13,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "d0m8l367qqw5",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "9nthl2bkwn0x",
       "name": "Hosted storage",
       "status": "operational",
@@ -711,6 +696,21 @@
       "showcase": true,
       "start_date": "2022-09-14",
       "group_id": "73bt63kd5q9k",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "1vvmngd73171",
+      "name": "Vendor management",
+      "status": "under_maintenance",
+      "created_at": "2018-02-01T17:53:33.728Z",
+      "updated_at": "2022-09-16T03:58:43.465Z",
+      "position": 13,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "d0m8l367qqw5",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -732,78 +732,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": "lp19lx22fsyv",
-      "name": "Segment events for install and app counts were not processed for few hours",
-      "status": "investigating",
-      "created_at": "2022-09-15T20:57:52.227Z",
-      "updated_at": "2022-09-16T04:22:02.177Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/wq992y9b0hvp",
-      "started_at": "2022-09-15T20:57:52.219Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "g8bg5x6vwk8c",
-          "status": "investigating",
-          "body": "Segment events for install and app counts is affected by this incident. This issue impacts only the marketplace partners consuming segment events from Marketplace.\n\nWe're investigating this issue ,Our developers are working with internal teams to resolve the issue.",
-          "incident_id": "lp19lx22fsyv",
-          "created_at": "2022-09-16T04:22:02.174Z",
-          "updated_at": "2022-09-16T04:22:02.174Z",
-          "display_at": "2022-09-16T04:22:02.174Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "3l8r2tl156ln",
-          "status": "investigating",
-          "body": "We are currently investigating this issue.",
-          "incident_id": "lp19lx22fsyv",
-          "created_at": "2022-09-15T20:57:52.322Z",
-          "updated_at": "2022-09-15T20:57:52.322Z",
-          "display_at": "2022-09-15T20:57:52.322Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "hk36hlvygg2q",
-          "name": "Reporting APIs and dashboards",
-          "status": "degraded_performance",
-          "created_at": "2013-12-03T00:45:26.014Z",
-          "updated_at": "2022-09-15T20:57:52.260Z",
-          "position": 11,
-          "description": "Marketing attribution reports are now operational.",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    },
     {
       "id": "56ltdsj1jkpc",
       "name": "Intermittent issues in Forge Function Invocation capability",
