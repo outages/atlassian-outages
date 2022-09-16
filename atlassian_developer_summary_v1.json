@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-09-15T21:23:31.066Z"
+    "updated_at": "2022-09-16T00:31:13.134Z"
   },
   "components": [
     {
@@ -733,301 +733,38 @@
   ],
   "incidents": [
     {
-      "id": "lp19lx22fsyv",
-      "name": "Segment events for install and app counts were not processed for few hours",
-      "status": "investigating",
-      "created_at": "2022-09-15T20:57:52.227Z",
-      "updated_at": "2022-09-15T20:57:52.324Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/wq992y9b0hvp",
-      "started_at": "2022-09-15T20:57:52.219Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "3l8r2tl156ln",
-          "status": "investigating",
-          "body": "We are currently investigating this issue.",
-          "incident_id": "lp19lx22fsyv",
-          "created_at": "2022-09-15T20:57:52.322Z",
-          "updated_at": "2022-09-15T20:57:52.322Z",
-          "display_at": "2022-09-15T20:57:52.322Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "hk36hlvygg2q",
-          "name": "Reporting APIs and dashboards",
-          "status": "degraded_performance",
-          "created_at": "2013-12-03T00:45:26.014Z",
-          "updated_at": "2022-09-15T20:57:52.260Z",
-          "position": 11,
-          "description": "Marketing attribution reports are now operational.",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    },
-    {
-      "id": "bzw2g6j0wmn7",
-      "name": "Certain special characters in strings handled by Forge apps appear garbled",
-      "status": "monitoring",
-      "created_at": "2022-09-13T23:42:34.235Z",
-      "updated_at": "2022-09-15T09:21:05.580Z",
-      "monitoring_at": "2022-09-15T09:21:05.566Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/dbcxkkzdl23s",
-      "started_at": "2022-09-13T23:42:34.225Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "8kytq7tyyf7r",
-          "status": "monitoring",
-          "body": "We've rolled out a solution that would allow apps to read data in its original encoding without being garbled. \n\nWe're monitoring closely and so far cannot see any occurrences of corrupted data read from secure storage. \n\nWe'll continue monitoring and provide an update over next 16 hours.",
-          "incident_id": "bzw2g6j0wmn7",
-          "created_at": "2022-09-15T09:21:05.566Z",
-          "updated_at": "2022-09-15T09:21:05.566Z",
-          "display_at": "2022-09-15T09:21:05.566Z",
-          "affected_components": [
-            {
-              "code": "dnstnjnbm2vs",
-              "name": "APIs - Product Events",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "9nthl2bkwn0x",
-              "name": "Developer - Hosted storage",
-              "old_status": "partial_outage",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "1wgqn245dc43",
-          "status": "identified",
-          "body": "We are testing a solution that would allow apps to read data in its original encoding without being garbled.\n\nIf our tests are successful, we expect to begin rolling this out to the production environment in the next few hours.\n\nOur teams will be monitoring the solution throughout the evening. We will provide our next update in another 4 hours.",
-          "incident_id": "bzw2g6j0wmn7",
-          "created_at": "2022-09-15T06:19:45.511Z",
-          "updated_at": "2022-09-15T06:19:45.511Z",
-          "display_at": "2022-09-15T06:19:45.511Z",
-          "affected_components": [
-            {
-              "code": "dnstnjnbm2vs",
-              "name": "APIs - Product Events",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "9nthl2bkwn0x",
-              "name": "Developer - Hosted storage",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "b64qzlnwz5cw",
-          "status": "identified",
-          "body": "We are still working on narrowing down the final set of instances and apps are affected.\n\nHowever, we can confirm that only non-US ASCII characters are garbled if affected.\n\nOnce we have narrowed down the affected instances, we will share more information on our next steps. \n\nWe will provide an update within the next another 4 hours.",
-          "incident_id": "bzw2g6j0wmn7",
-          "created_at": "2022-09-15T02:06:26.146Z",
-          "updated_at": "2022-09-15T02:08:03.305Z",
-          "display_at": "2022-09-15T02:06:26.000Z",
-          "affected_components": [
-            {
-              "code": "dnstnjnbm2vs",
-              "name": "APIs - Product Events",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "9nthl2bkwn0x",
-              "name": "Developer - Hosted storage",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "xk793nck5phn",
-          "status": "identified",
-          "body": "We've identified that data stored in the secrets API will appear garbled only if they contain non US ASCII characters.\n\nProduct events are not affected anymore.\n\nApp installation data are not affected.\n\nWe will provide another update within the next 12 hours.",
-          "incident_id": "bzw2g6j0wmn7",
-          "created_at": "2022-09-14T14:01:16.877Z",
-          "updated_at": "2022-09-14T14:01:16.877Z",
-          "display_at": "2022-09-14T14:01:16.877Z",
-          "affected_components": [
-            {
-              "code": "dnstnjnbm2vs",
-              "name": "APIs - Product Events",
-              "old_status": "partial_outage",
-              "new_status": "operational"
-            },
-            {
-              "code": "9nthl2bkwn0x",
-              "name": "Developer - Hosted storage",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "zngdy4vw2kcv",
-          "status": "investigating",
-          "body": "We've identified that only data stored in the secrets API and product events will appear garbled if they contain non US ASCII characters.\n\nProduct events should not be affected anymore but they're pending verification.\n\nApp installation data are not affected.\n\nWe are still assessing the overall impact on data and will provide another update within the next 3 hours.",
-          "incident_id": "bzw2g6j0wmn7",
-          "created_at": "2022-09-14T10:23:32.095Z",
-          "updated_at": "2022-09-14T10:23:32.095Z",
-          "display_at": "2022-09-14T10:23:32.095Z",
-          "affected_components": [
-            {
-              "code": "dnstnjnbm2vs",
-              "name": "APIs - Product Events",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "qfbdjzvm1xz7",
-          "status": "investigating",
-          "body": "In our previous update we shared that data stored in the secrets API and event data is affected if it contains special characters.\r\nWe would like to clarify this - at this time we know that this only applies to some non US ASCII characters which were stored between Friday and this Morning.  The affected characters will appear garbled where they surface in the app, with the remainder of the data unaffected.\r\nWe have now also updated the title to better describe the impact.\r\nWe are still assessing the overall impact on data and will provide another update within the next 3 hours",
-          "incident_id": "bzw2g6j0wmn7",
-          "created_at": "2022-09-14T06:31:25.500Z",
-          "updated_at": "2022-09-14T06:31:25.500Z",
-          "display_at": "2022-09-14T06:31:25.500Z",
-          "affected_components": [
-            {
-              "code": "dnstnjnbm2vs",
-              "name": "APIs - Product Events",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "4k72d2lfglyw",
-          "status": "investigating",
-          "body": "We are investigating an issue impacting following capabilities.\r\n\r\n- Jira product events in Forge: The event data sent in the payload of the event is corrupted, if it contains special characters.\r\n\r\n- Secrets API in Forge hosted storage: The data stored in the secrets API is corrupted, if it contains special characters.\r\n\r\n- App installation data could be impacted, we are still investigating.\r\n\r\n- We are still assessing the overall impact on data integrity caused by this issue. \r\n\r\n- Connect apps are not impacted by this incident.\r\n\r\nWe have determined the root cause for this incident and team is working on testing the fix and rolling it out. \r\n\r\nWe will provide an update within the next 3 hours.",
-          "incident_id": "bzw2g6j0wmn7",
-          "created_at": "2022-09-14T04:34:19.618Z",
-          "updated_at": "2022-09-14T04:34:19.618Z",
-          "display_at": "2022-09-14T04:34:19.618Z",
-          "affected_components": [
-            {
-              "code": "dnstnjnbm2vs",
-              "name": "APIs - Product Events",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "8rt95lsrs3tf",
-          "status": "investigating",
-          "body": "Product events capability is affected by this incident. This issue impacts Forge apps that subscribe to JIRA product events where the payload has non english characters and it returns corrupted data. \r\n\r\nThis issue was brought to our notice 7 hours ago via CDAC.\r\n\r\nWe have identified the root cause of this issue and we are testing the fix. You can expect the next update in 3 hours.",
-          "incident_id": "bzw2g6j0wmn7",
-          "created_at": "2022-09-13T23:42:34.345Z",
-          "updated_at": "2022-09-13T23:42:34.345Z",
-          "display_at": "2022-09-13T23:42:34.345Z",
-          "affected_components": [
-            {
-              "code": "dnstnjnbm2vs",
-              "name": "APIs - Product Events",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "dnstnjnbm2vs",
-          "name": "Product Events",
-          "status": "operational",
-          "created_at": "2021-03-23T11:58:48.255Z",
-          "updated_at": "2022-09-14T14:01:16.835Z",
-          "position": 4,
-          "description": "Invocation of Forge functions from product events.",
-          "showcase": true,
-          "start_date": "2021-03-23",
-          "group_id": "w0ld3nc9jvdx",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "9nthl2bkwn0x",
-          "name": "Hosted storage",
-          "status": "operational",
-          "created_at": "2022-09-14T05:38:04.594Z",
-          "updated_at": "2022-09-15T09:21:05.539Z",
-          "position": 13,
-          "description": "Atlassian hosted storage for hosted and remote compute.",
-          "showcase": true,
-          "start_date": "2022-09-14",
-          "group_id": "73bt63kd5q9k",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    },
-    {
       "id": "56ltdsj1jkpc",
       "name": "Intermittent issues in Forge Function Invocation capability",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2022-09-14T02:10:11.340Z",
-      "updated_at": "2022-09-14T23:58:17.111Z",
-      "monitoring_at": null,
+      "updated_at": "2022-09-15T23:50:17.456Z",
+      "monitoring_at": "2022-09-15T23:50:17.437Z",
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/0mx07j8f2cvk",
       "started_at": "2022-09-14T02:10:11.329Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "hmrtz74ffb4f",
+          "status": "monitoring",
+          "body": "Since our last update, our team has put in a mitigation for the issue. Since the mitigation, we have not observed any errors over the last 12 hours. \r\n\r\nOur team is continuously monitoring for any new occurrences of errors.\r\n\r\nWe are still working on determining the root cause for this incident. \r\n\r\nYou can expect the next update by September 19th 00:00 UTC.",
+          "incident_id": "56ltdsj1jkpc",
+          "created_at": "2022-09-15T23:50:17.437Z",
+          "updated_at": "2022-09-15T23:50:17.437Z",
+          "display_at": "2022-09-15T23:50:17.437Z",
+          "affected_components": [
+            {
+              "code": "pgqd9x4jl520",
+              "name": "Developer - Forge Function Invocation",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "wl8qwwz6hh8w",
           "status": "investigating",
@@ -1081,6 +818,58 @@
           "showcase": true,
           "start_date": "2021-03-23",
           "group_id": "73bt63kd5q9k",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    },
+    {
+      "id": "lp19lx22fsyv",
+      "name": "Segment events for install and app counts were not processed for few hours",
+      "status": "investigating",
+      "created_at": "2022-09-15T20:57:52.227Z",
+      "updated_at": "2022-09-15T20:57:52.324Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/wq992y9b0hvp",
+      "started_at": "2022-09-15T20:57:52.219Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "3l8r2tl156ln",
+          "status": "investigating",
+          "body": "We are currently investigating this issue.",
+          "incident_id": "lp19lx22fsyv",
+          "created_at": "2022-09-15T20:57:52.322Z",
+          "updated_at": "2022-09-15T20:57:52.322Z",
+          "display_at": "2022-09-15T20:57:52.322Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "hk36hlvygg2q",
+          "name": "Reporting APIs and dashboards",
+          "status": "degraded_performance",
+          "created_at": "2013-12-03T00:45:26.014Z",
+          "updated_at": "2022-09-15T20:57:52.260Z",
+          "position": 11,
+          "description": "Marketing attribution reports are now operational.",
+          "showcase": true,
+          "start_date": null,
+          "group_id": "d0m8l367qqw5",
           "page_id": "n8766lc3ybbs",
           "group": false,
           "only_show_if_degraded": false
