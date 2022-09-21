@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-09-20T09:49:52.035Z"
+    "updated_at": "2022-09-21T04:23:30.030Z"
   },
   "components": [
     {
@@ -731,7 +731,37 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "0rqqd25zmvt8",
+      "name": "Segment MPAC user events were not processed for few hours.",
+      "status": "investigating",
+      "created_at": "2022-09-21T03:36:40.053Z",
+      "updated_at": "2022-09-21T04:09:54.049Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/w9m4fqmv36nl",
+      "started_at": "2022-09-21T03:36:40.000Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "9rskwkmr7zsp",
+          "status": "investigating",
+          "body": "Segment MPAC user events for Marketplace apps was delayed for few hours (2022-09-20 9:30 PM IST until 2022-09-21 12:30 AM IST). \nPartners consuming the MPAC user events as part of segment integration would have missed the events during the mentioned time window.",
+          "incident_id": "0rqqd25zmvt8",
+          "created_at": "2022-09-21T03:36:40.092Z",
+          "updated_at": "2022-09-21T04:08:25.429Z",
+          "display_at": "2022-09-21T03:36:40.000Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": []
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
