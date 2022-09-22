@@ -4,15 +4,30 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-09-21T16:13:10.914Z"
+    "updated_at": "2022-09-22T04:01:04.776Z"
   },
   "components": [
     {
+      "id": "wzmg8phvmrwh",
+      "name": "App Deployment",
+      "status": "operational",
+      "created_at": "2021-03-23T12:00:27.385Z",
+      "updated_at": "2022-07-20T10:33:04.406Z",
+      "position": 1,
+      "description": null,
+      "showcase": true,
+      "start_date": "2021-03-23",
+      "group_id": "73bt63kd5q9k",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "mlr76v811c20",
       "name": "App listing management",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-02-01T17:46:24.130Z",
-      "updated_at": "2022-09-21T12:12:09.860Z",
+      "updated_at": "2022-09-22T04:01:04.461Z",
       "position": 1,
       "description": "The ability to manage app listings on https://marketplace.atlassian.com",
       "showcase": true,
@@ -47,42 +62,12 @@
       ]
     },
     {
-      "id": "wzmg8phvmrwh",
-      "name": "App Deployment",
-      "status": "operational",
-      "created_at": "2021-03-23T12:00:27.385Z",
-      "updated_at": "2022-07-20T10:33:04.406Z",
-      "position": 1,
-      "description": null,
-      "showcase": true,
-      "start_date": "2021-03-23",
-      "group_id": "73bt63kd5q9k",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "c1zr70381q86",
       "name": "Bitbucket Cloud APIs",
       "status": "operational",
       "created_at": "2018-02-01T17:15:10.353Z",
       "updated_at": "2018-02-01T17:15:10.353Z",
       "position": 1,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "w0ld3nc9jvdx",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "yjqnzm0tkgsd",
-      "name": "Confluence Cloud APIs",
-      "status": "operational",
-      "created_at": "2018-02-01T17:15:36.411Z",
-      "updated_at": "2022-06-22T13:02:51.992Z",
-      "position": 2,
       "description": null,
       "showcase": true,
       "start_date": null,
@@ -107,16 +92,31 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "g04n852g3nt6",
-      "name": "App listings",
+      "id": "yjqnzm0tkgsd",
+      "name": "Confluence Cloud APIs",
       "status": "operational",
-      "created_at": "2013-12-03T00:43:13.481Z",
-      "updated_at": "2022-09-21T12:12:09.880Z",
+      "created_at": "2018-02-01T17:15:36.411Z",
+      "updated_at": "2022-06-22T13:02:51.992Z",
       "position": 2,
-      "description": "The detailed listing page for each app",
+      "description": null,
       "showcase": true,
       "start_date": null,
-      "group_id": "d0m8l367qqw5",
+      "group_id": "w0ld3nc9jvdx",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "bf9d0vz83ykr",
+      "name": "Atlassian Support contact form",
+      "status": "operational",
+      "created_at": "2018-02-02T00:25:01.592Z",
+      "updated_at": "2018-02-02T00:25:43.669Z",
+      "position": 2,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "jgnwrfzynh93",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -152,16 +152,16 @@
       ]
     },
     {
-      "id": "bf9d0vz83ykr",
-      "name": "Atlassian Support contact form",
-      "status": "operational",
-      "created_at": "2018-02-02T00:25:01.592Z",
-      "updated_at": "2018-02-02T00:25:43.669Z",
+      "id": "g04n852g3nt6",
+      "name": "App listings",
+      "status": "under_maintenance",
+      "created_at": "2013-12-03T00:43:13.481Z",
+      "updated_at": "2022-09-22T04:01:04.499Z",
       "position": 2,
-      "description": null,
-      "showcase": false,
+      "description": "The detailed listing page for each app",
+      "showcase": true,
       "start_date": null,
-      "group_id": "jgnwrfzynh93",
+      "group_id": "d0m8l367qqw5",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -184,9 +184,9 @@
     {
       "id": "d1hybyzmqlvq",
       "name": "App pricing",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2013-12-03T00:43:13.497Z",
-      "updated_at": "2022-09-21T12:12:09.898Z",
+      "updated_at": "2022-09-22T04:01:04.554Z",
       "position": 3,
       "description": "App pricing queries and updates",
       "showcase": true,
@@ -197,9 +197,24 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "xjs8wcvjw85c",
+      "name": "Developer community",
+      "status": "operational",
+      "created_at": "2018-02-01T17:22:27.268Z",
+      "updated_at": "2020-03-18T01:48:19.818Z",
+      "position": 3,
+      "description": "https://community.developer.atlassian.com",
+      "showcase": true,
+      "start_date": null,
+      "group_id": "jgnwrfzynh93",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -226,21 +241,6 @@
         "1vvmngd73171",
         "wm1wfkvnffmt"
       ]
-    },
-    {
-      "id": "xjs8wcvjw85c",
-      "name": "Developer community",
-      "status": "operational",
-      "created_at": "2018-02-01T17:22:27.268Z",
-      "updated_at": "2020-03-18T01:48:19.818Z",
-      "position": 3,
-      "description": "https://community.developer.atlassian.com",
-      "showcase": true,
-      "start_date": null,
-      "group_id": "jgnwrfzynh93",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
     },
     {
       "id": "cc6gw24m02wp",
@@ -273,16 +273,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "dnstnjnbm2vs",
-      "name": "Product Events",
-      "status": "operational",
-      "created_at": "2021-03-23T11:58:48.255Z",
-      "updated_at": "2022-09-14T14:01:16.835Z",
+      "id": "7z6w09hl9mn0",
+      "name": "App submissions",
+      "status": "under_maintenance",
+      "created_at": "2018-02-01T17:48:45.038Z",
+      "updated_at": "2022-09-22T04:01:04.609Z",
       "position": 4,
-      "description": "Invocation of Forge functions from product events.",
+      "description": null,
       "showcase": true,
-      "start_date": "2021-03-23",
-      "group_id": "w0ld3nc9jvdx",
+      "start_date": null,
+      "group_id": "d0m8l367qqw5",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -318,16 +318,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "7z6w09hl9mn0",
-      "name": "App submissions",
+      "id": "dnstnjnbm2vs",
+      "name": "Product Events",
       "status": "operational",
-      "created_at": "2018-02-01T17:48:45.038Z",
-      "updated_at": "2022-09-21T12:12:09.916Z",
+      "created_at": "2021-03-23T11:58:48.255Z",
+      "updated_at": "2022-09-14T14:01:16.835Z",
       "position": 4,
-      "description": null,
+      "description": "Invocation of Forge functions from product events.",
       "showcase": true,
-      "start_date": null,
-      "group_id": "d0m8l367qqw5",
+      "start_date": "2021-03-23",
+      "group_id": "w0ld3nc9jvdx",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -596,6 +596,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "7lx3k072bl6z",
+      "name": "Private listings",
+      "status": "operational",
+      "created_at": "2018-02-01T17:52:40.782Z",
+      "updated_at": "2022-09-01T03:35:45.849Z",
+      "position": 10,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "d0m8l367qqw5",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "y429ymc92xq4",
       "name": "Forge App Monitoring",
       "status": "operational",
@@ -611,13 +626,13 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "7lx3k072bl6z",
-      "name": "Private listings",
+      "id": "hk36hlvygg2q",
+      "name": "Reporting APIs and dashboards",
       "status": "operational",
-      "created_at": "2018-02-01T17:52:40.782Z",
-      "updated_at": "2022-09-01T03:35:45.849Z",
-      "position": 10,
-      "description": null,
+      "created_at": "2013-12-03T00:45:26.014Z",
+      "updated_at": "2022-09-21T16:13:10.858Z",
+      "position": 11,
+      "description": "Marketing attribution reports are now operational.",
       "showcase": true,
       "start_date": null,
       "group_id": "d0m8l367qqw5",
@@ -636,21 +651,6 @@
       "showcase": true,
       "start_date": "2021-07-08",
       "group_id": "73bt63kd5q9k",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "hk36hlvygg2q",
-      "name": "Reporting APIs and dashboards",
-      "status": "operational",
-      "created_at": "2013-12-03T00:45:26.014Z",
-      "updated_at": "2022-09-21T16:13:10.858Z",
-      "position": 11,
-      "description": "Marketing attribution reports are now operational.",
-      "showcase": true,
-      "start_date": null,
-      "group_id": "d0m8l367qqw5",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -703,9 +703,9 @@
     {
       "id": "1vvmngd73171",
       "name": "Vendor management",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-02-01T17:53:33.728Z",
-      "updated_at": "2022-09-21T12:12:09.932Z",
+      "updated_at": "2022-09-22T04:01:04.659Z",
       "position": 13,
       "description": null,
       "showcase": true,
@@ -732,9 +732,192 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "r2n2x2j67wp5",
+      "name": "Migration of app and pricing information to the new billing system",
+      "status": "in_progress",
+      "created_at": "2022-09-22T03:58:07.244Z",
+      "updated_at": "2022-09-22T04:01:04.759Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/102f2rngfg1d",
+      "started_at": "2022-09-22T03:58:07.230Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "msmpvl3r33jd",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "r2n2x2j67wp5",
+          "created_at": "2022-09-22T04:01:04.752Z",
+          "updated_at": "2022-09-22T04:01:04.752Z",
+          "display_at": "2022-09-22T04:01:04.752Z",
+          "affected_components": [
+            {
+              "code": "mlr76v811c20",
+              "name": "Marketplace - App listing management",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "g04n852g3nt6",
+              "name": "Marketplace - App listings",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "d1hybyzmqlvq",
+              "name": "Marketplace - App pricing",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "7z6w09hl9mn0",
+              "name": "Marketplace - App submissions",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "1vvmngd73171",
+              "name": "Marketplace - Vendor management",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "067bx16ghxrn",
+          "status": "scheduled",
+          "body": "App catalog migration has began. For details see here https://community.developer.atlassian.com/t/app-catalog-migration-process-commences-on-22nd-aug-2022/60742\n\nThis is the list of partners that is being migrated today:\n\n1216573\tweweave UG (limited liability)\n1212039\tricebean.net\n28550\tbitvoodoo ag\n105\tAkeles Consulting\n1212298\tEPS Software Engineering AG\n1214029\tview26 GmbH\n1210676\tMobilityStream, LLC\n17834\tSmartBear\n1212444\tSTAGIL\n1213287\tJSoftware Inc\n1212045\tEasy Agile\n1211565\tStreamlineSoft\n1212968\tDigital Toucan\n1214746\tKolibri Digital\n1211722\tyasoon\n1215964\tTryble\n1212475\tInversion Point LLC\n1214842\tBordant Technologies\n\nThe list will keep updating every day so keep an eye for updates on the list of the maintenance period.",
+          "incident_id": "r2n2x2j67wp5",
+          "created_at": "2022-09-22T03:58:07.310Z",
+          "updated_at": "2022-09-22T03:58:07.310Z",
+          "display_at": "2022-09-22T03:58:07.310Z",
+          "affected_components": [
+            {
+              "code": "mlr76v811c20",
+              "name": "Marketplace - App listing management",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "g04n852g3nt6",
+              "name": "Marketplace - App listings",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "d1hybyzmqlvq",
+              "name": "Marketplace - App pricing",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "7z6w09hl9mn0",
+              "name": "Marketplace - App submissions",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "1vvmngd73171",
+              "name": "Marketplace - Vendor management",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "mlr76v811c20",
+          "name": "App listing management",
+          "status": "under_maintenance",
+          "created_at": "2018-02-01T17:46:24.130Z",
+          "updated_at": "2022-09-22T04:01:04.461Z",
+          "position": 1,
+          "description": "The ability to manage app listings on https://marketplace.atlassian.com",
+          "showcase": true,
+          "start_date": null,
+          "group_id": "d0m8l367qqw5",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "g04n852g3nt6",
+          "name": "App listings",
+          "status": "under_maintenance",
+          "created_at": "2013-12-03T00:43:13.481Z",
+          "updated_at": "2022-09-22T04:01:04.499Z",
+          "position": 2,
+          "description": "The detailed listing page for each app",
+          "showcase": true,
+          "start_date": null,
+          "group_id": "d0m8l367qqw5",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "d1hybyzmqlvq",
+          "name": "App pricing",
+          "status": "under_maintenance",
+          "created_at": "2013-12-03T00:43:13.497Z",
+          "updated_at": "2022-09-22T04:01:04.554Z",
+          "position": 3,
+          "description": "App pricing queries and updates",
+          "showcase": true,
+          "start_date": null,
+          "group_id": "d0m8l367qqw5",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "7z6w09hl9mn0",
+          "name": "App submissions",
+          "status": "under_maintenance",
+          "created_at": "2018-02-01T17:48:45.038Z",
+          "updated_at": "2022-09-22T04:01:04.609Z",
+          "position": 4,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": "d0m8l367qqw5",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "1vvmngd73171",
+          "name": "Vendor management",
+          "status": "under_maintenance",
+          "created_at": "2018-02-01T17:53:33.728Z",
+          "updated_at": "2022-09-22T04:01:04.659Z",
+          "position": 13,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": "d0m8l367qqw5",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2022-09-22T04:00:00.000Z",
+      "scheduled_until": "2022-09-22T16:00:00.000Z"
+    }
+  ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
