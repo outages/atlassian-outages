@@ -4,15 +4,15 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-09-25T19:25:52.290Z"
+    "updated_at": "2022-09-25T19:47:02.308Z"
   },
   "components": [
     {
       "id": "g0lfj4sv2fhf",
       "name": "Website",
-      "status": "degraded_performance",
+      "status": "partial_outage",
       "created_at": "2013-09-26T03:34:27.377Z",
-      "updated_at": "2022-09-25T15:49:30.759Z",
+      "updated_at": "2022-09-25T19:47:01.444Z",
       "position": 1,
       "description": "Access to bitbucket.org",
       "showcase": false,
@@ -209,14 +209,64 @@
       "name": "Bitbucket partial outage across all services",
       "status": "identified",
       "created_at": "2022-09-25T15:49:30.711Z",
-      "updated_at": "2022-09-25T19:25:52.283Z",
+      "updated_at": "2022-09-25T19:47:02.294Z",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "minor",
+      "impact": "major",
       "shortlink": "https://stspg.io/x5xkk4cp6pzz",
       "started_at": "2022-09-25T15:49:30.700Z",
       "page_id": "bqlf8qjztdtr",
       "incident_updates": [
+        {
+          "id": "3c9sn0wzmfj2",
+          "status": "identified",
+          "body": "Bitbucket team is engaged with our storage provider to identify the root cause of the problem",
+          "incident_id": "3308g2hlkfsx",
+          "created_at": "2022-09-25T19:47:01.500Z",
+          "updated_at": "2022-09-25T19:47:02.284Z",
+          "display_at": "2022-09-25T19:47:01.500Z",
+          "affected_components": [
+            {
+              "code": "c1qmcrcbc5zy",
+              "name": "Git via HTTPS",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "g0lfj4sv2fhf",
+              "name": "Website",
+              "old_status": "degraded_performance",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "28h8dvv2qfzw",
+              "name": "Source downloads",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "qmh4tj8h5kbn",
+              "name": "Git via SSH",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "k0x2yw1435v7",
+              "name": "API",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "rzh2n85q7vtt",
+              "name": "Pipelines",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1574123329426182100
+        },
         {
           "id": "nx7qdjy6wmc4",
           "status": "identified",
@@ -360,9 +410,9 @@
         {
           "id": "g0lfj4sv2fhf",
           "name": "Website",
-          "status": "degraded_performance",
+          "status": "partial_outage",
           "created_at": "2013-09-26T03:34:27.377Z",
-          "updated_at": "2022-09-25T15:49:30.759Z",
+          "updated_at": "2022-09-25T19:47:01.444Z",
           "position": 1,
           "description": "Access to bitbucket.org",
           "showcase": false,
