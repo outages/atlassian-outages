@@ -4,10 +4,10 @@
     "name": "Atlassian",
     "url": "https://status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-08-05T07:23:35.930Z"
+    "updated_at": "2022-09-26T01:45:34.566Z"
   },
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
