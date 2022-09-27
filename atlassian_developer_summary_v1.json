@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-09-27T07:54:04.380Z"
+    "updated_at": "2022-09-27T13:23:29.605Z"
   },
   "components": [
     {
@@ -731,7 +731,37 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "s241wmd90qh0",
+      "name": "Application modules - e.g. general page - may fail to render for some Connect Apps",
+      "status": "investigating",
+      "created_at": "2022-09-27T13:07:52.624Z",
+      "updated_at": "2022-09-27T13:07:52.657Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/mbvr7xfjgg22",
+      "started_at": "2022-09-27T13:07:52.619Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "k46w62bwmxr1",
+          "status": "investigating",
+          "body": "We are investigating incident where connect apps modules fail to load in specific condition.\r\n\r\nTechnical details: This is know to affect connect modules using app-specific context parameters with empty values - those are failing due to invalid qsh signature.\r\n\r\nNext update will be posted at 15:00 UTC",
+          "incident_id": "s241wmd90qh0",
+          "created_at": "2022-09-27T13:07:52.655Z",
+          "updated_at": "2022-09-27T13:07:52.655Z",
+          "display_at": "2022-09-27T13:07:52.655Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": []
+    }
+  ],
   "scheduled_maintenances": [
     {
       "id": "z4w3rlkqyp1x",
