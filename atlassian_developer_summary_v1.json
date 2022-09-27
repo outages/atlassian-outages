@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-09-27T14:22:27.834Z"
+    "updated_at": "2022-09-27T16:01:05.992Z"
   },
   "components": [
     {
@@ -49,9 +49,9 @@
     {
       "id": "mlr76v811c20",
       "name": "App listing management",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-02-01T17:46:24.130Z",
-      "updated_at": "2022-09-27T03:50:34.154Z",
+      "updated_at": "2022-09-27T16:01:05.711Z",
       "position": 1,
       "description": "The ability to manage app listings on https://marketplace.atlassian.com",
       "showcase": true,
@@ -79,9 +79,9 @@
     {
       "id": "g04n852g3nt6",
       "name": "App listings",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2013-12-03T00:43:13.481Z",
-      "updated_at": "2022-09-27T03:50:34.175Z",
+      "updated_at": "2022-09-27T16:01:05.760Z",
       "position": 2,
       "description": "The detailed listing page for each app",
       "showcase": true,
@@ -184,9 +184,9 @@
     {
       "id": "d1hybyzmqlvq",
       "name": "App pricing",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2013-12-03T00:43:13.497Z",
-      "updated_at": "2022-09-27T03:50:34.195Z",
+      "updated_at": "2022-09-27T16:01:05.801Z",
       "position": 3,
       "description": "App pricing queries and updates",
       "showcase": true,
@@ -214,7 +214,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -290,9 +290,9 @@
     {
       "id": "7z6w09hl9mn0",
       "name": "App submissions",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-02-01T17:48:45.038Z",
-      "updated_at": "2022-09-27T03:50:34.212Z",
+      "updated_at": "2022-09-27T16:01:05.838Z",
       "position": 4,
       "description": null,
       "showcase": true,
@@ -688,9 +688,9 @@
     {
       "id": "1vvmngd73171",
       "name": "Vendor management",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-02-01T17:53:33.728Z",
-      "updated_at": "2022-09-27T03:50:34.229Z",
+      "updated_at": "2022-09-27T16:01:05.880Z",
       "position": 13,
       "description": null,
       "showcase": true,
@@ -732,205 +732,9 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "z4w3rlkqyp1x",
-      "name": "Migration of app and pricing information to the new billing system",
-      "status": "in_progress",
-      "created_at": "2022-09-27T03:50:12.032Z",
-      "updated_at": "2022-09-27T04:00:52.413Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/9z1ncmmsxtcw",
-      "started_at": "2022-09-27T03:50:12.021Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "xnw95yd8lb3g",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "z4w3rlkqyp1x",
-          "created_at": "2022-09-27T04:00:52.408Z",
-          "updated_at": "2022-09-27T04:00:52.408Z",
-          "display_at": "2022-09-27T04:00:52.408Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "7ztbpm9v3hgh",
-          "status": "scheduled",
-          "body": "We will be undergoing scheduled maintenance during this time.",
-          "incident_id": "z4w3rlkqyp1x",
-          "created_at": "2022-09-27T03:50:34.261Z",
-          "updated_at": "2022-09-27T03:50:34.261Z",
-          "display_at": "2022-09-27T03:50:34.261Z",
-          "affected_components": [
-            {
-              "code": "mlr76v811c20",
-              "name": "Marketplace - App listing management",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "g04n852g3nt6",
-              "name": "Marketplace - App listings",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "d1hybyzmqlvq",
-              "name": "Marketplace - App pricing",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "7z6w09hl9mn0",
-              "name": "Marketplace - App submissions",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "1vvmngd73171",
-              "name": "Marketplace - Vendor management",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "zjsbkdf51cxl",
-          "status": "scheduled",
-          "body": "App catalog migration has began. For details see here https://community.developer.atlassian.com/t/app-catalog-migration-process-commences-on-22nd-aug-2022/60742\n\nPartner ID - Partner Name \n\n1219467\tWERARE\n1214651\tRixter AB\n1220447\tHobly\n1219255\tTronikel\n1217624\tMINDPRO\n1220860\tB1NARY\n1218445\tTechdrishti Technologies Pvt Ltd\n1217429\tGL Solutions\n1220756\tDW SaaS\n1221237\tMusa\n1221293\tTechnology Studio\n1221245\tTotem Dev\n1214995\tNextup.ai ↔ Enterprise apps for Slack and Teams\n1221021\tiDev Solutions\n1221459\tConrado Maggi\n1220432\tEmergence Software\n1220786\tagile-innovations.tech, LLC\n1214031\tWombats Corp\n1221733\tPhantom Automata\n1221148\tpluginDevs\n1221179\tRaledo Software\n1221512\t7'10\n37642\tcelix Solutions\n1210712\tThe Plugin People\n1220938\tNodical\n1221311\tLogic Twelve\n1221195\tDaniel Llewellyn\n16521\tSourcesense\n1210536\tPrecog Software\n1221227\tHugemassive\n1221286\tDeffo Ltd.\n1216942\tShinetech Software\n21443\tJ-Tricks\n1218518\tGoldfinger Holdings, Inc.\n1221485\tRaidboss, Inc.\n1221807\tLP Carignan Services-conseils inc.\n1221695\tJoao Santiago\n36242\tBugsIO Solutions\n1210796\tProtoShare / Astound Commerce\n1210618\tMoroSystems, s.r.o.\n1219235\tgesesoft\n11178\tMarvelution\n114\tTNG Technology Consulting GmbH\n1210767\tDecree Labs\n1210702\tEverit Kft.\n1210694\tKontextWork\n1211683\tSuperAktiv AS\n1211883\tease solutions Pte Ltd\n1211152\tGetConnected\n5069\t🇺🇦 Easysecrets\n1210580\tHindsight Software Ltd\n1210816\tHerzum\n1211721\tAPTIS GmbH\n1214719\tGebsun Software\n1211360\tWeekdone\n1211277\tMatrix Requirements GmbH\n43259\tCloseIT s.r.o.\n1212423\taddcraft GmbH\n1211564\tKupper Software\n1211262\tADWEB Software\n1212451\tDaisee\n1213138\tMeister\n1212819\tDolphin IT Services GmbH\n1212582\tLimbr Labs\n1212024\tM20 Technology LLC\n1217075\tStratus Add-ons\n1214383\tAndriy Zhilin\n1213080\tTappforce LLC\n1211995\tMOEWE\n1212504\tCalvinware, LLC\n1221760\tCreativeThinker\n1213770\tLean Walk\n1213923\tWebPal\n1217481\tSmartForce\n1213872\tThorsten Büring\n1213262\teXtensi\n1214452\tNeptunium AI\n1222282\tPraecipio Consulting\n1214597\tThomas Osowski\n1213180\tMESILAT LIMITED\n1212861\tKickdrum Technology Group LLC\n1214545\tPurple Drapes\n1212949\tLunarLincoln\n22964\tEEA communication solutions\n1214762\tCONCEPTS & BEYOND INC.\n1213828\tSenseAdapt\n1214184\tSandstorm\n1214923\tPhase Locked Software\n1215132\tInprowiser Engineering\n1214486\tswarmOS GmbH\n1214764\tVilisoft\n1214968\tThe Digital Group Inc\n1215335\tNara Syst Ltd.\n1215266\tP&D VISION\n1215410\tAlty Inc.\n1215197\tPrevas InfoVis AB\n1215281\tMirhai Inc.\n1215541\tAnton Popov\n1215786\tAELBOX\n1215112\tHatcheon Limited\n1215550\tIXPERTA s.r.o.\n1215636\tAssertThat\n1215169\tWruff\n1215907\tPolygran GmbH\n1213732\tGreenyloop\n1215464\tBeenicon\n1213394\tviadee Unternehmensberatung AG\n1215504\tAppLiger\n1214994\tAxisAgile Apps\n1215743\tAlan Gibson\n1216006\tW Knowledge\n1211265\tKoncis ApS (by aety aps)\n1216141\tScopeMaster\n1216069\tGEC Computer Systems\n1216159\tImai Technologies\n1216237\tAbsolute Technology Solutions\n1216039\ttechfu.io\n35621\tyWorks GmbH\n1216062\tDigital Ray\n6257\tCatch Software\n1211678\tCucumber, a SmartBear company\n1216489\tAppFoci\n1211271\tScitotec GmbH\n1216613\tTHALES\n1216640\tSparxsys Solutions\n1216674\tJodocus GmbH\n1216785\tNovalab Teknoloji\n1216379\tRCMT IT EUROPE\n1217022\tNirama Solutions\n1216797\tAppsDelivered\n1216144\tZoho Show\n1216866\tLiveChangelog\n1221154\tFlower\n1210572\tReliex\n1217028\tVizydrop\n1217158\tcodalyx\n1217177\tCoreBuild\n1217248\tFirnity\n1216766\tNanoHop\n1216029\tSioux\n1212758\tWhite Software\n1216968\tLemon dev\n1217120\tMikhail Butsenin\n1216818\tHello Clerk, Inc.\n1217215\tPlanyway for Jira\n1217314\tAlliedium, an Allied Testing company\n1217485\tNordlogic\n1217600\tCitrusbits Inc.\n1217685\tSolicale\n1217687\tMage Software\n1217451\tQuirk Consulting\n1217718\tEuropa Labs Pty Ltd\n1217765\tEasify apps\n1217739\tAddown Studio\n1217725\tChen Software\n1217921\tNexonic Inc.\n1217680\t//SEIBERT/MEDIA - AppAnvil\n1210603\tAlmarise\n1217758\tMontrose Software",
-          "incident_id": "z4w3rlkqyp1x",
-          "created_at": "2022-09-27T03:50:12.098Z",
-          "updated_at": "2022-09-27T03:50:12.098Z",
-          "display_at": "2022-09-27T03:50:12.098Z",
-          "affected_components": [
-            {
-              "code": "mlr76v811c20",
-              "name": "Marketplace - App listing management",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "g04n852g3nt6",
-              "name": "Marketplace - App listings",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "d1hybyzmqlvq",
-              "name": "Marketplace - App pricing",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "7z6w09hl9mn0",
-              "name": "Marketplace - App submissions",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "1vvmngd73171",
-              "name": "Marketplace - Vendor management",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "mlr76v811c20",
-          "name": "App listing management",
-          "status": "under_maintenance",
-          "created_at": "2018-02-01T17:46:24.130Z",
-          "updated_at": "2022-09-27T03:50:34.154Z",
-          "position": 1,
-          "description": "The ability to manage app listings on https://marketplace.atlassian.com",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "g04n852g3nt6",
-          "name": "App listings",
-          "status": "under_maintenance",
-          "created_at": "2013-12-03T00:43:13.481Z",
-          "updated_at": "2022-09-27T03:50:34.175Z",
-          "position": 2,
-          "description": "The detailed listing page for each app",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "d1hybyzmqlvq",
-          "name": "App pricing",
-          "status": "under_maintenance",
-          "created_at": "2013-12-03T00:43:13.497Z",
-          "updated_at": "2022-09-27T03:50:34.195Z",
-          "position": 3,
-          "description": "App pricing queries and updates",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "7z6w09hl9mn0",
-          "name": "App submissions",
-          "status": "under_maintenance",
-          "created_at": "2018-02-01T17:48:45.038Z",
-          "updated_at": "2022-09-27T03:50:34.212Z",
-          "position": 4,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "1vvmngd73171",
-          "name": "Vendor management",
-          "status": "under_maintenance",
-          "created_at": "2018-02-01T17:53:33.728Z",
-          "updated_at": "2022-09-27T03:50:34.229Z",
-          "position": 13,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2022-09-27T04:00:00.000Z",
-      "scheduled_until": "2022-09-27T16:00:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
