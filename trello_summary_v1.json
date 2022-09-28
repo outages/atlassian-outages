@@ -4,7 +4,7 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2022-09-28T16:45:21.518-04:00"
+    "updated_at": "2022-09-28T17:40:10.071-04:00"
   },
   "components": [
     {
@@ -83,133 +83,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "ml071wnr5pnq",
-      "name": "The Butler Automation tool is unavailable",
-      "status": "monitoring",
-      "created_at": "2022-09-28T13:32:28.578-04:00",
-      "updated_at": "2022-09-28T16:45:21.512-04:00",
-      "monitoring_at": "2022-09-28T16:45:20.973-04:00",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/94rqj39w0mf7",
-      "started_at": "2022-09-28T13:32:28.570-04:00",
-      "page_id": "h5frqhb041yq",
-      "incident_updates": [
-        {
-          "id": "nx364fb5r4hf",
-          "status": "monitoring",
-          "body": "In collaboration with our third-party service, our engineering team identified the problem that affected Butler and is working to resolve it.  We’re currently monitoring the system from our side and seeing continued improvements. Some users could potentially experience some issues while using Butler.\n\nWe’ll continue monitoring until the issue is resolved.",
-          "incident_id": "ml071wnr5pnq",
-          "created_at": "2022-09-28T16:45:20.973-04:00",
-          "updated_at": "2022-09-28T16:45:21.509-04:00",
-          "display_at": "2022-09-28T16:45:20.973-04:00",
-          "affected_components": [
-            {
-              "code": "y1nllgnkxn9d",
-              "name": "API",
-              "old_status": "partial_outage",
-              "new_status": "operational"
-            },
-            {
-              "code": "hsr3nvlz0k2l",
-              "name": "Trello.com",
-              "old_status": "partial_outage",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1575225169781883000
-        },
-        {
-          "id": "6y255rq1ld3x",
-          "status": "identified",
-          "body": "We've identified an issue with a third-party service where our automation tool is hosted, which resulted in Butler's unavailability. Our engineering team is already working towards a solution to bring Butler back up as quickly as possible.\n\nWe will update this page as we have additional information.",
-          "incident_id": "ml071wnr5pnq",
-          "created_at": "2022-09-28T14:05:53.617-04:00",
-          "updated_at": "2022-09-28T14:05:53.945-04:00",
-          "display_at": "2022-09-28T14:05:53.617-04:00",
-          "affected_components": [
-            {
-              "code": "y1nllgnkxn9d",
-              "name": "API",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "hsr3nvlz0k2l",
-              "name": "Trello.com",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1575185040488927200
-        },
-        {
-          "id": "6hqpwmqplznm",
-          "status": "investigating",
-          "body": "The Butler automation tool is currently unavailable.\n\nOur engineering team is actively investigating this incident and working to bring the automation tool back up as quickly as possible.\n\nWe will update this page as we have additional information.",
-          "incident_id": "ml071wnr5pnq",
-          "created_at": "2022-09-28T13:32:28.800-04:00",
-          "updated_at": "2022-09-28T13:32:30.068-04:00",
-          "display_at": "2022-09-28T13:32:28.800-04:00",
-          "affected_components": [
-            {
-              "code": "y1nllgnkxn9d",
-              "name": "API",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "hsr3nvlz0k2l",
-              "name": "Trello.com",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1575176635628023800
-        }
-      ],
-      "components": [
-        {
-          "id": "hsr3nvlz0k2l",
-          "name": "Trello.com",
-          "status": "operational",
-          "created_at": "2020-01-24T12:50:55.839-05:00",
-          "updated_at": "2022-09-28T16:45:20.929-04:00",
-          "position": 1,
-          "description": "Web client",
-          "showcase": true,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "h5frqhb041yq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "y1nllgnkxn9d",
-          "name": "API",
-          "status": "operational",
-          "created_at": "2020-01-24T12:50:17.715-05:00",
-          "updated_at": "2022-09-28T16:45:20.947-04:00",
-          "position": 2,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "h5frqhb041yq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
