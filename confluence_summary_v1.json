@@ -4,7 +4,7 @@
     "name": "Confluence",
     "url": "https://confluence.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-09-29T11:29:24.476Z"
+    "updated_at": "2022-09-29T13:27:04.115Z"
   },
   "components": [
     {
@@ -211,16 +211,36 @@
     {
       "id": "ks33ft6zdzb7",
       "name": "Email Notification Issue",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2022-09-29T08:40:57.597Z",
-      "updated_at": "2022-09-29T11:29:24.467Z",
-      "monitoring_at": null,
+      "updated_at": "2022-09-29T13:27:04.112Z",
+      "monitoring_at": "2022-09-29T13:11:39.695Z",
       "resolved_at": null,
-      "impact": "major",
+      "impact": "none",
       "shortlink": "https://stspg.io/3jcyyh6bhgzd",
       "started_at": "2022-09-29T08:40:57.593Z",
       "page_id": "4g2my7tbhjsq",
       "incident_updates": [
+        {
+          "id": "jkqsvq54bydv",
+          "status": "monitoring",
+          "body": "The third-party service provider has implemented a fix and we are seeing significant improvements to notification delivery. We will continue to monitor the situation.",
+          "incident_id": "ks33ft6zdzb7",
+          "created_at": "2022-09-29T13:11:39.695Z",
+          "updated_at": "2022-09-29T13:11:39.695Z",
+          "display_at": "2022-09-29T13:11:39.695Z",
+          "affected_components": [
+            {
+              "code": "4gcj9wwwkfrm",
+              "name": "Notifications",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "bnx4jj2jywd8",
           "status": "identified",
