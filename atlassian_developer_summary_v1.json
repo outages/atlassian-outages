@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-09-29T05:12:17.497Z"
+    "updated_at": "2022-09-30T04:25:36.316Z"
   },
   "components": [
     {
@@ -731,7 +731,66 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "7p3fz6w433px",
+      "name": "Some google analytics events sent from marketplace have missing parameters.",
+      "status": "investigating",
+      "created_at": "2022-09-30T04:25:30.244Z",
+      "updated_at": "2022-09-30T04:25:36.314Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/5jscbhymny2h",
+      "started_at": "2022-09-30T04:25:30.237Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "ljsklx5m32r2",
+          "status": "investigating",
+          "body": "We are investigating an issue with Marketplace Google analytics events, Some google analytics events sent from marketplace have missing parameters which may result in the events being captured in GA dashboards as none. Our developers are working with internal teams to find out the cause and resolve the issue.\n\nTimeline of the impact:\n- This issue is noticed for GA events sent after 16th of September 2022.\n\n\nWe will share more updates as we make progress.",
+          "incident_id": "7p3fz6w433px",
+          "created_at": "2022-09-30T04:25:30.282Z",
+          "updated_at": "2022-09-30T04:25:30.282Z",
+          "display_at": "2022-09-30T04:25:30.282Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": []
+    },
+    {
+      "id": "rj0shm885hcq",
+      "name": "Segment events for install and app requests events on the Marketplace are missing.",
+      "status": "investigating",
+      "created_at": "2022-09-30T04:08:00.980Z",
+      "updated_at": "2022-09-30T04:08:13.668Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/rb18w7ck6tht",
+      "started_at": "2022-09-30T04:08:00.974Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "x3p4k02pmd77",
+          "status": "investigating",
+          "body": "We're investigating an issue where segment install and app requests events for marketplace.atlassian.com  were not processed for few hours (the events are missing since 3:30 pm IST) yesterday. We are working on re-processing the missed events.",
+          "incident_id": "rj0shm885hcq",
+          "created_at": "2022-09-30T04:08:01.021Z",
+          "updated_at": "2022-09-30T04:08:01.021Z",
+          "display_at": "2022-09-30T04:08:01.021Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": []
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
