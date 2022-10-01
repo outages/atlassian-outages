@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-09-30T07:23:30.437Z"
+    "updated_at": "2022-10-01T05:49:58.945Z"
   },
   "components": [
     {
@@ -753,35 +753,6 @@
           "created_at": "2022-09-30T04:25:30.282Z",
           "updated_at": "2022-09-30T04:25:30.282Z",
           "display_at": "2022-09-30T04:25:30.282Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": []
-    },
-    {
-      "id": "rj0shm885hcq",
-      "name": "Segment events for install and app requests events on the Marketplace are missing.",
-      "status": "investigating",
-      "created_at": "2022-09-30T04:08:00.980Z",
-      "updated_at": "2022-09-30T04:08:13.668Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/rb18w7ck6tht",
-      "started_at": "2022-09-30T04:08:00.974Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "x3p4k02pmd77",
-          "status": "investigating",
-          "body": "We're investigating an issue where segment install and app requests events for marketplace.atlassian.com  were not processed for few hours (the events are missing since 3:30 pm IST) yesterday. We are working on re-processing the missed events.",
-          "incident_id": "rj0shm885hcq",
-          "created_at": "2022-09-30T04:08:01.021Z",
-          "updated_at": "2022-09-30T04:08:01.021Z",
-          "display_at": "2022-09-30T04:08:01.021Z",
           "affected_components": null,
           "deliver_notifications": false,
           "custom_tweet": null,
