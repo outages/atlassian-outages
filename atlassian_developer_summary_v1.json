@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-10-05T10:23:29.381Z"
+    "updated_at": "2022-10-05T17:49:10.518Z"
   },
   "components": [
     {
@@ -735,16 +735,36 @@
     {
       "id": "1bkt9gwz2bmm",
       "name": "Letter casing differences in few fields in reporting endpoints",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2022-10-05T09:46:33.794Z",
-      "updated_at": "2022-10-05T09:47:24.404Z",
-      "monitoring_at": null,
+      "updated_at": "2022-10-05T17:49:10.516Z",
+      "monitoring_at": "2022-10-05T17:49:10.503Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/8pgcn5sdm3tj",
       "started_at": "2022-10-05T09:46:33.786Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "qdwjbywy90hb",
+          "status": "monitoring",
+          "body": "A fix has been implemented and we are monitoring the results.",
+          "incident_id": "1bkt9gwz2bmm",
+          "created_at": "2022-10-05T17:49:10.503Z",
+          "updated_at": "2022-10-05T17:49:10.503Z",
+          "display_at": "2022-10-05T17:49:10.503Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "fgjj2y505ms6",
           "status": "identified",
