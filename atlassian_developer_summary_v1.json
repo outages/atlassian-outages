@@ -4,28 +4,13 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-10-05T17:49:10.518Z"
+    "updated_at": "2022-10-06T02:23:30.228Z"
   },
   "components": [
     {
-      "id": "mlr76v811c20",
-      "name": "App listing management",
-      "status": "operational",
-      "created_at": "2018-02-01T17:46:24.130Z",
-      "updated_at": "2022-09-28T11:02:03.756Z",
-      "position": 1,
-      "description": "The ability to manage app listings on https://marketplace.atlassian.com",
-      "showcase": true,
-      "start_date": null,
-      "group_id": "d0m8l367qqw5",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "w0ld3nc9jvdx",
       "name": "APIs",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-02-01T17:15:10.342Z",
       "updated_at": "2018-02-01T17:16:31.201Z",
       "position": 1,
@@ -45,6 +30,21 @@
         "5rnsdjrhk29s",
         "ssdy05xtmgvs"
       ]
+    },
+    {
+      "id": "mlr76v811c20",
+      "name": "App listing management",
+      "status": "operational",
+      "created_at": "2018-02-01T17:46:24.130Z",
+      "updated_at": "2022-09-28T11:02:03.756Z",
+      "position": 1,
+      "description": "The ability to manage app listings on https://marketplace.atlassian.com",
+      "showcase": true,
+      "start_date": null,
+      "group_id": "d0m8l367qqw5",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
     },
     {
       "id": "c1zr70381q86",
@@ -72,6 +72,21 @@
       "showcase": true,
       "start_date": "2021-03-23",
       "group_id": "73bt63kd5q9k",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "yjqnzm0tkgsd",
+      "name": "Confluence Cloud APIs",
+      "status": "operational",
+      "created_at": "2018-02-01T17:15:36.411Z",
+      "updated_at": "2022-06-22T13:02:51.992Z",
+      "position": 2,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "w0ld3nc9jvdx",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -137,21 +152,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "yjqnzm0tkgsd",
-      "name": "Confluence Cloud APIs",
-      "status": "operational",
-      "created_at": "2018-02-01T17:15:36.411Z",
-      "updated_at": "2022-06-22T13:02:51.992Z",
-      "position": 2,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "w0ld3nc9jvdx",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "bf9d0vz83ykr",
       "name": "Atlassian Support contact form",
       "status": "operational",
@@ -167,16 +167,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "xjs8wcvjw85c",
-      "name": "Developer community",
-      "status": "operational",
-      "created_at": "2018-02-01T17:22:27.268Z",
-      "updated_at": "2020-03-18T01:48:19.818Z",
+      "id": "cc6gw24m02wp",
+      "name": "Jira Cloud APIs",
+      "status": "degraded_performance",
+      "created_at": "2018-02-01T17:16:54.648Z",
+      "updated_at": "2022-10-06T01:57:30.236Z",
       "position": 3,
-      "description": "https://community.developer.atlassian.com",
+      "description": null,
       "showcase": true,
       "start_date": null,
-      "group_id": "jgnwrfzynh93",
+      "group_id": "w0ld3nc9jvdx",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -192,21 +192,6 @@
       "showcase": true,
       "start_date": null,
       "group_id": "d0m8l367qqw5",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "cc6gw24m02wp",
-      "name": "Jira Cloud APIs",
-      "status": "operational",
-      "created_at": "2018-02-01T17:16:54.648Z",
-      "updated_at": "2022-09-02T04:31:35.543Z",
-      "position": 3,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "w0ld3nc9jvdx",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -243,6 +228,21 @@
       ]
     },
     {
+      "id": "xjs8wcvjw85c",
+      "name": "Developer community",
+      "status": "operational",
+      "created_at": "2018-02-01T17:22:27.268Z",
+      "updated_at": "2020-03-18T01:48:19.818Z",
+      "position": 3,
+      "description": "https://community.developer.atlassian.com",
+      "showcase": true,
+      "start_date": null,
+      "group_id": "jgnwrfzynh93",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "ccbm394hy8pk",
       "name": "Create and manage apps",
       "status": "operational",
@@ -250,6 +250,51 @@
       "updated_at": "2022-05-24T13:49:06.598Z",
       "position": 3,
       "description": "The ability to create and manage apps at https://developer.atlassian.com/apps",
+      "showcase": true,
+      "start_date": null,
+      "group_id": "73bt63kd5q9k",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "dnstnjnbm2vs",
+      "name": "Product Events",
+      "status": "operational",
+      "created_at": "2021-03-23T11:58:48.255Z",
+      "updated_at": "2022-09-14T14:01:16.835Z",
+      "position": 4,
+      "description": "Invocation of Forge functions from product events.",
+      "showcase": true,
+      "start_date": "2021-03-23",
+      "group_id": "w0ld3nc9jvdx",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "7z6w09hl9mn0",
+      "name": "App submissions",
+      "status": "operational",
+      "created_at": "2018-02-01T17:48:45.038Z",
+      "updated_at": "2022-09-28T11:02:03.845Z",
+      "position": 4,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "d0m8l367qqw5",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "ft3y6psz31vm",
+      "name": "Developer documentation",
+      "status": "operational",
+      "created_at": "2018-02-01T17:23:24.905Z",
+      "updated_at": "2021-10-06T21:03:57.450Z",
+      "position": 4,
+      "description": "The ability to access documentation at https://developer.atlassian.com/docs",
       "showcase": true,
       "start_date": null,
       "group_id": "73bt63kd5q9k",
@@ -273,36 +318,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "7z6w09hl9mn0",
-      "name": "App submissions",
-      "status": "operational",
-      "created_at": "2018-02-01T17:48:45.038Z",
-      "updated_at": "2022-09-28T11:02:03.845Z",
-      "position": 4,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "d0m8l367qqw5",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "dnstnjnbm2vs",
-      "name": "Product Events",
-      "status": "operational",
-      "created_at": "2021-03-23T11:58:48.255Z",
-      "updated_at": "2022-09-14T14:01:16.835Z",
-      "position": 4,
-      "description": "Invocation of Forge functions from product events.",
-      "showcase": true,
-      "start_date": "2021-03-23",
-      "group_id": "w0ld3nc9jvdx",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "crfmnmkyvltr",
       "name": "Developer service desk",
       "status": "operational",
@@ -318,16 +333,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "ft3y6psz31vm",
-      "name": "Developer documentation",
+      "id": "bdrd3wct69vq",
+      "name": "Marketplace service desk",
       "status": "operational",
-      "created_at": "2018-02-01T17:23:24.905Z",
-      "updated_at": "2021-10-06T21:03:57.450Z",
-      "position": 4,
-      "description": "The ability to access documentation at https://developer.atlassian.com/docs",
-      "showcase": true,
+      "created_at": "2017-07-24T21:40:38.551Z",
+      "updated_at": "2018-02-21T00:14:50.256Z",
+      "position": 5,
+      "description": "Jira Service Desk project accessible at http://go.atlassian.com/marketplace-support",
+      "showcase": false,
       "start_date": null,
-      "group_id": "73bt63kd5q9k",
+      "group_id": "jgnwrfzynh93",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -401,16 +416,16 @@
       ]
     },
     {
-      "id": "bdrd3wct69vq",
-      "name": "Marketplace service desk",
+      "id": "kj290v20168q",
+      "name": "Evaluations and purchases",
       "status": "operational",
-      "created_at": "2017-07-24T21:40:38.551Z",
-      "updated_at": "2018-02-21T00:14:50.256Z",
-      "position": 5,
-      "description": "Jira Service Desk project accessible at http://go.atlassian.com/marketplace-support",
-      "showcase": false,
+      "created_at": "2018-02-01T17:50:19.946Z",
+      "updated_at": "2022-06-02T09:15:59.663Z",
+      "position": 6,
+      "description": null,
+      "showcase": true,
       "start_date": null,
-      "group_id": "jgnwrfzynh93",
+      "group_id": "d0m8l367qqw5",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -446,21 +461,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "kj290v20168q",
-      "name": "Evaluations and purchases",
-      "status": "operational",
-      "created_at": "2018-02-01T17:50:19.946Z",
-      "updated_at": "2022-06-02T09:15:59.663Z",
-      "position": 6,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "d0m8l367qqw5",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "5rnsdjrhk29s",
       "name": "Webhooks",
       "status": "operational",
@@ -491,16 +491,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "3t1y6724xl8q",
-      "name": "In-product Marketplace and app installation (Cloud)",
+      "id": "pgqd9x4jl520",
+      "name": "Forge Function Invocation",
       "status": "operational",
-      "created_at": "2013-12-03T00:45:39.973Z",
-      "updated_at": "2022-09-01T03:35:45.814Z",
+      "created_at": "2021-03-23T11:56:37.167Z",
+      "updated_at": "2022-09-18T23:54:50.293Z",
       "position": 7,
-      "description": "The ability to discover, install, and manage apps inside of Atlassian's Cloud products (Jira, Confluence, Stride, Bitbucket)",
+      "description": null,
       "showcase": true,
-      "start_date": null,
-      "group_id": "d0m8l367qqw5",
+      "start_date": "2021-03-23",
+      "group_id": "73bt63kd5q9k",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -521,31 +521,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "pgqd9x4jl520",
-      "name": "Forge Function Invocation",
+      "id": "3t1y6724xl8q",
+      "name": "In-product Marketplace and app installation (Cloud)",
       "status": "operational",
-      "created_at": "2021-03-23T11:56:37.167Z",
-      "updated_at": "2022-09-18T23:54:50.293Z",
+      "created_at": "2013-12-03T00:45:39.973Z",
+      "updated_at": "2022-09-01T03:35:45.814Z",
       "position": 7,
-      "description": null,
-      "showcase": true,
-      "start_date": "2021-03-23",
-      "group_id": "73bt63kd5q9k",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "sq83n9jrwk7c",
-      "name": "aui-cdn.atlassian.com",
-      "status": "operational",
-      "created_at": "2019-01-30T00:03:56.515Z",
-      "updated_at": "2021-03-23T12:05:08.829Z",
-      "position": 8,
-      "description": "The Atlassian User Interface (AUI) CDN",
+      "description": "The ability to discover, install, and manage apps inside of Atlassian's Cloud products (Jira, Confluence, Stride, Bitbucket)",
       "showcase": true,
       "start_date": null,
-      "group_id": "73bt63kd5q9k",
+      "group_id": "d0m8l367qqw5",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -561,6 +546,21 @@
       "showcase": true,
       "start_date": null,
       "group_id": "d0m8l367qqw5",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "sq83n9jrwk7c",
+      "name": "aui-cdn.atlassian.com",
+      "status": "operational",
+      "created_at": "2019-01-30T00:03:56.515Z",
+      "updated_at": "2021-03-23T12:05:08.829Z",
+      "position": 8,
+      "description": "The Atlassian User Interface (AUI) CDN",
+      "showcase": true,
+      "start_date": null,
+      "group_id": "73bt63kd5q9k",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -732,6 +732,58 @@
     }
   ],
   "incidents": [
+    {
+      "id": "8fch089259c2",
+      "name": "Some Forge apps calling Jira product APIs are being rate limited resulting in the app not loading",
+      "status": "investigating",
+      "created_at": "2022-10-06T01:57:30.206Z",
+      "updated_at": "2022-10-06T01:57:30.276Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/sdv9sd0ps9kj",
+      "started_at": "2022-10-06T01:57:30.199Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "0dyqgfgthnhf",
+          "status": "investigating",
+          "body": "Some Forge apps calling Jira product APIs are failing with an HTTP 429 code. This is causing the impacted apps to not load.\n\nWe are currently investigating the issue and trying to identify the root cause. We'll send another update at 03:56 UTC",
+          "incident_id": "8fch089259c2",
+          "created_at": "2022-10-06T01:57:30.274Z",
+          "updated_at": "2022-10-06T01:57:30.274Z",
+          "display_at": "2022-10-06T01:57:30.274Z",
+          "affected_components": [
+            {
+              "code": "cc6gw24m02wp",
+              "name": "APIs - Jira Cloud APIs",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "cc6gw24m02wp",
+          "name": "Jira Cloud APIs",
+          "status": "degraded_performance",
+          "created_at": "2018-02-01T17:16:54.648Z",
+          "updated_at": "2022-10-06T01:57:30.236Z",
+          "position": 3,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": "w0ld3nc9jvdx",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    },
     {
       "id": "1bkt9gwz2bmm",
       "name": "Letter casing differences in few fields in reporting endpoints",
