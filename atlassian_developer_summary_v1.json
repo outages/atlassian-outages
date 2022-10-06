@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-10-06T07:50:31.358Z"
+    "updated_at": "2022-10-06T07:57:31.507Z"
   },
   "components": [
     {
@@ -737,7 +737,7 @@
       "name": "Some Connect Apps' shared secrets are out of sync causing the apps to not load",
       "status": "identified",
       "created_at": "2022-10-06T05:45:49.373Z",
-      "updated_at": "2022-10-06T07:50:31.350Z",
+      "updated_at": "2022-10-06T07:57:31.500Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -748,11 +748,11 @@
         {
           "id": "t7p8wbd8njnd",
           "status": "identified",
-          "body": "Over the next 24 hours shared secrets will be re-synced for the tenants with the identified affected apps. We expect this to resolve this issue for those apps.\r\n\r\nRe-syncing shared secrets uses signed install callbacks. All apps should have already been migrated to support this at this time, as notified in:\r\nhttps://community.developer.atlassian.com/t/action-required-atlassian-connect-installation-lifecycle-security-improvements/49046\r\n\r\nApps which have not been updated to support signed installs should do so now.\r\n\r\nThe next update will be in 24 hours based on the outcome from this re-sync process.",
+          "body": "Over the next 24 hours, shared secrets will be re-synced for the tenants with the identified affected apps. We expect this to resolve this issue for those apps.\n\nRe-syncing shared secrets uses signed install callbacks. All apps should have already been migrated to support this at this time, as notified in: \nhttps://community.developer.atlassian.com/t/action-required-atlassian-connect-installation-lifecycle-security-improvements/49046\n\nApps that have not been updated to support signed installs should do so now.\n\nThe next update will be in 24 hours based on the outcome of this re-sync process.",
           "incident_id": "2q9rmdmv0vz6",
           "created_at": "2022-10-06T07:50:31.347Z",
-          "updated_at": "2022-10-06T07:50:31.347Z",
-          "display_at": "2022-10-06T07:50:31.347Z",
+          "updated_at": "2022-10-06T07:57:31.496Z",
+          "display_at": "2022-10-06T07:50:31.000Z",
           "affected_components": [
             {
               "code": "wzmg8phvmrwh",
