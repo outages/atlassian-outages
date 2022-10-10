@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-10-07T20:13:23.706Z"
+    "updated_at": "2022-10-10T11:23:30.286Z"
   },
   "components": [
     {
@@ -737,7 +737,7 @@
       "name": "Some Connect Apps' shared secrets are out of sync causing the apps to not load",
       "status": "monitoring",
       "created_at": "2022-10-06T05:45:49.000Z",
-      "updated_at": "2022-10-07T20:13:23.696Z",
+      "updated_at": "2022-10-10T11:12:45.859Z",
       "monitoring_at": "2022-10-07T08:23:31.383Z",
       "resolved_at": null,
       "impact": "major",
@@ -745,6 +745,26 @@
       "started_at": "2022-10-06T05:45:49.000Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "cwfvstz30cck",
+          "status": "monitoring",
+          "body": "We have not received any new reports of impact since posting last update.\r\nWe are going to monitor this incident until 2022.10.11 04:00 UTC to verify that there is no further impact.\r\n\r\nNext update will be posted before 2022.10.11 05:00 UTC",
+          "incident_id": "2q9rmdmv0vz6",
+          "created_at": "2022-10-10T11:12:45.857Z",
+          "updated_at": "2022-10-10T11:12:45.857Z",
+          "display_at": "2022-10-10T11:12:45.857Z",
+          "affected_components": [
+            {
+              "code": "wzmg8phvmrwh",
+              "name": "Developer - App Deployment",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "l5g4qq5y8bfk",
           "status": "monitoring",
