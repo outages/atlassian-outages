@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-10-12T08:23:46.353Z"
+    "updated_at": "2022-10-12T16:23:30.496Z"
   },
   "components": [
     {
@@ -785,7 +785,62 @@
       ]
     }
   ],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "64chsmr5vfvw",
+      "name": "Upgrade data landing platform for partner reporting",
+      "status": "scheduled",
+      "created_at": "2022-10-12T16:04:24.232Z",
+      "updated_at": "2022-10-12T16:04:24.299Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/22fhdnb3slr1",
+      "started_at": "2022-10-12T16:04:24.222Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "lmrrhf4x2zdf",
+          "status": "scheduled",
+          "body": "We are upgrading the data landing framework for our partner reporting pipeline. Post the maintenance partners would be able to see a bump in the records received via the reporting APIs. \n\nOverall (across partners) new data that would start flowing in post the maintenance :\n* Transactions ~300\n* Licenses ~10\n\nOverall (across partners) updates expected post the maintenance :\nWe are also improving the data freshness for the existing licenses data that would lead to an update going out for ~12000 licenses.",
+          "incident_id": "64chsmr5vfvw",
+          "created_at": "2022-10-12T16:04:24.296Z",
+          "updated_at": "2022-10-12T16:04:24.296Z",
+          "display_at": "2022-10-12T16:04:24.296Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "hk36hlvygg2q",
+          "name": "Reporting APIs and dashboards",
+          "status": "operational",
+          "created_at": "2013-12-03T00:45:26.014Z",
+          "updated_at": "2022-10-11T08:17:49.066Z",
+          "position": 11,
+          "description": "Marketing attribution reports are now operational.",
+          "showcase": true,
+          "start_date": null,
+          "group_id": "d0m8l367qqw5",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2022-10-13T01:30:00.000Z",
+      "scheduled_until": "2022-10-13T04:30:00.000Z"
+    }
+  ],
   "status": {
     "indicator": "minor",
     "description": "Minor Service Outage"
