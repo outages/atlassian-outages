@@ -4,24 +4,9 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-10-13T02:39:34.824Z"
+    "updated_at": "2022-10-13T04:30:47.587Z"
   },
   "components": [
-    {
-      "id": "c1zr70381q86",
-      "name": "Bitbucket Cloud APIs",
-      "status": "operational",
-      "created_at": "2018-02-01T17:15:10.353Z",
-      "updated_at": "2018-02-01T17:15:10.353Z",
-      "position": 1,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "w0ld3nc9jvdx",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
     {
       "id": "wzmg8phvmrwh",
       "name": "App Deployment",
@@ -33,6 +18,21 @@
       "showcase": true,
       "start_date": "2021-03-23",
       "group_id": "73bt63kd5q9k",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "mlr76v811c20",
+      "name": "App listing management",
+      "status": "operational",
+      "created_at": "2018-02-01T17:46:24.130Z",
+      "updated_at": "2022-09-28T11:02:03.756Z",
+      "position": 1,
+      "description": "The ability to manage app listings on https://marketplace.atlassian.com",
+      "showcase": true,
+      "start_date": null,
+      "group_id": "d0m8l367qqw5",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -62,46 +62,16 @@
       ]
     },
     {
-      "id": "mlr76v811c20",
-      "name": "App listing management",
+      "id": "c1zr70381q86",
+      "name": "Bitbucket Cloud APIs",
       "status": "operational",
-      "created_at": "2018-02-01T17:46:24.130Z",
-      "updated_at": "2022-09-28T11:02:03.756Z",
+      "created_at": "2018-02-01T17:15:10.353Z",
+      "updated_at": "2018-02-01T17:15:10.353Z",
       "position": 1,
-      "description": "The ability to manage app listings on https://marketplace.atlassian.com",
-      "showcase": true,
-      "start_date": null,
-      "group_id": "d0m8l367qqw5",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "g04n852g3nt6",
-      "name": "App listings",
-      "status": "operational",
-      "created_at": "2013-12-03T00:43:13.481Z",
-      "updated_at": "2022-09-28T11:02:03.786Z",
-      "position": 2,
-      "description": "The detailed listing page for each app",
-      "showcase": true,
-      "start_date": null,
-      "group_id": "d0m8l367qqw5",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "bf9d0vz83ykr",
-      "name": "Atlassian Support contact form",
-      "status": "operational",
-      "created_at": "2018-02-02T00:25:01.592Z",
-      "updated_at": "2018-02-02T00:25:43.669Z",
-      "position": 2,
       "description": null,
-      "showcase": false,
+      "showcase": true,
       "start_date": null,
-      "group_id": "jgnwrfzynh93",
+      "group_id": "w0ld3nc9jvdx",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -137,6 +107,36 @@
       ]
     },
     {
+      "id": "g04n852g3nt6",
+      "name": "App listings",
+      "status": "operational",
+      "created_at": "2013-12-03T00:43:13.481Z",
+      "updated_at": "2022-09-28T11:02:03.786Z",
+      "position": 2,
+      "description": "The detailed listing page for each app",
+      "showcase": true,
+      "start_date": null,
+      "group_id": "d0m8l367qqw5",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "bf9d0vz83ykr",
+      "name": "Atlassian Support contact form",
+      "status": "operational",
+      "created_at": "2018-02-02T00:25:01.592Z",
+      "updated_at": "2018-02-02T00:25:43.669Z",
+      "position": 2,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "jgnwrfzynh93",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "hfflf63kcp1l",
       "name": "Artifactory (Maven repository)",
       "status": "operational",
@@ -167,9 +167,54 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "ccbm394hy8pk",
+      "name": "Create and manage apps",
+      "status": "operational",
+      "created_at": "2018-02-01T17:21:34.902Z",
+      "updated_at": "2022-05-24T13:49:06.598Z",
+      "position": 3,
+      "description": "The ability to create and manage apps at https://developer.atlassian.com/apps",
+      "showcase": true,
+      "start_date": null,
+      "group_id": "73bt63kd5q9k",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "xjs8wcvjw85c",
+      "name": "Developer community",
+      "status": "operational",
+      "created_at": "2018-02-01T17:22:27.268Z",
+      "updated_at": "2020-03-18T01:48:19.818Z",
+      "position": 3,
+      "description": "https://community.developer.atlassian.com",
+      "showcase": true,
+      "start_date": null,
+      "group_id": "jgnwrfzynh93",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "d1hybyzmqlvq",
+      "name": "App pricing",
+      "status": "operational",
+      "created_at": "2013-12-03T00:43:13.497Z",
+      "updated_at": "2022-09-28T11:02:03.817Z",
+      "position": 3,
+      "description": "App pricing queries and updates",
+      "showcase": true,
+      "start_date": null,
+      "group_id": "d0m8l367qqw5",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -198,21 +243,6 @@
       ]
     },
     {
-      "id": "xjs8wcvjw85c",
-      "name": "Developer community",
-      "status": "operational",
-      "created_at": "2018-02-01T17:22:27.268Z",
-      "updated_at": "2020-03-18T01:48:19.818Z",
-      "position": 3,
-      "description": "https://community.developer.atlassian.com",
-      "showcase": true,
-      "start_date": null,
-      "group_id": "jgnwrfzynh93",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "cc6gw24m02wp",
       "name": "Jira Cloud APIs",
       "status": "operational",
@@ -228,61 +258,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "d1hybyzmqlvq",
-      "name": "App pricing",
+      "id": "dnstnjnbm2vs",
+      "name": "Product Events",
       "status": "operational",
-      "created_at": "2013-12-03T00:43:13.497Z",
-      "updated_at": "2022-09-28T11:02:03.817Z",
-      "position": 3,
-      "description": "App pricing queries and updates",
-      "showcase": true,
-      "start_date": null,
-      "group_id": "d0m8l367qqw5",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "ccbm394hy8pk",
-      "name": "Create and manage apps",
-      "status": "operational",
-      "created_at": "2018-02-01T17:21:34.902Z",
-      "updated_at": "2022-05-24T13:49:06.598Z",
-      "position": 3,
-      "description": "The ability to create and manage apps at https://developer.atlassian.com/apps",
-      "showcase": true,
-      "start_date": null,
-      "group_id": "73bt63kd5q9k",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "crfmnmkyvltr",
-      "name": "Developer service desk",
-      "status": "operational",
-      "created_at": "2018-02-01T17:27:59.399Z",
-      "updated_at": "2018-02-21T00:14:50.224Z",
+      "created_at": "2021-03-23T11:58:48.255Z",
+      "updated_at": "2022-09-14T14:01:16.835Z",
       "position": 4,
-      "description": "Jira Service Desk project accessible at http://go.atlassian.com/developer-support",
-      "showcase": false,
-      "start_date": null,
-      "group_id": "jgnwrfzynh93",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "fjsq71xwd3rn",
-      "name": "Authentication and user management",
-      "status": "operational",
-      "created_at": "2019-05-02T04:22:28.554Z",
-      "updated_at": "2022-08-16T08:14:50.485Z",
-      "position": 4,
-      "description": null,
+      "description": "Invocation of Forge functions from product events.",
       "showcase": true,
-      "start_date": null,
-      "group_id": null,
+      "start_date": "2021-03-23",
+      "group_id": "w0ld3nc9jvdx",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -318,16 +303,31 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "dnstnjnbm2vs",
-      "name": "Product Events",
+      "id": "crfmnmkyvltr",
+      "name": "Developer service desk",
       "status": "operational",
-      "created_at": "2021-03-23T11:58:48.255Z",
-      "updated_at": "2022-09-14T14:01:16.835Z",
+      "created_at": "2018-02-01T17:27:59.399Z",
+      "updated_at": "2018-02-21T00:14:50.224Z",
       "position": 4,
-      "description": "Invocation of Forge functions from product events.",
+      "description": "Jira Service Desk project accessible at http://go.atlassian.com/developer-support",
+      "showcase": false,
+      "start_date": null,
+      "group_id": "jgnwrfzynh93",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "fjsq71xwd3rn",
+      "name": "Authentication and user management",
+      "status": "operational",
+      "created_at": "2019-05-02T04:22:28.554Z",
+      "updated_at": "2022-08-16T08:14:50.485Z",
+      "position": 4,
+      "description": null,
       "showcase": true,
-      "start_date": "2021-03-23",
-      "group_id": "w0ld3nc9jvdx",
+      "start_date": null,
+      "group_id": null,
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -348,21 +348,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "ydgwbb3wn2c6",
-      "name": "Category landing pages",
-      "status": "operational",
-      "created_at": "2018-03-16T16:51:24.514Z",
-      "updated_at": "2021-09-29T18:05:57.225Z",
-      "position": 5,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "d0m8l367qqw5",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "jnrvspydmmsd",
       "name": "User APIs",
       "status": "operational",
@@ -373,6 +358,36 @@
       "showcase": true,
       "start_date": null,
       "group_id": "w0ld3nc9jvdx",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "bdrd3wct69vq",
+      "name": "Marketplace service desk",
+      "status": "operational",
+      "created_at": "2017-07-24T21:40:38.551Z",
+      "updated_at": "2018-02-21T00:14:50.256Z",
+      "position": 5,
+      "description": "Jira Service Desk project accessible at http://go.atlassian.com/marketplace-support",
+      "showcase": false,
+      "start_date": null,
+      "group_id": "jgnwrfzynh93",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "ydgwbb3wn2c6",
+      "name": "Category landing pages",
+      "status": "operational",
+      "created_at": "2018-03-16T16:51:24.514Z",
+      "updated_at": "2021-09-29T18:05:57.225Z",
+      "position": 5,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "d0m8l367qqw5",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -401,16 +416,16 @@
       ]
     },
     {
-      "id": "bdrd3wct69vq",
-      "name": "Marketplace service desk",
+      "id": "kj290v20168q",
+      "name": "Evaluations and purchases",
       "status": "operational",
-      "created_at": "2017-07-24T21:40:38.551Z",
-      "updated_at": "2018-02-21T00:14:50.256Z",
-      "position": 5,
-      "description": "Jira Service Desk project accessible at http://go.atlassian.com/marketplace-support",
-      "showcase": false,
+      "created_at": "2018-02-01T17:50:19.946Z",
+      "updated_at": "2022-06-02T09:15:59.663Z",
+      "position": 6,
+      "description": null,
+      "showcase": true,
       "start_date": null,
-      "group_id": "jgnwrfzynh93",
+      "group_id": "d0m8l367qqw5",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -426,21 +441,6 @@
       "showcase": false,
       "start_date": null,
       "group_id": "jgnwrfzynh93",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "kj290v20168q",
-      "name": "Evaluations and purchases",
-      "status": "operational",
-      "created_at": "2018-02-01T17:50:19.946Z",
-      "updated_at": "2022-06-02T09:15:59.663Z",
-      "position": 6,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "d0m8l367qqw5",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -491,6 +491,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "pgqd9x4jl520",
+      "name": "Forge Function Invocation",
+      "status": "operational",
+      "created_at": "2021-03-23T11:56:37.167Z",
+      "updated_at": "2022-09-18T23:54:50.293Z",
+      "position": 7,
+      "description": null,
+      "showcase": true,
+      "start_date": "2021-03-23",
+      "group_id": "73bt63kd5q9k",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "slvmv5jvbr4p",
       "name": "Vulnerability management [AMS]",
       "status": "operational",
@@ -516,21 +531,6 @@
       "showcase": true,
       "start_date": "2021-03-23",
       "group_id": "w0ld3nc9jvdx",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "pgqd9x4jl520",
-      "name": "Forge Function Invocation",
-      "status": "operational",
-      "created_at": "2021-03-23T11:56:37.167Z",
-      "updated_at": "2022-09-18T23:54:50.293Z",
-      "position": 7,
-      "description": null,
-      "showcase": true,
-      "start_date": "2021-03-23",
-      "group_id": "73bt63kd5q9k",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -566,21 +566,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "64gg59lyzrfs",
-      "name": "Forge App Logs",
-      "status": "operational",
-      "created_at": "2021-05-12T00:18:57.324Z",
-      "updated_at": "2022-08-09T03:00:10.000Z",
-      "position": 9,
-      "description": "Access and retrieve app logs via Forge CLI and admin.atlassian.com",
-      "showcase": true,
-      "start_date": "2021-05-12",
-      "group_id": "73bt63kd5q9k",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "y1fdrctjbkx0",
       "name": "Notifications",
       "status": "operational",
@@ -591,6 +576,21 @@
       "showcase": true,
       "start_date": null,
       "group_id": "d0m8l367qqw5",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "64gg59lyzrfs",
+      "name": "Forge App Logs",
+      "status": "operational",
+      "created_at": "2021-05-12T00:18:57.324Z",
+      "updated_at": "2022-08-09T03:00:10.000Z",
+      "position": 9,
+      "description": "Access and retrieve app logs via Forge CLI and admin.atlassian.com",
+      "showcase": true,
+      "start_date": "2021-05-12",
+      "group_id": "73bt63kd5q9k",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -626,6 +626,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "hk36hlvygg2q",
+      "name": "Reporting APIs and dashboards",
+      "status": "operational",
+      "created_at": "2013-12-03T00:45:26.014Z",
+      "updated_at": "2022-10-13T04:30:47.484Z",
+      "position": 11,
+      "description": "Marketing attribution reports are now operational.",
+      "showcase": true,
+      "start_date": null,
+      "group_id": "d0m8l367qqw5",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "khz72mns34gk",
       "name": "Developer console",
       "status": "operational",
@@ -641,13 +656,13 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "hk36hlvygg2q",
-      "name": "Reporting APIs and dashboards",
-      "status": "under_maintenance",
-      "created_at": "2013-12-03T00:45:26.014Z",
-      "updated_at": "2022-10-13T01:30:38.775Z",
-      "position": 11,
-      "description": "Marketing attribution reports are now operational.",
+      "id": "64gk05kc0lrz",
+      "name": "Search",
+      "status": "operational",
+      "created_at": "2013-12-03T00:45:30.772Z",
+      "updated_at": "2021-11-26T06:10:47.389Z",
+      "position": 12,
+      "description": null,
       "showcase": true,
       "start_date": null,
       "group_id": "d0m8l367qqw5",
@@ -671,12 +686,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "64gk05kc0lrz",
-      "name": "Search",
+      "id": "1vvmngd73171",
+      "name": "Vendor management",
       "status": "operational",
-      "created_at": "2013-12-03T00:45:30.772Z",
-      "updated_at": "2021-11-26T06:10:47.389Z",
-      "position": 12,
+      "created_at": "2018-02-01T17:53:33.728Z",
+      "updated_at": "2022-09-28T11:02:03.872Z",
+      "position": 13,
       "description": null,
       "showcase": true,
       "start_date": null,
@@ -701,21 +716,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "1vvmngd73171",
-      "name": "Vendor management",
-      "status": "operational",
-      "created_at": "2018-02-01T17:53:33.728Z",
-      "updated_at": "2022-09-28T11:02:03.872Z",
-      "position": 13,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "d0m8l367qqw5",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "wm1wfkvnffmt",
       "name": "Vendor Home Page",
       "status": "operational",
@@ -732,97 +732,9 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "64chsmr5vfvw",
-      "name": "Upgrade data landing platform for partner reporting",
-      "status": "in_progress",
-      "created_at": "2022-10-12T16:04:24.232Z",
-      "updated_at": "2022-10-13T01:30:38.880Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/22fhdnb3slr1",
-      "started_at": "2022-10-12T16:04:24.222Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "l3wg7t55vs6d",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "64chsmr5vfvw",
-          "created_at": "2022-10-13T01:30:38.876Z",
-          "updated_at": "2022-10-13T01:30:38.876Z",
-          "display_at": "2022-10-13T01:30:38.876Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "hfdv6kg6m765",
-          "status": "scheduled",
-          "body": "Maintenance will begin as scheduled in 60 minutes.",
-          "incident_id": "64chsmr5vfvw",
-          "created_at": "2022-10-13T00:30:22.616Z",
-          "updated_at": "2022-10-13T00:30:22.616Z",
-          "display_at": "2022-10-13T00:30:22.616Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "lmrrhf4x2zdf",
-          "status": "scheduled",
-          "body": "We are upgrading the data landing framework for our partner reporting pipeline. Post the maintenance partners would be able to see a bump in the records received via the reporting APIs. \n\nOverall (across partners) new data that would start flowing in post the maintenance :\n* Transactions ~300\n* Licenses ~10\n\nOverall (across partners) updates expected post the maintenance :\nWe are also improving the data freshness for the existing licenses data that would lead to an update going out for ~12000 licenses.",
-          "incident_id": "64chsmr5vfvw",
-          "created_at": "2022-10-12T16:04:24.296Z",
-          "updated_at": "2022-10-12T16:04:24.296Z",
-          "display_at": "2022-10-12T16:04:24.296Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "hk36hlvygg2q",
-          "name": "Reporting APIs and dashboards",
-          "status": "under_maintenance",
-          "created_at": "2013-12-03T00:45:26.014Z",
-          "updated_at": "2022-10-13T01:30:38.775Z",
-          "position": 11,
-          "description": "Marketing attribution reports are now operational.",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2022-10-13T01:30:00.000Z",
-      "scheduled_until": "2022-10-13T04:30:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
