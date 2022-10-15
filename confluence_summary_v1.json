@@ -4,7 +4,7 @@
     "name": "Confluence",
     "url": "https://confluence.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-10-15T04:19:46.292Z"
+    "updated_at": "2022-10-15T04:21:48.666Z"
   },
   "components": [
     {
@@ -214,7 +214,7 @@
       "name": "Notice of upcoming unavailability of Confluence Cloud",
       "status": "in_progress",
       "created_at": "2022-10-12T23:19:11.946Z",
-      "updated_at": "2022-10-15T04:19:46.285Z",
+      "updated_at": "2022-10-15T04:21:48.657Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -225,10 +225,10 @@
         {
           "id": "3hjyfllrhrwb",
           "status": "in_progress",
-          "body": "Scheduled maintenance is still in progress. \n\nThe maintenance operations for our APAC regions are taking longer than expected. \n\nCustomers whose Confluence sites are hosted in these regions can expect 10-15 minutes of downtime between 04:00 - 7:00 UTC today.\n\nWe will provide any further updates as necessary.",
+          "body": "Scheduled maintenance for customers that have a database hosted in any of our APAC regions is running over time. \n\nThe initial communicated maintenance window was Saturday, October 15th between 02:00 - 04:00 UTC. \n\nOur estimated finish time is now Saturday, October 15th 7:00 UTC. \n\nYour instance will only be unavailable for 10-15 minutes during this maintenance window.",
           "incident_id": "03z7mcsld82h",
           "created_at": "2022-10-15T04:14:11.660Z",
-          "updated_at": "2022-10-15T04:19:46.281Z",
+          "updated_at": "2022-10-15T04:21:48.652Z",
           "display_at": "2022-10-15T04:14:11.660Z",
           "affected_components": [
             {
