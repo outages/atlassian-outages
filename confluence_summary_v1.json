@@ -4,15 +4,15 @@
     "name": "Confluence",
     "url": "https://confluence.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-10-17T01:55:12.697Z"
+    "updated_at": "2022-10-17T02:43:48.558Z"
   },
   "components": [
     {
       "id": "bl9mxbb582vk",
       "name": "View Content",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-11-12T04:04:58.123Z",
-      "updated_at": "2022-10-15T02:01:06.309Z",
+      "updated_at": "2022-10-17T02:43:48.313Z",
       "position": 1,
       "description": "Viewing pages or dashboards",
       "showcase": false,
@@ -55,9 +55,9 @@
     {
       "id": "y4z6hxpf7d7t",
       "name": "Create and Edit",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-11-12T04:04:58.145Z",
-      "updated_at": "2022-10-15T02:01:06.335Z",
+      "updated_at": "2022-10-17T02:43:48.333Z",
       "position": 2,
       "description": null,
       "showcase": false,
@@ -70,9 +70,9 @@
     {
       "id": "snpbn00x0g0k",
       "name": "Comments",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-11-30T21:50:37.850Z",
-      "updated_at": "2022-10-15T02:01:06.357Z",
+      "updated_at": "2022-10-17T02:43:48.354Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -85,9 +85,9 @@
     {
       "id": "n779hf70xvvb",
       "name": "Authentication and User Management",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2019-05-02T04:25:15.382Z",
-      "updated_at": "2022-10-15T02:01:06.376Z",
+      "updated_at": "2022-10-17T02:43:48.375Z",
       "position": 4,
       "description": null,
       "showcase": false,
@@ -100,9 +100,9 @@
     {
       "id": "5fjwzmlch883",
       "name": "Search",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-11-30T21:50:44.178Z",
-      "updated_at": "2022-10-15T02:01:06.400Z",
+      "updated_at": "2022-10-17T02:43:48.395Z",
       "position": 5,
       "description": null,
       "showcase": false,
@@ -115,9 +115,9 @@
     {
       "id": "p8qwf8g1xjs4",
       "name": "Administration",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-11-30T21:50:51.221Z",
-      "updated_at": "2022-10-15T02:01:06.424Z",
+      "updated_at": "2022-10-17T02:43:48.414Z",
       "position": 6,
       "description": "Site, space, and user administration",
       "showcase": false,
@@ -130,9 +130,9 @@
     {
       "id": "4gcj9wwwkfrm",
       "name": "Notifications",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-11-30T21:50:59.891Z",
-      "updated_at": "2022-10-15T02:01:06.446Z",
+      "updated_at": "2022-10-17T02:43:48.433Z",
       "position": 7,
       "description": null,
       "showcase": false,
@@ -145,9 +145,9 @@
     {
       "id": "s0zdf6p5dhv7",
       "name": "Marketplace Apps",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-11-30T21:51:46.679Z",
-      "updated_at": "2022-10-15T02:01:06.470Z",
+      "updated_at": "2022-10-17T02:43:48.452Z",
       "position": 8,
       "description": null,
       "showcase": false,
@@ -179,9 +179,9 @@
     {
       "id": "hht3wjcyn1fv",
       "name": "Purchasing & Licensing",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2020-04-28T00:48:12.013Z",
-      "updated_at": "2022-10-15T02:01:06.503Z",
+      "updated_at": "2022-10-17T02:43:48.472Z",
       "position": 10,
       "description": null,
       "showcase": false,
@@ -194,9 +194,9 @@
     {
       "id": "qkxm9wlprp6h",
       "name": "Signup",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2020-10-09T20:36:17.712Z",
-      "updated_at": "2022-10-15T02:01:06.578Z",
+      "updated_at": "2022-10-17T02:43:48.494Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -208,636 +208,9 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "03z7mcsld82h",
-      "name": "Notice of upcoming unavailability of Confluence Cloud",
-      "status": "in_progress",
-      "created_at": "2022-10-12T23:19:11.946Z",
-      "updated_at": "2022-10-17T01:55:12.686Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/6ccll6863nsn",
-      "started_at": "2022-10-15T04:14:11.660Z",
-      "page_id": "4g2my7tbhjsq",
-      "incident_updates": [
-        {
-          "id": "qfmdfsh13rbx",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is still in progress. We will provide updates as necessary.",
-          "incident_id": "03z7mcsld82h",
-          "created_at": "2022-10-17T01:55:12.683Z",
-          "updated_at": "2022-10-17T01:55:12.683Z",
-          "display_at": "2022-10-17T01:55:12.683Z",
-          "affected_components": [
-            {
-              "code": "bl9mxbb582vk",
-              "name": "View Content",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "y4z6hxpf7d7t",
-              "name": "Create and Edit",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "snpbn00x0g0k",
-              "name": "Comments",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "5fjwzmlch883",
-              "name": "Search",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "p8qwf8g1xjs4",
-              "name": "Administration",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "4gcj9wwwkfrm",
-              "name": "Notifications",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "s0zdf6p5dhv7",
-              "name": "Marketplace Apps",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "n779hf70xvvb",
-              "name": "Authentication and User Management",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "hht3wjcyn1fv",
-              "name": "Purchasing & Licensing",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "qkxm9wlprp6h",
-              "name": "Signup",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "df6y2dgy1bqj",
-          "status": "in_progress",
-          "body": "Scheduled maintenance for customers that have a database hosted in any of our EU regions is completed as planned.",
-          "incident_id": "03z7mcsld82h",
-          "created_at": "2022-10-16T17:01:21.847Z",
-          "updated_at": "2022-10-16T17:01:21.847Z",
-          "display_at": "2022-10-16T17:01:21.847Z",
-          "affected_components": [
-            {
-              "code": "bl9mxbb582vk",
-              "name": "View Content",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "y4z6hxpf7d7t",
-              "name": "Create and Edit",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "snpbn00x0g0k",
-              "name": "Comments",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "5fjwzmlch883",
-              "name": "Search",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "p8qwf8g1xjs4",
-              "name": "Administration",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "4gcj9wwwkfrm",
-              "name": "Notifications",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "s0zdf6p5dhv7",
-              "name": "Marketplace Apps",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "n779hf70xvvb",
-              "name": "Authentication and User Management",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "hht3wjcyn1fv",
-              "name": "Purchasing & Licensing",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "qkxm9wlprp6h",
-              "name": "Signup",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "xvyx0ryg9z63",
-          "status": "in_progress",
-          "body": "Scheduled maintenance for customers that have a database hosted in any of our APAC regions is now complete.",
-          "incident_id": "03z7mcsld82h",
-          "created_at": "2022-10-15T05:58:56.895Z",
-          "updated_at": "2022-10-15T05:58:56.895Z",
-          "display_at": "2022-10-15T05:58:56.895Z",
-          "affected_components": [
-            {
-              "code": "bl9mxbb582vk",
-              "name": "View Content",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "y4z6hxpf7d7t",
-              "name": "Create and Edit",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "snpbn00x0g0k",
-              "name": "Comments",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "5fjwzmlch883",
-              "name": "Search",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "p8qwf8g1xjs4",
-              "name": "Administration",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "4gcj9wwwkfrm",
-              "name": "Notifications",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "s0zdf6p5dhv7",
-              "name": "Marketplace Apps",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "n779hf70xvvb",
-              "name": "Authentication and User Management",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "hht3wjcyn1fv",
-              "name": "Purchasing & Licensing",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "qkxm9wlprp6h",
-              "name": "Signup",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "3hjyfllrhrwb",
-          "status": "in_progress",
-          "body": "Scheduled maintenance for customers that have a database hosted in any of our APAC regions is running over time. \n\nThe initial communicated maintenance window was Saturday, October 15th between 02:00 - 04:00 UTC. \n\nOur estimated finish time is now Saturday, October 15th 7:00 UTC. \n\nYour instance will only be unavailable for 10-15 minutes during this maintenance window.",
-          "incident_id": "03z7mcsld82h",
-          "created_at": "2022-10-15T04:14:11.660Z",
-          "updated_at": "2022-10-15T04:21:48.652Z",
-          "display_at": "2022-10-15T04:14:11.660Z",
-          "affected_components": [
-            {
-              "code": "bl9mxbb582vk",
-              "name": "View Content",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "y4z6hxpf7d7t",
-              "name": "Create and Edit",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "snpbn00x0g0k",
-              "name": "Comments",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "5fjwzmlch883",
-              "name": "Search",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "p8qwf8g1xjs4",
-              "name": "Administration",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "4gcj9wwwkfrm",
-              "name": "Notifications",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "s0zdf6p5dhv7",
-              "name": "Marketplace Apps",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "n779hf70xvvb",
-              "name": "Authentication and User Management",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "hht3wjcyn1fv",
-              "name": "Purchasing & Licensing",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "qkxm9wlprp6h",
-              "name": "Signup",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "mn2hn147fxpb",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "03z7mcsld82h",
-          "created_at": "2022-10-15T02:01:06.640Z",
-          "updated_at": "2022-10-15T02:01:06.640Z",
-          "display_at": "2022-10-15T02:01:06.640Z",
-          "affected_components": [
-            {
-              "code": "bl9mxbb582vk",
-              "name": "View Content",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "y4z6hxpf7d7t",
-              "name": "Create and Edit",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "snpbn00x0g0k",
-              "name": "Comments",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "5fjwzmlch883",
-              "name": "Search",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "p8qwf8g1xjs4",
-              "name": "Administration",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "4gcj9wwwkfrm",
-              "name": "Notifications",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "s0zdf6p5dhv7",
-              "name": "Marketplace Apps",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "n779hf70xvvb",
-              "name": "Authentication and User Management",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "hht3wjcyn1fv",
-              "name": "Purchasing & Licensing",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "qkxm9wlprp6h",
-              "name": "Signup",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "tsvmdf9xswss",
-          "status": "scheduled",
-          "body": "Maintenance will begin as scheduled in 60 minutes.",
-          "incident_id": "03z7mcsld82h",
-          "created_at": "2022-10-15T01:00:26.409Z",
-          "updated_at": "2022-10-15T01:00:26.409Z",
-          "display_at": "2022-10-15T01:00:26.409Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "m1j4sxk3vz7c",
-          "status": "scheduled",
-          "body": "We wanted to share that some Confluence Cloud sites will be unavailable for 10 to 15 minutes during this weekend:\n\nSaturday, October 15th between 02:00 - 04:00 UTC if the database is hosted in any of our APAC regions\n\nSaturday, October 15th between 19:00-21:00 UTC if the database is hosted in any of our EU regions\n\nMonday, October 17th between 02:00-04:00 UTC if the database is hosted in any of our US regions\n\nCustomers who are impacted have been sent emails to their site admins and tech contacts. Atlassian is performing a time-sensitive, one-time maintenance operation required by our infrastructure provider to upgrade the operating system that runs the Confluence database. This is not a security update, and the integrity of your sites and data are not at risk and will not be affected as a result of this upgrade.\n\nPlease refer to our FAQs for additional information: https://community.atlassian.com/t5/Confluence-Cloud-articles/Notice-of-upcoming-unavailability-of-Confluence-Cloud/ba-p/2160862",
-          "incident_id": "03z7mcsld82h",
-          "created_at": "2022-10-12T23:19:12.046Z",
-          "updated_at": "2022-10-12T23:19:12.046Z",
-          "display_at": "2022-10-12T23:19:12.046Z",
-          "affected_components": [
-            {
-              "code": "bl9mxbb582vk",
-              "name": "View Content",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "y4z6hxpf7d7t",
-              "name": "Create and Edit",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "snpbn00x0g0k",
-              "name": "Comments",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "5fjwzmlch883",
-              "name": "Search",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "p8qwf8g1xjs4",
-              "name": "Administration",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "4gcj9wwwkfrm",
-              "name": "Notifications",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "s0zdf6p5dhv7",
-              "name": "Marketplace Apps",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "n779hf70xvvb",
-              "name": "Authentication and User Management",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "hht3wjcyn1fv",
-              "name": "Purchasing & Licensing",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "qkxm9wlprp6h",
-              "name": "Signup",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "bl9mxbb582vk",
-          "name": "View Content",
-          "status": "under_maintenance",
-          "created_at": "2018-11-12T04:04:58.123Z",
-          "updated_at": "2022-10-15T02:01:06.309Z",
-          "position": 1,
-          "description": "Viewing pages or dashboards",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "4g2my7tbhjsq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "y4z6hxpf7d7t",
-          "name": "Create and Edit",
-          "status": "under_maintenance",
-          "created_at": "2018-11-12T04:04:58.145Z",
-          "updated_at": "2022-10-15T02:01:06.335Z",
-          "position": 2,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "4g2my7tbhjsq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "snpbn00x0g0k",
-          "name": "Comments",
-          "status": "under_maintenance",
-          "created_at": "2018-11-30T21:50:37.850Z",
-          "updated_at": "2022-10-15T02:01:06.357Z",
-          "position": 3,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "4g2my7tbhjsq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "n779hf70xvvb",
-          "name": "Authentication and User Management",
-          "status": "under_maintenance",
-          "created_at": "2019-05-02T04:25:15.382Z",
-          "updated_at": "2022-10-15T02:01:06.376Z",
-          "position": 4,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "4g2my7tbhjsq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "5fjwzmlch883",
-          "name": "Search",
-          "status": "under_maintenance",
-          "created_at": "2018-11-30T21:50:44.178Z",
-          "updated_at": "2022-10-15T02:01:06.400Z",
-          "position": 5,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "4g2my7tbhjsq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "p8qwf8g1xjs4",
-          "name": "Administration",
-          "status": "under_maintenance",
-          "created_at": "2018-11-30T21:50:51.221Z",
-          "updated_at": "2022-10-15T02:01:06.424Z",
-          "position": 6,
-          "description": "Site, space, and user administration",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "4g2my7tbhjsq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "4gcj9wwwkfrm",
-          "name": "Notifications",
-          "status": "under_maintenance",
-          "created_at": "2018-11-30T21:50:59.891Z",
-          "updated_at": "2022-10-15T02:01:06.446Z",
-          "position": 7,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "4g2my7tbhjsq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "s0zdf6p5dhv7",
-          "name": "Marketplace Apps",
-          "status": "under_maintenance",
-          "created_at": "2018-11-30T21:51:46.679Z",
-          "updated_at": "2022-10-15T02:01:06.470Z",
-          "position": 8,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "4g2my7tbhjsq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "hht3wjcyn1fv",
-          "name": "Purchasing & Licensing",
-          "status": "under_maintenance",
-          "created_at": "2020-04-28T00:48:12.013Z",
-          "updated_at": "2022-10-15T02:01:06.503Z",
-          "position": 10,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "4g2my7tbhjsq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "qkxm9wlprp6h",
-          "name": "Signup",
-          "status": "under_maintenance",
-          "created_at": "2020-10-09T20:36:17.712Z",
-          "updated_at": "2022-10-15T02:01:06.578Z",
-          "position": 11,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-10-09",
-          "group_id": null,
-          "page_id": "4g2my7tbhjsq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2022-10-15T02:00:00.000Z",
-      "scheduled_until": "2022-10-17T04:00:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
