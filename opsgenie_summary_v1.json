@@ -4,7 +4,7 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-10-18T11:23:38.048Z"
+    "updated_at": "2022-10-18T11:44:07.533Z"
   },
   "components": [
     {
@@ -25,7 +25,7 @@
     {
       "id": "jzqq334r65mx",
       "name": "US",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-02-12T13:47:31.055Z",
       "updated_at": "2019-03-15T08:16:16.977Z",
       "position": 1,
@@ -94,7 +94,7 @@
     {
       "id": "k7gyfk44wrsr",
       "name": "EU",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-02-12T13:47:54.389Z",
       "updated_at": "2019-02-12T13:47:54.389Z",
       "position": 2,
@@ -643,9 +643,9 @@
     {
       "id": "p88rmktvpp6p",
       "name": "Reporting & Analytics",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-02-12T13:47:31.068Z",
-      "updated_at": "2022-10-18T10:47:24.699Z",
+      "updated_at": "2022-10-18T11:44:07.471Z",
       "position": 19,
       "description": "Reporting page",
       "showcase": true,
@@ -673,9 +673,9 @@
     {
       "id": "lz2zqb1vtlp4",
       "name": "Reporting & Analytics",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-02-12T13:47:54.400Z",
-      "updated_at": "2022-10-18T10:47:24.720Z",
+      "updated_at": "2022-10-18T11:44:07.489Z",
       "position": 20,
       "description": "Reporting Page",
       "showcase": true,
@@ -765,16 +765,42 @@
     {
       "id": "q77l8myrqzpl",
       "name": "Opsgenie reporting & Analytics are not accessible",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2022-10-18T10:47:24.654Z",
-      "updated_at": "2022-10-18T10:47:24.771Z",
-      "monitoring_at": null,
+      "updated_at": "2022-10-18T11:44:07.531Z",
+      "monitoring_at": "2022-10-18T11:44:07.517Z",
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/47690vcrjkjy",
       "started_at": "2022-10-18T10:47:24.642Z",
       "page_id": "t05vdsszxwtq",
       "incident_updates": [
+        {
+          "id": "4n0k5tl17jtq",
+          "status": "monitoring",
+          "body": "Customers were not able to access Opsgenie reporting & Analytics between 9:36 AM UTC & 11:40 AM UTC. We identified the root cause to be one of the recent deployments and we have reverted the change to fix the issue. Currently we are monitoring the current state and validating it with support ticket owners.",
+          "incident_id": "q77l8myrqzpl",
+          "created_at": "2022-10-18T11:44:07.517Z",
+          "updated_at": "2022-10-18T11:44:07.517Z",
+          "display_at": "2022-10-18T11:44:07.517Z",
+          "affected_components": [
+            {
+              "code": "p88rmktvpp6p",
+              "name": "US - Reporting & Analytics",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "lz2zqb1vtlp4",
+              "name": "EU - Reporting & Analytics",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "jc2zrksj2ztv",
           "status": "identified",
@@ -806,9 +832,9 @@
         {
           "id": "p88rmktvpp6p",
           "name": "Reporting & Analytics",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2019-02-12T13:47:31.068Z",
-          "updated_at": "2022-10-18T10:47:24.699Z",
+          "updated_at": "2022-10-18T11:44:07.471Z",
           "position": 19,
           "description": "Reporting page",
           "showcase": true,
@@ -821,9 +847,9 @@
         {
           "id": "lz2zqb1vtlp4",
           "name": "Reporting & Analytics",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2019-02-12T13:47:54.400Z",
-          "updated_at": "2022-10-18T10:47:24.720Z",
+          "updated_at": "2022-10-18T11:44:07.489Z",
           "position": 20,
           "description": "Reporting Page",
           "showcase": true,
@@ -838,7 +864,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
