@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-10-20T15:23:32.164Z"
+    "updated_at": "2022-10-20T15:46:49.296Z"
   },
   "components": [
     {
@@ -767,16 +767,120 @@
     {
       "id": "vlbtqj7c5rrr",
       "name": "Marketplace outage",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2022-10-20T15:15:15.722Z",
-      "updated_at": "2022-10-20T15:15:25.910Z",
-      "monitoring_at": null,
+      "updated_at": "2022-10-20T15:46:49.293Z",
+      "monitoring_at": "2022-10-20T15:46:49.275Z",
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/5wlntvvmzsxr",
       "started_at": "2022-10-20T15:15:15.696Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "n3xd06bh0f2j",
+          "status": "monitoring",
+          "body": "A fix has been implemented and we are monitoring the results.",
+          "incident_id": "vlbtqj7c5rrr",
+          "created_at": "2022-10-20T15:46:49.275Z",
+          "updated_at": "2022-10-20T15:46:49.275Z",
+          "display_at": "2022-10-20T15:46:49.275Z",
+          "affected_components": [
+            {
+              "code": "mlr76v811c20",
+              "name": "Marketplace - App listing management",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "g04n852g3nt6",
+              "name": "Marketplace - App listings",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "d1hybyzmqlvq",
+              "name": "Marketplace - App pricing",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "7z6w09hl9mn0",
+              "name": "Marketplace - App submissions",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "ydgwbb3wn2c6",
+              "name": "Marketplace - Category landing pages",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "kj290v20168q",
+              "name": "Marketplace - Evaluations and purchases",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "3t1y6724xl8q",
+              "name": "Marketplace - In-product Marketplace and app installation (Cloud)",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "ngby5fdfj3px",
+              "name": "Marketplace - In-product Marketplace and app installation (Server)",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "y1fdrctjbkx0",
+              "name": "Marketplace - Notifications",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "7lx3k072bl6z",
+              "name": "Marketplace - Private listings",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "64gk05kc0lrz",
+              "name": "Marketplace - Search",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "1vvmngd73171",
+              "name": "Marketplace - Vendor management",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "wm1wfkvnffmt",
+              "name": "Marketplace - Vendor Home Page",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "fjsq71xwd3rn",
+              "name": "Authentication and user management",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "vrtvprqfwp2g",
           "status": "investigating",
