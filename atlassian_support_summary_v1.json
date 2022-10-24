@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-09-26T02:36:57.498Z"
+    "updated_at": "2022-10-24T15:29:37.414Z"
   },
   "components": [
     {
@@ -190,9 +190,9 @@
     {
       "id": "wbnb8zl1mqq0",
       "name": "Preferences Center",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2022-04-07T16:44:10.578Z",
-      "updated_at": "2022-04-07T16:58:56.987Z",
+      "updated_at": "2022-10-24T15:29:37.362Z",
       "position": 13,
       "description": "A tool to update email preferences and subscriptions found at preferences.atlassian.com. This can be accessed either from the \"Unsubscribe\" link on Atlassian marketing emails or from https://id.atlassian.com/manage-profile/email while logged into your Atlassian account.",
       "showcase": true,
@@ -203,10 +203,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "1gthd64196cn",
+      "name": "Unable to update preferences.",
+      "status": "identified",
+      "created_at": "2022-10-24T15:29:37.324Z",
+      "updated_at": "2022-10-24T15:29:37.411Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/bc8zk3b3spcl",
+      "started_at": "2022-10-24T15:29:37.318Z",
+      "page_id": "3tbw4lb9t3qp",
+      "incident_updates": [
+        {
+          "id": "jz5531ms984d",
+          "status": "identified",
+          "body": "The issue has been identified, and the fix is being implemented.",
+          "incident_id": "1gthd64196cn",
+          "created_at": "2022-10-24T15:29:37.408Z",
+          "updated_at": "2022-10-24T15:29:37.408Z",
+          "display_at": "2022-10-24T15:29:37.408Z",
+          "affected_components": [
+            {
+              "code": "wbnb8zl1mqq0",
+              "name": "Preferences Center",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "wbnb8zl1mqq0",
+          "name": "Preferences Center",
+          "status": "partial_outage",
+          "created_at": "2022-04-07T16:44:10.578Z",
+          "updated_at": "2022-10-24T15:29:37.362Z",
+          "position": 13,
+          "description": "A tool to update email preferences and subscriptions found at preferences.atlassian.com. This can be accessed either from the \"Unsubscribe\" link on Atlassian marketing emails or from https://id.atlassian.com/manage-profile/email while logged into your Atlassian account.",
+          "showcase": true,
+          "start_date": "2022-04-07",
+          "group_id": null,
+          "page_id": "3tbw4lb9t3qp",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
