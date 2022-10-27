@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-10-26T08:23:31.880Z"
+    "updated_at": "2022-10-27T06:23:30.361Z"
   },
   "components": [
     {
@@ -204,7 +204,83 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "1dg8hsqfbc2w",
+      "name": "Bitbucket Connect Application Properties maintenance",
+      "status": "scheduled",
+      "created_at": "2022-10-27T06:15:33.968Z",
+      "updated_at": "2022-10-27T06:15:34.669Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/qchjzrxm5cqc",
+      "started_at": "2022-10-27T06:15:33.964Z",
+      "page_id": "bqlf8qjztdtr",
+      "incident_updates": [
+        {
+          "id": "r1nxyxzkfww3",
+          "status": "scheduled",
+          "body": "On Monday, 31st October 2022, from 2:30am to 5:30am UTC, Bitbucket Connect Application Properties will undergo a planned database maintenance. \n\nDuring this time, Application Properties will not be accessible by Bitbucket Connect applications, including usage of Application Properties in Bitbucket Connect application descriptor conditions and page URLs, and the Application Properties read/write APIs.",
+          "incident_id": "1dg8hsqfbc2w",
+          "created_at": "2022-10-27T06:15:34.009Z",
+          "updated_at": "2022-10-27T06:15:34.645Z",
+          "display_at": "2022-10-27T06:15:34.009Z",
+          "affected_components": [
+            {
+              "code": "g0lfj4sv2fhf",
+              "name": "Website",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "k0x2yw1435v7",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1585515530236358700
+        }
+      ],
+      "components": [
+        {
+          "id": "g0lfj4sv2fhf",
+          "name": "Website",
+          "status": "operational",
+          "created_at": "2013-09-26T03:34:27.377Z",
+          "updated_at": "2022-10-04T08:39:21.753Z",
+          "position": 1,
+          "description": "Access to bitbucket.org",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "k0x2yw1435v7",
+          "name": "API",
+          "status": "operational",
+          "created_at": "2015-06-05T19:34:43.541Z",
+          "updated_at": "2022-10-04T08:39:21.773Z",
+          "position": 2,
+          "description": "Access to api.bitbucket.org",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "bqlf8qjztdtr",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2022-10-31T02:30:00.000Z",
+      "scheduled_until": "2022-10-31T05:30:00.000Z"
+    }
+  ],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
