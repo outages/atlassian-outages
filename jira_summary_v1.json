@@ -4,7 +4,7 @@
     "name": "Jira Software",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-11-11T21:23:36.699Z"
+    "updated_at": "2022-11-12T00:23:36.841Z"
   },
   "components": [
     {
@@ -115,9 +115,9 @@
     {
       "id": "39kyw28g27ws",
       "name": "Mobile",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-01-07T07:53:59.871Z",
-      "updated_at": "2022-11-11T21:02:41.512Z",
+      "updated_at": "2022-11-12T00:01:30.329Z",
       "position": 8,
       "description": "Covers any problems specific to native iOS or Android mobile apps.",
       "showcase": false,
@@ -173,83 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "mx2f7cth8n7c",
-      "name": "Android users of Jira, Confluence and Opsgenie app with Compromised device check feature turned on is getting locked out of their app",
-      "status": "identified",
-      "created_at": "2022-11-11T21:02:41.461Z",
-      "updated_at": "2022-11-11T21:03:27.593Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/txk6fkclg488",
-      "started_at": "2022-11-11T21:02:41.453Z",
-      "page_id": "7yh3h3y0c0x1",
-      "incident_updates": [
-        {
-          "id": "zzzxrfx5k5bx",
-          "status": "identified",
-          "body": "We are investigating an issue where Android users of Jira, Confluence and Opsgenie app with the Compromised device check feature turned on is getting locked out of their app. \r\n\r\nNote that this is only affecting the Android mobile app for customers who have turned on the Compromised device check feature via admin.atlassian.com",
-          "incident_id": "mx2f7cth8n7c",
-          "created_at": "2022-11-11T21:03:27.590Z",
-          "updated_at": "2022-11-11T21:03:27.590Z",
-          "display_at": "2022-11-11T21:03:27.590Z",
-          "affected_components": [
-            {
-              "code": "39kyw28g27ws",
-              "name": "Mobile",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "94jqjnx9cp83",
-          "status": "identified",
-          "body": "We are investigating reports of intermittent errors for <SOME/ALL> Confluence, Jira Software, and Opsgenie Cloud customers. We will provide more details once we identify the root cause.",
-          "incident_id": "mx2f7cth8n7c",
-          "created_at": "2022-11-11T21:02:41.554Z",
-          "updated_at": "2022-11-11T21:02:41.554Z",
-          "display_at": "2022-11-11T21:02:41.554Z",
-          "affected_components": [
-            {
-              "code": "39kyw28g27ws",
-              "name": "Mobile",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "39kyw28g27ws",
-          "name": "Mobile",
-          "status": "partial_outage",
-          "created_at": "2019-01-07T07:53:59.871Z",
-          "updated_at": "2022-11-11T21:02:41.512Z",
-          "position": 8,
-          "description": "Covers any problems specific to native iOS or Android mobile apps.",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "7yh3h3y0c0x1",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
