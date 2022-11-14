@@ -4,7 +4,7 @@
     "name": "Atlassian Statuspage",
     "url": "http://metastatuspage.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2022-11-09T16:05:09.414-08:00"
+    "updated_at": "2022-11-14T15:03:35.270-08:00"
   },
   "components": [
     {
@@ -818,6 +818,37 @@
   ],
   "incidents": [],
   "scheduled_maintenances": [
+    {
+      "id": "3wvyswbb56v6",
+      "name": "Statuspage Platform Maintenance",
+      "status": "scheduled",
+      "created_at": "2022-11-14T15:03:35.219-08:00",
+      "updated_at": "2022-11-14T15:03:35.267-08:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "http://mstspg.co/bqb7kzn5yr5q",
+      "started_at": "2022-11-14T15:03:35.215-08:00",
+      "page_id": "y2j98763l56x",
+      "incident_updates": [
+        {
+          "id": "f6vprh7btvtl",
+          "status": "scheduled",
+          "body": "Statuspage will go under maintenance for up to 1 hour for operational updates. No customer-facing impact is expected.",
+          "incident_id": "3wvyswbb56v6",
+          "created_at": "2022-11-14T15:03:35.265-08:00",
+          "updated_at": "2022-11-14T15:03:35.265-08:00",
+          "display_at": "2022-11-14T15:03:35.265-08:00",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "scheduled_for": "2022-11-15T10:00:00.000-08:00",
+      "scheduled_until": "2022-11-15T11:00:00.000-08:00"
+    },
     {
       "id": "l85bpxy7znt9",
       "name": "Upcoming changes to enforce pagination for the authenticated REST API",
