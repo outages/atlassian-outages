@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-11-10T14:23:29.621Z"
+    "updated_at": "2022-11-14T05:47:36.649Z"
   },
   "components": [
     {
@@ -785,7 +785,7 @@
       "name": "Newly created issue type schemes on some Jira instances returns invalid defaultIssueTypeId field in the REST API",
       "status": "identified",
       "created_at": "2022-11-10T13:55:09.701Z",
-      "updated_at": "2022-11-10T13:55:09.805Z",
+      "updated_at": "2022-11-14T05:47:36.639Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -793,6 +793,26 @@
       "started_at": "2022-11-10T13:55:09.690Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "9cnvykrn25fp",
+          "status": "identified",
+          "body": "Newly created issue type schemes on some Jira instances have an invalid value of field defaultIssueTypeId. In these cases the defaultIssueTypeId might be empty or contain the value from a previously created issue type scheme. This issue is observed only in the API /rest/api/version/issuetypescheme, the user interface is not affected. This issue only manifests on newly created issue type schemes - previously created issue type schemes have a valid value of defaultIssueTypeId field.\r\n\r\nTimeline\r\n- 3rd November at 9:10 am AEST a change was rolled out to 5 per cent of customers which caused this bug to surface on those instances\r\n- 4th Nov - 9th Nov: The change causing this issue to surface was rolled out to 40 per cent of customers\r\n- 10th Nov: The cause was identified and the rollout of the change was stopped so that no further customers would be affected by this issue. Customers with the change already applied continue to see this problem\r\n- 11th Nov: A fix for the problem was created and has been applied to all internal environments\r\n\r\nThe deployment of the fix is on hold from production environments due to an unrelated issue.\r\n\r\nWe will provide another update by Wednesday 16th of November 05:00 UTC, in about 48 hours from now.",
+          "incident_id": "8ddkrfrbxjb4",
+          "created_at": "2022-11-14T05:47:36.637Z",
+          "updated_at": "2022-11-14T05:47:36.637Z",
+          "display_at": "2022-11-14T05:47:36.637Z",
+          "affected_components": [
+            {
+              "code": "cc6gw24m02wp",
+              "name": "APIs - Jira Cloud APIs",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "qqjmrpjbh7s3",
           "status": "identified",
