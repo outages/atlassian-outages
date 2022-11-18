@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-11-18T18:23:59.257Z"
+    "updated_at": "2022-11-18T20:34:49.331Z"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "dwt504s3m4c1",
       "name": "Create and edit",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2018-11-16T18:17:29.284Z",
-      "updated_at": "2022-09-06T05:26:30.290Z",
+      "updated_at": "2022-11-18T20:34:49.274Z",
       "position": 2,
       "description": "Problems creating or editing issues, projects, boards, reports, dashboards and the ability to comment, assign, and attach media.",
       "showcase": false,
@@ -173,10 +173,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "t0gyfz308j2q",
+      "name": "Degraded user experience in Jira issue view",
+      "status": "investigating",
+      "created_at": "2022-11-18T20:34:49.229Z",
+      "updated_at": "2022-11-18T20:34:49.328Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/j6bfvnx9k5tp",
+      "started_at": "2022-11-18T20:34:49.223Z",
+      "page_id": "s6f0gm5gcpmy",
+      "incident_updates": [
+        {
+          "id": "dd8g2k12xpqq",
+          "status": "investigating",
+          "body": "We have identified a problem with Jira custom fields where the user is interacting with the issue. We believe this is only impacting the custom fields powered by Forge, but investigating if the impact is beyond that. We are investigating the root cause and will provide another update by 21:30 UTC, an hour from now.",
+          "incident_id": "t0gyfz308j2q",
+          "created_at": "2022-11-18T20:34:49.326Z",
+          "updated_at": "2022-11-18T20:34:49.326Z",
+          "display_at": "2022-11-18T20:34:49.326Z",
+          "affected_components": [
+            {
+              "code": "dwt504s3m4c1",
+              "name": "Create and edit",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "dwt504s3m4c1",
+          "name": "Create and edit",
+          "status": "partial_outage",
+          "created_at": "2018-11-16T18:17:29.284Z",
+          "updated_at": "2022-11-18T20:34:49.274Z",
+          "position": 2,
+          "description": "Problems creating or editing issues, projects, boards, reports, dashboards and the ability to comment, assign, and attach media.",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "s6f0gm5gcpmy",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
