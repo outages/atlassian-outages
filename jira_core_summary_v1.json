@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-11-18T22:07:31.071Z"
+    "updated_at": "2022-11-19T01:23:39.137Z"
   },
   "components": [
     {
@@ -173,80 +173,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "t0gyfz308j2q",
-      "name": "Degraded user experience in Jira issue view",
-      "status": "investigating",
-      "created_at": "2022-11-18T20:34:49.229Z",
-      "updated_at": "2022-11-18T22:07:31.061Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/j6bfvnx9k5tp",
-      "started_at": "2022-11-18T20:34:49.223Z",
-      "page_id": "s6f0gm5gcpmy",
-      "incident_updates": [
-        {
-          "id": "xc47w857wgld",
-          "status": "investigating",
-          "body": "We have identified a problem with Jira custom fields where the user is interacting with the issue. We believe this is only impacting the custom fields powered by Forge, but still investigating if Connect is also impacted.\r\n\r\nIt appears all the custom fields visible in the issue view field are rendered while user is typing in the comment field. This results in a slow user experience and excessive calls made to the app.\r\n\r\nThe impact has started at least a day ago, as reported by a Marketplace partner, and we are working on determining the exact time it has started. We are still assessing if other integrations are impacted.\r\n\r\nWe have been able to reproduce the problem and we are investigating the root cause. There is no known workaround as of now.\r\n\r\nWe do not currently have an ETA for the resolution. We will provide another update by 23:30 UTC, 90 minutes from now.",
-          "incident_id": "t0gyfz308j2q",
-          "created_at": "2022-11-18T22:07:31.058Z",
-          "updated_at": "2022-11-18T22:07:31.058Z",
-          "display_at": "2022-11-18T22:07:31.058Z",
-          "affected_components": [
-            {
-              "code": "dwt504s3m4c1",
-              "name": "Create and edit",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "dd8g2k12xpqq",
-          "status": "investigating",
-          "body": "We have identified a problem with Jira custom fields where the user is interacting with the issue. We believe this is only impacting the custom fields powered by Forge, but investigating if the impact is beyond that. We are investigating the root cause and will provide another update by 21:30 UTC, an hour from now.",
-          "incident_id": "t0gyfz308j2q",
-          "created_at": "2022-11-18T20:34:49.326Z",
-          "updated_at": "2022-11-18T20:34:49.326Z",
-          "display_at": "2022-11-18T20:34:49.326Z",
-          "affected_components": [
-            {
-              "code": "dwt504s3m4c1",
-              "name": "Create and edit",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "dwt504s3m4c1",
-          "name": "Create and edit",
-          "status": "partial_outage",
-          "created_at": "2018-11-16T18:17:29.284Z",
-          "updated_at": "2022-11-18T20:34:49.274Z",
-          "position": 2,
-          "description": "Problems creating or editing issues, projects, boards, reports, dashboards and the ability to comment, assign, and attach media.",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "s6f0gm5gcpmy",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "minor",
