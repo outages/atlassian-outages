@@ -4,7 +4,7 @@
     "name": "Atlassian Statuspage",
     "url": "http://metastatuspage.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2022-11-15T14:31:22.585-08:00"
+    "updated_at": "2022-11-22T14:16:41.611-08:00"
   },
   "components": [
     {
@@ -278,21 +278,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "3g0c0h5n5cp1",
-      "name": "Authenticated API",
-      "status": "operational",
-      "created_at": "2017-08-21T10:21:45.963-07:00",
-      "updated_at": "2022-04-05T14:11:56.283-07:00",
-      "position": 2,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "jk3l62p3pcfy",
-      "page_id": "y2j98763l56x",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "3bg3nq9mm436",
       "name": "HTTPS Pages",
       "status": "operational",
@@ -303,6 +288,21 @@
       "showcase": true,
       "start_date": null,
       "group_id": "hchd2wyk50h7",
+      "page_id": "y2j98763l56x",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "3g0c0h5n5cp1",
+      "name": "Authenticated API",
+      "status": "operational",
+      "created_at": "2017-08-21T10:21:45.963-07:00",
+      "updated_at": "2022-11-22T14:16:41.605-08:00",
+      "position": 2,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "jk3l62p3pcfy",
       "page_id": "y2j98763l56x",
       "group": false,
       "only_show_if_degraded": false
@@ -858,7 +858,7 @@
           "name": "Authenticated API",
           "status": "operational",
           "created_at": "2017-08-21T10:21:45.963-07:00",
-          "updated_at": "2022-04-05T14:11:56.283-07:00",
+          "updated_at": "2022-11-22T14:16:41.605-08:00",
           "position": 2,
           "description": null,
           "showcase": true,
