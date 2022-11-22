@@ -4,7 +4,7 @@
     "name": "Confluence",
     "url": "https://confluence.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-11-22T21:23:46.022Z"
+    "updated_at": "2022-11-22T21:47:35.532Z"
   },
   "components": [
     {
@@ -213,7 +213,7 @@
       "name": "Degraded experience on US sites",
       "status": "investigating",
       "created_at": "2022-11-22T20:37:50.021Z",
-      "updated_at": "2022-11-22T20:37:50.231Z",
+      "updated_at": "2022-11-22T21:47:35.522Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -221,6 +221,80 @@
       "started_at": "2022-11-22T20:37:50.011Z",
       "page_id": "4g2my7tbhjsq",
       "incident_updates": [
+        {
+          "id": "5zdgnftvvqz4",
+          "status": "investigating",
+          "body": "We are still investigating the outage and we we'll provide an additional update as soon as it becomes available.",
+          "incident_id": "jwwx5y03pqdg",
+          "created_at": "2022-11-22T21:47:35.519Z",
+          "updated_at": "2022-11-22T21:47:35.519Z",
+          "display_at": "2022-11-22T21:47:35.519Z",
+          "affected_components": [
+            {
+              "code": "bl9mxbb582vk",
+              "name": "View Content",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "y4z6hxpf7d7t",
+              "name": "Create and Edit",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "snpbn00x0g0k",
+              "name": "Comments",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "5fjwzmlch883",
+              "name": "Search",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "p8qwf8g1xjs4",
+              "name": "Administration",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "4gcj9wwwkfrm",
+              "name": "Notifications",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "s0zdf6p5dhv7",
+              "name": "Marketplace Apps",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "n779hf70xvvb",
+              "name": "Authentication and User Management",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hht3wjcyn1fv",
+              "name": "Purchasing & Licensing",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "qkxm9wlprp6h",
+              "name": "Signup",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "z2b780k0qpfs",
           "status": "investigating",
