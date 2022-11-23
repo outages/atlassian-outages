@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-11-23T07:25:27.972Z"
+    "updated_at": "2022-11-23T09:04:49.164Z"
   },
   "components": [
     {
@@ -30,6 +30,21 @@
         "5rnsdjrhk29s",
         "ssdy05xtmgvs"
       ]
+    },
+    {
+      "id": "mlr76v811c20",
+      "name": "App listing management",
+      "status": "operational",
+      "created_at": "2018-02-01T17:46:24.130Z",
+      "updated_at": "2022-11-14T13:52:57.169Z",
+      "position": 1,
+      "description": "The ability to manage app listings on https://marketplace.atlassian.com",
+      "showcase": true,
+      "start_date": null,
+      "group_id": "d0m8l367qqw5",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
     },
     {
       "id": "c1zr70381q86",
@@ -62,13 +77,28 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "mlr76v811c20",
-      "name": "App listing management",
+      "id": "hfflf63kcp1l",
+      "name": "Artifactory (Maven repository)",
       "status": "operational",
-      "created_at": "2018-02-01T17:46:24.130Z",
-      "updated_at": "2022-11-14T13:52:57.169Z",
-      "position": 1,
-      "description": "The ability to manage app listings on https://marketplace.atlassian.com",
+      "created_at": "2018-02-01T17:21:49.804Z",
+      "updated_at": "2021-03-23T12:04:34.080Z",
+      "position": 2,
+      "description": "https://maven.atlassian.com",
+      "showcase": true,
+      "start_date": null,
+      "group_id": "73bt63kd5q9k",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "g04n852g3nt6",
+      "name": "App listings",
+      "status": "operational",
+      "created_at": "2013-12-03T00:43:13.481Z",
+      "updated_at": "2022-09-28T11:02:03.786Z",
+      "position": 2,
+      "description": "The detailed listing page for each app",
       "showcase": true,
       "start_date": null,
       "group_id": "d0m8l367qqw5",
@@ -140,13 +170,13 @@
       ]
     },
     {
-      "id": "hfflf63kcp1l",
-      "name": "Artifactory (Maven repository)",
+      "id": "ccbm394hy8pk",
+      "name": "Create and manage apps",
       "status": "operational",
-      "created_at": "2018-02-01T17:21:49.804Z",
-      "updated_at": "2021-03-23T12:04:34.080Z",
-      "position": 2,
-      "description": "https://maven.atlassian.com",
+      "created_at": "2018-02-01T17:21:34.902Z",
+      "updated_at": "2022-05-24T13:49:06.598Z",
+      "position": 3,
+      "description": "The ability to create and manage apps at https://developer.atlassian.com/apps",
       "showcase": true,
       "start_date": null,
       "group_id": "73bt63kd5q9k",
@@ -155,31 +185,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "g04n852g3nt6",
-      "name": "App listings",
-      "status": "operational",
-      "created_at": "2013-12-03T00:43:13.481Z",
-      "updated_at": "2022-09-28T11:02:03.786Z",
-      "position": 2,
-      "description": "The detailed listing page for each app",
+      "id": "d1hybyzmqlvq",
+      "name": "App pricing",
+      "status": "partial_outage",
+      "created_at": "2013-12-03T00:43:13.497Z",
+      "updated_at": "2022-11-23T09:04:49.085Z",
+      "position": 3,
+      "description": "App pricing queries and updates",
       "showcase": true,
       "start_date": null,
       "group_id": "d0m8l367qqw5",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "cc6gw24m02wp",
-      "name": "Jira Cloud APIs",
-      "status": "operational",
-      "created_at": "2018-02-01T17:16:54.648Z",
-      "updated_at": "2022-11-23T00:22:04.075Z",
-      "position": 3,
-      "description": null,
-      "showcase": true,
-      "start_date": null,
-      "group_id": "w0ld3nc9jvdx",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -200,39 +215,9 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "ccbm394hy8pk",
-      "name": "Create and manage apps",
-      "status": "operational",
-      "created_at": "2018-02-01T17:21:34.902Z",
-      "updated_at": "2022-05-24T13:49:06.598Z",
-      "position": 3,
-      "description": "The ability to create and manage apps at https://developer.atlassian.com/apps",
-      "showcase": true,
-      "start_date": null,
-      "group_id": "73bt63kd5q9k",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "d1hybyzmqlvq",
-      "name": "App pricing",
-      "status": "operational",
-      "created_at": "2013-12-03T00:43:13.497Z",
-      "updated_at": "2022-11-14T13:52:57.187Z",
-      "position": 3,
-      "description": "App pricing queries and updates",
-      "showcase": true,
-      "start_date": null,
-      "group_id": "d0m8l367qqw5",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -259,6 +244,21 @@
         "1vvmngd73171",
         "wm1wfkvnffmt"
       ]
+    },
+    {
+      "id": "cc6gw24m02wp",
+      "name": "Jira Cloud APIs",
+      "status": "operational",
+      "created_at": "2018-02-01T17:16:54.648Z",
+      "updated_at": "2022-11-23T00:22:04.075Z",
+      "position": 3,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "w0ld3nc9jvdx",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
     },
     {
       "id": "crfmnmkyvltr",
@@ -351,21 +351,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "vb9xhz9z6zbp",
-      "name": "Forge App Installation",
-      "status": "operational",
-      "created_at": "2021-03-23T11:55:32.639Z",
-      "updated_at": "2022-10-13T02:39:34.784Z",
-      "position": 5,
-      "description": "Installation of Forge apps",
-      "showcase": true,
-      "start_date": "2021-03-23",
-      "group_id": "73bt63kd5q9k",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "bdrd3wct69vq",
       "name": "Marketplace service desk",
       "status": "operational",
@@ -404,6 +389,21 @@
       ]
     },
     {
+      "id": "vb9xhz9z6zbp",
+      "name": "Forge App Installation",
+      "status": "operational",
+      "created_at": "2021-03-23T11:55:32.639Z",
+      "updated_at": "2022-10-13T02:39:34.784Z",
+      "position": 5,
+      "description": "Installation of Forge apps",
+      "showcase": true,
+      "start_date": "2021-03-23",
+      "group_id": "73bt63kd5q9k",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "jnrvspydmmsd",
       "name": "User APIs",
       "status": "operational",
@@ -419,26 +419,11 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "v19cs464rk5f",
-      "name": "Forge CDN (Custom UI)",
-      "status": "operational",
-      "created_at": "2021-03-23T11:57:30.618Z",
-      "updated_at": "2021-03-23T12:05:08.811Z",
-      "position": 6,
-      "description": "Static asset serving for Forge apps.",
-      "showcase": true,
-      "start_date": "2021-03-23",
-      "group_id": "73bt63kd5q9k",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "kj290v20168q",
       "name": "Evaluations and purchases",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2018-02-01T17:50:19.946Z",
-      "updated_at": "2022-06-02T09:15:59.663Z",
+      "updated_at": "2022-11-23T09:04:49.103Z",
       "position": 6,
       "description": null,
       "showcase": true,
@@ -464,6 +449,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "v19cs464rk5f",
+      "name": "Forge CDN (Custom UI)",
+      "status": "operational",
+      "created_at": "2021-03-23T11:57:30.618Z",
+      "updated_at": "2021-03-23T12:05:08.811Z",
+      "position": 6,
+      "description": "Static asset serving for Forge apps.",
+      "showcase": true,
+      "start_date": "2021-03-23",
+      "group_id": "73bt63kd5q9k",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "5rnsdjrhk29s",
       "name": "Webhooks",
       "status": "operational",
@@ -473,21 +473,6 @@
       "description": null,
       "showcase": true,
       "start_date": null,
-      "group_id": "w0ld3nc9jvdx",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "ssdy05xtmgvs",
-      "name": "Web Triggers",
-      "status": "operational",
-      "created_at": "2021-03-23T12:00:50.143Z",
-      "updated_at": "2021-03-23T12:03:17.275Z",
-      "position": 7,
-      "description": null,
-      "showcase": true,
-      "start_date": "2021-03-23",
       "group_id": "w0ld3nc9jvdx",
       "page_id": "n8766lc3ybbs",
       "group": false,
@@ -509,6 +494,36 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "ssdy05xtmgvs",
+      "name": "Web Triggers",
+      "status": "operational",
+      "created_at": "2021-03-23T12:00:50.143Z",
+      "updated_at": "2021-03-23T12:03:17.275Z",
+      "position": 7,
+      "description": null,
+      "showcase": true,
+      "start_date": "2021-03-23",
+      "group_id": "w0ld3nc9jvdx",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "3t1y6724xl8q",
+      "name": "In-product Marketplace and app installation (Cloud)",
+      "status": "partial_outage",
+      "created_at": "2013-12-03T00:45:39.973Z",
+      "updated_at": "2022-11-23T09:04:49.120Z",
+      "position": 7,
+      "description": "The ability to discover, install, and manage apps inside of Atlassian's Cloud products (Jira, Confluence, Stride, Bitbucket)",
+      "showcase": true,
+      "start_date": null,
+      "group_id": "d0m8l367qqw5",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "slvmv5jvbr4p",
       "name": "Vulnerability management [AMS]",
       "status": "operational",
@@ -519,21 +534,6 @@
       "showcase": true,
       "start_date": "2022-02-04",
       "group_id": "jgnwrfzynh93",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "3t1y6724xl8q",
-      "name": "In-product Marketplace and app installation (Cloud)",
-      "status": "operational",
-      "created_at": "2013-12-03T00:45:39.973Z",
-      "updated_at": "2022-09-01T03:35:45.814Z",
-      "position": 7,
-      "description": "The ability to discover, install, and manage apps inside of Atlassian's Cloud products (Jira, Confluence, Stride, Bitbucket)",
-      "showcase": true,
-      "start_date": null,
-      "group_id": "d0m8l367qqw5",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -631,9 +631,9 @@
     {
       "id": "hk36hlvygg2q",
       "name": "Reporting APIs and dashboards",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2013-12-03T00:45:26.014Z",
-      "updated_at": "2022-11-21T12:29:55.416Z",
+      "updated_at": "2022-11-23T08:53:34.205Z",
       "position": 11,
       "description": "Marketing attribution reports are now operational.",
       "showcase": true,
@@ -659,21 +659,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "x9bxzb5jlltj",
-      "name": "Forge direct app distribution",
-      "status": "operational",
-      "created_at": "2022-03-15T10:00:31.590Z",
-      "updated_at": "2022-10-27T13:00:56.410Z",
-      "position": 12,
-      "description": "A way to share your apps with a set of trusted site admins: https://developer.atlassian.com/platform/forge/distribute-your-apps/#start-sharing-your-app",
-      "showcase": true,
-      "start_date": "2022-03-15",
-      "group_id": "73bt63kd5q9k",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "64gk05kc0lrz",
       "name": "Search",
       "status": "operational",
@@ -684,6 +669,21 @@
       "showcase": true,
       "start_date": null,
       "group_id": "d0m8l367qqw5",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "x9bxzb5jlltj",
+      "name": "Forge direct app distribution",
+      "status": "operational",
+      "created_at": "2022-03-15T10:00:31.590Z",
+      "updated_at": "2022-10-27T13:00:56.410Z",
+      "position": 12,
+      "description": "A way to share your apps with a set of trusted site admins: https://developer.atlassian.com/platform/forge/distribute-your-apps/#start-sharing-your-app",
+      "showcase": true,
+      "start_date": "2022-03-15",
+      "group_id": "73bt63kd5q9k",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -779,10 +779,157 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "93038ql73ylj",
+      "name": "Issues with pricing and install",
+      "status": "investigating",
+      "created_at": "2022-11-23T09:04:49.047Z",
+      "updated_at": "2022-11-23T09:04:49.161Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/1nf59kckr8rk",
+      "started_at": "2022-11-23T09:04:49.038Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "xs9g7qyb8kt3",
+          "status": "investigating",
+          "body": "We are currently investigating this issue.",
+          "incident_id": "93038ql73ylj",
+          "created_at": "2022-11-23T09:04:49.159Z",
+          "updated_at": "2022-11-23T09:04:49.159Z",
+          "display_at": "2022-11-23T09:04:49.159Z",
+          "affected_components": [
+            {
+              "code": "d1hybyzmqlvq",
+              "name": "Marketplace - App pricing",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "kj290v20168q",
+              "name": "Marketplace - Evaluations and purchases",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "3t1y6724xl8q",
+              "name": "Marketplace - In-product Marketplace and app installation (Cloud)",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "d1hybyzmqlvq",
+          "name": "App pricing",
+          "status": "partial_outage",
+          "created_at": "2013-12-03T00:43:13.497Z",
+          "updated_at": "2022-11-23T09:04:49.085Z",
+          "position": 3,
+          "description": "App pricing queries and updates",
+          "showcase": true,
+          "start_date": null,
+          "group_id": "d0m8l367qqw5",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "kj290v20168q",
+          "name": "Evaluations and purchases",
+          "status": "partial_outage",
+          "created_at": "2018-02-01T17:50:19.946Z",
+          "updated_at": "2022-11-23T09:04:49.103Z",
+          "position": 6,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": "d0m8l367qqw5",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "3t1y6724xl8q",
+          "name": "In-product Marketplace and app installation (Cloud)",
+          "status": "partial_outage",
+          "created_at": "2013-12-03T00:45:39.973Z",
+          "updated_at": "2022-11-23T09:04:49.120Z",
+          "position": 7,
+          "description": "The ability to discover, install, and manage apps inside of Atlassian's Cloud products (Jira, Confluence, Stride, Bitbucket)",
+          "showcase": true,
+          "start_date": null,
+          "group_id": "d0m8l367qqw5",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    },
+    {
+      "id": "v5swnmfwjh7m",
+      "name": "Some Marketplace Partners are seeing discrepancies in App name and \"lastUpdated\" date field in the Marketplace partner reports.",
+      "status": "identified",
+      "created_at": "2022-11-23T08:53:34.171Z",
+      "updated_at": "2022-11-23T08:53:34.250Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/1cmhdktx8cns",
+      "started_at": "2022-11-23T08:53:34.163Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "ctk4nmq7xbb9",
+          "status": "identified",
+          "body": "We have identified an issue impacting App name (add-on name) in marketplace partner reporting UI, APIs and CSV exports across licenses and transactions Marketplace reports.\n\nFrom our initial investigation 6 marketplace partners have been impacted and below is the impact:\n\n* 6 App names across the impacted partners have been updated owing a glitch I.e, “lastUpdated“ and “addonName“ fields was incorrectly updated resulting in inaccurate reporting data  from 17th of November.\n\nWorkaround:\nWe recommend you to rely on “addonKey“ and not “addonName“ until the issue is fixed.\n\nWe will be reaching out to the impacted partners directly.\n\nWe are in the process of finding the root cause , we will share next update in ~5 hours",
+          "incident_id": "v5swnmfwjh7m",
+          "created_at": "2022-11-23T08:53:34.248Z",
+          "updated_at": "2022-11-23T08:53:34.248Z",
+          "display_at": "2022-11-23T08:53:34.248Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "hk36hlvygg2q",
+          "name": "Reporting APIs and dashboards",
+          "status": "partial_outage",
+          "created_at": "2013-12-03T00:45:26.014Z",
+          "updated_at": "2022-11-23T08:53:34.205Z",
+          "position": 11,
+          "description": "Marketing attribution reports are now operational.",
+          "showcase": true,
+          "start_date": null,
+          "group_id": "d0m8l367qqw5",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
