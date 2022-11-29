@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-11-28T16:37:30.295Z"
+    "updated_at": "2022-11-29T00:32:00.930Z"
   },
   "components": [
     {
@@ -173,80 +173,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "b33p9blt9jd8",
-      "name": "HTTP 500 error when accessing Jira site.",
-      "status": "monitoring",
-      "created_at": "2022-11-28T15:23:28.287Z",
-      "updated_at": "2022-11-28T16:37:30.291Z",
-      "monitoring_at": "2022-11-28T16:37:30.274Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/7sfjsd12xqmy",
-      "started_at": "2022-11-28T15:23:28.282Z",
-      "page_id": "s6f0gm5gcpmy",
-      "incident_updates": [
-        {
-          "id": "p81dqtt6ypt2",
-          "status": "monitoring",
-          "body": "The issue has been identified and the impact mitigated. We're monitoring the results.",
-          "incident_id": "b33p9blt9jd8",
-          "created_at": "2022-11-28T16:37:30.274Z",
-          "updated_at": "2022-11-28T16:37:30.274Z",
-          "display_at": "2022-11-28T16:37:30.274Z",
-          "affected_components": [
-            {
-              "code": "l4fp2xkkygv4",
-              "name": "Viewing content",
-              "old_status": "partial_outage",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "00z9czgvhq8p",
-          "status": "investigating",
-          "body": "Some customers are experiencing HTTP 500 errors when accessing their Jira Service Management, Jira Software, and Jira Work Management sites. We're investigating this issue and will post more updates soon.",
-          "incident_id": "b33p9blt9jd8",
-          "created_at": "2022-11-28T15:23:28.350Z",
-          "updated_at": "2022-11-28T15:23:28.350Z",
-          "display_at": "2022-11-28T15:23:28.350Z",
-          "affected_components": [
-            {
-              "code": "l4fp2xkkygv4",
-              "name": "Viewing content",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "l4fp2xkkygv4",
-          "name": "Viewing content",
-          "status": "operational",
-          "created_at": "2018-11-16T18:17:29.270Z",
-          "updated_at": "2022-11-28T16:37:30.237Z",
-          "position": 1,
-          "description": "Problems viewing issues, dashboards, boards, reports, etc.",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "s6f0gm5gcpmy",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
