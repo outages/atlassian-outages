@@ -4,7 +4,7 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-12-02T19:24:01.794Z"
+    "updated_at": "2022-12-02T19:51:20.196Z"
   },
   "components": [
     {
@@ -109,7 +109,7 @@
     {
       "id": "k7gyfk44wrsr",
       "name": "EU",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-02-12T13:47:54.389Z",
       "updated_at": "2019-02-12T13:47:54.389Z",
       "position": 2,
@@ -448,9 +448,9 @@
     {
       "id": "p9phmxm8nn64",
       "name": "Incoming Integration Flow",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-03-15T08:12:34.010Z",
-      "updated_at": "2022-12-02T19:09:08.671Z",
+      "updated_at": "2022-12-02T19:51:20.163Z",
       "position": 12,
       "description": null,
       "showcase": true,
@@ -761,83 +761,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "v4bz6lhcvj3z",
-      "name": "Observing delays in incoming webhook integration processing in EU region",
-      "status": "monitoring",
-      "created_at": "2022-12-02T19:09:08.636Z",
-      "updated_at": "2022-12-02T19:23:06.558Z",
-      "monitoring_at": "2022-12-02T19:23:06.544Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/5ckbq9hvg676",
-      "started_at": "2022-12-02T19:09:08.629Z",
-      "page_id": "t05vdsszxwtq",
-      "incident_updates": [
-        {
-          "id": "qrqfv43fnxpr",
-          "status": "monitoring",
-          "body": "A fix has been implemented and we are monitoring the results.",
-          "incident_id": "v4bz6lhcvj3z",
-          "created_at": "2022-12-02T19:23:06.544Z",
-          "updated_at": "2022-12-02T19:23:06.544Z",
-          "display_at": "2022-12-02T19:23:06.544Z",
-          "affected_components": [
-            {
-              "code": "p9phmxm8nn64",
-              "name": "EU - Incoming Integration Flow",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "3t2y2frgbtbb",
-          "status": "investigating",
-          "body": "We are currently investigating this issue.",
-          "incident_id": "v4bz6lhcvj3z",
-          "created_at": "2022-12-02T19:09:08.702Z",
-          "updated_at": "2022-12-02T19:09:08.702Z",
-          "display_at": "2022-12-02T19:09:08.702Z",
-          "affected_components": [
-            {
-              "code": "p9phmxm8nn64",
-              "name": "EU - Incoming Integration Flow",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "p9phmxm8nn64",
-          "name": "Incoming Integration Flow",
-          "status": "partial_outage",
-          "created_at": "2019-03-15T08:12:34.010Z",
-          "updated_at": "2022-12-02T19:09:08.671Z",
-          "position": 12,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "k7gyfk44wrsr",
-          "page_id": "t05vdsszxwtq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
