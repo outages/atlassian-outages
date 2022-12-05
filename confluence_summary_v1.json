@@ -4,7 +4,7 @@
     "name": "Confluence",
     "url": "https://confluence.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-12-05T07:35:47.240Z"
+    "updated_at": "2022-12-05T07:36:21.044Z"
   },
   "components": [
     {
@@ -210,10 +210,10 @@
   "incidents": [
     {
       "id": "klkpydd14k0s",
-      "name": "Partial outage on Asia-Paci",
+      "name": "Confluence Cloud: partial outage on Asia-Paciific region",
       "status": "identified",
       "created_at": "2022-12-05T06:26:08.844Z",
-      "updated_at": "2022-12-05T07:35:47.232Z",
+      "updated_at": "2022-12-05T07:36:21.037Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -224,11 +224,11 @@
         {
           "id": "vzc48dtj1zh7",
           "status": "identified",
-          "body": "We're experiencing an elevated level of errors for a subset of customers in the Asia-Pacific region and are currently working into the issue.",
+          "body": "We're experiencing an elevated level of errors for a subset of customers in the Asia-Pacific region and are currently working on the issue.",
           "incident_id": "klkpydd14k0s",
           "created_at": "2022-12-05T07:35:47.230Z",
-          "updated_at": "2022-12-05T07:35:47.230Z",
-          "display_at": "2022-12-05T07:35:47.230Z",
+          "updated_at": "2022-12-05T07:36:21.033Z",
+          "display_at": "2022-12-05T07:35:47.000Z",
           "affected_components": [
             {
               "code": "bl9mxbb582vk",
