@@ -4,15 +4,15 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2022-12-07T03:27:41.238-05:00"
+    "updated_at": "2022-12-07T05:53:45.252-05:00"
   },
   "components": [
     {
       "id": "hsr3nvlz0k2l",
       "name": "Trello.com",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-01-24T12:50:55.839-05:00",
-      "updated_at": "2022-10-19T12:59:16.655-04:00",
+      "updated_at": "2022-12-07T05:53:44.639-05:00",
       "position": 1,
       "description": "Web client",
       "showcase": true,
@@ -83,10 +83,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "ql6tsmdmh94q",
+      "name": "Trello 2FA requested when it is not enabled for a subset of users",
+      "status": "investigating",
+      "created_at": "2022-12-07T05:53:44.601-05:00",
+      "updated_at": "2022-12-07T05:53:45.248-05:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/m91skllclnzh",
+      "started_at": "2022-12-07T05:53:44.595-05:00",
+      "page_id": "h5frqhb041yq",
+      "incident_updates": [
+        {
+          "id": "m1vjm79dbgmd",
+          "status": "investigating",
+          "body": "A subset of users is being prompted for Trello 2FA verification code even though Trello 2FA is disabled on their accounts.\n\nOur engineering team is actively investigating this incident and working to resolve it as soon as possible.\n\nUsers affected by this incident will be prompted for their former 2FA credentials from Trello. Users without their former authenticator app won't be able to log in.\n\nWe will update this page as we have additional information.",
+          "incident_id": "ql6tsmdmh94q",
+          "created_at": "2022-12-07T05:53:44.687-05:00",
+          "updated_at": "2022-12-07T05:53:45.244-05:00",
+          "display_at": "2022-12-07T05:53:44.687-05:00",
+          "affected_components": [
+            {
+              "code": "hsr3nvlz0k2l",
+              "name": "Trello.com",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1600443438180491300
+        }
+      ],
+      "components": [
+        {
+          "id": "hsr3nvlz0k2l",
+          "name": "Trello.com",
+          "status": "degraded_performance",
+          "created_at": "2020-01-24T12:50:55.839-05:00",
+          "updated_at": "2022-12-07T05:53:44.639-05:00",
+          "position": 1,
+          "description": "Web client",
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "h5frqhb041yq",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
