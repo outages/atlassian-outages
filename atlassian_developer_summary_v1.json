@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-12-13T18:29:55.523Z"
+    "updated_at": "2022-12-13T19:04:00.123Z"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "mlr76v811c20",
       "name": "App listing management",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:46:24.130Z",
-      "updated_at": "2022-12-13T18:29:55.367Z",
+      "updated_at": "2022-12-13T19:03:59.994Z",
       "position": 1,
       "description": "The ability to manage app listings on https://marketplace.atlassian.com",
       "showcase": true,
@@ -217,7 +217,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -436,9 +436,9 @@
     {
       "id": "kj290v20168q",
       "name": "Evaluations and purchases",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:50:19.946Z",
-      "updated_at": "2022-12-13T18:29:55.405Z",
+      "updated_at": "2022-12-13T19:04:00.020Z",
       "position": 6,
       "description": null,
       "showcase": true,
@@ -526,9 +526,9 @@
     {
       "id": "3t1y6724xl8q",
       "name": "In-product Marketplace and app installation (Cloud)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2013-12-03T00:45:39.973Z",
-      "updated_at": "2022-12-13T18:29:55.427Z",
+      "updated_at": "2022-12-13T19:04:00.043Z",
       "position": 7,
       "description": "The ability to discover, install, and manage apps inside of Atlassian's Cloud products (Jira, Confluence, Stride, Bitbucket)",
       "showcase": true,
@@ -706,9 +706,9 @@
     {
       "id": "1vvmngd73171",
       "name": "Vendor management",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:53:33.728Z",
-      "updated_at": "2022-12-13T18:29:55.450Z",
+      "updated_at": "2022-12-13T19:04:00.067Z",
       "position": 13,
       "description": null,
       "showcase": true,
@@ -783,16 +783,54 @@
     {
       "id": "xhmfvn06q4h5",
       "name": "Intermittent failures and performance degradation",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2022-12-13T18:29:55.281Z",
-      "updated_at": "2022-12-13T18:29:55.519Z",
-      "monitoring_at": null,
+      "updated_at": "2022-12-13T19:04:00.120Z",
+      "monitoring_at": "2022-12-13T19:04:00.102Z",
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/jkrcdc0dfrjd",
       "started_at": "2022-12-13T18:29:55.260Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "dyl7l2tm2s6j",
+          "status": "monitoring",
+          "body": "A fix has been implemented and we are monitoring the results.",
+          "incident_id": "xhmfvn06q4h5",
+          "created_at": "2022-12-13T19:04:00.102Z",
+          "updated_at": "2022-12-13T19:04:00.102Z",
+          "display_at": "2022-12-13T19:04:00.102Z",
+          "affected_components": [
+            {
+              "code": "mlr76v811c20",
+              "name": "Marketplace - App listing management",
+              "old_status": "major_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "kj290v20168q",
+              "name": "Marketplace - Evaluations and purchases",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "3t1y6724xl8q",
+              "name": "Marketplace - In-product Marketplace and app installation (Cloud)",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "1vvmngd73171",
+              "name": "Marketplace - Vendor management",
+              "old_status": "major_outage",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "2flmb8bdm3d4",
           "status": "investigating",
@@ -836,9 +874,9 @@
         {
           "id": "mlr76v811c20",
           "name": "App listing management",
-          "status": "major_outage",
+          "status": "operational",
           "created_at": "2018-02-01T17:46:24.130Z",
-          "updated_at": "2022-12-13T18:29:55.367Z",
+          "updated_at": "2022-12-13T19:03:59.994Z",
           "position": 1,
           "description": "The ability to manage app listings on https://marketplace.atlassian.com",
           "showcase": true,
@@ -851,9 +889,9 @@
         {
           "id": "kj290v20168q",
           "name": "Evaluations and purchases",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2018-02-01T17:50:19.946Z",
-          "updated_at": "2022-12-13T18:29:55.405Z",
+          "updated_at": "2022-12-13T19:04:00.020Z",
           "position": 6,
           "description": null,
           "showcase": true,
@@ -866,9 +904,9 @@
         {
           "id": "3t1y6724xl8q",
           "name": "In-product Marketplace and app installation (Cloud)",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2013-12-03T00:45:39.973Z",
-          "updated_at": "2022-12-13T18:29:55.427Z",
+          "updated_at": "2022-12-13T19:04:00.043Z",
           "position": 7,
           "description": "The ability to discover, install, and manage apps inside of Atlassian's Cloud products (Jira, Confluence, Stride, Bitbucket)",
           "showcase": true,
@@ -881,9 +919,9 @@
         {
           "id": "1vvmngd73171",
           "name": "Vendor management",
-          "status": "major_outage",
+          "status": "operational",
           "created_at": "2018-02-01T17:53:33.728Z",
-          "updated_at": "2022-12-13T18:29:55.450Z",
+          "updated_at": "2022-12-13T19:04:00.067Z",
           "position": 13,
           "description": null,
           "showcase": true,
@@ -935,9 +973,9 @@
         {
           "id": "1vvmngd73171",
           "name": "Vendor management",
-          "status": "major_outage",
+          "status": "operational",
           "created_at": "2018-02-01T17:53:33.728Z",
-          "updated_at": "2022-12-13T18:29:55.450Z",
+          "updated_at": "2022-12-13T19:04:00.067Z",
           "position": 13,
           "description": null,
           "showcase": true,
@@ -953,7 +991,7 @@
     }
   ],
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
