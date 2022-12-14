@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-12-14T16:23:31.020Z"
+    "updated_at": "2022-12-14T17:19:18.996Z"
   },
   "components": [
     {
@@ -109,7 +109,7 @@
     {
       "id": "73bt63kd5q9k",
       "name": "Developer",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:21:34.889Z",
       "updated_at": "2019-05-02T04:22:45.333Z",
       "position": 2,
@@ -338,9 +338,9 @@
     {
       "id": "vb9xhz9z6zbp",
       "name": "Forge App Installation",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2021-03-23T11:55:32.639Z",
-      "updated_at": "2022-12-14T15:35:51.744Z",
+      "updated_at": "2022-12-14T17:19:18.944Z",
       "position": 5,
       "description": "Installation of Forge apps",
       "showcase": true,
@@ -779,60 +779,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "4lzfy6hxyt5d",
-      "name": "Forge app management outage",
-      "status": "identified",
-      "created_at": "2022-12-14T15:35:51.715Z",
-      "updated_at": "2022-12-14T15:35:51.783Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "critical",
-      "shortlink": "https://stspg.io/bv577h2nqcc4",
-      "started_at": "2022-12-14T15:35:51.708Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "4t4mvjqk2r1d",
-          "status": "identified",
-          "body": "We have identified a problem with Forge app management (installation, upgrading, viewing installed apps) which results in an error. We're investigating the root cause and provide another update by 17:30 UTC.",
-          "incident_id": "4lzfy6hxyt5d",
-          "created_at": "2022-12-14T15:35:51.780Z",
-          "updated_at": "2022-12-14T15:35:51.780Z",
-          "display_at": "2022-12-14T15:35:51.780Z",
-          "affected_components": [
-            {
-              "code": "vb9xhz9z6zbp",
-              "name": "Developer - Forge App Installation",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "vb9xhz9z6zbp",
-          "name": "Forge App Installation",
-          "status": "major_outage",
-          "created_at": "2021-03-23T11:55:32.639Z",
-          "updated_at": "2022-12-14T15:35:51.744Z",
-          "position": 5,
-          "description": "Installation of Forge apps",
-          "showcase": true,
-          "start_date": "2021-03-23",
-          "group_id": "73bt63kd5q9k",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [
     {
       "id": "6cm4hw8ybc52",
@@ -890,7 +837,7 @@
     }
   ],
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
