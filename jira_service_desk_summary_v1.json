@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-12-16T09:07:13.431Z"
+    "updated_at": "2022-12-16T09:30:41.141Z"
   },
   "components": [
     {
@@ -188,107 +188,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "h0pc2jkkvh1z",
-      "name": "Partial degradation in creating and viewing forms in Jira Service Management",
-      "status": "monitoring",
-      "created_at": "2022-12-16T04:17:21.025Z",
-      "updated_at": "2022-12-16T09:07:13.427Z",
-      "monitoring_at": "2022-12-16T09:07:13.406Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/pmnd2knjw4kz",
-      "started_at": "2022-12-16T04:17:21.015Z",
-      "page_id": "pv54g7ltsc24",
-      "incident_updates": [
-        {
-          "id": "4nf1jr3zvgj5",
-          "status": "monitoring",
-          "body": "We have identified the root cause of the intermittent errors and have mitigated the problem. We are now monitoring closely.",
-          "incident_id": "h0pc2jkkvh1z",
-          "created_at": "2022-12-16T09:07:13.406Z",
-          "updated_at": "2022-12-16T09:07:13.406Z",
-          "display_at": "2022-12-16T09:07:13.406Z",
-          "affected_components": [
-            {
-              "code": "4kcs01hbh4l6",
-              "name": "Jira Service Mangement Web",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "hzbyfxf686qd",
-              "name": "Service Portal",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "b35sdpht808n",
-          "status": "identified",
-          "body": "We are investigating reports of intermittent errors for some Jira Service Management Cloud customers viewing and creating Forms. We will provide more details once we identify the root cause.",
-          "incident_id": "h0pc2jkkvh1z",
-          "created_at": "2022-12-16T04:17:21.148Z",
-          "updated_at": "2022-12-16T04:17:21.148Z",
-          "display_at": "2022-12-16T04:17:21.148Z",
-          "affected_components": [
-            {
-              "code": "4kcs01hbh4l6",
-              "name": "Jira Service Mangement Web",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "hzbyfxf686qd",
-              "name": "Service Portal",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "4kcs01hbh4l6",
-          "name": "Jira Service Mangement Web",
-          "status": "partial_outage",
-          "created_at": "2018-11-16T18:06:14.831Z",
-          "updated_at": "2022-12-16T04:17:21.074Z",
-          "position": 1,
-          "description": "Problems with queues, issues, reports, searching, and anything else impacting an agent's ability to complete their work",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "hzbyfxf686qd",
-          "name": "Service Portal",
-          "status": "partial_outage",
-          "created_at": "2018-11-16T18:06:14.848Z",
-          "updated_at": "2022-12-16T04:17:21.096Z",
-          "position": 2,
-          "description": "Problems related to the service desk portals where end-users make requests or raise issues",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "minor",
