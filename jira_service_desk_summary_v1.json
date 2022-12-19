@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-12-19T06:23:36.079Z"
+    "updated_at": "2022-12-19T07:58:52.058Z"
   },
   "components": [
     {
@@ -130,9 +130,9 @@
     {
       "id": "n50cprw4wnhp",
       "name": "Purchasing & Licensing",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-04-28T00:50:26.392Z",
-      "updated_at": "2022-12-19T05:52:28.866Z",
+      "updated_at": "2022-12-19T07:58:42.749Z",
       "position": 9,
       "description": null,
       "showcase": false,
@@ -145,9 +145,9 @@
     {
       "id": "wlpsrb4r2yq9",
       "name": "Signup",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-10-09T20:36:56.243Z",
-      "updated_at": "2022-12-19T05:52:28.885Z",
+      "updated_at": "2022-12-19T07:58:52.055Z",
       "position": 10,
       "description": null,
       "showcase": false,
@@ -188,81 +188,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "4lc05y8xlsmn",
-      "name": "Errors when deactivating managed accounts for Atlassian Access customers",
-      "status": "investigating",
-      "created_at": "2022-12-19T05:52:28.826Z",
-      "updated_at": "2022-12-19T05:52:28.934Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/jvgv1bks231n",
-      "started_at": "2022-12-19T05:52:28.817Z",
-      "page_id": "pv54g7ltsc24",
-      "incident_updates": [
-        {
-          "id": "fpl5hz8p7r01",
-          "status": "investigating",
-          "body": "We have identified an issue which is impacting Billing and Provisioning. We will provide more details once we identify the root cause.",
-          "incident_id": "4lc05y8xlsmn",
-          "created_at": "2022-12-19T05:52:28.931Z",
-          "updated_at": "2022-12-19T05:52:28.931Z",
-          "display_at": "2022-12-19T05:52:28.931Z",
-          "affected_components": [
-            {
-              "code": "n50cprw4wnhp",
-              "name": "Purchasing & Licensing",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "wlpsrb4r2yq9",
-              "name": "Signup",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "n50cprw4wnhp",
-          "name": "Purchasing & Licensing",
-          "status": "partial_outage",
-          "created_at": "2020-04-28T00:50:26.392Z",
-          "updated_at": "2022-12-19T05:52:28.866Z",
-          "position": 9,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "wlpsrb4r2yq9",
-          "name": "Signup",
-          "status": "partial_outage",
-          "created_at": "2020-10-09T20:36:56.243Z",
-          "updated_at": "2022-12-19T05:52:28.885Z",
-          "position": 10,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-10-09",
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "minor",
