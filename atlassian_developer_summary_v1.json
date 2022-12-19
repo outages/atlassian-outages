@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-12-19T04:04:29.960Z"
+    "updated_at": "2022-12-19T04:37:57.699Z"
   },
   "components": [
     {
@@ -881,7 +881,7 @@
       "name": "Marketplace Promotions migration",
       "status": "in_progress",
       "created_at": "2022-12-19T02:58:11.010Z",
-      "updated_at": "2022-12-19T03:00:05.540Z",
+      "updated_at": "2022-12-19T04:37:57.696Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -948,7 +948,7 @@
         }
       ],
       "scheduled_for": "2022-12-19T03:00:00.000Z",
-      "scheduled_until": "2022-12-19T06:00:00.000Z"
+      "scheduled_until": "2022-12-19T08:00:00.000Z"
     }
   ],
   "status": {
