@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-12-22T21:09:48.772Z"
+    "updated_at": "2022-12-22T21:31:21.889Z"
   },
   "components": [
     {
@@ -785,7 +785,7 @@
       "name": "Intermittent outage in Forge app discovery in US regions",
       "status": "identified",
       "created_at": "2022-12-22T18:10:31.503Z",
-      "updated_at": "2022-12-22T21:09:48.766Z",
+      "updated_at": "2022-12-22T21:31:21.883Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -796,11 +796,11 @@
         {
           "id": "yh3rr86czdy4",
           "status": "identified",
-          "body": "We have identified a fix and are actively rolling it our across our US regions.\n\nAll Jira and Confluence frontend Forge extensions are now operational, we are continuing to monitor.\nConfluence Forge apps using custom content served out of us-east may still be experiencing outages as we finish rolling out the fix.",
+          "body": "We have identified a fix and are actively rolling it our across our US regions.\n\nAll Jira and Confluence frontend Forge extensions are now operational, we are continuing to monitor.\nConfluence Forge apps using custom content served out of us-east may still be experiencing outages as we finish rolling out the fix.  \n\nWe will provide another update around 23:00 UTC.",
           "incident_id": "0yg6g8wz46q3",
           "created_at": "2022-12-22T21:09:48.764Z",
-          "updated_at": "2022-12-22T21:09:48.764Z",
-          "display_at": "2022-12-22T21:09:48.764Z",
+          "updated_at": "2022-12-22T21:31:21.880Z",
+          "display_at": "2022-12-22T21:09:48.000Z",
           "affected_components": [
             {
               "code": "wzmg8phvmrwh",
