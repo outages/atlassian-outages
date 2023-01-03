@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-01-03T09:23:38.965Z"
+    "updated_at": "2023-01-03T12:15:35.094Z"
   },
   "components": [
     {
@@ -785,22 +785,22 @@
       "name": "Dip in Marketplace App Installation Count",
       "status": "identified",
       "created_at": "2023-01-03T09:07:34.209Z",
-      "updated_at": "2023-01-03T09:07:34.288Z",
+      "updated_at": "2023-01-03T12:15:35.086Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/9xtrg47d8s75",
-      "started_at": "2023-01-03T09:07:34.201Z",
+      "started_at": "2023-01-03T09:07:34.000Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
         {
           "id": "brhnp0mbqjrc",
           "status": "identified",
-          "body": "We are investigating an issue where there may be a drop in the Marketplace app installation count. The job responsible for updating the data is delayed due to issue with some apps taking more space with older versions. The data is refreshed weekly and will be up to date by Monday, 9th Jan,2022.",
+          "body": "We are investigating an issue where there may be a drop in the Marketplace app installation count. The job responsible for updating the data is delayed due to issue with some apps taking more space with older versions. The data is refreshed weekly and will be up to date by Monday, 9th Jan,2023.",
           "incident_id": "k0dqzhjywhg1",
           "created_at": "2023-01-03T09:07:34.286Z",
-          "updated_at": "2023-01-03T09:07:34.286Z",
-          "display_at": "2023-01-03T09:07:34.286Z",
+          "updated_at": "2023-01-03T12:15:34.941Z",
+          "display_at": "2023-01-03T09:07:34.000Z",
           "affected_components": [
             {
               "code": "mlr76v811c20",
