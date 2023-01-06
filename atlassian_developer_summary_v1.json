@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-01-06T21:30:40.035Z"
+    "updated_at": "2023-01-06T22:24:20.928Z"
   },
   "components": [
     {
@@ -783,16 +783,42 @@
     {
       "id": "plmgtwt8hmnp",
       "name": "Intermittent outage in Forge app discovery in eastern US regions",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2023-01-06T19:40:47.565Z",
-      "updated_at": "2023-01-06T21:30:40.025Z",
-      "monitoring_at": null,
+      "updated_at": "2023-01-06T22:24:20.925Z",
+      "monitoring_at": "2023-01-06T22:24:20.910Z",
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/51nq7jmb7qsl",
       "started_at": "2023-01-06T19:40:47.552Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "9mdpr6w7wdz2",
+          "status": "monitoring",
+          "body": "We've identified and rolled out a fix to the underlying root cause of the issue for all regions, which should prevent any further reoccurrence. \nForge extensions are now operational, and the traffic is restored for all regions.\nThe outage took place between 2022-01-06 18:30 UTC and 2022-01-06 20:00 UTC.\n\nWe are continuing to closely monitor the situation for today and we will provide another update at 5:00 UTC.",
+          "incident_id": "plmgtwt8hmnp",
+          "created_at": "2023-01-06T22:24:20.910Z",
+          "updated_at": "2023-01-06T22:24:20.910Z",
+          "display_at": "2023-01-06T22:24:20.910Z",
+          "affected_components": [
+            {
+              "code": "pgqd9x4jl520",
+              "name": "Developer - Forge Function Invocation",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "y429ymc92xq4",
+              "name": "Developer - Forge App Monitoring",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "fmrmjtb8kk9l",
           "status": "identified",
