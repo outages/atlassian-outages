@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-01-06T20:23:30.488Z"
+    "updated_at": "2023-01-06T21:30:40.035Z"
   },
   "components": [
     {
@@ -785,7 +785,7 @@
       "name": "Intermittent outage in Forge app discovery in eastern US regions",
       "status": "identified",
       "created_at": "2023-01-06T19:40:47.565Z",
-      "updated_at": "2023-01-06T19:40:47.684Z",
+      "updated_at": "2023-01-06T21:30:40.025Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -793,6 +793,32 @@
       "started_at": "2023-01-06T19:40:47.552Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "fmrmjtb8kk9l",
+          "status": "identified",
+          "body": "We are investigating an incident that results in the Forge app being unavailable to the end users. The apps also may fail to be installed and deployed.\n\nThe problem started around 2022-01-06 18:30 UTC on our us-east region and we proceeded to a mitigation action to divert the traffic to us-west region which recovered the problem around 2022-01-06 20:00 UTC.\n\nThis is a reoccurrence of a problem which happened on 22nd of December and 03rd of January.\n\nWe are currently working on a fix to prevent any reoccurrence.\n\nFurther updates will be provided in 2 hours at 23:00 UTC",
+          "incident_id": "plmgtwt8hmnp",
+          "created_at": "2023-01-06T21:30:40.023Z",
+          "updated_at": "2023-01-06T21:30:40.023Z",
+          "display_at": "2023-01-06T21:30:40.023Z",
+          "affected_components": [
+            {
+              "code": "pgqd9x4jl520",
+              "name": "Developer - Forge Function Invocation",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "y429ymc92xq4",
+              "name": "Developer - Forge App Monitoring",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "lwnknjcn3lq1",
           "status": "identified",
