@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-01-18T10:44:11.027Z"
+    "updated_at": "2023-01-18T11:37:34.210Z"
   },
   "components": [
     {
@@ -203,107 +203,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "r0ttw2hgbhkw",
-      "name": "Attachments not appearing on support tickets - unable to view or download attachments",
-      "status": "monitoring",
-      "created_at": "2023-01-18T09:40:37.208Z",
-      "updated_at": "2023-01-18T10:44:11.025Z",
-      "monitoring_at": "2023-01-18T10:44:11.007Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/w83z6j2932b8",
-      "started_at": "2023-01-18T09:40:37.203Z",
-      "page_id": "3tbw4lb9t3qp",
-      "incident_updates": [
-        {
-          "id": "r12khxymv6zf",
-          "status": "monitoring",
-          "body": "The incident has been resolved and our engineering teams are actively monitoring this situation.",
-          "incident_id": "r0ttw2hgbhkw",
-          "created_at": "2023-01-18T10:44:11.007Z",
-          "updated_at": "2023-01-18T10:44:11.007Z",
-          "display_at": "2023-01-18T10:44:11.007Z",
-          "affected_components": [
-            {
-              "code": "kvtmh1phs3r9",
-              "name": "Support Portal",
-              "old_status": "partial_outage",
-              "new_status": "operational"
-            },
-            {
-              "code": "bccp2f1cpy0x",
-              "name": "Ticketing",
-              "old_status": "partial_outage",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "8sx0whf23xk8",
-          "status": "investigating",
-          "body": "At the moment, it is not possible to download or view attachments on support tickets.  There is an issue with the attachments service on support.atlassian.com.  Users are shown an error message \"Something went wrong!\" and attachments are not loading.\n\nPlease be advised that this issue only affects support.atlassian.com.  Jira Service Management attachment services are working as expected.\n\nOur internal services teams are actively working on this incident - they have identified the faulty service and are working towards a resolution.  We'll send the next update within the next 4 hours.",
-          "incident_id": "r0ttw2hgbhkw",
-          "created_at": "2023-01-18T09:40:37.300Z",
-          "updated_at": "2023-01-18T09:40:37.300Z",
-          "display_at": "2023-01-18T09:40:37.300Z",
-          "affected_components": [
-            {
-              "code": "kvtmh1phs3r9",
-              "name": "Support Portal",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "bccp2f1cpy0x",
-              "name": "Ticketing",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "kvtmh1phs3r9",
-          "name": "Support Portal",
-          "status": "operational",
-          "created_at": "2018-11-16T18:04:38.980Z",
-          "updated_at": "2023-01-18T10:44:10.932Z",
-          "position": 1,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "3tbw4lb9t3qp",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "bccp2f1cpy0x",
-          "name": "Ticketing",
-          "status": "operational",
-          "created_at": "2018-11-16T18:04:38.998Z",
-          "updated_at": "2023-01-18T10:44:10.972Z",
-          "position": 2,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "3tbw4lb9t3qp",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
