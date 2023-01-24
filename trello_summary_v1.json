@@ -4,15 +4,15 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2023-01-24T12:23:40.296-05:00"
+    "updated_at": "2023-01-24T12:41:52.041-05:00"
   },
   "components": [
     {
       "id": "hsr3nvlz0k2l",
       "name": "Trello.com",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-01-24T12:50:55.839-05:00",
-      "updated_at": "2023-01-24T11:56:35.407-05:00",
+      "updated_at": "2023-01-24T12:41:51.459-05:00",
       "position": 1,
       "description": "Web client",
       "showcase": true,
@@ -25,9 +25,9 @@
     {
       "id": "y1nllgnkxn9d",
       "name": "API",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-01-24T12:50:17.715-05:00",
-      "updated_at": "2023-01-24T11:56:35.424-05:00",
+      "updated_at": "2023-01-24T12:41:51.477-05:00",
       "position": 2,
       "description": null,
       "showcase": true,
@@ -83,110 +83,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "c4vgjn77l3kr",
-      "name": "Trello is partially slow and issues to execute card changes",
-      "status": "monitoring",
-      "created_at": "2023-01-24T11:50:50.502-05:00",
-      "updated_at": "2023-01-24T12:00:19.617-05:00",
-      "monitoring_at": "2023-01-24T11:56:35.000-05:00",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/xddqkjpvbtxm",
-      "started_at": "2023-01-24T11:50:50.496-05:00",
-      "page_id": "h5frqhb041yq",
-      "incident_updates": [
-        {
-          "id": "877dyjv5575b",
-          "status": "monitoring",
-          "body": "Our engineering team implemented a fix for this issue and is seeing ongoing recovery. There may still be some slight performance degradation which is recovering as well.\n\nWe will update this page as we have additional information.",
-          "incident_id": "c4vgjn77l3kr",
-          "created_at": "2023-01-24T11:56:35.459-05:00",
-          "updated_at": "2023-01-24T12:00:19.602-05:00",
-          "display_at": "2023-01-24T11:56:35.000-05:00",
-          "affected_components": [
-            {
-              "code": "y1nllgnkxn9d",
-              "name": "API",
-              "old_status": "partial_outage",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "hsr3nvlz0k2l",
-              "name": "Trello.com",
-              "old_status": "partial_outage",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1617929374241788000
-        },
-        {
-          "id": "4nfrqxfn4hbz",
-          "status": "identified",
-          "body": "Trello is currently experiencing partial slowness and unavailability to execute card changes across multiple boards within Trello.\n\nOur engineering team is actively investigating this incident and working to bring Trello back up as quickly as possible.\n\nUsers affected by this incident may notice that Trello is slow or unavailability to execute card changes on the web, desktop, and mobile apps.\n\nWe will update this page as we have additional information.",
-          "incident_id": "c4vgjn77l3kr",
-          "created_at": "2023-01-24T11:50:50.611-05:00",
-          "updated_at": "2023-01-24T11:50:51.065-05:00",
-          "display_at": "2023-01-24T11:50:50.611-05:00",
-          "affected_components": [
-            {
-              "code": "y1nllgnkxn9d",
-              "name": "API",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "hsr3nvlz0k2l",
-              "name": "Trello.com",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1617927922102464500
-        }
-      ],
-      "components": [
-        {
-          "id": "hsr3nvlz0k2l",
-          "name": "Trello.com",
-          "status": "degraded_performance",
-          "created_at": "2020-01-24T12:50:55.839-05:00",
-          "updated_at": "2023-01-24T11:56:35.407-05:00",
-          "position": 1,
-          "description": "Web client",
-          "showcase": true,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "h5frqhb041yq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "y1nllgnkxn9d",
-          "name": "API",
-          "status": "degraded_performance",
-          "created_at": "2020-01-24T12:50:17.715-05:00",
-          "updated_at": "2023-01-24T11:56:35.424-05:00",
-          "position": 2,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "h5frqhb041yq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
