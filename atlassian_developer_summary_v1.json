@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-01-20T04:17:55.843Z"
+    "updated_at": "2023-01-25T16:10:01.330Z"
   },
   "components": [
     {
@@ -187,7 +187,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -261,16 +261,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "7z6w09hl9mn0",
-      "name": "App submissions",
+      "id": "dnstnjnbm2vs",
+      "name": "Product Events",
       "status": "operational",
-      "created_at": "2018-02-01T17:48:45.038Z",
-      "updated_at": "2022-12-16T11:35:34.075Z",
+      "created_at": "2021-03-23T11:58:48.255Z",
+      "updated_at": "2022-11-23T00:22:17.972Z",
       "position": 4,
-      "description": null,
+      "description": "Invocation of Forge functions from product events.",
       "showcase": true,
-      "start_date": null,
-      "group_id": "d0m8l367qqw5",
+      "start_date": "2021-03-23",
+      "group_id": "w0ld3nc9jvdx",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -306,16 +306,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "dnstnjnbm2vs",
-      "name": "Product Events",
+      "id": "7z6w09hl9mn0",
+      "name": "App submissions",
       "status": "operational",
-      "created_at": "2021-03-23T11:58:48.255Z",
-      "updated_at": "2022-11-23T00:22:17.972Z",
+      "created_at": "2018-02-01T17:48:45.038Z",
+      "updated_at": "2022-12-16T11:35:34.075Z",
       "position": 4,
-      "description": "Invocation of Forge functions from product events.",
+      "description": null,
       "showcase": true,
-      "start_date": "2021-03-23",
-      "group_id": "w0ld3nc9jvdx",
+      "start_date": null,
+      "group_id": "d0m8l367qqw5",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -419,16 +419,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "5rnsdjrhk29s",
-      "name": "Webhooks",
+      "id": "kj290v20168q",
+      "name": "Evaluations and purchases",
       "status": "operational",
-      "created_at": "2018-02-01T17:19:01.020Z",
-      "updated_at": "2021-03-23T12:03:17.265Z",
+      "created_at": "2018-02-01T17:50:19.946Z",
+      "updated_at": "2022-12-16T16:49:56.489Z",
       "position": 6,
       "description": null,
       "showcase": true,
       "start_date": null,
-      "group_id": "w0ld3nc9jvdx",
+      "group_id": "d0m8l367qqw5",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -464,16 +464,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "kj290v20168q",
-      "name": "Evaluations and purchases",
+      "id": "5rnsdjrhk29s",
+      "name": "Webhooks",
       "status": "operational",
-      "created_at": "2018-02-01T17:50:19.946Z",
-      "updated_at": "2022-12-16T16:49:56.489Z",
+      "created_at": "2018-02-01T17:19:01.020Z",
+      "updated_at": "2021-03-23T12:03:17.265Z",
       "position": 6,
       "description": null,
       "showcase": true,
       "start_date": null,
-      "group_id": "d0m8l367qqw5",
+      "group_id": "w0ld3nc9jvdx",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -494,21 +494,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "pgqd9x4jl520",
-      "name": "Forge Function Invocation",
-      "status": "operational",
-      "created_at": "2021-03-23T11:56:37.167Z",
-      "updated_at": "2023-01-19T06:21:48.179Z",
-      "position": 7,
-      "description": null,
-      "showcase": true,
-      "start_date": "2021-03-23",
-      "group_id": "73bt63kd5q9k",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "slvmv5jvbr4p",
       "name": "Vulnerability management [AMS]",
       "status": "operational",
@@ -519,6 +504,21 @@
       "showcase": true,
       "start_date": "2022-02-04",
       "group_id": "jgnwrfzynh93",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "pgqd9x4jl520",
+      "name": "Forge Function Invocation",
+      "status": "operational",
+      "created_at": "2021-03-23T11:56:37.167Z",
+      "updated_at": "2023-01-19T06:21:48.179Z",
+      "position": 7,
+      "description": null,
+      "showcase": true,
+      "start_date": "2021-03-23",
+      "group_id": "73bt63kd5q9k",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -539,21 +539,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "sq83n9jrwk7c",
-      "name": "aui-cdn.atlassian.com",
-      "status": "operational",
-      "created_at": "2019-01-30T00:03:56.515Z",
-      "updated_at": "2021-03-23T12:05:08.829Z",
-      "position": 8,
-      "description": "The Atlassian User Interface (AUI) CDN",
-      "showcase": true,
-      "start_date": null,
-      "group_id": "73bt63kd5q9k",
-      "page_id": "n8766lc3ybbs",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "ngby5fdfj3px",
       "name": "In-product Marketplace and app installation (Server)",
       "status": "operational",
@@ -569,16 +554,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "y1fdrctjbkx0",
-      "name": "Notifications",
+      "id": "sq83n9jrwk7c",
+      "name": "aui-cdn.atlassian.com",
       "status": "operational",
-      "created_at": "2018-02-01T17:52:26.480Z",
-      "updated_at": "2020-07-09T10:30:48.498Z",
-      "position": 9,
-      "description": "Example notifications include newly posted reviews and new version creation",
+      "created_at": "2019-01-30T00:03:56.515Z",
+      "updated_at": "2021-03-23T12:05:08.829Z",
+      "position": 8,
+      "description": "The Atlassian User Interface (AUI) CDN",
       "showcase": true,
       "start_date": null,
-      "group_id": "d0m8l367qqw5",
+      "group_id": "73bt63kd5q9k",
       "page_id": "n8766lc3ybbs",
       "group": false,
       "only_show_if_degraded": false
@@ -599,13 +584,13 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "7lx3k072bl6z",
-      "name": "Private listings",
+      "id": "y1fdrctjbkx0",
+      "name": "Notifications",
       "status": "operational",
-      "created_at": "2018-02-01T17:52:40.782Z",
-      "updated_at": "2022-12-16T16:49:56.532Z",
-      "position": 10,
-      "description": null,
+      "created_at": "2018-02-01T17:52:26.480Z",
+      "updated_at": "2020-07-09T10:30:48.498Z",
+      "position": 9,
+      "description": "Example notifications include newly posted reviews and new version creation",
       "showcase": true,
       "start_date": null,
       "group_id": "d0m8l367qqw5",
@@ -629,11 +614,26 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "7lx3k072bl6z",
+      "name": "Private listings",
+      "status": "operational",
+      "created_at": "2018-02-01T17:52:40.782Z",
+      "updated_at": "2022-12-16T16:49:56.532Z",
+      "position": 10,
+      "description": null,
+      "showcase": true,
+      "start_date": null,
+      "group_id": "d0m8l367qqw5",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "hk36hlvygg2q",
       "name": "Reporting APIs and dashboards",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2013-12-03T00:45:26.014Z",
-      "updated_at": "2023-01-18T15:12:34.931Z",
+      "updated_at": "2023-01-25T16:10:01.279Z",
       "position": 11,
       "description": "Marketing attribution reports are now operational.",
       "showcase": true,
@@ -779,10 +779,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "v9nv76lw7sfx",
+      "name": "Licenses reporting data is delayed",
+      "status": "identified",
+      "created_at": "2023-01-25T16:10:01.244Z",
+      "updated_at": "2023-01-25T16:10:01.327Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/ny9fqr0c2pfg",
+      "started_at": "2023-01-25T16:10:01.237Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "vctbsn2vkzx9",
+          "status": "identified",
+          "body": "The issue has been identified and a fix is being implemented.",
+          "incident_id": "v9nv76lw7sfx",
+          "created_at": "2023-01-25T16:10:01.324Z",
+          "updated_at": "2023-01-25T16:10:01.324Z",
+          "display_at": "2023-01-25T16:10:01.324Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "hk36hlvygg2q",
+          "name": "Reporting APIs and dashboards",
+          "status": "degraded_performance",
+          "created_at": "2013-12-03T00:45:26.014Z",
+          "updated_at": "2023-01-25T16:10:01.279Z",
+          "position": 11,
+          "description": "Marketing attribution reports are now operational.",
+          "showcase": true,
+          "start_date": null,
+          "group_id": "d0m8l367qqw5",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
