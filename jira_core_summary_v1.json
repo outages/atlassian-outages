@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-12-19T07:59:52.151Z"
+    "updated_at": "2023-01-25T16:38:28.451Z"
   },
   "components": [
     {
@@ -100,9 +100,9 @@
     {
       "id": "66v4z7zq30yc",
       "name": "Marketplace",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-01-23T17:06:59.587Z",
-      "updated_at": "2022-11-22T23:32:27.562Z",
+      "updated_at": "2023-01-25T16:38:28.401Z",
       "position": 7,
       "description": "Installing and managing apps. For the status of Marketplace Developer tools, please visit status.developer.atlassian.com",
       "showcase": false,
@@ -173,10 +173,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "dtwjkxqtg5m1",
+      "name": "Issues with the Zendesk App integration in Jira",
+      "status": "investigating",
+      "created_at": "2023-01-25T16:38:28.369Z",
+      "updated_at": "2023-01-25T16:38:28.448Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/wj9blcw2ny6s",
+      "started_at": "2023-01-25T16:38:28.364Z",
+      "page_id": "s6f0gm5gcpmy",
+      "incident_updates": [
+        {
+          "id": "996sj3b9fx7v",
+          "status": "investigating",
+          "body": "We are currently investigating reports of errors with the Zendesk app integration in Jira. We shall provide more updates when we learn more about it.",
+          "incident_id": "dtwjkxqtg5m1",
+          "created_at": "2023-01-25T16:38:28.446Z",
+          "updated_at": "2023-01-25T16:38:28.446Z",
+          "display_at": "2023-01-25T16:38:28.446Z",
+          "affected_components": [
+            {
+              "code": "66v4z7zq30yc",
+              "name": "Marketplace",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "66v4z7zq30yc",
+          "name": "Marketplace",
+          "status": "degraded_performance",
+          "created_at": "2019-01-23T17:06:59.587Z",
+          "updated_at": "2023-01-25T16:38:28.401Z",
+          "position": 7,
+          "description": "Installing and managing apps. For the status of Marketplace Developer tools, please visit status.developer.atlassian.com",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "s6f0gm5gcpmy",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
