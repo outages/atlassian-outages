@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-01-30T09:23:33.330Z"
+    "updated_at": "2023-01-30T09:41:26.828Z"
   },
   "components": [
     {
@@ -783,16 +783,36 @@
     {
       "id": "q8vn7299hfgd",
       "name": "Marketplace reporting APIs are facing a partial outage",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2023-01-30T08:48:22.436Z",
-      "updated_at": "2023-01-30T08:54:56.031Z",
-      "monitoring_at": null,
+      "updated_at": "2023-01-30T09:41:26.826Z",
+      "monitoring_at": "2023-01-30T09:41:26.812Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/t4mfmtxzh9wz",
       "started_at": "2023-01-30T08:48:22.430Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "c7f27nws65yg",
+          "status": "monitoring",
+          "body": "Issue is resolved now and we will continue to monitor.",
+          "incident_id": "q8vn7299hfgd",
+          "created_at": "2023-01-30T09:41:26.812Z",
+          "updated_at": "2023-01-30T09:41:26.812Z",
+          "display_at": "2023-01-30T09:41:26.812Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "lf8yntm2w28s",
           "status": "investigating",
