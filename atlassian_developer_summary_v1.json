@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-02-05T06:03:59.997Z"
+    "updated_at": "2023-02-05T11:48:35.528Z"
   },
   "components": [
     {
@@ -187,7 +187,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -646,9 +646,9 @@
     {
       "id": "hk36hlvygg2q",
       "name": "Reporting APIs and dashboards",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2013-12-03T00:45:26.014Z",
-      "updated_at": "2023-02-05T02:51:57.157Z",
+      "updated_at": "2023-02-05T11:48:35.456Z",
       "position": 11,
       "description": "Marketing attribution reports are now operational.",
       "showcase": true,
@@ -779,83 +779,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "c1vg6jyv7zvd",
-      "name": "Transactions reporting data is delayed",
-      "status": "identified",
-      "created_at": "2023-02-05T02:51:57.115Z",
-      "updated_at": "2023-02-05T06:03:59.988Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/gxk68yskfccs",
-      "started_at": "2023-02-05T02:51:57.107Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "4hmv8krfs5p7",
-          "status": "identified",
-          "body": "The issue has been identified as one of the upstream data jobs was stalled. The job is rerun to pull the latest data. ETA expected to refresh the pipeline is ~6hrs from now.",
-          "incident_id": "c1vg6jyv7zvd",
-          "created_at": "2023-02-05T06:03:59.986Z",
-          "updated_at": "2023-02-05T06:03:59.986Z",
-          "display_at": "2023-02-05T06:03:59.986Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "z5cgpnbcx73j",
-          "status": "investigating",
-          "body": "We are currently investigating this issue.",
-          "incident_id": "c1vg6jyv7zvd",
-          "created_at": "2023-02-05T02:51:57.207Z",
-          "updated_at": "2023-02-05T02:51:57.207Z",
-          "display_at": "2023-02-05T02:51:57.207Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "hk36hlvygg2q",
-          "name": "Reporting APIs and dashboards",
-          "status": "partial_outage",
-          "created_at": "2013-12-03T00:45:26.014Z",
-          "updated_at": "2023-02-05T02:51:57.157Z",
-          "position": 11,
-          "description": "Marketing attribution reports are now operational.",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
