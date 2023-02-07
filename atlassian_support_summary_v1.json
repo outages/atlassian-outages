@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-02-07T18:00:52.715Z"
+    "updated_at": "2023-02-07T19:30:37.931Z"
   },
   "components": [
     {
@@ -55,9 +55,9 @@
     {
       "id": "x6ljwvfs3ymn",
       "name": "Community",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-11-30T21:48:02.423Z",
-      "updated_at": "2023-02-07T18:00:52.570Z",
+      "updated_at": "2023-02-07T19:30:37.842Z",
       "position": 4,
       "description": null,
       "showcase": true,
@@ -204,97 +204,9 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "88rvr48hp2l1",
-      "name": "Atlassian Community Scheduled Maintenance",
-      "status": "in_progress",
-      "created_at": "2023-02-07T16:12:46.708Z",
-      "updated_at": "2023-02-07T18:00:52.693Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/5f6sp5v9vdgk",
-      "started_at": "2023-02-07T16:12:46.703Z",
-      "page_id": "3tbw4lb9t3qp",
-      "incident_updates": [
-        {
-          "id": "kbksnrptw6nl",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "88rvr48hp2l1",
-          "created_at": "2023-02-07T18:00:52.680Z",
-          "updated_at": "2023-02-07T18:00:52.680Z",
-          "display_at": "2023-02-07T18:00:52.680Z",
-          "affected_components": [
-            {
-              "code": "x6ljwvfs3ymn",
-              "name": "Community",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "x11md0kf7qwy",
-          "status": "scheduled",
-          "body": "Maintenance will begin as scheduled in 60 minutes.",
-          "incident_id": "88rvr48hp2l1",
-          "created_at": "2023-02-07T17:00:24.051Z",
-          "updated_at": "2023-02-07T17:00:24.051Z",
-          "display_at": "2023-02-07T17:00:24.051Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "jnvp663d6qmw",
-          "status": "scheduled",
-          "body": "Due to a scheduled update, the Community may be unavailable for up to one hour between 1:00PM - 2:30PM CST Tuesday, February 7th.  Thank you for your patience and understanding.",
-          "incident_id": "88rvr48hp2l1",
-          "created_at": "2023-02-07T16:12:46.763Z",
-          "updated_at": "2023-02-07T16:12:46.763Z",
-          "display_at": "2023-02-07T16:12:46.763Z",
-          "affected_components": [
-            {
-              "code": "x6ljwvfs3ymn",
-              "name": "Community",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "x6ljwvfs3ymn",
-          "name": "Community",
-          "status": "under_maintenance",
-          "created_at": "2018-11-30T21:48:02.423Z",
-          "updated_at": "2023-02-07T18:00:52.570Z",
-          "position": 4,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "3tbw4lb9t3qp",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2023-02-07T18:00:00.000Z",
-      "scheduled_until": "2023-02-07T19:30:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
