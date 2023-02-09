@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-02-08T16:01:40.646Z"
+    "updated_at": "2023-02-09T00:28:44.816Z"
   },
   "components": [
     {
@@ -785,7 +785,7 @@
       "name": "Forge Tunnel is experiencing degraded performance",
       "status": "identified",
       "created_at": "2023-02-08T15:05:04.412Z",
-      "updated_at": "2023-02-08T16:01:40.638Z",
+      "updated_at": "2023-02-09T00:28:44.806Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -793,6 +793,26 @@
       "started_at": "2023-02-08T15:05:04.401Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "56w2xjmz2z07",
+          "status": "identified",
+          "body": "Forge Tunnel has been experiencing degraded and intermittent performance since 2023-02-07 16:00 UTC.\n\nThis issue only impacts the tunneling experience and has no impact on production operation of Forge apps. We are investigating how many apps/developers are impacted by this issue.\n\nNo work-around is available for this issue. We have a potential fix that is being released to production. We will review the performance of the Forge tunnel once the fix has been released.\n\nWe will provide another update by 2023-02-09 06:30 UTC, in about 6 hours from now.",
+          "incident_id": "qswh0vxl51qf",
+          "created_at": "2023-02-09T00:28:44.803Z",
+          "updated_at": "2023-02-09T00:28:44.803Z",
+          "display_at": "2023-02-09T00:28:44.803Z",
+          "affected_components": [
+            {
+              "code": "l30t53hv9z8z",
+              "name": "Developer - Forge CLI",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "5thgjwvd312s",
           "status": "identified",
