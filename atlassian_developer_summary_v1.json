@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-02-09T00:28:44.816Z"
+    "updated_at": "2023-02-09T07:42:24.617Z"
   },
   "components": [
     {
@@ -783,16 +783,36 @@
     {
       "id": "qswh0vxl51qf",
       "name": "Forge Tunnel is experiencing degraded performance",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2023-02-08T15:05:04.412Z",
-      "updated_at": "2023-02-09T00:28:44.806Z",
-      "monitoring_at": null,
+      "updated_at": "2023-02-09T07:42:24.615Z",
+      "monitoring_at": "2023-02-09T07:42:24.601Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/7c51jqv3jldd",
       "started_at": "2023-02-08T15:05:04.401Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "1yy3lq360s8y",
+          "status": "monitoring",
+          "body": "Forge Tunnel has been experiencing degraded and intermittent performance since 2023-02-07 16:00 UTC.\n\nThis issue only impacts the tunneling experience and has no impact on production operation of Forge apps.\n\nWe have released a partial fix for this issue, however, some errors are still occurring. No work-around is available for this issue.\n\nWe will provide another update by 2023-02-10 00:00 UTC, in about 16 hours from now.",
+          "incident_id": "qswh0vxl51qf",
+          "created_at": "2023-02-09T07:42:24.601Z",
+          "updated_at": "2023-02-09T07:42:24.601Z",
+          "display_at": "2023-02-09T07:42:24.601Z",
+          "affected_components": [
+            {
+              "code": "l30t53hv9z8z",
+              "name": "Developer - Forge CLI",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "56w2xjmz2z07",
           "status": "identified",
