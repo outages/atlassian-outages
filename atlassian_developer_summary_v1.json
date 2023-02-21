@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-02-20T12:19:19.427Z"
+    "updated_at": "2023-02-21T02:01:29.774Z"
   },
   "components": [
     {
@@ -779,80 +779,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "v94vfvx3t9k8",
-      "name": "Jira Cloud REST API returning 500 errors for calls related to parent clauses in JQL",
-      "status": "identified",
-      "created_at": "2023-02-20T10:30:09.224Z",
-      "updated_at": "2023-02-20T12:19:19.416Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/kjzsl180yrpm",
-      "started_at": "2023-02-20T10:30:09.213Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "c09srd6tvgd6",
-          "status": "identified",
-          "body": "We have identified root cause of this incident and are in the process of rolling out fix.\n\nCurrent impact: for some REST API requests Jira is returning 500 errors. This only affects requests that are related to parent search clause (for example: 'Parent Link' is empty) - although the relation could be due to the stored JQL and not directly passed in request body (for example when evaluating existing JQL filter with affected clause). It mainly impacts Jira Expression Evaluation and Search REST endpoints but is not limited to those.\n\nImpact start: 2023-02-19 22:30 UTC.\n\nThe fix is being rolled out progressively and should complete by 21:00 UTC.\n\nNext update will be posted around 22:00 UTC unless situation changes significantly.",
-          "incident_id": "v94vfvx3t9k8",
-          "created_at": "2023-02-20T12:19:19.413Z",
-          "updated_at": "2023-02-20T12:19:19.413Z",
-          "display_at": "2023-02-20T12:19:19.413Z",
-          "affected_components": [
-            {
-              "code": "cc6gw24m02wp",
-              "name": "APIs - Jira Cloud APIs",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "q198wbvxngkv",
-          "status": "investigating",
-          "body": "We have identified a problem with Jira Cloud where some API calls involving parent related search clauses in JQL are resulting in 500 errors. \nThis problem appears in Jira search, Jira Expression evaluation  and other related APIs.\nThe problem started appearing to small amount of REST API calls around 2023-02-19 22:30 UTC. \nWe are investigating the root cause and will provide another update by 12:00 UTC.",
-          "incident_id": "v94vfvx3t9k8",
-          "created_at": "2023-02-20T10:30:09.343Z",
-          "updated_at": "2023-02-20T10:30:09.343Z",
-          "display_at": "2023-02-20T10:30:09.343Z",
-          "affected_components": [
-            {
-              "code": "cc6gw24m02wp",
-              "name": "APIs - Jira Cloud APIs",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "cc6gw24m02wp",
-          "name": "Jira Cloud APIs",
-          "status": "partial_outage",
-          "created_at": "2018-02-01T17:16:54.648Z",
-          "updated_at": "2023-02-20T10:30:09.291Z",
-          "position": 3,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "w0ld3nc9jvdx",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "minor",
