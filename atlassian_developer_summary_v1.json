@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-03-01T03:00:05.398Z"
+    "updated_at": "2023-03-01T04:01:10.703Z"
   },
   "components": [
     {
@@ -64,9 +64,9 @@
     {
       "id": "wzmg8phvmrwh",
       "name": "App Deployment",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2021-03-23T12:00:27.385Z",
-      "updated_at": "2023-01-19T06:21:48.163Z",
+      "updated_at": "2023-03-01T04:01:10.323Z",
       "position": 1,
       "description": null,
       "showcase": true,
@@ -79,9 +79,9 @@
     {
       "id": "g04n852g3nt6",
       "name": "App listings",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2013-12-03T00:43:13.481Z",
-      "updated_at": "2023-02-27T14:06:36.741Z",
+      "updated_at": "2023-03-01T04:01:10.368Z",
       "position": 2,
       "description": "The detailed listing page for each app",
       "showcase": true,
@@ -109,7 +109,7 @@
     {
       "id": "73bt63kd5q9k",
       "name": "Developer",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-02-01T17:21:34.889Z",
       "updated_at": "2019-05-02T04:22:45.333Z",
       "position": 2,
@@ -202,9 +202,9 @@
     {
       "id": "ccbm394hy8pk",
       "name": "Create and manage apps",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-02-01T17:21:34.902Z",
-      "updated_at": "2022-12-16T16:49:56.461Z",
+      "updated_at": "2023-03-01T04:01:10.412Z",
       "position": 3,
       "description": "The ability to create and manage apps at https://developer.atlassian.com/apps",
       "showcase": true,
@@ -232,7 +232,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -293,9 +293,9 @@
     {
       "id": "7z6w09hl9mn0",
       "name": "App submissions",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-02-01T17:48:45.038Z",
-      "updated_at": "2022-12-16T11:35:34.075Z",
+      "updated_at": "2023-03-01T04:01:10.456Z",
       "position": 4,
       "description": null,
       "showcase": true,
@@ -406,9 +406,9 @@
     {
       "id": "vb9xhz9z6zbp",
       "name": "Forge App Installation",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2021-03-23T11:55:32.639Z",
-      "updated_at": "2023-01-04T07:50:31.256Z",
+      "updated_at": "2023-03-01T04:01:10.491Z",
       "position": 5,
       "description": "Installation of Forge apps",
       "showcase": true,
@@ -481,9 +481,9 @@
     {
       "id": "3t1y6724xl8q",
       "name": "In-product Marketplace and app installation (Cloud)",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2013-12-03T00:45:39.973Z",
-      "updated_at": "2023-02-27T14:06:36.797Z",
+      "updated_at": "2023-03-01T04:01:10.510Z",
       "position": 7,
       "description": "The ability to discover, install, and manage apps inside of Atlassian's Cloud products (Jira, Confluence, Stride, Bitbucket)",
       "showcase": true,
@@ -541,9 +541,9 @@
     {
       "id": "ngby5fdfj3px",
       "name": "In-product Marketplace and app installation (Server)",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-02-01T17:38:37.793Z",
-      "updated_at": "2022-09-01T03:35:45.832Z",
+      "updated_at": "2023-03-01T04:01:10.530Z",
       "position": 8,
       "description": "The ability to discover, install, and manage apps inside of Atlassian's Server products (Jira, Confluence, Bitbucket, Bamboo, Fisheye / Crucible, Hipchat)",
       "showcase": true,
@@ -586,9 +586,9 @@
     {
       "id": "64gg59lyzrfs",
       "name": "Forge App Logs",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2021-05-12T00:18:57.324Z",
-      "updated_at": "2023-01-13T07:10:04.038Z",
+      "updated_at": "2023-03-01T04:01:10.547Z",
       "position": 9,
       "description": "Access and retrieve app logs via Forge CLI and admin.atlassian.com",
       "showcase": true,
@@ -616,9 +616,9 @@
     {
       "id": "y429ymc92xq4",
       "name": "Forge App Monitoring",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2022-08-25T01:23:23.745Z",
-      "updated_at": "2023-01-07T06:39:26.970Z",
+      "updated_at": "2023-03-01T04:01:10.566Z",
       "position": 10,
       "description": "View Forge app metrics via developer console",
       "showcase": true,
@@ -646,9 +646,9 @@
     {
       "id": "khz72mns34gk",
       "name": "Developer console",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2021-07-09T01:52:46.683Z",
-      "updated_at": "2023-01-30T03:27:50.935Z",
+      "updated_at": "2023-03-01T04:01:10.583Z",
       "position": 11,
       "description": "Reliability of https://developer.atlassian.com/console",
       "showcase": true,
@@ -676,9 +676,9 @@
     {
       "id": "x9bxzb5jlltj",
       "name": "Forge direct app distribution",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2022-03-15T10:00:31.590Z",
-      "updated_at": "2023-01-30T03:27:50.954Z",
+      "updated_at": "2023-03-01T04:01:10.601Z",
       "position": 12,
       "description": "A way to share your apps with a set of trusted site admins: https://developer.atlassian.com/platform/forge/distribute-your-apps/#start-sharing-your-app",
       "showcase": true,
@@ -736,9 +736,9 @@
     {
       "id": "l30t53hv9z8z",
       "name": "Forge CLI",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2022-10-18T22:30:09.575Z",
-      "updated_at": "2023-02-10T12:30:36.540Z",
+      "updated_at": "2023-03-01T04:01:10.621Z",
       "position": 14,
       "description": null,
       "showcase": true,
@@ -751,9 +751,9 @@
     {
       "id": "x861fm3drh21",
       "name": "End-user consent",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2022-10-18T22:31:28.597Z",
-      "updated_at": "2022-10-18T22:31:28.597Z",
+      "updated_at": "2023-03-01T04:01:10.639Z",
       "position": 15,
       "description": "Prompt for consent of specific permissions for an app.",
       "showcase": true,
@@ -766,9 +766,9 @@
     {
       "id": "5jn572sn98k4",
       "name": "Forge App Alerts",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2022-10-23T22:44:37.379Z",
-      "updated_at": "2022-10-23T22:44:37.379Z",
+      "updated_at": "2023-03-01T04:01:10.656Z",
       "position": 16,
       "description": "Receive email alerts when Forge app breaches SLI and view alert details via dev console.",
       "showcase": true,
@@ -784,9 +784,9 @@
     {
       "id": "3sxj1h2kclqz",
       "name": "App installation and management maintenance",
-      "status": "scheduled",
+      "status": "in_progress",
       "created_at": "2023-02-22T13:53:59.902Z",
-      "updated_at": "2023-03-01T03:00:05.384Z",
+      "updated_at": "2023-03-01T04:01:10.694Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -794,6 +794,104 @@
       "started_at": "2023-02-22T13:53:59.874Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "dzqvx66wm82g",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "3sxj1h2kclqz",
+          "created_at": "2023-03-01T04:01:10.690Z",
+          "updated_at": "2023-03-01T04:01:10.690Z",
+          "display_at": "2023-03-01T04:01:10.690Z",
+          "affected_components": [
+            {
+              "code": "wzmg8phvmrwh",
+              "name": "Developer - App Deployment",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "ccbm394hy8pk",
+              "name": "Developer - Create and manage apps",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "vb9xhz9z6zbp",
+              "name": "Developer - Forge App Installation",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "64gg59lyzrfs",
+              "name": "Developer - Forge App Logs",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "y429ymc92xq4",
+              "name": "Developer - Forge App Monitoring",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "khz72mns34gk",
+              "name": "Developer - Developer console",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "x9bxzb5jlltj",
+              "name": "Developer - Forge direct app distribution",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "l30t53hv9z8z",
+              "name": "Developer - Forge CLI",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "x861fm3drh21",
+              "name": "Developer - End-user consent",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "5jn572sn98k4",
+              "name": "Developer - Forge App Alerts",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "g04n852g3nt6",
+              "name": "Marketplace - App listings",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "7z6w09hl9mn0",
+              "name": "Marketplace - App submissions",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "3t1y6724xl8q",
+              "name": "Marketplace - In-product Marketplace and app installation (Cloud)",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "ngby5fdfj3px",
+              "name": "Marketplace - In-product Marketplace and app installation (Server)",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "ffknd6chzpmq",
           "status": "scheduled",
@@ -910,9 +1008,9 @@
         {
           "id": "wzmg8phvmrwh",
           "name": "App Deployment",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2021-03-23T12:00:27.385Z",
-          "updated_at": "2023-01-19T06:21:48.163Z",
+          "updated_at": "2023-03-01T04:01:10.323Z",
           "position": 1,
           "description": null,
           "showcase": true,
@@ -925,9 +1023,9 @@
         {
           "id": "g04n852g3nt6",
           "name": "App listings",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2013-12-03T00:43:13.481Z",
-          "updated_at": "2023-02-27T14:06:36.741Z",
+          "updated_at": "2023-03-01T04:01:10.368Z",
           "position": 2,
           "description": "The detailed listing page for each app",
           "showcase": true,
@@ -940,9 +1038,9 @@
         {
           "id": "ccbm394hy8pk",
           "name": "Create and manage apps",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2018-02-01T17:21:34.902Z",
-          "updated_at": "2022-12-16T16:49:56.461Z",
+          "updated_at": "2023-03-01T04:01:10.412Z",
           "position": 3,
           "description": "The ability to create and manage apps at https://developer.atlassian.com/apps",
           "showcase": true,
@@ -955,9 +1053,9 @@
         {
           "id": "7z6w09hl9mn0",
           "name": "App submissions",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2018-02-01T17:48:45.038Z",
-          "updated_at": "2022-12-16T11:35:34.075Z",
+          "updated_at": "2023-03-01T04:01:10.456Z",
           "position": 4,
           "description": null,
           "showcase": true,
@@ -970,9 +1068,9 @@
         {
           "id": "vb9xhz9z6zbp",
           "name": "Forge App Installation",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2021-03-23T11:55:32.639Z",
-          "updated_at": "2023-01-04T07:50:31.256Z",
+          "updated_at": "2023-03-01T04:01:10.491Z",
           "position": 5,
           "description": "Installation of Forge apps",
           "showcase": true,
@@ -985,9 +1083,9 @@
         {
           "id": "3t1y6724xl8q",
           "name": "In-product Marketplace and app installation (Cloud)",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2013-12-03T00:45:39.973Z",
-          "updated_at": "2023-02-27T14:06:36.797Z",
+          "updated_at": "2023-03-01T04:01:10.510Z",
           "position": 7,
           "description": "The ability to discover, install, and manage apps inside of Atlassian's Cloud products (Jira, Confluence, Stride, Bitbucket)",
           "showcase": true,
@@ -1000,9 +1098,9 @@
         {
           "id": "ngby5fdfj3px",
           "name": "In-product Marketplace and app installation (Server)",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2018-02-01T17:38:37.793Z",
-          "updated_at": "2022-09-01T03:35:45.832Z",
+          "updated_at": "2023-03-01T04:01:10.530Z",
           "position": 8,
           "description": "The ability to discover, install, and manage apps inside of Atlassian's Server products (Jira, Confluence, Bitbucket, Bamboo, Fisheye / Crucible, Hipchat)",
           "showcase": true,
@@ -1015,9 +1113,9 @@
         {
           "id": "64gg59lyzrfs",
           "name": "Forge App Logs",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2021-05-12T00:18:57.324Z",
-          "updated_at": "2023-01-13T07:10:04.038Z",
+          "updated_at": "2023-03-01T04:01:10.547Z",
           "position": 9,
           "description": "Access and retrieve app logs via Forge CLI and admin.atlassian.com",
           "showcase": true,
@@ -1030,9 +1128,9 @@
         {
           "id": "y429ymc92xq4",
           "name": "Forge App Monitoring",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2022-08-25T01:23:23.745Z",
-          "updated_at": "2023-01-07T06:39:26.970Z",
+          "updated_at": "2023-03-01T04:01:10.566Z",
           "position": 10,
           "description": "View Forge app metrics via developer console",
           "showcase": true,
@@ -1045,9 +1143,9 @@
         {
           "id": "khz72mns34gk",
           "name": "Developer console",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2021-07-09T01:52:46.683Z",
-          "updated_at": "2023-01-30T03:27:50.935Z",
+          "updated_at": "2023-03-01T04:01:10.583Z",
           "position": 11,
           "description": "Reliability of https://developer.atlassian.com/console",
           "showcase": true,
@@ -1060,9 +1158,9 @@
         {
           "id": "x9bxzb5jlltj",
           "name": "Forge direct app distribution",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2022-03-15T10:00:31.590Z",
-          "updated_at": "2023-01-30T03:27:50.954Z",
+          "updated_at": "2023-03-01T04:01:10.601Z",
           "position": 12,
           "description": "A way to share your apps with a set of trusted site admins: https://developer.atlassian.com/platform/forge/distribute-your-apps/#start-sharing-your-app",
           "showcase": true,
@@ -1075,9 +1173,9 @@
         {
           "id": "l30t53hv9z8z",
           "name": "Forge CLI",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2022-10-18T22:30:09.575Z",
-          "updated_at": "2023-02-10T12:30:36.540Z",
+          "updated_at": "2023-03-01T04:01:10.621Z",
           "position": 14,
           "description": null,
           "showcase": true,
@@ -1090,9 +1188,9 @@
         {
           "id": "x861fm3drh21",
           "name": "End-user consent",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2022-10-18T22:31:28.597Z",
-          "updated_at": "2022-10-18T22:31:28.597Z",
+          "updated_at": "2023-03-01T04:01:10.639Z",
           "position": 15,
           "description": "Prompt for consent of specific permissions for an app.",
           "showcase": true,
@@ -1105,9 +1203,9 @@
         {
           "id": "5jn572sn98k4",
           "name": "Forge App Alerts",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2022-10-23T22:44:37.379Z",
-          "updated_at": "2022-10-23T22:44:37.379Z",
+          "updated_at": "2023-03-01T04:01:10.656Z",
           "position": 16,
           "description": "Receive email alerts when Forge app breaches SLI and view alert details via dev console.",
           "showcase": true,
@@ -1123,7 +1221,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
