@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-03-03T05:33:24.119Z"
+    "updated_at": "2023-03-03T06:58:15.551Z"
   },
   "components": [
     {
@@ -785,7 +785,7 @@
       "name": "Some invoice amounts got updated to wrong value in partner reports",
       "status": "identified",
       "created_at": "2023-03-02T13:33:19.391Z",
-      "updated_at": "2023-03-03T05:33:24.106Z",
+      "updated_at": "2023-03-03T06:58:15.542Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -796,11 +796,11 @@
         {
           "id": "2yfs8mfwj9ml",
           "status": "identified",
-          "body": "The bug has been fixed so any new invoice from today onward will not be having the same issue. \nThe team is working on fixing the past affected invoices which will flow as recent updates to partners via Marketplace reports. We will keep the status posted.",
+          "body": "The bug has been fixed so any new invoice from today onward will not be having the same issue. \nThe team is working on fixing the past affected invoices which will flow as recent updates to partners via Marketplace reports. We will keep the status posted.\n\nWe will provide another update in ~2hrs from now",
           "incident_id": "n7yrjfnnyj5c",
           "created_at": "2023-03-03T05:33:24.103Z",
-          "updated_at": "2023-03-03T05:33:24.103Z",
-          "display_at": "2023-03-03T05:33:24.103Z",
+          "updated_at": "2023-03-03T06:58:15.536Z",
+          "display_at": "2023-03-03T05:33:24.000Z",
           "affected_components": [
             {
               "code": "hk36hlvygg2q",
