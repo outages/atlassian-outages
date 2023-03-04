@@ -4,13 +4,13 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-03-03T13:27:23.207Z"
+    "updated_at": "2023-03-04T18:22:25.499Z"
   },
   "components": [
     {
       "id": "jzqq334r65mx",
       "name": "US",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-02-12T13:47:31.055Z",
       "updated_at": "2019-03-15T08:16:16.977Z",
       "position": 1,
@@ -643,9 +643,9 @@
     {
       "id": "p88rmktvpp6p",
       "name": "Reporting & Analytics",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-02-12T13:47:31.068Z",
-      "updated_at": "2023-02-27T08:49:05.497Z",
+      "updated_at": "2023-03-04T18:22:25.432Z",
       "position": 19,
       "description": "Reporting page",
       "showcase": true,
@@ -761,223 +761,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "g6ch4gryr1bt",
-      "name": "Opsgenie On Call analytics dashboards are not showing data",
-      "status": "identified",
-      "created_at": "2023-02-27T08:49:05.468Z",
-      "updated_at": "2023-03-03T13:27:23.197Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/g7cmb337fp0m",
-      "started_at": "2023-02-27T10:28:41.000Z",
-      "page_id": "t05vdsszxwtq",
-      "incident_updates": [
-        {
-          "id": "wp3gb7t39p94",
-          "status": "identified",
-          "body": "The team is still working to increase the data accessibility for the 3 impacted dashboards. We will keep you posted on further updates.",
-          "incident_id": "g6ch4gryr1bt",
-          "created_at": "2023-03-03T13:27:23.195Z",
-          "updated_at": "2023-03-03T13:27:23.195Z",
-          "display_at": "2023-03-03T13:27:23.195Z",
-          "affected_components": [
-            {
-              "code": "p88rmktvpp6p",
-              "name": "US - Reporting & Analytics",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "xbmmn6sfsbqr",
-          "status": "identified",
-          "body": "While we continue to increase the data accessibility for the 3 impacted dashboards, customers can continue to use them for the last 6 months of data. Rest of the reporting dashboards are working as expected. We will keep you posted on further updates.",
-          "incident_id": "g6ch4gryr1bt",
-          "created_at": "2023-03-02T12:19:18.907Z",
-          "updated_at": "2023-03-02T12:19:18.907Z",
-          "display_at": "2023-03-02T12:19:18.907Z",
-          "affected_components": [
-            {
-              "code": "p88rmktvpp6p",
-              "name": "US - Reporting & Analytics",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "nwlfgkky7k54",
-          "status": "identified",
-          "body": "While we continue to fix the data, we have observed latency in data shown for a few of the other analytics dashboards. We will continue to work to fix the rest of the data and will update you once we have more information.",
-          "incident_id": "g6ch4gryr1bt",
-          "created_at": "2023-03-01T07:04:31.238Z",
-          "updated_at": "2023-03-01T07:04:31.238Z",
-          "display_at": "2023-03-01T07:04:31.238Z",
-          "affected_components": [
-            {
-              "code": "p88rmktvpp6p",
-              "name": "US - Reporting & Analytics",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "rh6cpfz7g5xt",
-          "status": "identified",
-          "body": "Data is fixed for last six months and impacted dashboards can be generated with last six month of data. We will continue to work on fixing rest of the data and will update once we have more information.",
-          "incident_id": "g6ch4gryr1bt",
-          "created_at": "2023-02-28T15:14:23.663Z",
-          "updated_at": "2023-02-28T15:14:23.663Z",
-          "display_at": "2023-02-28T15:14:23.663Z",
-          "affected_components": [
-            {
-              "code": "p88rmktvpp6p",
-              "name": "US - Reporting & Analytics",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "jdwfftty7m4g",
-          "status": "identified",
-          "body": "Job triggered to fix rest of the data is taking more time then expected, we are actively monitoring it and will update once we have more information.",
-          "incident_id": "g6ch4gryr1bt",
-          "created_at": "2023-02-27T19:37:40.885Z",
-          "updated_at": "2023-02-27T19:37:40.885Z",
-          "display_at": "2023-02-27T19:37:40.885Z",
-          "affected_components": [
-            {
-              "code": "p88rmktvpp6p",
-              "name": "US - Reporting & Analytics",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "frgwg3ccgxgm",
-          "status": "identified",
-          "body": "The issue has been identified and a fix is being implemented.",
-          "incident_id": "g6ch4gryr1bt",
-          "created_at": "2023-02-27T10:39:11.157Z",
-          "updated_at": "2023-02-27T10:39:11.157Z",
-          "display_at": "2023-02-27T10:39:11.157Z",
-          "affected_components": [
-            {
-              "code": "p88rmktvpp6p",
-              "name": "US - Reporting & Analytics",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "ytg48vv58bb2",
-          "status": "investigating",
-          "body": "We are continuing to investigate this issue.",
-          "incident_id": "g6ch4gryr1bt",
-          "created_at": "2023-02-27T10:37:47.393Z",
-          "updated_at": "2023-02-27T10:37:47.393Z",
-          "display_at": "2023-02-27T10:37:47.393Z",
-          "affected_components": [
-            {
-              "code": "p88rmktvpp6p",
-              "name": "US - Reporting & Analytics",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "3pmlrhv64y4n",
-          "status": "investigating",
-          "body": "We have identified the root cause and rolled out a fix for the last month of data. All data generated in the last month should be accessible. We have triggered the fix for the rest of the data and will update once the data is fully accessible.",
-          "incident_id": "g6ch4gryr1bt",
-          "created_at": "2023-02-27T10:28:41.190Z",
-          "updated_at": "2023-02-27T10:37:36.361Z",
-          "display_at": "2023-02-27T10:28:41.000Z",
-          "affected_components": [
-            {
-              "code": "p88rmktvpp6p",
-              "name": "US - Reporting & Analytics",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "tmsm9171h8cn",
-          "status": "investigating",
-          "body": "Opsgenie \"On Call Reports\", \"On Call Time Analytics\" & \"Total On Call Time per User\" Analytics dashboards are not showing data. We are working to identify the root cause and we'll keep you posted with further updates.",
-          "incident_id": "g6ch4gryr1bt",
-          "created_at": "2023-02-27T08:49:05.533Z",
-          "updated_at": "2023-02-27T08:49:05.533Z",
-          "display_at": "2023-02-27T08:49:05.533Z",
-          "affected_components": [
-            {
-              "code": "p88rmktvpp6p",
-              "name": "US - Reporting & Analytics",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "p88rmktvpp6p",
-          "name": "Reporting & Analytics",
-          "status": "degraded_performance",
-          "created_at": "2019-02-12T13:47:31.068Z",
-          "updated_at": "2023-02-27T08:49:05.497Z",
-          "position": 19,
-          "description": "Reporting page",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "jzqq334r65mx",
-          "page_id": "t05vdsszxwtq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
