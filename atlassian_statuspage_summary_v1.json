@@ -4,13 +4,13 @@
     "name": "Atlassian Statuspage",
     "url": "http://metastatuspage.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-02-28T22:27:43.129-08:00"
+    "updated_at": "2023-03-20T12:54:27.087-07:00"
   },
   "components": [
     {
       "id": "hchd2wyk50h7",
       "name": "Hosted Pages",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:20:23.801-07:00",
       "updated_at": "2017-08-21T10:28:03.987-07:00",
       "position": 1,
@@ -153,9 +153,9 @@
     {
       "id": "3bg3nq9mm436",
       "name": "HTTPS Pages",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:20:23.888-07:00",
-      "updated_at": "2023-02-07T22:21:35.092-08:00",
+      "updated_at": "2023-03-20T12:54:27.007-07:00",
       "position": 2,
       "description": null,
       "showcase": true,
@@ -816,10 +816,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "wbc8bk75lg1j",
+      "name": "We are noticing some slowness/intermittent errors while loading some public pages.",
+      "status": "investigating",
+      "created_at": "2023-03-20T12:54:26.963-07:00",
+      "updated_at": "2023-03-20T12:54:27.078-07:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "http://mstspg.co/t8xdxr508s7h",
+      "started_at": "2023-03-20T12:54:26.945-07:00",
+      "page_id": "y2j98763l56x",
+      "incident_updates": [
+        {
+          "id": "pjjb622w95zq",
+          "status": "investigating",
+          "body": "We are noticing some slowness/intermittent errors while loading some public pages. We are investigating the errors.",
+          "incident_id": "wbc8bk75lg1j",
+          "created_at": "2023-03-20T12:54:27.072-07:00",
+          "updated_at": "2023-03-20T12:54:27.072-07:00",
+          "display_at": "2023-03-20T12:54:27.072-07:00",
+          "affected_components": [
+            {
+              "code": "3bg3nq9mm436",
+              "name": "Hosted Pages - HTTPS Pages",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "3bg3nq9mm436",
+          "name": "HTTPS Pages",
+          "status": "degraded_performance",
+          "created_at": "2017-08-21T10:20:23.888-07:00",
+          "updated_at": "2023-03-20T12:54:27.007-07:00",
+          "position": 2,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": "hchd2wyk50h7",
+          "page_id": "y2j98763l56x",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
