@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-03-21T00:01:12.408Z"
+    "updated_at": "2023-04-03T03:08:23.026Z"
   },
   "components": [
     {
@@ -55,9 +55,9 @@
     {
       "id": "c13948qkh0kk",
       "name": "Search",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-01-23T17:04:57.213Z",
-      "updated_at": "2022-11-22T23:32:27.521Z",
+      "updated_at": "2023-04-03T02:54:56.177Z",
       "position": 4,
       "description": "Problems with JQL or quick search",
       "showcase": false,
@@ -176,7 +176,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
