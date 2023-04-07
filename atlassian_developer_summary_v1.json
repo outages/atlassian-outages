@@ -4,13 +4,13 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-04-06T15:42:57.805Z"
+    "updated_at": "2023-04-07T10:10:26.484Z"
   },
   "components": [
     {
       "id": "w0ld3nc9jvdx",
       "name": "APIs",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:15:10.342Z",
       "updated_at": "2018-02-01T17:16:31.201Z",
       "position": 1,
@@ -187,9 +187,9 @@
     {
       "id": "cc6gw24m02wp",
       "name": "Jira Cloud APIs",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:16:54.648Z",
-      "updated_at": "2023-04-06T15:18:04.767Z",
+      "updated_at": "2023-04-07T10:10:26.433Z",
       "position": 3,
       "description": null,
       "showcase": true,
@@ -783,16 +783,36 @@
     {
       "id": "9l163ryc2wcw",
       "name": "Forge Jira issue panels experiencing incorrect value of localId",
-      "status": "identified",
-      "created_at": "2023-04-06T15:18:04.735Z",
-      "updated_at": "2023-04-06T15:23:22.329Z",
-      "monitoring_at": null,
+      "status": "monitoring",
+      "created_at": "2023-04-06T15:18:04.000Z",
+      "updated_at": "2023-04-07T10:10:26.481Z",
+      "monitoring_at": "2023-04-07T10:10:26.466Z",
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/ypsy60qz9g2w",
       "started_at": "2023-04-06T15:18:04.000Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "8ppqs4tmpmk0",
+          "status": "monitoring",
+          "body": "Since Feb 3rd the value of localId parameter passed via productContext to Forge Jira Issue Panel extension points is incorrect. This may impact, in some cases, the ability to persist data against this parameter in case of Apps using multiple issue panels on a single issue.\n\nThe fix has been implemented and enabled for every new app, thus preventing the issue from spreading further. As mentioned in the previous update, the existing app installations will continue to receive an incorrect value. Affected partners will be contacted directly after the Easter break.",
+          "incident_id": "9l163ryc2wcw",
+          "created_at": "2023-04-07T10:10:26.466Z",
+          "updated_at": "2023-04-07T10:10:26.466Z",
+          "display_at": "2023-04-07T10:10:26.466Z",
+          "affected_components": [
+            {
+              "code": "cc6gw24m02wp",
+              "name": "APIs - Jira Cloud APIs",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "d48rrp6n7ksf",
           "status": "identified",
@@ -838,9 +858,9 @@
         {
           "id": "cc6gw24m02wp",
           "name": "Jira Cloud APIs",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2018-02-01T17:16:54.648Z",
-          "updated_at": "2023-04-06T15:18:04.767Z",
+          "updated_at": "2023-04-07T10:10:26.433Z",
           "position": 3,
           "description": null,
           "showcase": true,
@@ -855,7 +875,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
