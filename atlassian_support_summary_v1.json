@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-04-13T16:59:33.165Z"
+    "updated_at": "2023-04-13T19:20:36.023Z"
   },
   "components": [
     {
@@ -209,7 +209,7 @@
       "name": "Atlassian Support is slow / not loading pages. Customers may be impacted when creating tickets.",
       "status": "investigating",
       "created_at": "2023-04-13T14:58:51.913Z",
-      "updated_at": "2023-04-13T16:59:33.160Z",
+      "updated_at": "2023-04-13T19:20:36.016Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -217,6 +217,32 @@
       "started_at": "2023-04-13T14:58:52.000Z",
       "page_id": "3tbw4lb9t3qp",
       "incident_updates": [
+        {
+          "id": "txmjgx4z57zq",
+          "status": "investigating",
+          "body": "We are still investigating the issue with Atlassian Support. If you are unable to open a support ticket during this time please use the page https://confluence.atlassian.com/support/contact-support-temporary-channel-950800787.html",
+          "incident_id": "dyyn9756f33c",
+          "created_at": "2023-04-13T19:20:36.013Z",
+          "updated_at": "2023-04-13T19:20:36.013Z",
+          "display_at": "2023-04-13T19:20:36.013Z",
+          "affected_components": [
+            {
+              "code": "kvtmh1phs3r9",
+              "name": "Support Portal",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "bccp2f1cpy0x",
+              "name": "Ticketing",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "s0r0n68nv8sz",
           "status": "investigating",
