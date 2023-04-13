@@ -4,15 +4,15 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-04-13T01:43:07.478Z"
+    "updated_at": "2023-04-13T09:13:52.369Z"
   },
   "components": [
     {
       "id": "4kcs01hbh4l6",
       "name": "Jira Service Management Web",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-11-16T18:06:14.831Z",
-      "updated_at": "2023-04-13T01:06:25.506Z",
+      "updated_at": "2023-04-13T09:13:52.236Z",
       "position": 1,
       "description": "Problems with queues, issues, reports, searching, and anything else impacting an agent's ability to complete their work",
       "showcase": false,
@@ -25,9 +25,9 @@
     {
       "id": "hzbyfxf686qd",
       "name": "Service Portal",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-11-16T18:06:14.848Z",
-      "updated_at": "2023-04-13T01:06:25.523Z",
+      "updated_at": "2023-04-13T09:13:52.250Z",
       "position": 2,
       "description": "Problems related to the service desk portals where end-users make requests or raise issues",
       "showcase": false,
@@ -100,9 +100,9 @@
     {
       "id": "n459f7qbgm7b",
       "name": "Jira Service Management Email Requests",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-01-08T23:33:42.607Z",
-      "updated_at": "2023-04-13T01:06:25.540Z",
+      "updated_at": "2023-04-13T09:13:52.265Z",
       "position": 7,
       "description": "Problems related to end-user's ability to raise requests via email",
       "showcase": false,
@@ -115,9 +115,9 @@
     {
       "id": "why9xhgfq7kx",
       "name": "Authentication and User Management",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-05-02T04:27:17.805Z",
-      "updated_at": "2023-04-13T01:06:25.560Z",
+      "updated_at": "2023-04-13T09:13:52.280Z",
       "position": 8,
       "description": null,
       "showcase": false,
@@ -130,9 +130,9 @@
     {
       "id": "n50cprw4wnhp",
       "name": "Purchasing & Licensing",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-04-28T00:50:26.392Z",
-      "updated_at": "2023-04-13T01:06:25.577Z",
+      "updated_at": "2023-04-13T09:13:52.299Z",
       "position": 9,
       "description": null,
       "showcase": false,
@@ -145,9 +145,9 @@
     {
       "id": "wlpsrb4r2yq9",
       "name": "Signup",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-10-09T20:36:56.243Z",
-      "updated_at": "2023-04-13T01:06:25.595Z",
+      "updated_at": "2023-04-13T09:13:52.312Z",
       "position": 10,
       "description": null,
       "showcase": false,
@@ -160,9 +160,9 @@
     {
       "id": "7rq3yg76vvbc",
       "name": "Automation for Jira",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-12-23T01:40:13.601Z",
-      "updated_at": "2023-04-13T01:06:25.613Z",
+      "updated_at": "2023-04-13T09:13:52.326Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -188,245 +188,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "cqrgxnjg839c",
-      "name": "Error HTTP 403, 401 when accessing Jira/Confluence",
-      "status": "monitoring",
-      "created_at": "2023-04-13T01:06:25.457Z",
-      "updated_at": "2023-04-13T01:24:16.913Z",
-      "monitoring_at": "2023-04-13T01:24:16.901Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/57ybzg8t796r",
-      "started_at": "2023-04-13T01:06:25.446Z",
-      "page_id": "pv54g7ltsc24",
-      "incident_updates": [
-        {
-          "id": "1tbh8jwr5c21",
-          "status": "monitoring",
-          "body": "We have identified the root cause of the HTTP 403, 401 errors when accessing Jira/Confluence and have mitigated the problem. We are now monitoring closely.",
-          "incident_id": "cqrgxnjg839c",
-          "created_at": "2023-04-13T01:24:16.901Z",
-          "updated_at": "2023-04-13T01:24:16.901Z",
-          "display_at": "2023-04-13T01:24:16.901Z",
-          "affected_components": [
-            {
-              "code": "4kcs01hbh4l6",
-              "name": "Jira Service Management Web",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "hzbyfxf686qd",
-              "name": "Service Portal",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "n459f7qbgm7b",
-              "name": "Jira Service Management Email Requests",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "why9xhgfq7kx",
-              "name": "Authentication and User Management",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "n50cprw4wnhp",
-              "name": "Purchasing & Licensing",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "wlpsrb4r2yq9",
-              "name": "Signup",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7rq3yg76vvbc",
-              "name": "Automation for Jira",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "9k2n32p6ycnn",
-          "status": "investigating",
-          "body": "We are investigating an issue related to errors while trying to access instances and application slowness during usage that are impacting some Confluence, Jira Work Management, Jira Software and Jira Service Management cloud customers. We will provide more details once we identify the root cause.",
-          "incident_id": "cqrgxnjg839c",
-          "created_at": "2023-04-13T01:06:25.660Z",
-          "updated_at": "2023-04-13T01:06:25.660Z",
-          "display_at": "2023-04-13T01:06:25.660Z",
-          "affected_components": [
-            {
-              "code": "4kcs01hbh4l6",
-              "name": "Jira Service Management Web",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "hzbyfxf686qd",
-              "name": "Service Portal",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "n459f7qbgm7b",
-              "name": "Jira Service Management Email Requests",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "why9xhgfq7kx",
-              "name": "Authentication and User Management",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "n50cprw4wnhp",
-              "name": "Purchasing & Licensing",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "wlpsrb4r2yq9",
-              "name": "Signup",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7rq3yg76vvbc",
-              "name": "Automation for Jira",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "4kcs01hbh4l6",
-          "name": "Jira Service Management Web",
-          "status": "degraded_performance",
-          "created_at": "2018-11-16T18:06:14.831Z",
-          "updated_at": "2023-04-13T01:06:25.506Z",
-          "position": 1,
-          "description": "Problems with queues, issues, reports, searching, and anything else impacting an agent's ability to complete their work",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "hzbyfxf686qd",
-          "name": "Service Portal",
-          "status": "degraded_performance",
-          "created_at": "2018-11-16T18:06:14.848Z",
-          "updated_at": "2023-04-13T01:06:25.523Z",
-          "position": 2,
-          "description": "Problems related to the service desk portals where end-users make requests or raise issues",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "n459f7qbgm7b",
-          "name": "Jira Service Management Email Requests",
-          "status": "degraded_performance",
-          "created_at": "2019-01-08T23:33:42.607Z",
-          "updated_at": "2023-04-13T01:06:25.540Z",
-          "position": 7,
-          "description": "Problems related to end-user's ability to raise requests via email",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "why9xhgfq7kx",
-          "name": "Authentication and User Management",
-          "status": "degraded_performance",
-          "created_at": "2019-05-02T04:27:17.805Z",
-          "updated_at": "2023-04-13T01:06:25.560Z",
-          "position": 8,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "n50cprw4wnhp",
-          "name": "Purchasing & Licensing",
-          "status": "degraded_performance",
-          "created_at": "2020-04-28T00:50:26.392Z",
-          "updated_at": "2023-04-13T01:06:25.577Z",
-          "position": 9,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "wlpsrb4r2yq9",
-          "name": "Signup",
-          "status": "degraded_performance",
-          "created_at": "2020-10-09T20:36:56.243Z",
-          "updated_at": "2023-04-13T01:06:25.595Z",
-          "position": 10,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-10-09",
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "7rq3yg76vvbc",
-          "name": "Automation for Jira",
-          "status": "degraded_performance",
-          "created_at": "2020-12-23T01:40:13.601Z",
-          "updated_at": "2023-04-13T01:06:25.613Z",
-          "position": 11,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-12-23",
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
