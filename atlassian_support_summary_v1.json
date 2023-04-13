@@ -4,15 +4,15 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-03-22T20:13:03.850Z"
+    "updated_at": "2023-04-13T15:04:19.376Z"
   },
   "components": [
     {
       "id": "kvtmh1phs3r9",
       "name": "Support Portal",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-11-16T18:04:38.980Z",
-      "updated_at": "2023-03-15T15:27:04.547Z",
+      "updated_at": "2023-04-13T14:58:51.954Z",
       "position": 1,
       "description": null,
       "showcase": true,
@@ -25,9 +25,9 @@
     {
       "id": "bccp2f1cpy0x",
       "name": "Ticketing",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-11-16T18:04:38.998Z",
-      "updated_at": "2023-01-18T10:44:10.972Z",
+      "updated_at": "2023-04-13T14:58:51.970Z",
       "position": 2,
       "description": null,
       "showcase": true,
@@ -203,10 +203,84 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "dyyn9756f33c",
+      "name": "Atlassian Support is slow / not loading pages. Customers may be impacted when creating tickets.",
+      "status": "investigating",
+      "created_at": "2023-04-13T14:58:51.913Z",
+      "updated_at": "2023-04-13T15:04:19.370Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/5zp9q2pcv9zt",
+      "started_at": "2023-04-13T14:58:51.906Z",
+      "page_id": "3tbw4lb9t3qp",
+      "incident_updates": [
+        {
+          "id": "j0tjkclgy9j9",
+          "status": "investigating",
+          "body": "We are currently investigating an issue with Atlassian Support and correlated services.\nSome users may experience slowness or errors during ticket creation.",
+          "incident_id": "dyyn9756f33c",
+          "created_at": "2023-04-13T14:58:52.016Z",
+          "updated_at": "2023-04-13T15:04:19.368Z",
+          "display_at": "2023-04-13T14:58:52.000Z",
+          "affected_components": [
+            {
+              "code": "kvtmh1phs3r9",
+              "name": "Support Portal",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "bccp2f1cpy0x",
+              "name": "Ticketing",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "kvtmh1phs3r9",
+          "name": "Support Portal",
+          "status": "degraded_performance",
+          "created_at": "2018-11-16T18:04:38.980Z",
+          "updated_at": "2023-04-13T14:58:51.954Z",
+          "position": 1,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "3tbw4lb9t3qp",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "bccp2f1cpy0x",
+          "name": "Ticketing",
+          "status": "degraded_performance",
+          "created_at": "2018-11-16T18:04:38.998Z",
+          "updated_at": "2023-04-13T14:58:51.970Z",
+          "position": 2,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "3tbw4lb9t3qp",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
