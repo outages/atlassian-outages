@@ -4,15 +4,15 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2023-04-24T19:34:20.827-04:00"
+    "updated_at": "2023-04-24T19:44:53.320-04:00"
   },
   "components": [
     {
       "id": "hsr3nvlz0k2l",
       "name": "Trello.com",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-01-24T12:50:55.839-05:00",
-      "updated_at": "2023-04-24T19:23:00.871-04:00",
+      "updated_at": "2023-04-24T19:44:52.747-04:00",
       "position": 1,
       "description": "Web client",
       "showcase": true,
@@ -83,83 +83,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "yq5j2dmdcy4n",
-      "name": "Trello is slow",
-      "status": "monitoring",
-      "created_at": "2023-04-24T19:23:00.847-04:00",
-      "updated_at": "2023-04-24T19:34:20.821-04:00",
-      "monitoring_at": "2023-04-24T19:34:19.841-04:00",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/7bm8bxw7dbhn",
-      "started_at": "2023-04-24T19:23:00.842-04:00",
-      "page_id": "h5frqhb041yq",
-      "incident_updates": [
-        {
-          "id": "8wzzb57d0w5s",
-          "status": "monitoring",
-          "body": "Trello is operational. We'll continue to investigate the root cause and monitor until the issue is resolved.",
-          "incident_id": "yq5j2dmdcy4n",
-          "created_at": "2023-04-24T19:34:19.841-04:00",
-          "updated_at": "2023-04-24T19:34:20.816-04:00",
-          "display_at": "2023-04-24T19:34:19.841-04:00",
-          "affected_components": [
-            {
-              "code": "hsr3nvlz0k2l",
-              "name": "Trello.com",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1650644372919292000
-        },
-        {
-          "id": "xyvrsh9cd2ly",
-          "status": "identified",
-          "body": "We've noticed that Trello is responding slowly. This will be present in both the web and mobile apps.\r\n\r\nOur engineering team is actively investigating this incident and working to bring Trello back up to speed as quickly as possible.\r\n \r\nWe'll keep you posted with further updates on this page.",
-          "incident_id": "yq5j2dmdcy4n",
-          "created_at": "2023-04-24T19:23:00.904-04:00",
-          "updated_at": "2023-04-24T19:23:01.959-04:00",
-          "display_at": "2023-04-24T19:23:00.904-04:00",
-          "affected_components": [
-            {
-              "code": "hsr3nvlz0k2l",
-              "name": "Trello.com",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1650641525720891400
-        }
-      ],
-      "components": [
-        {
-          "id": "hsr3nvlz0k2l",
-          "name": "Trello.com",
-          "status": "partial_outage",
-          "created_at": "2020-01-24T12:50:55.839-05:00",
-          "updated_at": "2023-04-24T19:23:00.871-04:00",
-          "position": 1,
-          "description": "Web client",
-          "showcase": true,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "h5frqhb041yq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
