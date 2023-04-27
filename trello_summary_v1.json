@@ -4,7 +4,7 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2023-04-27T12:53:44.088-04:00"
+    "updated_at": "2023-04-27T13:15:31.564-04:00"
   },
   "components": [
     {
@@ -86,10 +86,10 @@
   "incidents": [
     {
       "id": "49k33rkr3kr5",
-      "name": "Trello realtime updates are slow, but recovering",
+      "name": "Trello realtime updates are slow",
       "status": "investigating",
       "created_at": "2023-04-27T12:53:43.648-04:00",
-      "updated_at": "2023-04-27T12:53:44.082-04:00",
+      "updated_at": "2023-04-27T13:15:31.558-04:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "none",
@@ -97,6 +97,32 @@
       "started_at": "2023-04-27T12:53:43.642-04:00",
       "page_id": "h5frqhb041yq",
       "incident_updates": [
+        {
+          "id": "2vn4vgj0cf67",
+          "status": "investigating",
+          "body": "Realtime updates have fully recovered. We are continuing to investigate.",
+          "incident_id": "49k33rkr3kr5",
+          "created_at": "2023-04-27T13:15:31.227-04:00",
+          "updated_at": "2023-04-27T13:15:31.554-04:00",
+          "display_at": "2023-04-27T13:15:31.227-04:00",
+          "affected_components": [
+            {
+              "code": "y1nllgnkxn9d",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "hsr3nvlz0k2l",
+              "name": "Trello.com",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1651636203324833800
+        },
         {
           "id": "2r22fg40wvsd",
           "status": "investigating",
