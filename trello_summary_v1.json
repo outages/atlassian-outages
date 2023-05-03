@@ -4,7 +4,7 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2023-05-03T12:58:58.571-04:00"
+    "updated_at": "2023-05-03T14:12:54.473-04:00"
   },
   "components": [
     {
@@ -87,16 +87,36 @@
     {
       "id": "hrwfp8jvwql2",
       "name": "Trello login and signup attempts are intermittently failing",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2023-05-03T12:30:34.078-04:00",
-      "updated_at": "2023-05-03T12:58:58.567-04:00",
-      "monitoring_at": null,
+      "updated_at": "2023-05-03T14:12:54.468-04:00",
+      "monitoring_at": "2023-05-03T14:12:53.938-04:00",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/lfr7b9mlr3j4",
       "started_at": "2023-05-03T12:30:34.074-04:00",
       "page_id": "h5frqhb041yq",
       "incident_updates": [
+        {
+          "id": "6gvjzy976dg0",
+          "status": "monitoring",
+          "body": "A fix has been implemented and we are monitoring the results.",
+          "incident_id": "hrwfp8jvwql2",
+          "created_at": "2023-05-03T14:12:53.938-04:00",
+          "updated_at": "2023-05-03T14:12:54.463-04:00",
+          "display_at": "2023-05-03T14:12:53.938-04:00",
+          "affected_components": [
+            {
+              "code": "hsr3nvlz0k2l",
+              "name": "Trello.com",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1653824971091869700
+        },
         {
           "id": "v18ln8f4dw7m",
           "status": "investigating",
