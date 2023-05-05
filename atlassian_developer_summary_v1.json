@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-05-05T20:42:57.376Z"
+    "updated_at": "2023-05-05T22:46:23.124Z"
   },
   "components": [
     {
@@ -785,7 +785,7 @@
       "name": "Jira /rest/api/2/issue/{issueIdOrKey} returns attachment media ids instead of filenames",
       "status": "investigating",
       "created_at": "2023-05-05T20:30:40.577Z",
-      "updated_at": "2023-05-05T20:30:40.670Z",
+      "updated_at": "2023-05-05T22:46:23.118Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -793,6 +793,26 @@
       "started_at": "2023-05-05T20:30:40.569Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "gx44trljt78f",
+          "status": "investigating",
+          "body": "We are gathering additional information from affected users - to date we have not found a root cause for the problem.",
+          "incident_id": "sn41wf68b4t1",
+          "created_at": "2023-05-05T22:46:23.116Z",
+          "updated_at": "2023-05-05T22:46:23.116Z",
+          "display_at": "2023-05-05T22:46:23.116Z",
+          "affected_components": [
+            {
+              "code": "cc6gw24m02wp",
+              "name": "APIs - Jira Cloud APIs",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "zc4w6ztrt4hj",
           "status": "investigating",
