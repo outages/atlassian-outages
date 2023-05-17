@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-05-17T04:14:03.609Z"
+    "updated_at": "2023-05-17T15:57:52.339Z"
   },
   "components": [
     {
@@ -232,7 +232,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -631,9 +631,9 @@
     {
       "id": "hk36hlvygg2q",
       "name": "Reporting APIs and dashboards",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2013-12-03T00:45:26.014Z",
-      "updated_at": "2023-05-17T04:14:03.554Z",
+      "updated_at": "2023-05-17T15:57:52.286Z",
       "position": 11,
       "description": "Marketing attribution reports are now operational.",
       "showcase": true,
@@ -780,6 +780,58 @@
     }
   ],
   "incidents": [
+    {
+      "id": "93fp8j4q1nzf",
+      "name": "Licenses data missing on Marketplace License report",
+      "status": "investigating",
+      "created_at": "2023-05-17T15:57:52.245Z",
+      "updated_at": "2023-05-17T15:57:52.336Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/fvwmzqcpv374",
+      "started_at": "2023-05-17T15:57:52.237Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "wm00bmgk7sbm",
+          "status": "investigating",
+          "body": "We've found ~1900 licenses data missing in licenses report. We are working on a fix at the moment.",
+          "incident_id": "93fp8j4q1nzf",
+          "created_at": "2023-05-17T15:57:52.333Z",
+          "updated_at": "2023-05-17T15:57:52.333Z",
+          "display_at": "2023-05-17T15:57:52.333Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "hk36hlvygg2q",
+          "name": "Reporting APIs and dashboards",
+          "status": "degraded_performance",
+          "created_at": "2013-12-03T00:45:26.014Z",
+          "updated_at": "2023-05-17T15:57:52.286Z",
+          "position": 11,
+          "description": "Marketing attribution reports are now operational.",
+          "showcase": true,
+          "start_date": null,
+          "group_id": "d0m8l367qqw5",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    },
     {
       "id": "sn41wf68b4t1",
       "name": "Jira /rest/api/2/issue/{issueIdOrKey} returns attachment media ids instead of filenames",
