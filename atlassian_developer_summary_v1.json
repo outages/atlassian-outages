@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-05-18T00:49:49.896Z"
+    "updated_at": "2023-05-18T01:38:45.344Z"
   },
   "components": [
     {
@@ -780,98 +780,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": "fxrdc3xbj58f",
-      "name": "Forge App developers unable to use Forge tunnel",
-      "status": "monitoring",
-      "created_at": "2023-05-17T23:33:15.047Z",
-      "updated_at": "2023-05-18T00:49:49.894Z",
-      "monitoring_at": "2023-05-18T00:49:49.879Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/8tqjfbc03d49",
-      "started_at": "2023-05-17T23:33:15.036Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "k05htf172kxv",
-          "status": "monitoring",
-          "body": "We have updated a supporting docker image for the Forge CLI tunnel functionality to resolve the problem with the ngrok version. This will be picked up automatically by the Forge CLI when a tunnel is created by a developer. No action is required by developers. \n\nWe are now monitoring closely.",
-          "incident_id": "fxrdc3xbj58f",
-          "created_at": "2023-05-18T00:49:49.879Z",
-          "updated_at": "2023-05-18T00:49:49.879Z",
-          "display_at": "2023-05-18T00:49:49.879Z",
-          "affected_components": [
-            {
-              "code": "l30t53hv9z8z",
-              "name": "Developer - Forge CLI",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "10g6qv79lns9",
-          "status": "identified",
-          "body": "We continue to work on resolving the problem with the Forge CLI support for Forge Tunnel.\n\nWe have identified the root cause and working on releasing a new version.\n\nThe issue was triggered by removal of support by ngrok for the version used in the Forge tunnel. This commenced at 2023-05-18 19:52 UTC",
-          "incident_id": "fxrdc3xbj58f",
-          "created_at": "2023-05-18T00:29:10.124Z",
-          "updated_at": "2023-05-18T00:29:10.124Z",
-          "display_at": "2023-05-18T00:29:10.124Z",
-          "affected_components": [
-            {
-              "code": "l30t53hv9z8z",
-              "name": "Developer - Forge CLI",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "k60x9c3hpd6l",
-          "status": "investigating",
-          "body": "The Forge CLI is currently unable to create a Forge tunnel, affecting Forge developers. Customer app users are unaffected. Forge developers can deploy their app without using the tunnel.\n\nWe are working on a fix for this issue and will release an updated ForgeCLI component",
-          "incident_id": "fxrdc3xbj58f",
-          "created_at": "2023-05-17T23:33:15.136Z",
-          "updated_at": "2023-05-17T23:33:15.136Z",
-          "display_at": "2023-05-17T23:33:15.136Z",
-          "affected_components": [
-            {
-              "code": "l30t53hv9z8z",
-              "name": "Developer - Forge CLI",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "l30t53hv9z8z",
-          "name": "Forge CLI",
-          "status": "partial_outage",
-          "created_at": "2022-10-18T22:30:09.575Z",
-          "updated_at": "2023-05-17T23:33:15.087Z",
-          "position": 14,
-          "description": null,
-          "showcase": true,
-          "start_date": "2022-10-18",
-          "group_id": "73bt63kd5q9k",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    },
     {
       "id": "93fp8j4q1nzf",
       "name": "Licenses data missing on Marketplace License report",
