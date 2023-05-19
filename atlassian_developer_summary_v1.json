@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-05-19T04:42:58.173Z"
+    "updated_at": "2023-05-19T05:55:35.500Z"
   },
   "components": [
     {
@@ -232,7 +232,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -631,9 +631,9 @@
     {
       "id": "hk36hlvygg2q",
       "name": "Reporting APIs and dashboards",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2013-12-03T00:45:26.014Z",
-      "updated_at": "2023-05-19T04:00:37.777Z",
+      "updated_at": "2023-05-19T05:55:35.464Z",
       "position": 11,
       "description": "Marketing attribution reports are now operational.",
       "showcase": true,
@@ -780,58 +780,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": "b381trrnwsz8",
-      "name": "Delay in updating the Invoices data for marketplace partners",
-      "status": "identified",
-      "created_at": "2023-05-19T04:00:37.742Z",
-      "updated_at": "2023-05-19T04:00:37.819Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/z92d77d6lht1",
-      "started_at": "2023-05-19T04:00:37.734Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "1vc3gvyhgtrj",
-          "status": "identified",
-          "body": "Invoices created after May-19 19:50 UTC are delayed for the all the partners, we have identified the root cause for this issue, we are currently working on the fix, we will have the next update on this issue in 4 hours.",
-          "incident_id": "b381trrnwsz8",
-          "created_at": "2023-05-19T04:00:37.817Z",
-          "updated_at": "2023-05-19T04:00:37.817Z",
-          "display_at": "2023-05-19T04:00:37.817Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "hk36hlvygg2q",
-          "name": "Reporting APIs and dashboards",
-          "status": "partial_outage",
-          "created_at": "2013-12-03T00:45:26.014Z",
-          "updated_at": "2023-05-19T04:00:37.777Z",
-          "position": 11,
-          "description": "Marketing attribution reports are now operational.",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    },
     {
       "id": "sn41wf68b4t1",
       "name": "Jira /rest/api/2/issue/{issueIdOrKey} returns attachment media ids instead of filenames",
