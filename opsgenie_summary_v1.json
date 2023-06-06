@@ -4,13 +4,13 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-04-26T06:43:45.832Z"
+    "updated_at": "2023-06-06T17:06:08.320Z"
   },
   "components": [
     {
       "id": "jzqq334r65mx",
       "name": "US",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-02-12T13:47:31.055Z",
       "updated_at": "2019-03-15T08:16:16.977Z",
       "position": 1,
@@ -628,9 +628,9 @@
     {
       "id": "mjdmrksdqcpb",
       "name": "Configuration REST APIs",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-03-15T08:28:02.946Z",
-      "updated_at": "2022-06-30T21:58:14.874Z",
+      "updated_at": "2023-06-06T17:06:08.273Z",
       "position": 18,
       "description": null,
       "showcase": true,
@@ -761,10 +761,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "r0vc3gs05t62",
+      "name": "Partial Outage in Schedule API",
+      "status": "investigating",
+      "created_at": "2023-06-06T17:06:08.241Z",
+      "updated_at": "2023-06-06T17:06:08.317Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/439gzb3k19lp",
+      "started_at": "2023-06-06T17:06:08.233Z",
+      "page_id": "t05vdsszxwtq",
+      "incident_updates": [
+        {
+          "id": "7vrf7gjtzhsg",
+          "status": "investigating",
+          "body": "We are investigating an issue with Schedule API that is impacting some Opsgenie US Cloud customers. We will provide more details within the next hour.",
+          "incident_id": "r0vc3gs05t62",
+          "created_at": "2023-06-06T17:06:08.314Z",
+          "updated_at": "2023-06-06T17:06:08.314Z",
+          "display_at": "2023-06-06T17:06:08.314Z",
+          "affected_components": [
+            {
+              "code": "mjdmrksdqcpb",
+              "name": "US - Configuration REST APIs",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "mjdmrksdqcpb",
+          "name": "Configuration REST APIs",
+          "status": "partial_outage",
+          "created_at": "2019-03-15T08:28:02.946Z",
+          "updated_at": "2023-06-06T17:06:08.273Z",
+          "position": 18,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": "jzqq334r65mx",
+          "page_id": "t05vdsszxwtq",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
