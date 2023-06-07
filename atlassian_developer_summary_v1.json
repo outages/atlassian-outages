@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-06-06T23:50:29.027Z"
+    "updated_at": "2023-06-06T23:51:45.520Z"
   },
   "components": [
     {
@@ -109,7 +109,7 @@
     {
       "id": "73bt63kd5q9k",
       "name": "Developer",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:21:34.889Z",
       "updated_at": "2019-05-02T04:22:45.333Z",
       "position": 2,
@@ -736,9 +736,9 @@
     {
       "id": "l30t53hv9z8z",
       "name": "Forge CLI",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2022-10-18T22:30:09.575Z",
-      "updated_at": "2023-06-06T23:50:29.023Z",
+      "updated_at": "2023-06-06T23:51:45.518Z",
       "position": 14,
       "description": null,
       "showcase": true,
@@ -782,7 +782,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
