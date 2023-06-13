@@ -4,7 +4,7 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2023-06-13T17:07:57.889-04:00"
+    "updated_at": "2023-06-13T17:12:55.220-04:00"
   },
   "components": [
     {
@@ -89,7 +89,7 @@
       "name": "Some features are experiencing degraded performance",
       "status": "identified",
       "created_at": "2023-06-13T15:45:54.668-04:00",
-      "updated_at": "2023-06-13T17:07:57.881-04:00",
+      "updated_at": "2023-06-13T17:12:55.214-04:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -129,8 +129,8 @@
           "body": "We have confirmed an issue with AWS services is causing the current issues.  We are working with AWS to get the service restored back to normal as soon as possible.",
           "incident_id": "0lgddwdrzgnc",
           "created_at": "2023-06-13T17:05:34.565-04:00",
-          "updated_at": "2023-06-13T17:05:35.578-04:00",
-          "display_at": "2023-06-13T17:05:34.565-04:00",
+          "updated_at": "2023-06-13T17:12:55.209-04:00",
+          "display_at": "2023-06-13T17:05:34.000-04:00",
           "affected_components": [
             {
               "code": "y1nllgnkxn9d",
