@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-06-13T17:52:29.167Z"
+    "updated_at": "2023-06-13T20:00:07.907Z"
   },
   "components": [
     {
@@ -189,6 +189,78 @@
     }
   ],
   "incidents": [
+    {
+      "id": "pnl2czq2j545",
+      "name": "Automations and rules issue",
+      "status": "investigating",
+      "created_at": "2023-06-13T20:00:00.894Z",
+      "updated_at": "2023-06-13T20:00:07.900Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/kv0zqv52yvhm",
+      "started_at": "2023-06-13T20:00:00.884Z",
+      "page_id": "pv54g7ltsc24",
+      "incident_updates": [
+        {
+          "id": "26fcf84d4bkr",
+          "status": "investigating",
+          "body": "We are continuing to investigate this issue.",
+          "incident_id": "pnl2czq2j545",
+          "created_at": "2023-06-13T20:00:07.898Z",
+          "updated_at": "2023-06-13T20:00:07.898Z",
+          "display_at": "2023-06-13T20:00:07.898Z",
+          "affected_components": [
+            {
+              "code": "7rq3yg76vvbc",
+              "name": "Automation for Jira",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "70c5n3ks88ws",
+          "status": "investigating",
+          "body": "We are investigating an issue with automation that is impacting many Atlassian Cloud customers. We suspect that this is due to AWS lambda degradation. We will provide more details within the next hour.",
+          "incident_id": "pnl2czq2j545",
+          "created_at": "2023-06-13T20:00:00.928Z",
+          "updated_at": "2023-06-13T20:00:00.928Z",
+          "display_at": "2023-06-13T20:00:00.928Z",
+          "affected_components": [
+            {
+              "code": "7rq3yg76vvbc",
+              "name": "Automation for Jira",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "7rq3yg76vvbc",
+          "name": "Automation for Jira",
+          "status": "operational",
+          "created_at": "2020-12-23T01:40:13.601Z",
+          "updated_at": "2023-06-13T17:52:29.126Z",
+          "position": 11,
+          "description": null,
+          "showcase": false,
+          "start_date": "2020-12-23",
+          "group_id": null,
+          "page_id": "pv54g7ltsc24",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    },
     {
       "id": "xymx11g75f0d",
       "name": "Issues in new product activations, user management and user imports",
