@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-06-13T13:21:37.198Z"
+    "updated_at": "2023-06-13T16:31:41.779Z"
   },
   "components": [
     {
@@ -115,9 +115,9 @@
     {
       "id": "why9xhgfq7kx",
       "name": "Authentication and User Management",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-05-02T04:27:17.805Z",
-      "updated_at": "2023-06-13T13:21:37.152Z",
+      "updated_at": "2023-06-13T16:25:02.894Z",
       "position": 8,
       "description": null,
       "showcase": false,
@@ -160,9 +160,9 @@
     {
       "id": "7rq3yg76vvbc",
       "name": "Automation for Jira",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2020-12-23T01:40:13.601Z",
-      "updated_at": "2023-04-13T09:13:52.326Z",
+      "updated_at": "2023-06-13T16:31:41.744Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -190,11 +190,63 @@
   ],
   "incidents": [
     {
+      "id": "19335bxr177s",
+      "name": "SLA Automation Issues",
+      "status": "investigating",
+      "created_at": "2023-06-13T16:31:41.722Z",
+      "updated_at": "2023-06-13T16:31:41.777Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/nlpf1jm07dtx",
+      "started_at": "2023-06-13T16:31:41.718Z",
+      "page_id": "pv54g7ltsc24",
+      "incident_updates": [
+        {
+          "id": "9vwk95mr2vzr",
+          "status": "investigating",
+          "body": "We are investigating an issue with Automation rules triggered on SLAs which is impacting some Jira Service Management Cloud customers. We will provide more details within the next hour.",
+          "incident_id": "19335bxr177s",
+          "created_at": "2023-06-13T16:31:41.776Z",
+          "updated_at": "2023-06-13T16:31:41.776Z",
+          "display_at": "2023-06-13T16:31:41.776Z",
+          "affected_components": [
+            {
+              "code": "7rq3yg76vvbc",
+              "name": "Automation for Jira",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "7rq3yg76vvbc",
+          "name": "Automation for Jira",
+          "status": "partial_outage",
+          "created_at": "2020-12-23T01:40:13.601Z",
+          "updated_at": "2023-06-13T16:31:41.744Z",
+          "position": 11,
+          "description": null,
+          "showcase": false,
+          "start_date": "2020-12-23",
+          "group_id": null,
+          "page_id": "pv54g7ltsc24",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    },
+    {
       "id": "xymx11g75f0d",
       "name": "Issues in new product activations, user management and user imports",
       "status": "monitoring",
       "created_at": "2023-06-13T12:04:30.862Z",
-      "updated_at": "2023-06-13T13:21:37.195Z",
+      "updated_at": "2023-06-13T16:25:02.918Z",
       "monitoring_at": "2023-06-13T13:21:37.181Z",
       "resolved_at": null,
       "impact": "major",
@@ -202,6 +254,26 @@
       "started_at": "2023-06-13T12:04:30.856Z",
       "page_id": "pv54g7ltsc24",
       "incident_updates": [
+        {
+          "id": "bc2s4msp5gnk",
+          "status": "monitoring",
+          "body": "We are seeing some reoccurrence of the issue and have taken some mitigation actions. We are closely monitoring the issue while those actions take effect.",
+          "incident_id": "xymx11g75f0d",
+          "created_at": "2023-06-13T16:25:02.916Z",
+          "updated_at": "2023-06-13T16:25:02.916Z",
+          "display_at": "2023-06-13T16:25:02.916Z",
+          "affected_components": [
+            {
+              "code": "why9xhgfq7kx",
+              "name": "Authentication and User Management",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "brgtrddqqtlq",
           "status": "monitoring",
@@ -267,9 +339,9 @@
         {
           "id": "why9xhgfq7kx",
           "name": "Authentication and User Management",
-          "status": "operational",
+          "status": "degraded_performance",
           "created_at": "2019-05-02T04:27:17.805Z",
-          "updated_at": "2023-06-13T13:21:37.152Z",
+          "updated_at": "2023-06-13T16:25:02.894Z",
           "position": 8,
           "description": null,
           "showcase": false,
@@ -284,7 +356,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
