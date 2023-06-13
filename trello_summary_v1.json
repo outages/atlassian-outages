@@ -4,7 +4,7 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2023-06-13T16:43:41.281-04:00"
+    "updated_at": "2023-06-13T17:07:57.889-04:00"
   },
   "components": [
     {
@@ -86,10 +86,10 @@
   "incidents": [
     {
       "id": "0lgddwdrzgnc",
-      "name": "Trello features are experiencing many instabilities",
+      "name": "Some features are experiencing degraded performance",
       "status": "identified",
       "created_at": "2023-06-13T15:45:54.668-04:00",
-      "updated_at": "2023-06-13T16:19:20.644-04:00",
+      "updated_at": "2023-06-13T17:07:57.881-04:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -97,6 +97,58 @@
       "started_at": "2023-06-13T15:45:54.662-04:00",
       "page_id": "h5frqhb041yq",
       "incident_updates": [
+        {
+          "id": "1s7gghhgppnb",
+          "status": "identified",
+          "body": "We are continuing to work with our third-party partner on a fix. Attachment previews, email-to-board features, search, and card covers are intermittently affected.",
+          "incident_id": "0lgddwdrzgnc",
+          "created_at": "2023-06-13T17:07:57.210-04:00",
+          "updated_at": "2023-06-13T17:07:57.876-04:00",
+          "display_at": "2023-06-13T17:07:57.210-04:00",
+          "affected_components": [
+            {
+              "code": "y1nllgnkxn9d",
+              "name": "API",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "hsr3nvlz0k2l",
+              "name": "Trello.com",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1668726927807643600
+        },
+        {
+          "id": "s3k8gbhkv7gt",
+          "status": "identified",
+          "body": "We have confirmed an issue with AWS services is causing the current issues.  We are working with AWS to get the service restored back to normal as soon as possible.",
+          "incident_id": "0lgddwdrzgnc",
+          "created_at": "2023-06-13T17:05:34.565-04:00",
+          "updated_at": "2023-06-13T17:05:35.578-04:00",
+          "display_at": "2023-06-13T17:05:34.565-04:00",
+          "affected_components": [
+            {
+              "code": "y1nllgnkxn9d",
+              "name": "API",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "hsr3nvlz0k2l",
+              "name": "Trello.com",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1668726330891051000
+        },
         {
           "id": "5zr5nbhk4c43",
           "status": "identified",
