@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-06-13T20:00:41.254Z"
+    "updated_at": "2023-06-13T20:24:45.895Z"
   },
   "components": [
     {
@@ -85,9 +85,9 @@
     {
       "id": "mfs4w2r40sf7",
       "name": "Administration",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-01-23T17:06:39.034Z",
-      "updated_at": "2023-06-13T16:24:31.078Z",
+      "updated_at": "2023-06-13T20:24:45.843Z",
       "position": 6,
       "description": "Viewing and editing \"site\" and \"Jira\" adminstration",
       "showcase": false,
@@ -245,123 +245,11 @@
           "only_show_if_degraded": false
         }
       ]
-    },
-    {
-      "id": "kc4vsn97cv5d",
-      "name": "Issues in new product activations, user management and user imports",
-      "status": "monitoring",
-      "created_at": "2023-06-13T12:04:30.857Z",
-      "updated_at": "2023-06-13T16:24:31.102Z",
-      "monitoring_at": "2023-06-13T13:23:31.057Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/9k1wd6c2wq22",
-      "started_at": "2023-06-13T12:04:30.851Z",
-      "page_id": "s6f0gm5gcpmy",
-      "incident_updates": [
-        {
-          "id": "87ktxbz230qg",
-          "status": "monitoring",
-          "body": "We are seeing some reoccurrence of the issue and have taken some mitigation actions. We are closely monitoring the issue while those actions take effect.",
-          "incident_id": "kc4vsn97cv5d",
-          "created_at": "2023-06-13T16:24:31.100Z",
-          "updated_at": "2023-06-13T16:24:31.100Z",
-          "display_at": "2023-06-13T16:24:31.100Z",
-          "affected_components": [
-            {
-              "code": "mfs4w2r40sf7",
-              "name": "Administration",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "2g3xg8t1wj53",
-          "status": "monitoring",
-          "body": "We have identified the root cause of the product actions and user management issues.\nThe problem was now mitigated.\n\nWe are now monitoring closely.",
-          "incident_id": "kc4vsn97cv5d",
-          "created_at": "2023-06-13T13:23:31.057Z",
-          "updated_at": "2023-06-13T13:23:31.057Z",
-          "display_at": "2023-06-13T13:23:31.057Z",
-          "affected_components": [
-            {
-              "code": "mfs4w2r40sf7",
-              "name": "Administration",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "pd8x481ybh2b",
-          "status": "identified",
-          "body": "We are investigating an issue with our servers that is impacting some of our customers ability to perform:\n> New product activations;\n> User import;\n> User management.\n\nWe will provide more details within the next hour.",
-          "incident_id": "kc4vsn97cv5d",
-          "created_at": "2023-06-13T12:46:03.601Z",
-          "updated_at": "2023-06-13T12:46:03.601Z",
-          "display_at": "2023-06-13T12:46:03.601Z",
-          "affected_components": [
-            {
-              "code": "mfs4w2r40sf7",
-              "name": "Administration",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "bywhk8s9gldf",
-          "status": "identified",
-          "body": "We are investigating an issue with our servers that is impacting some of our customers ability to perform:\n> New product activations;\n> User import;\n> User management.\n\nWe will provide more details within the next hour.",
-          "incident_id": "kc4vsn97cv5d",
-          "created_at": "2023-06-13T12:04:30.925Z",
-          "updated_at": "2023-06-13T12:04:30.925Z",
-          "display_at": "2023-06-13T12:04:30.925Z",
-          "affected_components": [
-            {
-              "code": "mfs4w2r40sf7",
-              "name": "Administration",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "mfs4w2r40sf7",
-          "name": "Administration",
-          "status": "degraded_performance",
-          "created_at": "2019-01-23T17:06:39.034Z",
-          "updated_at": "2023-06-13T16:24:31.078Z",
-          "position": 6,
-          "description": "Viewing and editing \"site\" and \"Jira\" adminstration",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "s6f0gm5gcpmy",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
     }
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
