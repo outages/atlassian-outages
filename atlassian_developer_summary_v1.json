@@ -4,13 +4,13 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-06-13T16:22:20.819Z"
+    "updated_at": "2023-06-13T22:28:44.607Z"
   },
   "components": [
     {
       "id": "w0ld3nc9jvdx",
       "name": "APIs",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-02-01T17:15:10.342Z",
       "updated_at": "2018-02-01T17:16:31.201Z",
       "position": 1,
@@ -308,9 +308,9 @@
     {
       "id": "fjsq71xwd3rn",
       "name": "Authentication and user management",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-05-02T04:22:28.554Z",
-      "updated_at": "2023-06-13T16:22:20.774Z",
+      "updated_at": "2023-06-13T22:28:44.561Z",
       "position": 4,
       "description": null,
       "showcase": true,
@@ -353,9 +353,9 @@
     {
       "id": "jnrvspydmmsd",
       "name": "User APIs",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-02-01T17:17:26.159Z",
-      "updated_at": "2023-06-13T16:22:20.788Z",
+      "updated_at": "2023-06-13T22:28:44.573Z",
       "position": 5,
       "description": null,
       "showcase": true,
@@ -779,136 +779,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "5z2qp7wtrw57",
-      "name": "Issues in new product activations, user management and user imports",
-      "status": "monitoring",
-      "created_at": "2023-06-13T12:46:03.137Z",
-      "updated_at": "2023-06-13T16:22:20.813Z",
-      "monitoring_at": "2023-06-13T13:18:26.505Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/g08nphp4fgjg",
-      "started_at": "2023-06-13T12:46:03.128Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "klqfvrgv36t3",
-          "status": "monitoring",
-          "body": "We are seeing some reoccurrence of the issue and have taken some mitigation actions. We are closely monitoring the issue while those actions take effect.",
-          "incident_id": "5z2qp7wtrw57",
-          "created_at": "2023-06-13T16:22:20.812Z",
-          "updated_at": "2023-06-13T16:22:20.812Z",
-          "display_at": "2023-06-13T16:22:20.812Z",
-          "affected_components": [
-            {
-              "code": "jnrvspydmmsd",
-              "name": "APIs - User APIs",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "fjsq71xwd3rn",
-              "name": "Authentication and user management",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "t218h1x439y9",
-          "status": "monitoring",
-          "body": "We have identified the root cause of the product actions and user management issues.\nThe problem was now mitigated.\n\nWe are now monitoring closely.",
-          "incident_id": "5z2qp7wtrw57",
-          "created_at": "2023-06-13T13:18:26.505Z",
-          "updated_at": "2023-06-13T13:18:26.505Z",
-          "display_at": "2023-06-13T13:18:26.505Z",
-          "affected_components": [
-            {
-              "code": "jnrvspydmmsd",
-              "name": "APIs - User APIs",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            },
-            {
-              "code": "fjsq71xwd3rn",
-              "name": "Authentication and user management",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "vxhy9hmmxm5f",
-          "status": "identified",
-          "body": "We are investigating an issue with our servers that is impacting some of our customers ability to perform:\n> New product activations;\n> User import;\n> User management.\n\nWe will provide more details within the next hour.",
-          "incident_id": "5z2qp7wtrw57",
-          "created_at": "2023-06-13T12:46:03.250Z",
-          "updated_at": "2023-06-13T12:46:03.250Z",
-          "display_at": "2023-06-13T12:46:03.250Z",
-          "affected_components": [
-            {
-              "code": "jnrvspydmmsd",
-              "name": "APIs - User APIs",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "fjsq71xwd3rn",
-              "name": "Authentication and user management",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "fjsq71xwd3rn",
-          "name": "Authentication and user management",
-          "status": "degraded_performance",
-          "created_at": "2019-05-02T04:22:28.554Z",
-          "updated_at": "2023-06-13T16:22:20.774Z",
-          "position": 4,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "jnrvspydmmsd",
-          "name": "User APIs",
-          "status": "degraded_performance",
-          "created_at": "2018-02-01T17:17:26.159Z",
-          "updated_at": "2023-06-13T16:22:20.788Z",
-          "position": 5,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "w0ld3nc9jvdx",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
