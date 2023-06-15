@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-06-15T04:10:52.496Z"
+    "updated_at": "2023-06-15T04:24:10.924Z"
   },
   "components": [
     {
@@ -781,31 +781,31 @@
   ],
   "incidents": [
     {
-      "id": "ygm564n47mqc",
-      "name": "Server to Cloud Migrations - Mappings API is missing mappings for Workflow Rule",
+      "id": "1gyxg5pjh7qs",
+      "name": "Server to Cloud Migrations - Mappings API not returning mappings for Workflow Rules",
       "status": "investigating",
-      "created_at": "2023-06-15T04:10:52.393Z",
-      "updated_at": "2023-06-15T04:10:52.493Z",
+      "created_at": "2023-06-15T04:20:42.933Z",
+      "updated_at": "2023-06-15T04:20:42.996Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
-      "shortlink": "https://stspg.io/07w0rtyr29n5",
-      "started_at": "2023-06-15T04:10:52.382Z",
+      "shortlink": "https://stspg.io/vq4vkb2cdwf5",
+      "started_at": "2023-06-15T04:20:42.921Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
         {
-          "id": "tky6xd4dt8x7",
+          "id": "5c20h2thsvch",
           "status": "investigating",
-          "body": "We have identified a problem with the Mappings API in the Migrations Platform for Server to Cloud migrations where mappings for Workflow Rules are not being returned as expected. This may lead to an incomplete migration for the customer, while still displaying a successful outcome, as no Workflow Rule mappings exist for the App to process. \n\nThe affected mappings have not been present for customer migrations that started after the 6th of June at approx. 10pm UTC.\n\nWe are investigating the root cause and will provide another update by 06:00 UTC",
-          "incident_id": "ygm564n47mqc",
-          "created_at": "2023-06-15T04:10:52.490Z",
-          "updated_at": "2023-06-15T04:10:52.490Z",
-          "display_at": "2023-06-15T04:10:52.490Z",
+          "body": "We have identified a problem with the Mappings API in the Migrations Platform for Server to Cloud migrations where mappings for Workflow Rules are not being returned as expected. This may lead to an incomplete migration for the customer, while still displaying a successful outcome, as no Workflow Rule <jira/classic:workflowRule> mappings exist for the App to process.\n\nThe affected mappings have not been present for customer migrations that started after the 6th of June at approx. 10pm UTC.\n\nWe are investigating the root cause and will provide another update by 06:00 UTC",
+          "incident_id": "1gyxg5pjh7qs",
+          "created_at": "2023-06-15T04:20:42.993Z",
+          "updated_at": "2023-06-15T04:20:42.993Z",
+          "display_at": "2023-06-15T04:20:42.993Z",
           "affected_components": [
             {
               "code": "cc6gw24m02wp",
               "name": "APIs - Jira Cloud APIs",
-              "old_status": "operational",
+              "old_status": "partial_outage",
               "new_status": "partial_outage"
             }
           ],
