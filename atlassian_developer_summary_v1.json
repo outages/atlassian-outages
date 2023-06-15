@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-06-15T05:24:24.635Z"
+    "updated_at": "2023-06-15T07:27:39.582Z"
   },
   "components": [
     {
@@ -783,16 +783,36 @@
     {
       "id": "1gyxg5pjh7qs",
       "name": "Server to Cloud Migrations - Mappings API not returning mappings for Workflow Rules",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2023-06-15T04:20:42.933Z",
-      "updated_at": "2023-06-15T05:24:24.629Z",
-      "monitoring_at": null,
+      "updated_at": "2023-06-15T07:27:39.580Z",
+      "monitoring_at": "2023-06-15T07:27:39.568Z",
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/vq4vkb2cdwf5",
       "started_at": "2023-06-15T04:20:42.921Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "8y171zjz3q1f",
+          "status": "monitoring",
+          "body": "A fix has been deployed and new migrations that start or started after 2023-06-15 06:00 UTC will have the mappings available as expected.\n\nWe are monitoring the fix.\n\nThe team is also working on identifying the full range of Apps and customers that were impacted and will be in contact with impacted Marketplace Partners when we have an accurate picture.",
+          "incident_id": "1gyxg5pjh7qs",
+          "created_at": "2023-06-15T07:27:39.568Z",
+          "updated_at": "2023-06-15T07:27:39.568Z",
+          "display_at": "2023-06-15T07:27:39.568Z",
+          "affected_components": [
+            {
+              "code": "cc6gw24m02wp",
+              "name": "APIs - Jira Cloud APIs",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "htz1lpkyj03f",
           "status": "identified",
