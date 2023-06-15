@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-06-14T03:02:47.804Z"
+    "updated_at": "2023-06-15T11:47:08.404Z"
   },
   "components": [
     {
@@ -40,9 +40,9 @@
     {
       "id": "wn1gfxqd25rr",
       "name": "Authentication and User Management",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-05-02T04:26:34.383Z",
-      "updated_at": "2023-04-13T09:15:18.646Z",
+      "updated_at": "2023-06-15T11:47:08.370Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -173,10 +173,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "6lylpp910p4n",
+      "name": "Customers may receive 403 Access denied -> Access by unmanaged users not allowed",
+      "status": "investigating",
+      "created_at": "2023-06-15T11:47:08.338Z",
+      "updated_at": "2023-06-15T11:47:08.402Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/sr3m7t51ygqn",
+      "started_at": "2023-06-15T11:47:08.333Z",
+      "page_id": "s6f0gm5gcpmy",
+      "incident_updates": [
+        {
+          "id": "0blwp3g7djwb",
+          "status": "investigating",
+          "body": "We are investigating reports of intermittent errors for some of our user base when trying to access their Cloud products. \n\nCustomers may receive 403 Access denied -> Access by unmanaged users not allowed\n\nWe will provide more details once we identify the root cause.",
+          "incident_id": "6lylpp910p4n",
+          "created_at": "2023-06-15T11:47:08.400Z",
+          "updated_at": "2023-06-15T11:47:08.400Z",
+          "display_at": "2023-06-15T11:47:08.400Z",
+          "affected_components": [
+            {
+              "code": "wn1gfxqd25rr",
+              "name": "Authentication and User Management",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "wn1gfxqd25rr",
+          "name": "Authentication and User Management",
+          "status": "degraded_performance",
+          "created_at": "2019-05-02T04:26:34.383Z",
+          "updated_at": "2023-06-15T11:47:08.370Z",
+          "position": 3,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "s6f0gm5gcpmy",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
