@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-06-16T05:42:57.908Z"
+    "updated_at": "2023-06-16T09:08:46.206Z"
   },
   "components": [
     {
@@ -109,7 +109,7 @@
     {
       "id": "73bt63kd5q9k",
       "name": "Developer",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2018-02-01T17:21:34.889Z",
       "updated_at": "2019-05-02T04:22:45.333Z",
       "position": 2,
@@ -406,9 +406,9 @@
     {
       "id": "vb9xhz9z6zbp",
       "name": "Forge App Installation",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2021-03-23T11:55:32.639Z",
-      "updated_at": "2023-03-23T07:21:18.675Z",
+      "updated_at": "2023-06-16T09:08:46.173Z",
       "position": 5,
       "description": "Installation of Forge apps",
       "showcase": true,
@@ -779,10 +779,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "ps7nmw9vm1x5",
+      "name": "Forge Apps missing license activation after installation",
+      "status": "identified",
+      "created_at": "2023-06-16T09:08:46.150Z",
+      "updated_at": "2023-06-16T09:08:46.204Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/j74bm4y6v3g8",
+      "started_at": "2023-06-16T09:08:46.144Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "1wwfq8z8vk9y",
+          "status": "identified",
+          "body": "Between 2023-06-07 08:04 UTC and 2023-06-15 01:34 UTC some of new installations of Forge apps were not receiving license activation after installation. In results apps were not working as expected - the license was not active. The bug was active only on subset of customer sites (due to internal implementation detail).\n\nThe bug causing this behavior was identified and fixed and no new installations should be affected since 2023-06-15 02:34 UTC.\n\nThe apps which did not get license during installations remain in this state unless customer has taken manual action to correct this.\n\nAtlassian is working on remediation of remaining impact by re-activating the license for apps which were expected to get the license during installation.\n\nWhile this work is ongoing the customers are able to use workaround to correct the situation - by using \"subscribe\" option in the site app administration view:\n\n1. Form Apps menu select \"Manage your apps\"\n2. Find the app on list\n3. Click \"Subscribe\" button\n\nNext update will be posted around 2023-06-16 15:00 UTC.",
+          "incident_id": "ps7nmw9vm1x5",
+          "created_at": "2023-06-16T09:08:46.203Z",
+          "updated_at": "2023-06-16T09:08:46.203Z",
+          "display_at": "2023-06-16T09:08:46.203Z",
+          "affected_components": [
+            {
+              "code": "vb9xhz9z6zbp",
+              "name": "Developer - Forge App Installation",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "vb9xhz9z6zbp",
+          "name": "Forge App Installation",
+          "status": "partial_outage",
+          "created_at": "2021-03-23T11:55:32.639Z",
+          "updated_at": "2023-06-16T09:08:46.173Z",
+          "position": 5,
+          "description": "Installation of Forge apps",
+          "showcase": true,
+          "start_date": "2021-03-23",
+          "group_id": "73bt63kd5q9k",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
