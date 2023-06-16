@@ -4,13 +4,13 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-06-15T12:01:07.413Z"
+    "updated_at": "2023-06-16T04:51:15.797Z"
   },
   "components": [
     {
       "id": "w0ld3nc9jvdx",
       "name": "APIs",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:15:10.342Z",
       "updated_at": "2018-02-01T17:16:31.201Z",
       "position": 1,
@@ -187,9 +187,9 @@
     {
       "id": "cc6gw24m02wp",
       "name": "Jira Cloud APIs",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:16:54.648Z",
-      "updated_at": "2023-06-15T04:10:52.445Z",
+      "updated_at": "2023-06-16T04:51:15.760Z",
       "position": 3,
       "description": null,
       "showcase": true,
@@ -779,103 +779,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "1gyxg5pjh7qs",
-      "name": "Server to Cloud Migrations - Mappings API not returning mappings for Workflow Rules",
-      "status": "monitoring",
-      "created_at": "2023-06-15T04:20:42.933Z",
-      "updated_at": "2023-06-15T07:27:39.580Z",
-      "monitoring_at": "2023-06-15T07:27:39.568Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/vq4vkb2cdwf5",
-      "started_at": "2023-06-15T04:20:42.921Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "8y171zjz3q1f",
-          "status": "monitoring",
-          "body": "A fix has been deployed and new migrations that start or started after 2023-06-15 06:00 UTC will have the mappings available as expected.\n\nWe are monitoring the fix.\n\nThe team is also working on identifying the full range of Apps and customers that were impacted and will be in contact with impacted Marketplace Partners when we have an accurate picture.",
-          "incident_id": "1gyxg5pjh7qs",
-          "created_at": "2023-06-15T07:27:39.568Z",
-          "updated_at": "2023-06-15T07:27:39.568Z",
-          "display_at": "2023-06-15T07:27:39.568Z",
-          "affected_components": [
-            {
-              "code": "cc6gw24m02wp",
-              "name": "APIs - Jira Cloud APIs",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "htz1lpkyj03f",
-          "status": "identified",
-          "body": "We are aware of an issue starting approximately 22:00 on the 6th of June UTC that meant that mappings for migrations started after this date for the type of jira/classic:workflowRule were not being returned by the Mappings API. \n\nThis may have lead to some migrations completing before the App was able to process any workflow rules, leading to the migrated data in the cloud not being in the state expected by customers.\n\nIf your App uses the workflowRule mapping type to complete customer migrations via JCMA, any transfers since the 6th of June 22:00 UTC may be incomplete, though depending on how this situation is handled by the App's migration logic it may lead to the migration appearing successful for the customer within JCMA.\n\nTimeline\n\n2023-06-06 22:00 UTC - Start of the impact period, migrations that begin after this time do not have workflowRule mappings available.\n\n2023-06-14 17:00 UTC - Atlassian made aware that mappings are not being returned by the API.\n\n2023-06-15 1:00 UTC - Major incident raised.\n\n \nWe are currently working on a resolution for this and expect this to be released within the next two hours.\n\nThere is no known workaround or mitigation available. Our team is working on identifying exactly which customer migrations may have been impacted by this problem, with the aim of reaching out to Marketplace Partners responsible for impacted apps as soon as possible.\n\nWe will provide another update by 2023-06-15 5:00 UTC, in 3 hours from now.",
-          "incident_id": "1gyxg5pjh7qs",
-          "created_at": "2023-06-15T05:24:24.627Z",
-          "updated_at": "2023-06-15T05:24:24.627Z",
-          "display_at": "2023-06-15T05:24:24.627Z",
-          "affected_components": [
-            {
-              "code": "cc6gw24m02wp",
-              "name": "APIs - Jira Cloud APIs",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "5c20h2thsvch",
-          "status": "investigating",
-          "body": "We have identified a problem with the Mappings API in the Migrations Platform for Server to Cloud migrations where mappings for Workflow Rules are not being returned as expected. This may lead to an incomplete migration for the customer, while still displaying a successful outcome, as no Workflow Rule <jira/classic:workflowRule> mappings exist for the App to process.\n\nThe affected mappings have not been present for customer migrations that started after the 6th of June at approx. 10pm UTC.\n\nWe are investigating the root cause and will provide another update by 06:00 UTC",
-          "incident_id": "1gyxg5pjh7qs",
-          "created_at": "2023-06-15T04:20:42.993Z",
-          "updated_at": "2023-06-15T04:20:42.993Z",
-          "display_at": "2023-06-15T04:20:42.993Z",
-          "affected_components": [
-            {
-              "code": "cc6gw24m02wp",
-              "name": "APIs - Jira Cloud APIs",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "cc6gw24m02wp",
-          "name": "Jira Cloud APIs",
-          "status": "partial_outage",
-          "created_at": "2018-02-01T17:16:54.648Z",
-          "updated_at": "2023-06-15T04:10:52.445Z",
-          "position": 3,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "w0ld3nc9jvdx",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
