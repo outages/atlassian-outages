@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-06-21T13:42:57.561Z"
+    "updated_at": "2023-06-22T11:57:31.288Z"
   },
   "components": [
     {
@@ -232,7 +232,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -631,9 +631,9 @@
     {
       "id": "hk36hlvygg2q",
       "name": "Reporting APIs and dashboards",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2013-12-03T00:45:26.014Z",
-      "updated_at": "2023-06-21T13:37:20.709Z",
+      "updated_at": "2023-06-22T11:56:48.615Z",
       "position": 11,
       "description": "Marketing attribution reports are now operational.",
       "showcase": true,
@@ -779,10 +779,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "dx2rfhzz7c3h",
+      "name": "Partner reporting updates due to \"Tier\" field - \"Per Unit Pricing\" text changes",
+      "status": "identified",
+      "created_at": "2023-06-22T11:56:48.572Z",
+      "updated_at": "2023-06-22T11:57:31.283Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/pb6wc5lg2vdw",
+      "started_at": "2023-06-22T11:56:48.564Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "js3g8txh5lfw",
+          "status": "identified",
+          "body": "Note : This is in continuation to an issue that happened 2 days back. https://developer.status.atlassian.com/incidents/6jzb94m4l7rv\nWe acknowledge and regret the inconvenience caused due to not having enough impact details and next steps in the update.\n\nWe have identified a problem relating to Marketplace Partner Reporting where some updates were made to 'tier' field pricing type of the Transactions API due to migration between our billing system two days back.\neg: \"Per Unit Pricing\" got toggled (not the actual value) - \"Per Unit Pricing (10 Users)\" became \"10 Users\" and vice versa.\n\nWe have fixed the issue and the updates would start reflecting around 16:30 UTC. Partners can just take the latest update dump using lastupdated date, which will have all updated records. \n\nWe will keep partners posted on the status. Next update by 16:30 UTC or earlier in case of significant development.",
+          "incident_id": "dx2rfhzz7c3h",
+          "created_at": "2023-06-22T11:56:48.664Z",
+          "updated_at": "2023-06-22T11:56:48.664Z",
+          "display_at": "2023-06-22T11:56:48.664Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "hk36hlvygg2q",
+          "name": "Reporting APIs and dashboards",
+          "status": "partial_outage",
+          "created_at": "2013-12-03T00:45:26.014Z",
+          "updated_at": "2023-06-22T11:56:48.615Z",
+          "position": 11,
+          "description": "Marketing attribution reports are now operational.",
+          "showcase": true,
+          "start_date": null,
+          "group_id": "d0m8l367qqw5",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
