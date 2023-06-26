@@ -4,7 +4,7 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-06-26T11:49:51.524Z"
+    "updated_at": "2023-06-26T12:36:55.310Z"
   },
   "components": [
     {
@@ -79,7 +79,7 @@
     {
       "id": "k7gyfk44wrsr",
       "name": "EU",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-02-12T13:47:54.389Z",
       "updated_at": "2019-02-12T13:47:54.389Z",
       "position": 2,
@@ -133,9 +133,9 @@
     {
       "id": "x3kw060dyr9f",
       "name": "Alert Flow",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-03-15T08:10:19.021Z",
-      "updated_at": "2023-06-26T06:25:58.725Z",
+      "updated_at": "2023-06-26T12:33:41.773Z",
       "position": 2,
       "description": null,
       "showcase": true,
@@ -163,9 +163,9 @@
     {
       "id": "zv3xlkn13rqs",
       "name": "Email Notification Delivery",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-03-15T08:10:32.965Z",
-      "updated_at": "2023-06-26T06:25:58.739Z",
+      "updated_at": "2023-06-26T12:33:41.805Z",
       "position": 3,
       "description": null,
       "showcase": true,
@@ -208,9 +208,9 @@
     {
       "id": "pk367fsgz1yq",
       "name": "SMS Notification Delivery",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-03-15T08:10:55.832Z",
-      "updated_at": "2023-06-26T06:25:58.751Z",
+      "updated_at": "2023-06-26T12:33:41.819Z",
       "position": 4,
       "description": null,
       "showcase": true,
@@ -223,9 +223,9 @@
     {
       "id": "92ty6vgyj0nw",
       "name": "Voice Notification Delivery",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-03-15T08:11:07.813Z",
-      "updated_at": "2023-06-26T06:25:58.763Z",
+      "updated_at": "2023-06-26T12:33:41.833Z",
       "position": 5,
       "description": null,
       "showcase": true,
@@ -268,9 +268,9 @@
     {
       "id": "jf0l1ds2mm5z",
       "name": "Mobile Notification Delivery",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-03-15T08:11:21.736Z",
-      "updated_at": "2023-06-26T06:25:58.775Z",
+      "updated_at": "2023-06-26T12:33:41.848Z",
       "position": 6,
       "description": null,
       "showcase": true,
@@ -493,9 +493,9 @@
     {
       "id": "357vyw1pjtlj",
       "name": "Signup, Login & Authorization",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-03-15T08:12:55.374Z",
-      "updated_at": "2023-06-26T09:44:19.363Z",
+      "updated_at": "2023-06-26T12:33:41.863Z",
       "position": 14,
       "description": null,
       "showcase": true,
@@ -553,9 +553,9 @@
     {
       "id": "9mk8r5t0mzbk",
       "name": "Web Application",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-03-15T08:13:16.102Z",
-      "updated_at": "2023-06-26T06:25:58.846Z",
+      "updated_at": "2023-06-26T12:33:41.877Z",
       "position": 16,
       "description": null,
       "showcase": true,
@@ -761,622 +761,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "b56w60xmt0gv",
-      "name": "Increased delays on all flows in EU region",
-      "status": "identified",
-      "created_at": "2023-06-26T06:25:58.687Z",
-      "updated_at": "2023-06-26T11:49:51.518Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/n59119pp92vy",
-      "started_at": "2023-06-26T06:25:58.671Z",
-      "page_id": "t05vdsszxwtq",
-      "incident_updates": [
-        {
-          "id": "7kfl6kbp441p",
-          "status": "identified",
-          "body": "Due to extreme load, we are experiencing problem in cache layer. Our team is actively addressing the problem and working on implementing a fix as quickly as possible. We appreciate your patience.",
-          "incident_id": "b56w60xmt0gv",
-          "created_at": "2023-06-26T11:49:51.515Z",
-          "updated_at": "2023-06-26T11:49:51.515Z",
-          "display_at": "2023-06-26T11:49:51.515Z",
-          "affected_components": [
-            {
-              "code": "x3kw060dyr9f",
-              "name": "EU - Alert Flow",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "zv3xlkn13rqs",
-              "name": "EU - Email Notification Delivery",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "pk367fsgz1yq",
-              "name": "EU - SMS Notification Delivery",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "92ty6vgyj0nw",
-              "name": "EU - Voice Notification Delivery",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "jf0l1ds2mm5z",
-              "name": "EU - Mobile Notification Delivery",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "w81l39fwhskh",
-              "name": "EU - Heartbeat Monitoring",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "p9phmxm8nn64",
-              "name": "EU - Incoming Integration Flow",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "tkttksj201cz",
-              "name": "EU - Outgoing Integration Flow",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "357vyw1pjtlj",
-              "name": "EU - Signup, Login & Authorization",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "9mk8r5t0mzbk",
-              "name": "EU - Web Application",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "n5tgmzfszgdd",
-          "status": "identified",
-          "body": "We detected delays in login flow. We identified the problem and working on fix.",
-          "incident_id": "b56w60xmt0gv",
-          "created_at": "2023-06-26T09:44:19.405Z",
-          "updated_at": "2023-06-26T09:44:19.405Z",
-          "display_at": "2023-06-26T09:44:19.405Z",
-          "affected_components": [
-            {
-              "code": "x3kw060dyr9f",
-              "name": "EU - Alert Flow",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "zv3xlkn13rqs",
-              "name": "EU - Email Notification Delivery",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "pk367fsgz1yq",
-              "name": "EU - SMS Notification Delivery",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "92ty6vgyj0nw",
-              "name": "EU - Voice Notification Delivery",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "jf0l1ds2mm5z",
-              "name": "EU - Mobile Notification Delivery",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "w81l39fwhskh",
-              "name": "EU - Heartbeat Monitoring",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "p9phmxm8nn64",
-              "name": "EU - Incoming Integration Flow",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "tkttksj201cz",
-              "name": "EU - Outgoing Integration Flow",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "357vyw1pjtlj",
-              "name": "EU - Signup, Login & Authorization",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "9mk8r5t0mzbk",
-              "name": "EU - Web Application",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "f53djvc4nb5j",
-          "status": "identified",
-          "body": "We are continuing on a fix for the issue.",
-          "incident_id": "b56w60xmt0gv",
-          "created_at": "2023-06-26T07:42:21.711Z",
-          "updated_at": "2023-06-26T07:42:21.711Z",
-          "display_at": "2023-06-26T07:42:21.711Z",
-          "affected_components": [
-            {
-              "code": "x3kw060dyr9f",
-              "name": "EU - Alert Flow",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "zv3xlkn13rqs",
-              "name": "EU - Email Notification Delivery",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "pk367fsgz1yq",
-              "name": "EU - SMS Notification Delivery",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "92ty6vgyj0nw",
-              "name": "EU - Voice Notification Delivery",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "jf0l1ds2mm5z",
-              "name": "EU - Mobile Notification Delivery",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "w81l39fwhskh",
-              "name": "EU - Heartbeat Monitoring",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            },
-            {
-              "code": "p9phmxm8nn64",
-              "name": "EU - Incoming Integration Flow",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            },
-            {
-              "code": "tkttksj201cz",
-              "name": "EU - Outgoing Integration Flow",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            },
-            {
-              "code": "357vyw1pjtlj",
-              "name": "EU - Signup, Login & Authorization",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            },
-            {
-              "code": "9mk8r5t0mzbk",
-              "name": "EU - Web Application",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "f8ytvk564k0j",
-          "status": "identified",
-          "body": "The issue has been identified and a fix is being implemented.",
-          "incident_id": "b56w60xmt0gv",
-          "created_at": "2023-06-26T06:30:26.937Z",
-          "updated_at": "2023-06-26T06:30:26.937Z",
-          "display_at": "2023-06-26T06:30:26.937Z",
-          "affected_components": [
-            {
-              "code": "x3kw060dyr9f",
-              "name": "EU - Alert Flow",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "zv3xlkn13rqs",
-              "name": "EU - Email Notification Delivery",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "pk367fsgz1yq",
-              "name": "EU - SMS Notification Delivery",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "92ty6vgyj0nw",
-              "name": "EU - Voice Notification Delivery",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "jf0l1ds2mm5z",
-              "name": "EU - Mobile Notification Delivery",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "w81l39fwhskh",
-              "name": "EU - Heartbeat Monitoring",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "p9phmxm8nn64",
-              "name": "EU - Incoming Integration Flow",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "tkttksj201cz",
-              "name": "EU - Outgoing Integration Flow",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "357vyw1pjtlj",
-              "name": "EU - Signup, Login & Authorization",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "9mk8r5t0mzbk",
-              "name": "EU - Web Application",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "b0yv046xvlbt",
-          "status": "investigating",
-          "body": "The team has identified the cause of the problem and actively working on it to mitigate the delays.",
-          "incident_id": "b56w60xmt0gv",
-          "created_at": "2023-06-26T06:30:18.626Z",
-          "updated_at": "2023-06-26T06:30:18.626Z",
-          "display_at": "2023-06-26T06:30:18.626Z",
-          "affected_components": [
-            {
-              "code": "x3kw060dyr9f",
-              "name": "EU - Alert Flow",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "zv3xlkn13rqs",
-              "name": "EU - Email Notification Delivery",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "pk367fsgz1yq",
-              "name": "EU - SMS Notification Delivery",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "92ty6vgyj0nw",
-              "name": "EU - Voice Notification Delivery",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "jf0l1ds2mm5z",
-              "name": "EU - Mobile Notification Delivery",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "w81l39fwhskh",
-              "name": "EU - Heartbeat Monitoring",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "p9phmxm8nn64",
-              "name": "EU - Incoming Integration Flow",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "tkttksj201cz",
-              "name": "EU - Outgoing Integration Flow",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "357vyw1pjtlj",
-              "name": "EU - Signup, Login & Authorization",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "9mk8r5t0mzbk",
-              "name": "EU - Web Application",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "490w2w58cktw",
-          "status": "investigating",
-          "body": "Our platform is experiencing some delays for all system in EU region. Team is actively working on it to mitigate the delays.\n\nWe'll keep you posted with further updates.",
-          "incident_id": "b56w60xmt0gv",
-          "created_at": "2023-06-26T06:25:58.879Z",
-          "updated_at": "2023-06-26T06:25:58.879Z",
-          "display_at": "2023-06-26T06:25:58.879Z",
-          "affected_components": [
-            {
-              "code": "x3kw060dyr9f",
-              "name": "EU - Alert Flow",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "zv3xlkn13rqs",
-              "name": "EU - Email Notification Delivery",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "pk367fsgz1yq",
-              "name": "EU - SMS Notification Delivery",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "92ty6vgyj0nw",
-              "name": "EU - Voice Notification Delivery",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "jf0l1ds2mm5z",
-              "name": "EU - Mobile Notification Delivery",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "w81l39fwhskh",
-              "name": "EU - Heartbeat Monitoring",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "p9phmxm8nn64",
-              "name": "EU - Incoming Integration Flow",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "tkttksj201cz",
-              "name": "EU - Outgoing Integration Flow",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "357vyw1pjtlj",
-              "name": "EU - Signup, Login & Authorization",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "9mk8r5t0mzbk",
-              "name": "EU - Web Application",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "x3kw060dyr9f",
-          "name": "Alert Flow",
-          "status": "degraded_performance",
-          "created_at": "2019-03-15T08:10:19.021Z",
-          "updated_at": "2023-06-26T06:25:58.725Z",
-          "position": 2,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "k7gyfk44wrsr",
-          "page_id": "t05vdsszxwtq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "zv3xlkn13rqs",
-          "name": "Email Notification Delivery",
-          "status": "degraded_performance",
-          "created_at": "2019-03-15T08:10:32.965Z",
-          "updated_at": "2023-06-26T06:25:58.739Z",
-          "position": 3,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "k7gyfk44wrsr",
-          "page_id": "t05vdsszxwtq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "pk367fsgz1yq",
-          "name": "SMS Notification Delivery",
-          "status": "degraded_performance",
-          "created_at": "2019-03-15T08:10:55.832Z",
-          "updated_at": "2023-06-26T06:25:58.751Z",
-          "position": 4,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "k7gyfk44wrsr",
-          "page_id": "t05vdsszxwtq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "92ty6vgyj0nw",
-          "name": "Voice Notification Delivery",
-          "status": "degraded_performance",
-          "created_at": "2019-03-15T08:11:07.813Z",
-          "updated_at": "2023-06-26T06:25:58.763Z",
-          "position": 5,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "k7gyfk44wrsr",
-          "page_id": "t05vdsszxwtq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "jf0l1ds2mm5z",
-          "name": "Mobile Notification Delivery",
-          "status": "degraded_performance",
-          "created_at": "2019-03-15T08:11:21.736Z",
-          "updated_at": "2023-06-26T06:25:58.775Z",
-          "position": 6,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "k7gyfk44wrsr",
-          "page_id": "t05vdsszxwtq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "w81l39fwhskh",
-          "name": "Heartbeat Monitoring",
-          "status": "operational",
-          "created_at": "2019-03-15T08:11:40.758Z",
-          "updated_at": "2023-06-26T07:42:21.636Z",
-          "position": 7,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "k7gyfk44wrsr",
-          "page_id": "t05vdsszxwtq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "p9phmxm8nn64",
-          "name": "Incoming Integration Flow",
-          "status": "operational",
-          "created_at": "2019-03-15T08:12:34.010Z",
-          "updated_at": "2023-06-26T07:42:21.653Z",
-          "position": 12,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "k7gyfk44wrsr",
-          "page_id": "t05vdsszxwtq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "tkttksj201cz",
-          "name": "Outgoing Integration Flow",
-          "status": "operational",
-          "created_at": "2019-03-15T08:12:45.141Z",
-          "updated_at": "2023-06-26T07:42:21.668Z",
-          "position": 13,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "k7gyfk44wrsr",
-          "page_id": "t05vdsszxwtq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "357vyw1pjtlj",
-          "name": "Signup, Login & Authorization",
-          "status": "degraded_performance",
-          "created_at": "2019-03-15T08:12:55.374Z",
-          "updated_at": "2023-06-26T09:44:19.363Z",
-          "position": 14,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "k7gyfk44wrsr",
-          "page_id": "t05vdsszxwtq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "9mk8r5t0mzbk",
-          "name": "Web Application",
-          "status": "degraded_performance",
-          "created_at": "2019-03-15T08:13:16.102Z",
-          "updated_at": "2023-06-26T06:25:58.846Z",
-          "position": 16,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "k7gyfk44wrsr",
-          "page_id": "t05vdsszxwtq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
