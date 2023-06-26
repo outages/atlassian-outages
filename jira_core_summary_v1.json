@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-06-26T01:33:09.591Z"
+    "updated_at": "2023-06-26T07:30:45.307Z"
   },
   "components": [
     {
@@ -160,9 +160,9 @@
     {
       "id": "g05jhcg0y7yw",
       "name": "Automation for Jira",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-12-23T01:39:53.397Z",
-      "updated_at": "2023-06-22T22:11:30.401Z",
+      "updated_at": "2023-06-26T07:30:45.264Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -173,103 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "njdzgcfc93dl",
-      "name": "Jira platform failing to send webhook notifications for some events",
-      "status": "monitoring",
-      "created_at": "2023-06-22T22:11:30.368Z",
-      "updated_at": "2023-06-26T01:33:09.590Z",
-      "monitoring_at": "2023-06-26T01:33:09.577Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/6q8zbg3l933m",
-      "started_at": "2023-06-22T22:11:30.360Z",
-      "page_id": "s6f0gm5gcpmy",
-      "incident_updates": [
-        {
-          "id": "9xvv9s8qb51v",
-          "status": "monitoring",
-          "body": "We have identified the source of the failed issue updated webhook notifications and have mitigated the problem for all customers. We are now monitoring closely.",
-          "incident_id": "njdzgcfc93dl",
-          "created_at": "2023-06-26T01:33:09.577Z",
-          "updated_at": "2023-06-26T01:33:09.577Z",
-          "display_at": "2023-06-26T01:33:09.577Z",
-          "affected_components": [
-            {
-              "code": "g05jhcg0y7yw",
-              "name": "Automation for Jira",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "k8gn9dd2sdcd",
-          "status": "investigating",
-          "body": "We do not have a root cause for the failure to send webhook notifications impacting automation rules for Jira Work Management, Jira Service Management, and Jira Software Cloud. We are investigating and will post updates within the next two hours.\nWe have applied a mitigation for most impacted customers however some customers remain affected.",
-          "incident_id": "njdzgcfc93dl",
-          "created_at": "2023-06-23T00:58:24.151Z",
-          "updated_at": "2023-06-23T00:58:24.151Z",
-          "display_at": "2023-06-23T00:58:24.151Z",
-          "affected_components": [
-            {
-              "code": "g05jhcg0y7yw",
-              "name": "Automation for Jira",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "mh6f6lczl735",
-          "status": "investigating",
-          "body": "We do not have a root cause for the failure to send webhook notifications impacting automation rules for Jira Work Management, Jira Service Management, and Jira Software Cloud. We are investigating and will post updates within the next two hours.",
-          "incident_id": "njdzgcfc93dl",
-          "created_at": "2023-06-22T22:11:30.443Z",
-          "updated_at": "2023-06-22T22:11:30.443Z",
-          "display_at": "2023-06-22T22:11:30.443Z",
-          "affected_components": [
-            {
-              "code": "g05jhcg0y7yw",
-              "name": "Automation for Jira",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "g05jhcg0y7yw",
-          "name": "Automation for Jira",
-          "status": "degraded_performance",
-          "created_at": "2020-12-23T01:39:53.397Z",
-          "updated_at": "2023-06-22T22:11:30.401Z",
-          "position": 11,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-12-23",
-          "group_id": null,
-          "page_id": "s6f0gm5gcpmy",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }

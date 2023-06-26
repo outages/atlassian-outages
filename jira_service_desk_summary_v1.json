@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-06-26T06:26:00.295Z"
+    "updated_at": "2023-06-26T07:30:45.321Z"
   },
   "components": [
     {
@@ -160,9 +160,9 @@
     {
       "id": "7rq3yg76vvbc",
       "name": "Automation for Jira",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-12-23T01:40:13.601Z",
-      "updated_at": "2023-06-22T14:26:18.286Z",
+      "updated_at": "2023-06-26T07:30:45.273Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -188,120 +188,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "1bfz1y1bvg4z",
-      "name": "Jira platform failing to send webhook notifications for some events",
-      "status": "monitoring",
-      "created_at": "2023-06-22T14:26:18.263Z",
-      "updated_at": "2023-06-26T01:33:09.607Z",
-      "monitoring_at": "2023-06-26T01:33:09.593Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/0rcm8fj9d34z",
-      "started_at": "2023-06-22T14:26:18.258Z",
-      "page_id": "pv54g7ltsc24",
-      "incident_updates": [
-        {
-          "id": "bf05js381357",
-          "status": "monitoring",
-          "body": "We have identified the source of the failed issue updated webhook notifications and have mitigated the problem for all customers. We are now monitoring closely.",
-          "incident_id": "1bfz1y1bvg4z",
-          "created_at": "2023-06-26T01:33:09.593Z",
-          "updated_at": "2023-06-26T01:33:09.593Z",
-          "display_at": "2023-06-26T01:33:09.593Z",
-          "affected_components": [
-            {
-              "code": "7rq3yg76vvbc",
-              "name": "Automation for Jira",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "kq062kzjx6gy",
-          "status": "investigating",
-          "body": "We do not have a root cause for the failure to send webhook notifications impacting automation rules for Jira Work Management, Jira Service Management, and Jira Software Cloud. We are investigating and will post updates within the next two hours.\nWe have applied a mitigation for most impacted customers however some customers remain affected.",
-          "incident_id": "1bfz1y1bvg4z",
-          "created_at": "2023-06-23T00:58:24.138Z",
-          "updated_at": "2023-06-23T00:58:24.138Z",
-          "display_at": "2023-06-23T00:58:24.138Z",
-          "affected_components": [
-            {
-              "code": "7rq3yg76vvbc",
-              "name": "Automation for Jira",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "hbnj5gthc646",
-          "status": "investigating",
-          "body": "We do not have a root cause for the failure to send webhook notifications impacting automation rules for Jira Work Management, Jira Service Management, and Jira Software Cloud. We are investigating and will post updates within the next two hours.",
-          "incident_id": "1bfz1y1bvg4z",
-          "created_at": "2023-06-22T22:11:31.102Z",
-          "updated_at": "2023-06-22T22:11:31.102Z",
-          "display_at": "2023-06-22T22:11:31.102Z",
-          "affected_components": [
-            {
-              "code": "7rq3yg76vvbc",
-              "name": "Automation for Jira",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "lbg7v6f406sv",
-          "status": "investigating",
-          "body": "We are investigating cases where Jira failed to send webhook notifications for issue updated events.  This in turn is causing automation triggers Field value change to not work properly.  Problem seems to be affecting Jira Service Management and Jira Software Cloud customers.  We are undertaking mitigation steps to prevent this from happening, while we continue the root cause diagnosis.  We will provide more details within the next hours.",
-          "incident_id": "1bfz1y1bvg4z",
-          "created_at": "2023-06-22T14:26:18.316Z",
-          "updated_at": "2023-06-22T14:26:18.316Z",
-          "display_at": "2023-06-22T14:26:18.316Z",
-          "affected_components": [
-            {
-              "code": "7rq3yg76vvbc",
-              "name": "Automation for Jira",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "7rq3yg76vvbc",
-          "name": "Automation for Jira",
-          "status": "degraded_performance",
-          "created_at": "2020-12-23T01:40:13.601Z",
-          "updated_at": "2023-06-22T14:26:18.286Z",
-          "position": 11,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-12-23",
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "minor",
