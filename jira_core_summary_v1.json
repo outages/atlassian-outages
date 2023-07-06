@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-07-06T12:56:28.211Z"
+    "updated_at": "2023-07-06T13:32:53.928Z"
   },
   "components": [
     {
@@ -40,9 +40,9 @@
     {
       "id": "wn1gfxqd25rr",
       "name": "Authentication and User Management",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-05-02T04:26:34.383Z",
-      "updated_at": "2023-07-06T08:38:09.163Z",
+      "updated_at": "2023-07-06T13:32:53.894Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -175,170 +175,31 @@
   ],
   "incidents": [
     {
-      "id": "grrkdxlmkxdq",
-      "name": "Intermittent errors during login for some customers",
-      "status": "monitoring",
-      "created_at": "2023-07-06T08:38:09.137Z",
-      "updated_at": "2023-07-06T12:56:28.208Z",
-      "monitoring_at": "2023-07-06T12:56:28.193Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/lkk5vmxv2sh5",
-      "started_at": "2023-07-06T08:38:09.131Z",
-      "page_id": "s6f0gm5gcpmy",
-      "incident_updates": [
-        {
-          "id": "fv2v42lb4y4l",
-          "status": "monitoring",
-          "body": "We have identified the root cause of the errors during login and have mitigated the problem. We are now monitoring closely.",
-          "incident_id": "grrkdxlmkxdq",
-          "created_at": "2023-07-06T12:56:28.193Z",
-          "updated_at": "2023-07-06T12:56:28.193Z",
-          "display_at": "2023-07-06T12:56:28.193Z",
-          "affected_components": [
-            {
-              "code": "wn1gfxqd25rr",
-              "name": "Authentication and User Management",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "3gd7zfzqd22s",
-          "status": "identified",
-          "body": "We are investigating reports of errors during login that is impacting some Atlassian Support, Confluence, Jira Work Management, Jira Service Management, Jira Software, Opsgenie, Trello, Atlassian Bitbucket, Atlassian Access, Jira Product Discovery, Compass, and Atlassian Analytics. We have identified the root cause and expect recovery shortly.",
-          "incident_id": "grrkdxlmkxdq",
-          "created_at": "2023-07-06T10:59:59.957Z",
-          "updated_at": "2023-07-06T10:59:59.957Z",
-          "display_at": "2023-07-06T10:59:59.957Z",
-          "affected_components": [
-            {
-              "code": "wn1gfxqd25rr",
-              "name": "Authentication and User Management",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "83nzvt80nhl2",
-          "status": "investigating",
-          "body": "We are investigating reports of errors during login for some customers that is impacting some Atlassian Support, Confluence, Jira Work Management, Jira Service Management, Jira Software, Opsgenie, Trello, Atlassian Bitbucket, Atlassian Access, Jira Product Discovery, and Atlassian Analytics Cloud customers. We will provide more details within the next hour.",
-          "incident_id": "grrkdxlmkxdq",
-          "created_at": "2023-07-06T09:39:45.648Z",
-          "updated_at": "2023-07-06T09:39:45.648Z",
-          "display_at": "2023-07-06T09:39:45.648Z",
-          "affected_components": [
-            {
-              "code": "wn1gfxqd25rr",
-              "name": "Authentication and User Management",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "40lf7q9p2dvh",
-          "status": "investigating",
-          "body": "We are investigating reports of errors during login for some customers that is impacting some Atlassian Support, Confluence, Jira Work Management, Jira Service Management, Jira Software, Opsgenie, Trello, Atlassian Bitbucket, Atlassian Access, Jira Product Discovery, and Atlassian Analytics Cloud customers. We will provide more details within the next hour.",
-          "incident_id": "grrkdxlmkxdq",
-          "created_at": "2023-07-06T09:34:25.204Z",
-          "updated_at": "2023-07-06T09:34:25.204Z",
-          "display_at": "2023-07-06T09:34:25.204Z",
-          "affected_components": [
-            {
-              "code": "wn1gfxqd25rr",
-              "name": "Authentication and User Management",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "xnklbrt3c7fq",
-          "status": "investigating",
-          "body": "We are investigating reports of errors during login for some customers that is impacting some Confluence, Jira Work Management, Jira Service Management, Jira Software, Opsgenie, Trello, Atlassian Bitbucket, Atlassian Access, Jira Product Discovery, and Atlassian Analytics Cloud customers. We will provide more details within the next hour.",
-          "incident_id": "grrkdxlmkxdq",
-          "created_at": "2023-07-06T09:03:45.860Z",
-          "updated_at": "2023-07-06T09:03:45.860Z",
-          "display_at": "2023-07-06T09:03:45.860Z",
-          "affected_components": [
-            {
-              "code": "wn1gfxqd25rr",
-              "name": "Authentication and User Management",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "hxbrlh2g4byt",
-          "status": "investigating",
-          "body": "We are investigating reports of intermittent errors during login for some customers using Confluence, Jira Work Management, Jira Service Management, Jira Software, Trello, Atlassian Bitbucket, Atlassian Access, and Jira Product Discovery Cloud customers. We will provide more details once we identify the root cause.",
-          "incident_id": "grrkdxlmkxdq",
-          "created_at": "2023-07-06T08:38:09.194Z",
-          "updated_at": "2023-07-06T08:38:09.194Z",
-          "display_at": "2023-07-06T08:38:09.194Z",
-          "affected_components": [
-            {
-              "code": "wn1gfxqd25rr",
-              "name": "Authentication and User Management",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "wn1gfxqd25rr",
-          "name": "Authentication and User Management",
-          "status": "partial_outage",
-          "created_at": "2019-05-02T04:26:34.383Z",
-          "updated_at": "2023-07-06T08:38:09.163Z",
-          "position": 3,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "s6f0gm5gcpmy",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    },
-    {
       "id": "srzh569tqy63",
       "name": "Performance issues and outages with Cloud products",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2023-07-06T11:18:50.928Z",
-      "updated_at": "2023-07-06T11:18:50.957Z",
-      "monitoring_at": null,
+      "updated_at": "2023-07-06T13:17:42.336Z",
+      "monitoring_at": "2023-07-06T13:17:42.316Z",
       "resolved_at": null,
       "impact": "none",
       "shortlink": "https://stspg.io/tck4qrhrzd5j",
       "started_at": "2023-07-06T11:18:50.922Z",
       "page_id": "s6f0gm5gcpmy",
       "incident_updates": [
+        {
+          "id": "h1kqwgqljxcj",
+          "status": "monitoring",
+          "body": "We have identified the root cause of an issue with an internal infrastructure component that has been impacting multiple Cloud products, including Jira Software, Jira Service Management and Confluence, and customers. This issue had lead to a performance impact and, in some cases, outages.\n\nWe have implemented a fix to resolve the issue and recovery is in progress.",
+          "incident_id": "srzh569tqy63",
+          "created_at": "2023-07-06T13:17:42.316Z",
+          "updated_at": "2023-07-06T13:17:42.316Z",
+          "display_at": "2023-07-06T13:17:42.316Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "dx47l2ftb312",
           "status": "identified",
@@ -358,7 +219,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
