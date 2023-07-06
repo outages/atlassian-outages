@@ -4,7 +4,7 @@
     "name": "Atlassian Partners",
     "url": "https://partners.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-07-06T15:37:19.249Z"
+    "updated_at": "2023-07-06T16:55:21.486Z"
   },
   "components": [
     {
@@ -85,9 +85,9 @@
     {
       "id": "zxmvxw8fjvmx",
       "name": "Partner Portal dashboard",
-      "status": "major_outage",
+      "status": "degraded_performance",
       "created_at": "2022-01-07T08:35:39.390Z",
-      "updated_at": "2023-07-06T10:37:38.458Z",
+      "updated_at": "2023-07-06T16:55:21.436Z",
       "position": 6,
       "description": "https://tableau-embedded-analytics.services.atlassian.com/",
       "showcase": true,
@@ -102,16 +102,36 @@
     {
       "id": "3xghtmbkwc5f",
       "name": "Unable to access Analytics dashboard (Tableau) in Partner Business Center",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2023-07-06T10:37:38.418Z",
-      "updated_at": "2023-07-06T10:37:38.513Z",
-      "monitoring_at": null,
+      "updated_at": "2023-07-06T16:55:21.483Z",
+      "monitoring_at": "2023-07-06T16:55:21.468Z",
       "resolved_at": null,
       "impact": "critical",
       "shortlink": "https://stspg.io/9v7drnfbmf8c",
       "started_at": "2023-07-06T10:37:38.412Z",
       "page_id": "tfc0vzc0cq1n",
       "incident_updates": [
+        {
+          "id": "p2y9b2qn1p0z",
+          "status": "monitoring",
+          "body": "The fix has been applied and we are currently validating the dashboard accessibility.",
+          "incident_id": "3xghtmbkwc5f",
+          "created_at": "2023-07-06T16:55:21.468Z",
+          "updated_at": "2023-07-06T16:55:21.468Z",
+          "display_at": "2023-07-06T16:55:21.468Z",
+          "affected_components": [
+            {
+              "code": "zxmvxw8fjvmx",
+              "name": "Partner Portal dashboard",
+              "old_status": "major_outage",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "xlkpnjjsy6ry",
           "status": "investigating",
@@ -137,9 +157,9 @@
         {
           "id": "zxmvxw8fjvmx",
           "name": "Partner Portal dashboard",
-          "status": "major_outage",
+          "status": "degraded_performance",
           "created_at": "2022-01-07T08:35:39.390Z",
-          "updated_at": "2023-07-06T10:37:38.458Z",
+          "updated_at": "2023-07-06T16:55:21.436Z",
           "position": 6,
           "description": "https://tableau-embedded-analytics.services.atlassian.com/",
           "showcase": true,
@@ -154,7 +174,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
