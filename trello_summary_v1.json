@@ -4,7 +4,7 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2023-07-06T09:32:52.603-04:00"
+    "updated_at": "2023-07-06T11:37:19.417-04:00"
   },
   "components": [
     {
@@ -83,50 +83,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "nn344xp5lc8y",
-      "name": "Performance issues and outages with Cloud products",
-      "status": "monitoring",
-      "created_at": "2023-07-06T07:18:50.946-04:00",
-      "updated_at": "2023-07-06T09:17:42.329-04:00",
-      "monitoring_at": "2023-07-06T09:17:42.314-04:00",
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/bdh1mzhpkp1v",
-      "started_at": "2023-07-06T07:18:50.936-04:00",
-      "page_id": "h5frqhb041yq",
-      "incident_updates": [
-        {
-          "id": "1x5xmxqwr790",
-          "status": "monitoring",
-          "body": "We have identified the root cause of an issue with an internal infrastructure component that has been impacting multiple Cloud products, including Jira Software, Jira Service Management and Confluence, and customers. This issue had lead to a performance impact and, in some cases, outages.\n\nWe have implemented a fix to resolve the issue and recovery is in progress.",
-          "incident_id": "nn344xp5lc8y",
-          "created_at": "2023-07-06T09:17:42.314-04:00",
-          "updated_at": "2023-07-06T09:17:42.314-04:00",
-          "display_at": "2023-07-06T09:17:42.314-04:00",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "bfxydfk4lmy9",
-          "status": "identified",
-          "body": "We are investigating an issue with an internal infrastructure component that is impacting multiple Cloud products, including Jira Software, Bitbucket, Jira Service Management and Confluence, and customers. These issues include performance impact and, in some cases, outages.\n\nUsers may experience slow loading and uploading of attachments, login issues or inability for new customers to sign up. We have identified the root cause and are actively working on the service recovery.",
-          "incident_id": "nn344xp5lc8y",
-          "created_at": "2023-07-06T07:18:50.988-04:00",
-          "updated_at": "2023-07-06T07:18:50.988-04:00",
-          "display_at": "2023-07-06T07:18:50.988-04:00",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": []
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
