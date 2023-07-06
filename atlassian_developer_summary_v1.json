@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-06-30T23:56:25.467Z"
+    "updated_at": "2023-07-06T11:18:51.166Z"
   },
   "components": [
     {
@@ -779,7 +779,37 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "cwwvww1fktvb",
+      "name": "Performance issues and outages with Cloud products",
+      "status": "identified",
+      "created_at": "2023-07-06T11:18:51.119Z",
+      "updated_at": "2023-07-06T11:18:51.163Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/tn5nh85j81ns",
+      "started_at": "2023-07-06T11:18:51.112Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "g0rdmb8bvrp3",
+          "status": "identified",
+          "body": "We are investigating an issue with an internal infrastructure component that is impacting multiple Cloud products, including Jira Software, Bitbucket, Jira Service Management and Confluence, and customers. These issues include performance impact and, in some cases, outages.\n\nUsers may experience slow loading and uploading of attachments, login issues or inability for new customers to sign up. We have identified the root cause and are actively working on the service recovery.",
+          "incident_id": "cwwvww1fktvb",
+          "created_at": "2023-07-06T11:18:51.160Z",
+          "updated_at": "2023-07-06T11:18:51.160Z",
+          "display_at": "2023-07-06T11:18:51.160Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": []
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
