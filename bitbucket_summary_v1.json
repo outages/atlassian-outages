@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-07-06T08:39:09.032Z"
+    "updated_at": "2023-07-06T08:43:04.225Z"
   },
   "components": [
     {
@@ -209,22 +209,22 @@
       "name": "Atlassian container repository is currently experiencing degradation.",
       "status": "identified",
       "created_at": "2023-07-06T07:01:44.831Z",
-      "updated_at": "2023-07-06T08:39:09.027Z",
+      "updated_at": "2023-07-06T08:41:06.418Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/q1m7z48s49hh",
-      "started_at": "2023-07-06T07:01:44.824Z",
+      "started_at": "2023-07-06T07:01:44.000Z",
       "page_id": "bqlf8qjztdtr",
       "incident_updates": [
         {
           "id": "bst4xnbqhrbl",
           "status": "identified",
-          "body": "The previous attempt to fix the Atlassian container repository did not have the expected outcome. As a result, the service is currently experiencing degradation, blocking the ability to serve required infrastructure containers. We are working to restore the service to full health.",
+          "body": "The previous attempt to fix the Atlassian container repository did not have the expected outcome. As a result services that rely on this are currently experiencing major degradation as scaling is impacted. We are working to restore the container service to full health.",
           "incident_id": "19b4rq4rwfqw",
           "created_at": "2023-07-06T07:01:44.898Z",
-          "updated_at": "2023-07-06T07:01:44.898Z",
-          "display_at": "2023-07-06T07:01:44.898Z",
+          "updated_at": "2023-07-06T08:41:06.298Z",
+          "display_at": "2023-07-06T07:01:44.000Z",
           "affected_components": [
             {
               "code": "rzh2n85q7vtt",
