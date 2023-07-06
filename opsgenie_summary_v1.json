@@ -4,7 +4,7 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-07-06T11:43:08.616Z"
+    "updated_at": "2023-07-06T12:56:28.190Z"
   },
   "components": [
     {
@@ -763,47 +763,44 @@
   ],
   "incidents": [
     {
-      "id": "sjk5m4shpqcl",
-      "name": "Performance issues and outages with Cloud products",
-      "status": "identified",
-      "created_at": "2023-07-06T11:18:50.937Z",
-      "updated_at": "2023-07-06T11:18:50.969Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/p6mn4b0kg7jn",
-      "started_at": "2023-07-06T11:18:50.933Z",
-      "page_id": "t05vdsszxwtq",
-      "incident_updates": [
-        {
-          "id": "9sv61xbxdjn7",
-          "status": "identified",
-          "body": "We are investigating an issue with an internal infrastructure component that is impacting multiple Cloud products, including Jira Software, Bitbucket, Jira Service Management and Confluence, and customers. These issues include performance impact and, in some cases, outages.\n\nUsers may experience slow loading and uploading of attachments, login issues or inability for new customers to sign up. We have identified the root cause and are actively working on the service recovery.",
-          "incident_id": "sjk5m4shpqcl",
-          "created_at": "2023-07-06T11:18:50.967Z",
-          "updated_at": "2023-07-06T11:18:50.967Z",
-          "display_at": "2023-07-06T11:18:50.967Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": []
-    },
-    {
       "id": "q6rdtdtwwfdm",
       "name": "Intermittent errors during login for some customers",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2023-07-06T09:03:45.848Z",
-      "updated_at": "2023-07-06T11:00:01.243Z",
-      "monitoring_at": null,
+      "updated_at": "2023-07-06T12:56:28.189Z",
+      "monitoring_at": "2023-07-06T12:56:28.179Z",
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/p5j54tmp1yqm",
       "started_at": "2023-07-06T09:03:45.840Z",
       "page_id": "t05vdsszxwtq",
       "incident_updates": [
+        {
+          "id": "m04k7zrxv4d8",
+          "status": "monitoring",
+          "body": "We have identified the root cause of the errors during login and have mitigated the problem. We are now monitoring closely.",
+          "incident_id": "q6rdtdtwwfdm",
+          "created_at": "2023-07-06T12:56:28.179Z",
+          "updated_at": "2023-07-06T12:56:28.179Z",
+          "display_at": "2023-07-06T12:56:28.179Z",
+          "affected_components": [
+            {
+              "code": "yf2lb8rzjt6l",
+              "name": "US - Signup, Login & Authorization",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "357vyw1pjtlj",
+              "name": "EU - Signup, Login & Authorization",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "jc74z8sb3pt8",
           "status": "identified",
@@ -929,6 +926,35 @@
           "only_show_if_degraded": false
         }
       ]
+    },
+    {
+      "id": "sjk5m4shpqcl",
+      "name": "Performance issues and outages with Cloud products",
+      "status": "identified",
+      "created_at": "2023-07-06T11:18:50.937Z",
+      "updated_at": "2023-07-06T11:18:50.969Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/p6mn4b0kg7jn",
+      "started_at": "2023-07-06T11:18:50.933Z",
+      "page_id": "t05vdsszxwtq",
+      "incident_updates": [
+        {
+          "id": "9sv61xbxdjn7",
+          "status": "identified",
+          "body": "We are investigating an issue with an internal infrastructure component that is impacting multiple Cloud products, including Jira Software, Bitbucket, Jira Service Management and Confluence, and customers. These issues include performance impact and, in some cases, outages.\n\nUsers may experience slow loading and uploading of attachments, login issues or inability for new customers to sign up. We have identified the root cause and are actively working on the service recovery.",
+          "incident_id": "sjk5m4shpqcl",
+          "created_at": "2023-07-06T11:18:50.967Z",
+          "updated_at": "2023-07-06T11:18:50.967Z",
+          "display_at": "2023-07-06T11:18:50.967Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": []
     }
   ],
   "scheduled_maintenances": [],
