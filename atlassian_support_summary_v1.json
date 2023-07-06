@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-07-06T09:43:22.795Z"
+    "updated_at": "2023-07-06T09:55:20.389Z"
   },
   "components": [
     {
@@ -209,10 +209,10 @@
       "name": "Intermittent errors during login for some customers",
       "status": "investigating",
       "created_at": "2023-07-06T09:34:25.173Z",
-      "updated_at": "2023-07-06T09:39:45.623Z",
+      "updated_at": "2023-07-06T09:55:20.383Z",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "none",
+      "impact": "minor",
       "shortlink": "https://stspg.io/f875mr8fq15k",
       "started_at": "2023-07-06T09:34:25.165Z",
       "page_id": "3tbw4lb9t3qp",
