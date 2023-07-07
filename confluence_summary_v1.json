@@ -4,7 +4,7 @@
     "name": "Confluence",
     "url": "https://confluence.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-07-07T01:29:25.214Z"
+    "updated_at": "2023-07-07T02:00:41.732Z"
   },
   "components": [
     {
@@ -213,10 +213,10 @@
       "name": "Degraded performance in Confluence Cloud",
       "status": "monitoring",
       "created_at": "2023-07-06T08:02:24.820Z",
-      "updated_at": "2023-07-07T01:29:25.205Z",
+      "updated_at": "2023-07-07T02:00:41.728Z",
       "monitoring_at": "2023-07-06T13:28:49.072Z",
       "resolved_at": null,
-      "impact": "minor",
+      "impact": "none",
       "shortlink": "https://stspg.io/r1xg0d23rhcn",
       "started_at": "2023-07-06T08:02:24.814Z",
       "page_id": "4g2my7tbhjsq",
