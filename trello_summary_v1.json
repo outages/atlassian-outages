@@ -4,15 +4,15 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2023-07-17T17:20:53.265-04:00"
+    "updated_at": "2023-07-17T17:34:04.854-04:00"
   },
   "components": [
     {
       "id": "hsr3nvlz0k2l",
       "name": "Trello.com",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-01-24T12:50:55.839-05:00",
-      "updated_at": "2023-07-17T17:00:11.967-04:00",
+      "updated_at": "2023-07-17T17:34:03.945-04:00",
       "position": 1,
       "description": "Web client",
       "showcase": true,
@@ -83,103 +83,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "ds7hzgx627h0",
-      "name": "Real-time updates are not functioning as expected",
-      "status": "identified",
-      "created_at": "2023-07-17T17:00:11.935-04:00",
-      "updated_at": "2023-07-17T17:20:53.255-04:00",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/n9v0jtcy7w00",
-      "started_at": "2023-07-17T17:00:11.931-04:00",
-      "page_id": "h5frqhb041yq",
-      "incident_updates": [
-        {
-          "id": "k4gf4xv8q9rf",
-          "status": "identified",
-          "body": "Real-time updates are now working for the majority of users, and new connections will also be working. Some users may still be affected. We are continuing to implement a fix.",
-          "incident_id": "ds7hzgx627h0",
-          "created_at": "2023-07-17T17:20:52.677-04:00",
-          "updated_at": "2023-07-17T17:20:53.248-04:00",
-          "display_at": "2023-07-17T17:20:52.677-04:00",
-          "affected_components": [
-            {
-              "code": "hsr3nvlz0k2l",
-              "name": "Trello.com",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1681051367618785300
-        },
-        {
-          "id": "wmbxlhdh7t0g",
-          "status": "identified",
-          "body": "The issue has been identified and a fix is being implemented. Real-time updates are working for the majority of users, but some may still be impacted.",
-          "incident_id": "ds7hzgx627h0",
-          "created_at": "2023-07-17T17:14:00.443-04:00",
-          "updated_at": "2023-07-17T17:14:01.031-04:00",
-          "display_at": "2023-07-17T17:14:00.443-04:00",
-          "affected_components": [
-            {
-              "code": "hsr3nvlz0k2l",
-              "name": "Trello.com",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1681049638315655200
-        },
-        {
-          "id": "1r364339h0tz",
-          "status": "investigating",
-          "body": "We have identified an incident affecting real time updates. For now, real-time updates are not functioning. Changes can be seen by refreshing your browser.",
-          "incident_id": "ds7hzgx627h0",
-          "created_at": "2023-07-17T17:00:12.006-04:00",
-          "updated_at": "2023-07-17T17:00:14.054-04:00",
-          "display_at": "2023-07-17T17:00:12.006-04:00",
-          "affected_components": [
-            {
-              "code": "hsr3nvlz0k2l",
-              "name": "Trello.com",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1681046170003738600
-        }
-      ],
-      "components": [
-        {
-          "id": "hsr3nvlz0k2l",
-          "name": "Trello.com",
-          "status": "degraded_performance",
-          "created_at": "2020-01-24T12:50:55.839-05:00",
-          "updated_at": "2023-07-17T17:00:11.967-04:00",
-          "position": 1,
-          "description": "Web client",
-          "showcase": true,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "h5frqhb041yq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
