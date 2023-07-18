@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-07-18T07:08:53.466Z"
+    "updated_at": "2023-07-18T07:28:42.690Z"
   },
   "components": [
     {
@@ -785,7 +785,7 @@
       "name": "Connect App customers are reporting 403s from Jira with 'Auth Error during JWT validation' messages",
       "status": "identified",
       "created_at": "2023-07-18T02:48:43.873Z",
-      "updated_at": "2023-07-18T02:48:43.991Z",
+      "updated_at": "2023-07-18T07:28:42.682Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -793,6 +793,38 @@
       "started_at": "2023-07-18T02:48:43.861Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "ttdt5gqh5br2",
+          "status": "identified",
+          "body": "We continue to work on resolving the for Atlassian Developer. We have identified the root cause and published a Hot-Fix. \n\nThe ETA for the fix to be fully rolled out for Jira is 11 hours - UTC 2023-07-18T19:00. We are delaying a Confluence release until business hours, as we have not detected any impact on the Confluence product. ETA for Confluence will be similar. \n\nWe will publish further comms in 12 hours",
+          "incident_id": "yyk0lfwxvrz2",
+          "created_at": "2023-07-18T07:28:42.680Z",
+          "updated_at": "2023-07-18T07:28:42.680Z",
+          "display_at": "2023-07-18T07:28:42.680Z",
+          "affected_components": [
+            {
+              "code": "yjqnzm0tkgsd",
+              "name": "APIs - Confluence Cloud APIs",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "cc6gw24m02wp",
+              "name": "APIs - Jira Cloud APIs",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "jnrvspydmmsd",
+              "name": "APIs - User APIs",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "g37skfw667j1",
           "status": "identified",
