@@ -4,13 +4,13 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-07-19T03:46:32.951Z"
+    "updated_at": "2023-07-19T07:58:03.496Z"
   },
   "components": [
     {
       "id": "w0ld3nc9jvdx",
       "name": "APIs",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:15:10.342Z",
       "updated_at": "2018-02-01T17:16:31.201Z",
       "position": 1,
@@ -94,9 +94,9 @@
     {
       "id": "yjqnzm0tkgsd",
       "name": "Confluence Cloud APIs",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:15:36.411Z",
-      "updated_at": "2023-07-18T02:48:43.913Z",
+      "updated_at": "2023-07-19T07:57:32.390Z",
       "position": 2,
       "description": null,
       "showcase": true,
@@ -187,9 +187,9 @@
     {
       "id": "cc6gw24m02wp",
       "name": "Jira Cloud APIs",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:16:54.648Z",
-      "updated_at": "2023-07-18T02:48:43.932Z",
+      "updated_at": "2023-07-19T07:57:50.383Z",
       "position": 3,
       "description": null,
       "showcase": true,
@@ -353,9 +353,9 @@
     {
       "id": "jnrvspydmmsd",
       "name": "User APIs",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:17:26.159Z",
-      "updated_at": "2023-07-18T02:48:43.948Z",
+      "updated_at": "2023-07-19T07:58:03.494Z",
       "position": 5,
       "description": null,
       "showcase": true,
