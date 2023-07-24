@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-07-24T10:21:44.363Z"
+    "updated_at": "2023-07-24T15:42:57.923Z"
   },
   "components": [
     {
@@ -232,7 +232,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -631,9 +631,9 @@
     {
       "id": "hk36hlvygg2q",
       "name": "Reporting APIs and dashboards",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2013-12-03T00:45:26.014Z",
-      "updated_at": "2023-07-24T10:21:44.323Z",
+      "updated_at": "2023-07-24T15:42:15.447Z",
       "position": 11,
       "description": "Marketing attribution reports are now operational.",
       "showcase": true,
@@ -779,10 +779,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "jpht7nb3xcgk",
+      "name": "Downloads aggregation weekly data missing for Marketplace DC and Server apps",
+      "status": "investigating",
+      "created_at": "2023-07-24T15:42:15.404Z",
+      "updated_at": "2023-07-24T15:42:15.496Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/jm0mdctjpdl3",
+      "started_at": "2023-07-24T15:42:15.396Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "5jphggmxxr89",
+          "status": "investigating",
+          "body": "This affects the reporting data of weekly aggregated downloads count only for Server and DC apps. We are currently investigating the root cause of the incident.",
+          "incident_id": "jpht7nb3xcgk",
+          "created_at": "2023-07-24T15:42:15.493Z",
+          "updated_at": "2023-07-24T15:42:15.493Z",
+          "display_at": "2023-07-24T15:42:15.493Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "hk36hlvygg2q",
+          "name": "Reporting APIs and dashboards",
+          "status": "degraded_performance",
+          "created_at": "2013-12-03T00:45:26.014Z",
+          "updated_at": "2023-07-24T15:42:15.447Z",
+          "position": 11,
+          "description": "Marketing attribution reports are now operational.",
+          "showcase": true,
+          "start_date": null,
+          "group_id": "d0m8l367qqw5",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
