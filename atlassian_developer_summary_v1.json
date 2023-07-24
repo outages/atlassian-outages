@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-07-24T06:42:56.522Z"
+    "updated_at": "2023-07-24T10:21:44.363Z"
   },
   "components": [
     {
@@ -232,7 +232,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -631,9 +631,9 @@
     {
       "id": "hk36hlvygg2q",
       "name": "Reporting APIs and dashboards",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2013-12-03T00:45:26.014Z",
-      "updated_at": "2023-07-24T04:39:30.208Z",
+      "updated_at": "2023-07-24T10:21:44.323Z",
       "position": 11,
       "description": "Marketing attribution reports are now operational.",
       "showcase": true,
@@ -779,63 +779,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "jmgy612ryg6t",
-      "name": "Some incorrect refund amount and duplicate $0 transactions data in Marketplace Partner reporting.",
-      "status": "investigating",
-      "created_at": "2023-07-24T04:39:30.087Z",
-      "updated_at": "2023-07-24T04:39:30.391Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/dsgkqxvv6jl8",
-      "started_at": "2023-07-24T04:39:30.069Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "gz3dltnv14fq",
-          "status": "investigating",
-          "body": "We have identified an incident where we are seeing some incorrect refund amount and duplicate $0 transactions data in Marketplace Partner reporting.\n\n   This is an an edge case in our reporting pipeline that was overlooked. This issue is associated with the tax calculation updates in the refunds for the new billing system, resulting in incorrect calculations for a few refund amounts(where the refund amount displayed was greater than their actual values) and duplicate $0 invoices observed in transaction reporting.  \n\nIt's important to note that there is no discrepancy found in remittance reports, only marketplace reports have incorrect values. \n\nWe are working diligently to resolve this issue, ensuring accurate calculation and preventing any discrepancies in future reports , as well as no duplicates around 100% discounted $0 transactions.   \n\nWe apologize for any inconvenience caused by this oversight. There are in total 145 refunds that got mapped with the incorrect amount spread across 69 partners. We are correcting the amounts corresponding to them and the \"lastUpdated\" field will be updated for the affected transactions so that you can retrieve the corrected information.\n \nWe will provide a follow-up once the fix is implemented in another 3-4 hours and updated data is reflected in the reports.",
-          "incident_id": "jmgy612ryg6t",
-          "created_at": "2023-07-24T04:39:30.379Z",
-          "updated_at": "2023-07-24T04:39:30.379Z",
-          "display_at": "2023-07-24T04:39:30.379Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "hk36hlvygg2q",
-          "name": "Reporting APIs and dashboards",
-          "status": "partial_outage",
-          "created_at": "2013-12-03T00:45:26.014Z",
-          "updated_at": "2023-07-24T04:39:30.208Z",
-          "position": 11,
-          "description": "Marketing attribution reports are now operational.",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
