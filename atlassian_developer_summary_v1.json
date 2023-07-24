@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-07-24T15:42:57.923Z"
+    "updated_at": "2023-07-24T18:14:35.021Z"
   },
   "components": [
     {
@@ -785,10 +785,10 @@
       "name": "Downloads aggregation weekly data missing for Marketplace DC and Server apps",
       "status": "investigating",
       "created_at": "2023-07-24T15:42:15.404Z",
-      "updated_at": "2023-07-24T15:42:15.496Z",
+      "updated_at": "2023-07-24T18:14:35.015Z",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "minor",
+      "impact": "major",
       "shortlink": "https://stspg.io/jm0mdctjpdl3",
       "started_at": "2023-07-24T15:42:15.396Z",
       "page_id": "n8766lc3ybbs",
