@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-07-28T13:43:10.229Z"
+    "updated_at": "2023-07-28T14:25:23.566Z"
   },
   "components": [
     {
@@ -188,60 +188,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "gp9c8lz46v6j",
-      "name": "Assets: Cloning object type functionality not working properly",
-      "status": "investigating",
-      "created_at": "2023-07-28T13:03:30.786Z",
-      "updated_at": "2023-07-28T13:03:30.853Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/v4smymxts0r6",
-      "started_at": "2023-07-28T13:03:30.777Z",
-      "page_id": "pv54g7ltsc24",
-      "incident_updates": [
-        {
-          "id": "s7hzqpndws6n",
-          "status": "investigating",
-          "body": "We are investigating reports of intermittent errors in cloning functionality for object types in Jira Service Management Assets Cloud customers. We will provide more details once we identify the root cause.",
-          "incident_id": "gp9c8lz46v6j",
-          "created_at": "2023-07-28T13:03:30.850Z",
-          "updated_at": "2023-07-28T13:03:30.850Z",
-          "display_at": "2023-07-28T13:03:30.850Z",
-          "affected_components": [
-            {
-              "code": "4kcs01hbh4l6",
-              "name": "Jira Service Management Web",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "4kcs01hbh4l6",
-          "name": "Jira Service Management Web",
-          "status": "operational",
-          "created_at": "2018-11-16T18:06:14.831Z",
-          "updated_at": "2023-05-16T02:42:04.533Z",
-          "position": 1,
-          "description": "Problems with queues, issues, reports, searching, and anything else impacting an agent's ability to complete their work",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
