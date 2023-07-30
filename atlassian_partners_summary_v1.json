@@ -4,7 +4,7 @@
     "name": "Atlassian Partners",
     "url": "https://partners.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-07-30T05:30:52.795Z"
+    "updated_at": "2023-07-30T06:30:26.345Z"
   },
   "components": [
     {
@@ -85,9 +85,9 @@
     {
       "id": "zxmvxw8fjvmx",
       "name": "Partner Portal dashboard",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2022-01-07T08:35:39.390Z",
-      "updated_at": "2023-07-30T05:30:52.696Z",
+      "updated_at": "2023-07-30T06:30:26.264Z",
       "position": 6,
       "description": "https://tableau-embedded-analytics.services.atlassian.com/",
       "showcase": true,
@@ -99,97 +99,9 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "1j6rdhntnz7b",
-      "name": "Partner Portal dashboard scheduled maintenance",
-      "status": "in_progress",
-      "created_at": "2023-07-28T05:36:49.192Z",
-      "updated_at": "2023-07-30T05:30:52.783Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/m608ghlptv8q",
-      "started_at": "2023-07-28T05:36:49.187Z",
-      "page_id": "tfc0vzc0cq1n",
-      "incident_updates": [
-        {
-          "id": "t615qhtbv4z3",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "1j6rdhntnz7b",
-          "created_at": "2023-07-30T05:30:52.776Z",
-          "updated_at": "2023-07-30T05:30:52.776Z",
-          "display_at": "2023-07-30T05:30:52.776Z",
-          "affected_components": [
-            {
-              "code": "zxmvxw8fjvmx",
-              "name": "Partner Portal dashboard",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "wpts9k32qjgh",
-          "status": "scheduled",
-          "body": "Maintenance will begin as scheduled in 60 minutes.",
-          "incident_id": "1j6rdhntnz7b",
-          "created_at": "2023-07-30T04:30:04.211Z",
-          "updated_at": "2023-07-30T04:30:04.211Z",
-          "display_at": "2023-07-30T04:30:04.211Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "3515r9mc508w",
-          "status": "scheduled",
-          "body": "We will perform scheduled maintenance on Embedded-Analytics service.",
-          "incident_id": "1j6rdhntnz7b",
-          "created_at": "2023-07-28T05:36:49.238Z",
-          "updated_at": "2023-07-28T05:36:49.238Z",
-          "display_at": "2023-07-28T05:36:49.238Z",
-          "affected_components": [
-            {
-              "code": "zxmvxw8fjvmx",
-              "name": "Partner Portal dashboard",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "zxmvxw8fjvmx",
-          "name": "Partner Portal dashboard",
-          "status": "under_maintenance",
-          "created_at": "2022-01-07T08:35:39.390Z",
-          "updated_at": "2023-07-30T05:30:52.696Z",
-          "position": 6,
-          "description": "https://tableau-embedded-analytics.services.atlassian.com/",
-          "showcase": true,
-          "start_date": "2022-01-07",
-          "group_id": null,
-          "page_id": "tfc0vzc0cq1n",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2023-07-30T05:30:00.000Z",
-      "scheduled_until": "2023-07-30T06:30:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
