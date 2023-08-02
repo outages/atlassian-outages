@@ -4,7 +4,7 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2023-08-02T09:43:03.422-04:00"
+    "updated_at": "2023-08-02T10:25:40.415-04:00"
   },
   "components": [
     {
@@ -87,16 +87,29 @@
     {
       "id": "46wn25701zz7",
       "name": "Sign-ups, Product Activation, and Billing not working",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2023-08-02T09:41:13.443-04:00",
-      "updated_at": "2023-08-02T09:41:13.483-04:00",
-      "monitoring_at": null,
+      "updated_at": "2023-08-02T10:25:40.412-04:00",
+      "monitoring_at": "2023-08-02T10:25:40.393-04:00",
       "resolved_at": null,
       "impact": "none",
       "shortlink": "https://stspg.io/26zzjx6vr6wl",
       "started_at": "2023-08-02T09:41:13.435-04:00",
       "page_id": "h5frqhb041yq",
       "incident_updates": [
+        {
+          "id": "yk8v4d658r11",
+          "status": "monitoring",
+          "body": "We have identified the root cause of the Sign-ups, Product Activation, and Billing not working and have mitigated the problem. We are now monitoring closely.",
+          "incident_id": "46wn25701zz7",
+          "created_at": "2023-08-02T10:25:40.393-04:00",
+          "updated_at": "2023-08-02T10:25:40.393-04:00",
+          "display_at": "2023-08-02T10:25:40.393-04:00",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "m0z129577mgq",
           "status": "investigating",
