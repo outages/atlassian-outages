@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-08-04T04:42:59.465Z"
+    "updated_at": "2023-08-04T06:05:10.312Z"
   },
   "components": [
     {
@@ -232,7 +232,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -631,9 +631,9 @@
     {
       "id": "hk36hlvygg2q",
       "name": "Reporting APIs and dashboards",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2013-12-03T00:45:26.014Z",
-      "updated_at": "2023-08-04T03:56:59.634Z",
+      "updated_at": "2023-08-04T06:05:10.274Z",
       "position": 11,
       "description": "Marketing attribution reports are now operational.",
       "showcase": true,
@@ -779,63 +779,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "p5vfw23l2pcx",
-      "name": "Delay in marketplace invoice data",
-      "status": "investigating",
-      "created_at": "2023-08-04T03:56:59.594Z",
-      "updated_at": "2023-08-04T03:56:59.688Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/bgx639x31bsp",
-      "started_at": "2023-08-04T03:56:59.584Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "xw7wrlmzjtkq",
-          "status": "investigating",
-          "body": "We are investigating a delay in processing invoices from 03-08-2023 16:00:00 UTC.",
-          "incident_id": "p5vfw23l2pcx",
-          "created_at": "2023-08-04T03:56:59.685Z",
-          "updated_at": "2023-08-04T03:56:59.685Z",
-          "display_at": "2023-08-04T03:56:59.685Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "hk36hlvygg2q",
-          "name": "Reporting APIs and dashboards",
-          "status": "degraded_performance",
-          "created_at": "2013-12-03T00:45:26.014Z",
-          "updated_at": "2023-08-04T03:56:59.634Z",
-          "position": 11,
-          "description": "Marketing attribution reports are now operational.",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
