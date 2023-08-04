@@ -4,7 +4,7 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2023-08-04T12:03:32.446-04:00"
+    "updated_at": "2023-08-04T12:47:30.805-04:00"
   },
   "components": [
     {
@@ -89,7 +89,7 @@
       "name": "Intermittent errors during login and Workspace not showing up for some customers",
       "status": "investigating",
       "created_at": "2023-08-04T12:03:32.326-04:00",
-      "updated_at": "2023-08-04T12:03:32.442-04:00",
+      "updated_at": "2023-08-04T12:47:30.792-04:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -97,6 +97,32 @@
       "started_at": "2023-08-04T12:03:32.320-04:00",
       "page_id": "h5frqhb041yq",
       "incident_updates": [
+        {
+          "id": "t0xmt1vxn5gz",
+          "status": "investigating",
+          "body": "We are currently investigating issues with Trello workspaces being unavailable and are working to restore service as quickly as possible.  We will continue to update our Statuspage with the latest information as it becomes available.",
+          "incident_id": "hxfq7l4qwmjg",
+          "created_at": "2023-08-04T12:47:30.789-04:00",
+          "updated_at": "2023-08-04T12:47:30.789-04:00",
+          "display_at": "2023-08-04T12:47:30.789-04:00",
+          "affected_components": [
+            {
+              "code": "y1nllgnkxn9d",
+              "name": "API",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hsr3nvlz0k2l",
+              "name": "Trello.com",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "3x87ct60x4vk",
           "status": "investigating",
