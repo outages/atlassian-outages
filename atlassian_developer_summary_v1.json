@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-08-09T19:31:21.204Z"
+    "updated_at": "2023-08-09T22:30:53.484Z"
   },
   "components": [
     {
@@ -232,7 +232,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -631,9 +631,9 @@
     {
       "id": "hk36hlvygg2q",
       "name": "Reporting APIs and dashboards",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2013-12-03T00:45:26.014Z",
-      "updated_at": "2023-08-09T03:02:45.976Z",
+      "updated_at": "2023-08-09T22:30:53.442Z",
       "position": 11,
       "description": "Marketing attribution reports are now operational.",
       "showcase": true,
@@ -779,123 +779,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "l30p66ckjsl1",
-      "name": "Delay in marketplace transactions reporting data",
-      "status": "monitoring",
-      "created_at": "2023-08-09T03:02:45.952Z",
-      "updated_at": "2023-08-09T19:31:21.201Z",
-      "monitoring_at": "2023-08-09T19:31:21.183Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/7n6bv795hccl",
-      "started_at": "2023-08-09T03:02:45.946Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "mnfv4ml8n8fg",
-          "status": "monitoring",
-          "body": "The external application team has implemented a fix, which should address the root cause of the delayed transaction data. We are currently monitoring the data pipeline closely. We will provide further updates as soon as we can confirm the results of the fix.",
-          "incident_id": "l30p66ckjsl1",
-          "created_at": "2023-08-09T19:31:21.183Z",
-          "updated_at": "2023-08-09T19:31:21.183Z",
-          "display_at": "2023-08-09T19:31:21.183Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "rqhm4qyxkpwv",
-          "status": "identified",
-          "body": "We have identified the problem with an external application which is causing a delay in processing of the data. We are actively working with the external application team to fix the problem. We will share the next update by 7 PM UTC. We apologise for any inconvenience and will keep you informed regularly.",
-          "incident_id": "l30p66ckjsl1",
-          "created_at": "2023-08-09T16:12:10.480Z",
-          "updated_at": "2023-08-09T16:12:10.480Z",
-          "display_at": "2023-08-09T16:12:10.480Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "6d8tc21xp67l",
-          "status": "investigating",
-          "body": "We have detected an problem in our source ERP systems causing a delay of a few hours in the data processing pipeline for the transactions API. We're actively investigating the root cause and will share the next update by 3 PM UTC. We apologise for any inconvenience and will keep you informed regularly.",
-          "incident_id": "l30p66ckjsl1",
-          "created_at": "2023-08-09T12:22:54.682Z",
-          "updated_at": "2023-08-09T12:22:54.682Z",
-          "display_at": "2023-08-09T12:22:54.682Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "z6q8fl80qkpd",
-          "status": "investigating",
-          "body": "We are investigating the issue.",
-          "incident_id": "l30p66ckjsl1",
-          "created_at": "2023-08-09T03:02:46.007Z",
-          "updated_at": "2023-08-09T03:02:46.007Z",
-          "display_at": "2023-08-09T03:02:46.007Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "hk36hlvygg2q",
-          "name": "Reporting APIs and dashboards",
-          "status": "degraded_performance",
-          "created_at": "2013-12-03T00:45:26.014Z",
-          "updated_at": "2023-08-09T03:02:45.976Z",
-          "position": 11,
-          "description": "Marketing attribution reports are now operational.",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
