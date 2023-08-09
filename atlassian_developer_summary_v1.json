@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-08-09T16:12:10.489Z"
+    "updated_at": "2023-08-09T19:31:21.204Z"
   },
   "components": [
     {
@@ -783,16 +783,36 @@
     {
       "id": "l30p66ckjsl1",
       "name": "Delay in marketplace transactions reporting data",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2023-08-09T03:02:45.952Z",
-      "updated_at": "2023-08-09T16:12:10.482Z",
-      "monitoring_at": null,
+      "updated_at": "2023-08-09T19:31:21.201Z",
+      "monitoring_at": "2023-08-09T19:31:21.183Z",
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/7n6bv795hccl",
       "started_at": "2023-08-09T03:02:45.946Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "mnfv4ml8n8fg",
+          "status": "monitoring",
+          "body": "The external application team has implemented a fix, which should address the root cause of the delayed transaction data. We are currently monitoring the data pipeline closely. We will provide further updates as soon as we can confirm the results of the fix.",
+          "incident_id": "l30p66ckjsl1",
+          "created_at": "2023-08-09T19:31:21.183Z",
+          "updated_at": "2023-08-09T19:31:21.183Z",
+          "display_at": "2023-08-09T19:31:21.183Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "rqhm4qyxkpwv",
           "status": "identified",
