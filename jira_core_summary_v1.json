@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-08-09T09:38:41.183Z"
+    "updated_at": "2023-08-09T10:28:10.483Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Intermittent reports of no available options for single select drop down custom fields, i.e. Select List (single choice)",
       "status": "investigating",
       "created_at": "2023-08-09T07:39:40.334Z",
-      "updated_at": "2023-08-09T09:38:41.173Z",
+      "updated_at": "2023-08-09T10:28:10.477Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -190,11 +190,11 @@
         {
           "id": "zm2d4ttb9q1v",
           "status": "investigating",
-          "body": "We are continuing to investigate further the root cause of the issue. Meanwhile our support team do have a workaround which can help to mitigate the issue at the moment. Please contact support team for the workaround.",
+          "body": "We are continuing to investigate further the root cause of the issue. Meanwhile, we have identified a workaround which can help to mitigate the issue at the moment. Please refer to this bug : https://jira.atlassian.com/browse/JRACLOUD-81638 for a workaround.",
           "incident_id": "0wp6cjtv35bj",
           "created_at": "2023-08-09T09:38:41.169Z",
-          "updated_at": "2023-08-09T09:38:41.169Z",
-          "display_at": "2023-08-09T09:38:41.169Z",
+          "updated_at": "2023-08-09T10:28:10.474Z",
+          "display_at": "2023-08-09T09:38:41.000Z",
           "affected_components": [
             {
               "code": "dwt504s3m4c1",
