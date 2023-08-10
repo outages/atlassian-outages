@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-08-10T15:46:20.286Z"
+    "updated_at": "2023-08-10T16:54:37.331Z"
   },
   "components": [
     {
@@ -177,9 +177,9 @@
     {
       "id": "8xdtqzthdr3s",
       "name": "Reports of Lost Permissions for Google-Synced Groups",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2023-08-10T15:15:51.013Z",
-      "updated_at": "2023-08-10T15:15:59.867Z",
+      "updated_at": "2023-08-10T16:54:37.322Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -187,6 +187,19 @@
       "started_at": "2023-08-10T15:15:51.006Z",
       "page_id": "s6f0gm5gcpmy",
       "incident_updates": [
+        {
+          "id": "g7rhv15q58lc",
+          "status": "identified",
+          "body": "We continue to work on resolving the loss of permissions for synced groups from Google Workspace. We have identified the root cause and expect recovery shortly.",
+          "incident_id": "8xdtqzthdr3s",
+          "created_at": "2023-08-10T16:54:37.320Z",
+          "updated_at": "2023-08-10T16:54:37.320Z",
+          "display_at": "2023-08-10T16:54:37.320Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "c46j8kdqmqyg",
           "status": "investigating",
