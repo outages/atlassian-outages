@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-08-14T14:42:57.036Z"
+    "updated_at": "2023-08-14T15:29:11.212Z"
   },
   "components": [
     {
@@ -109,7 +109,7 @@
     {
       "id": "73bt63kd5q9k",
       "name": "Developer",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:21:34.889Z",
       "updated_at": "2019-05-02T04:22:45.333Z",
       "position": 2,
@@ -706,9 +706,9 @@
     {
       "id": "9nthl2bkwn0x",
       "name": "Hosted storage",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2022-09-14T05:38:04.594Z",
-      "updated_at": "2023-08-14T13:47:40.055Z",
+      "updated_at": "2023-08-14T15:28:19.043Z",
       "position": 13,
       "description": "Atlassian hosted storage for hosted and remote compute.",
       "showcase": true,
@@ -783,16 +783,36 @@
     {
       "id": "ppzk29x0fstr",
       "name": "Intermittent failure of Forge Storage APIs",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2023-08-14T13:47:40.006Z",
-      "updated_at": "2023-08-14T13:47:40.096Z",
-      "monitoring_at": null,
+      "updated_at": "2023-08-14T15:29:11.209Z",
+      "monitoring_at": "2023-08-14T15:28:19.000Z",
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/3x41bkh4fy7v",
       "started_at": "2023-08-14T13:47:39.997Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "91vx1qz9xqvl",
+          "status": "monitoring",
+          "body": "We have identified a problem with the Forge Storage capability, causing a small percentage (less than 1%) of API calls to fail with a 503 error. This behavior is not bound to a particular product so can potentially impact Forge apps across Jira, Confluence and Compass.\nWe believe we have mitigated the issue, but will continue to monitor this capability over the next few hours before closing this incident.\n\nTimeline:\n\n2023-08-11 02:00 UTC: impact start (very small number of failures)\n2023-08-14 04:00 UTC: impact ramps up\n2023-08-14 12:00 UTC: incident mitigated, moving to \"monitoring\" state",
+          "incident_id": "ppzk29x0fstr",
+          "created_at": "2023-08-14T15:28:19.066Z",
+          "updated_at": "2023-08-14T15:29:11.191Z",
+          "display_at": "2023-08-14T15:28:19.000Z",
+          "affected_components": [
+            {
+              "code": "9nthl2bkwn0x",
+              "name": "Developer - Hosted storage",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "vcxj2lk3wvwx",
           "status": "investigating",
@@ -818,9 +838,9 @@
         {
           "id": "9nthl2bkwn0x",
           "name": "Hosted storage",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2022-09-14T05:38:04.594Z",
-          "updated_at": "2023-08-14T13:47:40.055Z",
+          "updated_at": "2023-08-14T15:28:19.043Z",
           "position": 13,
           "description": "Atlassian hosted storage for hosted and remote compute.",
           "showcase": true,
@@ -835,7 +855,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
