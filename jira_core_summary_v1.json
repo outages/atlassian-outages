@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-08-15T17:43:22.200Z"
+    "updated_at": "2023-08-15T18:13:47.970Z"
   },
   "components": [
     {
@@ -40,9 +40,9 @@
     {
       "id": "wn1gfxqd25rr",
       "name": "Authentication and User Management",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-05-02T04:26:34.383Z",
-      "updated_at": "2023-08-15T13:01:13.131Z",
+      "updated_at": "2023-08-15T17:57:05.662Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -175,40 +175,11 @@
   ],
   "incidents": [
     {
-      "id": "ptb7fzdz5dsp",
-      "name": "Slowness and intermittent failure while creating new Cloud instances",
-      "status": "investigating",
-      "created_at": "2023-08-15T17:33:22.222Z",
-      "updated_at": "2023-08-15T17:33:22.272Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/81f40xpg8bwb",
-      "started_at": "2023-08-15T17:33:22.213Z",
-      "page_id": "s6f0gm5gcpmy",
-      "incident_updates": [
-        {
-          "id": "f8sp015ds2vy",
-          "status": "investigating",
-          "body": "We are investigating reports of slowness and intermittent errors while creating new Cloud instances for Jira Service Management, Jira Software, Jira Work Management, and Jira Product Discovery in Europe region. No impact to existing Cloud instances was observed. We will provide more details as we identify the root cause and fix the issue",
-          "incident_id": "ptb7fzdz5dsp",
-          "created_at": "2023-08-15T17:33:22.268Z",
-          "updated_at": "2023-08-15T17:33:22.268Z",
-          "display_at": "2023-08-15T17:33:22.268Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": []
-    },
-    {
       "id": "8s34m8pxk07w",
       "name": "Google Workspace integration causing group deletion from Atlassian",
       "status": "monitoring",
       "created_at": "2023-08-15T10:46:01.989Z",
-      "updated_at": "2023-08-15T13:01:13.161Z",
+      "updated_at": "2023-08-15T17:57:05.689Z",
       "monitoring_at": "2023-08-15T12:59:48.184Z",
       "resolved_at": null,
       "impact": "major",
@@ -216,6 +187,26 @@
       "started_at": "2023-08-15T10:46:01.983Z",
       "page_id": "s6f0gm5gcpmy",
       "incident_updates": [
+        {
+          "id": "s343k0q6xq82",
+          "status": "monitoring",
+          "body": "We identified a reoccurrence with Google Workspace sporadically removing groups from instances. This affects permissions and access to product instances.\nOur team is working to restore Google's incorrectly deleted settings and prevent further occurrences.\n\nIn case you are affected and need restoration, contact Atlassian Support.",
+          "incident_id": "8s34m8pxk07w",
+          "created_at": "2023-08-15T17:57:05.687Z",
+          "updated_at": "2023-08-15T17:57:05.687Z",
+          "display_at": "2023-08-15T17:57:05.687Z",
+          "affected_components": [
+            {
+              "code": "wn1gfxqd25rr",
+              "name": "Authentication and User Management",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "rt0ml7p4qyp2",
           "status": "monitoring",
@@ -287,9 +278,9 @@
         {
           "id": "wn1gfxqd25rr",
           "name": "Authentication and User Management",
-          "status": "operational",
+          "status": "degraded_performance",
           "created_at": "2019-05-02T04:26:34.383Z",
-          "updated_at": "2023-08-15T13:01:13.131Z",
+          "updated_at": "2023-08-15T17:57:05.662Z",
           "position": 3,
           "description": null,
           "showcase": false,
@@ -304,7 +295,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
