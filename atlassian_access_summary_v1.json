@@ -4,7 +4,7 @@
     "name": "Atlassian Access",
     "url": "https://access.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-08-10T22:01:07.600Z"
+    "updated_at": "2023-08-15T10:48:33.390Z"
   },
   "components": [
     {
@@ -40,9 +40,9 @@
     {
       "id": "n6qsfr329pzh",
       "name": "User Provisioning",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-05-03T02:40:35.269Z",
-      "updated_at": "2023-08-10T22:01:07.556Z",
+      "updated_at": "2023-08-15T10:47:32.391Z",
       "position": 5,
       "description": null,
       "showcase": false,
@@ -98,10 +98,76 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "pgktd044l7sw",
+      "name": "Google Workspace integration causing group deletion from Atlassian",
+      "status": "identified",
+      "created_at": "2023-08-15T10:46:01.708Z",
+      "updated_at": "2023-08-15T10:48:33.385Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/zyjyx70w0v6p",
+      "started_at": "2023-08-15T10:46:01.701Z",
+      "page_id": "5qmgwsxwsz78",
+      "incident_updates": [
+        {
+          "id": "3qvszy813qsz",
+          "status": "identified",
+          "body": "Update: highlighting affected components",
+          "incident_id": "pgktd044l7sw",
+          "created_at": "2023-08-15T10:47:32.442Z",
+          "updated_at": "2023-08-15T10:47:32.442Z",
+          "display_at": "2023-08-15T10:47:32.442Z",
+          "affected_components": [
+            {
+              "code": "n6qsfr329pzh",
+              "name": "User Provisioning",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "0p483fynnfyz",
+          "status": "identified",
+          "body": "We're addressing an issue causing sporadic removal of synced groups from Cloud sites in Google Workspace. This is affecting permissions and access to projects. \n\nOur team is working to restore settings and prevent further occurrences.\nThis is a recurrence of the issue reported on August 10, 2023.\n\nApologies for any inconvenience.",
+          "incident_id": "pgktd044l7sw",
+          "created_at": "2023-08-15T10:46:01.756Z",
+          "updated_at": "2023-08-15T10:46:01.756Z",
+          "display_at": "2023-08-15T10:46:01.756Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "n6qsfr329pzh",
+          "name": "User Provisioning",
+          "status": "degraded_performance",
+          "created_at": "2019-05-03T02:40:35.269Z",
+          "updated_at": "2023-08-15T10:47:32.391Z",
+          "position": 5,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "5qmgwsxwsz78",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
