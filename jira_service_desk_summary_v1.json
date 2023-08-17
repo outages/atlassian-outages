@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-08-17T13:12:51.790Z"
+    "updated_at": "2023-08-17T13:14:52.142Z"
   },
   "components": [
     {
@@ -194,22 +194,22 @@
       "name": "Experiencing delays in adding Customers to service projects",
       "status": "identified",
       "created_at": "2023-08-17T13:12:51.737Z",
-      "updated_at": "2023-08-17T13:12:51.787Z",
+      "updated_at": "2023-08-17T13:14:52.135Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/ft3k8mpq3jyt",
-      "started_at": "2023-08-17T13:12:51.729Z",
+      "started_at": "2023-08-17T13:12:51.000Z",
       "page_id": "pv54g7ltsc24",
       "incident_updates": [
         {
           "id": "sp0lpt12zzdp",
           "status": "identified",
-          "body": "We are investigating cases of degraded performance for delays in adding Customers to service projects Jira Service Management Cloud customers. We will provide more details within the next hours.",
+          "body": "We are investigating cases of degraded performance causing delays in adding Customers to service projects in Jira Service Management Cloud. We will provide more details within the next hours.",
           "incident_id": "tnpcfvrl6dg8",
           "created_at": "2023-08-17T13:12:51.785Z",
-          "updated_at": "2023-08-17T13:12:51.785Z",
-          "display_at": "2023-08-17T13:12:51.785Z",
+          "updated_at": "2023-08-17T13:14:52.131Z",
+          "display_at": "2023-08-17T13:12:51.000Z",
           "affected_components": [
             {
               "code": "why9xhgfq7kx",
