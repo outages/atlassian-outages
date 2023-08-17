@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-08-17T17:58:39.211Z"
+    "updated_at": "2023-08-17T20:34:37.227Z"
   },
   "components": [
     {
@@ -115,9 +115,9 @@
     {
       "id": "why9xhgfq7kx",
       "name": "Authentication and User Management",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-05-02T04:27:17.805Z",
-      "updated_at": "2023-08-15T17:57:06.609Z",
+      "updated_at": "2023-08-17T20:34:37.194Z",
       "position": 8,
       "description": null,
       "showcase": false,
@@ -192,16 +192,36 @@
     {
       "id": "tnpcfvrl6dg8",
       "name": "Experiencing delays in adding Customers to service projects",
-      "status": "investigating",
-      "created_at": "2023-08-17T13:12:51.737Z",
-      "updated_at": "2023-08-17T17:58:39.205Z",
-      "monitoring_at": null,
+      "status": "monitoring",
+      "created_at": "2023-08-17T13:12:51.000Z",
+      "updated_at": "2023-08-17T20:34:37.226Z",
+      "monitoring_at": "2023-08-17T20:34:37.215Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/ft3k8mpq3jyt",
       "started_at": "2023-08-17T13:12:51.000Z",
       "page_id": "pv54g7ltsc24",
       "incident_updates": [
+        {
+          "id": "1tn5nkb43gb4",
+          "status": "monitoring",
+          "body": "We mitigated the issue and the functionality is fully restored. \n\nWe are now monitoring this, but If you believe the issue has not been resolved, please don't hesitate to get in touch with Atlassian Support at https://support.atlassian.com/contact/.",
+          "incident_id": "tnpcfvrl6dg8",
+          "created_at": "2023-08-17T20:34:37.215Z",
+          "updated_at": "2023-08-17T20:34:37.215Z",
+          "display_at": "2023-08-17T20:34:37.215Z",
+          "affected_components": [
+            {
+              "code": "why9xhgfq7kx",
+              "name": "Authentication and User Management",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "g94899qyjbm8",
           "status": "investigating",
@@ -271,28 +291,13 @@
       ],
       "components": [
         {
-          "id": "4kcs01hbh4l6",
-          "name": "Jira Service Management Web",
+          "id": "why9xhgfq7kx",
+          "name": "Authentication and User Management",
           "status": "operational",
-          "created_at": "2018-11-16T18:06:14.831Z",
-          "updated_at": "2023-05-16T02:42:04.533Z",
-          "position": 1,
-          "description": "Problems with queues, issues, reports, searching, and anything else impacting an agent's ability to complete their work",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "hzbyfxf686qd",
-          "name": "Service Portal",
-          "status": "operational",
-          "created_at": "2018-11-16T18:06:14.848Z",
-          "updated_at": "2023-07-21T19:16:48.352Z",
-          "position": 2,
-          "description": "Problems related to the service desk portals where end-users make requests or raise issues",
+          "created_at": "2019-05-02T04:27:17.805Z",
+          "updated_at": "2023-08-17T20:34:37.194Z",
+          "position": 8,
+          "description": null,
           "showcase": false,
           "start_date": null,
           "group_id": null,
@@ -446,9 +451,9 @@
         {
           "id": "why9xhgfq7kx",
           "name": "Authentication and User Management",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2019-05-02T04:27:17.805Z",
-          "updated_at": "2023-08-15T17:57:06.609Z",
+          "updated_at": "2023-08-17T20:34:37.194Z",
           "position": 8,
           "description": null,
           "showcase": false,
@@ -463,7 +468,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
