@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-08-18T01:43:20.488Z"
+    "updated_at": "2023-08-18T12:43:08.590Z"
   },
   "components": [
     {
@@ -234,124 +234,6 @@
           "description": null,
           "showcase": false,
           "start_date": "2020-12-23",
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    },
-    {
-      "id": "tnpcfvrl6dg8",
-      "name": "Experiencing delays in adding Customers to service projects",
-      "status": "monitoring",
-      "created_at": "2023-08-17T13:12:51.000Z",
-      "updated_at": "2023-08-17T20:34:37.226Z",
-      "monitoring_at": "2023-08-17T20:34:37.215Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/ft3k8mpq3jyt",
-      "started_at": "2023-08-17T13:12:51.000Z",
-      "page_id": "pv54g7ltsc24",
-      "incident_updates": [
-        {
-          "id": "1tn5nkb43gb4",
-          "status": "monitoring",
-          "body": "We mitigated the issue and the functionality is fully restored. \n\nWe are now monitoring this, but If you believe the issue has not been resolved, please don't hesitate to get in touch with Atlassian Support at https://support.atlassian.com/contact/.",
-          "incident_id": "tnpcfvrl6dg8",
-          "created_at": "2023-08-17T20:34:37.215Z",
-          "updated_at": "2023-08-17T20:34:37.215Z",
-          "display_at": "2023-08-17T20:34:37.215Z",
-          "affected_components": [
-            {
-              "code": "why9xhgfq7kx",
-              "name": "Authentication and User Management",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "g94899qyjbm8",
-          "status": "investigating",
-          "body": "Our data processing infrastructure is running behind which is causing delays for new accounts to be available for search. No data has been lost and the system should be caught up shortly.",
-          "incident_id": "tnpcfvrl6dg8",
-          "created_at": "2023-08-17T17:58:39.203Z",
-          "updated_at": "2023-08-17T17:58:39.203Z",
-          "display_at": "2023-08-17T17:58:39.203Z",
-          "affected_components": [
-            {
-              "code": "4kcs01hbh4l6",
-              "name": "Jira Service Management Web",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "hzbyfxf686qd",
-              "name": "Service Portal",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "mrjtqjk89l9z",
-          "status": "identified",
-          "body": "We are continuing to work on a fix for this issue.",
-          "incident_id": "tnpcfvrl6dg8",
-          "created_at": "2023-08-17T15:04:13.431Z",
-          "updated_at": "2023-08-17T15:04:13.431Z",
-          "display_at": "2023-08-17T15:04:13.431Z",
-          "affected_components": [
-            {
-              "code": "why9xhgfq7kx",
-              "name": "Authentication and User Management",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "sp0lpt12zzdp",
-          "status": "identified",
-          "body": "We are investigating cases of degraded performance causing delays in adding Customers to service projects in Jira Service Management Cloud. We will provide more details within the next hours.",
-          "incident_id": "tnpcfvrl6dg8",
-          "created_at": "2023-08-17T13:12:51.785Z",
-          "updated_at": "2023-08-17T13:14:52.131Z",
-          "display_at": "2023-08-17T13:12:51.000Z",
-          "affected_components": [
-            {
-              "code": "why9xhgfq7kx",
-              "name": "Authentication and User Management",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "why9xhgfq7kx",
-          "name": "Authentication and User Management",
-          "status": "operational",
-          "created_at": "2019-05-02T04:27:17.805Z",
-          "updated_at": "2023-08-17T20:34:37.194Z",
-          "position": 8,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
           "group_id": null,
           "page_id": "pv54g7ltsc24",
           "group": false,
