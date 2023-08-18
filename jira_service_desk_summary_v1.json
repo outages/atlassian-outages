@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-08-17T21:15:25.656Z"
+    "updated_at": "2023-08-18T01:19:42.178Z"
   },
   "components": [
     {
@@ -160,9 +160,9 @@
     {
       "id": "7rq3yg76vvbc",
       "name": "Automation for Jira",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-12-23T01:40:13.601Z",
-      "updated_at": "2023-07-21T19:16:48.366Z",
+      "updated_at": "2023-08-18T01:19:42.132Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -189,6 +189,58 @@
     }
   ],
   "incidents": [
+    {
+      "id": "xfs5z9zhwp6y",
+      "name": "Some customers may experience outdated DevOps data",
+      "status": "identified",
+      "created_at": "2023-08-18T01:19:42.100Z",
+      "updated_at": "2023-08-18T01:19:42.175Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/dqqnw46sk75m",
+      "started_at": "2023-08-18T01:19:42.093Z",
+      "page_id": "pv54g7ltsc24",
+      "incident_updates": [
+        {
+          "id": "73str0k6mrqv",
+          "status": "identified",
+          "body": "Due to delayed events between 18:30 UTC and 23:00 UTC, Some customers may experience outdated DevOps data being shown in Jira products, including in Jira issue view, Board, JQL, Code Page, Security Vulnerability page, and Automation rules for DevOps triggers. Newer events are not impacted.",
+          "incident_id": "xfs5z9zhwp6y",
+          "created_at": "2023-08-18T01:19:42.172Z",
+          "updated_at": "2023-08-18T01:19:42.172Z",
+          "display_at": "2023-08-18T01:19:42.172Z",
+          "affected_components": [
+            {
+              "code": "7rq3yg76vvbc",
+              "name": "Automation for Jira",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "7rq3yg76vvbc",
+          "name": "Automation for Jira",
+          "status": "degraded_performance",
+          "created_at": "2020-12-23T01:40:13.601Z",
+          "updated_at": "2023-08-18T01:19:42.132Z",
+          "position": 11,
+          "description": null,
+          "showcase": false,
+          "start_date": "2020-12-23",
+          "group_id": null,
+          "page_id": "pv54g7ltsc24",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    },
     {
       "id": "tnpcfvrl6dg8",
       "name": "Experiencing delays in adding Customers to service projects",
@@ -310,7 +362,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
