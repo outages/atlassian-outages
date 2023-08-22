@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-08-22T09:30:58.253Z"
+    "updated_at": "2023-08-22T09:42:57.865Z"
   },
   "components": [
     {
@@ -109,7 +109,7 @@
     {
       "id": "73bt63kd5q9k",
       "name": "Developer",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:21:34.889Z",
       "updated_at": "2019-05-02T04:22:45.333Z",
       "position": 2,
@@ -646,9 +646,9 @@
     {
       "id": "khz72mns34gk",
       "name": "Developer console",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2021-07-09T01:52:46.683Z",
-      "updated_at": "2023-08-22T09:15:25.929Z",
+      "updated_at": "2023-08-22T09:40:03.923Z",
       "position": 11,
       "description": "Reliability of https://developer.atlassian.com/console",
       "showcase": true,
@@ -779,63 +779,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "8wfxphfd8qyt",
-      "name": "Developer console does not display information about Forge apps",
-      "status": "investigating",
-      "created_at": "2023-08-22T09:15:25.905Z",
-      "updated_at": "2023-08-22T09:30:58.246Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/kdsbcsrynqky",
-      "started_at": "2023-08-22T09:15:25.899Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "4fkq5ykxh25z",
-          "status": "investigating",
-          "body": "We have identified a problem with developer console where app owners are not able to display information Forge apps. We're investigating the root cause and provide another update by 10:30 UTC.",
-          "incident_id": "8wfxphfd8qyt",
-          "created_at": "2023-08-22T09:15:25.957Z",
-          "updated_at": "2023-08-22T09:15:25.957Z",
-          "display_at": "2023-08-22T09:15:25.957Z",
-          "affected_components": [
-            {
-              "code": "khz72mns34gk",
-              "name": "Developer - Developer console",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "khz72mns34gk",
-          "name": "Developer console",
-          "status": "major_outage",
-          "created_at": "2021-07-09T01:52:46.683Z",
-          "updated_at": "2023-08-22T09:15:25.929Z",
-          "position": 11,
-          "description": "Reliability of https://developer.atlassian.com/console",
-          "showcase": true,
-          "start_date": "2021-07-08",
-          "group_id": "73bt63kd5q9k",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
