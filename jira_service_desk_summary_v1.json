@@ -4,15 +4,15 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-08-22T16:43:21.047Z"
+    "updated_at": "2023-08-23T20:47:03.997Z"
   },
   "components": [
     {
       "id": "4kcs01hbh4l6",
       "name": "Jira Service Management Web",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2018-11-16T18:06:14.831Z",
-      "updated_at": "2023-08-22T07:03:17.828Z",
+      "updated_at": "2023-08-23T20:47:03.954Z",
       "position": 1,
       "description": "Problems with queues, issues, reports, searching, and anything else impacting an agent's ability to complete their work",
       "showcase": false,
@@ -25,9 +25,9 @@
     {
       "id": "hzbyfxf686qd",
       "name": "Service Portal",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2018-11-16T18:06:14.848Z",
-      "updated_at": "2023-07-21T19:16:48.352Z",
+      "updated_at": "2023-08-23T20:47:03.966Z",
       "position": 2,
       "description": "Problems related to the service desk portals where end-users make requests or raise issues",
       "showcase": false,
@@ -188,10 +188,84 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "592cmltxt60t",
+      "name": "Small cohort of customers receiving notification their custom domain is suspended",
+      "status": "investigating",
+      "created_at": "2023-08-23T20:47:03.931Z",
+      "updated_at": "2023-08-23T20:47:03.995Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/t5mpys2q5my8",
+      "started_at": "2023-08-23T20:47:03.926Z",
+      "page_id": "pv54g7ltsc24",
+      "incident_updates": [
+        {
+          "id": "yvzjsy3f1797",
+          "status": "investigating",
+          "body": "We are investigating reports of custom domain (beta) being suspended for a small cohort of customers in in Jira Service Management Help Center.",
+          "incident_id": "592cmltxt60t",
+          "created_at": "2023-08-23T20:47:03.993Z",
+          "updated_at": "2023-08-23T20:47:03.993Z",
+          "display_at": "2023-08-23T20:47:03.993Z",
+          "affected_components": [
+            {
+              "code": "4kcs01hbh4l6",
+              "name": "Jira Service Management Web",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hzbyfxf686qd",
+              "name": "Service Portal",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "4kcs01hbh4l6",
+          "name": "Jira Service Management Web",
+          "status": "partial_outage",
+          "created_at": "2018-11-16T18:06:14.831Z",
+          "updated_at": "2023-08-23T20:47:03.954Z",
+          "position": 1,
+          "description": "Problems with queues, issues, reports, searching, and anything else impacting an agent's ability to complete their work",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "pv54g7ltsc24",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "hzbyfxf686qd",
+          "name": "Service Portal",
+          "status": "partial_outage",
+          "created_at": "2018-11-16T18:06:14.848Z",
+          "updated_at": "2023-08-23T20:47:03.966Z",
+          "position": 2,
+          "description": "Problems related to the service desk portals where end-users make requests or raise issues",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "pv54g7ltsc24",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
