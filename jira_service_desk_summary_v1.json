@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-08-24T07:10:57.201Z"
+    "updated_at": "2023-08-24T07:40:24.431Z"
   },
   "components": [
     {
@@ -188,37 +188,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "j2n2qxqjhbft",
-      "name": "Media outage affecting multiple Atlassian services",
-      "status": "investigating",
-      "created_at": "2023-08-24T07:10:57.162Z",
-      "updated_at": "2023-08-24T07:10:57.198Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/l1wvntr7j5dn",
-      "started_at": "2023-08-24T07:10:57.156Z",
-      "page_id": "pv54g7ltsc24",
-      "incident_updates": [
-        {
-          "id": "jw1gq5fyrfp8",
-          "status": "investigating",
-          "body": "We are investigating an issue with the attachments or media service that is impacting some Atlassian Cloud customers. We will provide more details within the next hour.",
-          "incident_id": "j2n2qxqjhbft",
-          "created_at": "2023-08-24T07:10:57.196Z",
-          "updated_at": "2023-08-24T07:10:57.196Z",
-          "display_at": "2023-08-24T07:10:57.196Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": []
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
