@@ -4,13 +4,13 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-08-02T15:59:20.032Z"
+    "updated_at": "2023-08-28T17:57:51.393Z"
   },
   "components": [
     {
       "id": "jzqq334r65mx",
       "name": "US",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-02-12T13:47:31.055Z",
       "updated_at": "2019-03-15T08:16:16.977Z",
       "position": 1,
@@ -49,9 +49,9 @@
     {
       "id": "421fc33d5s3x",
       "name": "Incident Flow",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-03-15T08:09:14.950Z",
-      "updated_at": "2023-04-06T15:07:51.195Z",
+      "updated_at": "2023-08-28T17:57:51.339Z",
       "position": 1,
       "description": null,
       "showcase": true,
@@ -761,10 +761,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "d77tzfp0jm3m",
+      "name": "We observe degraded performance on incident timeline functionality",
+      "status": "investigating",
+      "created_at": "2023-08-28T17:57:51.295Z",
+      "updated_at": "2023-08-28T17:57:51.390Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/vy4b2ntywz8m",
+      "started_at": "2023-08-28T17:57:51.287Z",
+      "page_id": "t05vdsszxwtq",
+      "incident_updates": [
+        {
+          "id": "96yz3xcbj71d",
+          "status": "investigating",
+          "body": "We observe degraded performance on incident timeline functionality. \nWe are investigating the issue and we will provide more details within the next hour.",
+          "incident_id": "d77tzfp0jm3m",
+          "created_at": "2023-08-28T17:57:51.387Z",
+          "updated_at": "2023-08-28T17:57:51.387Z",
+          "display_at": "2023-08-28T17:57:51.387Z",
+          "affected_components": [
+            {
+              "code": "421fc33d5s3x",
+              "name": "US - Incident Flow",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "421fc33d5s3x",
+          "name": "Incident Flow",
+          "status": "degraded_performance",
+          "created_at": "2019-03-15T08:09:14.950Z",
+          "updated_at": "2023-08-28T17:57:51.339Z",
+          "position": 1,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": "jzqq334r65mx",
+          "page_id": "t05vdsszxwtq",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
