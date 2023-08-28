@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-08-26T15:17:09.833Z"
+    "updated_at": "2023-08-28T07:29:23.701Z"
   },
   "components": [
     {
@@ -190,39 +190,26 @@
   ],
   "incidents": [
     {
-      "id": "9gttf8dyrv0d",
-      "name": "Bulksendmail functionality is impacted for Jira products",
+      "id": "4q2hpd5wdqpx",
+      "name": "Mentions on Jira cards are not sending notifications",
       "status": "investigating",
-      "created_at": "2023-08-26T10:36:34.235Z",
-      "updated_at": "2023-08-26T15:17:09.818Z",
+      "created_at": "2023-08-28T07:29:23.666Z",
+      "updated_at": "2023-08-28T07:29:23.698Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "none",
-      "shortlink": "https://stspg.io/m2hfh1wpsj67",
-      "started_at": "2023-08-26T10:36:34.230Z",
+      "shortlink": "https://stspg.io/ww7p75fc0cf8",
+      "started_at": "2023-08-28T07:29:23.661Z",
       "page_id": "pv54g7ltsc24",
       "incident_updates": [
         {
-          "id": "77c3gpf6hnlq",
+          "id": "g8xsktsczbgk",
           "status": "investigating",
-          "body": "We are aware of an issue with Issue Notifications and Bulksendmail functionality that is impacting Jira Work Management, Jira Service Management, and Jira Software Cloud customers.",
-          "incident_id": "9gttf8dyrv0d",
-          "created_at": "2023-08-26T15:17:09.815Z",
-          "updated_at": "2023-08-26T15:17:09.815Z",
-          "display_at": "2023-08-26T15:17:09.815Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "8j0j1jhs8wmc",
-          "status": "investigating",
-          "body": "We are aware of an issue with Bulksendmail functionality that is impacting Jira Work Management, Jira Service Management, and Jira Software Cloud customers.",
-          "incident_id": "9gttf8dyrv0d",
-          "created_at": "2023-08-26T10:36:34.261Z",
-          "updated_at": "2023-08-26T10:36:34.261Z",
-          "display_at": "2023-08-26T10:36:34.261Z",
+          "body": "We are aware of an issue whereby mentions on Jira cards are not sending notifications. We are investigating further and will post an update once resolved.",
+          "incident_id": "4q2hpd5wdqpx",
+          "created_at": "2023-08-28T07:29:23.696Z",
+          "updated_at": "2023-08-28T07:29:23.696Z",
+          "display_at": "2023-08-28T07:29:23.696Z",
           "affected_components": null,
           "deliver_notifications": false,
           "custom_tweet": null,
