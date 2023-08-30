@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-08-29T15:56:13.556Z"
+    "updated_at": "2023-08-30T05:04:28.678Z"
   },
   "components": [
     {
@@ -232,7 +232,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -631,9 +631,9 @@
     {
       "id": "hk36hlvygg2q",
       "name": "Reporting APIs and dashboards",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2013-12-03T00:45:26.014Z",
-      "updated_at": "2023-08-29T12:54:26.207Z",
+      "updated_at": "2023-08-30T05:04:28.610Z",
       "position": 11,
       "description": "Marketing attribution reports are now operational.",
       "showcase": true,
@@ -779,83 +779,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "dzjqbj5l24nb",
-      "name": "Variations in \"Unit Counts\" and \"Sale Type\" values in transactions processed by new billing system",
-      "status": "identified",
-      "created_at": "2023-08-29T12:54:26.158Z",
-      "updated_at": "2023-08-29T15:56:13.547Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/bpf4x64cyvsl",
-      "started_at": "2023-08-29T12:54:26.147Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "hkppyts7ltnd",
-          "status": "identified",
-          "body": "The root cause has been identified and we have prepared the fix. We will deploy the changes by tomorrow 6 am UTC. \nWe will keep you updated.",
-          "incident_id": "dzjqbj5l24nb",
-          "created_at": "2023-08-29T15:56:13.543Z",
-          "updated_at": "2023-08-29T15:56:13.543Z",
-          "display_at": "2023-08-29T15:56:13.543Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "tp8h6frh35wd",
-          "status": "investigating",
-          "body": "We have identified an issue within our upstream service, resulting in variations to unit counts and sale type for transactions being processed through our new billing system. This problem has affected approximately 6689 invoices spanning 308 partners. However, this issue does not have any financial implications.\nOur team has pinpointed the root cause and is currently engaged in resolving it. \nWe will provide the next update by 3 pm UTC. \nWe sincerely apologize for any inconvenience this may have caused and will keep you updated at regular intervals.",
-          "incident_id": "dzjqbj5l24nb",
-          "created_at": "2023-08-29T12:54:26.266Z",
-          "updated_at": "2023-08-29T12:54:26.266Z",
-          "display_at": "2023-08-29T12:54:26.266Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "hk36hlvygg2q",
-          "name": "Reporting APIs and dashboards",
-          "status": "partial_outage",
-          "created_at": "2013-12-03T00:45:26.014Z",
-          "updated_at": "2023-08-29T12:54:26.207Z",
-          "position": 11,
-          "description": "Marketing attribution reports are now operational.",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
