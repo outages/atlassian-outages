@@ -4,7 +4,7 @@
     "name": "Jira Align",
     "url": "https://jira-align.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-08-30T16:43:11.842Z"
+    "updated_at": "2023-08-30T17:33:20.151Z"
   },
   "components": [
     {
@@ -567,16 +567,29 @@
     {
       "id": "cb205p64w84j",
       "name": "Enterprise Insights in APAC region service unavailable",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2023-08-30T15:51:41.705Z",
-      "updated_at": "2023-08-30T15:51:41.750Z",
-      "monitoring_at": null,
+      "updated_at": "2023-08-30T17:33:20.148Z",
+      "monitoring_at": "2023-08-30T17:33:20.131Z",
       "resolved_at": null,
-      "impact": "none",
+      "impact": "major",
       "shortlink": "https://stspg.io/hym09550xx23",
       "started_at": "2023-08-30T15:51:41.698Z",
       "page_id": "jrg4crndtsgz",
       "incident_updates": [
+        {
+          "id": "fv0kmhgz343y",
+          "status": "monitoring",
+          "body": "The hardware has been restored and services are slowly coming back online",
+          "incident_id": "cb205p64w84j",
+          "created_at": "2023-08-30T17:33:20.131Z",
+          "updated_at": "2023-08-30T17:33:20.131Z",
+          "display_at": "2023-08-30T17:33:20.131Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "c872bhlb7tvs",
           "status": "investigating",
