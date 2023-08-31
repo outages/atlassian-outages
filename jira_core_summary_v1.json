@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-08-31T18:07:58.976Z"
+    "updated_at": "2023-08-31T21:22:36.054Z"
   },
   "components": [
     {
@@ -179,8 +179,8 @@
       "name": "Delayed execution of Automation Rules",
       "status": "monitoring",
       "created_at": "2023-08-31T16:08:21.224Z",
-      "updated_at": "2023-08-31T18:07:58.973Z",
-      "monitoring_at": "2023-08-31T18:07:58.953Z",
+      "updated_at": "2023-08-31T21:22:36.052Z",
+      "monitoring_at": "2023-08-31T18:07:58.000Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/dbswqgsv2jsw",
@@ -190,11 +190,11 @@
         {
           "id": "hst5glkdvly5",
           "status": "monitoring",
-          "body": "We have identified the root cause of the delayed automation executions and have mitigated the problem. New executions should not face any delay and we're working to have the backlog of executions processed. We will provide more updates soon.",
+          "body": "We have mitigated the problem. New executions should not face any delay and we're working to have the backlog of executions processed. We will provide more updates soon.",
           "incident_id": "7cc3kmgjsb2y",
           "created_at": "2023-08-31T18:07:58.953Z",
-          "updated_at": "2023-08-31T18:07:58.953Z",
-          "display_at": "2023-08-31T18:07:58.953Z",
+          "updated_at": "2023-08-31T21:22:36.038Z",
+          "display_at": "2023-08-31T18:07:58.000Z",
           "affected_components": [
             {
               "code": "g05jhcg0y7yw",
