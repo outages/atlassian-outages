@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-08-31T23:43:11.260Z"
+    "updated_at": "2023-09-01T00:01:30.167Z"
   },
   "components": [
     {
@@ -177,9 +177,9 @@
     {
       "id": "7cc3kmgjsb2y",
       "name": "Delayed execution of Automation Rules",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2023-08-31T16:08:21.224Z",
-      "updated_at": "2023-08-31T22:25:26.043Z",
+      "updated_at": "2023-09-01T00:01:30.161Z",
       "monitoring_at": "2023-08-31T18:07:58.000Z",
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,26 @@
       "started_at": "2023-08-31T16:08:21.218Z",
       "page_id": "s6f0gm5gcpmy",
       "incident_updates": [
+        {
+          "id": "g0wx122dww5h",
+          "status": "monitoring",
+          "body": "We have mitigated the problem and are monitoring it. New automation executions should be working as expected now and we're working to have the backlog of executions processed. We will provide more updates soon.",
+          "incident_id": "7cc3kmgjsb2y",
+          "created_at": "2023-09-01T00:01:30.159Z",
+          "updated_at": "2023-09-01T00:01:30.159Z",
+          "display_at": "2023-09-01T00:01:30.159Z",
+          "affected_components": [
+            {
+              "code": "g05jhcg0y7yw",
+              "name": "Automation for Jira",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "rk54m9z1n9mt",
           "status": "investigating",
