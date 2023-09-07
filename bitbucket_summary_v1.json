@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-09-07T11:43:00.042Z"
+    "updated_at": "2023-09-07T12:14:38.575Z"
   },
   "components": [
     {
@@ -192,9 +192,9 @@
     {
       "id": "9zyllwhrxk5v",
       "name": "Some customers are experiencing issues merging pull requests via website",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2023-09-07T11:00:41.489Z",
-      "updated_at": "2023-09-07T11:00:41.563Z",
+      "updated_at": "2023-09-07T12:14:38.568Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -202,6 +202,26 @@
       "started_at": "2023-09-07T11:00:41.484Z",
       "page_id": "bqlf8qjztdtr",
       "incident_updates": [
+        {
+          "id": "zbp9190gx9ks",
+          "status": "identified",
+          "body": "The issue has been identified and a fix is being implemented.",
+          "incident_id": "9zyllwhrxk5v",
+          "created_at": "2023-09-07T12:14:38.566Z",
+          "updated_at": "2023-09-07T12:14:38.566Z",
+          "display_at": "2023-09-07T12:14:38.566Z",
+          "affected_components": [
+            {
+              "code": "g0lfj4sv2fhf",
+              "name": "Website",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "f548syxcjvwr",
           "status": "investigating",
