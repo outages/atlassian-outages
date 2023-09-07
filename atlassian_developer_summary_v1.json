@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-09-07T02:42:58.111Z"
+    "updated_at": "2023-09-07T05:43:01.301Z"
   },
   "components": [
     {
@@ -780,6 +780,58 @@
     }
   ],
   "incidents": [
+    {
+      "id": "2s8bw4cknpq6",
+      "name": "Few invoices in the transactions report have saleType incorrectly tagged as New",
+      "status": "monitoring",
+      "created_at": "2023-09-07T05:36:54.000Z",
+      "updated_at": "2023-09-07T05:40:48.399Z",
+      "monitoring_at": "2023-09-07T05:36:54.000Z",
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/s51tg4636lcy",
+      "started_at": "2023-09-07T05:36:54.000Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "qwbn53fp5r39",
+          "status": "monitoring",
+          "body": "There are 706 invoices that have saleType incorrectly tagged as New. We have identified the root cause of the issue and deployed a fix that has updated saleType for these invoices to their correct values - either Upgrade or Renew. You can pull these changes by fetching invoices that have been updated in the past 1 day using the lastUpdated field.",
+          "incident_id": "2s8bw4cknpq6",
+          "created_at": "2023-09-07T05:36:54.468Z",
+          "updated_at": "2023-09-07T05:40:48.277Z",
+          "display_at": "2023-09-07T05:36:54.000Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "hk36hlvygg2q",
+          "name": "Reporting APIs and dashboards",
+          "status": "operational",
+          "created_at": "2013-12-03T00:45:26.014Z",
+          "updated_at": "2023-08-30T05:04:28.610Z",
+          "position": 11,
+          "description": "Marketing attribution reports are now operational.",
+          "showcase": true,
+          "start_date": null,
+          "group_id": "d0m8l367qqw5",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    },
     {
       "id": "6hy7qgxmc1pz",
       "name": "Jira Cloud Issue API parent field is nullable.",
