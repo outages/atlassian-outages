@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-09-07T02:43:20.633Z"
+    "updated_at": "2023-09-07T07:43:25.904Z"
   },
   "components": [
     {
@@ -42,7 +42,7 @@
       "name": "Opsgenie Incident Flow",
       "status": "operational",
       "created_at": "2020-11-10T01:21:53.523Z",
-      "updated_at": "2023-08-28T19:10:47.629Z",
+      "updated_at": "2023-09-07T07:41:27.851Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -57,7 +57,7 @@
       "name": "Opsgenie Alert Flow",
       "status": "operational",
       "created_at": "2020-11-10T01:21:54.620Z",
-      "updated_at": "2022-11-22T23:30:40.333Z",
+      "updated_at": "2023-09-07T07:41:27.863Z",
       "position": 4,
       "description": null,
       "showcase": false,
@@ -72,7 +72,7 @@
       "name": "Opsgenie Incident Flow",
       "status": "operational",
       "created_at": "2020-11-10T01:21:58.305Z",
-      "updated_at": "2023-04-06T15:07:53.867Z",
+      "updated_at": "2023-09-07T07:41:27.871Z",
       "position": 5,
       "description": null,
       "showcase": false,
@@ -87,7 +87,7 @@
       "name": "Opsgenie Alert Flow",
       "status": "operational",
       "created_at": "2020-11-10T01:21:59.310Z",
-      "updated_at": "2023-06-26T12:33:43.812Z",
+      "updated_at": "2023-09-07T07:41:27.880Z",
       "position": 6,
       "description": null,
       "showcase": false,
