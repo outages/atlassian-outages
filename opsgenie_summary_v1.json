@@ -4,13 +4,13 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-09-10T18:43:03.989Z"
+    "updated_at": "2023-09-10T19:17:28.482Z"
   },
   "components": [
     {
       "id": "jzqq334r65mx",
       "name": "US",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-02-12T13:47:31.055Z",
       "updated_at": "2019-03-15T08:16:16.977Z",
       "position": 1,
@@ -253,9 +253,9 @@
     {
       "id": "s8szfv793n8p",
       "name": "Mobile Notification Delivery",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-03-15T08:10:23.207Z",
-      "updated_at": "2023-09-10T18:37:42.881Z",
+      "updated_at": "2023-09-10T19:17:28.434Z",
       "position": 6,
       "description": null,
       "showcase": true,
@@ -761,63 +761,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "4q3xkxpq8ndq",
-      "name": "Opsgenie has experienced delay on Android Notifications",
-      "status": "identified",
-      "created_at": "2023-09-10T18:37:42.854Z",
-      "updated_at": "2023-09-10T18:37:42.918Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/9xjc9yyqvm1h",
-      "started_at": "2023-09-10T18:37:42.848Z",
-      "page_id": "t05vdsszxwtq",
-      "incident_updates": [
-        {
-          "id": "qvym33q8drvz",
-          "status": "identified",
-          "body": "We are seeing delays with Android notifications. We have identified the cause and are currently working on mitigation of this issue",
-          "incident_id": "4q3xkxpq8ndq",
-          "created_at": "2023-09-10T18:37:42.916Z",
-          "updated_at": "2023-09-10T18:37:42.916Z",
-          "display_at": "2023-09-10T18:37:42.916Z",
-          "affected_components": [
-            {
-              "code": "s8szfv793n8p",
-              "name": "US - Mobile Notification Delivery",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "s8szfv793n8p",
-          "name": "Mobile Notification Delivery",
-          "status": "degraded_performance",
-          "created_at": "2019-03-15T08:10:23.207Z",
-          "updated_at": "2023-09-10T18:37:42.881Z",
-          "position": 6,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "jzqq334r65mx",
-          "page_id": "t05vdsszxwtq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
