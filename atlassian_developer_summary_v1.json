@@ -4,13 +4,13 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-09-11T05:15:15.033Z"
+    "updated_at": "2023-09-11T22:33:52.221Z"
   },
   "components": [
     {
       "id": "w0ld3nc9jvdx",
       "name": "APIs",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:15:10.342Z",
       "updated_at": "2018-02-01T17:16:31.201Z",
       "position": 1,
@@ -187,9 +187,9 @@
     {
       "id": "cc6gw24m02wp",
       "name": "Jira Cloud APIs",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:16:54.648Z",
-      "updated_at": "2023-09-06T05:22:19.682Z",
+      "updated_at": "2023-09-11T22:33:52.175Z",
       "position": 3,
       "description": null,
       "showcase": true,
@@ -779,83 +779,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "6hy7qgxmc1pz",
-      "name": "Jira Cloud Issue API parent field is nullable.",
-      "status": "monitoring",
-      "created_at": "2023-09-06T05:22:19.659Z",
-      "updated_at": "2023-09-07T01:48:47.874Z",
-      "monitoring_at": "2023-09-07T01:48:47.863Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/mq2rscgxsw6b",
-      "started_at": "2023-09-06T05:22:19.652Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "69d26f85ygny",
-          "status": "monitoring",
-          "body": "We have identified the root cause of errors for Atlassian Developer Cloud customers using the Jira Issue API parent field. \nWe have deployed a fix for all customers.",
-          "incident_id": "6hy7qgxmc1pz",
-          "created_at": "2023-09-07T01:48:47.863Z",
-          "updated_at": "2023-09-07T01:48:47.863Z",
-          "display_at": "2023-09-07T01:48:47.863Z",
-          "affected_components": [
-            {
-              "code": "cc6gw24m02wp",
-              "name": "APIs - Jira Cloud APIs",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "vmmrnghqhnwr",
-          "status": "identified",
-          "body": "We are investigating reports of errors for Atlassian Developer Cloud customers using the Jira Issue API parent field.\n\nWe have identified a change that allowed this to be null. We are rolling this change back so it will always be present.",
-          "incident_id": "6hy7qgxmc1pz",
-          "created_at": "2023-09-06T05:22:19.710Z",
-          "updated_at": "2023-09-06T05:22:19.710Z",
-          "display_at": "2023-09-06T05:22:19.710Z",
-          "affected_components": [
-            {
-              "code": "cc6gw24m02wp",
-              "name": "APIs - Jira Cloud APIs",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "cc6gw24m02wp",
-          "name": "Jira Cloud APIs",
-          "status": "partial_outage",
-          "created_at": "2018-02-01T17:16:54.648Z",
-          "updated_at": "2023-09-06T05:22:19.682Z",
-          "position": 3,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "w0ld3nc9jvdx",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
