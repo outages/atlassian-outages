@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-09-13T13:17:12.777Z"
+    "updated_at": "2023-09-13T16:28:25.684Z"
   },
   "components": [
     {
@@ -232,7 +232,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -631,9 +631,9 @@
     {
       "id": "hk36hlvygg2q",
       "name": "Reporting APIs and dashboards",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2013-12-03T00:45:26.014Z",
-      "updated_at": "2023-09-13T10:14:15.357Z",
+      "updated_at": "2023-09-13T16:28:25.647Z",
       "position": 11,
       "description": "Marketing attribution reports are now operational.",
       "showcase": true,
@@ -779,103 +779,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "mblt2pf2vxw4",
-      "name": "Delay in licenses and transactions reporting data",
-      "status": "identified",
-      "created_at": "2023-09-13T10:14:15.319Z",
-      "updated_at": "2023-09-13T13:17:12.766Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/7b51y5zh45cf",
-      "started_at": "2023-09-13T10:14:15.311Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "txpc36z732nb",
-          "status": "identified",
-          "body": "We ran into few hiccups during the pipeline run. We have addressed them and the pipeline is in progress. We apologise for any inconvenience caused. Updated data should be available by 6 PM UTC.",
-          "incident_id": "mblt2pf2vxw4",
-          "created_at": "2023-09-13T13:17:12.764Z",
-          "updated_at": "2023-09-13T13:17:12.764Z",
-          "display_at": "2023-09-13T13:17:12.764Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "wdwdvq8pqnss",
-          "status": "identified",
-          "body": "The issue is identified and pipeline run is in progress. Data should be updated in next 2 hours.",
-          "incident_id": "mblt2pf2vxw4",
-          "created_at": "2023-09-13T11:00:37.773Z",
-          "updated_at": "2023-09-13T11:00:37.773Z",
-          "display_at": "2023-09-13T11:00:37.773Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "yh3323xynbp3",
-          "status": "investigating",
-          "body": "We are investigating an issue that is causing a delay in licenses and transactions reporting data. We will provide more details within the next hour.",
-          "incident_id": "mblt2pf2vxw4",
-          "created_at": "2023-09-13T10:14:15.402Z",
-          "updated_at": "2023-09-13T10:14:15.402Z",
-          "display_at": "2023-09-13T10:14:15.402Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "hk36hlvygg2q",
-          "name": "Reporting APIs and dashboards",
-          "status": "partial_outage",
-          "created_at": "2013-12-03T00:45:26.014Z",
-          "updated_at": "2023-09-13T10:14:15.357Z",
-          "position": 11,
-          "description": "Marketing attribution reports are now operational.",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
