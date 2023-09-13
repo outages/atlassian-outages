@@ -4,7 +4,7 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2023-09-13T13:36:17.900-04:00"
+    "updated_at": "2023-09-13T15:32:02.313-04:00"
   },
   "components": [
     {
@@ -83,120 +83,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "drv8w41r2fqt",
-      "name": "Atlassian Account login issues",
-      "status": "monitoring",
-      "created_at": "2023-09-13T10:08:51.219-04:00",
-      "updated_at": "2023-09-13T13:36:17.889-04:00",
-      "monitoring_at": "2023-09-13T11:21:44.465-04:00",
-      "resolved_at": null,
-      "impact": "critical",
-      "shortlink": "https://stspg.io/j2v01vgt1qng",
-      "started_at": "2023-09-13T10:08:51.211-04:00",
-      "page_id": "h5frqhb041yq",
-      "incident_updates": [
-        {
-          "id": "1ypbh0pwtvlv",
-          "status": "monitoring",
-          "body": "We are no longer seeing occurrences of the Atlassian Accounts login errors, all clients should be able to successfully login now. We will continue to monitor.",
-          "incident_id": "drv8w41r2fqt",
-          "created_at": "2023-09-13T13:36:17.886-04:00",
-          "updated_at": "2023-09-13T13:36:17.886-04:00",
-          "display_at": "2023-09-13T13:36:17.886-04:00",
-          "affected_components": [
-            {
-              "code": "hsr3nvlz0k2l",
-              "name": "Trello.com",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "1fq6pq8hgbwp",
-          "status": "monitoring",
-          "body": "We can see a reduction in the Atlassian Accounts login issues after the mitigation actions were taken. We are still monitoring closely and will continue to provide updates.",
-          "incident_id": "drv8w41r2fqt",
-          "created_at": "2023-09-13T12:30:47.717-04:00",
-          "updated_at": "2023-09-13T12:30:47.717-04:00",
-          "display_at": "2023-09-13T12:30:47.717-04:00",
-          "affected_components": [
-            {
-              "code": "hsr3nvlz0k2l",
-              "name": "Trello.com",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "wdh2cdmc9zsq",
-          "status": "monitoring",
-          "body": "We have identified the root cause of the Atlassian Accounts login issues impacting Cloud Customers and have mitigated the problem. We are now monitoring this closely.",
-          "incident_id": "drv8w41r2fqt",
-          "created_at": "2023-09-13T11:21:44.465-04:00",
-          "updated_at": "2023-09-13T11:21:44.465-04:00",
-          "display_at": "2023-09-13T11:21:44.465-04:00",
-          "affected_components": [
-            {
-              "code": "hsr3nvlz0k2l",
-              "name": "Trello.com",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "6dy9m05b6782",
-          "status": "investigating",
-          "body": "We are investigating an issue with Atlassian Accounts login that is impacting some Cloud customers. We will provide more details within the next hour.",
-          "incident_id": "drv8w41r2fqt",
-          "created_at": "2023-09-13T10:08:51.282-04:00",
-          "updated_at": "2023-09-13T10:08:51.282-04:00",
-          "display_at": "2023-09-13T10:08:51.282-04:00",
-          "affected_components": [
-            {
-              "code": "hsr3nvlz0k2l",
-              "name": "Trello.com",
-              "old_status": "major_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "hsr3nvlz0k2l",
-          "name": "Trello.com",
-          "status": "partial_outage",
-          "created_at": "2020-01-24T12:50:55.839-05:00",
-          "updated_at": "2023-09-13T10:08:51.250-04:00",
-          "position": 1,
-          "description": "Web client",
-          "showcase": true,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "h5frqhb041yq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "minor",

@@ -4,7 +4,7 @@
     "name": "Atlassian Access",
     "url": "https://access.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-09-13T17:36:16.759Z"
+    "updated_at": "2023-09-13T19:32:02.068Z"
   },
   "components": [
     {
@@ -98,120 +98,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "fqj40qz1t2jz",
-      "name": "Atlassian Account login issues",
-      "status": "monitoring",
-      "created_at": "2023-09-13T14:08:51.190Z",
-      "updated_at": "2023-09-13T17:36:16.750Z",
-      "monitoring_at": "2023-09-13T15:21:44.310Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/qnfk9xr8vjn2",
-      "started_at": "2023-09-13T14:08:51.184Z",
-      "page_id": "5qmgwsxwsz78",
-      "incident_updates": [
-        {
-          "id": "77sykdd58vvj",
-          "status": "monitoring",
-          "body": "We are no longer seeing occurrences of the Atlassian Accounts login errors, all clients should be able to successfully login now. We will continue to monitor.",
-          "incident_id": "fqj40qz1t2jz",
-          "created_at": "2023-09-13T17:36:16.748Z",
-          "updated_at": "2023-09-13T17:36:16.748Z",
-          "display_at": "2023-09-13T17:36:16.748Z",
-          "affected_components": [
-            {
-              "code": "856c2dpnfnzq",
-              "name": "Signup",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "lky0l315cx8x",
-          "status": "monitoring",
-          "body": "We can see a reduction in the Atlassian Accounts login issues after the mitigation actions were taken. We are still monitoring closely and will continue to provide updates.",
-          "incident_id": "fqj40qz1t2jz",
-          "created_at": "2023-09-13T16:30:47.699Z",
-          "updated_at": "2023-09-13T16:30:47.699Z",
-          "display_at": "2023-09-13T16:30:47.699Z",
-          "affected_components": [
-            {
-              "code": "856c2dpnfnzq",
-              "name": "Signup",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "t9x6klwl0dk9",
-          "status": "monitoring",
-          "body": "We have identified the root cause of the Atlassian Accounts login issues impacting Cloud Customers and have mitigated the problem. We are now monitoring this closely.",
-          "incident_id": "fqj40qz1t2jz",
-          "created_at": "2023-09-13T15:21:44.310Z",
-          "updated_at": "2023-09-13T15:21:44.310Z",
-          "display_at": "2023-09-13T15:21:44.310Z",
-          "affected_components": [
-            {
-              "code": "856c2dpnfnzq",
-              "name": "Signup",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "cx6llcvc1cwc",
-          "status": "investigating",
-          "body": "We are investigating an issue with Atlassian Accounts login that is impacting some Cloud customers. We will provide more details within the next hour.",
-          "incident_id": "fqj40qz1t2jz",
-          "created_at": "2023-09-13T14:08:51.236Z",
-          "updated_at": "2023-09-13T14:08:51.236Z",
-          "display_at": "2023-09-13T14:08:51.236Z",
-          "affected_components": [
-            {
-              "code": "856c2dpnfnzq",
-              "name": "Signup",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "856c2dpnfnzq",
-          "name": "Signup",
-          "status": "partial_outage",
-          "created_at": "2020-10-09T20:38:53.790Z",
-          "updated_at": "2023-09-13T14:08:51.210Z",
-          "position": 8,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-10-09",
-          "group_id": null,
-          "page_id": "5qmgwsxwsz78",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "minor",
