@@ -4,7 +4,7 @@
     "name": "Atlassian Statuspage",
     "url": "http://metastatuspage.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-08-29T23:16:10.513-07:00"
+    "updated_at": "2023-09-13T07:16:53.624-07:00"
   },
   "components": [
     {
@@ -63,9 +63,9 @@
     {
       "id": "fyzs60wyq01d",
       "name": "Web Portal",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2017-08-21T10:22:01.379-07:00",
-      "updated_at": "2023-08-29T23:16:10.404-07:00",
+      "updated_at": "2023-09-13T07:16:53.548-07:00",
       "position": 1,
       "description": null,
       "showcase": true,
@@ -198,7 +198,7 @@
     {
       "id": "jk3l62p3pcfy",
       "name": "Management",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2017-08-21T10:22:01.354-07:00",
       "updated_at": "2017-08-24T12:33:47.091-07:00",
       "position": 2,
@@ -816,10 +816,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "k2jclw1n5jb4",
+      "name": "Atlassian Account login issues",
+      "status": "investigating",
+      "created_at": "2023-09-13T07:16:53.502-07:00",
+      "updated_at": "2023-09-13T07:16:53.621-07:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "http://mstspg.co/m6b4zcb89v2p",
+      "started_at": "2023-09-13T07:16:53.483-07:00",
+      "page_id": "y2j98763l56x",
+      "incident_updates": [
+        {
+          "id": "bsv7ndn1br1f",
+          "status": "investigating",
+          "body": "We are investigating an issue with Atlassian Accounts login that is impacting some Cloud customers. We will provide more details within the next hour.",
+          "incident_id": "k2jclw1n5jb4",
+          "created_at": "2023-09-13T07:16:53.617-07:00",
+          "updated_at": "2023-09-13T07:16:53.617-07:00",
+          "display_at": "2023-09-13T07:16:53.617-07:00",
+          "affected_components": [
+            {
+              "code": "fyzs60wyq01d",
+              "name": "Management - Web Portal",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "fyzs60wyq01d",
+          "name": "Web Portal",
+          "status": "partial_outage",
+          "created_at": "2017-08-21T10:22:01.379-07:00",
+          "updated_at": "2023-09-13T07:16:53.548-07:00",
+          "position": 1,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": "jk3l62p3pcfy",
+          "page_id": "y2j98763l56x",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
