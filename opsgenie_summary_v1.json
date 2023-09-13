@@ -4,13 +4,13 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-09-13T19:32:02.087Z"
+    "updated_at": "2023-09-13T19:57:18.464Z"
   },
   "components": [
     {
       "id": "jzqq334r65mx",
       "name": "US",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-02-12T13:47:31.055Z",
       "updated_at": "2019-03-15T08:16:16.977Z",
       "position": 1,
@@ -79,7 +79,7 @@
     {
       "id": "k7gyfk44wrsr",
       "name": "EU",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-02-12T13:47:54.389Z",
       "updated_at": "2019-02-12T13:47:54.389Z",
       "position": 2,
@@ -178,9 +178,9 @@
     {
       "id": "4z21dwjdbjqm",
       "name": "Public Website",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-04-25T08:26:43.599Z",
-      "updated_at": "2023-09-13T15:21:44.291Z",
+      "updated_at": "2023-09-13T19:57:18.462Z",
       "position": 3,
       "description": "Public Website (https://www.opsgenie.com/)",
       "showcase": true,
@@ -493,9 +493,9 @@
     {
       "id": "357vyw1pjtlj",
       "name": "Signup, Login & Authorization",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-03-15T08:12:55.374Z",
-      "updated_at": "2023-09-13T14:08:51.797Z",
+      "updated_at": "2023-09-13T19:57:04.662Z",
       "position": 14,
       "description": null,
       "showcase": true,
@@ -508,9 +508,9 @@
     {
       "id": "yf2lb8rzjt6l",
       "name": "Signup, Login & Authorization",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-03-15T08:26:48.659Z",
-      "updated_at": "2023-09-13T14:08:51.815Z",
+      "updated_at": "2023-09-13T19:56:41.893Z",
       "position": 14,
       "description": null,
       "showcase": true,
@@ -764,7 +764,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
