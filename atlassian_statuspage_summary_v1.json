@@ -4,7 +4,7 @@
     "name": "Atlassian Statuspage",
     "url": "http://metastatuspage.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-09-13T10:37:59.394-07:00"
+    "updated_at": "2023-09-13T12:37:55.788-07:00"
   },
   "components": [
     {
@@ -816,120 +816,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "k2jclw1n5jb4",
-      "name": "Atlassian Account login issues",
-      "status": "monitoring",
-      "created_at": "2023-09-13T07:16:53.502-07:00",
-      "updated_at": "2023-09-13T10:37:59.385-07:00",
-      "monitoring_at": "2023-09-13T08:33:47.824-07:00",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "http://mstspg.co/m6b4zcb89v2p",
-      "started_at": "2023-09-13T07:16:53.483-07:00",
-      "page_id": "y2j98763l56x",
-      "incident_updates": [
-        {
-          "id": "6qn7684pyhlc",
-          "status": "monitoring",
-          "body": "We are no longer seeing occurrences of the Atlassian Accounts login errors, all clients should be able to successfully login now. We will continue to monitor.",
-          "incident_id": "k2jclw1n5jb4",
-          "created_at": "2023-09-13T10:37:59.380-07:00",
-          "updated_at": "2023-09-13T10:37:59.380-07:00",
-          "display_at": "2023-09-13T10:37:59.380-07:00",
-          "affected_components": [
-            {
-              "code": "fyzs60wyq01d",
-              "name": "Management - Web Portal",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "r7g8grqvjn85",
-          "status": "monitoring",
-          "body": "We can see a reduction in the Atlassian Accounts login issues after the mitigation actions were taken. We are still monitoring closely and will continue to provide updates.",
-          "incident_id": "k2jclw1n5jb4",
-          "created_at": "2023-09-13T09:42:29.502-07:00",
-          "updated_at": "2023-09-13T09:42:29.502-07:00",
-          "display_at": "2023-09-13T09:42:29.502-07:00",
-          "affected_components": [
-            {
-              "code": "fyzs60wyq01d",
-              "name": "Management - Web Portal",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "6pt7ty90nppr",
-          "status": "monitoring",
-          "body": "We have identified the root cause of the Atlassian Accounts login issues impacting Cloud Customers and have mitigated the problem. We are now monitoring this closely.",
-          "incident_id": "k2jclw1n5jb4",
-          "created_at": "2023-09-13T08:33:47.824-07:00",
-          "updated_at": "2023-09-13T08:33:47.824-07:00",
-          "display_at": "2023-09-13T08:33:47.824-07:00",
-          "affected_components": [
-            {
-              "code": "fyzs60wyq01d",
-              "name": "Management - Web Portal",
-              "old_status": "partial_outage",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "bsv7ndn1br1f",
-          "status": "investigating",
-          "body": "We are investigating an issue with Atlassian Accounts login that is impacting some Cloud customers. We will provide more details within the next hour.",
-          "incident_id": "k2jclw1n5jb4",
-          "created_at": "2023-09-13T07:16:53.617-07:00",
-          "updated_at": "2023-09-13T07:16:53.617-07:00",
-          "display_at": "2023-09-13T07:16:53.617-07:00",
-          "affected_components": [
-            {
-              "code": "fyzs60wyq01d",
-              "name": "Management - Web Portal",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "fyzs60wyq01d",
-          "name": "Web Portal",
-          "status": "operational",
-          "created_at": "2017-08-21T10:22:01.379-07:00",
-          "updated_at": "2023-09-13T08:33:47.764-07:00",
-          "position": 1,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "jk3l62p3pcfy",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
