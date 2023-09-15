@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-09-15T00:30:23.233Z"
+    "updated_at": "2023-09-15T04:12:20.861Z"
   },
   "components": [
     {
@@ -189,6 +189,48 @@
     }
   ],
   "incidents": [
+    {
+      "id": "91x8kkrhf9kh",
+      "name": "Infrastructure outage affecting attachments and Bitbucket Pipelines in all regions",
+      "status": "identified",
+      "created_at": "2023-09-15T04:02:24.309Z",
+      "updated_at": "2023-09-15T04:12:20.851Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/79mc5v98yn57",
+      "started_at": "2023-09-15T04:02:24.303Z",
+      "page_id": "pv54g7ltsc24",
+      "incident_updates": [
+        {
+          "id": "x21kzwn7zszb",
+          "status": "identified",
+          "body": "A major infrastructure outage is affecting our ability to scale up in response to customer traffic. We are pre-emptively disabling any downscaling to minimize future impact. This is primarily affecting Bitbucket Pipelines, and attachment storage for all products. All regions are affected. We will provide more details in the next hour.",
+          "incident_id": "91x8kkrhf9kh",
+          "created_at": "2023-09-15T04:12:20.849Z",
+          "updated_at": "2023-09-15T04:12:20.849Z",
+          "display_at": "2023-09-15T04:12:20.849Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "cnfv4d4gq3vk",
+          "status": "identified",
+          "body": "A major infrastructure outage is affecting our ability to scale up in response to customer traffic. We are pre-emptively disabling any downscaling to minimize future impact. This is primarily affecting Bitbucket Pipelines, and attachment storage for all products. All regions are affected. We will provide more details in the next hour.",
+          "incident_id": "91x8kkrhf9kh",
+          "created_at": "2023-09-15T04:02:24.347Z",
+          "updated_at": "2023-09-15T04:02:24.347Z",
+          "display_at": "2023-09-15T04:02:24.347Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": []
+    },
     {
       "id": "4q2hpd5wdqpx",
       "name": "Mentions on Jira cards are not sending notifications",
