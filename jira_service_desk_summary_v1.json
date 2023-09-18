@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-09-15T05:19:25.652Z"
+    "updated_at": "2023-09-18T01:00:33.053Z"
   },
   "components": [
     {
@@ -229,7 +229,8 @@
           "tweet_id": null
         }
       ],
-      "components": []
+      "components": [],
+      "reminder_intervals": null
     }
   ],
   "scheduled_maintenances": [],

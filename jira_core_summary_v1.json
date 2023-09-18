@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-09-15T05:19:25.686Z"
+    "updated_at": "2023-09-18T01:00:52.019Z"
   },
   "components": [
     {
@@ -214,7 +214,8 @@
           "tweet_id": null
         }
       ],
-      "components": []
+      "components": [],
+      "reminder_intervals": null
     }
   ],
   "scheduled_maintenances": [],
