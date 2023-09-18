@@ -4,13 +4,13 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-09-18T19:59:15.415Z"
+    "updated_at": "2023-09-18T23:07:13.966Z"
   },
   "components": [
     {
       "id": "w0ld3nc9jvdx",
       "name": "APIs",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2018-02-01T17:15:10.342Z",
       "updated_at": "2018-02-01T17:16:31.201Z",
       "position": 1,
@@ -64,9 +64,9 @@
     {
       "id": "wzmg8phvmrwh",
       "name": "App Deployment",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2021-03-23T12:00:27.385Z",
-      "updated_at": "2023-03-01T04:30:12.842Z",
+      "updated_at": "2023-09-18T23:07:13.822Z",
       "position": 1,
       "description": null,
       "showcase": true,
@@ -421,9 +421,9 @@
     {
       "id": "5rnsdjrhk29s",
       "name": "Webhooks",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2018-02-01T17:19:01.020Z",
-      "updated_at": "2021-03-23T12:03:17.265Z",
+      "updated_at": "2023-09-18T23:07:13.844Z",
       "position": 6,
       "description": null,
       "showcase": true,
@@ -511,9 +511,9 @@
     {
       "id": "ssdy05xtmgvs",
       "name": "Web Triggers",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2021-03-23T12:00:50.143Z",
-      "updated_at": "2022-12-16T16:49:56.504Z",
+      "updated_at": "2023-09-18T23:07:13.866Z",
       "position": 7,
       "description": null,
       "showcase": true,
@@ -706,9 +706,9 @@
     {
       "id": "9nthl2bkwn0x",
       "name": "Hosted storage",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2022-09-14T05:38:04.594Z",
-      "updated_at": "2023-08-14T15:28:19.043Z",
+      "updated_at": "2023-09-18T23:07:13.888Z",
       "position": 13,
       "description": "Atlassian hosted storage for hosted and remote compute.",
       "showcase": true,
@@ -736,9 +736,9 @@
     {
       "id": "l30t53hv9z8z",
       "name": "Forge CLI",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2022-10-18T22:30:09.575Z",
-      "updated_at": "2023-06-06T23:51:45.518Z",
+      "updated_at": "2023-09-18T23:07:13.911Z",
       "position": 14,
       "description": null,
       "showcase": true,
@@ -780,6 +780,164 @@
     }
   ],
   "incidents": [
+    {
+      "id": "wwbqxk19ks90",
+      "name": "Partial Forge Platform Outage",
+      "status": "monitoring",
+      "created_at": "2023-09-18T23:07:13.761Z",
+      "updated_at": "2023-09-18T23:07:13.963Z",
+      "monitoring_at": "2023-09-18T23:07:13.950Z",
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/6zcvqf675j6j",
+      "started_at": "2023-09-18T23:07:13.737Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "zgtn1pxfxv67",
+          "status": "monitoring",
+          "body": "The Forge Platform experienced an outage due to an upstream failure in our AWS infrastructure.\n\nThe following platform capabilities are experienced intermittent failure:\n- Forge app function invocation\n- Web triggers\n- Schedule triggers\n- Forge Storage\n- App Deployment\n\nThis may result in apps not loading, or app failure from a user's perspective.\n\nTimeline\n\n2023-09-18 19:30 UTC: impact start\n\nThis AWS infrastructure incident also affects our products including Confluence and Jira. For more details and expected resolution timeframe, please follow up at https://confluence.status.atlassian.com/\n \nWe will provide another update once we receive updates from our product incident response teams.",
+          "incident_id": "wwbqxk19ks90",
+          "created_at": "2023-09-18T23:07:13.950Z",
+          "updated_at": "2023-09-18T23:07:13.950Z",
+          "display_at": "2023-09-18T23:07:13.950Z",
+          "affected_components": [
+            {
+              "code": "5rnsdjrhk29s",
+              "name": "APIs - Webhooks",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "ssdy05xtmgvs",
+              "name": "APIs - Web Triggers",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "wzmg8phvmrwh",
+              "name": "Developer - App Deployment",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "pgqd9x4jl520",
+              "name": "Developer - Forge Function Invocation",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "9nthl2bkwn0x",
+              "name": "Developer - Hosted storage",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "l30t53hv9z8z",
+              "name": "Developer - Forge CLI",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "wzmg8phvmrwh",
+          "name": "App Deployment",
+          "status": "partial_outage",
+          "created_at": "2021-03-23T12:00:27.385Z",
+          "updated_at": "2023-09-18T23:07:13.822Z",
+          "position": 1,
+          "description": null,
+          "showcase": true,
+          "start_date": "2021-03-23",
+          "group_id": "73bt63kd5q9k",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "5rnsdjrhk29s",
+          "name": "Webhooks",
+          "status": "partial_outage",
+          "created_at": "2018-02-01T17:19:01.020Z",
+          "updated_at": "2023-09-18T23:07:13.844Z",
+          "position": 6,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": "w0ld3nc9jvdx",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "pgqd9x4jl520",
+          "name": "Forge Function Invocation",
+          "status": "partial_outage",
+          "created_at": "2021-03-23T11:56:37.167Z",
+          "updated_at": "2023-09-18T14:49:38.108Z",
+          "position": 7,
+          "description": null,
+          "showcase": true,
+          "start_date": "2021-03-23",
+          "group_id": "73bt63kd5q9k",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "ssdy05xtmgvs",
+          "name": "Web Triggers",
+          "status": "partial_outage",
+          "created_at": "2021-03-23T12:00:50.143Z",
+          "updated_at": "2023-09-18T23:07:13.866Z",
+          "position": 7,
+          "description": null,
+          "showcase": true,
+          "start_date": "2021-03-23",
+          "group_id": "w0ld3nc9jvdx",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "9nthl2bkwn0x",
+          "name": "Hosted storage",
+          "status": "partial_outage",
+          "created_at": "2022-09-14T05:38:04.594Z",
+          "updated_at": "2023-09-18T23:07:13.888Z",
+          "position": 13,
+          "description": "Atlassian hosted storage for hosted and remote compute.",
+          "showcase": true,
+          "start_date": "2022-09-14",
+          "group_id": "73bt63kd5q9k",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "l30t53hv9z8z",
+          "name": "Forge CLI",
+          "status": "degraded_performance",
+          "created_at": "2022-10-18T22:30:09.575Z",
+          "updated_at": "2023-09-18T23:07:13.911Z",
+          "position": 14,
+          "description": null,
+          "showcase": true,
+          "start_date": "2022-10-18",
+          "group_id": "73bt63kd5q9k",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
     {
       "id": "z2w22rs4wn45",
       "name": "App developers are unable to deploy Forge apps",
