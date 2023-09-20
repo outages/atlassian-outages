@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-09-19T07:40:31.083Z"
+    "updated_at": "2023-09-20T00:50:10.507Z"
   },
   "components": [
     {
@@ -173,51 +173,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "63l82202cv62",
-      "name": "Mentions on Jira cards are not sending notifications",
-      "status": "identified",
-      "created_at": "2023-08-28T07:29:23.673Z",
-      "updated_at": "2023-09-07T02:05:06.294Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/t7qsnwdp9sx5",
-      "started_at": "2023-08-28T07:29:23.666Z",
-      "page_id": "s6f0gm5gcpmy",
-      "incident_updates": [
-        {
-          "id": "q1rsdrz2n6ht",
-          "status": "identified",
-          "body": "The issue has been identified and we are applying the fix. Some tenants might still experience issues with their email notifications until the fix is fully rolled out. We will post an update once resolved.",
-          "incident_id": "63l82202cv62",
-          "created_at": "2023-09-07T02:05:06.292Z",
-          "updated_at": "2023-09-07T02:05:06.292Z",
-          "display_at": "2023-09-07T02:05:06.292Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "x1ggy00lthmg",
-          "status": "investigating",
-          "body": "We are aware of an issue whereby mentions on Jira cards are not sending notifications. We are investigating further and will post an update once resolved.",
-          "incident_id": "63l82202cv62",
-          "created_at": "2023-08-28T07:29:23.731Z",
-          "updated_at": "2023-08-28T07:29:23.731Z",
-          "display_at": "2023-08-28T07:29:23.731Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
