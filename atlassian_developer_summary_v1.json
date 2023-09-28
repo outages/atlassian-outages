@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-09-28T06:37:04.078Z"
+    "updated_at": "2023-09-28T18:41:43.448Z"
   },
   "components": [
     {
@@ -785,7 +785,7 @@
       "name": "Errors when using Forge in-app navigation in Confluence Cloud",
       "status": "identified",
       "created_at": "2023-09-27T11:50:58.858Z",
-      "updated_at": "2023-09-28T06:37:04.070Z",
+      "updated_at": "2023-09-28T18:41:43.439Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -796,11 +796,11 @@
         {
           "id": "gmpml0prkmmt",
           "status": "identified",
-          "body": "The issue has been identified and a fix rolled out.  This fix is currently soaking and will be be fully deployed to production by 17:00 UTC",
+          "body": "The issue has been identified and a fix rolled out. This fix is currently soaking and will be fully deployed to production by 17:00 UTC.",
           "incident_id": "qnshxkr2bcg8",
           "created_at": "2023-09-28T06:37:04.068Z",
-          "updated_at": "2023-09-28T06:37:04.068Z",
-          "display_at": "2023-09-28T06:37:04.068Z",
+          "updated_at": "2023-09-28T18:41:43.434Z",
+          "display_at": "2023-09-28T06:37:04.000Z",
           "affected_components": [
             {
               "code": "yjqnzm0tkgsd",
