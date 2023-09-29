@@ -4,13 +4,13 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-09-29T09:04:28.967Z"
+    "updated_at": "2023-09-29T10:48:37.515Z"
   },
   "components": [
     {
       "id": "w0ld3nc9jvdx",
       "name": "APIs",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:15:10.342Z",
       "updated_at": "2018-02-01T17:16:31.201Z",
       "position": 1,
@@ -94,9 +94,9 @@
     {
       "id": "yjqnzm0tkgsd",
       "name": "Confluence Cloud APIs",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:15:36.411Z",
-      "updated_at": "2023-09-27T11:50:58.892Z",
+      "updated_at": "2023-09-29T10:48:37.454Z",
       "position": 2,
       "description": null,
       "showcase": true,
@@ -779,101 +779,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "qnshxkr2bcg8",
-      "name": "Errors when using Forge in-app navigation in Confluence Cloud",
-      "status": "monitoring",
-      "created_at": "2023-09-27T11:50:58.858Z",
-      "updated_at": "2023-09-29T04:02:13.759Z",
-      "monitoring_at": "2023-09-29T04:02:13.746Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/brnjgclm1g56",
-      "started_at": "2023-09-27T11:50:58.851Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "jywcr682twpw",
-          "status": "monitoring",
-          "body": "A fix has been implemented and is rolled out to production - we are currently monitoring and verifying with impacted customers.",
-          "incident_id": "qnshxkr2bcg8",
-          "created_at": "2023-09-29T04:02:13.746Z",
-          "updated_at": "2023-09-29T04:02:13.746Z",
-          "display_at": "2023-09-29T04:02:13.746Z",
-          "affected_components": [
-            {
-              "code": "yjqnzm0tkgsd",
-              "name": "APIs - Confluence Cloud APIs",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "gmpml0prkmmt",
-          "status": "identified",
-          "body": "The issue has been identified and a fix rolled out. This fix is currently soaking and will be fully deployed to production by 17:00 UTC.",
-          "incident_id": "qnshxkr2bcg8",
-          "created_at": "2023-09-28T06:37:04.068Z",
-          "updated_at": "2023-09-28T18:41:43.434Z",
-          "display_at": "2023-09-28T06:37:04.000Z",
-          "affected_components": [
-            {
-              "code": "yjqnzm0tkgsd",
-              "name": "APIs - Confluence Cloud APIs",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "yz48nrdqk028",
-          "status": "investigating",
-          "body": "We have identified a problem with Forge apps using in-app navigation in Confluence Cloud. Some of the navigation attempts result in an error. We are investigating the root cause and will provide another update before 8:00 AM UTC on Sep 28th.",
-          "incident_id": "qnshxkr2bcg8",
-          "created_at": "2023-09-27T11:50:58.931Z",
-          "updated_at": "2023-09-27T11:50:58.931Z",
-          "display_at": "2023-09-27T11:50:58.931Z",
-          "affected_components": [
-            {
-              "code": "yjqnzm0tkgsd",
-              "name": "APIs - Confluence Cloud APIs",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "yjqnzm0tkgsd",
-          "name": "Confluence Cloud APIs",
-          "status": "partial_outage",
-          "created_at": "2018-02-01T17:15:36.411Z",
-          "updated_at": "2023-09-27T11:50:58.892Z",
-          "position": 2,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "w0ld3nc9jvdx",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": "8"
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [
     {
       "id": "2lspv9s4p0lq",
