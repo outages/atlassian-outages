@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-10-01T10:00:08.940Z"
+    "updated_at": "2023-10-02T07:02:43.270Z"
   },
   "components": [
     {
@@ -837,10 +837,10 @@
     },
     {
       "id": "2lspv9s4p0lq",
-      "name": "Temporary transaction data delay and limitations in Marketplace Portal starting October 1st(Sun) till October 8th(Sun)",
+      "name": "Temporary data delay in reporting and limitations in Marketplace Portal starting October 1st(Sun) till October 8th(Sun)",
       "status": "in_progress",
       "created_at": "2023-09-27T03:53:06.818Z",
-      "updated_at": "2023-10-01T10:00:08.925Z",
+      "updated_at": "2023-10-02T07:02:43.265Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
