@@ -4,15 +4,15 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-10-06T06:43:08.011Z"
+    "updated_at": "2023-10-10T11:37:11.265Z"
   },
   "components": [
     {
       "id": "l4fp2xkkygv4",
       "name": "Viewing content",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-11-16T18:17:29.270Z",
-      "updated_at": "2023-09-28T00:38:49.189Z",
+      "updated_at": "2023-10-10T11:37:11.158Z",
       "position": 1,
       "description": "Problems viewing issues, dashboards, boards, reports, etc.",
       "showcase": false,
@@ -25,9 +25,9 @@
     {
       "id": "dwt504s3m4c1",
       "name": "Create and edit",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-11-16T18:17:29.284Z",
-      "updated_at": "2023-09-19T07:37:17.795Z",
+      "updated_at": "2023-10-10T11:37:11.176Z",
       "position": 2,
       "description": "Problems creating or editing issues, projects, boards, reports, dashboards and the ability to comment, assign, and attach media.",
       "showcase": false,
@@ -55,9 +55,9 @@
     {
       "id": "c13948qkh0kk",
       "name": "Search",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-01-23T17:04:57.213Z",
-      "updated_at": "2023-09-19T07:37:22.940Z",
+      "updated_at": "2023-10-10T11:37:11.192Z",
       "position": 4,
       "description": "Problems with JQL or quick search",
       "showcase": false,
@@ -85,9 +85,9 @@
     {
       "id": "mfs4w2r40sf7",
       "name": "Administration",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-01-23T17:06:39.034Z",
-      "updated_at": "2023-09-19T07:37:26.304Z",
+      "updated_at": "2023-10-10T11:37:11.208Z",
       "position": 6,
       "description": "Viewing and editing \"site\" and \"Jira\" adminstration",
       "showcase": false,
@@ -173,10 +173,127 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "gkhkfg5k0dgz",
+      "name": "Jira is not accessible for some users due CORS errors",
+      "status": "monitoring",
+      "created_at": "2023-10-10T11:37:11.101Z",
+      "updated_at": "2023-10-10T11:37:11.263Z",
+      "monitoring_at": "2023-10-10T11:37:11.254Z",
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/dmnxcyccwgj7",
+      "started_at": "2023-10-10T11:37:11.092Z",
+      "page_id": "s6f0gm5gcpmy",
+      "incident_updates": [
+        {
+          "id": "b4m3554lkn50",
+          "status": "monitoring",
+          "body": "We are investigating an issue that occurs while users are trying to access their Jira applications.\nSome users are receiving CORS errors which prevents them from successfully loading Jira UI.",
+          "incident_id": "gkhkfg5k0dgz",
+          "created_at": "2023-10-10T11:37:11.254Z",
+          "updated_at": "2023-10-10T11:37:11.254Z",
+          "display_at": "2023-10-10T11:37:11.254Z",
+          "affected_components": [
+            {
+              "code": "l4fp2xkkygv4",
+              "name": "Viewing content",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "dwt504s3m4c1",
+              "name": "Create and edit",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "c13948qkh0kk",
+              "name": "Search",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "mfs4w2r40sf7",
+              "name": "Administration",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "l4fp2xkkygv4",
+          "name": "Viewing content",
+          "status": "degraded_performance",
+          "created_at": "2018-11-16T18:17:29.270Z",
+          "updated_at": "2023-10-10T11:37:11.158Z",
+          "position": 1,
+          "description": "Problems viewing issues, dashboards, boards, reports, etc.",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "s6f0gm5gcpmy",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "dwt504s3m4c1",
+          "name": "Create and edit",
+          "status": "degraded_performance",
+          "created_at": "2018-11-16T18:17:29.284Z",
+          "updated_at": "2023-10-10T11:37:11.176Z",
+          "position": 2,
+          "description": "Problems creating or editing issues, projects, boards, reports, dashboards and the ability to comment, assign, and attach media.",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "s6f0gm5gcpmy",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "c13948qkh0kk",
+          "name": "Search",
+          "status": "degraded_performance",
+          "created_at": "2019-01-23T17:04:57.213Z",
+          "updated_at": "2023-10-10T11:37:11.192Z",
+          "position": 4,
+          "description": "Problems with JQL or quick search",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "s6f0gm5gcpmy",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "mfs4w2r40sf7",
+          "name": "Administration",
+          "status": "degraded_performance",
+          "created_at": "2019-01-23T17:06:39.034Z",
+          "updated_at": "2023-10-10T11:37:11.208Z",
+          "position": 6,
+          "description": "Viewing and editing \"site\" and \"Jira\" adminstration",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "s6f0gm5gcpmy",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
