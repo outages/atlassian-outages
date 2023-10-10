@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-10-09T18:42:56.906Z"
+    "updated_at": "2023-10-10T04:54:43.280Z"
   },
   "components": [
     {
@@ -232,7 +232,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -691,9 +691,9 @@
     {
       "id": "1vvmngd73171",
       "name": "Vendor management",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:53:33.728Z",
-      "updated_at": "2023-10-09T18:39:14.680Z",
+      "updated_at": "2023-10-10T04:54:43.250Z",
       "position": 13,
       "description": null,
       "showcase": true,
@@ -779,64 +779,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "63bs38mw8fkd",
-      "name": "Marketplace is not displaying promotions created recently",
-      "status": "investigating",
-      "created_at": "2023-10-09T18:39:14.647Z",
-      "updated_at": "2023-10-09T18:39:32.556Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/j3fr2g8v0y1b",
-      "started_at": "2023-10-09T18:39:14.638Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "4xxlb2kj1md5",
-          "status": "investigating",
-          "body": "Promotions created recently are not being shown on the Promotions tab.\nMarketplace successfully creates the promotion, but it is not displayed.",
-          "incident_id": "63bs38mw8fkd",
-          "created_at": "2023-10-09T18:39:14.721Z",
-          "updated_at": "2023-10-09T18:39:14.721Z",
-          "display_at": "2023-10-09T18:39:14.721Z",
-          "affected_components": [
-            {
-              "code": "1vvmngd73171",
-              "name": "Marketplace - Vendor management",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "1vvmngd73171",
-          "name": "Vendor management",
-          "status": "partial_outage",
-          "created_at": "2018-02-01T17:53:33.728Z",
-          "updated_at": "2023-10-09T18:39:14.680Z",
-          "position": 13,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
