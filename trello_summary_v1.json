@@ -4,7 +4,7 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2023-10-19T22:13:11.288-04:00"
+    "updated_at": "2023-10-19T22:43:00.616-04:00"
   },
   "components": [
     {
@@ -89,7 +89,7 @@
       "name": "Degraded experience for Atlassian Intelligence features",
       "status": "identified",
       "created_at": "2023-10-19T21:49:10.241-04:00",
-      "updated_at": "2023-10-19T22:13:11.278-04:00",
+      "updated_at": "2023-10-19T22:38:30.158-04:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "none",
@@ -97,6 +97,19 @@
       "started_at": "2023-10-19T21:49:10.236-04:00",
       "page_id": "h5frqhb041yq",
       "incident_updates": [
+        {
+          "id": "5yprwct19g6c",
+          "status": "identified",
+          "body": "OpenAI team has applied a fix and we are seeing a reduction in the failure rate for Atlassian Intelligence capabilities in Confluence, Jira Service Management, Jira Software, Trello, Atlassian Bitbucket, and Atlas. \n\nWe continue to closely monitor our systems and coordinating with OpenAI for a faster recovery of Atlassian Intelligence capabilities.",
+          "incident_id": "dqht3fh5lj4j",
+          "created_at": "2023-10-19T22:38:30.155-04:00",
+          "updated_at": "2023-10-19T22:38:30.155-04:00",
+          "display_at": "2023-10-19T22:38:30.155-04:00",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "80758cz27dyk",
           "status": "identified",
