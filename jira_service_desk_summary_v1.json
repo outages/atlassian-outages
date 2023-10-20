@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-10-20T03:42:39.203Z"
+    "updated_at": "2023-10-20T04:34:30.847Z"
   },
   "components": [
     {
@@ -188,77 +188,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "fh3w4s6mlls3",
-      "name": "Degraded experience for Atlassian Intelligence features",
-      "status": "monitoring",
-      "created_at": "2023-10-20T01:49:10.014Z",
-      "updated_at": "2023-10-20T03:42:39.201Z",
-      "monitoring_at": "2023-10-20T03:42:39.184Z",
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/xn3dldlfhl3g",
-      "started_at": "2023-10-20T01:49:10.009Z",
-      "page_id": "pv54g7ltsc24",
-      "incident_updates": [
-        {
-          "id": "nt2x4htlb7zp",
-          "status": "monitoring",
-          "body": "OpenAI has mitigated the problem and we are currently not seeing any errors w.r.t. Atlassian Intelligence capabilities. \nWe are now monitoring closely.",
-          "incident_id": "fh3w4s6mlls3",
-          "created_at": "2023-10-20T03:42:39.184Z",
-          "updated_at": "2023-10-20T03:42:39.184Z",
-          "display_at": "2023-10-20T03:42:39.184Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "6fsfvkd067nq",
-          "status": "identified",
-          "body": "OpenAI team has applied a fix and we are seeing a reduction in the failure rate for Atlassian Intelligence capabilities in Confluence, Jira Service Management, Jira Software, Trello, Atlassian Bitbucket, and Atlas. \n\nWe continue to closely monitor our systems and coordinating with OpenAI for a faster recovery of Atlassian Intelligence capabilities.",
-          "incident_id": "fh3w4s6mlls3",
-          "created_at": "2023-10-20T02:38:30.136Z",
-          "updated_at": "2023-10-20T02:38:30.136Z",
-          "display_at": "2023-10-20T02:38:30.136Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "zyt1sx0wlg9j",
-          "status": "identified",
-          "body": "We continue to work on resolving the failures in Atlassian Intelligence capabilities for Confluence, Jira Service Management, Jira Software, Trello, Atlassian Bitbucket, and Atlas. \n\nThe cause of incident is increased API failure rate from OpenAI, we are in touch with them to understand the time to recover.",
-          "incident_id": "fh3w4s6mlls3",
-          "created_at": "2023-10-20T02:13:11.279Z",
-          "updated_at": "2023-10-20T02:13:11.279Z",
-          "display_at": "2023-10-20T02:13:11.279Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "7dwf78qj4lwp",
-          "status": "identified",
-          "body": "We are investigating reports of intermittent errors in Atlassian Intelligence capabilities for some Confluence, Jira Service Management, Jira Software, Trello, Atlassian Bitbucket, and Atlas Cloud customers. We will provide more details once we identify the root cause.",
-          "incident_id": "fh3w4s6mlls3",
-          "created_at": "2023-10-20T01:49:10.041Z",
-          "updated_at": "2023-10-20T01:49:10.041Z",
-          "display_at": "2023-10-20T01:49:10.041Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
