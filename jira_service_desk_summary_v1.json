@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-10-24T07:52:18.224Z"
+    "updated_at": "2023-10-24T10:01:49.100Z"
   },
   "components": [
     {
@@ -188,116 +188,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "8np8669mtvfp",
-      "name": "Email domain unverified",
-      "status": "identified",
-      "created_at": "2023-10-24T00:22:32.907Z",
-      "updated_at": "2023-10-24T07:52:18.217Z",
-      "monitoring_at": "2023-10-24T06:14:57.878Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/sk72fnthww10",
-      "started_at": "2023-10-24T00:22:32.901Z",
-      "page_id": "pv54g7ltsc24",
-      "incident_updates": [
-        {
-          "id": "vgh0l8fmzb2y",
-          "status": "identified",
-          "body": "We have identified the issue and a fix is currently being implemented. We expect this issue to be resolved shortly.",
-          "incident_id": "8np8669mtvfp",
-          "created_at": "2023-10-24T07:47:36.739Z",
-          "updated_at": "2023-10-24T07:52:18.212Z",
-          "display_at": "2023-10-24T07:47:36.000Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "4z84wwcymf57",
-          "status": "identified",
-          "body": "We identified that the mitigation method doesn't fix the issue in some affected Cloud instances. We are continuing with the investigation.",
-          "incident_id": "8np8669mtvfp",
-          "created_at": "2023-10-24T06:48:30.926Z",
-          "updated_at": "2023-10-24T06:48:30.926Z",
-          "display_at": "2023-10-24T06:48:30.926Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "7fw3kq4symj8",
-          "status": "monitoring",
-          "body": "We have mitigated the problem. We are now monitoring this closely.\n\nPlease contact us at https://support.atlassian.com/contact/ if you are still facing issues with email domain verification.",
-          "incident_id": "8np8669mtvfp",
-          "created_at": "2023-10-24T06:14:57.878Z",
-          "updated_at": "2023-10-24T06:14:57.878Z",
-          "display_at": "2023-10-24T06:14:57.878Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "mmkjdsqhxgk5",
-          "status": "identified",
-          "body": "We continue to work on resolving the issue with domain verification. We have identified the root cause and expect recovery shortly.",
-          "incident_id": "8np8669mtvfp",
-          "created_at": "2023-10-24T05:04:16.679Z",
-          "updated_at": "2023-10-24T05:04:16.679Z",
-          "display_at": "2023-10-24T05:04:16.679Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "t1j0n92w6qrn",
-          "status": "investigating",
-          "body": "The investigation is still ongoing. We are working on a mitigation.",
-          "incident_id": "8np8669mtvfp",
-          "created_at": "2023-10-24T02:44:21.773Z",
-          "updated_at": "2023-10-24T02:44:21.773Z",
-          "display_at": "2023-10-24T02:44:21.773Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "9m8626dm6k1p",
-          "status": "investigating",
-          "body": "We are continuing to investigate this issue. We are aware that this incident is impacting custom email configuration and some Jira notifications are being sent with the default email address instead of the configured custom email.\n\nWe will provide more details in the next hour.",
-          "incident_id": "8np8669mtvfp",
-          "created_at": "2023-10-24T01:49:23.906Z",
-          "updated_at": "2023-10-24T01:49:23.906Z",
-          "display_at": "2023-10-24T01:49:23.906Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "m3mnzx877zkq",
-          "status": "investigating",
-          "body": "We are investigating an issue with emails that have been sent out to admins stating domain verification is failing. We will provide more details within the next hour.",
-          "incident_id": "8np8669mtvfp",
-          "created_at": "2023-10-24T00:22:32.939Z",
-          "updated_at": "2023-10-24T00:22:32.939Z",
-          "display_at": "2023-10-24T00:22:32.939Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
