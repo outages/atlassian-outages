@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-10-24T07:47:36.747Z"
+    "updated_at": "2023-10-24T07:52:18.224Z"
   },
   "components": [
     {
@@ -194,7 +194,7 @@
       "name": "Email domain unverified",
       "status": "identified",
       "created_at": "2023-10-24T00:22:32.907Z",
-      "updated_at": "2023-10-24T07:47:36.741Z",
+      "updated_at": "2023-10-24T07:52:18.217Z",
       "monitoring_at": "2023-10-24T06:14:57.878Z",
       "resolved_at": null,
       "impact": "major",
@@ -205,11 +205,11 @@
         {
           "id": "vgh0l8fmzb2y",
           "status": "identified",
-          "body": "We have identified the problem and a fix is being implemented now.",
+          "body": "We have identified the issue and a fix is currently being implemented. We expect this issue to be resolved shortly.",
           "incident_id": "8np8669mtvfp",
           "created_at": "2023-10-24T07:47:36.739Z",
-          "updated_at": "2023-10-24T07:47:36.739Z",
-          "display_at": "2023-10-24T07:47:36.739Z",
+          "updated_at": "2023-10-24T07:52:18.212Z",
+          "display_at": "2023-10-24T07:47:36.000Z",
           "affected_components": null,
           "deliver_notifications": false,
           "custom_tweet": null,
