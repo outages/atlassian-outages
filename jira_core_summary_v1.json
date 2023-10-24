@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-10-24T10:01:35.799Z"
+    "updated_at": "2023-10-24T23:27:09.264Z"
   },
   "components": [
     {
@@ -70,9 +70,9 @@
     {
       "id": "5436s7p7v28b",
       "name": "Notifications",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-01-23T17:05:14.913Z",
-      "updated_at": "2023-10-24T10:01:35.767Z",
+      "updated_at": "2023-10-24T23:27:09.205Z",
       "position": 5,
       "description": "Email and in-web-app notifications",
       "showcase": false,
@@ -173,10 +173,64 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "gwpb0qppd9xn",
+      "name": "Email domain unverified",
+      "status": "investigating",
+      "created_at": "2023-10-24T23:27:09.180Z",
+      "updated_at": "2023-10-24T23:27:09.261Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/mqlbwz7p5zz7",
+      "started_at": "2023-10-24T23:27:09.174Z",
+      "page_id": "s6f0gm5gcpmy",
+      "incident_updates": [
+        {
+          "id": "kygbry6k4hhs",
+          "status": "investigating",
+          "body": "We are investigating an issue with emails that have been sent out to admins stating domain verification is failing. Affected users may see emails sent from Atlassian's default domain instead of the custom domain they have configured\n\nWe will provide more details within the next hour.",
+          "incident_id": "gwpb0qppd9xn",
+          "created_at": "2023-10-24T23:27:09.256Z",
+          "updated_at": "2023-10-24T23:27:09.256Z",
+          "display_at": "2023-10-24T23:27:09.256Z",
+          "affected_components": [
+            {
+              "code": "5436s7p7v28b",
+              "name": "Notifications",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "5436s7p7v28b",
+          "name": "Notifications",
+          "status": "degraded_performance",
+          "created_at": "2019-01-23T17:05:14.913Z",
+          "updated_at": "2023-10-24T23:27:09.205Z",
+          "position": 5,
+          "description": "Email and in-web-app notifications",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "s6f0gm5gcpmy",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
