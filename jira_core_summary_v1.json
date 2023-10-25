@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-10-24T23:43:39.095Z"
+    "updated_at": "2023-10-25T00:37:09.502Z"
   },
   "components": [
     {
@@ -177,9 +177,9 @@
     {
       "id": "gwpb0qppd9xn",
       "name": "Email domain unverified",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2023-10-24T23:27:09.180Z",
-      "updated_at": "2023-10-24T23:27:09.261Z",
+      "updated_at": "2023-10-25T00:37:09.493Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,26 @@
       "started_at": "2023-10-24T23:27:09.174Z",
       "page_id": "s6f0gm5gcpmy",
       "incident_updates": [
+        {
+          "id": "ccxp2p08sjjp",
+          "status": "identified",
+          "body": "We continue to work on resolving the issues with emails that have been sent out to admins stating domain verification is failing for Jira Work Management, Jira Service Management, Jira Software, and Jira Product Discovery. \n\nWe have identified the root cause and expect recovery shortly.",
+          "incident_id": "gwpb0qppd9xn",
+          "created_at": "2023-10-25T00:37:09.490Z",
+          "updated_at": "2023-10-25T00:37:09.490Z",
+          "display_at": "2023-10-25T00:37:09.490Z",
+          "affected_components": [
+            {
+              "code": "5436s7p7v28b",
+              "name": "Notifications",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "kygbry6k4hhs",
           "status": "investigating",
