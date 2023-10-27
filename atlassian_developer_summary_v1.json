@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-10-27T13:42:56.819Z"
+    "updated_at": "2023-10-27T17:01:35.901Z"
   },
   "components": [
     {
@@ -785,7 +785,7 @@
       "name": "Delay in updation of few fields in Marketplace licenses reports",
       "status": "identified",
       "created_at": "2023-10-27T12:57:25.874Z",
-      "updated_at": "2023-10-27T12:57:25.979Z",
+      "updated_at": "2023-10-27T17:01:35.892Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -793,6 +793,26 @@
       "started_at": "2023-10-27T12:57:25.852Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "xd6lzdsvyfl5",
+          "status": "identified",
+          "body": "The fix needs more investigation and we are continuing to work on the fix. We will provide next update by 6 AM UTC (11:30 AM IST) tomorrow",
+          "incident_id": "jg0g01vzdyqb",
+          "created_at": "2023-10-27T17:01:35.890Z",
+          "updated_at": "2023-10-27T17:01:35.890Z",
+          "display_at": "2023-10-27T17:01:35.890Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "qd43dml9mdg4",
           "status": "identified",
