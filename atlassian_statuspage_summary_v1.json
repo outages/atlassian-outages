@@ -4,13 +4,13 @@
     "name": "Atlassian Statuspage",
     "url": "http://metastatuspage.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-10-27T22:00:40.763-07:00"
+    "updated_at": "2023-10-28T00:36:24.465-07:00"
   },
   "components": [
     {
       "id": "hchd2wyk50h7",
       "name": "Hosted Pages",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:20:23.801-07:00",
       "updated_at": "2017-08-21T10:28:03.987-07:00",
       "position": 1,
@@ -33,9 +33,9 @@
     {
       "id": "rkld00070vm9",
       "name": "HTTP Pages",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:20:23.847-07:00",
-      "updated_at": "2023-10-27T22:00:40.201-07:00",
+      "updated_at": "2023-10-27T23:48:03.882-07:00",
       "position": 1,
       "description": null,
       "showcase": true,
@@ -48,9 +48,9 @@
     {
       "id": "0y0vb583m5g9",
       "name": "Admin User+Pass",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:21:06.996-07:00",
-      "updated_at": "2023-10-27T22:00:40.232-07:00",
+      "updated_at": "2023-10-27T23:48:03.913-07:00",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -63,9 +63,9 @@
     {
       "id": "fyzs60wyq01d",
       "name": "Web Portal",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:22:01.379-07:00",
-      "updated_at": "2023-10-27T22:00:40.245-07:00",
+      "updated_at": "2023-10-27T23:48:03.928-07:00",
       "position": 1,
       "description": null,
       "showcase": true,
@@ -78,9 +78,9 @@
     {
       "id": "5bflqtmq8jn6",
       "name": "Statuspage",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:22:18.229-07:00",
-      "updated_at": "2023-10-27T22:00:40.259-07:00",
+      "updated_at": "2023-10-27T23:48:03.942-07:00",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -93,9 +93,9 @@
     {
       "id": "vlr309x00nm7",
       "name": "Pingdom Email",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:22:29.775-07:00",
-      "updated_at": "2023-10-27T22:00:40.272-07:00",
+      "updated_at": "2023-10-27T23:48:03.956-07:00",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -108,9 +108,9 @@
     {
       "id": "0j0dpr5q595q",
       "name": "Email",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:29:36.370-07:00",
-      "updated_at": "2023-10-27T22:00:40.286-07:00",
+      "updated_at": "2023-10-27T23:48:03.971-07:00",
       "position": 1,
       "description": null,
       "showcase": true,
@@ -123,9 +123,9 @@
     {
       "id": "3218pv5ggw0q",
       "name": "Pingdom Integration",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:30:56.183-07:00",
-      "updated_at": "2023-10-27T22:00:40.309-07:00",
+      "updated_at": "2023-10-27T23:48:03.984-07:00",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -153,9 +153,9 @@
     {
       "id": "3bg3nq9mm436",
       "name": "HTTPS Pages",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:20:23.888-07:00",
-      "updated_at": "2023-10-27T22:00:40.322-07:00",
+      "updated_at": "2023-10-27T23:48:03.998-07:00",
       "position": 2,
       "description": null,
       "showcase": true,
@@ -168,9 +168,9 @@
     {
       "id": "cj7ylrcthmdz",
       "name": "Admin Google Auth",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:21:07.024-07:00",
-      "updated_at": "2023-10-27T22:00:40.335-07:00",
+      "updated_at": "2023-10-27T23:48:04.014-07:00",
       "position": 2,
       "description": null,
       "showcase": false,
@@ -183,9 +183,9 @@
     {
       "id": "3g0c0h5n5cp1",
       "name": "Authenticated API",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:21:45.963-07:00",
-      "updated_at": "2023-10-27T22:00:40.348-07:00",
+      "updated_at": "2023-10-27T23:48:04.033-07:00",
       "position": 2,
       "description": null,
       "showcase": true,
@@ -198,7 +198,7 @@
     {
       "id": "jk3l62p3pcfy",
       "name": "Management",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:22:01.354-07:00",
       "updated_at": "2017-08-24T12:33:47.091-07:00",
       "position": 2,
@@ -220,9 +220,9 @@
     {
       "id": "pht8mbkmkb7t",
       "name": "External",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:22:18.272-07:00",
-      "updated_at": "2023-10-27T22:00:40.362-07:00",
+      "updated_at": "2023-10-27T23:48:04.048-07:00",
       "position": 2,
       "description": null,
       "showcase": false,
@@ -235,9 +235,9 @@
     {
       "id": "c60q7bnhphdv",
       "name": "New Relic Email",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:22:29.825-07:00",
-      "updated_at": "2023-10-27T22:00:40.375-07:00",
+      "updated_at": "2023-10-27T23:48:04.062-07:00",
       "position": 2,
       "description": null,
       "showcase": false,
@@ -250,9 +250,9 @@
     {
       "id": "lhzq37ts0ppj",
       "name": "Slack",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:22:30.029-07:00",
-      "updated_at": "2023-10-27T22:00:40.388-07:00",
+      "updated_at": "2023-10-27T23:48:04.076-07:00",
       "position": 2,
       "description": null,
       "showcase": false,
@@ -265,9 +265,9 @@
     {
       "id": "hdj6sbn26g26",
       "name": "SMS",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:29:50.009-07:00",
-      "updated_at": "2023-10-27T22:00:40.401-07:00",
+      "updated_at": "2023-10-27T23:48:04.090-07:00",
       "position": 2,
       "description": null,
       "showcase": true,
@@ -280,9 +280,9 @@
     {
       "id": "hsc388fhkjnv",
       "name": "Librato Integration",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:31:11.000-07:00",
-      "updated_at": "2023-10-27T22:00:40.415-07:00",
+      "updated_at": "2023-10-27T23:48:04.104-07:00",
       "position": 2,
       "description": null,
       "showcase": false,
@@ -310,9 +310,9 @@
     {
       "id": "2k3fhq6zhd4j",
       "name": "Status Embed Widget",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:20:23.913-07:00",
-      "updated_at": "2023-10-27T22:00:40.428-07:00",
+      "updated_at": "2023-10-27T23:48:04.118-07:00",
       "position": 3,
       "description": null,
       "showcase": true,
@@ -325,9 +325,9 @@
     {
       "id": "2516dq72k9lj",
       "name": "Admin SAML 2.0",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:21:07.048-07:00",
-      "updated_at": "2023-10-27T22:00:40.442-07:00",
+      "updated_at": "2023-10-27T23:48:04.131-07:00",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -340,9 +340,9 @@
     {
       "id": "zfvjppljf2bm",
       "name": "DNS Validation",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:22:01.437-07:00",
-      "updated_at": "2023-10-27T22:00:40.457-07:00",
+      "updated_at": "2023-10-27T23:48:04.146-07:00",
       "position": 3,
       "description": null,
       "showcase": true,
@@ -355,9 +355,9 @@
     {
       "id": "gs5jy8lqszlt",
       "name": "Generic Email",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:22:29.860-07:00",
-      "updated_at": "2023-10-27T22:00:40.470-07:00",
+      "updated_at": "2023-10-27T23:48:04.169-07:00",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -370,7 +370,7 @@
     {
       "id": "131l86jhpwl3",
       "name": "Notifications",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:29:36.356-07:00",
       "updated_at": "2017-08-23T15:54:00.714-07:00",
       "position": 3,
@@ -391,9 +391,9 @@
     {
       "id": "bv7ffhfxmsx0",
       "name": "Webhook",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:29:59.976-07:00",
-      "updated_at": "2023-10-27T22:00:40.485-07:00",
+      "updated_at": "2023-10-27T23:48:04.183-07:00",
       "position": 3,
       "description": null,
       "showcase": true,
@@ -406,9 +406,9 @@
     {
       "id": "xw42ff1v5rmm",
       "name": "New Relic Integration",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:31:22.037-07:00",
-      "updated_at": "2023-10-27T22:00:40.499-07:00",
+      "updated_at": "2023-10-27T23:48:04.197-07:00",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -436,9 +436,9 @@
     {
       "id": "ff2cz0c51928",
       "name": "SSL Provisioning",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-04-21T14:15:17.557-07:00",
-      "updated_at": "2023-10-27T22:00:40.512-07:00",
+      "updated_at": "2023-10-27T23:48:04.212-07:00",
       "position": 4,
       "description": null,
       "showcase": true,
@@ -451,9 +451,9 @@
     {
       "id": "s0p4y2k09klc",
       "name": "Public API",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:20:23.944-07:00",
-      "updated_at": "2023-10-27T22:00:40.526-07:00",
+      "updated_at": "2023-10-27T23:48:04.228-07:00",
       "position": 4,
       "description": null,
       "showcase": true,
@@ -466,9 +466,9 @@
     {
       "id": "0kr0wdlqs7h8",
       "name": "Page Access Users",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:21:07.077-07:00",
-      "updated_at": "2023-10-27T22:00:40.545-07:00",
+      "updated_at": "2023-10-27T23:48:04.243-07:00",
       "position": 4,
       "description": null,
       "showcase": false,
@@ -481,7 +481,7 @@
     {
       "id": "bpcwggjv4tm7",
       "name": "Third Party Components",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:22:18.210-07:00",
       "updated_at": "2017-08-24T12:33:47.291-07:00",
       "position": 4,
@@ -500,9 +500,9 @@
     {
       "id": "2267qzw6yfc0",
       "name": "PagerDuty Webhook",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:22:29.899-07:00",
-      "updated_at": "2023-10-27T22:00:40.559-07:00",
+      "updated_at": "2023-10-27T23:48:04.259-07:00",
       "position": 4,
       "description": null,
       "showcase": false,
@@ -515,9 +515,9 @@
     {
       "id": "dsvt60wpqw23",
       "name": "Twitter",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:30:12.878-07:00",
-      "updated_at": "2023-10-27T22:00:40.573-07:00",
+      "updated_at": "2023-10-27T23:48:04.274-07:00",
       "position": 4,
       "description": null,
       "showcase": true,
@@ -530,9 +530,9 @@
     {
       "id": "4s2tjjrhf4d5",
       "name": "Datadog Integration",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:31:33.127-07:00",
-      "updated_at": "2023-10-27T22:00:40.586-07:00",
+      "updated_at": "2023-10-27T23:48:04.288-07:00",
       "position": 4,
       "description": null,
       "showcase": false,
@@ -560,7 +560,7 @@
     {
       "id": "kg33xy05zdyq",
       "name": "Authentication",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:21:06.986-07:00",
       "updated_at": "2017-08-24T12:33:47.449-07:00",
       "position": 5,
@@ -584,9 +584,9 @@
     {
       "id": "wnvlx7c8mfql",
       "name": "Page Google Auth",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:21:07.106-07:00",
-      "updated_at": "2023-10-27T22:00:40.600-07:00",
+      "updated_at": "2023-10-27T23:48:04.304-07:00",
       "position": 5,
       "description": null,
       "showcase": false,
@@ -599,9 +599,9 @@
     {
       "id": "v9dcxzcs9ypj",
       "name": "Billing",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:22:01.547-07:00",
-      "updated_at": "2023-10-27T22:00:40.614-07:00",
+      "updated_at": "2023-10-27T23:48:04.318-07:00",
       "position": 5,
       "description": null,
       "showcase": true,
@@ -614,9 +614,9 @@
     {
       "id": "yfp2yt5fx9cn",
       "name": "Custom Integration",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:31:43.862-07:00",
-      "updated_at": "2023-10-27T22:00:40.628-07:00",
+      "updated_at": "2023-10-27T23:48:04.332-07:00",
       "position": 5,
       "description": null,
       "showcase": false,
@@ -629,9 +629,9 @@
     {
       "id": "tpvwg6y7ltx2",
       "name": "Shortlinks",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-24T12:32:09.812-07:00",
-      "updated_at": "2023-10-27T22:00:40.642-07:00",
+      "updated_at": "2023-10-27T23:48:04.346-07:00",
       "position": 5,
       "description": null,
       "showcase": true,
@@ -644,9 +644,9 @@
     {
       "id": "f3kzxwdmmy7q",
       "name": "Jira Software Integration",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2018-10-17T15:12:57.166-07:00",
-      "updated_at": "2023-10-27T22:00:40.656-07:00",
+      "updated_at": "2023-10-27T23:48:04.361-07:00",
       "position": 5,
       "description": null,
       "showcase": false,
@@ -674,9 +674,9 @@
     {
       "id": "45b0h3k4ky7f",
       "name": "Page SAML 2.0",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:21:07.134-07:00",
-      "updated_at": "2023-10-27T22:00:40.670-07:00",
+      "updated_at": "2023-10-27T23:48:04.375-07:00",
       "position": 6,
       "description": null,
       "showcase": false,
@@ -689,7 +689,7 @@
     {
       "id": "l459pg65jrqf",
       "name": "Automation",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:22:29.732-07:00",
       "updated_at": "2017-08-24T12:33:47.951-07:00",
       "position": 6,
@@ -711,9 +711,9 @@
     {
       "id": "7x37zxqc4gq0",
       "name": "SMS Subscription",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2022-07-21T09:37:19.518-07:00",
-      "updated_at": "2023-10-27T22:00:40.685-07:00",
+      "updated_at": "2023-10-27T23:48:04.390-07:00",
       "position": 6,
       "description": null,
       "showcase": false,
@@ -726,9 +726,9 @@
     {
       "id": "kc0l63y8v8r5",
       "name": "Page IP Restriction",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:21:07.159-07:00",
-      "updated_at": "2023-10-27T22:00:40.699-07:00",
+      "updated_at": "2023-10-27T23:48:04.424-07:00",
       "position": 7,
       "description": null,
       "showcase": false,
@@ -741,7 +741,7 @@
     {
       "id": "r9bl2dqkyjp7",
       "name": "Chat Integrations",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:22:29.946-07:00",
       "updated_at": "2017-08-24T12:33:48.225-07:00",
       "position": 7,
@@ -759,7 +759,7 @@
     {
       "id": "v9191vsctr8q",
       "name": "System Metrics",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2017-08-21T10:30:56.166-07:00",
       "updated_at": "2018-04-09T10:41:59.061-07:00",
       "position": 8,
@@ -803,9 +803,9 @@
     {
       "id": "wgxgj3x4gjyy",
       "name": "Signup",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2020-10-23T14:12:27.848-07:00",
-      "updated_at": "2023-10-27T22:00:40.710-07:00",
+      "updated_at": "2023-10-27T23:48:04.438-07:00",
       "position": 10,
       "description": null,
       "showcase": false,
@@ -816,488 +816,46 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
-  "scheduled_maintenances": [
+  "incidents": [
     {
-      "id": "s21b66328h9j",
-      "name": "Statuspage Database Maintenance",
-      "status": "in_progress",
-      "created_at": "2023-09-29T00:51:19.573-07:00",
-      "updated_at": "2023-10-27T22:00:40.751-07:00",
+      "id": "cjk3z1vlfv55",
+      "name": "Intermittent errors while accessing public Statuspages",
+      "status": "investigating",
+      "created_at": "2023-10-28T00:36:24.422-07:00",
+      "updated_at": "2023-10-28T00:36:24.463-07:00",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "http://mstspg.co/ysysj2vngnzb",
-      "started_at": "2023-09-29T00:51:19.465-07:00",
+      "impact": "minor",
+      "shortlink": "http://mstspg.co/dy4804972ztd",
+      "started_at": "2023-10-28T00:36:24.412-07:00",
       "page_id": "y2j98763l56x",
       "incident_updates": [
         {
-          "id": "pfy4q745g3qj",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "s21b66328h9j",
-          "created_at": "2023-10-27T22:00:40.747-07:00",
-          "updated_at": "2023-10-27T22:00:40.747-07:00",
-          "display_at": "2023-10-27T22:00:40.747-07:00",
+          "id": "3f3lx7d609bt",
+          "status": "investigating",
+          "body": "We are currently seeing intermittent errors in viewing public Statuspages. We are investigating this problem and will provide updates shortly",
+          "incident_id": "cjk3z1vlfv55",
+          "created_at": "2023-10-28T00:36:24.461-07:00",
+          "updated_at": "2023-10-28T00:36:24.461-07:00",
+          "display_at": "2023-10-28T00:36:24.461-07:00",
           "affected_components": [
             {
               "code": "rkld00070vm9",
               "name": "Hosted Pages - HTTP Pages",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
             },
             {
               "code": "3bg3nq9mm436",
               "name": "Hosted Pages - HTTPS Pages",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "2k3fhq6zhd4j",
-              "name": "Hosted Pages - Status Embed Widget",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
             },
             {
               "code": "s0p4y2k09klc",
               "name": "Hosted Pages - Public API",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "tpvwg6y7ltx2",
-              "name": "Hosted Pages - Shortlinks",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "7x37zxqc4gq0",
-              "name": "Hosted Pages - SMS Subscription",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "0y0vb583m5g9",
-              "name": "Authentication - Admin User+Pass",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "cj7ylrcthmdz",
-              "name": "Authentication - Admin Google Auth",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "2516dq72k9lj",
-              "name": "Authentication - Admin SAML 2.0",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "0kr0wdlqs7h8",
-              "name": "Authentication - Page Access Users",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "wnvlx7c8mfql",
-              "name": "Authentication - Page Google Auth",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "45b0h3k4ky7f",
-              "name": "Authentication - Page SAML 2.0",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "kc0l63y8v8r5",
-              "name": "Authentication - Page IP Restriction",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "fyzs60wyq01d",
-              "name": "Management - Web Portal",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "3g0c0h5n5cp1",
-              "name": "Management - Authenticated API",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "zfvjppljf2bm",
-              "name": "Management - DNS Validation",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "ff2cz0c51928",
-              "name": "Management - SSL Provisioning",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "v9dcxzcs9ypj",
-              "name": "Management - Billing",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "5bflqtmq8jn6",
-              "name": "Third Party Components - Statuspage",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "pht8mbkmkb7t",
-              "name": "Third Party Components - External",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "vlr309x00nm7",
-              "name": "Automation - Pingdom Email",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "c60q7bnhphdv",
-              "name": "Automation - New Relic Email",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "gs5jy8lqszlt",
-              "name": "Automation - Generic Email",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "2267qzw6yfc0",
-              "name": "Automation - PagerDuty Webhook",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "f3kzxwdmmy7q",
-              "name": "Automation - Jira Software Integration",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "lhzq37ts0ppj",
-              "name": "Chat Integrations - Slack",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "0j0dpr5q595q",
-              "name": "Notifications - Email",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "hdj6sbn26g26",
-              "name": "Notifications - SMS",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "bv7ffhfxmsx0",
-              "name": "Notifications - Webhook",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "dsvt60wpqw23",
-              "name": "Notifications - Twitter",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "3218pv5ggw0q",
-              "name": "System Metrics - Pingdom Integration",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "hsc388fhkjnv",
-              "name": "System Metrics - Librato Integration",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "xw42ff1v5rmm",
-              "name": "System Metrics - New Relic Integration",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "4s2tjjrhf4d5",
-              "name": "System Metrics - Datadog Integration",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "yfp2yt5fx9cn",
-              "name": "System Metrics - Custom Integration",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "wgxgj3x4gjyy",
-              "name": "Signup",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "s17ps7rft7c0",
-          "status": "scheduled",
-          "body": "Maintenance will begin as scheduled in 60 minutes.",
-          "incident_id": "s21b66328h9j",
-          "created_at": "2023-10-27T20:59:57.141-07:00",
-          "updated_at": "2023-10-27T20:59:57.141-07:00",
-          "display_at": "2023-10-27T20:59:57.141-07:00",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "q342cgbd1w3g",
-          "status": "scheduled",
-          "body": "As part of our commitment to provide exceptional service and reliability to our customers, Statuspage will be conducting service maintenance on the mentioned date and time.\nOur team will be taking all appropriate actions to minimize service interruptions during this event.\n\nPurpose: This maintenance is to ensure and maintain system performance and stability.\n\nDuration: All maintenance will be performed within the 1-hour maintenance window.\n\nWhat to expect: During the maintenance window, we expect a ten-minute downtime where customers would not be able to log in to manage.statuspage.io, Statuspage APIs will not be available\nand system metrics will be updated post the maintenance activity. Customers' public Statuspages will be served using cached pages on a best effort basis during this maintenance window. Private Statuspages will not be accessible during this period.\n\nWe would like to thank you for your patience and understanding during this time period.",
-          "incident_id": "s21b66328h9j",
-          "created_at": "2023-09-29T00:51:19.718-07:00",
-          "updated_at": "2023-09-29T00:51:19.718-07:00",
-          "display_at": "2023-09-29T00:51:19.718-07:00",
-          "affected_components": [
-            {
-              "code": "rkld00070vm9",
-              "name": "Hosted Pages - HTTP Pages",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "3bg3nq9mm436",
-              "name": "Hosted Pages - HTTPS Pages",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "2k3fhq6zhd4j",
-              "name": "Hosted Pages - Status Embed Widget",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "s0p4y2k09klc",
-              "name": "Hosted Pages - Public API",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "tpvwg6y7ltx2",
-              "name": "Hosted Pages - Shortlinks",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "7x37zxqc4gq0",
-              "name": "Hosted Pages - SMS Subscription",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "0y0vb583m5g9",
-              "name": "Authentication - Admin User+Pass",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "cj7ylrcthmdz",
-              "name": "Authentication - Admin Google Auth",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "2516dq72k9lj",
-              "name": "Authentication - Admin SAML 2.0",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "0kr0wdlqs7h8",
-              "name": "Authentication - Page Access Users",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "wnvlx7c8mfql",
-              "name": "Authentication - Page Google Auth",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "45b0h3k4ky7f",
-              "name": "Authentication - Page SAML 2.0",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "kc0l63y8v8r5",
-              "name": "Authentication - Page IP Restriction",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "fyzs60wyq01d",
-              "name": "Management - Web Portal",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "3g0c0h5n5cp1",
-              "name": "Management - Authenticated API",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "zfvjppljf2bm",
-              "name": "Management - DNS Validation",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "ff2cz0c51928",
-              "name": "Management - SSL Provisioning",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "v9dcxzcs9ypj",
-              "name": "Management - Billing",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "5bflqtmq8jn6",
-              "name": "Third Party Components - Statuspage",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "pht8mbkmkb7t",
-              "name": "Third Party Components - External",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "vlr309x00nm7",
-              "name": "Automation - Pingdom Email",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "c60q7bnhphdv",
-              "name": "Automation - New Relic Email",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "gs5jy8lqszlt",
-              "name": "Automation - Generic Email",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "2267qzw6yfc0",
-              "name": "Automation - PagerDuty Webhook",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "f3kzxwdmmy7q",
-              "name": "Automation - Jira Software Integration",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "lhzq37ts0ppj",
-              "name": "Chat Integrations - Slack",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "0j0dpr5q595q",
-              "name": "Notifications - Email",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "hdj6sbn26g26",
-              "name": "Notifications - SMS",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "bv7ffhfxmsx0",
-              "name": "Notifications - Webhook",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "dsvt60wpqw23",
-              "name": "Notifications - Twitter",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "3218pv5ggw0q",
-              "name": "System Metrics - Pingdom Integration",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "hsc388fhkjnv",
-              "name": "System Metrics - Librato Integration",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "xw42ff1v5rmm",
-              "name": "System Metrics - New Relic Integration",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "4s2tjjrhf4d5",
-              "name": "System Metrics - Datadog Integration",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "yfp2yt5fx9cn",
-              "name": "System Metrics - Custom Integration",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "wgxgj3x4gjyy",
-              "name": "Signup",
-              "old_status": "operational",
-              "new_status": "operational"
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
             }
           ],
           "deliver_notifications": true,
@@ -1309,104 +867,14 @@
         {
           "id": "rkld00070vm9",
           "name": "HTTP Pages",
-          "status": "under_maintenance",
+          "status": "degraded_performance",
           "created_at": "2017-08-21T10:20:23.847-07:00",
-          "updated_at": "2023-10-27T22:00:40.201-07:00",
+          "updated_at": "2023-10-27T23:48:03.882-07:00",
           "position": 1,
           "description": null,
           "showcase": true,
           "start_date": null,
           "group_id": "hchd2wyk50h7",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "0y0vb583m5g9",
-          "name": "Admin User+Pass",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:21:06.996-07:00",
-          "updated_at": "2023-10-27T22:00:40.232-07:00",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "kg33xy05zdyq",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "fyzs60wyq01d",
-          "name": "Web Portal",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:22:01.379-07:00",
-          "updated_at": "2023-10-27T22:00:40.245-07:00",
-          "position": 1,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "jk3l62p3pcfy",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "5bflqtmq8jn6",
-          "name": "Statuspage",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:22:18.229-07:00",
-          "updated_at": "2023-10-27T22:00:40.259-07:00",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "bpcwggjv4tm7",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "vlr309x00nm7",
-          "name": "Pingdom Email",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:22:29.775-07:00",
-          "updated_at": "2023-10-27T22:00:40.272-07:00",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "l459pg65jrqf",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "0j0dpr5q595q",
-          "name": "Email",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:29:36.370-07:00",
-          "updated_at": "2023-10-27T22:00:40.286-07:00",
-          "position": 1,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "131l86jhpwl3",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "3218pv5ggw0q",
-          "name": "Pingdom Integration",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:30:56.183-07:00",
-          "updated_at": "2023-10-27T22:00:40.309-07:00",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "v9191vsctr8q",
           "page_id": "y2j98763l56x",
           "group": false,
           "only_show_if_degraded": false
@@ -1414,224 +882,14 @@
         {
           "id": "3bg3nq9mm436",
           "name": "HTTPS Pages",
-          "status": "under_maintenance",
+          "status": "degraded_performance",
           "created_at": "2017-08-21T10:20:23.888-07:00",
-          "updated_at": "2023-10-27T22:00:40.322-07:00",
+          "updated_at": "2023-10-27T23:48:03.998-07:00",
           "position": 2,
           "description": null,
           "showcase": true,
           "start_date": null,
           "group_id": "hchd2wyk50h7",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "cj7ylrcthmdz",
-          "name": "Admin Google Auth",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:21:07.024-07:00",
-          "updated_at": "2023-10-27T22:00:40.335-07:00",
-          "position": 2,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "kg33xy05zdyq",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "3g0c0h5n5cp1",
-          "name": "Authenticated API",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:21:45.963-07:00",
-          "updated_at": "2023-10-27T22:00:40.348-07:00",
-          "position": 2,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "jk3l62p3pcfy",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "pht8mbkmkb7t",
-          "name": "External",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:22:18.272-07:00",
-          "updated_at": "2023-10-27T22:00:40.362-07:00",
-          "position": 2,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "bpcwggjv4tm7",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "c60q7bnhphdv",
-          "name": "New Relic Email",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:22:29.825-07:00",
-          "updated_at": "2023-10-27T22:00:40.375-07:00",
-          "position": 2,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "l459pg65jrqf",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "lhzq37ts0ppj",
-          "name": "Slack",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:22:30.029-07:00",
-          "updated_at": "2023-10-27T22:00:40.388-07:00",
-          "position": 2,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "r9bl2dqkyjp7",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "hdj6sbn26g26",
-          "name": "SMS",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:29:50.009-07:00",
-          "updated_at": "2023-10-27T22:00:40.401-07:00",
-          "position": 2,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "131l86jhpwl3",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "hsc388fhkjnv",
-          "name": "Librato Integration",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:31:11.000-07:00",
-          "updated_at": "2023-10-27T22:00:40.415-07:00",
-          "position": 2,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "v9191vsctr8q",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "2k3fhq6zhd4j",
-          "name": "Status Embed Widget",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:20:23.913-07:00",
-          "updated_at": "2023-10-27T22:00:40.428-07:00",
-          "position": 3,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "hchd2wyk50h7",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "2516dq72k9lj",
-          "name": "Admin SAML 2.0",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:21:07.048-07:00",
-          "updated_at": "2023-10-27T22:00:40.442-07:00",
-          "position": 3,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "kg33xy05zdyq",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "zfvjppljf2bm",
-          "name": "DNS Validation",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:22:01.437-07:00",
-          "updated_at": "2023-10-27T22:00:40.457-07:00",
-          "position": 3,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "jk3l62p3pcfy",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "gs5jy8lqszlt",
-          "name": "Generic Email",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:22:29.860-07:00",
-          "updated_at": "2023-10-27T22:00:40.470-07:00",
-          "position": 3,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "l459pg65jrqf",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "bv7ffhfxmsx0",
-          "name": "Webhook",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:29:59.976-07:00",
-          "updated_at": "2023-10-27T22:00:40.485-07:00",
-          "position": 3,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "131l86jhpwl3",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "xw42ff1v5rmm",
-          "name": "New Relic Integration",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:31:22.037-07:00",
-          "updated_at": "2023-10-27T22:00:40.499-07:00",
-          "position": 3,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "v9191vsctr8q",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "ff2cz0c51928",
-          "name": "SSL Provisioning",
-          "status": "under_maintenance",
-          "created_at": "2017-04-21T14:15:17.557-07:00",
-          "updated_at": "2023-10-27T22:00:40.512-07:00",
-          "position": 4,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "jk3l62p3pcfy",
           "page_id": "y2j98763l56x",
           "group": false,
           "only_show_if_degraded": false
@@ -1639,220 +897,25 @@
         {
           "id": "s0p4y2k09klc",
           "name": "Public API",
-          "status": "under_maintenance",
+          "status": "degraded_performance",
           "created_at": "2017-08-21T10:20:23.944-07:00",
-          "updated_at": "2023-10-27T22:00:40.526-07:00",
+          "updated_at": "2023-10-27T23:48:04.228-07:00",
           "position": 4,
           "description": null,
           "showcase": true,
           "start_date": null,
           "group_id": "hchd2wyk50h7",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "0kr0wdlqs7h8",
-          "name": "Page Access Users",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:21:07.077-07:00",
-          "updated_at": "2023-10-27T22:00:40.545-07:00",
-          "position": 4,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "kg33xy05zdyq",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "2267qzw6yfc0",
-          "name": "PagerDuty Webhook",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:22:29.899-07:00",
-          "updated_at": "2023-10-27T22:00:40.559-07:00",
-          "position": 4,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "l459pg65jrqf",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "dsvt60wpqw23",
-          "name": "Twitter",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:30:12.878-07:00",
-          "updated_at": "2023-10-27T22:00:40.573-07:00",
-          "position": 4,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "131l86jhpwl3",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "4s2tjjrhf4d5",
-          "name": "Datadog Integration",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:31:33.127-07:00",
-          "updated_at": "2023-10-27T22:00:40.586-07:00",
-          "position": 4,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "v9191vsctr8q",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "wnvlx7c8mfql",
-          "name": "Page Google Auth",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:21:07.106-07:00",
-          "updated_at": "2023-10-27T22:00:40.600-07:00",
-          "position": 5,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "kg33xy05zdyq",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "v9dcxzcs9ypj",
-          "name": "Billing",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:22:01.547-07:00",
-          "updated_at": "2023-10-27T22:00:40.614-07:00",
-          "position": 5,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "jk3l62p3pcfy",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "yfp2yt5fx9cn",
-          "name": "Custom Integration",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:31:43.862-07:00",
-          "updated_at": "2023-10-27T22:00:40.628-07:00",
-          "position": 5,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "v9191vsctr8q",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "tpvwg6y7ltx2",
-          "name": "Shortlinks",
-          "status": "under_maintenance",
-          "created_at": "2017-08-24T12:32:09.812-07:00",
-          "updated_at": "2023-10-27T22:00:40.642-07:00",
-          "position": 5,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "hchd2wyk50h7",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "f3kzxwdmmy7q",
-          "name": "Jira Software Integration",
-          "status": "under_maintenance",
-          "created_at": "2018-10-17T15:12:57.166-07:00",
-          "updated_at": "2023-10-27T22:00:40.656-07:00",
-          "position": 5,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "l459pg65jrqf",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "45b0h3k4ky7f",
-          "name": "Page SAML 2.0",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:21:07.134-07:00",
-          "updated_at": "2023-10-27T22:00:40.670-07:00",
-          "position": 6,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "kg33xy05zdyq",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "7x37zxqc4gq0",
-          "name": "SMS Subscription",
-          "status": "under_maintenance",
-          "created_at": "2022-07-21T09:37:19.518-07:00",
-          "updated_at": "2023-10-27T22:00:40.685-07:00",
-          "position": 6,
-          "description": null,
-          "showcase": false,
-          "start_date": "2022-07-21",
-          "group_id": "hchd2wyk50h7",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "kc0l63y8v8r5",
-          "name": "Page IP Restriction",
-          "status": "under_maintenance",
-          "created_at": "2017-08-21T10:21:07.159-07:00",
-          "updated_at": "2023-10-27T22:00:40.699-07:00",
-          "position": 7,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "kg33xy05zdyq",
-          "page_id": "y2j98763l56x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "wgxgj3x4gjyy",
-          "name": "Signup",
-          "status": "under_maintenance",
-          "created_at": "2020-10-23T14:12:27.848-07:00",
-          "updated_at": "2023-10-27T22:00:40.710-07:00",
-          "position": 10,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-10-23",
-          "group_id": null,
           "page_id": "y2j98763l56x",
           "group": false,
           "only_show_if_degraded": false
         }
       ],
-      "scheduled_for": "2023-10-27T22:00:00.000-07:00",
-      "scheduled_until": "2023-10-27T23:00:00.000-07:00"
+      "reminder_intervals": null
     }
   ],
+  "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
