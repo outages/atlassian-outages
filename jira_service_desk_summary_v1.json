@@ -4,15 +4,15 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-11-07T21:19:39.265Z"
+    "updated_at": "2023-11-07T21:48:43.808Z"
   },
   "components": [
     {
       "id": "4kcs01hbh4l6",
       "name": "Jira Service Management Web",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-11-16T18:06:14.831Z",
-      "updated_at": "2023-11-07T21:19:39.215Z",
+      "updated_at": "2023-11-07T21:48:43.750Z",
       "position": 1,
       "description": "Problems with queues, issues, reports, searching, and anything else impacting an agent's ability to complete their work",
       "showcase": false,
@@ -188,64 +188,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "r0csdzyzjr3w",
-      "name": "Users unable to access boards, projects and issues in Jira Cloud",
-      "status": "identified",
-      "created_at": "2023-11-07T21:19:39.180Z",
-      "updated_at": "2023-11-07T21:19:39.262Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/tpk06kccdpwx",
-      "started_at": "2023-11-07T21:19:39.173Z",
-      "page_id": "pv54g7ltsc24",
-      "incident_updates": [
-        {
-          "id": "cmw0vqvbst8p",
-          "status": "identified",
-          "body": "We are investigating reports of intermittent errors of users unable to access boards, projects, and issues. This is affecting Jira Service Management, Jira Software, and Jira Work Management. We will provide more details once we identify the root cause.",
-          "incident_id": "r0csdzyzjr3w",
-          "created_at": "2023-11-07T21:19:39.259Z",
-          "updated_at": "2023-11-07T21:19:39.259Z",
-          "display_at": "2023-11-07T21:19:39.259Z",
-          "affected_components": [
-            {
-              "code": "4kcs01hbh4l6",
-              "name": "Jira Service Management Web",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "4kcs01hbh4l6",
-          "name": "Jira Service Management Web",
-          "status": "degraded_performance",
-          "created_at": "2018-11-16T18:06:14.831Z",
-          "updated_at": "2023-11-07T21:19:39.215Z",
-          "position": 1,
-          "description": "Problems with queues, issues, reports, searching, and anything else impacting an agent's ability to complete their work",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
