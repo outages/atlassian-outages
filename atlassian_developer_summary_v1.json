@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-11-10T18:42:57.034Z"
+    "updated_at": "2023-11-10T21:51:57.989Z"
   },
   "components": [
     {
@@ -785,7 +785,7 @@
       "name": "Jira Connect framework falling back to  baseUrl instead of utilizing regionBaseUrls during app upgrade",
       "status": "identified",
       "created_at": "2023-11-10T18:06:57.429Z",
-      "updated_at": "2023-11-10T18:07:08.171Z",
+      "updated_at": "2023-11-10T21:51:57.977Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -793,6 +793,19 @@
       "started_at": "2023-11-10T18:06:57.420Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "kcytmwrqqfwf",
+          "status": "identified",
+          "body": "We are continuing to work on the issue.\n\nWe have identified and mitigated the problem, new installs and upgrades won't experience the issue.\nA known workaround for customers affected by this bug is to uninstall and then reinstall the app.\n\nWe are now working on the recovery for the affected customers.\n\nWe will provide another update around 02:00 UTC.",
+          "incident_id": "0bg98qq36y2z",
+          "created_at": "2023-11-10T21:51:57.974Z",
+          "updated_at": "2023-11-10T21:51:57.974Z",
+          "display_at": "2023-11-10T21:51:57.974Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "msrkcp6b5bdw",
           "status": "identified",
