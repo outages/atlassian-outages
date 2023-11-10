@@ -4,15 +4,15 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2023-11-10T03:43:17.497-05:00"
+    "updated_at": "2023-11-10T09:45:57.958-05:00"
   },
   "components": [
     {
       "id": "hsr3nvlz0k2l",
       "name": "Trello.com",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2020-01-24T12:50:55.839-05:00",
-      "updated_at": "2023-09-25T15:25:46.292-04:00",
+      "updated_at": "2023-11-10T09:45:55.904-05:00",
       "position": 1,
       "description": "Web client",
       "showcase": true,
@@ -25,9 +25,9 @@
     {
       "id": "y1nllgnkxn9d",
       "name": "API",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2020-01-24T12:50:17.715-05:00",
-      "updated_at": "2023-09-19T03:36:23.064-04:00",
+      "updated_at": "2023-11-10T09:45:55.919-05:00",
       "position": 2,
       "description": null,
       "showcase": true,
@@ -83,10 +83,111 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "m1pqvkhrnkbv",
+      "name": "Trello is down",
+      "status": "identified",
+      "created_at": "2023-11-10T09:43:22.222-05:00",
+      "updated_at": "2023-11-10T09:45:57.860-05:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "critical",
+      "shortlink": "https://stspg.io/fnn23s7b2bn4",
+      "started_at": "2023-11-10T09:43:22.216-05:00",
+      "page_id": "h5frqhb041yq",
+      "incident_updates": [
+        {
+          "id": "nc52pbftw7lq",
+          "status": "identified",
+          "body": "We are continuing to work on a fix for this issue.",
+          "incident_id": "m1pqvkhrnkbv",
+          "created_at": "2023-11-10T09:45:55.955-05:00",
+          "updated_at": "2023-11-10T09:45:57.677-05:00",
+          "display_at": "2023-11-10T09:45:55.955-05:00",
+          "affected_components": [
+            {
+              "code": "y1nllgnkxn9d",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "hsr3nvlz0k2l",
+              "name": "Trello.com",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1722988973369504300
+        },
+        {
+          "id": "crvcb4pzch5s",
+          "status": "identified",
+          "body": "We've identified an issue on Trello that's affecting multiple users to connect to our servers. We'll provide a new update soon.",
+          "incident_id": "m1pqvkhrnkbv",
+          "created_at": "2023-11-10T09:43:22.262-05:00",
+          "updated_at": "2023-11-10T09:43:22.840-05:00",
+          "display_at": "2023-11-10T09:43:22.262-05:00",
+          "affected_components": [
+            {
+              "code": "y1nllgnkxn9d",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "hsr3nvlz0k2l",
+              "name": "Trello.com",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1722988323831271700
+        }
+      ],
+      "components": [
+        {
+          "id": "hsr3nvlz0k2l",
+          "name": "Trello.com",
+          "status": "major_outage",
+          "created_at": "2020-01-24T12:50:55.839-05:00",
+          "updated_at": "2023-11-10T09:45:55.904-05:00",
+          "position": 1,
+          "description": "Web client",
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "h5frqhb041yq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "y1nllgnkxn9d",
+          "name": "API",
+          "status": "major_outage",
+          "created_at": "2020-01-24T12:50:17.715-05:00",
+          "updated_at": "2023-11-10T09:45:55.919-05:00",
+          "position": 2,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "h5frqhb041yq",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "major",
+    "description": "Partial System Outage"
   }
 }
