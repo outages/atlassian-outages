@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-11-11T23:58:48.984Z"
+    "updated_at": "2023-11-12T05:41:02.089Z"
   },
   "components": [
     {
@@ -783,16 +783,29 @@
     {
       "id": "0bg98qq36y2z",
       "name": "Jira Connect framework falling back to  baseUrl instead of utilizing regionBaseUrls during app upgrade",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2023-11-10T18:06:57.429Z",
-      "updated_at": "2023-11-11T23:58:48.976Z",
-      "monitoring_at": null,
+      "updated_at": "2023-11-12T05:41:02.087Z",
+      "monitoring_at": "2023-11-12T05:41:02.071Z",
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/1y2554f29qks",
       "started_at": "2023-11-10T18:06:57.420Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "xlrpz5n9fn70",
+          "status": "monitoring",
+          "body": "The issue began at 13:00 UTC on November 9th, with remedial measures taken at 18:00 UTC the following day, November 10th. \n\nUsers could not see their data as the app was targeting a wrong region.\n\nThe root cause of the issue has been found and rolled back. \nWe can confirm that no new cases of this particular incident are taking place. It has been confirmed that this issue did not affect new app installations during the affected period, but only app upgrades.\n\nData has now been recovered. We are currently monitoring the \n\nAn update will be provided around 23:00 UTC.",
+          "incident_id": "0bg98qq36y2z",
+          "created_at": "2023-11-12T05:41:02.071Z",
+          "updated_at": "2023-11-12T05:41:02.071Z",
+          "display_at": "2023-11-12T05:41:02.071Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "j3wk8yr3rk78",
           "status": "identified",
