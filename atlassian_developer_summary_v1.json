@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-11-12T05:41:02.089Z"
+    "updated_at": "2023-11-12T22:06:43.224Z"
   },
   "components": [
     {
@@ -779,90 +779,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "0bg98qq36y2z",
-      "name": "Jira Connect framework falling back to  baseUrl instead of utilizing regionBaseUrls during app upgrade",
-      "status": "monitoring",
-      "created_at": "2023-11-10T18:06:57.429Z",
-      "updated_at": "2023-11-12T05:41:02.087Z",
-      "monitoring_at": "2023-11-12T05:41:02.071Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/1y2554f29qks",
-      "started_at": "2023-11-10T18:06:57.420Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "xlrpz5n9fn70",
-          "status": "monitoring",
-          "body": "The issue began at 13:00 UTC on November 9th, with remedial measures taken at 18:00 UTC the following day, November 10th. \n\nUsers could not see their data as the app was targeting a wrong region.\n\nThe root cause of the issue has been found and rolled back. \nWe can confirm that no new cases of this particular incident are taking place. It has been confirmed that this issue did not affect new app installations during the affected period, but only app upgrades.\n\nData has now been recovered. We are currently monitoring the \n\nAn update will be provided around 23:00 UTC.",
-          "incident_id": "0bg98qq36y2z",
-          "created_at": "2023-11-12T05:41:02.071Z",
-          "updated_at": "2023-11-12T05:41:02.071Z",
-          "display_at": "2023-11-12T05:41:02.071Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "j3wk8yr3rk78",
-          "status": "identified",
-          "body": "The issue began at 13:00 UTC on November 9th, with remedial measures taken at 18:00 UTC the following day, November 10th. \n\nUsers could not see their data as the app was targeting a wrong region.\n\nThe root cause of the issue has been found and rolled back. \nWe can confirm that no new cases of this particular incident are taking place. It has been confirmed that this issue did not affect new app installations during the affected period, but only app upgrades.\n\nEfforts to recover the data are still ongoing.\n\nAn update will be provided around 04:00 UTC.",
-          "incident_id": "0bg98qq36y2z",
-          "created_at": "2023-11-11T23:58:48.974Z",
-          "updated_at": "2023-11-11T23:58:48.974Z",
-          "display_at": "2023-11-11T23:58:48.974Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "xhb27sdmjdyw",
-          "status": "identified",
-          "body": "The root cause has been identified and been rolled back.\nWe are now working on recovering the baseUrl of the affected apps from backups to recover the functionality for the users.\n\nWe will provide another update around 07:00 UTC",
-          "incident_id": "0bg98qq36y2z",
-          "created_at": "2023-11-11T03:13:45.210Z",
-          "updated_at": "2023-11-11T03:13:45.210Z",
-          "display_at": "2023-11-11T03:13:45.210Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "kcytmwrqqfwf",
-          "status": "identified",
-          "body": "We are continuing to work on the issue.\n\nWe have identified and mitigated the problem, new installs and upgrades won't experience the issue.\nA known workaround for customers affected by this bug is to uninstall and then reinstall the app.\n\nWe are now working on the recovery for the affected customers.\n\nWe will provide another update around 02:00 UTC.",
-          "incident_id": "0bg98qq36y2z",
-          "created_at": "2023-11-10T21:51:57.974Z",
-          "updated_at": "2023-11-10T21:51:57.974Z",
-          "display_at": "2023-11-10T21:51:57.974Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "msrkcp6b5bdw",
-          "status": "identified",
-          "body": "We are investigating an incident in Connect for Jira cloud.\n\nAn update of Connect App may trigger a bug which results in Connect framework falling back to baseUrl instead of utilizing regionBaseUrls.\n\nA known workaround for customers affected by this bug is to uninstall and then reinstall the app.\n\nWe are currently working on the fix.\n\nWe will provide another update around 20:30 UTC.",
-          "incident_id": "0bg98qq36y2z",
-          "created_at": "2023-11-10T18:06:57.484Z",
-          "updated_at": "2023-11-10T18:06:57.484Z",
-          "display_at": "2023-11-10T18:06:57.484Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
