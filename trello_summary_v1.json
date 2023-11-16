@@ -4,7 +4,7 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2023-11-16T17:43:10.338-05:00"
+    "updated_at": "2023-11-16T17:53:05.805-05:00"
   },
   "components": [
     {
@@ -87,9 +87,9 @@
     {
       "id": "f5c69wmg9npq",
       "name": "Degraded experience for some of Trello's users",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2023-11-16T17:37:46.694-05:00",
-      "updated_at": "2023-11-16T17:37:47.433-05:00",
+      "updated_at": "2023-11-16T17:53:05.792-05:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -97,6 +97,26 @@
       "started_at": "2023-11-16T17:37:46.689-05:00",
       "page_id": "h5frqhb041yq",
       "incident_updates": [
+        {
+          "id": "2cv920ytfsrl",
+          "status": "identified",
+          "body": "Our Engineers have identified the issue and are working on a fix. We have found the following services to be affected:\n\n- Inability to create new Automation commands\n- Card changes not saving\n- Some file uploads failing",
+          "incident_id": "f5c69wmg9npq",
+          "created_at": "2023-11-16T17:52:42.639-05:00",
+          "updated_at": "2023-11-16T17:53:05.782-05:00",
+          "display_at": "2023-11-16T17:52:42.000-05:00",
+          "affected_components": [
+            {
+              "code": "hsr3nvlz0k2l",
+              "name": "Trello.com",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1725285801456738800
+        },
         {
           "id": "1ff7bp6kwwd6",
           "status": "investigating",
