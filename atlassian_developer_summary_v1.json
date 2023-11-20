@@ -4,13 +4,13 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-11-17T21:43:07.135Z"
+    "updated_at": "2023-11-20T20:01:33.036Z"
   },
   "components": [
     {
       "id": "w0ld3nc9jvdx",
       "name": "APIs",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2018-02-01T17:15:10.342Z",
       "updated_at": "2018-02-01T17:16:31.201Z",
       "position": 1,
@@ -187,9 +187,9 @@
     {
       "id": "cc6gw24m02wp",
       "name": "Jira Cloud APIs",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2018-02-01T17:16:54.648Z",
-      "updated_at": "2023-09-22T03:46:58.987Z",
+      "updated_at": "2023-11-20T20:01:32.991Z",
       "position": 3,
       "description": null,
       "showcase": true,
@@ -779,10 +779,64 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "m4fmcprcx1mh",
+      "name": "Intermittent errors for Project categories REST API",
+      "status": "identified",
+      "created_at": "2023-11-20T20:01:32.952Z",
+      "updated_at": "2023-11-20T20:01:33.034Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/yx395m7bnfpr",
+      "started_at": "2023-11-20T20:01:32.941Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "23zdb5gytpnf",
+          "status": "identified",
+          "body": "We are investigating reports of intermittent errors for Project categories REST API affecting Atlassian Developer Cloud - Jira Cloud APIs - customers. We will provide more details once we identify the root cause.",
+          "incident_id": "m4fmcprcx1mh",
+          "created_at": "2023-11-20T20:01:33.031Z",
+          "updated_at": "2023-11-20T20:01:33.031Z",
+          "display_at": "2023-11-20T20:01:33.031Z",
+          "affected_components": [
+            {
+              "code": "cc6gw24m02wp",
+              "name": "APIs - Jira Cloud APIs",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "cc6gw24m02wp",
+          "name": "Jira Cloud APIs",
+          "status": "partial_outage",
+          "created_at": "2018-02-01T17:16:54.648Z",
+          "updated_at": "2023-11-20T20:01:32.991Z",
+          "position": 3,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": "w0ld3nc9jvdx",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
