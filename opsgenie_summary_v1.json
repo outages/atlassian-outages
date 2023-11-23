@@ -4,7 +4,7 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-11-22T15:43:11.480Z"
+    "updated_at": "2023-11-23T15:05:44.367Z"
   },
   "components": [
     {
@@ -767,7 +767,7 @@
       "name": "Scheduled report functionality is disabled",
       "status": "identified",
       "created_at": "2023-11-18T11:41:39.237Z",
-      "updated_at": "2023-11-18T18:53:58.187Z",
+      "updated_at": "2023-11-23T15:05:44.357Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -775,6 +775,32 @@
       "started_at": "2023-11-18T11:41:39.226Z",
       "page_id": "t05vdsszxwtq",
       "incident_updates": [
+        {
+          "id": "x8x09dybl78d",
+          "status": "identified",
+          "body": "We have implemented additional controls and are introducing domain restrictions as well as limitations to the number of recipients for mitigation purposes. \n\nScheduled reports will be enabled for all customers on November 24th, PST. Users will begin receiving emails for the reports they have scheduled for themselves and they will also have the ability to create new tasks.\n\nWe will share more updates when the changes are fully implemented.",
+          "incident_id": "5713sy30x2mx",
+          "created_at": "2023-11-23T15:05:44.355Z",
+          "updated_at": "2023-11-23T15:05:44.355Z",
+          "display_at": "2023-11-23T15:05:44.355Z",
+          "affected_components": [
+            {
+              "code": "p88rmktvpp6p",
+              "name": "US - Reporting & Analytics",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "lz2zqb1vtlp4",
+              "name": "EU - Reporting & Analytics",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "6rq4qp8q5rww",
           "status": "identified",
