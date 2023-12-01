@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-12-01T21:11:37.084Z"
+    "updated_at": "2023-12-01T21:43:26.785Z"
   },
   "components": [
     {
@@ -236,49 +236,6 @@
           "created_at": "2023-12-01T01:24:05.129Z",
           "updated_at": "2023-12-01T01:24:05.129Z",
           "display_at": "2023-12-01T01:24:05.129Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "reminder_intervals": null
-    },
-    {
-      "id": "wjs1m9szqmqv",
-      "name": "Create Component button is missing on some sites",
-      "status": "identified",
-      "created_at": "2023-12-01T18:25:47.837Z",
-      "updated_at": "2023-12-01T19:37:21.789Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/dhn7n08c7t21",
-      "started_at": "2023-12-01T18:25:47.831Z",
-      "page_id": "pv54g7ltsc24",
-      "incident_updates": [
-        {
-          "id": "6jgf6nxd96wd",
-          "status": "identified",
-          "body": "We continue to work on resolving the Create Component being missing for Jira Work Management, Jira Service Management, and Jira Software. We have identified the root cause and expect recovery shortly.",
-          "incident_id": "wjs1m9szqmqv",
-          "created_at": "2023-12-01T19:37:21.786Z",
-          "updated_at": "2023-12-01T19:37:21.786Z",
-          "display_at": "2023-12-01T19:37:21.786Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "4m8vh9wvhgy4",
-          "status": "investigating",
-          "body": "We are investigating reports of intermittent errors for some Jira Work Management, Jira Service Management, and Jira Software Cloud customers. We will provide more details once we identify the root cause.",
-          "incident_id": "wjs1m9szqmqv",
-          "created_at": "2023-12-01T18:25:47.871Z",
-          "updated_at": "2023-12-01T18:25:47.871Z",
-          "display_at": "2023-12-01T18:25:47.871Z",
           "affected_components": null,
           "deliver_notifications": false,
           "custom_tweet": null,
