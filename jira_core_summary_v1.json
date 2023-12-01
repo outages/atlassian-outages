@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-12-01T16:43:07.665Z"
+    "updated_at": "2023-12-01T18:25:47.494Z"
   },
   "components": [
     {
@@ -85,9 +85,9 @@
     {
       "id": "mfs4w2r40sf7",
       "name": "Administration",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-01-23T17:06:39.034Z",
-      "updated_at": "2023-10-24T00:08:58.091Z",
+      "updated_at": "2023-12-01T18:25:47.447Z",
       "position": 6,
       "description": "Viewing and editing \"site\" and \"Jira\" adminstration",
       "showcase": false,
@@ -175,6 +175,59 @@
   ],
   "incidents": [
     {
+      "id": "9mq19f5swkmr",
+      "name": "Create Component button is missing on some sites",
+      "status": "investigating",
+      "created_at": "2023-12-01T18:25:47.416Z",
+      "updated_at": "2023-12-01T18:25:47.491Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/pmc8z3cmnfnm",
+      "started_at": "2023-12-01T18:25:47.409Z",
+      "page_id": "s6f0gm5gcpmy",
+      "incident_updates": [
+        {
+          "id": "75lbkq7xz6qd",
+          "status": "investigating",
+          "body": "We are investigating reports of intermittent errors for some Jira Work Management, Jira Service Management, and Jira Software Cloud customers. We will provide more details once we identify the root cause.",
+          "incident_id": "9mq19f5swkmr",
+          "created_at": "2023-12-01T18:25:47.488Z",
+          "updated_at": "2023-12-01T18:25:47.488Z",
+          "display_at": "2023-12-01T18:25:47.488Z",
+          "affected_components": [
+            {
+              "code": "mfs4w2r40sf7",
+              "name": "Administration",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "mfs4w2r40sf7",
+          "name": "Administration",
+          "status": "partial_outage",
+          "created_at": "2019-01-23T17:06:39.034Z",
+          "updated_at": "2023-12-01T18:25:47.447Z",
+          "position": 6,
+          "description": "Viewing and editing \"site\" and \"Jira\" adminstration",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "s6f0gm5gcpmy",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
       "id": "j7zw7m3f9hm7",
       "name": "Some customers aren't receiving email notification when exporting users from User Management",
       "status": "investigating",
@@ -220,7 +273,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
