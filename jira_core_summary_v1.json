@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-12-01T19:37:21.775Z"
+    "updated_at": "2023-12-01T21:11:36.881Z"
   },
   "components": [
     {
@@ -175,6 +175,62 @@
   ],
   "incidents": [
     {
+      "id": "j7zw7m3f9hm7",
+      "name": "Some customers aren't receiving email notification when exporting users from User Management",
+      "status": "investigating",
+      "created_at": "2023-12-01T01:24:04.935Z",
+      "updated_at": "2023-12-01T21:11:36.872Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/zlkynz008s4z",
+      "started_at": "2023-12-01T01:24:04.927Z",
+      "page_id": "s6f0gm5gcpmy",
+      "incident_updates": [
+        {
+          "id": "vxz2vr52twnq",
+          "status": "investigating",
+          "body": "Some end users have confirmed that they are now able to receive the email to download the export file. The issue might still persist for a small number of customers and we will keep monitoring and investigating further. However, there are indications that the frequency for the issue has been reduced. We will provide further updates early next week.",
+          "incident_id": "j7zw7m3f9hm7",
+          "created_at": "2023-12-01T21:11:36.870Z",
+          "updated_at": "2023-12-01T21:11:36.870Z",
+          "display_at": "2023-12-01T21:11:36.870Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "51rph9tb0904",
+          "status": "investigating",
+          "body": "Some end users confirmed that they are now able to receive the email to download the export file. The issue still persists for some customers and we are working with them to identify and investigate this issue further.",
+          "incident_id": "j7zw7m3f9hm7",
+          "created_at": "2023-12-01T02:47:36.703Z",
+          "updated_at": "2023-12-01T02:47:36.703Z",
+          "display_at": "2023-12-01T02:47:36.703Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "5ybvprfrwp5n",
+          "status": "investigating",
+          "body": "We are investigating cases where some customers aren't receiving email notification to download the file when exporting users from User Management. We will provide more details within the next hour.",
+          "incident_id": "j7zw7m3f9hm7",
+          "created_at": "2023-12-01T01:24:04.976Z",
+          "updated_at": "2023-12-01T01:24:04.976Z",
+          "display_at": "2023-12-01T01:24:04.976Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    },
+    {
       "id": "9mq19f5swkmr",
       "name": "Create Component button is missing on some sites",
       "status": "identified",
@@ -245,49 +301,6 @@
           "only_show_if_degraded": false
         }
       ],
-      "reminder_intervals": null
-    },
-    {
-      "id": "j7zw7m3f9hm7",
-      "name": "Some customers aren't receiving email notification when exporting users from User Management",
-      "status": "investigating",
-      "created_at": "2023-12-01T01:24:04.935Z",
-      "updated_at": "2023-12-01T02:47:36.705Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/zlkynz008s4z",
-      "started_at": "2023-12-01T01:24:04.927Z",
-      "page_id": "s6f0gm5gcpmy",
-      "incident_updates": [
-        {
-          "id": "51rph9tb0904",
-          "status": "investigating",
-          "body": "Some end users confirmed that they are now able to receive the email to download the export file. The issue still persists for some customers and we are working with them to identify and investigate this issue further.",
-          "incident_id": "j7zw7m3f9hm7",
-          "created_at": "2023-12-01T02:47:36.703Z",
-          "updated_at": "2023-12-01T02:47:36.703Z",
-          "display_at": "2023-12-01T02:47:36.703Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "5ybvprfrwp5n",
-          "status": "investigating",
-          "body": "We are investigating cases where some customers aren't receiving email notification to download the file when exporting users from User Management. We will provide more details within the next hour.",
-          "incident_id": "j7zw7m3f9hm7",
-          "created_at": "2023-12-01T01:24:04.976Z",
-          "updated_at": "2023-12-01T01:24:04.976Z",
-          "display_at": "2023-12-01T01:24:04.976Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
       "reminder_intervals": null
     }
   ],
