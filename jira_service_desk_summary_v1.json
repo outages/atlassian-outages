@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-12-04T16:43:29.200Z"
+    "updated_at": "2023-12-04T16:59:12.644Z"
   },
   "components": [
     {
@@ -192,16 +192,42 @@
     {
       "id": "j41gny4gbjzl",
       "name": "Egress connectivity timing out",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2023-12-04T16:33:13.613Z",
-      "updated_at": "2023-12-04T16:43:29.190Z",
-      "monitoring_at": null,
+      "updated_at": "2023-12-04T16:59:12.642Z",
+      "monitoring_at": "2023-12-04T16:59:12.625Z",
       "resolved_at": null,
       "impact": "none",
       "shortlink": "https://stspg.io/4tzl0d8w4h1p",
       "started_at": "2023-12-04T16:33:13.607Z",
       "page_id": "pv54g7ltsc24",
       "incident_updates": [
+        {
+          "id": "bnwrzbf1xyhh",
+          "status": "monitoring",
+          "body": "The issue was identified and a fix implemented. We are monitoring currently.",
+          "incident_id": "j41gny4gbjzl",
+          "created_at": "2023-12-04T16:59:12.625Z",
+          "updated_at": "2023-12-04T16:59:12.625Z",
+          "display_at": "2023-12-04T16:59:12.625Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "7hbg47gpl6gm",
+          "status": "identified",
+          "body": "We are currently investigating an incident that result in outbound connections from Atlassian cloud in us-east-1 intermittently timing out. This affects Jira, Trello, Confluence, Ecosystem products. The features affected for these products are those that require opening a connection from Atlassian Cloud to public endpoints on the Internet",
+          "incident_id": "j41gny4gbjzl",
+          "created_at": "2023-12-04T16:54:22.330Z",
+          "updated_at": "2023-12-04T16:54:22.330Z",
+          "display_at": "2023-12-04T16:54:22.330Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "ymqb8qbx80kq",
           "status": "identified",
