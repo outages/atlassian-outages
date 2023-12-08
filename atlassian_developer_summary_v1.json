@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-12-08T11:42:56.379Z"
+    "updated_at": "2023-12-08T14:12:31.445Z"
   },
   "components": [
     {
@@ -779,61 +779,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "xrlyt77c421b",
-      "name": "Unable to view issues normally on ecosystem.atlassian.net",
-      "status": "investigating",
-      "created_at": "2023-12-08T11:35:56.428Z",
-      "updated_at": "2023-12-08T11:35:56.521Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/bwm3b4dvr43t",
-      "started_at": "2023-12-08T11:35:56.416Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "63sljtb81lst",
-          "status": "investigating",
-          "body": "Unable to view issues normally on ecosystem.atlassian.net.\n\nAs a workaround, issues can be viewed by searching via a JQL search or filter, and clicking on an issue from the search result.",
-          "incident_id": "xrlyt77c421b",
-          "created_at": "2023-12-08T11:35:56.518Z",
-          "updated_at": "2023-12-08T11:35:56.518Z",
-          "display_at": "2023-12-08T11:35:56.518Z",
-          "affected_components": [
-            {
-              "code": "xjs8wcvjw85c",
-              "name": "Support - Developer community",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "xjs8wcvjw85c",
-          "name": "Developer community",
-          "status": "partial_outage",
-          "created_at": "2018-02-01T17:22:27.268Z",
-          "updated_at": "2023-12-08T11:35:56.469Z",
-          "position": 3,
-          "description": "https://community.developer.atlassian.com",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "jgnwrfzynh93",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "minor",
