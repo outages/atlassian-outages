@@ -4,7 +4,7 @@
     "name": "Atlassian Access",
     "url": "https://access.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-12-07T16:44:40.381Z"
+    "updated_at": "2023-12-12T21:02:04.693Z"
   },
   "components": [
     {
@@ -96,10 +96,80 @@
       "page_id": "5qmgwsxwsz78",
       "group": false,
       "only_show_if_degraded": false
+    },
+    {
+      "id": "kj3g11lf8zg5",
+      "name": "API tokens",
+      "status": "operational",
+      "created_at": "2023-12-12T20:59:46.149Z",
+      "updated_at": "2023-12-12T20:59:46.149Z",
+      "position": 9,
+      "description": "Includes user API tokens and admin API keys",
+      "showcase": true,
+      "start_date": "2023-12-12",
+      "group_id": null,
+      "page_id": "5qmgwsxwsz78",
+      "group": false,
+      "only_show_if_degraded": false
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "cp9m55vk3kf4",
+      "name": "API tokens search database upgrade",
+      "status": "scheduled",
+      "created_at": "2023-12-12T21:02:04.639Z",
+      "updated_at": "2023-12-12T21:02:04.690Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/s5rrmsbtslsj",
+      "started_at": "2023-12-12T21:02:04.634Z",
+      "page_id": "5qmgwsxwsz78",
+      "incident_updates": [
+        {
+          "id": "8rb9sbnwfh00",
+          "status": "scheduled",
+          "body": "We will be undergoing scheduled maintenance during this time. During the maintenance, User API tokens may be unavailable.",
+          "incident_id": "cp9m55vk3kf4",
+          "created_at": "2023-12-12T21:02:04.687Z",
+          "updated_at": "2023-12-12T21:02:04.687Z",
+          "display_at": "2023-12-12T21:02:04.687Z",
+          "affected_components": [
+            {
+              "code": "kj3g11lf8zg5",
+              "name": "API tokens",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "kj3g11lf8zg5",
+          "name": "API tokens",
+          "status": "operational",
+          "created_at": "2023-12-12T20:59:46.149Z",
+          "updated_at": "2023-12-12T20:59:46.149Z",
+          "position": 9,
+          "description": "Includes user API tokens and admin API keys",
+          "showcase": true,
+          "start_date": "2023-12-12",
+          "group_id": null,
+          "page_id": "5qmgwsxwsz78",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2023-12-14T18:30:00.000Z",
+      "scheduled_until": "2023-12-14T19:30:00.000Z"
+    }
+  ],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
