@@ -4,13 +4,13 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-12-13T01:44:14.938Z"
+    "updated_at": "2023-12-13T13:18:52.087Z"
   },
   "components": [
     {
       "id": "jzqq334r65mx",
       "name": "US",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-02-12T13:47:31.055Z",
       "updated_at": "2019-03-15T08:16:16.977Z",
       "position": 1,
@@ -79,7 +79,7 @@
     {
       "id": "k7gyfk44wrsr",
       "name": "EU",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-02-12T13:47:54.389Z",
       "updated_at": "2019-02-12T13:47:54.389Z",
       "position": 2,
@@ -253,9 +253,9 @@
     {
       "id": "s8szfv793n8p",
       "name": "Mobile Notification Delivery",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-03-15T08:10:23.207Z",
-      "updated_at": "2023-12-10T03:52:07.060Z",
+      "updated_at": "2023-12-13T13:18:25.420Z",
       "position": 6,
       "description": null,
       "showcase": true,
@@ -268,9 +268,9 @@
     {
       "id": "jf0l1ds2mm5z",
       "name": "Mobile Notification Delivery",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-03-15T08:11:21.736Z",
-      "updated_at": "2023-06-26T12:33:41.848Z",
+      "updated_at": "2023-12-13T13:18:25.436Z",
       "position": 6,
       "description": null,
       "showcase": true,
@@ -761,10 +761,111 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "sqcj4ky85k0j",
+      "name": "IOS based Alert Notifications delivered as non-critical",
+      "status": "identified",
+      "created_at": "2023-12-13T13:18:25.383Z",
+      "updated_at": "2023-12-13T13:18:52.079Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/z4j9hw29p6j6",
+      "started_at": "2023-12-13T13:18:25.372Z",
+      "page_id": "t05vdsszxwtq",
+      "incident_updates": [
+        {
+          "id": "3qd2j1fwgw35",
+          "status": "identified",
+          "body": "The issue has been identified and a fix is being implemented.",
+          "incident_id": "sqcj4ky85k0j",
+          "created_at": "2023-12-13T13:18:52.076Z",
+          "updated_at": "2023-12-13T13:18:52.076Z",
+          "display_at": "2023-12-13T13:18:52.076Z",
+          "affected_components": [
+            {
+              "code": "s8szfv793n8p",
+              "name": "US - Mobile Notification Delivery",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "jf0l1ds2mm5z",
+              "name": "EU - Mobile Notification Delivery",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "gjyjpcnrc5jh",
+          "status": "investigating",
+          "body": "As of 12.12.2023 14:46 UTC, we have observed that some alert notifications are not being delivered to IOS-based devices as critical. We are currently investigating the issue.",
+          "incident_id": "sqcj4ky85k0j",
+          "created_at": "2023-12-13T13:18:25.474Z",
+          "updated_at": "2023-12-13T13:18:25.474Z",
+          "display_at": "2023-12-13T13:18:25.474Z",
+          "affected_components": [
+            {
+              "code": "s8szfv793n8p",
+              "name": "US - Mobile Notification Delivery",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "jf0l1ds2mm5z",
+              "name": "EU - Mobile Notification Delivery",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "s8szfv793n8p",
+          "name": "Mobile Notification Delivery",
+          "status": "partial_outage",
+          "created_at": "2019-03-15T08:10:23.207Z",
+          "updated_at": "2023-12-13T13:18:25.420Z",
+          "position": 6,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": "jzqq334r65mx",
+          "page_id": "t05vdsszxwtq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "jf0l1ds2mm5z",
+          "name": "Mobile Notification Delivery",
+          "status": "partial_outage",
+          "created_at": "2019-03-15T08:11:21.736Z",
+          "updated_at": "2023-12-13T13:18:25.436Z",
+          "position": 6,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": "k7gyfk44wrsr",
+          "page_id": "t05vdsszxwtq",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
