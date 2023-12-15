@@ -4,7 +4,7 @@
     "name": "Atlassian Access",
     "url": "https://access.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-12-15T23:35:24.146Z"
+    "updated_at": "2023-12-15T23:43:21.057Z"
   },
   "components": [
     {
@@ -120,7 +120,7 @@
       "name": "API tokens search database upgrade",
       "status": "scheduled",
       "created_at": "2023-12-15T22:30:43.225Z",
-      "updated_at": "2023-12-15T22:30:43.282Z",
+      "updated_at": "2023-12-15T23:43:21.048Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -131,10 +131,10 @@
         {
           "id": "f6n2ww670frn",
           "status": "scheduled",
-          "body": "We will be undergoing scheduled maintenance during this time. During the maintenance, viewing and searching User API tokens on API tokens page may be unavailable.",
+          "body": "We will be undergoing scheduled maintenance during this time. During the maintenance, viewing and searching User API tokens on the API tokens page may be unavailable.",
           "incident_id": "b428bscbsqt6",
           "created_at": "2023-12-15T22:30:43.279Z",
-          "updated_at": "2023-12-15T22:30:43.279Z",
+          "updated_at": "2023-12-15T23:43:21.042Z",
           "display_at": "2023-12-15T22:30:43.279Z",
           "affected_components": [
             {
