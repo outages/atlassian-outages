@@ -4,7 +4,7 @@
     "name": "Atlassian Statuspage",
     "url": "http://metastatuspage.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-12-15T19:59:57.311-08:00"
+    "updated_at": "2023-12-15T20:45:44.769-08:00"
   },
   "components": [
     {
@@ -823,7 +823,7 @@
       "name": "Emergency Statuspage Database Maintenance",
       "status": "scheduled",
       "created_at": "2023-12-08T04:36:27.332-08:00",
-      "updated_at": "2023-12-15T19:59:57.305-08:00",
+      "updated_at": "2023-12-15T20:45:44.766-08:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
