@@ -4,15 +4,15 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-12-16T21:03:32.345Z"
+    "updated_at": "2023-12-16T23:51:33.838Z"
   },
   "components": [
     {
       "id": "kvtmh1phs3r9",
       "name": "Support Portal",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2018-11-16T18:04:38.980Z",
-      "updated_at": "2023-12-16T21:01:10.471Z",
+      "updated_at": "2023-12-16T23:51:33.780Z",
       "position": 1,
       "description": null,
       "showcase": true,
@@ -25,9 +25,9 @@
     {
       "id": "bccp2f1cpy0x",
       "name": "Ticketing",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2018-11-16T18:04:38.998Z",
-      "updated_at": "2023-12-16T21:01:10.498Z",
+      "updated_at": "2023-12-16T23:51:33.795Z",
       "position": 2,
       "description": null,
       "showcase": true,
@@ -208,16 +208,42 @@
     {
       "id": "ph3ljblpx0fd",
       "name": "Support Portal will be undergoing maintenance",
-      "status": "in_progress",
+      "status": "verifying",
       "created_at": "2023-12-11T22:37:43.040Z",
-      "updated_at": "2023-12-16T21:03:32.333Z",
-      "monitoring_at": null,
+      "updated_at": "2023-12-16T23:51:33.836Z",
+      "monitoring_at": "2023-12-16T23:51:33.818Z",
       "resolved_at": null,
       "impact": "maintenance",
       "shortlink": "https://stspg.io/njhkfszjg7p4",
       "started_at": "2023-12-11T22:37:43.035Z",
       "page_id": "3tbw4lb9t3qp",
       "incident_updates": [
+        {
+          "id": "nk1j49kstnkq",
+          "status": "verifying",
+          "body": "Verification is currently underway for the maintenance items.",
+          "incident_id": "ph3ljblpx0fd",
+          "created_at": "2023-12-16T23:51:33.818Z",
+          "updated_at": "2023-12-16T23:51:33.818Z",
+          "display_at": "2023-12-16T23:51:33.818Z",
+          "affected_components": [
+            {
+              "code": "kvtmh1phs3r9",
+              "name": "Support Portal",
+              "old_status": "under_maintenance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "bccp2f1cpy0x",
+              "name": "Ticketing",
+              "old_status": "under_maintenance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "jv394wbybflc",
           "status": "in_progress",
@@ -314,9 +340,9 @@
         {
           "id": "kvtmh1phs3r9",
           "name": "Support Portal",
-          "status": "under_maintenance",
+          "status": "degraded_performance",
           "created_at": "2018-11-16T18:04:38.980Z",
-          "updated_at": "2023-12-16T21:01:10.471Z",
+          "updated_at": "2023-12-16T23:51:33.780Z",
           "position": 1,
           "description": null,
           "showcase": true,
@@ -329,9 +355,9 @@
         {
           "id": "bccp2f1cpy0x",
           "name": "Ticketing",
-          "status": "under_maintenance",
+          "status": "degraded_performance",
           "created_at": "2018-11-16T18:04:38.998Z",
-          "updated_at": "2023-12-16T21:01:10.498Z",
+          "updated_at": "2023-12-16T23:51:33.795Z",
           "position": 2,
           "description": null,
           "showcase": true,
@@ -347,7 +373,7 @@
     }
   ],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
