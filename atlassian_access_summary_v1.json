@@ -4,7 +4,7 @@
     "name": "Atlassian Access",
     "url": "https://access.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-12-16T05:44:29.501Z"
+    "updated_at": "2023-12-19T18:30:16.663Z"
   },
   "components": [
     {
@@ -100,9 +100,9 @@
     {
       "id": "kj3g11lf8zg5",
       "name": "API tokens",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2023-12-12T20:59:46.149Z",
-      "updated_at": "2023-12-14T19:30:40.315Z",
+      "updated_at": "2023-12-19T18:30:16.598Z",
       "position": 9,
       "description": "Includes user API tokens and admin API keys",
       "showcase": true,
@@ -118,9 +118,9 @@
     {
       "id": "b428bscbsqt6",
       "name": "API tokens search database upgrade",
-      "status": "scheduled",
+      "status": "in_progress",
       "created_at": "2023-12-15T22:30:43.225Z",
-      "updated_at": "2023-12-15T23:43:21.048Z",
+      "updated_at": "2023-12-19T18:30:16.647Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -128,6 +128,39 @@
       "started_at": "2023-12-15T22:30:43.220Z",
       "page_id": "5qmgwsxwsz78",
       "incident_updates": [
+        {
+          "id": "5d3vh16p332s",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "b428bscbsqt6",
+          "created_at": "2023-12-19T18:30:16.644Z",
+          "updated_at": "2023-12-19T18:30:16.644Z",
+          "display_at": "2023-12-19T18:30:16.644Z",
+          "affected_components": [
+            {
+              "code": "kj3g11lf8zg5",
+              "name": "API tokens",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "4kpv8r9p0r6f",
+          "status": "scheduled",
+          "body": "Maintenance will begin as scheduled in 60 minutes.",
+          "incident_id": "b428bscbsqt6",
+          "created_at": "2023-12-19T17:29:58.980Z",
+          "updated_at": "2023-12-19T17:29:58.980Z",
+          "display_at": "2023-12-19T17:29:58.980Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "f6n2ww670frn",
           "status": "scheduled",
@@ -153,9 +186,9 @@
         {
           "id": "kj3g11lf8zg5",
           "name": "API tokens",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2023-12-12T20:59:46.149Z",
-          "updated_at": "2023-12-14T19:30:40.315Z",
+          "updated_at": "2023-12-19T18:30:16.598Z",
           "position": 9,
           "description": "Includes user API tokens and admin API keys",
           "showcase": true,
@@ -171,7 +204,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
