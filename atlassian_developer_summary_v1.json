@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-12-19T23:21:01.904Z"
+    "updated_at": "2023-12-19T23:42:57.127Z"
   },
   "components": [
     {
@@ -785,21 +785,21 @@
       "name": "Anonymous use of Forge Tunnels is not available",
       "status": "identified",
       "created_at": "2023-12-19T23:18:44.979Z",
-      "updated_at": "2023-12-19T23:21:01.897Z",
+      "updated_at": "2023-12-19T23:42:19.811Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/9jfyhb6lxhrl",
-      "started_at": "2023-12-19T23:18:44.972Z",
+      "started_at": "2023-12-19T23:18:45.000Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
         {
           "id": "p3xprbld88z9",
           "status": "identified",
-          "body": "An issue with the use of Forge Tunnel has been identified. The impact started at 18:00 2023-12-20 UTC. Our investigations have identified the cause as a change in policy from an upstream provider. A workaround has been identified where developers looking to use Forge Tunnels will now be required to create a NGROK user account. Developer documentation is now being updated on the process to do this. \n\nWe will provide another update by 00:30 UTC 2023-12-20",
+          "body": "An issue with the use of Forge Tunnel has been identified. Our investigations have identified the cause as a change in policy from an upstream provider. A workaround has been identified where developers looking to use Forge Tunnels will now be required to create a ngrok user account. Developer documentation is now being updated on the process to do this. \n\nWe will provide another update by 00:30 UTC 2023-12-20",
           "incident_id": "74qkgjtw9050",
           "created_at": "2023-12-19T23:18:45.048Z",
-          "updated_at": "2023-12-19T23:21:01.893Z",
+          "updated_at": "2023-12-19T23:42:19.716Z",
           "display_at": "2023-12-19T23:18:45.000Z",
           "affected_components": [
             {
