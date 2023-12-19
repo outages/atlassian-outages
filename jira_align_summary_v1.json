@@ -4,7 +4,7 @@
     "name": "Jira Align",
     "url": "https://jira-align.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-12-18T16:23:44.157Z"
+    "updated_at": "2023-12-19T03:28:15.290Z"
   },
   "components": [
     {
@@ -563,90 +563,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "rw3hcf1vccdz",
-      "name": "Atlassian's cross product user search service is currently degraded.",
-      "status": "investigating",
-      "created_at": "2023-12-18T15:04:25.476Z",
-      "updated_at": "2023-12-18T16:23:44.145Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/5jxdhq90wwmm",
-      "started_at": "2023-12-18T15:04:25.470Z",
-      "page_id": "jrg4crndtsgz",
-      "incident_updates": [
-        {
-          "id": "x13j7kkyj863",
-          "status": "investigating",
-          "body": "Atlassian's cross product user search service is currently healthy. Searches for users within Atlassian products are working as expected.\nWe are in the process of investigating the root cause of this incident.",
-          "incident_id": "rw3hcf1vccdz",
-          "created_at": "2023-12-18T16:23:44.142Z",
-          "updated_at": "2023-12-18T16:23:44.142Z",
-          "display_at": "2023-12-18T16:23:44.142Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "28xyqh4nltwd",
-          "status": "investigating",
-          "body": "Atlassian's cross product user search service is recovering. Searches for users within Atlassian products are returning to normal.",
-          "incident_id": "rw3hcf1vccdz",
-          "created_at": "2023-12-18T16:06:04.127Z",
-          "updated_at": "2023-12-18T16:06:04.127Z",
-          "display_at": "2023-12-18T16:06:04.127Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "x9tp625q8lpj",
-          "status": "investigating",
-          "body": "Atlassian's cross product user search service is recovering. Searches for users within Atlassian products are returning to normal.",
-          "incident_id": "rw3hcf1vccdz",
-          "created_at": "2023-12-18T16:02:08.235Z",
-          "updated_at": "2023-12-18T16:02:08.235Z",
-          "display_at": "2023-12-18T16:02:08.235Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "6njd6px5x1p3",
-          "status": "investigating",
-          "body": "Atlassian's cross product user search service is recovering. Searches for users within Atlassian products are returning to normal.",
-          "incident_id": "rw3hcf1vccdz",
-          "created_at": "2023-12-18T16:01:25.709Z",
-          "updated_at": "2023-12-18T16:01:25.709Z",
-          "display_at": "2023-12-18T16:01:25.709Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "hlwdxgjfq0wh",
-          "status": "investigating",
-          "body": "We are investigating reports of intermittent errors for <SOME/ALL> Atlassian, Confluence, Jira Work Management, Jira Service Management, Jira Software, Atlassian Bitbucket, Jira Align, Jira Product Discovery, Atlas, and Compass Cloud customers. We will provide more details once we identify the root cause.",
-          "incident_id": "rw3hcf1vccdz",
-          "created_at": "2023-12-18T15:04:25.509Z",
-          "updated_at": "2023-12-18T15:04:25.509Z",
-          "display_at": "2023-12-18T15:04:25.509Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
