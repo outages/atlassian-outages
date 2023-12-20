@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-12-20T00:47:53.874Z"
+    "updated_at": "2023-12-20T02:07:41.400Z"
   },
   "components": [
     {
@@ -736,9 +736,9 @@
     {
       "id": "l30t53hv9z8z",
       "name": "Forge CLI",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2022-10-18T22:30:09.575Z",
-      "updated_at": "2023-12-20T00:47:08.728Z",
+      "updated_at": "2023-12-20T02:07:41.355Z",
       "position": 14,
       "description": null,
       "showcase": true,
@@ -779,101 +779,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "74qkgjtw9050",
-      "name": "Anonymous use of Forge Tunnels is not available",
-      "status": "identified",
-      "created_at": "2023-12-19T23:18:44.979Z",
-      "updated_at": "2023-12-20T00:47:53.867Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/9jfyhb6lxhrl",
-      "started_at": "2023-12-19T23:18:45.000Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "vn7kljrgjlvf",
-          "status": "identified",
-          "body": "Updated affected component to reflect the impact to Forge CLI.",
-          "incident_id": "74qkgjtw9050",
-          "created_at": "2023-12-20T00:47:08.765Z",
-          "updated_at": "2023-12-20T00:47:53.862Z",
-          "display_at": "2023-12-20T00:47:08.000Z",
-          "affected_components": [
-            {
-              "code": "l30t53hv9z8z",
-              "name": "Developer - Forge CLI",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "vxjxhfsz5fhb",
-          "status": "identified",
-          "body": "A new forge changelog entry has been created describing the change to forge tunnels requiring an ngrok user account and will be published soon. Similarly the forge developer documentation changes have been drafted and are currently being reviewed before being published.\n\nWe will provide another update by 01:30 UTC 2023-12-20",
-          "incident_id": "74qkgjtw9050",
-          "created_at": "2023-12-20T00:24:40.965Z",
-          "updated_at": "2023-12-20T00:25:51.495Z",
-          "display_at": "2023-12-20T00:24:40.000Z",
-          "affected_components": [
-            {
-              "code": "wzmg8phvmrwh",
-              "name": "Developer - App Deployment",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "p3xprbld88z9",
-          "status": "identified",
-          "body": "An issue with the use of Forge Tunnel has been identified. Our investigations have identified the cause as a change in policy from an upstream provider. A workaround has been identified where developers looking to use Forge Tunnels will now be required to create a ngrok user account. Developer documentation is now being updated on the process to do this. \n\nWe will provide another update by 00:30 UTC 2023-12-20",
-          "incident_id": "74qkgjtw9050",
-          "created_at": "2023-12-19T23:18:45.048Z",
-          "updated_at": "2023-12-19T23:42:19.716Z",
-          "display_at": "2023-12-19T23:18:45.000Z",
-          "affected_components": [
-            {
-              "code": "wzmg8phvmrwh",
-              "name": "Developer - App Deployment",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "l30t53hv9z8z",
-          "name": "Forge CLI",
-          "status": "degraded_performance",
-          "created_at": "2022-10-18T22:30:09.575Z",
-          "updated_at": "2023-12-20T00:47:08.728Z",
-          "position": 14,
-          "description": null,
-          "showcase": true,
-          "start_date": "2022-10-18",
-          "group_id": "73bt63kd5q9k",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "minor",
