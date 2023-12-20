@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-12-19T23:43:20.061Z"
+    "updated_at": "2023-12-20T00:43:19.953Z"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "hzbyfxf686qd",
       "name": "Service Portal",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-11-16T18:06:14.848Z",
-      "updated_at": "2023-12-19T21:35:21.386Z",
+      "updated_at": "2023-12-20T00:43:19.909Z",
       "position": 2,
       "description": "Problems related to the service desk portals where end-users make requests or raise issues",
       "showcase": false,
@@ -188,84 +188,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "m551d1mvgp5w",
-      "name": "Some sites are not loading requests pending Approvals on the customer portal",
-      "status": "investigating",
-      "created_at": "2023-12-19T21:35:21.339Z",
-      "updated_at": "2023-12-19T23:08:41.985Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/b0fyyqpsgg21",
-      "started_at": "2023-12-19T21:35:21.332Z",
-      "page_id": "pv54g7ltsc24",
-      "incident_updates": [
-        {
-          "id": "tgqjccqj7yxz",
-          "status": "investigating",
-          "body": "We do not have a root cause for the issue with the approvals page not loading at the customer portal which is impacting some Jira Service Management Cloud customers. We are actively investigating this and will post more information here within the next hour.",
-          "incident_id": "m551d1mvgp5w",
-          "created_at": "2023-12-19T23:08:41.982Z",
-          "updated_at": "2023-12-19T23:08:41.982Z",
-          "display_at": "2023-12-19T23:08:41.982Z",
-          "affected_components": [
-            {
-              "code": "hzbyfxf686qd",
-              "name": "Service Portal",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "zqykj9cj7shd",
-          "status": "investigating",
-          "body": "We are investigating an issue with the approvals page not loading at the customer portal that is impacting some Jira Service Management Cloud customers. We will provide more details within the next hours.",
-          "incident_id": "m551d1mvgp5w",
-          "created_at": "2023-12-19T21:35:21.425Z",
-          "updated_at": "2023-12-19T21:35:21.425Z",
-          "display_at": "2023-12-19T21:35:21.425Z",
-          "affected_components": [
-            {
-              "code": "hzbyfxf686qd",
-              "name": "Service Portal",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "hzbyfxf686qd",
-          "name": "Service Portal",
-          "status": "partial_outage",
-          "created_at": "2018-11-16T18:06:14.848Z",
-          "updated_at": "2023-12-19T21:35:21.386Z",
-          "position": 2,
-          "description": "Problems related to the service desk portals where end-users make requests or raise issues",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
