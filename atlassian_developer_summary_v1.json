@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-12-22T01:47:24.621Z"
+    "updated_at": "2023-12-22T02:15:18.450Z"
   },
   "components": [
     {
@@ -785,7 +785,7 @@
       "name": "Issue Dialog being opened twice for Connect Apps",
       "status": "identified",
       "created_at": "2023-12-22T01:26:49.994Z",
-      "updated_at": "2023-12-22T01:26:50.026Z",
+      "updated_at": "2023-12-22T02:15:18.442Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "none",
@@ -793,6 +793,19 @@
       "started_at": "2023-12-22T01:26:49.989Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "00cpq9m54g1p",
+          "status": "identified",
+          "body": "We are continuing to work on a fix for this issue.",
+          "incident_id": "rb50l0t30z84",
+          "created_at": "2023-12-22T02:15:18.440Z",
+          "updated_at": "2023-12-22T02:15:18.440Z",
+          "display_at": "2023-12-22T02:15:18.440Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "8q4d62g8d1rx",
           "status": "identified",
