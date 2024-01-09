@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-01-06T01:44:29.785Z"
+    "updated_at": "2024-01-09T22:03:34.289Z"
   },
   "components": [
     {
@@ -115,9 +115,9 @@
     {
       "id": "why9xhgfq7kx",
       "name": "Authentication and User Management",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-05-02T04:27:17.805Z",
-      "updated_at": "2023-10-24T00:08:25.916Z",
+      "updated_at": "2024-01-09T22:03:34.239Z",
       "position": 8,
       "description": null,
       "showcase": false,
@@ -188,10 +188,64 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "zt1rvd6kwc5y",
+      "name": "Delayed SCIM provisioning syncs of users and groups from Identity Providers",
+      "status": "investigating",
+      "created_at": "2024-01-09T22:03:34.204Z",
+      "updated_at": "2024-01-09T22:03:34.286Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/3wrbfpk9tkmh",
+      "started_at": "2024-01-09T22:03:34.197Z",
+      "page_id": "pv54g7ltsc24",
+      "incident_updates": [
+        {
+          "id": "ly8846mc4s69",
+          "status": "investigating",
+          "body": "We are investigating cases of degraded performance when SCIM provisioning users/groups for Confluence, Jira Work Management, Jira Service Management, Jira Software, and Atlassian Access Cloud customers. \nWe will provide more details shortly.",
+          "incident_id": "zt1rvd6kwc5y",
+          "created_at": "2024-01-09T22:03:34.283Z",
+          "updated_at": "2024-01-09T22:03:34.283Z",
+          "display_at": "2024-01-09T22:03:34.283Z",
+          "affected_components": [
+            {
+              "code": "why9xhgfq7kx",
+              "name": "Authentication and User Management",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "why9xhgfq7kx",
+          "name": "Authentication and User Management",
+          "status": "degraded_performance",
+          "created_at": "2019-05-02T04:27:17.805Z",
+          "updated_at": "2024-01-09T22:03:34.239Z",
+          "position": 8,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "pv54g7ltsc24",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
