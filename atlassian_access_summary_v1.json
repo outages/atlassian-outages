@@ -4,7 +4,7 @@
     "name": "Atlassian Access",
     "url": "https://access.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-01-10T03:17:02.798Z"
+    "updated_at": "2024-01-10T19:56:56.461Z"
   },
   "components": [
     {
@@ -119,7 +119,7 @@
       "name": "Delayed SCIM provisioning syncs of users and groups from Identity Providers",
       "status": "monitoring",
       "created_at": "2024-01-09T22:03:34.103Z",
-      "updated_at": "2024-01-10T03:17:02.797Z",
+      "updated_at": "2024-01-10T19:56:56.452Z",
       "monitoring_at": "2024-01-10T03:17:02.784Z",
       "resolved_at": null,
       "impact": "minor",
@@ -127,6 +127,26 @@
       "started_at": "2024-01-09T22:03:34.096Z",
       "page_id": "5qmgwsxwsz78",
       "incident_updates": [
+        {
+          "id": "hbdnj2321r9f",
+          "status": "monitoring",
+          "body": "The bottleneck in the Group synchronization process for SCIM Provisioning is still under work. We are closely monitoring the service.",
+          "incident_id": "qxg1xpkfnmbj",
+          "created_at": "2024-01-10T19:56:56.449Z",
+          "updated_at": "2024-01-10T19:56:56.449Z",
+          "display_at": "2024-01-10T19:56:56.449Z",
+          "affected_components": [
+            {
+              "code": "n6qsfr329pzh",
+              "name": "User Provisioning",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "drmfd75vcyg6",
           "status": "monitoring",
