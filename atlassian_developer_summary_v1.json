@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-01-20T07:20:35.195Z"
+    "updated_at": "2024-01-20T07:25:23.675Z"
   },
   "components": [
     {
@@ -785,7 +785,7 @@
       "name": "Marketplace Reports are facing delays.",
       "status": "identified",
       "created_at": "2024-01-20T04:26:42.441Z",
-      "updated_at": "2024-01-20T07:20:35.186Z",
+      "updated_at": "2024-01-20T07:25:23.669Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -796,11 +796,11 @@
         {
           "id": "3kpqyctxn6sd",
           "status": "identified",
-          "body": "We see all data in reports delayed now. The cause is narrowed down to be an internal system upgrade leading to data delays.\nThe team is working on getting the pipeline up and running as soon as possible.\nEstimated ETA is around 8 hours from now. We will keep this thread updated on all significant updates.",
+          "body": "We see all data in reports delayed now. The cause is narrowed down to be an internal system upgrade leading to data delays. The same was communicated to partners earlier https://atlassianpartners.atlassian.net/wiki/spaces/news/blog/2023/12/21/379453986/Important+Notice+Scheduled+Maintenance+Impacting+Marketplace+Reports+and+APIs\nThe team is working on getting the pipeline up and running as soon as possible. \nEstimated ETA is around 8 hours from now. We are keeping this thread open and will keep it updated on all significant updates.",
           "incident_id": "znd3zcdb066f",
           "created_at": "2024-01-20T07:20:35.184Z",
-          "updated_at": "2024-01-20T07:20:35.184Z",
-          "display_at": "2024-01-20T07:20:35.184Z",
+          "updated_at": "2024-01-20T07:25:23.665Z",
+          "display_at": "2024-01-20T07:20:35.000Z",
           "affected_components": [
             {
               "code": "hk36hlvygg2q",
