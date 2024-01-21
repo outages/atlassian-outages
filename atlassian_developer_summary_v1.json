@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-01-20T10:21:04.362Z"
+    "updated_at": "2024-01-21T05:31:32.199Z"
   },
   "components": [
     {
@@ -232,7 +232,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -631,9 +631,9 @@
     {
       "id": "hk36hlvygg2q",
       "name": "Reporting APIs and dashboards",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2013-12-03T00:45:26.014Z",
-      "updated_at": "2024-01-20T07:20:35.149Z",
+      "updated_at": "2024-01-21T05:31:32.153Z",
       "position": 11,
       "description": "Marketing attribution reports are now operational.",
       "showcase": true,
@@ -779,84 +779,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "znd3zcdb066f",
-      "name": "Marketplace Reports are facing delays.",
-      "status": "identified",
-      "created_at": "2024-01-20T04:26:42.441Z",
-      "updated_at": "2024-01-20T07:25:23.669Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/lnwmnv98c08r",
-      "started_at": "2024-01-20T04:26:42.435Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "3kpqyctxn6sd",
-          "status": "identified",
-          "body": "We see all data in reports delayed now. The cause is narrowed down to be an internal system upgrade leading to data delays. The same was communicated to partners earlier https://atlassianpartners.atlassian.net/wiki/spaces/news/blog/2023/12/21/379453986/Important+Notice+Scheduled+Maintenance+Impacting+Marketplace+Reports+and+APIs\nThe team is working on getting the pipeline up and running as soon as possible. \nEstimated ETA is around 8 hours from now. We are keeping this thread open and will keep it updated on all significant updates.",
-          "incident_id": "znd3zcdb066f",
-          "created_at": "2024-01-20T07:20:35.184Z",
-          "updated_at": "2024-01-20T07:25:23.665Z",
-          "display_at": "2024-01-20T07:20:35.000Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "partial_outage",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "yzldm5x4fxns",
-          "status": "identified",
-          "body": "We have identified a problem with our internal systems where the number of transactions flowing into partner reporting APIs is lesser than the usual load.\n\nWe have narrowed down on the root cause and the team is working on the fix. We will update on the ETA once we get a confirmation.\nNext comms will be after a couple of hours.",
-          "incident_id": "znd3zcdb066f",
-          "created_at": "2024-01-20T04:26:42.493Z",
-          "updated_at": "2024-01-20T04:26:42.493Z",
-          "display_at": "2024-01-20T04:26:42.493Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "hk36hlvygg2q",
-          "name": "Reporting APIs and dashboards",
-          "status": "under_maintenance",
-          "created_at": "2013-12-03T00:45:26.014Z",
-          "updated_at": "2024-01-20T07:20:35.149Z",
-          "position": 11,
-          "description": "Marketing attribution reports are now operational.",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": "[]"
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
