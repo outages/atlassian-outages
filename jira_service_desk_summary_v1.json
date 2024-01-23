@@ -4,15 +4,15 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-01-22T19:59:11.595Z"
+    "updated_at": "2024-01-23T00:10:50.237Z"
   },
   "components": [
     {
       "id": "4kcs01hbh4l6",
       "name": "Jira Service Management Web",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-11-16T18:06:14.831Z",
-      "updated_at": "2024-01-22T18:13:58.794Z",
+      "updated_at": "2024-01-23T00:10:50.234Z",
       "position": 1,
       "description": "Problems with queues, issues, reports, searching, and anything else impacting an agent's ability to complete their work",
       "showcase": false,
@@ -188,64 +188,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "bf2phb35cdw6",
-      "name": "Perfomance degradation for Jira instances affecting small cohort of customers",
-      "status": "investigating",
-      "created_at": "2024-01-22T18:13:58.761Z",
-      "updated_at": "2024-01-22T18:13:58.837Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/bfk8t355k6l6",
-      "started_at": "2024-01-22T18:13:58.754Z",
-      "page_id": "pv54g7ltsc24",
-      "incident_updates": [
-        {
-          "id": "8b2crrm3z2rt",
-          "status": "investigating",
-          "body": "We are investigating reports of intermittent degraded performance for Jira Service Management, Jira Software, Jira Work Management, and Jira Product Discovery Cloud, affecting a small cohort of customers in a US shard. We will provide more details shortly.",
-          "incident_id": "bf2phb35cdw6",
-          "created_at": "2024-01-22T18:13:58.834Z",
-          "updated_at": "2024-01-22T18:13:58.834Z",
-          "display_at": "2024-01-22T18:13:58.834Z",
-          "affected_components": [
-            {
-              "code": "4kcs01hbh4l6",
-              "name": "Jira Service Management Web",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "4kcs01hbh4l6",
-          "name": "Jira Service Management Web",
-          "status": "degraded_performance",
-          "created_at": "2018-11-16T18:06:14.831Z",
-          "updated_at": "2024-01-22T18:13:58.794Z",
-          "position": 1,
-          "description": "Problems with queues, issues, reports, searching, and anything else impacting an agent's ability to complete their work",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
