@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-01-23T18:19:49.414Z"
+    "updated_at": "2024-01-23T20:56:34.823Z"
   },
   "components": [
     {
@@ -232,7 +232,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -541,9 +541,9 @@
     {
       "id": "ngby5fdfj3px",
       "name": "In-product Marketplace and app installation (Server)",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-02-01T17:38:37.793Z",
-      "updated_at": "2024-01-23T18:06:50.752Z",
+      "updated_at": "2024-01-23T20:56:34.772Z",
       "position": 8,
       "description": "The ability to discover, install, and manage apps inside of Atlassian's Server products (Jira, Confluence, Bitbucket, Bamboo, Fisheye / Crucible, Hipchat)",
       "showcase": true,
@@ -779,236 +779,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "rs3v4znz7yy0",
-      "name": "Marketplace is experiencing an issue impacting its uptime.",
-      "status": "monitoring",
-      "created_at": "2024-01-23T13:53:25.209Z",
-      "updated_at": "2024-01-23T18:19:49.408Z",
-      "monitoring_at": "2024-01-23T18:06:50.000Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/fsyh5n4xgckq",
-      "started_at": "2024-01-23T13:53:54.000Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "js67wqnx8tjs",
-          "status": "monitoring",
-          "body": "Connect auto-publish of versions remains impacted. We request partners to create the versions using the marketplace API or UI webapp. \nCore functionalities of publish new app, manage app, manage vendor, etc are all restored and dashboards are looking good. In-product marketplace and app installation in Cloud products - Jira and Confluence is all restored as well.\nThere is still some impact anticipated in In-product Marketplace and app installation (Server), we're looking into it.",
-          "incident_id": "rs3v4znz7yy0",
-          "created_at": "2024-01-23T18:06:50.808Z",
-          "updated_at": "2024-01-23T18:08:54.279Z",
-          "display_at": "2024-01-23T18:06:50.000Z",
-          "affected_components": [
-            {
-              "code": "mlr76v811c20",
-              "name": "Marketplace - App listing management",
-              "old_status": "partial_outage",
-              "new_status": "operational"
-            },
-            {
-              "code": "3t1y6724xl8q",
-              "name": "Marketplace - In-product Marketplace and app installation (Cloud)",
-              "old_status": "partial_outage",
-              "new_status": "operational"
-            },
-            {
-              "code": "ngby5fdfj3px",
-              "name": "Marketplace - In-product Marketplace and app installation (Server)",
-              "old_status": "partial_outage",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7lx3k072bl6z",
-              "name": "Marketplace - Private listings",
-              "old_status": "partial_outage",
-              "new_status": "operational"
-            },
-            {
-              "code": "1vvmngd73171",
-              "name": "Marketplace - Vendor management",
-              "old_status": "partial_outage",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "tsbymwwq9n0v",
-          "status": "identified",
-          "body": "We are continuing to work on a fix for this issue. Impact was identified around 12:40 am UTC. Connect auto-publish of app versions is impacted. Core functionalities of publish new app, manage app, manage vendor, etc are impacted. In-product marketplace and app installation in Cloud/Server/DC products - Jira and Confluence are all impacted. We're looking into it.",
-          "incident_id": "rs3v4znz7yy0",
-          "created_at": "2024-01-23T13:53:54.254Z",
-          "updated_at": "2024-01-23T18:19:49.404Z",
-          "display_at": "2024-01-23T13:53:54.000Z",
-          "affected_components": [
-            {
-              "code": "mlr76v811c20",
-              "name": "Marketplace - App listing management",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "3t1y6724xl8q",
-              "name": "Marketplace - In-product Marketplace and app installation (Cloud)",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "ngby5fdfj3px",
-              "name": "Marketplace - In-product Marketplace and app installation (Server)",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "7lx3k072bl6z",
-              "name": "Marketplace - Private listings",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "1vvmngd73171",
-              "name": "Marketplace - Vendor management",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "h4f8pjpw2gn7",
-          "status": "identified",
-          "body": "The issue has been identified and a fix is being implemented.",
-          "incident_id": "rs3v4znz7yy0",
-          "created_at": "2024-01-23T13:53:25.255Z",
-          "updated_at": "2024-01-23T13:53:25.255Z",
-          "display_at": "2024-01-23T13:53:25.255Z",
-          "affected_components": [
-            {
-              "code": "mlr76v811c20",
-              "name": "Marketplace - App listing management",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "3t1y6724xl8q",
-              "name": "Marketplace - In-product Marketplace and app installation (Cloud)",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "ngby5fdfj3px",
-              "name": "Marketplace - In-product Marketplace and app installation (Server)",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "7lx3k072bl6z",
-              "name": "Marketplace - Private listings",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "1vvmngd73171",
-              "name": "Marketplace - Vendor management",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "mlr76v811c20",
-          "name": "App listing management",
-          "status": "operational",
-          "created_at": "2018-02-01T17:46:24.130Z",
-          "updated_at": "2024-01-23T18:06:50.722Z",
-          "position": 1,
-          "description": "The ability to manage app listings on https://marketplace.atlassian.com",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "3t1y6724xl8q",
-          "name": "In-product Marketplace and app installation (Cloud)",
-          "status": "operational",
-          "created_at": "2013-12-03T00:45:39.973Z",
-          "updated_at": "2024-01-23T18:06:50.738Z",
-          "position": 7,
-          "description": "The ability to discover, install, and manage apps inside of Atlassian's Cloud products (Jira, Confluence, Stride, Bitbucket)",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "ngby5fdfj3px",
-          "name": "In-product Marketplace and app installation (Server)",
-          "status": "degraded_performance",
-          "created_at": "2018-02-01T17:38:37.793Z",
-          "updated_at": "2024-01-23T18:06:50.752Z",
-          "position": 8,
-          "description": "The ability to discover, install, and manage apps inside of Atlassian's Server products (Jira, Confluence, Bitbucket, Bamboo, Fisheye / Crucible, Hipchat)",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "7lx3k072bl6z",
-          "name": "Private listings",
-          "status": "operational",
-          "created_at": "2018-02-01T17:52:40.782Z",
-          "updated_at": "2024-01-23T18:06:50.766Z",
-          "position": 10,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "1vvmngd73171",
-          "name": "Vendor management",
-          "status": "operational",
-          "created_at": "2018-02-01T17:53:33.728Z",
-          "updated_at": "2024-01-23T18:06:50.781Z",
-          "position": 13,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
