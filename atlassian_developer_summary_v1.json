@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-01-23T18:08:54.399Z"
+    "updated_at": "2024-01-23T18:19:49.414Z"
   },
   "components": [
     {
@@ -785,7 +785,7 @@
       "name": "Marketplace is experiencing an issue impacting its uptime.",
       "status": "monitoring",
       "created_at": "2024-01-23T13:53:25.209Z",
-      "updated_at": "2024-01-23T18:08:54.396Z",
+      "updated_at": "2024-01-23T18:19:49.408Z",
       "monitoring_at": "2024-01-23T18:06:50.000Z",
       "resolved_at": null,
       "impact": "major",
@@ -840,10 +840,10 @@
         {
           "id": "tsbymwwq9n0v",
           "status": "identified",
-          "body": "We are continuing to work on a fix for this issue. Impact was identified around 12:40 am UTC.",
+          "body": "We are continuing to work on a fix for this issue. Impact was identified around 12:40 am UTC. Connect auto-publish of app versions is impacted. Core functionalities of publish new app, manage app, manage vendor, etc are impacted. In-product marketplace and app installation in Cloud/Server/DC products - Jira and Confluence are all impacted. We're looking into it.",
           "incident_id": "rs3v4znz7yy0",
           "created_at": "2024-01-23T13:53:54.254Z",
-          "updated_at": "2024-01-23T13:55:44.248Z",
+          "updated_at": "2024-01-23T18:19:49.404Z",
           "display_at": "2024-01-23T13:53:54.000Z",
           "affected_components": [
             {
