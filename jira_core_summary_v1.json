@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-01-24T07:29:27.738Z"
+    "updated_at": "2024-01-24T07:38:52.023Z"
   },
   "components": [
     {
@@ -85,9 +85,9 @@
     {
       "id": "mfs4w2r40sf7",
       "name": "Administration",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-01-23T17:06:39.034Z",
-      "updated_at": "2024-01-23T14:24:10.886Z",
+      "updated_at": "2024-01-24T07:38:52.020Z",
       "position": 6,
       "description": "Viewing and editing \"site\" and \"Jira\" adminstration",
       "showcase": false,
@@ -176,7 +176,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
