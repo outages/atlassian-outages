@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-01-24T17:50:14.298Z"
+    "updated_at": "2024-01-24T18:13:29.176Z"
   },
   "components": [
     {
@@ -195,7 +195,7 @@
       "name": "Scheduled Ongoing Maintenance",
       "status": "scheduled",
       "created_at": "2024-01-24T15:29:36.871Z",
-      "updated_at": "2024-01-24T17:50:14.290Z",
+      "updated_at": "2024-01-24T17:57:15.264Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -284,7 +284,7 @@
         }
       ],
       "scheduled_for": "2024-01-24T17:00:00.000Z",
-      "scheduled_until": "2024-03-24T17:00:00.000Z"
+      "scheduled_until": "2024-03-31T17:00:00.000Z"
     }
   ],
   "status": {
