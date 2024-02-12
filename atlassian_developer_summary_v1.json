@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-02-08T18:40:15.603Z"
+    "updated_at": "2024-02-12T09:27:12.445Z"
   },
   "components": [
     {
@@ -109,7 +109,7 @@
     {
       "id": "73bt63kd5q9k",
       "name": "Developer",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-02-01T17:21:34.889Z",
       "updated_at": "2019-05-02T04:22:45.333Z",
       "position": 2,
@@ -751,9 +751,9 @@
     {
       "id": "x861fm3drh21",
       "name": "End-user consent",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2022-10-18T22:31:28.597Z",
-      "updated_at": "2023-08-02T07:22:36.496Z",
+      "updated_at": "2024-02-12T09:27:12.401Z",
       "position": 15,
       "description": "Prompt for consent of specific permissions for an app.",
       "showcase": true,
@@ -779,10 +779,64 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "6wkqlpvn1ql7",
+      "name": "Degraded user consent capability",
+      "status": "investigating",
+      "created_at": "2024-02-12T09:27:12.367Z",
+      "updated_at": "2024-02-12T09:27:12.442Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/qdftg3n67jsp",
+      "started_at": "2024-02-12T09:27:12.359Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "vw5r9ffwt8v6",
+          "status": "investigating",
+          "body": "We are investigating incident causing degradation of user consent capability - users may see intermittent consent failures. It's affecting less that 10% of interactions.\n\nWe are continuing the investigation, and will update the status page at 10:30 UTC.",
+          "incident_id": "6wkqlpvn1ql7",
+          "created_at": "2024-02-12T09:27:12.440Z",
+          "updated_at": "2024-02-12T09:27:12.440Z",
+          "display_at": "2024-02-12T09:27:12.440Z",
+          "affected_components": [
+            {
+              "code": "x861fm3drh21",
+              "name": "Developer - End-user consent",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "x861fm3drh21",
+          "name": "End-user consent",
+          "status": "degraded_performance",
+          "created_at": "2022-10-18T22:31:28.597Z",
+          "updated_at": "2024-02-12T09:27:12.401Z",
+          "position": 15,
+          "description": "Prompt for consent of specific permissions for an app.",
+          "showcase": true,
+          "start_date": "2022-10-18",
+          "group_id": "73bt63kd5q9k",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
