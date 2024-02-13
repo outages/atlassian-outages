@@ -4,15 +4,15 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-02-13T03:56:06.854Z"
+    "updated_at": "2024-02-13T06:27:46.117Z"
   },
   "components": [
     {
       "id": "l4fp2xkkygv4",
       "name": "Viewing content",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-11-16T18:17:29.270Z",
-      "updated_at": "2024-02-13T02:12:29.747Z",
+      "updated_at": "2024-02-13T06:27:46.067Z",
       "position": 1,
       "description": "Problems viewing issues, dashboards, boards, reports, etc.",
       "showcase": false,
@@ -173,104 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "32dybnlfy76m",
-      "name": "User mention in issues' Description shown as @User instead of user name",
-      "status": "identified",
-      "created_at": "2024-02-13T02:12:29.712Z",
-      "updated_at": "2024-02-13T03:56:06.845Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/h27dfk9md7cl",
-      "started_at": "2024-02-13T02:12:29.707Z",
-      "page_id": "s6f0gm5gcpmy",
-      "incident_updates": [
-        {
-          "id": "qx8l0xg6h55x",
-          "status": "identified",
-          "body": "We continue to work on resolving the mention issue for Jira. We have identified the root cause and expect recovery shortly.",
-          "incident_id": "32dybnlfy76m",
-          "created_at": "2024-02-13T03:56:06.842Z",
-          "updated_at": "2024-02-13T03:56:06.842Z",
-          "display_at": "2024-02-13T03:56:06.842Z",
-          "affected_components": [
-            {
-              "code": "l4fp2xkkygv4",
-              "name": "Viewing content",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "gzp28s09h0pt",
-          "status": "investigating",
-          "body": "We are continuing to investigate this issue.",
-          "incident_id": "32dybnlfy76m",
-          "created_at": "2024-02-13T03:26:03.632Z",
-          "updated_at": "2024-02-13T03:26:03.632Z",
-          "display_at": "2024-02-13T03:26:03.632Z",
-          "affected_components": [
-            {
-              "code": "l4fp2xkkygv4",
-              "name": "Viewing content",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "2sgzn8qygz70",
-          "status": "investigating",
-          "body": "We are investigating an issue with user name showing as @User for mention that is impacting some Jira Cloud customers. We will provide more details within the next hour.",
-          "incident_id": "32dybnlfy76m",
-          "created_at": "2024-02-13T02:12:29.788Z",
-          "updated_at": "2024-02-13T02:12:29.788Z",
-          "display_at": "2024-02-13T02:12:29.788Z",
-          "affected_components": [
-            {
-              "code": "l4fp2xkkygv4",
-              "name": "Viewing content",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "l4fp2xkkygv4",
-          "name": "Viewing content",
-          "status": "partial_outage",
-          "created_at": "2018-11-16T18:17:29.270Z",
-          "updated_at": "2024-02-13T02:12:29.747Z",
-          "position": 1,
-          "description": "Problems viewing issues, dashboards, boards, reports, etc.",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "s6f0gm5gcpmy",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
