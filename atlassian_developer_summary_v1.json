@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-02-13T18:43:00.876Z"
+    "updated_at": "2024-02-13T21:30:14.389Z"
   },
   "components": [
     {
@@ -109,7 +109,7 @@
     {
       "id": "73bt63kd5q9k",
       "name": "Developer",
-      "status": "major_outage",
+      "status": "partial_outage",
       "created_at": "2018-02-01T17:21:34.889Z",
       "updated_at": "2019-05-02T04:22:45.333Z",
       "position": 2,
@@ -496,9 +496,9 @@
     {
       "id": "pgqd9x4jl520",
       "name": "Forge Function Invocation",
-      "status": "major_outage",
+      "status": "partial_outage",
       "created_at": "2021-03-23T11:56:37.167Z",
-      "updated_at": "2024-02-13T18:27:39.049Z",
+      "updated_at": "2024-02-13T21:30:14.357Z",
       "position": 7,
       "description": null,
       "showcase": true,
@@ -783,9 +783,9 @@
     {
       "id": "ynvwwvw8yzrf",
       "name": "Errors while invoking forge functions for newly installed apps",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2024-02-13T18:27:39.010Z",
-      "updated_at": "2024-02-13T18:27:39.099Z",
+      "updated_at": "2024-02-13T21:30:14.383Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
@@ -793,6 +793,26 @@
       "started_at": "2024-02-13T18:27:38.999Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "t890g234982f",
+          "status": "identified",
+          "body": "We have identified an issue with Forge function invocation that is impacting some Atlassian Cloud customers with newly installed Forge apps.\n\nDue to a race condition, some install events 'avi:forge:installed:app' were not delivered after the Forge app was installed on a customer Cloud site.\n\nWe estimate that a maximum of 108 apps were impacted, totaling about 1K app installations. \n\nTimeline\n\n2024-02-08 00:00 UTC: impact start \n2024-02-12 20:00 UTC: impact detected\n2024-02-13 21:00 UTC: solution identified\n\nWe have identified the root cause and are currently rolling out a fix. \n\nWe will provide another update in 1 hour",
+          "incident_id": "ynvwwvw8yzrf",
+          "created_at": "2024-02-13T21:30:14.381Z",
+          "updated_at": "2024-02-13T21:30:14.381Z",
+          "display_at": "2024-02-13T21:30:14.381Z",
+          "affected_components": [
+            {
+              "code": "pgqd9x4jl520",
+              "name": "Developer - Forge Function Invocation",
+              "old_status": "major_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "q01jdnm4hct8",
           "status": "investigating",
@@ -818,9 +838,9 @@
         {
           "id": "pgqd9x4jl520",
           "name": "Forge Function Invocation",
-          "status": "major_outage",
+          "status": "partial_outage",
           "created_at": "2021-03-23T11:56:37.167Z",
-          "updated_at": "2024-02-13T18:27:39.049Z",
+          "updated_at": "2024-02-13T21:30:14.357Z",
           "position": 7,
           "description": null,
           "showcase": true,
@@ -836,7 +856,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
