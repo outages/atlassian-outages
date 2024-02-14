@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-02-14T21:57:43.989Z"
+    "updated_at": "2024-02-14T22:31:10.130Z"
   },
   "components": [
     {
@@ -192,9 +192,9 @@
     {
       "id": "qkwwdtgghdnk",
       "name": "Service Disruptions Affecting Atlassian Products",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2024-02-14T21:57:43.958Z",
-      "updated_at": "2024-02-14T21:57:43.987Z",
+      "updated_at": "2024-02-14T22:31:10.121Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "none",
@@ -202,6 +202,19 @@
       "started_at": "2024-02-14T21:57:43.953Z",
       "page_id": "pv54g7ltsc24",
       "incident_updates": [
+        {
+          "id": "t0y1455m18v5",
+          "status": "identified",
+          "body": "We have identified the root cause of the increased errors and have mitigated the problem. We continue to work on resolving the issue and monitoring this closely.",
+          "incident_id": "qkwwdtgghdnk",
+          "created_at": "2024-02-14T22:31:10.119Z",
+          "updated_at": "2024-02-14T22:31:10.119Z",
+          "display_at": "2024-02-14T22:31:10.119Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "tg8p2621s6rd",
           "status": "investigating",

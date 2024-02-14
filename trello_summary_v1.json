@@ -4,7 +4,7 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2024-02-14T16:57:43.985-05:00"
+    "updated_at": "2024-02-14T17:31:09.735-05:00"
   },
   "components": [
     {
@@ -87,9 +87,9 @@
     {
       "id": "nwtpdd286qgk",
       "name": "Service Disruptions Affecting Atlassian Products",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2024-02-14T16:57:43.954-05:00",
-      "updated_at": "2024-02-14T16:57:43.983-05:00",
+      "updated_at": "2024-02-14T17:31:09.726-05:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "none",
@@ -97,6 +97,19 @@
       "started_at": "2024-02-14T16:57:43.949-05:00",
       "page_id": "h5frqhb041yq",
       "incident_updates": [
+        {
+          "id": "sbvz0tm989mw",
+          "status": "identified",
+          "body": "We have identified the root cause of the increased errors and have mitigated the problem. We continue to work on resolving the issue and monitoring this closely.",
+          "incident_id": "nwtpdd286qgk",
+          "created_at": "2024-02-14T17:31:09.724-05:00",
+          "updated_at": "2024-02-14T17:31:09.724-05:00",
+          "display_at": "2024-02-14T17:31:09.724-05:00",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "3xhpplgktt79",
           "status": "investigating",
