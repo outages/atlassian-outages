@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-02-21T04:22:51.364Z"
+    "updated_at": "2024-02-21T04:57:17.226Z"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "hzbyfxf686qd",
       "name": "Service Portal",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-11-16T18:06:14.848Z",
-      "updated_at": "2024-02-21T04:04:27.874Z",
+      "updated_at": "2024-02-21T04:57:17.148Z",
       "position": 2,
       "description": "Problems related to the service desk portals where end-users make requests or raise issues",
       "showcase": false,
@@ -115,9 +115,9 @@
     {
       "id": "why9xhgfq7kx",
       "name": "Authentication and User Management",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-05-02T04:27:17.805Z",
-      "updated_at": "2024-02-21T03:41:45.981Z",
+      "updated_at": "2024-02-21T04:57:17.167Z",
       "position": 8,
       "description": null,
       "showcase": false,
@@ -188,131 +188,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "sxvfynrzwv2z",
-      "name": "Increased authentication errors across multiple products",
-      "status": "monitoring",
-      "created_at": "2024-02-21T03:41:45.956Z",
-      "updated_at": "2024-02-21T04:22:51.362Z",
-      "monitoring_at": "2024-02-21T04:22:51.348Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/yv630cj1w52q",
-      "started_at": "2024-02-21T03:41:45.950Z",
-      "page_id": "pv54g7ltsc24",
-      "incident_updates": [
-        {
-          "id": "ps2cf7znfvrv",
-          "status": "monitoring",
-          "body": "We have identified the root cause of the authentication errors and have mitigated the problem. We are now monitoring this closely and will provide further updates within the hour.",
-          "incident_id": "sxvfynrzwv2z",
-          "created_at": "2024-02-21T04:22:51.348Z",
-          "updated_at": "2024-02-21T04:22:51.348Z",
-          "display_at": "2024-02-21T04:22:51.348Z",
-          "affected_components": [
-            {
-              "code": "hzbyfxf686qd",
-              "name": "Service Portal",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "why9xhgfq7kx",
-              "name": "Authentication and User Management",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "gkxs3vsr2v9k",
-          "status": "investigating",
-          "body": "We are continuing to investigate this issue.",
-          "incident_id": "sxvfynrzwv2z",
-          "created_at": "2024-02-21T04:04:27.904Z",
-          "updated_at": "2024-02-21T04:04:27.904Z",
-          "display_at": "2024-02-21T04:04:27.904Z",
-          "affected_components": [
-            {
-              "code": "hzbyfxf686qd",
-              "name": "Service Portal",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "why9xhgfq7kx",
-              "name": "Authentication and User Management",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "j1v6fkb2dmhh",
-          "status": "investigating",
-          "body": "We are investigating authentication issues impacting some Confluence, Jira Work Management, Jira Service Management, Jira Software, and Atlassian Bitbucket Cloud customers. We will provide more details within the next hour.",
-          "incident_id": "sxvfynrzwv2z",
-          "created_at": "2024-02-21T03:41:46.013Z",
-          "updated_at": "2024-02-21T03:41:46.013Z",
-          "display_at": "2024-02-21T03:41:46.013Z",
-          "affected_components": [
-            {
-              "code": "why9xhgfq7kx",
-              "name": "Authentication and User Management",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "hzbyfxf686qd",
-          "name": "Service Portal",
-          "status": "partial_outage",
-          "created_at": "2018-11-16T18:06:14.848Z",
-          "updated_at": "2024-02-21T04:04:27.874Z",
-          "position": 2,
-          "description": "Problems related to the service desk portals where end-users make requests or raise issues",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "why9xhgfq7kx",
-          "name": "Authentication and User Management",
-          "status": "partial_outage",
-          "created_at": "2019-05-02T04:27:17.805Z",
-          "updated_at": "2024-02-21T03:41:45.981Z",
-          "position": 8,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
