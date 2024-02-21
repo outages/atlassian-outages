@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-02-17T17:00:56.924Z"
+    "updated_at": "2024-02-21T03:14:11.372Z"
   },
   "components": [
     {
@@ -779,7 +779,38 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "22trhj6k26gp",
+      "name": "Logs for some apps were not available in dev console for some Forge Lambda apps",
+      "status": "monitoring",
+      "created_at": "2024-02-21T03:14:11.326Z",
+      "updated_at": "2024-02-21T03:14:11.370Z",
+      "monitoring_at": "2024-02-21T03:14:11.361Z",
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/67frxkgyrpv2",
+      "started_at": "2024-02-21T03:14:11.320Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "wsymlt7sw3wx",
+          "status": "monitoring",
+          "body": "During 12:37am UTC to 3:34 am UTC logs for some Forge apps which were newly deployed during the time period might be missing logs in developer console. This issue is resolved now.",
+          "incident_id": "22trhj6k26gp",
+          "created_at": "2024-02-21T03:14:11.361Z",
+          "updated_at": "2024-02-21T03:14:11.361Z",
+          "display_at": "2024-02-21T03:14:11.361Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
