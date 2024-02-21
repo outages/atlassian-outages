@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-02-20T17:41:23.457Z"
+    "updated_at": "2024-02-21T03:43:13.294Z"
   },
   "components": [
     {
@@ -115,9 +115,9 @@
     {
       "id": "why9xhgfq7kx",
       "name": "Authentication and User Management",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-05-02T04:27:17.805Z",
-      "updated_at": "2024-02-14T11:30:47.649Z",
+      "updated_at": "2024-02-21T03:41:45.981Z",
       "position": 8,
       "description": null,
       "showcase": false,
@@ -188,10 +188,64 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "sxvfynrzwv2z",
+      "name": "Increased authentication errors across multiple products",
+      "status": "investigating",
+      "created_at": "2024-02-21T03:41:45.956Z",
+      "updated_at": "2024-02-21T03:41:46.016Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/yv630cj1w52q",
+      "started_at": "2024-02-21T03:41:45.950Z",
+      "page_id": "pv54g7ltsc24",
+      "incident_updates": [
+        {
+          "id": "j1v6fkb2dmhh",
+          "status": "investigating",
+          "body": "We are investigating authentication issues impacting some Confluence, Jira Work Management, Jira Service Management, Jira Software, and Atlassian Bitbucket Cloud customers. We will provide more details within the next hour.",
+          "incident_id": "sxvfynrzwv2z",
+          "created_at": "2024-02-21T03:41:46.013Z",
+          "updated_at": "2024-02-21T03:41:46.013Z",
+          "display_at": "2024-02-21T03:41:46.013Z",
+          "affected_components": [
+            {
+              "code": "why9xhgfq7kx",
+              "name": "Authentication and User Management",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "why9xhgfq7kx",
+          "name": "Authentication and User Management",
+          "status": "partial_outage",
+          "created_at": "2019-05-02T04:27:17.805Z",
+          "updated_at": "2024-02-21T03:41:45.981Z",
+          "position": 8,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "pv54g7ltsc24",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
