@@ -4,7 +4,7 @@
     "name": "Atlassian Bitbucket",
     "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-02-22T08:43:01.513Z"
+    "updated_at": "2024-02-22T10:08:44.841Z"
   },
   "components": [
     {
@@ -194,7 +194,7 @@
       "name": "Bitbucket Cloud website performance degraded",
       "status": "investigating",
       "created_at": "2024-02-22T08:37:58.070Z",
-      "updated_at": "2024-02-22T08:37:58.171Z",
+      "updated_at": "2024-02-22T10:08:44.831Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -202,6 +202,32 @@
       "started_at": "2024-02-22T08:37:58.064Z",
       "page_id": "bqlf8qjztdtr",
       "incident_updates": [
+        {
+          "id": "gbt8c9vqxfn7",
+          "status": "investigating",
+          "body": "We are continuing to investigate the cause of the degraded performance.",
+          "incident_id": "rgwgpfyx0mpy",
+          "created_at": "2024-02-22T10:08:44.827Z",
+          "updated_at": "2024-02-22T10:08:44.827Z",
+          "display_at": "2024-02-22T10:08:44.827Z",
+          "affected_components": [
+            {
+              "code": "g0lfj4sv2fhf",
+              "name": "Website",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "k0x2yw1435v7",
+              "name": "API",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "0shdxv448y53",
           "status": "investigating",
