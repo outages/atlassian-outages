@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-02-28T13:42:58.158Z"
+    "updated_at": "2024-02-28T15:57:40.315Z"
   },
   "components": [
     {
@@ -783,9 +783,9 @@
     {
       "id": "ncqyrsz7tg0x",
       "name": "User impersonation for Connect apps is not working",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2024-02-28T13:39:52.238Z",
-      "updated_at": "2024-02-28T13:39:52.292Z",
+      "updated_at": "2024-02-28T15:57:40.308Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
@@ -793,6 +793,26 @@
       "started_at": "2024-02-28T13:39:52.233Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "n0fdvqjvt8q2",
+          "status": "identified",
+          "body": "Starting from 13:15 UTC, all user impersonation operations done by Connect apps in all regions using ACT_AS_USER scope were failing.\n\nWe have scaled up the underlying service responsible for tokens generation and we're seeing an improvement in response times and success rates. We continue to investigate the root cause and will provide the next update by 18:00 UTC, in 2h from now.",
+          "incident_id": "ncqyrsz7tg0x",
+          "created_at": "2024-02-28T15:57:40.306Z",
+          "updated_at": "2024-02-28T15:57:40.306Z",
+          "display_at": "2024-02-28T15:57:40.306Z",
+          "affected_components": [
+            {
+              "code": "fjsq71xwd3rn",
+              "name": "Authentication and user management",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "njlwn399hlvc",
           "status": "investigating",
