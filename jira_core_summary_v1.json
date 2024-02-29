@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-02-29T17:45:53.356Z"
+    "updated_at": "2024-02-29T17:55:33.232Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Configuration data discrepancies in automation rules",
       "status": "identified",
       "created_at": "2024-02-29T08:23:03.467Z",
-      "updated_at": "2024-02-29T17:45:53.350Z",
+      "updated_at": "2024-02-29T17:55:33.227Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
@@ -193,8 +193,8 @@
           "body": "We are continuing to work on a fix for this issue.",
           "incident_id": "rrtjyx9nqlny",
           "created_at": "2024-02-29T17:45:53.349Z",
-          "updated_at": "2024-02-29T17:45:53.349Z",
-          "display_at": "2024-02-29T17:45:53.349Z",
+          "updated_at": "2024-02-29T17:55:33.225Z",
+          "display_at": "2024-02-29T17:45:53.000Z",
           "affected_components": [
             {
               "code": "g05jhcg0y7yw",
