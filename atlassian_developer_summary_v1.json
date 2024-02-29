@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-02-29T15:30:19.651Z"
+    "updated_at": "2024-02-29T18:27:30.403Z"
   },
   "components": [
     {
@@ -308,9 +308,9 @@
     {
       "id": "fjsq71xwd3rn",
       "name": "Authentication and user management",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-05-02T04:22:28.554Z",
-      "updated_at": "2024-02-29T10:15:56.660Z",
+      "updated_at": "2024-02-29T18:27:30.355Z",
       "position": 4,
       "description": null,
       "showcase": true,
@@ -779,101 +779,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "k4qd0kflm29v",
-      "name": "Jira OAuth 2.0 REST calls are returning incomplete data for some endpoints",
-      "status": "monitoring",
-      "created_at": "2024-02-29T10:15:56.000Z",
-      "updated_at": "2024-02-29T15:30:19.648Z",
-      "monitoring_at": "2024-02-29T15:30:19.626Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/9htrlbmjvx6v",
-      "started_at": "2024-02-29T10:15:56.000Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "kqwm8ktq7w9m",
-          "status": "monitoring",
-          "body": "Since Monday Feb 26th some of Jira OAuth 2.0 REST calls that result in returning an empty or incomplete set of data for issue related endpoints (some of identified endpoints are /rest/api/<api-version>/issue/createmeta, /rest/api/<api-version/issue/<issue-id>, /rest/api/<api-version>/issue/<issue-id-or-key>/editmeta). \n\nWe have identified root cause of the issue and resolved it by rolling back one of the recently released code changes. We are seeing reduced number of authentication errors and will continue monitoring before confirming incident as resolved. \n\nWe'll provide next update by 17:00 UTC, in 2 hours from now.",
-          "incident_id": "k4qd0kflm29v",
-          "created_at": "2024-02-29T15:30:19.626Z",
-          "updated_at": "2024-02-29T15:30:19.626Z",
-          "display_at": "2024-02-29T15:30:19.626Z",
-          "affected_components": [
-            {
-              "code": "fjsq71xwd3rn",
-              "name": "Authentication and user management",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "w82wtmjj1wzg",
-          "status": "investigating",
-          "body": "We continue to investigate issue affecting some of Jira OAuth 2.0 REST calls that result in returning an empty or incomplete set of data for issue related endpoints (some of identified endpoints are /rest/api/<api-version>/issue/createmeta, /rest/api/<api-version/issue/<issue-id>, /rest/api/<api-version>/issue/<issue-id-or-key>/editmeta).\n\nWe're testing few hypothesis on the root cause and will provide another update by 15:00 UTC, in 2 hours from now",
-          "incident_id": "k4qd0kflm29v",
-          "created_at": "2024-02-29T12:55:56.665Z",
-          "updated_at": "2024-02-29T12:55:56.665Z",
-          "display_at": "2024-02-29T12:55:56.665Z",
-          "affected_components": [
-            {
-              "code": "fjsq71xwd3rn",
-              "name": "Authentication and user management",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "d16zfxxcf638",
-          "status": "investigating",
-          "body": "We have identified a problem with some Jira OAuth 2.0 REST calls that result in returning an empty or incomplete set of data for issue related endpoints (some of identified endpoints are /rest/api/<api-version>/issue/createmeta, /rest/api/<api-version/issue/<issue-id>, /rest/api/<api-version>/issue/<issue-id-or-key>/editmeta).\n\nWe are investigating the root cause and will provide another update by 12:00 UTC.",
-          "incident_id": "k4qd0kflm29v",
-          "created_at": "2024-02-29T10:15:56.705Z",
-          "updated_at": "2024-02-29T10:16:15.800Z",
-          "display_at": "2024-02-29T10:15:56.000Z",
-          "affected_components": [
-            {
-              "code": "fjsq71xwd3rn",
-              "name": "Authentication and user management",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "fjsq71xwd3rn",
-          "name": "Authentication and user management",
-          "status": "partial_outage",
-          "created_at": "2019-05-02T04:22:28.554Z",
-          "updated_at": "2024-02-29T10:15:56.660Z",
-          "position": 4,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [
     {
       "id": "77mv7j1f4vqm",
@@ -957,7 +863,7 @@
     }
   ],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
