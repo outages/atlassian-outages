@@ -4,7 +4,7 @@
     "name": "Jira Align",
     "url": "https://jira-align.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-02-27T06:45:54.518Z"
+    "updated_at": "2024-02-29T01:43:19.096Z"
   },
   "components": [
     {
@@ -563,7 +563,38 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "v2d7fy02fsg9",
+      "name": "Investigating new product purchasing",
+      "status": "investigating",
+      "created_at": "2024-02-29T01:27:59.683Z",
+      "updated_at": "2024-02-29T01:27:59.713Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/bpfyz6scnl9x",
+      "started_at": "2024-02-29T01:27:59.678Z",
+      "page_id": "jrg4crndtsgz",
+      "incident_updates": [
+        {
+          "id": "f699wpwctlkl",
+          "status": "investigating",
+          "body": "We are investigating an issue with new product purchasing that is impacting for all products. Customers adding new cloud products may have experienced a long waiting page or an error page after attempting to add a product. We have mitigated the root cause and are working to resolve impact for customers who attempted to add a product during the impact period. We will provide more details within the next hour.",
+          "incident_id": "v2d7fy02fsg9",
+          "created_at": "2024-02-29T01:27:59.711Z",
+          "updated_at": "2024-02-29T01:27:59.711Z",
+          "display_at": "2024-02-29T01:27:59.711Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",

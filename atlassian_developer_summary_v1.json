@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-02-29T00:00:59.349Z"
+    "updated_at": "2024-02-29T01:45:21.810Z"
   },
   "components": [
     {
@@ -786,7 +786,7 @@
       "name": "Forge hosted storage scheduled platform migration (no outage)",
       "status": "in_progress",
       "created_at": "2024-02-28T09:26:41.798Z",
-      "updated_at": "2024-02-29T00:00:59.334Z",
+      "updated_at": "2024-02-29T01:45:21.802Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -797,10 +797,10 @@
         {
           "id": "rfdlpsg1jl5v",
           "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "body": "Edit: This message was unintentionally posted. The migration has not started yet and a message will be posted here when it resumes.\nScheduled maintenance is currently in progress. We will provide updates as necessary.",
           "incident_id": "77mv7j1f4vqm",
           "created_at": "2024-02-29T00:00:59.332Z",
-          "updated_at": "2024-02-29T00:00:59.332Z",
+          "updated_at": "2024-02-29T01:45:21.797Z",
           "display_at": "2024-02-29T00:00:59.332Z",
           "affected_components": null,
           "deliver_notifications": true,
