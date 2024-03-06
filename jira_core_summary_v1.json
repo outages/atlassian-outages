@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-03-01T14:52:56.282Z"
+    "updated_at": "2024-03-06T00:43:04.920Z"
   },
   "components": [
     {
@@ -174,6 +174,36 @@
     }
   ],
   "incidents": [
+    {
+      "id": "ys0992krsy5p",
+      "name": "Issue with incoming email handler",
+      "status": "investigating",
+      "created_at": "2024-03-06T00:11:52.036Z",
+      "updated_at": "2024-03-06T00:11:59.739Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/2w72l5r0dys6",
+      "started_at": "2024-03-06T00:11:52.030Z",
+      "page_id": "s6f0gm5gcpmy",
+      "incident_updates": [
+        {
+          "id": "vr0xwkx52fgz",
+          "status": "investigating",
+          "body": "We have identified an incident that has caused the failure of the incoming email handler to a small number of customers, affecting issue creation and comments via email. We are investigating and will post updates within the next hour.",
+          "incident_id": "ys0992krsy5p",
+          "created_at": "2024-03-06T00:11:52.073Z",
+          "updated_at": "2024-03-06T00:11:52.073Z",
+          "display_at": "2024-03-06T00:11:52.073Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    },
     {
       "id": "rrtjyx9nqlny",
       "name": "Configuration data discrepancies in automation rules",
