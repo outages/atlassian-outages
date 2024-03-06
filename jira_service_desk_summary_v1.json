@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-03-06T04:06:33.600Z"
+    "updated_at": "2024-03-06T05:02:58.814Z"
   },
   "components": [
     {
@@ -160,9 +160,9 @@
     {
       "id": "7rq3yg76vvbc",
       "name": "Automation for Jira",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-12-23T01:40:13.601Z",
-      "updated_at": "2024-03-01T14:52:18.778Z",
+      "updated_at": "2024-03-06T04:52:18.882Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -192,16 +192,29 @@
     {
       "id": "x2sr23xwyjy7",
       "name": "Issue with incoming email handler",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2024-03-06T00:13:05.242Z",
-      "updated_at": "2024-03-06T04:06:33.591Z",
-      "monitoring_at": null,
+      "updated_at": "2024-03-06T05:02:58.811Z",
+      "monitoring_at": "2024-03-06T05:01:57.000Z",
       "resolved_at": null,
-      "impact": "none",
+      "impact": "major",
       "shortlink": "https://stspg.io/tf5316whmxc7",
       "started_at": "2024-03-06T00:13:05.234Z",
       "page_id": "pv54g7ltsc24",
       "incident_updates": [
+        {
+          "id": "722f2dfgm9jv",
+          "status": "monitoring",
+          "body": "We have deployed the fix and we are seeing recovery on affected cloud sites. We are now monitoring closely.",
+          "incident_id": "x2sr23xwyjy7",
+          "created_at": "2024-03-06T05:01:57.293Z",
+          "updated_at": "2024-03-06T05:02:58.794Z",
+          "display_at": "2024-03-06T05:01:57.000Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "8hj4jp2v9n0f",
           "status": "identified",
@@ -231,184 +244,11 @@
       ],
       "components": [],
       "reminder_intervals": null
-    },
-    {
-      "id": "6n7h61hgkwfc",
-      "name": "Configuration data discrepancies in automation rules",
-      "status": "identified",
-      "created_at": "2024-02-29T08:22:22.164Z",
-      "updated_at": "2024-03-01T14:52:18.824Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/lsdr248bf01b",
-      "started_at": "2024-02-29T08:22:22.159Z",
-      "page_id": "pv54g7ltsc24",
-      "incident_updates": [
-        {
-          "id": "lqpx0xxtl6tb",
-          "status": "identified",
-          "body": "We have successfully restored the majority of automation rules that were affected, but we are currently in the process of manually fixing the remaining ones. Our support team will be contacting the customers impacted by this issue to proceed with resolving their cases.",
-          "incident_id": "6n7h61hgkwfc",
-          "created_at": "2024-03-01T14:52:18.821Z",
-          "updated_at": "2024-03-01T14:52:18.821Z",
-          "display_at": "2024-03-01T14:52:18.821Z",
-          "affected_components": [
-            {
-              "code": "7rq3yg76vvbc",
-              "name": "Automation for Jira",
-              "old_status": "major_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "pww8ldvl0gf9",
-          "status": "identified",
-          "body": "This issue has been mitigated, and we have restored the majority of automation rules that were affected. Those rules are working as normal, including the rules that had not been modified in the last 48 hours and the rules created after the incident. The remaining rules that haven't yet been restored are cases where customers have manually updated the rules after the incident happened.\nWe are proceeding with caution to avoid overwriting these changes.",
-          "incident_id": "6n7h61hgkwfc",
-          "created_at": "2024-03-01T03:17:53.439Z",
-          "updated_at": "2024-03-01T03:17:53.439Z",
-          "display_at": "2024-03-01T03:17:53.439Z",
-          "affected_components": [
-            {
-              "code": "7rq3yg76vvbc",
-              "name": "Automation for Jira",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "09zxbyhc7snz",
-          "status": "identified",
-          "body": "We are continuously working on restoring the affected automation rules configuration data. At the moment the majority of the impact has already been mitigated and the team is currently focusing on a few specific outstanding scenarios. We will continue to update you as we progress.",
-          "incident_id": "6n7h61hgkwfc",
-          "created_at": "2024-02-29T17:30:03.848Z",
-          "updated_at": "2024-02-29T17:30:03.848Z",
-          "display_at": "2024-02-29T17:30:03.848Z",
-          "affected_components": [
-            {
-              "code": "7rq3yg76vvbc",
-              "name": "Automation for Jira",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "70jw9hhx16tx",
-          "status": "identified",
-          "body": "We are currently working on restoring the lost automation rules configuration data. The email notifications related to the automation will be addressed upon restoring the lost data. Customers can update the configurations with the Automation rules themselves, and our fix will not override those changes. We will share further updates as we progress.",
-          "incident_id": "6n7h61hgkwfc",
-          "created_at": "2024-02-29T15:20:26.221Z",
-          "updated_at": "2024-02-29T15:20:26.221Z",
-          "display_at": "2024-02-29T15:20:26.221Z",
-          "affected_components": [
-            {
-              "code": "7rq3yg76vvbc",
-              "name": "Automation for Jira",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "w39y00gjgljp",
-          "status": "identified",
-          "body": "We have identified the root cause and we are currently working on deploying fix to restore any lost configuration/rules. Next update will be provided in an hour.",
-          "incident_id": "6n7h61hgkwfc",
-          "created_at": "2024-02-29T10:54:33.895Z",
-          "updated_at": "2024-02-29T10:54:33.895Z",
-          "display_at": "2024-02-29T10:54:33.895Z",
-          "affected_components": [
-            {
-              "code": "7rq3yg76vvbc",
-              "name": "Automation for Jira",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "yjm35dm3lgvw",
-          "status": "investigating",
-          "body": "We continue to investigate the issue with the Automation rules losing configuration data that is impacting certain cloud products. We are actively working to resolve this issue as quickly as possible.",
-          "incident_id": "6n7h61hgkwfc",
-          "created_at": "2024-02-29T09:23:31.954Z",
-          "updated_at": "2024-02-29T09:23:31.954Z",
-          "display_at": "2024-02-29T09:23:31.954Z",
-          "affected_components": [
-            {
-              "code": "7rq3yg76vvbc",
-              "name": "Automation for Jira",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "xv5bb8bhnzcx",
-          "status": "investigating",
-          "body": "We are investigating an issue with the Automation rules losing configuration data that is impacting some of the Cloud products. We are actively working to resolve this issue as quickly as possible.",
-          "incident_id": "6n7h61hgkwfc",
-          "created_at": "2024-02-29T08:22:22.245Z",
-          "updated_at": "2024-02-29T08:22:22.245Z",
-          "display_at": "2024-02-29T08:22:22.245Z",
-          "affected_components": [
-            {
-              "code": "7rq3yg76vvbc",
-              "name": "Automation for Jira",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "7rq3yg76vvbc",
-          "name": "Automation for Jira",
-          "status": "partial_outage",
-          "created_at": "2020-12-23T01:40:13.601Z",
-          "updated_at": "2024-03-01T14:52:18.778Z",
-          "position": 11,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-12-23",
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
     }
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
