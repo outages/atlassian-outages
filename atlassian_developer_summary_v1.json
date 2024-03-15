@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-03-15T04:11:32.541Z"
+    "updated_at": "2024-03-15T05:46:17.895Z"
   },
   "components": [
     {
@@ -232,7 +232,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -601,9 +601,9 @@
     {
       "id": "7lx3k072bl6z",
       "name": "Private listings",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:52:40.782Z",
-      "updated_at": "2024-03-14T09:39:22.778Z",
+      "updated_at": "2024-03-15T05:45:50.204Z",
       "position": 10,
       "description": null,
       "showcase": true,
@@ -783,16 +783,36 @@
     {
       "id": "2lrywl7y86s7",
       "name": "Private listings token are not working for Marketplace apps.",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2024-03-14T09:39:22.742Z",
-      "updated_at": "2024-03-15T04:11:32.534Z",
-      "monitoring_at": null,
+      "updated_at": "2024-03-15T05:46:17.893Z",
+      "monitoring_at": "2024-03-15T05:45:50.000Z",
       "resolved_at": null,
       "impact": "critical",
       "shortlink": "https://stspg.io/hzlwty2dtgwh",
       "started_at": "2024-03-14T09:39:22.735Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "3j8z8mhv1sj1",
+          "status": "monitoring",
+          "body": "The fix for the issue has been deployed and verified to be working as expected. Team continue to monitor the progress.",
+          "incident_id": "2lrywl7y86s7",
+          "created_at": "2024-03-15T05:45:50.241Z",
+          "updated_at": "2024-03-15T05:46:17.882Z",
+          "display_at": "2024-03-15T05:45:50.000Z",
+          "affected_components": [
+            {
+              "code": "7lx3k072bl6z",
+              "name": "Marketplace - Private listings",
+              "old_status": "major_outage",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "qzsp9q8pw14t",
           "status": "identified",
@@ -858,9 +878,9 @@
         {
           "id": "7lx3k072bl6z",
           "name": "Private listings",
-          "status": "major_outage",
+          "status": "operational",
           "created_at": "2018-02-01T17:52:40.782Z",
-          "updated_at": "2024-03-14T09:39:22.778Z",
+          "updated_at": "2024-03-15T05:45:50.204Z",
           "position": 10,
           "description": null,
           "showcase": true,
@@ -977,7 +997,7 @@
     }
   ],
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
