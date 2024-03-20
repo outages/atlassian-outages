@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-03-20T22:05:50.443Z"
+    "updated_at": "2024-03-20T22:43:26.432Z"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "dwt504s3m4c1",
       "name": "Create and edit",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-11-16T18:17:29.284Z",
-      "updated_at": "2024-03-20T22:05:50.387Z",
+      "updated_at": "2024-03-20T22:41:04.935Z",
       "position": 2,
       "description": "Problems creating or editing issues, projects, boards, reports, dashboards and the ability to comment, assign, and attach media.",
       "showcase": false,
@@ -173,64 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "vs73rs42grxz",
-      "name": "Issue with creating issues and transitions",
-      "status": "identified",
-      "created_at": "2024-03-20T22:05:50.345Z",
-      "updated_at": "2024-03-20T22:05:50.439Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/0p7nvp898ktm",
-      "started_at": "2024-03-20T22:05:50.337Z",
-      "page_id": "s6f0gm5gcpmy",
-      "incident_updates": [
-        {
-          "id": "4rkyb058h1k0",
-          "status": "identified",
-          "body": "We are have identified an issue with creating issues and transitions that is impacting some Cloud customers. A fix is being rolled out now. Another update will be published in the next hour.",
-          "incident_id": "vs73rs42grxz",
-          "created_at": "2024-03-20T22:05:50.436Z",
-          "updated_at": "2024-03-20T22:05:50.436Z",
-          "display_at": "2024-03-20T22:05:50.436Z",
-          "affected_components": [
-            {
-              "code": "dwt504s3m4c1",
-              "name": "Create and edit",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "dwt504s3m4c1",
-          "name": "Create and edit",
-          "status": "partial_outage",
-          "created_at": "2018-11-16T18:17:29.284Z",
-          "updated_at": "2024-03-20T22:05:50.387Z",
-          "position": 2,
-          "description": "Problems creating or editing issues, projects, boards, reports, dashboards and the ability to comment, assign, and attach media.",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "s6f0gm5gcpmy",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
