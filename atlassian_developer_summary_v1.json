@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-03-22T07:49:43.401Z"
+    "updated_at": "2024-03-22T16:48:09.429Z"
   },
   "components": [
     {
@@ -780,7 +780,62 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "zcj8nx1d90yf",
+      "name": "Marketplace transaction reports maintenance",
+      "status": "scheduled",
+      "created_at": "2024-03-22T16:48:09.366Z",
+      "updated_at": "2024-03-22T16:48:09.426Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/vzl112j5gvff",
+      "started_at": "2024-03-22T16:48:09.358Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "gjfpck0x326b",
+          "status": "scheduled",
+          "body": "We will be undergoing scheduled maintenance during this time. Transaction reporting APIs will be serving stale data.\nhttps://atlassianpartners.atlassian.net/wiki/spaces/resources/pages/435159493/Important+Notice+Scheduled+Maintenance+Impacting+Marketplace+Reports+and+APIs",
+          "incident_id": "zcj8nx1d90yf",
+          "created_at": "2024-03-22T16:48:09.423Z",
+          "updated_at": "2024-03-22T16:48:09.423Z",
+          "display_at": "2024-03-22T16:48:09.423Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "hk36hlvygg2q",
+          "name": "Reporting APIs and dashboards",
+          "status": "operational",
+          "created_at": "2013-12-03T00:45:26.014Z",
+          "updated_at": "2024-03-20T06:36:40.854Z",
+          "position": 11,
+          "description": "Marketing attribution reports are now operational.",
+          "showcase": true,
+          "start_date": null,
+          "group_id": "d0m8l367qqw5",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2024-03-23T03:30:00.000Z",
+      "scheduled_until": "2024-03-23T10:30:00.000Z"
+    }
+  ],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
