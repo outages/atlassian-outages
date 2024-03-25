@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-03-25T02:34:08.461Z"
+    "updated_at": "2024-03-25T06:50:24.403Z"
   },
   "components": [
     {
@@ -783,16 +783,36 @@
     {
       "id": "0vr1c3hxnphw",
       "name": "Forge Storage Intermittently Blocking Some Apps to Forge Storage",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2024-03-24T23:39:41.337Z",
-      "updated_at": "2024-03-25T02:34:08.451Z",
-      "monitoring_at": null,
+      "updated_at": "2024-03-25T06:50:24.401Z",
+      "monitoring_at": "2024-03-25T06:50:24.389Z",
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/k5brpcggjn2h",
       "started_at": "2024-03-24T23:39:41.331Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "lp1g20mldw9d",
+          "status": "monitoring",
+          "body": "Forge apps may have received intermittent errors when calling Forge Storage. This impacted approximately 0.5% of Storage read or write requests. In Forge logs, the error would read, \"Request principal is not authorized to use storage resource\". Forge apps that implement retries likely detect this as an increase in retries.\n\nWe observed an increase in errors beginning March 11.\n\nThe team believe they have identified the cause and have deployed a fix. Due to the intermittent nature and low volume of errors, we will continue to monitor to ensure the issue has been fully resolved.\n\nWe will update this issue with further information once we are confident the issue is fixed.",
+          "incident_id": "0vr1c3hxnphw",
+          "created_at": "2024-03-25T06:50:24.389Z",
+          "updated_at": "2024-03-25T06:50:24.389Z",
+          "display_at": "2024-03-25T06:50:24.389Z",
+          "affected_components": [
+            {
+              "code": "9nthl2bkwn0x",
+              "name": "Developer - Hosted storage",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "4g4h9qv203m3",
           "status": "investigating",
