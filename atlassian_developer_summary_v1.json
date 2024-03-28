@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-03-28T03:12:31.547Z"
+    "updated_at": "2024-03-28T03:29:18.870Z"
   },
   "components": [
     {
@@ -900,21 +900,21 @@
       "name": "Forge Hosted Storage Scheduled Data Residency Rollout",
       "status": "in_progress",
       "created_at": "2024-03-27T10:32:18.209Z",
-      "updated_at": "2024-03-28T03:12:31.538Z",
+      "updated_at": "2024-03-28T03:29:18.866Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
       "shortlink": "https://stspg.io/w2gykbmg8jrh",
-      "started_at": "2024-03-27T10:32:18.202Z",
+      "started_at": "2024-03-28T03:12:31.536Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
         {
           "id": "lz0r5qm73jtg",
           "status": "in_progress",
-          "body": "We have started the rollout of data residency for Forge hosted storage, where data will be moving to the same location as the host product. We expect the rollout to be completed by Apr 30, 2024 00:00 UTC.  \n\nPlease refer to https://developer.atlassian.com/platform/forge/changelog/#CHANGE-1484 for more information.",
+          "body": "We have started the rollout of data residency for Forge hosted storage, where data will be moving to the same location as the host product. We expect the rollout to be completed by Apr 30, 2024 00:00 UTC.  \n\nPlease refer to https://developer.atlassian.com/platform/forge/changelog/#CHANGE-1556 for more information.",
           "incident_id": "3j0168lmh5j3",
           "created_at": "2024-03-28T03:12:31.536Z",
-          "updated_at": "2024-03-28T03:12:31.536Z",
+          "updated_at": "2024-03-28T03:29:06.692Z",
           "display_at": "2024-03-28T03:12:31.536Z",
           "affected_components": [
             {
@@ -944,10 +944,10 @@
         {
           "id": "w4pppmdfz7z0",
           "status": "scheduled",
-          "body": "We will be commencing rollout of data residency for Forge hosted storage. As part of this rollout, we will be moving data to the location of the host product (e.g. if an app is installed in a Jira instance whose data is pinned to Singapore, Forge Hosted Storage data will be pinned to Singapore).\n\nThis will begin on Mar 28, 2024 00:00 UTC and we expect to be completed by Apr 30, 2024 00:00 UTC. There is no expected downtime during this migration. Once the migration is complete, Forge Hosted Storage data will stored in the same location as the host product for all new and existing Forge apps. \n\nAction Required: In order to benefit from data residency and multi-region compute, you will need to redeploy your app, and may need to declare information in your app manifest regarding remote usage of data. Please see this changelog[https://developer.atlassian.com/platform/forge/changelog/#CHANGE-1484] and our data residency documentation[https://developer.atlassian.com/platform/forge/data-residency/] for more details.\n\nIf you notice any unexpected issues during this rollout, please report via the Developer and Marketplace Support service desk [https://ecosystem.atlassian.net/servicedesk/customer/portal/34/group/96/create/571].",
+          "body": "We will be commencing rollout of data residency for Forge hosted storage. As part of this rollout, we will be moving data to the location of the host product (e.g. if an app is installed in a Jira instance whose data is pinned to Singapore, Forge Hosted Storage data will be pinned to Singapore).\n\nThis will begin on Mar 28, 2024 00:00 UTC and we expect to be completed by Apr 30, 2024 00:00 UTC. There is no expected downtime during this migration. Once the migration is complete, Forge Hosted Storage data will stored in the same location as the host product for all new and existing Forge apps. \n\nAction Required: In order to benefit from data residency and multi-region compute, you will need to redeploy your app, and may need to declare information in your app manifest regarding remote usage of data. Please see this changelog[https://developer.atlassian.com/platform/forge/changelog/#CHANGE-1556] and our data residency documentation[https://developer.atlassian.com/platform/forge/data-residency/] for more details.\n\nIf you notice any unexpected issues during this rollout, please report via the Developer and Marketplace Support service desk [https://ecosystem.atlassian.net/servicedesk/customer/portal/34/group/96/create/571].",
           "incident_id": "3j0168lmh5j3",
           "created_at": "2024-03-27T10:32:18.254Z",
-          "updated_at": "2024-03-27T10:32:18.254Z",
+          "updated_at": "2024-03-28T03:29:18.790Z",
           "display_at": "2024-03-27T10:32:18.254Z",
           "affected_components": [
             {
