@@ -4,7 +4,7 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-04-03T09:52:00.779Z"
+    "updated_at": "2024-04-03T10:23:28.548Z"
   },
   "components": [
     {
@@ -761,38 +761,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "5m94f026lyzn",
-      "name": "Admin Portal Feature Access Issue",
-      "status": "identified",
-      "created_at": "2024-04-03T09:52:00.742Z",
-      "updated_at": "2024-04-03T09:52:00.776Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/8yl02x6dnq23",
-      "started_at": "2024-04-03T09:52:00.736Z",
-      "page_id": "t05vdsszxwtq",
-      "incident_updates": [
-        {
-          "id": "8vvxxkcfmfbn",
-          "status": "identified",
-          "body": "We are investigating an issue causing failures in accessing some features from the Admin Portal, which is impacting some of our Cloud customers. We have identified the root cause and anticipate recovery shortly.",
-          "incident_id": "5m94f026lyzn",
-          "created_at": "2024-04-03T09:52:00.775Z",
-          "updated_at": "2024-04-03T09:52:00.775Z",
-          "display_at": "2024-04-03T09:52:00.775Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
