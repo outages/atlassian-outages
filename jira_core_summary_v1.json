@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-04-03T01:03:29.055Z"
+    "updated_at": "2024-04-03T07:25:58.056Z"
   },
   "components": [
     {
@@ -173,7 +173,38 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "kqlslbyvxzcf",
+      "name": "Incoming email is not working due to cipher mismatch",
+      "status": "identified",
+      "created_at": "2024-04-03T07:25:58.006Z",
+      "updated_at": "2024-04-03T07:25:58.052Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/11nppk6lq92c",
+      "started_at": "2024-04-03T07:25:57.998Z",
+      "page_id": "s6f0gm5gcpmy",
+      "incident_updates": [
+        {
+          "id": "9bvgw6qmv87s",
+          "status": "identified",
+          "body": "We have detected an issue with the incoming email not working due to a cipher mismatch that is impacting our Jira Work Management customers.\n\nWe've implemented changes to our cipher support across Jira Software, Jira Work Management, and Jira Service Management.\nUnsupported ciphers, not explicitly listed on our \"Supported Security Protocols for Atlassian Cloud Products\" page (https://support.atlassian.com/security-and-access-policies/docs/supported-security-protocols-for-atlassian-cloud-products/), have been removed. This means that inbound email processing on these platforms using unsupported ciphers will no longer be supported.\n\nWe strongly encourage our customers to switch to a supported cipher from the list provided on our \"Supported Security Protocols for Atlassian Cloud Products\" page.",
+          "incident_id": "kqlslbyvxzcf",
+          "created_at": "2024-04-03T07:25:58.049Z",
+          "updated_at": "2024-04-03T07:25:58.049Z",
+          "display_at": "2024-04-03T07:25:58.049Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
