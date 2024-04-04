@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-04-03T23:13:03.558Z"
+    "updated_at": "2024-04-04T06:51:27.447Z"
   },
   "components": [
     {
@@ -785,7 +785,7 @@
       "name": "Confluence searches intermittently returning incomplete or empty results",
       "status": "investigating",
       "created_at": "2024-04-03T14:26:51.505Z",
-      "updated_at": "2024-04-03T18:15:37.204Z",
+      "updated_at": "2024-04-04T06:51:27.440Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -793,6 +793,26 @@
       "started_at": "2024-04-03T14:26:51.497Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "d834yz5xymxd",
+          "status": "investigating",
+          "body": "We have identified a potential fix to the impacted tenants and are applying the fix by reindexing. This will take ~4 hours. We are also considering alternate approaches to fix this.  Until then this issue will persist. \nWe have not yet found the  root cause of the issue and would keep investigating.\nNext comms would be when the fix is done or in 6 hours whichever is early.",
+          "incident_id": "frvdsdj0s6gk",
+          "created_at": "2024-04-04T06:51:27.438Z",
+          "updated_at": "2024-04-04T06:51:27.438Z",
+          "display_at": "2024-04-04T06:51:27.438Z",
+          "affected_components": [
+            {
+              "code": "yjqnzm0tkgsd",
+              "name": "APIs - Confluence Cloud APIs",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "jm1cnnzzpbs2",
           "status": "investigating",
