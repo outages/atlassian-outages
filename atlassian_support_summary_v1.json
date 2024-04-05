@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-04-05T23:20:53.011Z"
+    "updated_at": "2024-04-05T23:25:34.697Z"
   },
   "components": [
     {
@@ -209,12 +209,12 @@
       "name": "Unable to raise support tickets via Support Portal",
       "status": "investigating",
       "created_at": "2024-04-05T23:20:52.918Z",
-      "updated_at": "2024-04-05T23:20:53.008Z",
+      "updated_at": "2024-04-05T23:25:34.693Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
       "shortlink": "https://stspg.io/wxh1dt2v5xpl",
-      "started_at": "2024-04-05T23:20:52.912Z",
+      "started_at": "2024-04-05T21:22:53.000Z",
       "page_id": "3tbw4lb9t3qp",
       "incident_updates": [
         {
@@ -223,8 +223,8 @@
           "body": "We are investigating issues with customers' ability to submit support tickets. We will provide updates here as we have them. If you have an urgent technical issue, you can reach out to us using the following email addresses:\nhttps://confluence.atlassian.com/support/contact-support-temporary-channel-950800787.html",
           "incident_id": "dxzz9kcqqdg7",
           "created_at": "2024-04-05T23:20:53.006Z",
-          "updated_at": "2024-04-05T23:20:53.006Z",
-          "display_at": "2024-04-05T23:20:53.006Z",
+          "updated_at": "2024-04-05T23:25:34.639Z",
+          "display_at": "2024-04-05T21:22:53.000Z",
           "affected_components": [
             {
               "code": "kvtmh1phs3r9",
