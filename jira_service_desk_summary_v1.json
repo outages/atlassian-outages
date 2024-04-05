@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-04-05T06:01:48.843Z"
+    "updated_at": "2024-04-05T06:32:25.481Z"
   },
   "components": [
     {
@@ -160,9 +160,9 @@
     {
       "id": "7rq3yg76vvbc",
       "name": "Automation for Jira",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2020-12-23T01:40:13.601Z",
-      "updated_at": "2024-04-05T06:00:02.269Z",
+      "updated_at": "2024-04-05T06:30:14.056Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -191,32 +191,32 @@
   "incidents": [],
   "scheduled_maintenances": [
     {
-      "id": "8jf9h8l5v2nv",
+      "id": "lnm3kwq71h70",
       "name": "Scheduled maintenance for Automation in Jira and Confluence",
       "status": "scheduled",
-      "created_at": "2024-04-05T06:01:48.803Z",
-      "updated_at": "2024-04-05T06:01:48.841Z",
+      "created_at": "2024-04-05T06:32:25.414Z",
+      "updated_at": "2024-04-05T06:32:25.477Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
-      "shortlink": "https://stspg.io/zwqdqyxmjyxk",
-      "started_at": "2024-04-05T06:01:48.798Z",
+      "shortlink": "https://stspg.io/qlncjhm9qtrt",
+      "started_at": "2024-04-05T06:32:25.408Z",
       "page_id": "pv54g7ltsc24",
       "incident_updates": [
         {
-          "id": "xpgnkklltmf9",
+          "id": "wfjbc0rgjxcf",
           "status": "scheduled",
           "body": "The maintenance is scheduled to commence at 12 pm AEST on 7th April and is expected to last 90 minutes. During this period, you'll see an \"Under Maintenance\" page when you visit the Automation feature in Jira (Jira Software, Jira Service Management, Jira Work Management, and Jira Product Discovery) and Confluence.\n\nDuring this time, viewing or updating automation rules will be unavailable. All rule runs, including rule runs in progress, will be paused during the maintenance period. Events will be queued during the maintenance period and retrieved for execution once the maintenance period is over.  \n\nDuring this time, we recommend not attempting to interact with the Automation feature in Jira and Confluence.",
-          "incident_id": "8jf9h8l5v2nv",
-          "created_at": "2024-04-05T06:01:48.839Z",
-          "updated_at": "2024-04-05T06:01:48.839Z",
-          "display_at": "2024-04-05T06:01:48.839Z",
+          "incident_id": "lnm3kwq71h70",
+          "created_at": "2024-04-05T06:32:25.473Z",
+          "updated_at": "2024-04-05T06:32:25.473Z",
+          "display_at": "2024-04-05T06:32:25.473Z",
           "affected_components": [
             {
               "code": "7rq3yg76vvbc",
               "name": "Automation for Jira",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
+              "old_status": "operational",
+              "new_status": "operational"
             }
           ],
           "deliver_notifications": true,
@@ -228,9 +228,9 @@
         {
           "id": "7rq3yg76vvbc",
           "name": "Automation for Jira",
-          "status": "under_maintenance",
+          "status": "operational",
           "created_at": "2020-12-23T01:40:13.601Z",
-          "updated_at": "2024-04-05T06:00:02.269Z",
+          "updated_at": "2024-04-05T06:30:14.056Z",
           "position": 11,
           "description": null,
           "showcase": false,
@@ -246,7 +246,7 @@
     }
   ],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
