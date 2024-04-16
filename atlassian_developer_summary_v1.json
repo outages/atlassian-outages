@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-04-16T04:53:00.470Z"
+    "updated_at": "2024-04-16T05:43:01.031Z"
   },
   "components": [
     {
@@ -232,7 +232,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -481,9 +481,9 @@
     {
       "id": "3t1y6724xl8q",
       "name": "In-product Marketplace and app installation (Cloud)",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2013-12-03T00:45:39.973Z",
-      "updated_at": "2024-01-23T18:06:50.738Z",
+      "updated_at": "2024-04-16T05:39:12.242Z",
       "position": 7,
       "description": "The ability to discover, install, and manage apps inside of Atlassian's Cloud products (Jira, Confluence, Stride, Bitbucket)",
       "showcase": true,
@@ -779,7 +779,61 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "rqd8glfrsvdp",
+      "name": "Intermittent Connect App Upgrade issue results in Apps in Disabled state",
+      "status": "investigating",
+      "created_at": "2024-04-16T05:39:12.208Z",
+      "updated_at": "2024-04-16T05:39:12.286Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/5v3fqmn8bff6",
+      "started_at": "2024-04-16T05:39:12.200Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "z1hd996n3s3c",
+          "status": "investigating",
+          "body": "In response to some recent customer and partner support tickets which have been raised, we have identified that since 2024-04-08 there have been some Connect app installations and updates which have immediately entered a disabled state. This behaviour is affecting multiple apps and appears to be inconsistent in nature.\n\nThe impact relates to any new Connect app installation or any updates which occur to a Connect app. For this reason, we suggest that marketplace partners hold off on any descriptor updates until this incident is resolved.\n\nFor affected customers that are unable to re-enable these apps, the immediate workaround is to uninstall and reinstall the app, forcing the app to attempt enablement once again.\n\nWe do not yet have any expected resolution time or any other mitigations for apps or customers.\n\nWe will continue to investigate the cause of this incident and provide another update by 2024-04-16 07:00.",
+          "incident_id": "rqd8glfrsvdp",
+          "created_at": "2024-04-16T05:39:12.284Z",
+          "updated_at": "2024-04-16T05:39:12.284Z",
+          "display_at": "2024-04-16T05:39:12.284Z",
+          "affected_components": [
+            {
+              "code": "3t1y6724xl8q",
+              "name": "Marketplace - In-product Marketplace and app installation (Cloud)",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "3t1y6724xl8q",
+          "name": "In-product Marketplace and app installation (Cloud)",
+          "status": "degraded_performance",
+          "created_at": "2013-12-03T00:45:39.973Z",
+          "updated_at": "2024-04-16T05:39:12.242Z",
+          "position": 7,
+          "description": "The ability to discover, install, and manage apps inside of Atlassian's Cloud products (Jira, Confluence, Stride, Bitbucket)",
+          "showcase": true,
+          "start_date": null,
+          "group_id": "d0m8l367qqw5",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [
     {
       "id": "3j0168lmh5j3",
@@ -870,7 +924,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
