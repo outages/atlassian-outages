@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-04-19T03:26:15.773Z"
+    "updated_at": "2024-04-19T04:11:54.413Z"
   },
   "components": [
     {
@@ -483,7 +483,7 @@
       "name": "In-product Marketplace and app installation (Cloud)",
       "status": "operational",
       "created_at": "2013-12-03T00:45:39.973Z",
-      "updated_at": "2024-04-18T15:47:23.220Z",
+      "updated_at": "2024-04-19T04:11:54.411Z",
       "position": 7,
       "description": "The ability to discover, install, and manage apps inside of Atlassian's Cloud products (Jira, Confluence, Stride, Bitbucket)",
       "showcase": true,
