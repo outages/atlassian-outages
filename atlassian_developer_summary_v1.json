@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-04-25T03:53:06.658Z"
+    "updated_at": "2024-04-25T04:36:39.887Z"
   },
   "components": [
     {
@@ -109,7 +109,7 @@
     {
       "id": "73bt63kd5q9k",
       "name": "Developer",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:21:34.889Z",
       "updated_at": "2019-05-02T04:22:45.333Z",
       "position": 2,
@@ -646,9 +646,9 @@
     {
       "id": "khz72mns34gk",
       "name": "Developer console",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2021-07-09T01:52:46.683Z",
-      "updated_at": "2024-04-25T01:47:46.601Z",
+      "updated_at": "2024-04-25T04:36:39.797Z",
       "position": 11,
       "description": "Reliability of https://developer.atlassian.com/console",
       "showcase": true,
@@ -783,16 +783,36 @@
     {
       "id": "xbvdp4452j9v",
       "name": "Apps intermittently fail to load in the Developer Console",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2024-04-25T01:47:46.573Z",
-      "updated_at": "2024-04-25T01:47:46.635Z",
-      "monitoring_at": null,
+      "updated_at": "2024-04-25T04:36:39.882Z",
+      "monitoring_at": "2024-04-25T04:36:39.853Z",
       "resolved_at": null,
       "impact": "critical",
       "shortlink": "https://stspg.io/dndf0f87jw16",
       "started_at": "2024-04-25T01:47:46.566Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "455tx480tc0l",
+          "status": "monitoring",
+          "body": "A root cause has been identified. Marketplace is seeing unusual traffic, and as a preventive measure, couple of offending user-agents were blocked. Rate limits rejections have reached a healthy state and Dev Console is back to normal. No failures in Dev Console loading are observed at this point.\n\nNext update will be posted in 1 hour.",
+          "incident_id": "xbvdp4452j9v",
+          "created_at": "2024-04-25T04:36:39.853Z",
+          "updated_at": "2024-04-25T04:36:39.853Z",
+          "display_at": "2024-04-25T04:36:39.853Z",
+          "affected_components": [
+            {
+              "code": "khz72mns34gk",
+              "name": "Developer - Developer console",
+              "old_status": "major_outage",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "d5r7vd84c16w",
           "status": "investigating",
@@ -818,9 +838,9 @@
         {
           "id": "khz72mns34gk",
           "name": "Developer console",
-          "status": "major_outage",
+          "status": "operational",
           "created_at": "2021-07-09T01:52:46.683Z",
-          "updated_at": "2024-04-25T01:47:46.601Z",
+          "updated_at": "2024-04-25T04:36:39.797Z",
           "position": 11,
           "description": "Reliability of https://developer.atlassian.com/console",
           "showcase": true,
@@ -944,7 +964,7 @@
     }
   ],
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
