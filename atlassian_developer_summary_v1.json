@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-04-25T02:42:58.327Z"
+    "updated_at": "2024-04-25T03:25:04.244Z"
   },
   "components": [
     {
@@ -232,7 +232,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -631,9 +631,9 @@
     {
       "id": "hk36hlvygg2q",
       "name": "Reporting APIs and dashboards",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2013-12-03T00:45:26.014Z",
-      "updated_at": "2024-04-24T22:46:34.222Z",
+      "updated_at": "2024-04-25T03:25:04.208Z",
       "position": 11,
       "description": "Marketing attribution reports are now operational.",
       "showcase": true,
@@ -826,79 +826,6 @@
           "showcase": true,
           "start_date": "2021-07-08",
           "group_id": "73bt63kd5q9k",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    },
-    {
-      "id": "psptqthqd7mq",
-      "name": "Delayed data in Marketplace reports",
-      "status": "identified",
-      "created_at": "2024-04-24T22:46:34.186Z",
-      "updated_at": "2024-04-25T01:11:55.802Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/s8wflqcvv9kf",
-      "started_at": "2024-04-24T22:46:34.178Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "gt3mdr97ph6t",
-          "status": "identified",
-          "body": "The issue is identified and a fix has been deployed. Pipeline run is in progress. We will share next update around 4 am UTC",
-          "incident_id": "psptqthqd7mq",
-          "created_at": "2024-04-25T01:11:55.800Z",
-          "updated_at": "2024-04-25T01:11:55.800Z",
-          "display_at": "2024-04-25T01:11:55.800Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "mqpk9p8461k6",
-          "status": "investigating",
-          "body": "There is delay in Marketplace reporting data due to a pipeline failure and we are investigating. We will share more findings in next update.",
-          "incident_id": "psptqthqd7mq",
-          "created_at": "2024-04-24T22:46:34.266Z",
-          "updated_at": "2024-04-24T22:46:34.266Z",
-          "display_at": "2024-04-24T22:46:34.266Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "hk36hlvygg2q",
-          "name": "Reporting APIs and dashboards",
-          "status": "partial_outage",
-          "created_at": "2013-12-03T00:45:26.014Z",
-          "updated_at": "2024-04-24T22:46:34.222Z",
-          "position": 11,
-          "description": "Marketing attribution reports are now operational.",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
           "page_id": "n8766lc3ybbs",
           "group": false,
           "only_show_if_degraded": false
