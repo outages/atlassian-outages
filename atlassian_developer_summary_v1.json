@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-05-06T07:40:51.927Z"
+    "updated_at": "2024-05-06T07:51:35.667Z"
   },
   "components": [
     {
@@ -783,16 +783,36 @@
     {
       "id": "hrvy2m8sd7jx",
       "name": "Query sometimes returns an empty string for custom entities",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2024-05-06T04:09:36.893Z",
-      "updated_at": "2024-05-06T07:40:51.918Z",
-      "monitoring_at": null,
+      "updated_at": "2024-05-06T07:51:35.664Z",
+      "monitoring_at": "2024-05-06T07:51:16.000Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/0959mk62c5x6",
       "started_at": "2024-05-06T04:09:36.884Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "g763ql2x3tdk",
+          "status": "monitoring",
+          "body": "We have restored read access to custom entity data stores for 99.5% of identified sites.\n\nWe have identified a small number of sites where the impacted data requires further remediation steps. Our team is currently looking into this and will investigate these sites on a case by case basis to see what additional steps are required.\n\nWe expect to have an update on these sites within the next 24 hours.",
+          "incident_id": "hrvy2m8sd7jx",
+          "created_at": "2024-05-06T07:51:16.646Z",
+          "updated_at": "2024-05-06T07:51:35.647Z",
+          "display_at": "2024-05-06T07:51:16.000Z",
+          "affected_components": [
+            {
+              "code": "9nthl2bkwn0x",
+              "name": "Developer - Hosted storage",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "dfktjt20qsxs",
           "status": "identified",
