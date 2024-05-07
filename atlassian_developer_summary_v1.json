@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-05-07T03:18:15.557Z"
+    "updated_at": "2024-05-07T06:11:29.671Z"
   },
   "components": [
     {
@@ -785,7 +785,7 @@
       "name": "Query sometimes returns an empty string for custom entities",
       "status": "monitoring",
       "created_at": "2024-05-06T04:09:36.893Z",
-      "updated_at": "2024-05-06T07:51:35.664Z",
+      "updated_at": "2024-05-07T06:11:29.660Z",
       "monitoring_at": "2024-05-06T07:51:16.000Z",
       "resolved_at": null,
       "impact": "minor",
@@ -793,6 +793,26 @@
       "started_at": "2024-05-06T04:09:36.884Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "v3n4ggzwhcyv",
+          "status": "monitoring",
+          "body": "We have remediated the custom entity data store for the remaining identified sites. The read access to the custom entities data store has been restored to a state that no longer returns an empty string. We are monitoring and cross-checking the errors recorded on our platform to ensure the integrity of the data and the migration process.\nWe expect to have an update within the next 24-48 hours.",
+          "incident_id": "hrvy2m8sd7jx",
+          "created_at": "2024-05-07T06:11:29.657Z",
+          "updated_at": "2024-05-07T06:11:29.657Z",
+          "display_at": "2024-05-07T06:11:29.657Z",
+          "affected_components": [
+            {
+              "code": "9nthl2bkwn0x",
+              "name": "Developer - Hosted storage",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "g763ql2x3tdk",
           "status": "monitoring",
