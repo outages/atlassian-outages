@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-05-08T12:43:00.049Z"
+    "updated_at": "2024-05-08T14:36:02.096Z"
   },
   "components": [
     {
@@ -783,9 +783,9 @@
     {
       "id": "k295t2623q31",
       "name": "Delayed data in Marketplace reports",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2024-05-08T12:41:54.965Z",
-      "updated_at": "2024-05-08T12:41:55.084Z",
+      "updated_at": "2024-05-08T14:36:02.089Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -793,6 +793,26 @@
       "started_at": "2024-05-08T12:41:54.956Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "stb221dwrybs",
+          "status": "identified",
+          "body": "The issue has been identified and a fix is implemented. Pipeline run is in progress. We will share next update by 6 PM UTC.",
+          "incident_id": "k295t2623q31",
+          "created_at": "2024-05-08T14:36:02.086Z",
+          "updated_at": "2024-05-08T14:36:02.086Z",
+          "display_at": "2024-05-08T14:36:02.086Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "z5vj54ngnnrh",
           "status": "investigating",
