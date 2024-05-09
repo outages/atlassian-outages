@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-05-09T13:33:09.888Z"
+    "updated_at": "2024-05-09T13:59:08.109Z"
   },
   "components": [
     {
@@ -783,9 +783,9 @@
     {
       "id": "jdkv5njgdzky",
       "name": "Degraded functionality for direct artifact uploads",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2024-05-09T10:35:57.058Z",
-      "updated_at": "2024-05-09T10:35:57.133Z",
+      "updated_at": "2024-05-09T13:59:08.102Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -793,6 +793,26 @@
       "started_at": "2024-05-09T10:35:57.051Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "rsz5ykn08ttf",
+          "status": "identified",
+          "body": "We have identified the cause for the issue and currently exploring possible solutions to fix it.",
+          "incident_id": "jdkv5njgdzky",
+          "created_at": "2024-05-09T13:59:08.100Z",
+          "updated_at": "2024-05-09T13:59:08.100Z",
+          "display_at": "2024-05-09T13:59:08.100Z",
+          "affected_components": [
+            {
+              "code": "mlr76v811c20",
+              "name": "Marketplace - App listing management",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "8782lgq82zvj",
           "status": "investigating",
