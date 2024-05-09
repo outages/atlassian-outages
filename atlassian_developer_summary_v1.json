@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-05-09T21:23:15.932Z"
+    "updated_at": "2024-05-09T21:25:57.379Z"
   },
   "components": [
     {
@@ -785,7 +785,7 @@
       "name": "Degraded functionality for direct artifact uploads",
       "status": "identified",
       "created_at": "2024-05-09T10:35:57.058Z",
-      "updated_at": "2024-05-09T21:23:15.927Z",
+      "updated_at": "2024-05-09T21:25:57.372Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -793,6 +793,26 @@
       "started_at": "2024-05-09T10:35:57.051Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "5h5xkpr1sj3y",
+          "status": "identified",
+          "body": "We have applied a fix for the \"ASAP token expired\" error and partners should no longer be encountering this error when uploading app artifacts. However there are underlying intermittent issues preventing a successful artifact upload. We are currently investigating this issue further.\n\nPlease expect an update in the next 12hours.",
+          "incident_id": "jdkv5njgdzky",
+          "created_at": "2024-05-09T21:25:57.371Z",
+          "updated_at": "2024-05-09T21:25:57.371Z",
+          "display_at": "2024-05-09T21:25:57.371Z",
+          "affected_components": [
+            {
+              "code": "mlr76v811c20",
+              "name": "Marketplace - App listing management",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "rsz5ykn08ttf",
           "status": "identified",
