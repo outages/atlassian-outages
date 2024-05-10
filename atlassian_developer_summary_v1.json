@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-05-10T00:27:49.986Z"
+    "updated_at": "2024-05-10T02:02:55.076Z"
   },
   "components": [
     {
@@ -785,22 +785,22 @@
       "name": "Query sometimes returns an empty string for custom entities",
       "status": "monitoring",
       "created_at": "2024-05-06T04:09:36.893Z",
-      "updated_at": "2024-05-10T00:27:49.978Z",
+      "updated_at": "2024-05-10T02:02:55.073Z",
       "monitoring_at": "2024-05-06T07:51:16.000Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/0959mk62c5x6",
-      "started_at": "2024-05-06T04:09:36.884Z",
+      "started_at": "2024-05-06T07:51:16.000Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
         {
           "id": "gv0wfkddhcxt",
           "status": "monitoring",
-          "body": "We have verified that our remedial actions have been effective in restoring the operations of apps that were affected by this incident. During our cross-examination, we didn’t find any evidence of errors impacting the consistency of the data stored in our database. Later today we will re-run the migration of custom entities data to ensure no entry contains an empty value. This process is estimated to finish in the next 2-3 days. Once this is done we will close the incident.\n\nWe expect to have an update within the next 3-4 days.",
+          "body": "We have verified that our remedial actions have been effective in restoring the operations of apps that were affected by this incident. During our cross-examination, we haven't found any evidence of errors impacting the consistency of the data stored in our database. Later today we will re-run the migration of custom entities data to ensure no entry contains an empty value. This process is estimated to finish in the next 2-3 days. Once this is done we will close the incident.\n\nWe expect to have an update within the next 3-4 days.",
           "incident_id": "hrvy2m8sd7jx",
           "created_at": "2024-05-10T00:27:49.975Z",
-          "updated_at": "2024-05-10T00:27:49.975Z",
-          "display_at": "2024-05-10T00:27:49.975Z",
+          "updated_at": "2024-05-10T02:02:54.983Z",
+          "display_at": "2024-05-10T00:27:49.000Z",
           "affected_components": [
             {
               "code": "9nthl2bkwn0x",
