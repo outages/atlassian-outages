@@ -4,15 +4,15 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-05-10T22:52:58.184Z"
+    "updated_at": "2024-05-11T00:00:03.569Z"
   },
   "components": [
     {
       "id": "4kcs01hbh4l6",
       "name": "Jira Service Management Web",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-11-16T18:06:14.831Z",
-      "updated_at": "2024-05-08T09:50:21.705Z",
+      "updated_at": "2024-05-11T00:00:02.761Z",
       "position": 1,
       "description": "Problems with queues, issues, reports, searching, and anything else impacting an agent's ability to complete their work",
       "showcase": false,
@@ -25,9 +25,9 @@
     {
       "id": "hzbyfxf686qd",
       "name": "Service Portal",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-11-16T18:06:14.848Z",
-      "updated_at": "2024-03-20T22:41:04.922Z",
+      "updated_at": "2024-05-11T00:00:02.835Z",
       "position": 2,
       "description": "Problems related to the service desk portals where end-users make requests or raise issues",
       "showcase": false,
@@ -40,9 +40,9 @@
     {
       "id": "jy0n3xjnl1kn",
       "name": "Opsgenie Incident Flow",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2020-11-10T01:21:53.523Z",
-      "updated_at": "2023-10-18T16:06:23.057Z",
+      "updated_at": "2024-05-11T00:00:02.893Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -55,9 +55,9 @@
     {
       "id": "bk3ggvf6kw1k",
       "name": "Opsgenie Alert Flow",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2020-11-10T01:21:54.620Z",
-      "updated_at": "2023-10-18T16:06:23.074Z",
+      "updated_at": "2024-05-11T00:00:02.956Z",
       "position": 4,
       "description": null,
       "showcase": false,
@@ -70,9 +70,9 @@
     {
       "id": "svtqtkj9slxm",
       "name": "Opsgenie Incident Flow",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2020-11-10T01:21:58.305Z",
-      "updated_at": "2023-10-18T16:06:23.090Z",
+      "updated_at": "2024-05-11T00:00:03.034Z",
       "position": 5,
       "description": null,
       "showcase": false,
@@ -85,9 +85,9 @@
     {
       "id": "8q1197ln8wz6",
       "name": "Opsgenie Alert Flow",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2020-11-10T01:21:59.310Z",
-      "updated_at": "2023-10-18T16:06:23.105Z",
+      "updated_at": "2024-05-11T00:00:03.079Z",
       "position": 6,
       "description": null,
       "showcase": false,
@@ -100,9 +100,9 @@
     {
       "id": "n459f7qbgm7b",
       "name": "Jira Service Management Email Requests",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2019-01-08T23:33:42.607Z",
-      "updated_at": "2024-02-28T23:57:07.244Z",
+      "updated_at": "2024-05-11T00:00:03.112Z",
       "position": 7,
       "description": "Problems related to end-user's ability to raise requests via email",
       "showcase": false,
@@ -115,9 +115,9 @@
     {
       "id": "why9xhgfq7kx",
       "name": "Authentication and User Management",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2019-05-02T04:27:17.805Z",
-      "updated_at": "2024-02-21T04:57:17.167Z",
+      "updated_at": "2024-05-11T00:00:03.176Z",
       "position": 8,
       "description": null,
       "showcase": false,
@@ -130,9 +130,9 @@
     {
       "id": "n50cprw4wnhp",
       "name": "Purchasing & Licensing",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2020-04-28T00:50:26.392Z",
-      "updated_at": "2023-10-18T16:06:23.156Z",
+      "updated_at": "2024-05-11T00:00:03.224Z",
       "position": 9,
       "description": null,
       "showcase": false,
@@ -145,9 +145,9 @@
     {
       "id": "wlpsrb4r2yq9",
       "name": "Signup",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2020-10-09T20:36:56.243Z",
-      "updated_at": "2024-02-29T02:53:17.229Z",
+      "updated_at": "2024-05-11T00:00:03.261Z",
       "position": 10,
       "description": null,
       "showcase": false,
@@ -160,9 +160,9 @@
     {
       "id": "7rq3yg76vvbc",
       "name": "Automation for Jira",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2020-12-23T01:40:13.601Z",
-      "updated_at": "2024-05-10T09:42:48.522Z",
+      "updated_at": "2024-05-11T00:00:03.303Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -175,9 +175,9 @@
     {
       "id": "6vlshpbyx93m",
       "name": "Assist",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2022-03-10T05:28:23.804Z",
-      "updated_at": "2023-10-18T16:06:23.205Z",
+      "updated_at": "2024-05-11T00:00:03.353Z",
       "position": 12,
       "description": "For JSM Chat related outages",
       "showcase": false,
@@ -193,9 +193,9 @@
     {
       "id": "k5pg7txm8tsq",
       "name": "Potential Service Interruption (Brazil Only)",
-      "status": "scheduled",
+      "status": "in_progress",
       "created_at": "2024-05-10T14:11:08.410Z",
-      "updated_at": "2024-05-10T14:11:08.494Z",
+      "updated_at": "2024-05-11T00:00:03.547Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -203,6 +203,92 @@
       "started_at": "2024-05-10T14:11:08.387Z",
       "page_id": "pv54g7ltsc24",
       "incident_updates": [
+        {
+          "id": "t4t8z2z9ck1q",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "k5pg7txm8tsq",
+          "created_at": "2024-05-11T00:00:03.533Z",
+          "updated_at": "2024-05-11T00:00:03.533Z",
+          "display_at": "2024-05-11T00:00:03.533Z",
+          "affected_components": [
+            {
+              "code": "4kcs01hbh4l6",
+              "name": "Jira Service Management Web",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "hzbyfxf686qd",
+              "name": "Service Portal",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "n459f7qbgm7b",
+              "name": "Jira Service Management Email Requests",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "why9xhgfq7kx",
+              "name": "Authentication and User Management",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "n50cprw4wnhp",
+              "name": "Purchasing & Licensing",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "wlpsrb4r2yq9",
+              "name": "Signup",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "jy0n3xjnl1kn",
+              "name": "Opsgenie Incident Flow",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "bk3ggvf6kw1k",
+              "name": "Opsgenie Alert Flow",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "svtqtkj9slxm",
+              "name": "Opsgenie Incident Flow",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "8q1197ln8wz6",
+              "name": "Opsgenie Alert Flow",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "7rq3yg76vvbc",
+              "name": "Automation for Jira",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "6vlshpbyx93m",
+              "name": "Assist",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "ng7c0rlwrfr6",
           "status": "scheduled",
@@ -294,9 +380,9 @@
         {
           "id": "4kcs01hbh4l6",
           "name": "Jira Service Management Web",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2018-11-16T18:06:14.831Z",
-          "updated_at": "2024-05-08T09:50:21.705Z",
+          "updated_at": "2024-05-11T00:00:02.761Z",
           "position": 1,
           "description": "Problems with queues, issues, reports, searching, and anything else impacting an agent's ability to complete their work",
           "showcase": false,
@@ -309,9 +395,9 @@
         {
           "id": "hzbyfxf686qd",
           "name": "Service Portal",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2018-11-16T18:06:14.848Z",
-          "updated_at": "2024-03-20T22:41:04.922Z",
+          "updated_at": "2024-05-11T00:00:02.835Z",
           "position": 2,
           "description": "Problems related to the service desk portals where end-users make requests or raise issues",
           "showcase": false,
@@ -324,9 +410,9 @@
         {
           "id": "jy0n3xjnl1kn",
           "name": "Opsgenie Incident Flow",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2020-11-10T01:21:53.523Z",
-          "updated_at": "2023-10-18T16:06:23.057Z",
+          "updated_at": "2024-05-11T00:00:02.893Z",
           "position": 3,
           "description": null,
           "showcase": false,
@@ -339,9 +425,9 @@
         {
           "id": "bk3ggvf6kw1k",
           "name": "Opsgenie Alert Flow",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2020-11-10T01:21:54.620Z",
-          "updated_at": "2023-10-18T16:06:23.074Z",
+          "updated_at": "2024-05-11T00:00:02.956Z",
           "position": 4,
           "description": null,
           "showcase": false,
@@ -354,9 +440,9 @@
         {
           "id": "svtqtkj9slxm",
           "name": "Opsgenie Incident Flow",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2020-11-10T01:21:58.305Z",
-          "updated_at": "2023-10-18T16:06:23.090Z",
+          "updated_at": "2024-05-11T00:00:03.034Z",
           "position": 5,
           "description": null,
           "showcase": false,
@@ -369,9 +455,9 @@
         {
           "id": "8q1197ln8wz6",
           "name": "Opsgenie Alert Flow",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2020-11-10T01:21:59.310Z",
-          "updated_at": "2023-10-18T16:06:23.105Z",
+          "updated_at": "2024-05-11T00:00:03.079Z",
           "position": 6,
           "description": null,
           "showcase": false,
@@ -384,9 +470,9 @@
         {
           "id": "n459f7qbgm7b",
           "name": "Jira Service Management Email Requests",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2019-01-08T23:33:42.607Z",
-          "updated_at": "2024-02-28T23:57:07.244Z",
+          "updated_at": "2024-05-11T00:00:03.112Z",
           "position": 7,
           "description": "Problems related to end-user's ability to raise requests via email",
           "showcase": false,
@@ -399,9 +485,9 @@
         {
           "id": "why9xhgfq7kx",
           "name": "Authentication and User Management",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2019-05-02T04:27:17.805Z",
-          "updated_at": "2024-02-21T04:57:17.167Z",
+          "updated_at": "2024-05-11T00:00:03.176Z",
           "position": 8,
           "description": null,
           "showcase": false,
@@ -414,9 +500,9 @@
         {
           "id": "n50cprw4wnhp",
           "name": "Purchasing & Licensing",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2020-04-28T00:50:26.392Z",
-          "updated_at": "2023-10-18T16:06:23.156Z",
+          "updated_at": "2024-05-11T00:00:03.224Z",
           "position": 9,
           "description": null,
           "showcase": false,
@@ -429,9 +515,9 @@
         {
           "id": "wlpsrb4r2yq9",
           "name": "Signup",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2020-10-09T20:36:56.243Z",
-          "updated_at": "2024-02-29T02:53:17.229Z",
+          "updated_at": "2024-05-11T00:00:03.261Z",
           "position": 10,
           "description": null,
           "showcase": false,
@@ -444,9 +530,9 @@
         {
           "id": "7rq3yg76vvbc",
           "name": "Automation for Jira",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2020-12-23T01:40:13.601Z",
-          "updated_at": "2024-05-10T09:42:48.522Z",
+          "updated_at": "2024-05-11T00:00:03.303Z",
           "position": 11,
           "description": null,
           "showcase": false,
@@ -459,9 +545,9 @@
         {
           "id": "6vlshpbyx93m",
           "name": "Assist",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2022-03-10T05:28:23.804Z",
-          "updated_at": "2023-10-18T16:06:23.205Z",
+          "updated_at": "2024-05-11T00:00:03.353Z",
           "position": 12,
           "description": "For JSM Chat related outages",
           "showcase": false,
@@ -477,7 +563,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
