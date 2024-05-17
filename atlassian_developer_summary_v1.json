@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-05-17T04:43:13.811Z"
+    "updated_at": "2024-05-17T04:53:10.691Z"
   },
   "components": [
     {
@@ -786,7 +786,7 @@
       "name": "Marketplace Reports Maintenance",
       "status": "scheduled",
       "created_at": "2024-05-17T04:43:13.756Z",
-      "updated_at": "2024-05-17T04:43:13.808Z",
+      "updated_at": "2024-05-17T04:53:10.684Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -797,10 +797,10 @@
         {
           "id": "qjmnjsjv68k2",
           "status": "scheduled",
-          "body": "There will be a delay in the reporting data during this window.",
+          "body": "Our finance system, Oracle Fusion, will undergo scheduled maintenance from May 17, 2024, 7 p.m. to May 18, 2024, 7 a.m. (PST). Reporting data will be delayed during this period. Learn more about the downtime - https://atlassianpartners.atlassian.net/wiki/spaces/news/blog/2023/12/21/379453986/Important+Notice+Scheduled+Maintenance+Impacting+Marketplace+Reports+and+APIs",
           "incident_id": "y2j9f3jd0bg6",
           "created_at": "2024-05-17T04:43:13.805Z",
-          "updated_at": "2024-05-17T04:43:13.805Z",
+          "updated_at": "2024-05-17T04:53:10.680Z",
           "display_at": "2024-05-17T04:43:13.805Z",
           "affected_components": [
             {
