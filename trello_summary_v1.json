@@ -4,7 +4,7 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2024-05-23T18:18:15.214-04:00"
+    "updated_at": "2024-05-23T19:06:17.150-04:00"
   },
   "components": [
     {
@@ -83,61 +83,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "4gd6fhryhz55",
-      "name": "Card Repeater Power-Up failing to repeat",
-      "status": "investigating",
-      "created_at": "2024-05-23T13:56:17.360-04:00",
-      "updated_at": "2024-05-23T13:56:17.881-04:00",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/tk1zstcnmk6j",
-      "started_at": "2024-05-23T13:56:17.354-04:00",
-      "page_id": "h5frqhb041yq",
-      "incident_updates": [
-        {
-          "id": "hks7sbt553w8",
-          "status": "investigating",
-          "body": "Our engineering team identified an incident affecting the Card Repeater Power-Up service which caused an issue while repeating cards and we're currently investigating.",
-          "incident_id": "4gd6fhryhz55",
-          "created_at": "2024-05-23T13:56:17.408-04:00",
-          "updated_at": "2024-05-23T13:56:17.876-04:00",
-          "display_at": "2024-05-23T13:56:17.408-04:00",
-          "affected_components": [
-            {
-              "code": "hsr3nvlz0k2l",
-              "name": "Trello.com",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1793702507031740400
-        }
-      ],
-      "components": [
-        {
-          "id": "hsr3nvlz0k2l",
-          "name": "Trello.com",
-          "status": "operational",
-          "created_at": "2020-01-24T12:50:55.839-05:00",
-          "updated_at": "2024-04-09T16:02:30.070-04:00",
-          "position": 1,
-          "description": "Web client",
-          "showcase": true,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "h5frqhb041yq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
