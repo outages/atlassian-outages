@@ -2,9 +2,9 @@
   "page": {
     "id": "pv54g7ltsc24",
     "name": "Jira Service Management",
-    "url": "https://jira-service-management.status.atlassian.com",
+    "url": "http://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-05-27T16:47:26.282Z"
+    "updated_at": "2024-05-27T17:44:06.496Z"
   },
   "components": [
     {
