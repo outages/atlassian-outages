@@ -2,9 +2,9 @@
   "page": {
     "id": "bqlf8qjztdtr",
     "name": "Atlassian Bitbucket",
-    "url": "http://bitbucket.status.atlassian.com",
+    "url": "https://bitbucket.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-05-27T17:43:00.738Z"
+    "updated_at": "2024-05-27T17:51:37.456Z"
   },
   "components": [
     {

@@ -2,9 +2,9 @@
   "page": {
     "id": "0f54fx204jpt",
     "name": "Atlassian",
-    "url": "http://status.atlassian.com",
+    "url": "https://status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-05-27T17:44:03.901Z"
+    "updated_at": "2024-05-27T17:52:06.662Z"
   },
   "status": {
     "indicator": "none",

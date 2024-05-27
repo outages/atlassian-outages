@@ -2,9 +2,9 @@
   "page": {
     "id": "t05vdsszxwtq",
     "name": "Opsgenie",
-    "url": "http://opsgenie.status.atlassian.com",
+    "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-05-27T17:43:53.141Z"
+    "updated_at": "2024-05-27T17:52:00.054Z"
   },
   "components": [
     {
