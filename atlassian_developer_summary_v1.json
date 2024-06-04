@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-06-03T23:42:58.411Z"
+    "updated_at": "2024-06-04T00:33:49.254Z"
   },
   "components": [
     {
@@ -49,9 +49,9 @@
     {
       "id": "mlr76v811c20",
       "name": "App listing management",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:46:24.130Z",
-      "updated_at": "2024-06-03T23:11:02.000Z",
+      "updated_at": "2024-06-04T00:33:49.075Z",
       "position": 1,
       "description": "The ability to manage app listings on https://marketplace.atlassian.com",
       "showcase": true,
@@ -79,9 +79,9 @@
     {
       "id": "g04n852g3nt6",
       "name": "App listings",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2013-12-03T00:43:13.481Z",
-      "updated_at": "2024-06-03T23:11:02.056Z",
+      "updated_at": "2024-06-04T00:33:49.092Z",
       "position": 2,
       "description": "The detailed listing page for each app",
       "showcase": true,
@@ -172,9 +172,9 @@
     {
       "id": "d1hybyzmqlvq",
       "name": "App pricing",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2013-12-03T00:43:13.497Z",
-      "updated_at": "2024-06-03T23:11:02.141Z",
+      "updated_at": "2024-06-04T00:33:49.109Z",
       "position": 3,
       "description": "App pricing queries and updates",
       "showcase": true,
@@ -232,7 +232,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -338,9 +338,9 @@
     {
       "id": "bdrd3wct69vq",
       "name": "Marketplace service desk",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-07-24T21:40:38.551Z",
-      "updated_at": "2024-06-03T23:11:02.280Z",
+      "updated_at": "2024-06-04T00:33:49.125Z",
       "position": 5,
       "description": "Jira Service Desk project accessible at http://go.atlassian.com/marketplace-support",
       "showcase": false,
@@ -368,7 +368,7 @@
     {
       "id": "jgnwrfzynh93",
       "name": "Support",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:27:18.010Z",
       "updated_at": "2018-02-01T17:40:12.769Z",
       "position": 5,
@@ -436,9 +436,9 @@
     {
       "id": "kj290v20168q",
       "name": "Evaluations and purchases",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:50:19.946Z",
-      "updated_at": "2024-06-03T23:11:02.485Z",
+      "updated_at": "2024-06-04T00:33:49.142Z",
       "position": 6,
       "description": null,
       "showcase": true,
@@ -481,9 +481,9 @@
     {
       "id": "3t1y6724xl8q",
       "name": "In-product Marketplace and app installation (Cloud)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2013-12-03T00:45:39.973Z",
-      "updated_at": "2024-06-03T23:11:02.651Z",
+      "updated_at": "2024-06-04T00:33:49.159Z",
       "position": 7,
       "description": "The ability to discover, install, and manage apps inside of Atlassian's Cloud products (Jira, Confluence, Stride, Bitbucket)",
       "showcase": true,
@@ -541,9 +541,9 @@
     {
       "id": "ngby5fdfj3px",
       "name": "In-product Marketplace and app installation (Server)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:38:37.793Z",
-      "updated_at": "2024-06-03T23:11:02.866Z",
+      "updated_at": "2024-06-04T00:33:49.176Z",
       "position": 8,
       "description": "The ability to discover, install, and manage apps inside of Atlassian's Server products (Jira, Confluence, Bitbucket, Bamboo, Fisheye / Crucible, Hipchat)",
       "showcase": true,
@@ -631,9 +631,9 @@
     {
       "id": "hk36hlvygg2q",
       "name": "Reporting APIs and dashboards",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2013-12-03T00:45:26.014Z",
-      "updated_at": "2024-06-03T23:11:02.967Z",
+      "updated_at": "2024-06-04T00:33:49.192Z",
       "position": 11,
       "description": "Marketing attribution reports are now operational.",
       "showcase": true,
@@ -721,9 +721,9 @@
     {
       "id": "wm1wfkvnffmt",
       "name": "Vendor Home Page",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-01-03T14:35:08.927Z",
-      "updated_at": "2024-06-03T23:11:03.129Z",
+      "updated_at": "2024-06-04T00:33:49.207Z",
       "position": 14,
       "description": null,
       "showcase": true,
@@ -780,227 +780,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": "p0d9bvnjcf69",
-      "name": "Error responses across multiple Cloud products",
-      "status": "identified",
-      "created_at": "2024-06-03T23:11:01.788Z",
-      "updated_at": "2024-06-03T23:11:03.402Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/g0l2s1wr58q7",
-      "started_at": "2024-06-03T23:11:01.734Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "j9975swp3x82",
-          "status": "identified",
-          "body": "We are investigating an issue with error responses for some Cloud customers across multiple products. We have identified the root cause and expect recovery shortly.",
-          "incident_id": "p0d9bvnjcf69",
-          "created_at": "2024-06-03T23:11:03.396Z",
-          "updated_at": "2024-06-03T23:11:03.396Z",
-          "display_at": "2024-06-03T23:11:03.396Z",
-          "affected_components": [
-            {
-              "code": "mlr76v811c20",
-              "name": "Marketplace - App listing management",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "g04n852g3nt6",
-              "name": "Marketplace - App listings",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "d1hybyzmqlvq",
-              "name": "Marketplace - App pricing",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "kj290v20168q",
-              "name": "Marketplace - Evaluations and purchases",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "3t1y6724xl8q",
-              "name": "Marketplace - In-product Marketplace and app installation (Cloud)",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "ngby5fdfj3px",
-              "name": "Marketplace - In-product Marketplace and app installation (Server)",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "wm1wfkvnffmt",
-              "name": "Marketplace - Vendor Home Page",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "bdrd3wct69vq",
-              "name": "Support - Marketplace service desk",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "mlr76v811c20",
-          "name": "App listing management",
-          "status": "partial_outage",
-          "created_at": "2018-02-01T17:46:24.130Z",
-          "updated_at": "2024-06-03T23:11:02.000Z",
-          "position": 1,
-          "description": "The ability to manage app listings on https://marketplace.atlassian.com",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "g04n852g3nt6",
-          "name": "App listings",
-          "status": "partial_outage",
-          "created_at": "2013-12-03T00:43:13.481Z",
-          "updated_at": "2024-06-03T23:11:02.056Z",
-          "position": 2,
-          "description": "The detailed listing page for each app",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "d1hybyzmqlvq",
-          "name": "App pricing",
-          "status": "partial_outage",
-          "created_at": "2013-12-03T00:43:13.497Z",
-          "updated_at": "2024-06-03T23:11:02.141Z",
-          "position": 3,
-          "description": "App pricing queries and updates",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "bdrd3wct69vq",
-          "name": "Marketplace service desk",
-          "status": "partial_outage",
-          "created_at": "2017-07-24T21:40:38.551Z",
-          "updated_at": "2024-06-03T23:11:02.280Z",
-          "position": 5,
-          "description": "Jira Service Desk project accessible at http://go.atlassian.com/marketplace-support",
-          "showcase": false,
-          "start_date": null,
-          "group_id": "jgnwrfzynh93",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "kj290v20168q",
-          "name": "Evaluations and purchases",
-          "status": "partial_outage",
-          "created_at": "2018-02-01T17:50:19.946Z",
-          "updated_at": "2024-06-03T23:11:02.485Z",
-          "position": 6,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "3t1y6724xl8q",
-          "name": "In-product Marketplace and app installation (Cloud)",
-          "status": "partial_outage",
-          "created_at": "2013-12-03T00:45:39.973Z",
-          "updated_at": "2024-06-03T23:11:02.651Z",
-          "position": 7,
-          "description": "The ability to discover, install, and manage apps inside of Atlassian's Cloud products (Jira, Confluence, Stride, Bitbucket)",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "ngby5fdfj3px",
-          "name": "In-product Marketplace and app installation (Server)",
-          "status": "partial_outage",
-          "created_at": "2018-02-01T17:38:37.793Z",
-          "updated_at": "2024-06-03T23:11:02.866Z",
-          "position": 8,
-          "description": "The ability to discover, install, and manage apps inside of Atlassian's Server products (Jira, Confluence, Bitbucket, Bamboo, Fisheye / Crucible, Hipchat)",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "hk36hlvygg2q",
-          "name": "Reporting APIs and dashboards",
-          "status": "partial_outage",
-          "created_at": "2013-12-03T00:45:26.014Z",
-          "updated_at": "2024-06-03T23:11:02.967Z",
-          "position": 11,
-          "description": "Marketing attribution reports are now operational.",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "wm1wfkvnffmt",
-          "name": "Vendor Home Page",
-          "status": "partial_outage",
-          "created_at": "2020-01-03T14:35:08.927Z",
-          "updated_at": "2024-06-03T23:11:03.129Z",
-          "position": 14,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    },
     {
       "id": "dhz6z7bmvpyl",
       "name": "Forge Storage data inaccessible after re-install of app",
