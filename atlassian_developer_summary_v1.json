@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-06-14T11:42:56.972Z"
+    "updated_at": "2024-06-14T13:07:35.750Z"
   },
   "components": [
     {
@@ -782,10 +782,10 @@
   "incidents": [
     {
       "id": "0qkvzjsp031m",
-      "name": "Forge macros don't work with the Confluence export",
-      "status": "investigating",
+      "name": "Forge macros don't work with the Confluence REST API export",
+      "status": "identified",
       "created_at": "2024-06-14T11:12:30.319Z",
-      "updated_at": "2024-06-14T11:12:30.423Z",
+      "updated_at": "2024-06-14T13:07:35.741Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -793,6 +793,26 @@
       "started_at": "2024-06-14T11:12:30.311Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "pdw245pppzq4",
+          "status": "identified",
+          "body": "We've identified the problem with UI kit 1 Forge macros not working with the Confluence export, displaying \"We don't have a way to export this macro\" instead of content of the macro. This problem affected REST API (requests to urls /api/v2/pages/<PAGE_ID>?body-format=export_view) and Word export.\n\nWe've identified a FF that was causing the problem and disabled it which fixed issue for UI kit 1 apps. Export functionality for apps that use new version of UI kit is still affected.\n\nWe'll provide another update by 10:00 UTC, Monday 17th June.",
+          "incident_id": "0qkvzjsp031m",
+          "created_at": "2024-06-14T13:07:35.738Z",
+          "updated_at": "2024-06-14T13:07:35.738Z",
+          "display_at": "2024-06-14T13:07:35.738Z",
+          "affected_components": [
+            {
+              "code": "yjqnzm0tkgsd",
+              "name": "APIs - Confluence Cloud APIs",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "l621nqpznv9y",
           "status": "investigating",
