@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-06-16T07:42:56.675Z"
+    "updated_at": "2024-06-16T08:57:24.116Z"
   },
   "components": [
     {
@@ -860,7 +860,7 @@
       "name": "Marketplace Maintenance window",
       "status": "in_progress",
       "created_at": "2024-06-16T07:36:38.177Z",
-      "updated_at": "2024-06-16T07:40:02.767Z",
+      "updated_at": "2024-06-16T08:57:24.113Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -868,6 +868,104 @@
       "started_at": "2024-06-16T07:36:38.153Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "h791rrw2q2s3",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is still in progress. We will provide updates as necessary.",
+          "incident_id": "sj96p56f7ddy",
+          "created_at": "2024-06-16T08:56:45.435Z",
+          "updated_at": "2024-06-16T08:56:45.435Z",
+          "display_at": "2024-06-16T08:56:45.435Z",
+          "affected_components": [
+            {
+              "code": "mlr76v811c20",
+              "name": "Marketplace - App listing management",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "g04n852g3nt6",
+              "name": "Marketplace - App listings",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "d1hybyzmqlvq",
+              "name": "Marketplace - App pricing",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "7z6w09hl9mn0",
+              "name": "Marketplace - App submissions",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "ydgwbb3wn2c6",
+              "name": "Marketplace - Category landing pages",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "kj290v20168q",
+              "name": "Marketplace - Evaluations and purchases",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "3t1y6724xl8q",
+              "name": "Marketplace - In-product Marketplace and app installation (Cloud)",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "ngby5fdfj3px",
+              "name": "Marketplace - In-product Marketplace and app installation (Server)",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "y1fdrctjbkx0",
+              "name": "Marketplace - Notifications",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "7lx3k072bl6z",
+              "name": "Marketplace - Private listings",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "64gk05kc0lrz",
+              "name": "Marketplace - Search",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "1vvmngd73171",
+              "name": "Marketplace - Vendor management",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "wm1wfkvnffmt",
+              "name": "Marketplace - Vendor Home Page",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "wph82wcw7m9z",
           "status": "in_progress",
@@ -1278,7 +1376,7 @@
         }
       ],
       "scheduled_for": "2024-06-16T07:40:00.000Z",
-      "scheduled_until": "2024-06-16T09:40:00.000Z"
+      "scheduled_until": "2024-06-16T10:40:00.000Z"
     }
   ],
   "status": {
