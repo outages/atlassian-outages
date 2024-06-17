@@ -4,7 +4,7 @@
     "name": "Atlassian Guard",
     "url": "https://guard.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-06-17T04:40:00.656Z"
+    "updated_at": "2024-06-17T12:01:14.348Z"
   },
   "components": [
     {
@@ -100,9 +100,9 @@
     {
       "id": "b8gbm56ptvw5",
       "name": "Account Management",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2019-05-03T02:41:07.946Z",
-      "updated_at": "2023-09-19T07:31:04.655Z",
+      "updated_at": "2024-06-17T12:01:14.295Z",
       "position": 6,
       "description": null,
       "showcase": false,
@@ -178,10 +178,64 @@
       ]
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "nvtglk2c24sl",
+      "name": "Unavailability of the Last Active Timestamp status",
+      "status": "investigating",
+      "created_at": "2024-06-17T12:01:14.257Z",
+      "updated_at": "2024-06-17T12:01:14.345Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "critical",
+      "shortlink": "https://stspg.io/5cgzf7nkydhd",
+      "started_at": "2024-06-17T12:01:14.249Z",
+      "page_id": "5qmgwsxwsz78",
+      "incident_updates": [
+        {
+          "id": "cjmhl29szdtn",
+          "status": "investigating",
+          "body": "We are investigating an issue with the unavailability of the Last Active Timestamp status in the new user experience under the Cloud organization that is impacting some of the Cloud products. We will provide more details shortly.",
+          "incident_id": "nvtglk2c24sl",
+          "created_at": "2024-06-17T12:01:14.342Z",
+          "updated_at": "2024-06-17T12:01:14.342Z",
+          "display_at": "2024-06-17T12:01:14.342Z",
+          "affected_components": [
+            {
+              "code": "b8gbm56ptvw5",
+              "name": "Account Management",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "b8gbm56ptvw5",
+          "name": "Account Management",
+          "status": "major_outage",
+          "created_at": "2019-05-03T02:41:07.946Z",
+          "updated_at": "2024-06-17T12:01:14.295Z",
+          "position": 6,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "5qmgwsxwsz78",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "major",
+    "description": "Partial System Outage"
   }
 }
