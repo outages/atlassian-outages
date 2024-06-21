@@ -4,7 +4,7 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-06-21T00:43:02.907Z"
+    "updated_at": "2024-06-21T01:31:35.855Z"
   },
   "components": [
     {
@@ -765,16 +765,29 @@
     {
       "id": "8qfpf9bjmntt",
       "name": "Intermittent error accessing content",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2024-06-21T00:17:58.009Z",
-      "updated_at": "2024-06-21T00:17:58.062Z",
-      "monitoring_at": null,
+      "updated_at": "2024-06-21T01:31:35.854Z",
+      "monitoring_at": "2024-06-21T01:31:35.840Z",
       "resolved_at": null,
       "impact": "none",
       "shortlink": "https://stspg.io/zmt36tlfrhzb",
       "started_at": "2024-06-21T00:17:58.001Z",
       "page_id": "t05vdsszxwtq",
       "incident_updates": [
+        {
+          "id": "lljmf7wh5j9f",
+          "status": "monitoring",
+          "body": "We have identified the root cause of the intermittent errors and have mitigated the problem. We are now monitoring closely.",
+          "incident_id": "8qfpf9bjmntt",
+          "created_at": "2024-06-21T01:31:35.840Z",
+          "updated_at": "2024-06-21T01:31:35.840Z",
+          "display_at": "2024-06-21T01:31:35.840Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "d7yfc9yrwnlh",
           "status": "investigating",
