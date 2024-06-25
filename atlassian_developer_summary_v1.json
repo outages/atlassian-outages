@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-06-25T03:30:02.535Z"
+    "updated_at": "2024-06-25T05:30:02.699Z"
   },
   "components": [
     {
@@ -49,9 +49,9 @@
     {
       "id": "mlr76v811c20",
       "name": "App listing management",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-02-01T17:46:24.130Z",
-      "updated_at": "2024-06-25T03:30:02.292Z",
+      "updated_at": "2024-06-25T05:30:02.258Z",
       "position": 1,
       "description": "The ability to manage app listings on https://marketplace.atlassian.com",
       "showcase": true,
@@ -79,9 +79,9 @@
     {
       "id": "g04n852g3nt6",
       "name": "App listings",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2013-12-03T00:43:13.481Z",
-      "updated_at": "2024-06-25T03:30:02.308Z",
+      "updated_at": "2024-06-25T05:30:02.290Z",
       "position": 2,
       "description": "The detailed listing page for each app",
       "showcase": true,
@@ -172,9 +172,9 @@
     {
       "id": "d1hybyzmqlvq",
       "name": "App pricing",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2013-12-03T00:43:13.497Z",
-      "updated_at": "2024-06-25T03:30:02.324Z",
+      "updated_at": "2024-06-25T05:30:02.324Z",
       "position": 3,
       "description": "App pricing queries and updates",
       "showcase": true,
@@ -232,7 +232,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -293,9 +293,9 @@
     {
       "id": "7z6w09hl9mn0",
       "name": "App submissions",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-02-01T17:48:45.038Z",
-      "updated_at": "2024-06-25T03:30:02.339Z",
+      "updated_at": "2024-06-25T05:30:02.357Z",
       "position": 4,
       "description": null,
       "showcase": true,
@@ -391,9 +391,9 @@
     {
       "id": "ydgwbb3wn2c6",
       "name": "Category landing pages",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-03-16T16:51:24.514Z",
-      "updated_at": "2024-06-25T03:30:02.354Z",
+      "updated_at": "2024-06-25T05:30:02.384Z",
       "position": 5,
       "description": null,
       "showcase": true,
@@ -436,9 +436,9 @@
     {
       "id": "kj290v20168q",
       "name": "Evaluations and purchases",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-02-01T17:50:19.946Z",
-      "updated_at": "2024-06-25T03:30:02.370Z",
+      "updated_at": "2024-06-25T05:30:02.419Z",
       "position": 6,
       "description": null,
       "showcase": true,
@@ -481,9 +481,9 @@
     {
       "id": "3t1y6724xl8q",
       "name": "In-product Marketplace and app installation (Cloud)",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2013-12-03T00:45:39.973Z",
-      "updated_at": "2024-06-25T03:30:02.385Z",
+      "updated_at": "2024-06-25T05:30:02.445Z",
       "position": 7,
       "description": "The ability to discover, install, and manage apps inside of Atlassian's Cloud products (Jira, Confluence, Stride, Bitbucket)",
       "showcase": true,
@@ -541,9 +541,9 @@
     {
       "id": "ngby5fdfj3px",
       "name": "In-product Marketplace and app installation (Server)",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-02-01T17:38:37.793Z",
-      "updated_at": "2024-06-25T03:30:02.411Z",
+      "updated_at": "2024-06-25T05:30:02.471Z",
       "position": 8,
       "description": "The ability to discover, install, and manage apps inside of Atlassian's Server products (Jira, Confluence, Bitbucket, Bamboo, Fisheye / Crucible, Hipchat)",
       "showcase": true,
@@ -571,9 +571,9 @@
     {
       "id": "y1fdrctjbkx0",
       "name": "Notifications",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-02-01T17:52:26.480Z",
-      "updated_at": "2024-06-25T03:30:02.427Z",
+      "updated_at": "2024-06-25T05:30:02.493Z",
       "position": 9,
       "description": "Example notifications include newly posted reviews and new version creation",
       "showcase": true,
@@ -601,9 +601,9 @@
     {
       "id": "7lx3k072bl6z",
       "name": "Private listings",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-02-01T17:52:40.782Z",
-      "updated_at": "2024-06-25T03:30:02.440Z",
+      "updated_at": "2024-06-25T05:30:02.518Z",
       "position": 10,
       "description": null,
       "showcase": true,
@@ -631,9 +631,9 @@
     {
       "id": "hk36hlvygg2q",
       "name": "Reporting APIs and dashboards",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2013-12-03T00:45:26.014Z",
-      "updated_at": "2024-06-25T03:30:02.454Z",
+      "updated_at": "2024-06-25T05:30:02.543Z",
       "position": 11,
       "description": "Marketing attribution reports are now operational.",
       "showcase": true,
@@ -661,9 +661,9 @@
     {
       "id": "64gk05kc0lrz",
       "name": "Search",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2013-12-03T00:45:30.772Z",
-      "updated_at": "2024-06-25T03:30:02.469Z",
+      "updated_at": "2024-06-25T05:30:02.572Z",
       "position": 12,
       "description": null,
       "showcase": true,
@@ -691,9 +691,9 @@
     {
       "id": "1vvmngd73171",
       "name": "Vendor management",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-02-01T17:53:33.728Z",
-      "updated_at": "2024-06-25T03:30:02.483Z",
+      "updated_at": "2024-06-25T05:30:02.599Z",
       "position": 13,
       "description": null,
       "showcase": true,
@@ -721,9 +721,9 @@
     {
       "id": "wm1wfkvnffmt",
       "name": "Vendor Home Page",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2020-01-03T14:35:08.927Z",
-      "updated_at": "2024-06-25T03:30:02.497Z",
+      "updated_at": "2024-06-25T05:30:02.627Z",
       "position": 14,
       "description": null,
       "showcase": true,
@@ -780,448 +780,9 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "lqdn368lc9py",
-      "name": "Marketplace Maintenance Window",
-      "status": "in_progress",
-      "created_at": "2024-06-24T04:51:44.722Z",
-      "updated_at": "2024-06-25T03:30:02.526Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/k8gdsy81j6x2",
-      "started_at": "2024-06-24T04:51:44.695Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "fwrprhj5t85n",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "lqdn368lc9py",
-          "created_at": "2024-06-25T03:30:02.524Z",
-          "updated_at": "2024-06-25T03:30:02.524Z",
-          "display_at": "2024-06-25T03:30:02.524Z",
-          "affected_components": [
-            {
-              "code": "mlr76v811c20",
-              "name": "Marketplace - App listing management",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "g04n852g3nt6",
-              "name": "Marketplace - App listings",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "d1hybyzmqlvq",
-              "name": "Marketplace - App pricing",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "7z6w09hl9mn0",
-              "name": "Marketplace - App submissions",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "ydgwbb3wn2c6",
-              "name": "Marketplace - Category landing pages",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "kj290v20168q",
-              "name": "Marketplace - Evaluations and purchases",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "3t1y6724xl8q",
-              "name": "Marketplace - In-product Marketplace and app installation (Cloud)",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "ngby5fdfj3px",
-              "name": "Marketplace - In-product Marketplace and app installation (Server)",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "y1fdrctjbkx0",
-              "name": "Marketplace - Notifications",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "7lx3k072bl6z",
-              "name": "Marketplace - Private listings",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "64gk05kc0lrz",
-              "name": "Marketplace - Search",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "1vvmngd73171",
-              "name": "Marketplace - Vendor management",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "wm1wfkvnffmt",
-              "name": "Marketplace - Vendor Home Page",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "gs2f32d9nz54",
-          "status": "scheduled",
-          "body": "Maintenance will begin as scheduled in 60 minutes.",
-          "incident_id": "lqdn368lc9py",
-          "created_at": "2024-06-25T02:30:48.405Z",
-          "updated_at": "2024-06-25T02:30:48.405Z",
-          "display_at": "2024-06-25T02:30:48.405Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "kgjb09ms2wx9",
-          "status": "scheduled",
-          "body": "We are planning a scheduled maintenance during this time. It is possible that Marketplace APIs may experience a downtime during this period.",
-          "incident_id": "lqdn368lc9py",
-          "created_at": "2024-06-24T04:51:44.790Z",
-          "updated_at": "2024-06-24T04:51:44.790Z",
-          "display_at": "2024-06-24T04:51:44.790Z",
-          "affected_components": [
-            {
-              "code": "mlr76v811c20",
-              "name": "Marketplace - App listing management",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "g04n852g3nt6",
-              "name": "Marketplace - App listings",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "d1hybyzmqlvq",
-              "name": "Marketplace - App pricing",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "7z6w09hl9mn0",
-              "name": "Marketplace - App submissions",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "ydgwbb3wn2c6",
-              "name": "Marketplace - Category landing pages",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "kj290v20168q",
-              "name": "Marketplace - Evaluations and purchases",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "3t1y6724xl8q",
-              "name": "Marketplace - In-product Marketplace and app installation (Cloud)",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "ngby5fdfj3px",
-              "name": "Marketplace - In-product Marketplace and app installation (Server)",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "y1fdrctjbkx0",
-              "name": "Marketplace - Notifications",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "7lx3k072bl6z",
-              "name": "Marketplace - Private listings",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "64gk05kc0lrz",
-              "name": "Marketplace - Search",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "1vvmngd73171",
-              "name": "Marketplace - Vendor management",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "wm1wfkvnffmt",
-              "name": "Marketplace - Vendor Home Page",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "mlr76v811c20",
-          "name": "App listing management",
-          "status": "under_maintenance",
-          "created_at": "2018-02-01T17:46:24.130Z",
-          "updated_at": "2024-06-25T03:30:02.292Z",
-          "position": 1,
-          "description": "The ability to manage app listings on https://marketplace.atlassian.com",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "g04n852g3nt6",
-          "name": "App listings",
-          "status": "under_maintenance",
-          "created_at": "2013-12-03T00:43:13.481Z",
-          "updated_at": "2024-06-25T03:30:02.308Z",
-          "position": 2,
-          "description": "The detailed listing page for each app",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "d1hybyzmqlvq",
-          "name": "App pricing",
-          "status": "under_maintenance",
-          "created_at": "2013-12-03T00:43:13.497Z",
-          "updated_at": "2024-06-25T03:30:02.324Z",
-          "position": 3,
-          "description": "App pricing queries and updates",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "7z6w09hl9mn0",
-          "name": "App submissions",
-          "status": "under_maintenance",
-          "created_at": "2018-02-01T17:48:45.038Z",
-          "updated_at": "2024-06-25T03:30:02.339Z",
-          "position": 4,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "ydgwbb3wn2c6",
-          "name": "Category landing pages",
-          "status": "under_maintenance",
-          "created_at": "2018-03-16T16:51:24.514Z",
-          "updated_at": "2024-06-25T03:30:02.354Z",
-          "position": 5,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "kj290v20168q",
-          "name": "Evaluations and purchases",
-          "status": "under_maintenance",
-          "created_at": "2018-02-01T17:50:19.946Z",
-          "updated_at": "2024-06-25T03:30:02.370Z",
-          "position": 6,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "3t1y6724xl8q",
-          "name": "In-product Marketplace and app installation (Cloud)",
-          "status": "under_maintenance",
-          "created_at": "2013-12-03T00:45:39.973Z",
-          "updated_at": "2024-06-25T03:30:02.385Z",
-          "position": 7,
-          "description": "The ability to discover, install, and manage apps inside of Atlassian's Cloud products (Jira, Confluence, Stride, Bitbucket)",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "ngby5fdfj3px",
-          "name": "In-product Marketplace and app installation (Server)",
-          "status": "under_maintenance",
-          "created_at": "2018-02-01T17:38:37.793Z",
-          "updated_at": "2024-06-25T03:30:02.411Z",
-          "position": 8,
-          "description": "The ability to discover, install, and manage apps inside of Atlassian's Server products (Jira, Confluence, Bitbucket, Bamboo, Fisheye / Crucible, Hipchat)",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "y1fdrctjbkx0",
-          "name": "Notifications",
-          "status": "under_maintenance",
-          "created_at": "2018-02-01T17:52:26.480Z",
-          "updated_at": "2024-06-25T03:30:02.427Z",
-          "position": 9,
-          "description": "Example notifications include newly posted reviews and new version creation",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "7lx3k072bl6z",
-          "name": "Private listings",
-          "status": "under_maintenance",
-          "created_at": "2018-02-01T17:52:40.782Z",
-          "updated_at": "2024-06-25T03:30:02.440Z",
-          "position": 10,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "hk36hlvygg2q",
-          "name": "Reporting APIs and dashboards",
-          "status": "under_maintenance",
-          "created_at": "2013-12-03T00:45:26.014Z",
-          "updated_at": "2024-06-25T03:30:02.454Z",
-          "position": 11,
-          "description": "Marketing attribution reports are now operational.",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "64gk05kc0lrz",
-          "name": "Search",
-          "status": "under_maintenance",
-          "created_at": "2013-12-03T00:45:30.772Z",
-          "updated_at": "2024-06-25T03:30:02.469Z",
-          "position": 12,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "1vvmngd73171",
-          "name": "Vendor management",
-          "status": "under_maintenance",
-          "created_at": "2018-02-01T17:53:33.728Z",
-          "updated_at": "2024-06-25T03:30:02.483Z",
-          "position": 13,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "wm1wfkvnffmt",
-          "name": "Vendor Home Page",
-          "status": "under_maintenance",
-          "created_at": "2020-01-03T14:35:08.927Z",
-          "updated_at": "2024-06-25T03:30:02.497Z",
-          "position": 14,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2024-06-25T03:30:00.000Z",
-      "scheduled_until": "2024-06-25T05:30:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
