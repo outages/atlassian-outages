@@ -4,7 +4,7 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2024-06-27T03:57:37.982-04:00"
+    "updated_at": "2024-06-27T04:35:30.753-04:00"
   },
   "components": [
     {
@@ -83,61 +83,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "2mpg3ctq1jkk",
-      "name": "Issues with the Jira powerup",
-      "status": "identified",
-      "created_at": "2024-06-27T03:57:23.892-04:00",
-      "updated_at": "2024-06-27T03:57:24.294-04:00",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/g6kddzy2t5m1",
-      "started_at": "2024-06-27T03:57:23.887-04:00",
-      "page_id": "h5frqhb041yq",
-      "incident_updates": [
-        {
-          "id": "fzyhr7dc6g1b",
-          "status": "identified",
-          "body": "Users of the Jira powerup for Trello may be experiencing errors when installing and using the powerup on their boards.\n\nThe team is working to resolve this issue as quickly as possible.",
-          "incident_id": "2mpg3ctq1jkk",
-          "created_at": "2024-06-27T03:57:23.936-04:00",
-          "updated_at": "2024-06-27T03:57:24.286-04:00",
-          "display_at": "2024-06-27T03:57:23.936-04:00",
-          "affected_components": [
-            {
-              "code": "hsr3nvlz0k2l",
-              "name": "Trello.com",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1806235365998830000
-        }
-      ],
-      "components": [
-        {
-          "id": "hsr3nvlz0k2l",
-          "name": "Trello.com",
-          "status": "operational",
-          "created_at": "2020-01-24T12:50:55.839-05:00",
-          "updated_at": "2024-06-20T21:31:45.798-04:00",
-          "position": 1,
-          "description": "Web client",
-          "showcase": true,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "h5frqhb041yq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
