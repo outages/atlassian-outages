@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-07-02T11:42:56.625Z"
+    "updated_at": "2024-07-02T15:22:09.229Z"
   },
   "components": [
     {
@@ -785,7 +785,7 @@
       "name": "For a subset of Marketplace vendors the logo in vendor home page is blank",
       "status": "identified",
       "created_at": "2024-07-02T11:18:52.406Z",
-      "updated_at": "2024-07-02T11:18:52.487Z",
+      "updated_at": "2024-07-02T15:22:09.220Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -793,6 +793,26 @@
       "started_at": "2024-07-02T11:18:52.399Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "lknpsg2gwk31",
+          "status": "identified",
+          "body": "We have deployed the fix for the issue. It is being rolled out for each affected partner account. Should be rolled out completely in 1 hour.",
+          "incident_id": "yjvmmd6c2rrj",
+          "created_at": "2024-07-02T15:22:09.217Z",
+          "updated_at": "2024-07-02T15:22:09.217Z",
+          "display_at": "2024-07-02T15:22:09.217Z",
+          "affected_components": [
+            {
+              "code": "wm1wfkvnffmt",
+              "name": "Marketplace - Vendor Home Page",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "pcqv6h3r9z7c",
           "status": "identified",
