@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-07-02T15:22:09.229Z"
+    "updated_at": "2024-07-02T18:27:11.779Z"
   },
   "components": [
     {
@@ -232,7 +232,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -721,9 +721,9 @@
     {
       "id": "wm1wfkvnffmt",
       "name": "Vendor Home Page",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-01-03T14:35:08.927Z",
-      "updated_at": "2024-07-02T11:18:52.442Z",
+      "updated_at": "2024-07-02T18:27:11.724Z",
       "position": 14,
       "description": null,
       "showcase": true,
@@ -779,84 +779,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "yjvmmd6c2rrj",
-      "name": "For a subset of Marketplace vendors the logo in vendor home page is blank",
-      "status": "identified",
-      "created_at": "2024-07-02T11:18:52.406Z",
-      "updated_at": "2024-07-02T15:22:09.220Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/92hjb3xy9z8l",
-      "started_at": "2024-07-02T11:18:52.399Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "lknpsg2gwk31",
-          "status": "identified",
-          "body": "We have deployed the fix for the issue. It is being rolled out for each affected partner account. Should be rolled out completely in 1 hour.",
-          "incident_id": "yjvmmd6c2rrj",
-          "created_at": "2024-07-02T15:22:09.217Z",
-          "updated_at": "2024-07-02T15:22:09.217Z",
-          "display_at": "2024-07-02T15:22:09.217Z",
-          "affected_components": [
-            {
-              "code": "wm1wfkvnffmt",
-              "name": "Marketplace - Vendor Home Page",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "pcqv6h3r9z7c",
-          "status": "identified",
-          "body": "The cause for the issue has been identified and the fix is being worked upon.",
-          "incident_id": "yjvmmd6c2rrj",
-          "created_at": "2024-07-02T11:18:52.485Z",
-          "updated_at": "2024-07-02T11:18:52.485Z",
-          "display_at": "2024-07-02T11:18:52.485Z",
-          "affected_components": [
-            {
-              "code": "wm1wfkvnffmt",
-              "name": "Marketplace - Vendor Home Page",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "wm1wfkvnffmt",
-          "name": "Vendor Home Page",
-          "status": "degraded_performance",
-          "created_at": "2020-01-03T14:35:08.927Z",
-          "updated_at": "2024-07-02T11:18:52.442Z",
-          "position": 14,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": "[]"
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
