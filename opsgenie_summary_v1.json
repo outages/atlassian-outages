@@ -4,7 +4,7 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-07-03T20:51:01.625Z"
+    "updated_at": "2024-07-03T21:45:05.588Z"
   },
   "components": [
     {
@@ -765,16 +765,108 @@
     {
       "id": "89r5pg93mpw8",
       "name": "Some products are hard down",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2024-07-03T20:51:01.367Z",
-      "updated_at": "2024-07-03T20:51:01.623Z",
-      "monitoring_at": null,
+      "updated_at": "2024-07-03T21:45:05.585Z",
+      "monitoring_at": "2024-07-03T21:45:05.568Z",
       "resolved_at": null,
       "impact": "critical",
       "shortlink": "https://stspg.io/6q53plpp4dsm",
       "started_at": "2024-07-03T20:51:01.343Z",
       "page_id": "t05vdsszxwtq",
       "incident_updates": [
+        {
+          "id": "z7c70hl62y15",
+          "status": "monitoring",
+          "body": "We have mitigated the problem and continue looking into the root cause.\nThe outage was between 8:08pm 03/07 UTC - 08:31pm 03/07 UTC\nWe are now monitoring closely.",
+          "incident_id": "89r5pg93mpw8",
+          "created_at": "2024-07-03T21:45:05.568Z",
+          "updated_at": "2024-07-03T21:45:05.568Z",
+          "display_at": "2024-07-03T21:45:05.568Z",
+          "affected_components": [
+            {
+              "code": "421fc33d5s3x",
+              "name": "US - Incident Flow",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "j3zxnkhxxsnz",
+              "name": "US - Alert Flow",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "7gksbx75r5rn",
+              "name": "US - Email Notification Delivery",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "fqgh9nvrlck3",
+              "name": "US - SMS Notification Delivery",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "mpqtdxmvtwg7",
+              "name": "US - Voice Notification Delivery",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "s8szfv793n8p",
+              "name": "US - Mobile Notification Delivery",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "y6v6v83g2t8m",
+              "name": "EU - Incident Flow",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "x3kw060dyr9f",
+              "name": "EU - Alert Flow",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "zv3xlkn13rqs",
+              "name": "EU - Email Notification Delivery",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "pk367fsgz1yq",
+              "name": "EU - SMS Notification Delivery",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "92ty6vgyj0nw",
+              "name": "EU - Voice Notification Delivery",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "jf0l1ds2mm5z",
+              "name": "EU - Mobile Notification Delivery",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "4z21dwjdbjqm",
+              "name": "Public Website",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "17cbnj9dn8zv",
           "status": "investigating",
