@@ -4,7 +4,7 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-07-03T21:45:05.588Z"
+    "updated_at": "2024-07-03T22:46:58.834Z"
   },
   "components": [
     {
@@ -767,10 +767,10 @@
       "name": "Some products are hard down",
       "status": "monitoring",
       "created_at": "2024-07-03T20:51:01.367Z",
-      "updated_at": "2024-07-03T21:45:05.585Z",
+      "updated_at": "2024-07-03T22:46:58.832Z",
       "monitoring_at": "2024-07-03T21:45:05.568Z",
       "resolved_at": null,
-      "impact": "critical",
+      "impact": "major",
       "shortlink": "https://stspg.io/6q53plpp4dsm",
       "started_at": "2024-07-03T20:51:01.343Z",
       "page_id": "t05vdsszxwtq",
