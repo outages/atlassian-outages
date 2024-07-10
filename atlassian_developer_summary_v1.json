@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-07-05T06:29:29.395Z"
+    "updated_at": "2024-07-10T03:01:06.616Z"
   },
   "components": [
     {
@@ -136,7 +136,8 @@
         "9nthl2bkwn0x",
         "l30t53hv9z8z",
         "x861fm3drh21",
-        "5jn572sn98k4"
+        "5jn572sn98k4",
+        "khvgbzf5s9xr"
       ]
     },
     {
@@ -773,6 +774,21 @@
       "description": "Receive email alerts when Forge app breaches SLI and view alert details via dev console.",
       "showcase": true,
       "start_date": "2022-10-23",
+      "group_id": "73bt63kd5q9k",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "khvgbzf5s9xr",
+      "name": "Connect Data Residency",
+      "status": "operational",
+      "created_at": "2024-07-10T03:01:06.613Z",
+      "updated_at": "2024-07-10T03:01:06.613Z",
+      "position": 17,
+      "description": null,
+      "showcase": true,
+      "start_date": "2024-07-10",
       "group_id": "73bt63kd5q9k",
       "page_id": "n8766lc3ybbs",
       "group": false,
