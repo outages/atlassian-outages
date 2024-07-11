@@ -4,7 +4,7 @@
     "name": "Jira Align",
     "url": "https://jira-align.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-07-08T18:43:06.123Z"
+    "updated_at": "2024-07-11T01:43:03.322Z"
   },
   "components": [
     {
@@ -790,9 +790,9 @@
     {
       "id": "xc7x5mqxvc2b",
       "name": "AWS ec2-ap-southeast-2",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2024-04-19T21:44:07.653Z",
-      "updated_at": "2024-04-19T21:44:07.653Z",
+      "updated_at": "2024-07-11T01:39:35.769Z",
       "position": 53,
       "description": null,
       "showcase": false,
@@ -850,9 +850,9 @@
     {
       "id": "rc8gcxxjdf5n",
       "name": "AWS elb-ap-southeast-2",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2024-04-19T21:45:30.681Z",
-      "updated_at": "2024-04-19T21:45:30.681Z",
+      "updated_at": "2024-07-11T01:37:24.717Z",
       "position": 57,
       "description": null,
       "showcase": false,
@@ -986,7 +986,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
