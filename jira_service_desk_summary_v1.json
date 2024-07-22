@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-07-22T02:43:00.211Z"
+    "updated_at": "2024-07-22T03:22:14.029Z"
   },
   "components": [
     {
@@ -191,10 +191,10 @@
   "incidents": [
     {
       "id": "q83vl2h9dczh",
-      "name": "When attempting to configure an  application in Jira you are redirected to the project list",
+      "name": "When attempting to open or configure an application in Jira you are redirected to the project list",
       "status": "identified",
       "created_at": "2024-07-22T02:09:57.731Z",
-      "updated_at": "2024-07-22T02:09:57.794Z",
+      "updated_at": "2024-07-22T03:22:14.026Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
