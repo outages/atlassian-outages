@@ -4,7 +4,7 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2024-07-25T15:43:01.847-04:00"
+    "updated_at": "2024-07-25T16:00:50.439-04:00"
   },
   "components": [
     {
@@ -87,9 +87,9 @@
     {
       "id": "nz23zc08jkfx",
       "name": "Issue with search and moving cards for some users",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2024-07-25T15:31:13.762-04:00",
-      "updated_at": "2024-07-25T15:31:49.284-04:00",
+      "updated_at": "2024-07-25T16:00:50.434-04:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -97,6 +97,26 @@
       "started_at": "2024-07-25T15:31:13.756-04:00",
       "page_id": "h5frqhb041yq",
       "incident_updates": [
+        {
+          "id": "n1112jwj338f",
+          "status": "identified",
+          "body": "We’ve identified the issue causing problems with moving and searching for cards on Trello. We’re currently working on implementing a fix, and a new update will be shared soon.",
+          "incident_id": "nz23zc08jkfx",
+          "created_at": "2024-07-25T16:00:50.109-04:00",
+          "updated_at": "2024-07-25T16:00:50.430-04:00",
+          "display_at": "2024-07-25T16:00:50.109-04:00",
+          "affected_components": [
+            {
+              "code": "hsr3nvlz0k2l",
+              "name": "Trello.com",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1816564284803129300
+        },
         {
           "id": "83frbqp25pm1",
           "status": "investigating",
