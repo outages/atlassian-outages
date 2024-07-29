@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-07-29T10:55:45.320Z"
+    "updated_at": "2024-07-29T11:29:42.691Z"
   },
   "components": [
     {
@@ -188,77 +188,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "r0y30x29mmk8",
-      "name": "Degraded Performance for JIRA and JSM",
-      "status": "monitoring",
-      "created_at": "2024-07-29T08:27:57.035Z",
-      "updated_at": "2024-07-29T10:55:45.317Z",
-      "monitoring_at": "2024-07-29T10:55:45.299Z",
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/zv8r09tn0djm",
-      "started_at": "2024-07-29T08:27:57.026Z",
-      "page_id": "pv54g7ltsc24",
-      "incident_updates": [
-        {
-          "id": "n0539jq3ffqh",
-          "status": "monitoring",
-          "body": "We have identified the root cause of the performance degradation and have mitigated the problem. We are now monitoring this closely.",
-          "incident_id": "r0y30x29mmk8",
-          "created_at": "2024-07-29T10:55:45.299Z",
-          "updated_at": "2024-07-29T10:55:45.299Z",
-          "display_at": "2024-07-29T10:55:45.299Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "5jzp9hzr03tt",
-          "status": "identified",
-          "body": "We continue to work on resolving the performance degradation for Jira and JSM. We have identified the root cause and recovery is complete for most sites. We will provide more details within the next hour.",
-          "incident_id": "r0y30x29mmk8",
-          "created_at": "2024-07-29T10:04:15.359Z",
-          "updated_at": "2024-07-29T10:04:15.359Z",
-          "display_at": "2024-07-29T10:04:15.359Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "phx6knxy3yl6",
-          "status": "identified",
-          "body": "We continue to work on resolving the performance degradation for Jira and JSM. We have identified the root cause and expect recovery for most of the sites. We will provide more details within the next hour.",
-          "incident_id": "r0y30x29mmk8",
-          "created_at": "2024-07-29T09:01:08.255Z",
-          "updated_at": "2024-07-29T09:01:08.255Z",
-          "display_at": "2024-07-29T09:01:08.255Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "83zdl12dkj4j",
-          "status": "investigating",
-          "body": "We are investigating cases of degraded performance for Jira and JSM Cloud customers. We will provide more details within the next hour.",
-          "incident_id": "r0y30x29mmk8",
-          "created_at": "2024-07-29T08:27:57.088Z",
-          "updated_at": "2024-07-29T08:27:57.088Z",
-          "display_at": "2024-07-29T08:27:57.088Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
