@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-08-07T13:55:00.044Z"
+    "updated_at": "2024-08-07T16:00:53.446Z"
   },
   "components": [
     {
@@ -801,7 +801,7 @@
       "name": "Partial loss of Forge metrics",
       "status": "investigating",
       "created_at": "2024-08-07T11:39:01.931Z",
-      "updated_at": "2024-08-07T13:55:00.036Z",
+      "updated_at": "2024-08-07T16:00:53.439Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -809,6 +809,26 @@
       "started_at": "2024-08-07T11:39:01.925Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "spbw8ftzyzsn",
+          "status": "investigating",
+          "body": "The system has recovered. We will continue observing for two more hours and send one more update then.",
+          "incident_id": "k085v2bwyh4v",
+          "created_at": "2024-08-07T16:00:53.436Z",
+          "updated_at": "2024-08-07T16:00:53.436Z",
+          "display_at": "2024-08-07T16:00:53.436Z",
+          "affected_components": [
+            {
+              "code": "y429ymc92xq4",
+              "name": "Developer - Forge App Monitoring",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "7l0sft0gxb69",
           "status": "investigating",
