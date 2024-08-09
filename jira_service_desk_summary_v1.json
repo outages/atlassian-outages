@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-08-09T16:43:05.090Z"
+    "updated_at": "2024-08-09T16:56:08.931Z"
   },
   "components": [
     {
@@ -194,7 +194,7 @@
       "name": "Jira Service Management Assets not loading for customers in specific regions",
       "status": "identified",
       "created_at": "2024-08-09T16:35:01.766Z",
-      "updated_at": "2024-08-09T16:35:47.241Z",
+      "updated_at": "2024-08-09T16:56:08.925Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -203,12 +203,32 @@
       "page_id": "pv54g7ltsc24",
       "incident_updates": [
         {
+          "id": "c5jsc9r7y375",
+          "status": "identified",
+          "body": "We have identified the root cause and have started deploying the mitigation steps",
+          "incident_id": "mqhtpx1nc012",
+          "created_at": "2024-08-09T16:55:45.759Z",
+          "updated_at": "2024-08-09T16:55:45.759Z",
+          "display_at": "2024-08-09T16:55:45.759Z",
+          "affected_components": [
+            {
+              "code": "4kcs01hbh4l6",
+              "name": "Jira Service Management Web",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
           "id": "jczj16sh8hdg",
           "status": "identified",
-          "body": "We are investigating an issue with Jira Service Management, where some customers are unable to access their Assets. The impact started around 15:00 UTC. The team is investigating the root cause and we are in the process of mitigating the root cause.",
+          "body": "We are investigating an issue with Jira Service Management, where some customers are unable to access their Assets. The impact started around 15:00 UTC. The team is investigating the root cause and we are in the process of mitigation",
           "incident_id": "mqhtpx1nc012",
           "created_at": "2024-08-09T16:35:01.857Z",
-          "updated_at": "2024-08-09T16:35:47.183Z",
+          "updated_at": "2024-08-09T16:56:08.922Z",
           "display_at": "2024-08-09T16:35:01.000Z",
           "affected_components": [
             {
