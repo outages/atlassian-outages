@@ -4,7 +4,7 @@
     "name": "Guard",
     "url": "https://guard.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-08-10T22:42:58.722Z"
+    "updated_at": "2024-08-10T22:50:54.974Z"
   },
   "components": [
     {
@@ -184,7 +184,7 @@
       "name": "AdminHub Authentication Policies and Identity Providers sections are slow to load, or not loading at all",
       "status": "investigating",
       "created_at": "2024-08-10T21:46:24.988Z",
-      "updated_at": "2024-08-10T21:46:25.025Z",
+      "updated_at": "2024-08-10T22:50:54.966Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "none",
@@ -192,6 +192,19 @@
       "started_at": "2024-08-10T21:46:24.982Z",
       "page_id": "5qmgwsxwsz78",
       "incident_updates": [
+        {
+          "id": "frqg59g434q7",
+          "status": "investigating",
+          "body": "We're still investigating an issue that may cause the Authentication Policies, Identity Providers sections, and the new organization creation experience in admin.atlassian.com to load slowly or fail to load.\n\nThis is not affecting Authentication policies in place, and it's not affecting linked Identity providers either but may prevent customers from modifying/creating new Authentication Policies and creating new organizations in Atlassian Cloud.",
+          "incident_id": "14r451y668kz",
+          "created_at": "2024-08-10T22:50:54.964Z",
+          "updated_at": "2024-08-10T22:50:54.964Z",
+          "display_at": "2024-08-10T22:50:54.964Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "2173cpyjx173",
           "status": "investigating",
