@@ -4,7 +4,7 @@
     "name": "Guard",
     "url": "https://guard.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-08-10T20:26:30.676Z"
+    "updated_at": "2024-08-10T20:34:42.920Z"
   },
   "components": [
     {
@@ -184,12 +184,12 @@
       "name": "AdminHub Authentication Policies and Identity Providers sections are slow to load, or not loading at all.",
       "status": "investigating",
       "created_at": "2024-08-10T19:29:36.353Z",
-      "updated_at": "2024-08-10T20:26:30.667Z",
+      "updated_at": "2024-08-10T20:34:42.916Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/1yqrvkq1z2gv",
-      "started_at": "2024-08-10T19:29:36.338Z",
+      "started_at": "2024-08-10T19:29:36.000Z",
       "page_id": "5qmgwsxwsz78",
       "incident_updates": [
         {
@@ -269,11 +269,11 @@
         {
           "id": "tcjv9g7l3nd1",
           "status": "investigating",
-          "body": "We're currently investigating an issue that may cause the Authentication Policies and Identity Providers sections in admin.atlassian.com to load slowly or fail to load.\n\nThis is not affecting Authentication policies in place, and it's not affecting linked Identity providers either, but may prevent customers from modifying/creating new Authentication Policies",
+          "body": "We're currently investigating an issue that may cause the Authentication Policies, Identity Providers sections, and the new organization creation experience in admin.atlassian.com to load slowly or fail to load.\n\nThis is not affecting Authentication policies in place, and it's not affecting linked Identity providers either but may prevent customers from modifying/creating new Authentication Policies and creating new organizations in Atlassian Cloud.",
           "incident_id": "3kzk7m1hhlpm",
           "created_at": "2024-08-10T19:29:36.454Z",
-          "updated_at": "2024-08-10T19:29:36.454Z",
-          "display_at": "2024-08-10T19:29:36.454Z",
+          "updated_at": "2024-08-10T20:34:42.847Z",
+          "display_at": "2024-08-10T19:29:36.000Z",
           "affected_components": [
             {
               "code": "hqd5zdvzh5g1",
