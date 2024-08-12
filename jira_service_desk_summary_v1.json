@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-08-12T16:43:14.852Z"
+    "updated_at": "2024-08-12T17:09:52.482Z"
   },
   "components": [
     {
@@ -194,7 +194,7 @@
       "name": "Blank screen is shown in Jira",
       "status": "investigating",
       "created_at": "2024-08-12T15:51:18.701Z",
-      "updated_at": "2024-08-12T15:51:18.771Z",
+      "updated_at": "2024-08-12T17:09:52.475Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -202,6 +202,46 @@
       "started_at": "2024-08-12T15:51:18.696Z",
       "page_id": "pv54g7ltsc24",
       "incident_updates": [
+        {
+          "id": "pnkkpttf9nb1",
+          "status": "investigating",
+          "body": "The issue is still ongoing at the moment, across multiple products. The team is actively working on a fix.",
+          "incident_id": "qm81l95hf258",
+          "created_at": "2024-08-12T17:09:52.472Z",
+          "updated_at": "2024-08-12T17:09:52.472Z",
+          "display_at": "2024-08-12T17:09:52.472Z",
+          "affected_components": [
+            {
+              "code": "4kcs01hbh4l6",
+              "name": "Jira Service Management Web",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "5zqnmzfs998r",
+          "status": "investigating",
+          "body": "We are continuing to investigate this issue.",
+          "incident_id": "qm81l95hf258",
+          "created_at": "2024-08-12T17:07:46.652Z",
+          "updated_at": "2024-08-12T17:07:46.652Z",
+          "display_at": "2024-08-12T17:07:46.652Z",
+          "affected_components": [
+            {
+              "code": "4kcs01hbh4l6",
+              "name": "Jira Service Management Web",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "p47cf5pdtwgd",
           "status": "investigating",
