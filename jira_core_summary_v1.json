@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-08-15T14:46:54.689Z"
+    "updated_at": "2024-08-15T15:49:38.517Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Jira Workflows schemes return error when being edited",
       "status": "investigating",
       "created_at": "2024-08-15T14:46:10.158Z",
-      "updated_at": "2024-08-15T14:46:54.687Z",
+      "updated_at": "2024-08-15T15:49:38.509Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,26 @@
       "started_at": "2024-08-15T14:46:10.000Z",
       "page_id": "s6f0gm5gcpmy",
       "incident_updates": [
+        {
+          "id": "668b33przmlp",
+          "status": "investigating",
+          "body": "The team is still working towards a fix for the Jira Workflow Schemes.",
+          "incident_id": "ttfzwm8cdppz",
+          "created_at": "2024-08-15T15:49:38.507Z",
+          "updated_at": "2024-08-15T15:49:38.507Z",
+          "display_at": "2024-08-15T15:49:38.507Z",
+          "affected_components": [
+            {
+              "code": "dwt504s3m4c1",
+              "name": "Create and edit",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "slpy1s7df8bz",
           "status": "investigating",
