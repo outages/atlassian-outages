@@ -4,15 +4,15 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-08-19T10:12:26.148Z"
+    "updated_at": "2024-08-19T10:21:08.449Z"
   },
   "components": [
     {
       "id": "4kcs01hbh4l6",
       "name": "Jira Service Management Web",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-11-16T18:06:14.831Z",
-      "updated_at": "2024-08-19T09:48:47.608Z",
+      "updated_at": "2024-08-19T10:21:08.409Z",
       "position": 1,
       "description": "Problems with queues, issues, reports, searching, and anything else impacting an agent's ability to complete their work",
       "showcase": false,
@@ -188,84 +188,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "57gmthm02jpd",
-      "name": "Jira Team managed projects, Boards & Backlogs not loading correctly",
-      "status": "monitoring",
-      "created_at": "2024-08-19T09:48:47.571Z",
-      "updated_at": "2024-08-19T10:12:26.146Z",
-      "monitoring_at": "2024-08-19T10:12:26.132Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/n05hl9g2skqb",
-      "started_at": "2024-08-19T09:48:47.565Z",
-      "page_id": "pv54g7ltsc24",
-      "incident_updates": [
-        {
-          "id": "bt11jmb9rn2r",
-          "status": "monitoring",
-          "body": "We've identified the root cause and rolled out a fix. We're currently monitoring the behavior.",
-          "incident_id": "57gmthm02jpd",
-          "created_at": "2024-08-19T10:12:26.132Z",
-          "updated_at": "2024-08-19T10:12:26.132Z",
-          "display_at": "2024-08-19T10:12:26.132Z",
-          "affected_components": [
-            {
-              "code": "4kcs01hbh4l6",
-              "name": "Jira Service Management Web",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "z2g6p1xgghng",
-          "status": "investigating",
-          "body": "We are currently investigating an issue where boards and backlogs are not loading for Team Managed projects. The team is currently working on identifying the root cause and resolving it.",
-          "incident_id": "57gmthm02jpd",
-          "created_at": "2024-08-19T09:48:47.652Z",
-          "updated_at": "2024-08-19T09:48:47.652Z",
-          "display_at": "2024-08-19T09:48:47.652Z",
-          "affected_components": [
-            {
-              "code": "4kcs01hbh4l6",
-              "name": "Jira Service Management Web",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "4kcs01hbh4l6",
-          "name": "Jira Service Management Web",
-          "status": "partial_outage",
-          "created_at": "2018-11-16T18:06:14.831Z",
-          "updated_at": "2024-08-19T09:48:47.608Z",
-          "position": 1,
-          "description": "Problems with queues, issues, reports, searching, and anything else impacting an agent's ability to complete their work",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
