@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-08-23T11:42:56.682Z"
+    "updated_at": "2024-08-23T15:43:08.817Z"
   },
   "components": [
     {
@@ -796,7 +796,62 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "kb36xgqqwxdq",
+      "name": "Marketplace reporting data will be delayed by 7 hours on August 24, 2027",
+      "status": "scheduled",
+      "created_at": "2024-08-23T15:43:08.760Z",
+      "updated_at": "2024-08-23T15:43:08.814Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/hfbf3lnwr0r0",
+      "started_at": "2024-08-23T15:43:08.753Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "tf05kky3sm0w",
+          "status": "scheduled",
+          "body": "Due to scheduled worldwide maintenance of an external service, Oracle Fusion, we expect a delay in Marketplace reporting data between 6 AM - 1 PM UTC on August 24, 2027. Please note that this delay will not impact the actual reporting, only the timing of the data availability.\nWe will provide updates once the maintenance window is complete by August 24, 2027 at 1PM UTC.",
+          "incident_id": "kb36xgqqwxdq",
+          "created_at": "2024-08-23T15:43:08.811Z",
+          "updated_at": "2024-08-23T15:43:08.811Z",
+          "display_at": "2024-08-23T15:43:08.811Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "hk36hlvygg2q",
+          "name": "Reporting APIs and dashboards",
+          "status": "operational",
+          "created_at": "2013-12-03T00:45:26.014Z",
+          "updated_at": "2024-08-12T08:52:21.073Z",
+          "position": 11,
+          "description": "Marketing attribution reports are now operational.",
+          "showcase": true,
+          "start_date": null,
+          "group_id": "d0m8l367qqw5",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2024-08-24T06:00:00.000Z",
+      "scheduled_until": "2024-08-24T11:00:00.000Z"
+    }
+  ],
   "status": {
     "indicator": "major",
     "description": "Partial System Outage"
