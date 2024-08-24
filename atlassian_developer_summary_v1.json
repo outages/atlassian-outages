@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-08-24T07:44:35.270Z"
+    "updated_at": "2024-08-24T13:00:02.616Z"
   },
   "components": [
     {
@@ -233,7 +233,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -632,9 +632,9 @@
     {
       "id": "hk36hlvygg2q",
       "name": "Reporting APIs and dashboards",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2013-12-03T00:45:26.014Z",
-      "updated_at": "2024-08-24T06:00:02.307Z",
+      "updated_at": "2024-08-24T13:00:02.363Z",
       "position": 11,
       "description": "Marketing attribution reports are now operational.",
       "showcase": true,
@@ -796,95 +796,7 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "kb36xgqqwxdq",
-      "name": "Marketplace reporting data will be delayed by 7 hours on August 24, 2027",
-      "status": "in_progress",
-      "created_at": "2024-08-23T15:43:08.760Z",
-      "updated_at": "2024-08-24T07:44:35.266Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/hfbf3lnwr0r0",
-      "started_at": "2024-08-23T15:43:08.753Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "72l4f4y6gt53",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "kb36xgqqwxdq",
-          "created_at": "2024-08-24T06:00:02.398Z",
-          "updated_at": "2024-08-24T06:00:02.398Z",
-          "display_at": "2024-08-24T06:00:02.398Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "vqvn9vt230fk",
-          "status": "scheduled",
-          "body": "Maintenance will begin as scheduled in 60 minutes.",
-          "incident_id": "kb36xgqqwxdq",
-          "created_at": "2024-08-24T05:00:03.588Z",
-          "updated_at": "2024-08-24T05:00:03.588Z",
-          "display_at": "2024-08-24T05:00:03.588Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "tf05kky3sm0w",
-          "status": "scheduled",
-          "body": "Due to scheduled worldwide maintenance of an external service, Oracle Fusion, we expect a delay in Marketplace reporting data between 6 AM - 1 PM UTC on August 24, 2027. Please note that this delay will not impact the actual reporting, only the timing of the data availability.\nWe will provide updates once the maintenance window is complete by August 24, 2027 at 1PM UTC.",
-          "incident_id": "kb36xgqqwxdq",
-          "created_at": "2024-08-23T15:43:08.811Z",
-          "updated_at": "2024-08-23T15:43:08.811Z",
-          "display_at": "2024-08-23T15:43:08.811Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "hk36hlvygg2q",
-          "name": "Reporting APIs and dashboards",
-          "status": "under_maintenance",
-          "created_at": "2013-12-03T00:45:26.014Z",
-          "updated_at": "2024-08-24T06:00:02.307Z",
-          "position": 11,
-          "description": "Marketing attribution reports are now operational.",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2024-08-24T06:00:00.000Z",
-      "scheduled_until": "2024-08-24T13:00:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
     "indicator": "major",
     "description": "Partial System Outage"
