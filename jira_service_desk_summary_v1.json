@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-08-27T07:50:23.653Z"
+    "updated_at": "2024-08-28T03:32:17.686Z"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "hzbyfxf686qd",
       "name": "Service Portal",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-11-16T18:06:14.848Z",
-      "updated_at": "2024-07-04T00:43:43.842Z",
+      "updated_at": "2024-08-28T03:32:17.630Z",
       "position": 2,
       "description": "Problems related to the service desk portals where end-users make requests or raise issues",
       "showcase": false,
@@ -188,10 +188,64 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "z7f34lkl5t0r",
+      "name": "Topics are not visible when using custom domains",
+      "status": "investigating",
+      "created_at": "2024-08-28T03:32:17.582Z",
+      "updated_at": "2024-08-28T03:32:17.683Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/dh6d4129xhy2",
+      "started_at": "2024-08-28T03:32:17.576Z",
+      "page_id": "pv54g7ltsc24",
+      "incident_updates": [
+        {
+          "id": "6xk7pkw3zdjz",
+          "status": "investigating",
+          "body": "We are currently investigating an issue where topics are not visible for portal-only customers when using custom domains.",
+          "incident_id": "z7f34lkl5t0r",
+          "created_at": "2024-08-28T03:32:17.680Z",
+          "updated_at": "2024-08-28T03:32:17.680Z",
+          "display_at": "2024-08-28T03:32:17.680Z",
+          "affected_components": [
+            {
+              "code": "hzbyfxf686qd",
+              "name": "Service Portal",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "hzbyfxf686qd",
+          "name": "Service Portal",
+          "status": "degraded_performance",
+          "created_at": "2018-11-16T18:06:14.848Z",
+          "updated_at": "2024-08-28T03:32:17.630Z",
+          "position": 2,
+          "description": "Problems related to the service desk portals where end-users make requests or raise issues",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "pv54g7ltsc24",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
