@@ -4,7 +4,7 @@
     "name": "Jira",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-08-29T09:43:49.527Z"
+    "updated_at": "2024-08-29T09:50:57.788Z"
   },
   "components": [
     {
@@ -179,10 +179,10 @@
       "name": "Degredaded Experience",
       "status": "investigating",
       "created_at": "2024-08-29T09:43:49.488Z",
-      "updated_at": "2024-08-29T09:43:49.524Z",
+      "updated_at": "2024-08-29T09:50:57.783Z",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "none",
+      "impact": "major",
       "shortlink": "https://stspg.io/b45ds2sb47b3",
       "started_at": "2024-08-29T09:43:49.482Z",
       "page_id": "7yh3h3y0c0x1",

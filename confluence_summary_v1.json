@@ -4,7 +4,7 @@
     "name": "Confluence",
     "url": "https://confluence.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-08-29T09:43:49.485Z"
+    "updated_at": "2024-08-29T09:51:39.523Z"
   },
   "components": [
     {
@@ -258,10 +258,10 @@
       "name": "Degredaded Experience",
       "status": "investigating",
       "created_at": "2024-08-29T09:43:49.441Z",
-      "updated_at": "2024-08-29T09:43:49.482Z",
+      "updated_at": "2024-08-29T09:51:39.518Z",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "none",
+      "impact": "major",
       "shortlink": "https://stspg.io/nn3x5ll9ctq5",
       "started_at": "2024-08-29T09:43:49.434Z",
       "page_id": "4g2my7tbhjsq",
