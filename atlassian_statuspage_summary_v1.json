@@ -4,7 +4,7 @@
     "name": "Atlassian Statuspage",
     "url": "http://metastatuspage.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-08-30T21:50:57.137-07:00"
+    "updated_at": "2024-09-03T21:28:07.399-07:00"
   },
   "components": [
     {
@@ -823,7 +823,7 @@
       "name": "Upcoming network-related changes",
       "status": "scheduled",
       "created_at": "2024-05-29T21:04:43.117-07:00",
-      "updated_at": "2024-08-30T21:29:57.242-07:00",
+      "updated_at": "2024-09-03T21:28:07.396-07:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -987,8 +987,8 @@
           "only_show_if_degraded": false
         }
       ],
-      "scheduled_for": "2024-08-30T22:30:00.000-07:00",
-      "scheduled_until": "2024-08-30T23:30:00.000-07:00"
+      "scheduled_for": "2024-12-15T22:30:00.000-08:00",
+      "scheduled_until": "2024-12-15T23:30:00.000-08:00"
     }
   ],
   "status": {
