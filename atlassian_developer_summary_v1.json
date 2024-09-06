@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-09-05T20:48:29.053Z"
+    "updated_at": "2024-09-06T06:15:21.626Z"
   },
   "components": [
     {
@@ -984,7 +984,7 @@
       "name": "Scheduled Maintenance May Cause Failed App Installations/Upgrades/Subscriptions for Some Sites",
       "status": "scheduled",
       "created_at": "2024-08-29T05:53:47.532Z",
-      "updated_at": "2024-08-29T05:56:28.712Z",
+      "updated_at": "2024-09-06T06:15:21.624Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -995,10 +995,10 @@
         {
           "id": "z11nf6v7r4mr",
           "status": "scheduled",
-          "body": "We will be undergoing scheduled maintenance from September 7th 2:30 AM to 10th 2.30AM, 2024.\n\nDuring this time, there is a small chance that some app (un)installations, upgrades and (un)subscriptions could fail intermittently with an error. \n\nThe operation should succeed upon retry.",
+          "body": "We will be undergoing scheduled maintenance from September 9th 2:00 AM UTC to 13th 10PM UTC, 2024.\n\nDuring this time, there is a small chance that some app (un)installations, upgrades and (un)subscriptions could fail intermittently with an error. \n\nThe operation should succeed upon retry.",
           "incident_id": "sp6c6dgg0yx8",
           "created_at": "2024-08-29T05:53:47.583Z",
-          "updated_at": "2024-08-29T05:53:47.583Z",
+          "updated_at": "2024-09-06T06:14:26.215Z",
           "display_at": "2024-08-29T05:53:47.583Z",
           "affected_components": [
             {
@@ -1030,8 +1030,8 @@
           "only_show_if_degraded": false
         }
       ],
-      "scheduled_for": "2024-09-07T02:30:00.000Z",
-      "scheduled_until": "2024-09-10T02:30:00.000Z"
+      "scheduled_for": "2024-09-09T02:00:00.000Z",
+      "scheduled_until": "2024-09-14T02:00:00.000Z"
     }
   ],
   "status": {
