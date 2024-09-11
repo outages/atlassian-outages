@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-09-11T15:30:15.762Z"
+    "updated_at": "2024-09-11T15:41:44.526Z"
   },
   "components": [
     {
@@ -192,16 +192,29 @@
     {
       "id": "0w0jqw0th3tz",
       "name": "Few Assets Object type are not loading correctly: 5xx Error",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2024-09-11T14:00:58.079Z",
-      "updated_at": "2024-09-11T14:00:58.120Z",
-      "monitoring_at": null,
+      "updated_at": "2024-09-11T15:41:44.523Z",
+      "monitoring_at": "2024-09-11T15:41:44.505Z",
       "resolved_at": null,
       "impact": "none",
       "shortlink": "https://stspg.io/2xlrnlw3dp5d",
       "started_at": "2024-09-11T14:00:58.073Z",
       "page_id": "pv54g7ltsc24",
       "incident_updates": [
+        {
+          "id": "2rl31ds3rlly",
+          "status": "monitoring",
+          "body": "From our investigation the incident is limited to certain patterns of AQL being used by our customers. We have mitigated the impact and are now monitoring closely.",
+          "incident_id": "0w0jqw0th3tz",
+          "created_at": "2024-09-11T15:41:44.505Z",
+          "updated_at": "2024-09-11T15:41:44.505Z",
+          "display_at": "2024-09-11T15:41:44.505Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "4s94gt0bkdl5",
           "status": "investigating",
