@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-09-11T14:43:08.520Z"
+    "updated_at": "2024-09-11T15:30:15.762Z"
   },
   "components": [
     {
@@ -212,49 +212,6 @@
           "display_at": "2024-09-11T14:00:58.118Z",
           "affected_components": null,
           "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "reminder_intervals": null
-    },
-    {
-      "id": "zjg59rl8g8lq",
-      "name": "Replies to JSM and Jira email notifications are creating new Issues instead of adding as Comments",
-      "status": "monitoring",
-      "created_at": "2024-09-11T12:15:54.889Z",
-      "updated_at": "2024-09-11T12:56:37.344Z",
-      "monitoring_at": "2024-09-11T12:56:37.325Z",
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/ywrl0g94tbp0",
-      "started_at": "2024-09-11T12:15:54.882Z",
-      "page_id": "pv54g7ltsc24",
-      "incident_updates": [
-        {
-          "id": "wy2k89trzn5y",
-          "status": "monitoring",
-          "body": "Between 1.30am IST to 4.30pm IST, replies to Jira and JSM emails were creating duplicate issues/tickets instead of getting added as comments to the original issue/ticket. We have identified the root cause of the intermittent errors and have mitigated the problem. We are now monitoring closely.",
-          "incident_id": "zjg59rl8g8lq",
-          "created_at": "2024-09-11T12:56:37.325Z",
-          "updated_at": "2024-09-11T12:56:37.325Z",
-          "display_at": "2024-09-11T12:56:37.325Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "wqp0fyczzsw6",
-          "status": "investigating",
-          "body": "We are investigating reports of intermittent errors for some Jira Service Management and Jira Cloud customers where replying to the emails are creating new Issue/Tickets instead of adding replies as comments. We will provide more details once we identify the root cause.",
-          "incident_id": "zjg59rl8g8lq",
-          "created_at": "2024-09-11T12:15:54.930Z",
-          "updated_at": "2024-09-11T12:15:54.930Z",
-          "display_at": "2024-09-11T12:15:54.930Z",
-          "affected_components": null,
-          "deliver_notifications": true,
           "custom_tweet": null,
           "tweet_id": null
         }
