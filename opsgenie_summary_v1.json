@@ -4,7 +4,7 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-09-12T03:28:58.989Z"
+    "updated_at": "2024-09-12T20:37:26.280Z"
   },
   "components": [
     {
@@ -79,7 +79,7 @@
     {
       "id": "k7gyfk44wrsr",
       "name": "EU",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2019-02-12T13:47:54.389Z",
       "updated_at": "2019-02-12T13:47:54.389Z",
       "position": 2,
@@ -493,9 +493,9 @@
     {
       "id": "357vyw1pjtlj",
       "name": "Signup, Login & Authorization",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2019-03-15T08:12:55.374Z",
-      "updated_at": "2024-09-12T02:08:09.184Z",
+      "updated_at": "2024-09-12T20:37:26.277Z",
       "position": 14,
       "description": null,
       "showcase": true,
@@ -764,7 +764,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
