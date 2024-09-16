@@ -4,15 +4,15 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-09-15T03:42:58.554Z"
+    "updated_at": "2024-09-16T09:37:49.743Z"
   },
   "components": [
     {
       "id": "l4fp2xkkygv4",
       "name": "Viewing content",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-11-16T18:17:29.270Z",
-      "updated_at": "2024-07-04T00:48:08.691Z",
+      "updated_at": "2024-09-16T09:37:49.697Z",
       "position": 1,
       "description": "Problems viewing issues, dashboards, boards, reports, etc.",
       "showcase": false,
@@ -173,10 +173,64 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "txlgm5brk8bb",
+      "name": "Performance issues with JWM.",
+      "status": "investigating",
+      "created_at": "2024-09-16T09:37:49.667Z",
+      "updated_at": "2024-09-16T09:37:49.740Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/f83611gjqnq0",
+      "started_at": "2024-09-16T09:37:49.663Z",
+      "page_id": "s6f0gm5gcpmy",
+      "incident_updates": [
+        {
+          "id": "kfz6ng1fb6yy",
+          "status": "investigating",
+          "body": "We have identified an issue wherein JWM is not loading or is loading very slow. We have started to investigate the issue and will provide further updates shortly.",
+          "incident_id": "txlgm5brk8bb",
+          "created_at": "2024-09-16T09:37:49.738Z",
+          "updated_at": "2024-09-16T09:37:49.738Z",
+          "display_at": "2024-09-16T09:37:49.738Z",
+          "affected_components": [
+            {
+              "code": "l4fp2xkkygv4",
+              "name": "Viewing content",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "l4fp2xkkygv4",
+          "name": "Viewing content",
+          "status": "degraded_performance",
+          "created_at": "2018-11-16T18:17:29.270Z",
+          "updated_at": "2024-09-16T09:37:49.697Z",
+          "position": 1,
+          "description": "Problems viewing issues, dashboards, boards, reports, etc.",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "s6f0gm5gcpmy",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
