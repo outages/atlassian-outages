@@ -4,15 +4,15 @@
     "name": "Jira",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-09-16T14:38:14.078Z"
+    "updated_at": "2024-09-16T14:40:48.634Z"
   },
   "components": [
     {
       "id": "jmgfbtr0k28j",
       "name": "Viewing content",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-01-22T20:42:24.651Z",
-      "updated_at": "2024-09-16T09:37:27.746Z",
+      "updated_at": "2024-09-16T14:40:48.630Z",
       "position": 1,
       "description": "Problems viewing issues, dashboards, boards, reports, etc.",
       "showcase": false,
@@ -176,7 +176,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
