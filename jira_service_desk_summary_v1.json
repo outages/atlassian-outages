@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-09-16T21:45:10.994Z"
+    "updated_at": "2024-09-17T10:33:08.041Z"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "hzbyfxf686qd",
       "name": "Service Portal",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-11-16T18:06:14.848Z",
-      "updated_at": "2024-09-16T17:21:33.114Z",
+      "updated_at": "2024-09-17T10:33:08.039Z",
       "position": 2,
       "description": "Problems related to the service desk portals where end-users make requests or raise issues",
       "showcase": false,
@@ -188,10 +188,41 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "w9msvvspnwn9",
+      "name": "Assets not loading",
+      "status": "investigating",
+      "created_at": "2024-09-17T10:31:19.118Z",
+      "updated_at": "2024-09-17T10:31:29.297Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/c921jdvbvq0s",
+      "started_at": "2024-09-17T10:31:19.113Z",
+      "page_id": "pv54g7ltsc24",
+      "incident_updates": [
+        {
+          "id": "k5yqq4jfgb9n",
+          "status": "investigating",
+          "body": "We are currently investigating an issue with Assets and assets-related operations not loading in a specific region.",
+          "incident_id": "w9msvvspnwn9",
+          "created_at": "2024-09-17T10:31:19.151Z",
+          "updated_at": "2024-09-17T10:31:19.151Z",
+          "display_at": "2024-09-17T10:31:19.151Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
