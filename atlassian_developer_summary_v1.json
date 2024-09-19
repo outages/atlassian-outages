@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-09-17T09:57:31.538Z"
+    "updated_at": "2024-09-19T08:47:29.640Z"
   },
   "components": [
     {
@@ -796,62 +796,7 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "2nzn95vhx7b6",
-      "name": "Scheduled Maintenance May Cause Failed App Installations/Upgrades/Subscriptions for Some Sites",
-      "status": "scheduled",
-      "created_at": "2024-09-16T08:38:16.628Z",
-      "updated_at": "2024-09-16T08:38:16.673Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/q52b3h2lvk3c",
-      "started_at": "2024-09-16T08:38:16.622Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "rltx423brkvc",
-          "status": "scheduled",
-          "body": "We will be undergoing scheduled maintenance from September 23th 00:00 AM UTC to October 5th 00AM UTC, 2024.\n\nDuring this time, there is a small chance that some app (un)installations, upgrades and (un)subscriptions could fail intermittently with an error. \n\nThe operation should succeed upon retry.",
-          "incident_id": "2nzn95vhx7b6",
-          "created_at": "2024-09-16T08:38:16.671Z",
-          "updated_at": "2024-09-16T08:38:16.671Z",
-          "display_at": "2024-09-16T08:38:16.671Z",
-          "affected_components": [
-            {
-              "code": "vb9xhz9z6zbp",
-              "name": "Developer - Forge App Installation",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "vb9xhz9z6zbp",
-          "name": "Forge App Installation",
-          "status": "operational",
-          "created_at": "2021-03-23T11:55:32.639Z",
-          "updated_at": "2024-09-16T08:22:45.326Z",
-          "position": 5,
-          "description": "Installation of Forge apps",
-          "showcase": true,
-          "start_date": "2021-03-23",
-          "group_id": "73bt63kd5q9k",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2024-09-23T00:00:00.000Z",
-      "scheduled_until": "2024-10-07T00:00:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
