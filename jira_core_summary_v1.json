@@ -4,15 +4,15 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-09-19T02:26:06.952Z"
+    "updated_at": "2024-09-19T03:18:48.147Z"
   },
   "components": [
     {
       "id": "l4fp2xkkygv4",
       "name": "Viewing content",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-11-16T18:17:29.270Z",
-      "updated_at": "2024-09-19T01:13:10.938Z",
+      "updated_at": "2024-09-19T03:18:48.097Z",
       "position": 1,
       "description": "Problems viewing issues, dashboards, boards, reports, etc.",
       "showcase": false,
@@ -173,84 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "yrwzhq8cdr45",
-      "name": "Left navigation panel is not visible in the JIRA issue view",
-      "status": "monitoring",
-      "created_at": "2024-09-19T01:13:10.895Z",
-      "updated_at": "2024-09-19T02:26:06.950Z",
-      "monitoring_at": "2024-09-19T02:26:06.936Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/y52sdvg2nmg5",
-      "started_at": "2024-09-19T01:13:10.889Z",
-      "page_id": "s6f0gm5gcpmy",
-      "incident_updates": [
-        {
-          "id": "rhj8h6j1jdh4",
-          "status": "monitoring",
-          "body": "We have identified the root cause of the issue where left-hand navigation panel is not visible in JIRA issue view and have mitigated the problem. We are now monitoring this closely.",
-          "incident_id": "yrwzhq8cdr45",
-          "created_at": "2024-09-19T02:26:06.936Z",
-          "updated_at": "2024-09-19T02:26:06.936Z",
-          "display_at": "2024-09-19T02:26:06.936Z",
-          "affected_components": [
-            {
-              "code": "l4fp2xkkygv4",
-              "name": "Viewing content",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "7xpldhqqfyht",
-          "status": "investigating",
-          "body": "We have identified an issue where the left navigation panel is not visible in the JIRA issue view. We have started to investigate the issue and will provide further updates shortly.",
-          "incident_id": "yrwzhq8cdr45",
-          "created_at": "2024-09-19T01:13:10.992Z",
-          "updated_at": "2024-09-19T01:13:10.992Z",
-          "display_at": "2024-09-19T01:13:10.992Z",
-          "affected_components": [
-            {
-              "code": "l4fp2xkkygv4",
-              "name": "Viewing content",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "l4fp2xkkygv4",
-          "name": "Viewing content",
-          "status": "partial_outage",
-          "created_at": "2018-11-16T18:17:29.270Z",
-          "updated_at": "2024-09-19T01:13:10.938Z",
-          "position": 1,
-          "description": "Problems viewing issues, dashboards, boards, reports, etc.",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "s6f0gm5gcpmy",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
