@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-09-24T15:43:05.256Z"
+    "updated_at": "2024-09-24T19:22:43.164Z"
   },
   "components": [
     {
@@ -192,16 +192,36 @@
     {
       "id": "4d1jwhypc5db",
       "name": "Users with Create Issue permission are unable to create tickets",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2024-09-24T14:57:03.063Z",
-      "updated_at": "2024-09-24T14:57:03.129Z",
-      "monitoring_at": null,
+      "updated_at": "2024-09-24T19:22:43.161Z",
+      "monitoring_at": "2024-09-24T19:22:43.144Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/6b086q38bm4x",
       "started_at": "2024-09-24T14:57:03.058Z",
       "page_id": "pv54g7ltsc24",
       "incident_updates": [
+        {
+          "id": "5l69cy11sslp",
+          "status": "monitoring",
+          "body": "We have identified the issue and applied a potential solution. The change will take approximately four hours to fully roll out, but improvements can be experienced sooner.  We'll share more details in the coming hours.",
+          "incident_id": "4d1jwhypc5db",
+          "created_at": "2024-09-24T19:22:43.144Z",
+          "updated_at": "2024-09-24T19:22:43.144Z",
+          "display_at": "2024-09-24T19:22:43.144Z",
+          "affected_components": [
+            {
+              "code": "4kcs01hbh4l6",
+              "name": "Jira Service Management Web",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "70myj1frbc9c",
           "status": "identified",
