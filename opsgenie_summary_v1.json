@@ -4,13 +4,13 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-09-12T20:37:26.280Z"
+    "updated_at": "2024-09-24T19:56:24.830Z"
   },
   "components": [
     {
       "id": "jzqq334r65mx",
       "name": "US",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-02-12T13:47:31.055Z",
       "updated_at": "2019-03-15T08:16:16.977Z",
       "position": 1,
@@ -79,7 +79,7 @@
     {
       "id": "k7gyfk44wrsr",
       "name": "EU",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-02-12T13:47:54.389Z",
       "updated_at": "2019-02-12T13:47:54.389Z",
       "position": 2,
@@ -463,9 +463,9 @@
     {
       "id": "tkttksj201cz",
       "name": "Outgoing Integration Flow",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-03-15T08:12:45.141Z",
-      "updated_at": "2023-06-26T07:42:21.668Z",
+      "updated_at": "2024-09-24T19:56:24.777Z",
       "position": 13,
       "description": null,
       "showcase": true,
@@ -478,9 +478,9 @@
     {
       "id": "25p0d7gb1mwv",
       "name": "Outgoing Integration Flow",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-03-15T08:14:41.130Z",
-      "updated_at": "2023-12-10T03:52:07.144Z",
+      "updated_at": "2024-09-24T19:56:24.790Z",
       "position": 13,
       "description": null,
       "showcase": true,
@@ -761,10 +761,105 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "lmkj3cm186cc",
+      "name": "Reported issues with OEC functionality",
+      "status": "investigating",
+      "created_at": "2024-09-24T19:55:17.315Z",
+      "updated_at": "2024-09-24T19:56:24.822Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/ttc13mtq0cnp",
+      "started_at": "2024-09-24T19:55:17.305Z",
+      "page_id": "t05vdsszxwtq",
+      "incident_updates": [
+        {
+          "id": "131b3zlzvsj5",
+          "status": "investigating",
+          "body": "We are continuing to investigate this issue.",
+          "incident_id": "lmkj3cm186cc",
+          "created_at": "2024-09-24T19:56:24.821Z",
+          "updated_at": "2024-09-24T19:56:24.821Z",
+          "display_at": "2024-09-24T19:56:24.821Z",
+          "affected_components": [
+            {
+              "code": "25p0d7gb1mwv",
+              "name": "US - Outgoing Integration Flow",
+              "old_status": "degraded_performance",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "tkttksj201cz",
+              "name": "EU - Outgoing Integration Flow",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "nhgpck8z20y3",
+          "status": "investigating",
+          "body": "We've been notified that a number of OEC clients have been failing to create Jira tickets. We're currently investigating the issue.",
+          "incident_id": "lmkj3cm186cc",
+          "created_at": "2024-09-24T19:55:17.405Z",
+          "updated_at": "2024-09-24T19:55:17.405Z",
+          "display_at": "2024-09-24T19:55:17.405Z",
+          "affected_components": [
+            {
+              "code": "25p0d7gb1mwv",
+              "name": "US - Outgoing Integration Flow",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "tkttksj201cz",
+          "name": "Outgoing Integration Flow",
+          "status": "partial_outage",
+          "created_at": "2019-03-15T08:12:45.141Z",
+          "updated_at": "2024-09-24T19:56:24.777Z",
+          "position": 13,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": "k7gyfk44wrsr",
+          "page_id": "t05vdsszxwtq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "25p0d7gb1mwv",
+          "name": "Outgoing Integration Flow",
+          "status": "partial_outage",
+          "created_at": "2019-03-15T08:14:41.130Z",
+          "updated_at": "2024-09-24T19:56:24.790Z",
+          "position": 13,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": "jzqq334r65mx",
+          "page_id": "t05vdsszxwtq",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
