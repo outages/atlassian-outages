@@ -4,15 +4,15 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2024-09-25T15:58:06.155-04:00"
+    "updated_at": "2024-09-25T17:01:28.556-04:00"
   },
   "components": [
     {
       "id": "hsr3nvlz0k2l",
       "name": "Trello.com",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-01-24T12:50:55.839-05:00",
-      "updated_at": "2024-09-25T15:22:46.037-04:00",
+      "updated_at": "2024-09-25T16:53:40.010-04:00",
       "position": 1,
       "description": "Web client",
       "showcase": true,
@@ -25,9 +25,9 @@
     {
       "id": "y1nllgnkxn9d",
       "name": "API",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-01-24T12:50:17.715-05:00",
-      "updated_at": "2024-09-25T15:22:46.057-04:00",
+      "updated_at": "2024-09-25T16:53:40.022-04:00",
       "position": 2,
       "description": null,
       "showcase": true,
@@ -87,16 +87,42 @@
     {
       "id": "58r3l27hnb7g",
       "name": "Email to Board feature isn't working as expected for some customers",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2024-09-25T15:22:45.991-04:00",
-      "updated_at": "2024-09-25T15:58:06.146-04:00",
-      "monitoring_at": null,
+      "updated_at": "2024-09-25T17:01:28.554-04:00",
+      "monitoring_at": "2024-09-25T16:53:40.000-04:00",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/38s9sv35sqh2",
-      "started_at": "2024-09-25T15:22:45.984-04:00",
+      "started_at": "2024-09-25T15:22:46.000-04:00",
       "page_id": "h5frqhb041yq",
       "incident_updates": [
+        {
+          "id": "vzgbgnwbvtfh",
+          "status": "monitoring",
+          "body": "On Sept 25 we identified that our email-to-board feature was failing for some users.\n\nWe have taken action to mitigate  this issue and we will continue to monitor for the next 30 minutes before marking the incident as resolved.",
+          "incident_id": "58r3l27hnb7g",
+          "created_at": "2024-09-25T16:53:40.046-04:00",
+          "updated_at": "2024-09-25T17:01:28.478-04:00",
+          "display_at": "2024-09-25T16:53:40.000-04:00",
+          "affected_components": [
+            {
+              "code": "y1nllgnkxn9d",
+              "name": "API",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "hsr3nvlz0k2l",
+              "name": "Trello.com",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1839045628879569400
+        },
         {
           "id": "7t3yj5f2m2jt",
           "status": "identified",
@@ -180,9 +206,9 @@
         {
           "id": "hsr3nvlz0k2l",
           "name": "Trello.com",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2020-01-24T12:50:55.839-05:00",
-          "updated_at": "2024-09-25T15:22:46.037-04:00",
+          "updated_at": "2024-09-25T16:53:40.010-04:00",
           "position": 1,
           "description": "Web client",
           "showcase": true,
@@ -195,9 +221,9 @@
         {
           "id": "y1nllgnkxn9d",
           "name": "API",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2020-01-24T12:50:17.715-05:00",
-          "updated_at": "2024-09-25T15:22:46.057-04:00",
+          "updated_at": "2024-09-25T16:53:40.022-04:00",
           "position": 2,
           "description": null,
           "showcase": true,
@@ -213,7 +239,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
