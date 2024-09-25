@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-09-25T13:51:53.145Z"
+    "updated_at": "2024-09-25T15:08:33.868Z"
   },
   "components": [
     {
@@ -799,16 +799,36 @@
     {
       "id": "d05lpgd7pp15",
       "name": "Intermittent failures observed in Marketplace Reporting APIs",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2024-09-25T13:36:31.594Z",
-      "updated_at": "2024-09-25T13:51:53.135Z",
-      "monitoring_at": null,
+      "updated_at": "2024-09-25T15:08:33.866Z",
+      "monitoring_at": "2024-09-25T15:08:33.853Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/f8fp1dxbhyfy",
       "started_at": "2024-09-25T13:36:31.586Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "pf4cm74gjcbf",
+          "status": "monitoring",
+          "body": "The issue has been mitigated in the upstream dependency and is being monitored.",
+          "incident_id": "d05lpgd7pp15",
+          "created_at": "2024-09-25T15:08:33.853Z",
+          "updated_at": "2024-09-25T15:08:33.853Z",
+          "display_at": "2024-09-25T15:08:33.853Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "p0md8jvcy4vw",
           "status": "identified",
