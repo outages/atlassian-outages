@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-09-25T15:42:58.000Z"
+    "updated_at": "2024-09-25T16:34:25.455Z"
   },
   "components": [
     {
@@ -233,7 +233,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -632,9 +632,9 @@
     {
       "id": "hk36hlvygg2q",
       "name": "Reporting APIs and dashboards",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2013-12-03T00:45:26.014Z",
-      "updated_at": "2024-09-25T13:36:31.637Z",
+      "updated_at": "2024-09-25T16:34:25.412Z",
       "position": 11,
       "description": "Marketing attribution reports are now operational.",
       "showcase": true,
@@ -795,104 +795,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "d05lpgd7pp15",
-      "name": "Intermittent failures observed in Marketplace Reporting APIs",
-      "status": "monitoring",
-      "created_at": "2024-09-25T13:36:31.594Z",
-      "updated_at": "2024-09-25T15:08:33.866Z",
-      "monitoring_at": "2024-09-25T15:08:33.853Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/f8fp1dxbhyfy",
-      "started_at": "2024-09-25T13:36:31.586Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "pf4cm74gjcbf",
-          "status": "monitoring",
-          "body": "The issue has been mitigated in the upstream dependency and is being monitored.",
-          "incident_id": "d05lpgd7pp15",
-          "created_at": "2024-09-25T15:08:33.853Z",
-          "updated_at": "2024-09-25T15:08:33.853Z",
-          "display_at": "2024-09-25T15:08:33.853Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "p0md8jvcy4vw",
-          "status": "identified",
-          "body": "The issue has been identified in the upstream dependency and potential mitigation paths are being worked on.",
-          "incident_id": "d05lpgd7pp15",
-          "created_at": "2024-09-25T13:51:53.132Z",
-          "updated_at": "2024-09-25T13:51:53.132Z",
-          "display_at": "2024-09-25T13:51:53.132Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "wqt26s5xfzr9",
-          "status": "investigating",
-          "body": "The cause for the failures is due to an issue in the dependent upstream service and is being investigated.",
-          "incident_id": "d05lpgd7pp15",
-          "created_at": "2024-09-25T13:36:31.691Z",
-          "updated_at": "2024-09-25T13:36:31.691Z",
-          "display_at": "2024-09-25T13:36:31.691Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "hk36hlvygg2q",
-          "name": "Reporting APIs and dashboards",
-          "status": "degraded_performance",
-          "created_at": "2013-12-03T00:45:26.014Z",
-          "updated_at": "2024-09-25T13:36:31.637Z",
-          "position": 11,
-          "description": "Marketing attribution reports are now operational.",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
