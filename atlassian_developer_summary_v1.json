@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-10-02T05:29:46.507Z"
+    "updated_at": "2024-10-02T07:28:51.544Z"
   },
   "components": [
     {
@@ -801,10 +801,10 @@
       "name": "JSM portal customers requests are not fulfilled via Connect apps",
       "status": "monitoring",
       "created_at": "2024-10-02T04:02:09.876Z",
-      "updated_at": "2024-10-02T05:29:46.505Z",
+      "updated_at": "2024-10-02T07:28:51.540Z",
       "monitoring_at": "2024-10-02T05:29:46.490Z",
       "resolved_at": null,
-      "impact": "none",
+      "impact": "major",
       "shortlink": "https://stspg.io/ghcxl440y8wj",
       "started_at": "2024-10-02T04:02:09.867Z",
       "page_id": "n8766lc3ybbs",
