@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-10-03T03:43:02.530Z"
+    "updated_at": "2024-10-03T06:04:22.423Z"
   },
   "components": [
     {
@@ -173,38 +173,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "5jd7fzb2m7hq",
-      "name": "Error showing in project sidebar",
-      "status": "investigating",
-      "created_at": "2024-10-03T02:49:13.972Z",
-      "updated_at": "2024-10-03T02:49:14.015Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/4z28p7c9dsxz",
-      "started_at": "2024-10-03T02:49:13.965Z",
-      "page_id": "s6f0gm5gcpmy",
-      "incident_updates": [
-        {
-          "id": "q0q5942jthmz",
-          "status": "investigating",
-          "body": "Some customers may be experiencing an error showing on the project sidebar, which is impacting their ability to navigate within the project.\n\nWe have started to investigate the issue and will provide further updates.",
-          "incident_id": "5jd7fzb2m7hq",
-          "created_at": "2024-10-03T02:49:14.011Z",
-          "updated_at": "2024-10-03T02:49:14.011Z",
-          "display_at": "2024-10-03T02:49:14.011Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
