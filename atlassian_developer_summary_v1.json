@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-10-04T05:30:51.466Z"
+    "updated_at": "2024-10-04T11:01:52.351Z"
   },
   "components": [
     {
@@ -795,51 +795,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "6z842fwz0x4l",
-      "name": "Automatic Minor Version Updates for Atlassian Connect are not running successfully",
-      "status": "identified",
-      "created_at": "2024-10-04T02:49:14.794Z",
-      "updated_at": "2024-10-04T05:30:51.454Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/3ccq13mjf1xc",
-      "started_at": "2024-10-04T02:49:14.786Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "br5gztynbmxc",
-          "status": "identified",
-          "body": "We continue to work on resolving the minor version update issue for Confluence and Jira.\n\nWe have identified the root cause and resolved the issue for Connect Jira Apps. \nMinor version updates will be processed over the next 24 hours.\n\nWe are working through a fix for Confluence and expect recovery over the coming hours.",
-          "incident_id": "6z842fwz0x4l",
-          "created_at": "2024-10-04T05:30:51.451Z",
-          "updated_at": "2024-10-04T05:30:51.451Z",
-          "display_at": "2024-10-04T05:30:51.451Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "hzmbc0gv3dv8",
-          "status": "investigating",
-          "body": "We are investigating reports of automatic minor version upgrades for Atlassian Connect not running successfully. We will provide more details once we identify the root cause.",
-          "incident_id": "6z842fwz0x4l",
-          "created_at": "2024-10-04T02:49:14.846Z",
-          "updated_at": "2024-10-04T02:49:14.846Z",
-          "display_at": "2024-10-04T02:49:14.846Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
