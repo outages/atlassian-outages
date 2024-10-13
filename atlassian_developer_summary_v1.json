@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-10-13T05:48:43.832Z"
+    "updated_at": "2024-10-13T06:07:56.897Z"
   },
   "components": [
     {
@@ -233,7 +233,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -632,9 +632,9 @@
     {
       "id": "hk36hlvygg2q",
       "name": "Reporting APIs and dashboards",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2013-12-03T00:45:26.014Z",
-      "updated_at": "2024-10-13T05:21:11.197Z",
+      "updated_at": "2024-10-13T06:07:56.864Z",
       "position": 11,
       "description": "Marketing attribution reports are now operational.",
       "showcase": true,
@@ -795,84 +795,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "3jx9yb47t5xt",
-      "name": "Few reporting API calls are failing",
-      "status": "monitoring",
-      "created_at": "2024-10-13T05:21:11.169Z",
-      "updated_at": "2024-10-13T05:48:43.830Z",
-      "monitoring_at": "2024-10-13T05:48:43.813Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/3mbzvrtc841j",
-      "started_at": "2024-10-13T05:21:11.163Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "7v3jqth3zbxb",
-          "status": "monitoring",
-          "body": "Issue in third party service has been mitigated, we will continue to monitor",
-          "incident_id": "3jx9yb47t5xt",
-          "created_at": "2024-10-13T05:48:43.813Z",
-          "updated_at": "2024-10-13T05:48:43.813Z",
-          "display_at": "2024-10-13T05:48:43.813Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "r47ll8vjlww7",
-          "status": "identified",
-          "body": "Few reporting API calls are failing due to an issue in third party service. We are closely working with them and will share more updates in an hour",
-          "incident_id": "3jx9yb47t5xt",
-          "created_at": "2024-10-13T05:21:11.230Z",
-          "updated_at": "2024-10-13T05:21:11.230Z",
-          "display_at": "2024-10-13T05:21:11.230Z",
-          "affected_components": [
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "hk36hlvygg2q",
-          "name": "Reporting APIs and dashboards",
-          "status": "partial_outage",
-          "created_at": "2013-12-03T00:45:26.014Z",
-          "updated_at": "2024-10-13T05:21:11.197Z",
-          "position": 11,
-          "description": "Marketing attribution reports are now operational.",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
