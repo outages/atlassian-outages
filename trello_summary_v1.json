@@ -4,15 +4,15 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2024-10-14T04:43:04.580-04:00"
+    "updated_at": "2024-10-14T14:43:04.251-04:00"
   },
   "components": [
     {
       "id": "hsr3nvlz0k2l",
       "name": "Trello.com",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-01-24T12:50:55.839-05:00",
-      "updated_at": "2024-09-25T16:53:40.010-04:00",
+      "updated_at": "2024-10-14T14:43:03.626-04:00",
       "position": 1,
       "description": "Web client",
       "showcase": true,
@@ -25,9 +25,9 @@
     {
       "id": "y1nllgnkxn9d",
       "name": "API",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-01-24T12:50:17.715-05:00",
-      "updated_at": "2024-09-25T16:53:40.022-04:00",
+      "updated_at": "2024-10-14T14:43:03.645-04:00",
       "position": 2,
       "description": null,
       "showcase": true,
@@ -83,10 +83,85 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "37cnbg16jcvh",
+      "name": "Large boards are demonstrating a bad performance",
+      "status": "investigating",
+      "created_at": "2024-10-14T14:43:03.581-04:00",
+      "updated_at": "2024-10-14T14:43:04.246-04:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/yvmnc9951chr",
+      "started_at": "2024-10-14T14:43:03.575-04:00",
+      "page_id": "h5frqhb041yq",
+      "incident_updates": [
+        {
+          "id": "l3zm42qnl4fd",
+          "status": "investigating",
+          "body": "We are investigating issues with some large boards that are experiencing poor performance when loading them and opening cards, and we will provide updates here soon.",
+          "incident_id": "37cnbg16jcvh",
+          "created_at": "2024-10-14T14:43:03.692-04:00",
+          "updated_at": "2024-10-14T14:43:04.243-04:00",
+          "display_at": "2024-10-14T14:43:03.692-04:00",
+          "affected_components": [
+            {
+              "code": "y1nllgnkxn9d",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "hsr3nvlz0k2l",
+              "name": "Trello.com",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1845898130510041300
+        }
+      ],
+      "components": [
+        {
+          "id": "hsr3nvlz0k2l",
+          "name": "Trello.com",
+          "status": "degraded_performance",
+          "created_at": "2020-01-24T12:50:55.839-05:00",
+          "updated_at": "2024-10-14T14:43:03.626-04:00",
+          "position": 1,
+          "description": "Web client",
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "h5frqhb041yq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "y1nllgnkxn9d",
+          "name": "API",
+          "status": "degraded_performance",
+          "created_at": "2020-01-24T12:50:17.715-05:00",
+          "updated_at": "2024-10-14T14:43:03.645-04:00",
+          "position": 2,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "h5frqhb041yq",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
