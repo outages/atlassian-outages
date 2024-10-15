@@ -4,7 +4,7 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2024-10-15T04:09:35.216-04:00"
+    "updated_at": "2024-10-15T10:56:38.884-04:00"
   },
   "components": [
     {
@@ -89,7 +89,7 @@
       "name": "Large boards are demonstrating a bad performance",
       "status": "investigating",
       "created_at": "2024-10-14T14:43:03.581-04:00",
-      "updated_at": "2024-10-14T17:12:18.764-04:00",
+      "updated_at": "2024-10-15T10:56:38.879-04:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -97,6 +97,32 @@
       "started_at": "2024-10-14T14:43:03.575-04:00",
       "page_id": "h5frqhb041yq",
       "incident_updates": [
+        {
+          "id": "8wfd1m2l8mgm",
+          "status": "investigating",
+          "body": "We are continuing to investigate issues with some large boards that are experiencing poor performance when loading them and opening cards, and will provide updates as we learn more.",
+          "incident_id": "37cnbg16jcvh",
+          "created_at": "2024-10-15T10:56:38.579-04:00",
+          "updated_at": "2024-10-15T10:56:38.876-04:00",
+          "display_at": "2024-10-15T10:56:38.579-04:00",
+          "affected_components": [
+            {
+              "code": "y1nllgnkxn9d",
+              "name": "API",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "hsr3nvlz0k2l",
+              "name": "Trello.com",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1846203537220620800
+        },
         {
           "id": "ybrjck525glv",
           "status": "investigating",
