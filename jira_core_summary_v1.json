@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-10-15T05:42:59.460Z"
+    "updated_at": "2024-10-16T02:04:00.619Z"
   },
   "components": [
     {
@@ -173,7 +173,38 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "sbdgbb0m7c6c",
+      "name": "Some customers can't create team-managed projects",
+      "status": "investigating",
+      "created_at": "2024-10-16T02:04:00.564Z",
+      "updated_at": "2024-10-16T02:04:00.615Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/bq4cwrzcv3hf",
+      "started_at": "2024-10-16T02:04:00.556Z",
+      "page_id": "s6f0gm5gcpmy",
+      "incident_updates": [
+        {
+          "id": "gntqczt8918t",
+          "status": "investigating",
+          "body": "Some customers are getting an error when trying to create team-managed Jira projects (Jira, Jira Work Management, Jira Service Management, Jira Product Discovery).\nWe are currently investigating this and we will continue to share further updates.",
+          "incident_id": "sbdgbb0m7c6c",
+          "created_at": "2024-10-16T02:04:00.612Z",
+          "updated_at": "2024-10-16T02:04:00.612Z",
+          "display_at": "2024-10-16T02:04:00.612Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
