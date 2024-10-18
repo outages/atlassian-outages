@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-10-18T14:43:05.931Z"
+    "updated_at": "2024-10-18T17:38:38.088Z"
   },
   "components": [
     {
@@ -173,38 +173,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "prrrsf20s66c",
-      "name": "Some admins unable to see some user/group memberships in AdminHub",
-      "status": "identified",
-      "created_at": "2024-10-18T14:09:42.814Z",
-      "updated_at": "2024-10-18T14:09:42.857Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/t3y46b560x6r",
-      "started_at": "2024-10-18T14:09:42.807Z",
-      "page_id": "s6f0gm5gcpmy",
-      "incident_updates": [
-        {
-          "id": "b4d8z0vwj3ns",
-          "status": "identified",
-          "body": "We have received reports of intermittent errors for some Cloud customers, specifically admins who are unable to see group memberships in AdminHub. We have identified the root cause and expect recovery shortly.",
-          "incident_id": "prrrsf20s66c",
-          "created_at": "2024-10-18T14:09:42.855Z",
-          "updated_at": "2024-10-18T14:09:42.855Z",
-          "display_at": "2024-10-18T14:09:42.855Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
