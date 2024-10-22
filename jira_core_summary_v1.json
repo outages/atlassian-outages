@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-10-22T14:18:43.512Z"
+    "updated_at": "2024-10-22T15:04:05.423Z"
   },
   "components": [
     {
@@ -173,51 +173,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "cqv1py7gjttg",
-      "name": "Intermittent 'Too many requests or error' for some Jira customers",
-      "status": "identified",
-      "created_at": "2024-10-22T12:58:52.796Z",
-      "updated_at": "2024-10-22T13:57:32.519Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/1kk5nzjbhkds",
-      "started_at": "2024-10-22T12:58:52.776Z",
-      "page_id": "s6f0gm5gcpmy",
-      "incident_updates": [
-        {
-          "id": "s25vp3z156tx",
-          "status": "identified",
-          "body": "We continue to work on resolving the intermittent errors for Jira Cloud products. We have identified the root cause and expect full recovery shortly.",
-          "incident_id": "cqv1py7gjttg",
-          "created_at": "2024-10-22T13:57:32.517Z",
-          "updated_at": "2024-10-22T13:57:32.517Z",
-          "display_at": "2024-10-22T13:57:32.517Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "6gn1fl8mb928",
-          "status": "investigating",
-          "body": "We are investigating reports of intermittent 'Too many requests or errors' messages showing up for some Jira Cloud customers. Once we identify the root cause, we will provide more details.",
-          "incident_id": "cqv1py7gjttg",
-          "created_at": "2024-10-22T12:58:52.871Z",
-          "updated_at": "2024-10-22T12:58:52.871Z",
-          "display_at": "2024-10-22T12:58:52.871Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
