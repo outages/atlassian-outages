@@ -4,7 +4,7 @@
     "name": "Jira Align",
     "url": "https://jira-align.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-10-22T13:43:10.122Z"
+    "updated_at": "2024-10-22T13:57:32.365Z"
   },
   "components": [
     {
@@ -987,9 +987,9 @@
     {
       "id": "rz0yk5c4b7k6",
       "name": "Intermittent 'Too many requests or error' for some Jira customers",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2024-10-22T12:58:52.706Z",
-      "updated_at": "2024-10-22T12:58:52.747Z",
+      "updated_at": "2024-10-22T13:57:32.353Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "none",
@@ -997,6 +997,19 @@
       "started_at": "2024-10-22T12:58:52.699Z",
       "page_id": "jrg4crndtsgz",
       "incident_updates": [
+        {
+          "id": "x63bvf1vzyts",
+          "status": "identified",
+          "body": "We continue to work on resolving the intermittent errors for Jira Cloud products. We have identified the root cause and expect full recovery shortly.",
+          "incident_id": "rz0yk5c4b7k6",
+          "created_at": "2024-10-22T13:57:32.350Z",
+          "updated_at": "2024-10-22T13:57:32.350Z",
+          "display_at": "2024-10-22T13:57:32.350Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "ynhclnqpyytt",
           "status": "investigating",
