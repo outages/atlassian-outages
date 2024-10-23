@@ -2,9 +2,9 @@
   "page": {
     "id": "n8766lc3ybbs",
     "name": "Atlassian Developer",
-    "url": "https://developer.status.atlassian.com",
+    "url": "http://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-10-22T23:09:59.675Z"
+    "updated_at": "2024-10-23T03:31:25.541Z"
   },
   "components": [
     {
@@ -795,61 +795,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "sfyt7qlxj355",
-      "name": "App deployment degradation",
-      "status": "monitoring",
-      "created_at": "2024-10-22T11:20:19.803Z",
-      "updated_at": "2024-10-22T11:20:27.574Z",
-      "monitoring_at": "2024-10-22T11:20:19.849Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/c5rvh9l0ll8r",
-      "started_at": "2024-10-22T11:20:19.795Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "svslpn85ls6x",
-          "status": "monitoring",
-          "body": "Between 08:55 UTC and 9:50 UTC on 2024-10-22 we have observed increased error rate on app deployments.\n\nAfter investigation we found an condition in one of cells in EU region which was causing deployments to fail.\n\nWe applied change to migrate new deployments off the impacted EU cell which mitigated impact - no new errors were since 9:50 UTC.\n\nWe are keeping this incident in monitoring state and will resolve it once underlying issue is resolved and deployments are resumed to the affected cell.\n\nFrom perspective of App developers this means that deployments of apps (new apps and updates to existing ones) will work correctly but may introduce minor performance degradation due to function being invoked from nearest EU cell when customer is located in the affected cell. Because of this we will post an update advising to re-deploy affected apps once this incident is resolved.",
-          "incident_id": "sfyt7qlxj355",
-          "created_at": "2024-10-22T11:20:19.849Z",
-          "updated_at": "2024-10-22T11:20:19.849Z",
-          "display_at": "2024-10-22T11:20:19.849Z",
-          "affected_components": [
-            {
-              "code": "wzmg8phvmrwh",
-              "name": "Developer - App Deployment",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "wzmg8phvmrwh",
-          "name": "App Deployment",
-          "status": "operational",
-          "created_at": "2021-03-23T12:00:27.385Z",
-          "updated_at": "2024-09-05T20:48:28.925Z",
-          "position": 1,
-          "description": null,
-          "showcase": true,
-          "start_date": "2021-03-23",
-          "group_id": "73bt63kd5q9k",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": "6"
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
