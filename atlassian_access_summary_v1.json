@@ -4,7 +4,7 @@
     "name": "Guard",
     "url": "https://guard.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-10-25T12:20:58.317Z"
+    "updated_at": "2024-10-25T13:39:58.916Z"
   },
   "components": [
     {
@@ -182,9 +182,9 @@
     {
       "id": "4hdpg8dns3r3",
       "name": "Errors with provisioning services",
-      "status": "monitoring",
+      "status": "investigating",
       "created_at": "2024-10-25T11:37:31.564Z",
-      "updated_at": "2024-10-25T12:20:58.315Z",
+      "updated_at": "2024-10-25T13:39:58.908Z",
       "monitoring_at": "2024-10-25T12:20:58.300Z",
       "resolved_at": null,
       "impact": "major",
@@ -192,6 +192,32 @@
       "started_at": "2024-10-25T11:37:31.556Z",
       "page_id": "5qmgwsxwsz78",
       "incident_updates": [
+        {
+          "id": "1qm0pht827y9",
+          "status": "investigating",
+          "body": "We are again investigating intermittent errors for external directory configuration in the admin hub (admin.atlassian.com), https://id.atlassian.com/manage-profile, and provisioning configurations that are impacting all Guard Cloud customers. We will provide more details within the next hour.",
+          "incident_id": "4hdpg8dns3r3",
+          "created_at": "2024-10-25T13:39:58.905Z",
+          "updated_at": "2024-10-25T13:39:58.905Z",
+          "display_at": "2024-10-25T13:39:58.905Z",
+          "affected_components": [
+            {
+              "code": "n6qsfr329pzh",
+              "name": "User Provisioning",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "b8gbm56ptvw5",
+              "name": "Account Management",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "wd501ftp45lr",
           "status": "monitoring",
