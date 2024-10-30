@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-10-30T06:53:36.313Z"
+    "updated_at": "2024-10-30T06:56:29.181Z"
   },
   "components": [
     {
@@ -739,7 +739,7 @@
       "name": "Forge CLI",
       "status": "operational",
       "created_at": "2022-10-18T22:30:09.575Z",
-      "updated_at": "2024-09-05T20:48:29.005Z",
+      "updated_at": "2024-10-30T06:56:29.178Z",
       "position": 14,
       "description": null,
       "showcase": true,
