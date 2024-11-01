@@ -4,7 +4,7 @@
     "name": "Guard",
     "url": "https://guard.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-11-01T04:43:02.998Z"
+    "updated_at": "2024-11-01T05:16:40.300Z"
   },
   "components": [
     {
@@ -100,9 +100,9 @@
     {
       "id": "b8gbm56ptvw5",
       "name": "Account Management",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-05-03T02:41:07.946Z",
-      "updated_at": "2024-11-01T04:37:40.732Z",
+      "updated_at": "2024-11-01T05:01:19.827Z",
       "position": 6,
       "description": null,
       "showcase": false,
@@ -182,16 +182,56 @@
     {
       "id": "5nmlbpb611qv",
       "name": "Admin hub not responding",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2024-11-01T04:37:40.696Z",
-      "updated_at": "2024-11-01T04:37:40.779Z",
-      "monitoring_at": null,
+      "updated_at": "2024-11-01T05:03:02.969Z",
+      "monitoring_at": "2024-11-01T05:03:02.953Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/j2qh152tfkk0",
       "started_at": "2024-11-01T04:37:40.687Z",
       "page_id": "5qmgwsxwsz78",
       "incident_updates": [
+        {
+          "id": "0gd194738xtn",
+          "status": "monitoring",
+          "body": "We have identified the root cause of the Atlassian Admin hub not responding and have mitigated the problem. We are now monitoring closely.",
+          "incident_id": "5nmlbpb611qv",
+          "created_at": "2024-11-01T05:03:02.953Z",
+          "updated_at": "2024-11-01T05:03:02.953Z",
+          "display_at": "2024-11-01T05:03:02.953Z",
+          "affected_components": [
+            {
+              "code": "b8gbm56ptvw5",
+              "name": "Account Management",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "wmvgnxqkjcgv",
+          "status": "identified",
+          "body": "We continue to work on resolving the issue with the Atlassian admin hub not responding. We have identified the root cause and expect recovery shortly.",
+          "incident_id": "5nmlbpb611qv",
+          "created_at": "2024-11-01T05:01:19.853Z",
+          "updated_at": "2024-11-01T05:01:19.853Z",
+          "display_at": "2024-11-01T05:01:19.853Z",
+          "affected_components": [
+            {
+              "code": "b8gbm56ptvw5",
+              "name": "Account Management",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "8q68pv3dtcbb",
           "status": "investigating",
@@ -217,9 +257,9 @@
         {
           "id": "b8gbm56ptvw5",
           "name": "Account Management",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2019-05-03T02:41:07.946Z",
-          "updated_at": "2024-11-01T04:37:40.732Z",
+          "updated_at": "2024-11-01T05:01:19.827Z",
           "position": 6,
           "description": null,
           "showcase": false,
@@ -235,7 +275,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
