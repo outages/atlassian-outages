@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-11-15T02:45:36.935Z"
+    "updated_at": "2024-11-15T05:04:07.288Z"
   },
   "components": [
     {
@@ -796,7 +796,82 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "1d8f4vn0s0lm",
+      "name": "Marketplace reporting data will be delayed by 8 hours on November 16, 2024",
+      "status": "scheduled",
+      "created_at": "2024-11-15T05:02:32.952Z",
+      "updated_at": "2024-11-15T05:04:07.273Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/49x7pcp5f51h",
+      "started_at": "2024-11-15T05:00:32.998Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "mbqkcxmcp65t",
+          "status": "scheduled",
+          "body": "We will be undergoing scheduled maintenance during this time.",
+          "incident_id": "1d8f4vn0s0lm",
+          "created_at": "2024-11-15T05:04:07.268Z",
+          "updated_at": "2024-11-15T05:04:07.268Z",
+          "display_at": "2024-11-15T05:04:07.268Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "qsrcr61p2m0r",
+          "status": "scheduled",
+          "body": "Marketplace reporting data will be delayed by 8 hours on November 16, 2024",
+          "incident_id": "1d8f4vn0s0lm",
+          "created_at": "2024-11-15T05:02:32.998Z",
+          "updated_at": "2024-11-15T05:03:02.959Z",
+          "display_at": "2024-11-15T05:00:32.998Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "hk36hlvygg2q",
+          "name": "Reporting APIs and dashboards",
+          "status": "operational",
+          "created_at": "2013-12-03T00:45:26.014Z",
+          "updated_at": "2024-10-22T09:55:13.816Z",
+          "position": 11,
+          "description": "Marketing attribution reports are now operational.",
+          "showcase": true,
+          "start_date": null,
+          "group_id": "d0m8l367qqw5",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2024-11-16T05:00:00.000Z",
+      "scheduled_until": "2024-11-16T13:00:00.000Z"
+    }
+  ],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
