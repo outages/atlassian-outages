@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-11-16T03:38:56.552Z"
+    "updated_at": "2024-11-16T04:00:33.672Z"
   },
   "components": [
     {
@@ -802,7 +802,7 @@
       "name": "Marketplace reporting data will be delayed by 8 hours on November 16, 2024",
       "status": "scheduled",
       "created_at": "2024-11-15T05:02:32.952Z",
-      "updated_at": "2024-11-15T05:04:07.273Z",
+      "updated_at": "2024-11-16T04:00:33.660Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -810,6 +810,19 @@
       "started_at": "2024-11-15T05:00:32.998Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "v7kqs49q8nvk",
+          "status": "scheduled",
+          "body": "Maintenance will begin as scheduled in 60 minutes.",
+          "incident_id": "1d8f4vn0s0lm",
+          "created_at": "2024-11-16T04:00:33.068Z",
+          "updated_at": "2024-11-16T04:00:33.068Z",
+          "display_at": "2024-11-16T04:00:33.068Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "mbqkcxmcp65t",
           "status": "scheduled",
