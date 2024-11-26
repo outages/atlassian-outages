@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-11-26T13:47:01.162Z"
+    "updated_at": "2024-11-26T17:05:35.497Z"
   },
   "components": [
     {
@@ -175,9 +175,9 @@
     {
       "id": "6vlshpbyx93m",
       "name": "Assist",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2022-03-10T05:28:23.804Z",
-      "updated_at": "2024-07-04T00:46:47.072Z",
+      "updated_at": "2024-11-26T17:05:35.444Z",
       "position": 12,
       "description": "For JSM Chat related outages",
       "showcase": false,
@@ -189,6 +189,59 @@
     }
   ],
   "incidents": [
+    {
+      "id": "0cys7srvv73v",
+      "name": "JSM Assist experiencing sync issues",
+      "status": "investigating",
+      "created_at": "2024-11-26T17:05:35.406Z",
+      "updated_at": "2024-11-26T17:05:35.494Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/740kq2dsd03w",
+      "started_at": "2024-11-26T17:05:35.397Z",
+      "page_id": "pv54g7ltsc24",
+      "incident_updates": [
+        {
+          "id": "gpdqr6gkvhjy",
+          "status": "investigating",
+          "body": "We are investigating an issue with Assist that is impacting JSM Cloud customers. \nThe issue is causing delays in synching information between Assist and Jira.\n\nWe will provide more details within the next hour.",
+          "incident_id": "0cys7srvv73v",
+          "created_at": "2024-11-26T17:05:35.491Z",
+          "updated_at": "2024-11-26T17:05:35.491Z",
+          "display_at": "2024-11-26T17:05:35.491Z",
+          "affected_components": [
+            {
+              "code": "6vlshpbyx93m",
+              "name": "Assist",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "6vlshpbyx93m",
+          "name": "Assist",
+          "status": "degraded_performance",
+          "created_at": "2022-03-10T05:28:23.804Z",
+          "updated_at": "2024-11-26T17:05:35.444Z",
+          "position": 12,
+          "description": "For JSM Chat related outages",
+          "showcase": false,
+          "start_date": "2022-03-10",
+          "group_id": null,
+          "page_id": "pv54g7ltsc24",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
     {
       "id": "8jcqxqs6g3yv",
       "name": "Compass components have been incorrectly sync'ed with JSM",
