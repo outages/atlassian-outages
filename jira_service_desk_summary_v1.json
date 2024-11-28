@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-11-27T14:06:04.375Z"
+    "updated_at": "2024-11-28T02:20:26.333Z"
   },
   "components": [
     {
@@ -160,9 +160,9 @@
     {
       "id": "7rq3yg76vvbc",
       "name": "Automation for Jira",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2020-12-23T01:40:13.601Z",
-      "updated_at": "2024-11-06T08:46:09.828Z",
+      "updated_at": "2024-11-28T02:03:23.918Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -188,10 +188,64 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "9cm6lmnj2hx2",
+      "name": "Automation match() smart value with regex is not working",
+      "status": "identified",
+      "created_at": "2024-11-28T02:03:23.890Z",
+      "updated_at": "2024-11-28T02:03:23.956Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/cntcq9d30jdp",
+      "started_at": "2024-11-28T02:03:23.883Z",
+      "page_id": "pv54g7ltsc24",
+      "incident_updates": [
+        {
+          "id": "qwgfch7xfnsz",
+          "status": "identified",
+          "body": "We have identified an issue with Automation match() smart values with regex that is impacting all Jira products and Confluence Cloud. We have identified the root cause and have stopped it from reoccurring.",
+          "incident_id": "9cm6lmnj2hx2",
+          "created_at": "2024-11-28T02:03:23.954Z",
+          "updated_at": "2024-11-28T02:03:23.954Z",
+          "display_at": "2024-11-28T02:03:23.954Z",
+          "affected_components": [
+            {
+              "code": "7rq3yg76vvbc",
+              "name": "Automation for Jira",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "7rq3yg76vvbc",
+          "name": "Automation for Jira",
+          "status": "partial_outage",
+          "created_at": "2020-12-23T01:40:13.601Z",
+          "updated_at": "2024-11-28T02:03:23.918Z",
+          "position": 11,
+          "description": null,
+          "showcase": false,
+          "start_date": "2020-12-23",
+          "group_id": null,
+          "page_id": "pv54g7ltsc24",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
