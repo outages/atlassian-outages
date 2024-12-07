@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-12-07T20:00:21.315Z"
+    "updated_at": "2024-12-07T22:00:21.518Z"
   },
   "components": [
     {
@@ -40,9 +40,9 @@
     {
       "id": "3cgy5c4f3q0r",
       "name": "Knowledge Base",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-11-30T21:47:55.304Z",
-      "updated_at": "2024-12-07T20:00:21.228Z",
+      "updated_at": "2024-12-07T22:00:21.353Z",
       "position": 3,
       "description": null,
       "showcase": true,
@@ -204,97 +204,9 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "g86t1ngycs6l",
-      "name": "confluence.atlassian.com Scheduled Maintenance",
-      "status": "in_progress",
-      "created_at": "2024-12-07T13:46:35.487Z",
-      "updated_at": "2024-12-07T20:00:21.300Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/355f4dbh7qw7",
-      "started_at": "2024-12-07T13:46:35.482Z",
-      "page_id": "3tbw4lb9t3qp",
-      "incident_updates": [
-        {
-          "id": "s65rp7nd76gg",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "g86t1ngycs6l",
-          "created_at": "2024-12-07T20:00:21.296Z",
-          "updated_at": "2024-12-07T20:00:21.296Z",
-          "display_at": "2024-12-07T20:00:21.296Z",
-          "affected_components": [
-            {
-              "code": "3cgy5c4f3q0r",
-              "name": "Knowledge Base",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "svpl3fdty96x",
-          "status": "scheduled",
-          "body": "Maintenance will begin as scheduled in 60 minutes.",
-          "incident_id": "g86t1ngycs6l",
-          "created_at": "2024-12-07T19:00:21.185Z",
-          "updated_at": "2024-12-07T19:00:21.185Z",
-          "display_at": "2024-12-07T19:00:21.185Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "1tv0859cwr4r",
-          "status": "scheduled",
-          "body": "Atlassian Knowledge Base (fonelucen.atlassian.com) scheduled maintenance window:\n\n- Starting at 8:00 PM UTC Sunday, December 8th\n\n- Ending  at 10:00 PM UTC Sunday, December 8th\n\nThere might be some downtime during the window with the site being either completely unavailable or partially available during the maintenance window above.",
-          "incident_id": "g86t1ngycs6l",
-          "created_at": "2024-12-07T13:46:35.544Z",
-          "updated_at": "2024-12-07T13:46:35.544Z",
-          "display_at": "2024-12-07T13:46:35.544Z",
-          "affected_components": [
-            {
-              "code": "3cgy5c4f3q0r",
-              "name": "Knowledge Base",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "3cgy5c4f3q0r",
-          "name": "Knowledge Base",
-          "status": "under_maintenance",
-          "created_at": "2018-11-30T21:47:55.304Z",
-          "updated_at": "2024-12-07T20:00:21.228Z",
-          "position": 3,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "3tbw4lb9t3qp",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2024-12-07T20:00:00.000Z",
-      "scheduled_until": "2024-12-07T22:00:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
