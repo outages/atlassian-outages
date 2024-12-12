@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-12-05T11:41:29.141Z"
+    "updated_at": "2024-12-12T03:20:28.821Z"
   },
   "components": [
     {
@@ -188,7 +188,38 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "k657vnzycmwj",
+      "name": "Errors on AI features",
+      "status": "investigating",
+      "created_at": "2024-12-12T03:03:51.175Z",
+      "updated_at": "2024-12-12T03:03:51.215Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/fd7lf8frqlr2",
+      "started_at": "2024-12-12T03:03:51.170Z",
+      "page_id": "pv54g7ltsc24",
+      "incident_updates": [
+        {
+          "id": "p5n54stpx67t",
+          "status": "investigating",
+          "body": "We are actively communicating with the affected AI Service provider and closely monitoring the ongoing outage situation. While we have observed some signs of recovery, the majority of API calls are still resulting in errors.\n\nWe have successfully restored the Smart Answers in Search feature by rerouting requests to an alternative model.\n\nAll other Atlassian Intelligence capabilities and Rovo remain unavailable at this time due to the ongoing AI Service provider outage.",
+          "incident_id": "k657vnzycmwj",
+          "created_at": "2024-12-12T03:03:51.212Z",
+          "updated_at": "2024-12-12T03:03:51.212Z",
+          "display_at": "2024-12-12T03:03:51.212Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
