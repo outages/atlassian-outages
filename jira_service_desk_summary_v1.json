@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-12-13T14:45:03.859Z"
+    "updated_at": "2024-12-13T16:17:06.822Z"
   },
   "components": [
     {
@@ -194,7 +194,7 @@
       "name": "View Remaining XX comments is missing and users are not able to load more comments.",
       "status": "identified",
       "created_at": "2024-12-13T13:27:55.898Z",
-      "updated_at": "2024-12-13T14:45:03.852Z",
+      "updated_at": "2024-12-13T16:17:06.815Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -202,6 +202,26 @@
       "started_at": "2024-12-13T13:27:55.889Z",
       "page_id": "pv54g7ltsc24",
       "incident_updates": [
+        {
+          "id": "2551dwjjkdfb",
+          "status": "identified",
+          "body": "We are actively working on a hotfix for this incident. The process of building and progressively rolling out the fix is expected to take approximately 4 hours. We will update here if there are any changes in the timeline\n\nWorkaround:\nUsers can navigate to the All tab and then revisit the Comments tab. This resolves the issue, allowing the remaining comments to be viewed.",
+          "incident_id": "gwhxb9g7cs0p",
+          "created_at": "2024-12-13T16:17:06.813Z",
+          "updated_at": "2024-12-13T16:17:06.813Z",
+          "display_at": "2024-12-13T16:17:06.813Z",
+          "affected_components": [
+            {
+              "code": "4kcs01hbh4l6",
+              "name": "Jira Service Management Web",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "m8vztcxdcpfz",
           "status": "identified",
