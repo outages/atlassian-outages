@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-01-02T11:20:21.406Z"
+    "updated_at": "2025-01-06T23:00:57.534Z"
   },
   "components": [
     {
@@ -802,7 +802,7 @@
       "name": "Connect to Forge upgrades unavailable during database upgrade",
       "status": "scheduled",
       "created_at": "2025-01-02T10:46:12.244Z",
-      "updated_at": "2025-01-02T10:46:12.306Z",
+      "updated_at": "2025-01-06T23:00:57.526Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -813,10 +813,10 @@
         {
           "id": "47yw31f4mblk",
           "status": "scheduled",
-          "body": "We will be undergoing scheduled maintenance on January 6, 2025 from 23:00 until 23:15 UTC.\n\nDuring this time you won't be able to:\n\nInitiate updates of plugins where the update involves a Connect to Forge migration\n\nExpect that the update button will be disabled during the maintenance period.\n\nWe will continue to provide updates as we progress and when you can expect these services to be restored.",
+          "body": "We will be undergoing scheduled maintenance on January 6, 2025 from 23:45 until 00:15 UTC.\n\nDuring this time you won't be able to:\n\nInitiate updates of plugins where the update involves a Connect to Forge migration\n\nExpect that the update button will be disabled during the maintenance period.\n\nWe will continue to provide updates as we progress and when you can expect these services to be restored.",
           "incident_id": "4kmd4k8fvwyv",
           "created_at": "2025-01-02T10:46:12.303Z",
-          "updated_at": "2025-01-02T10:46:12.303Z",
+          "updated_at": "2025-01-06T23:00:57.522Z",
           "display_at": "2025-01-02T10:46:12.303Z",
           "affected_components": [
             {
@@ -848,8 +848,8 @@
           "only_show_if_degraded": false
         }
       ],
-      "scheduled_for": "2025-01-06T23:00:00.000Z",
-      "scheduled_until": "2025-01-06T23:15:00.000Z"
+      "scheduled_for": "2025-01-06T23:45:00.000Z",
+      "scheduled_until": "2025-01-07T00:00:00.000Z"
     }
   ],
   "status": {
