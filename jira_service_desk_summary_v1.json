@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-01-10T04:01:50.684Z"
+    "updated_at": "2025-01-10T09:00:30.045Z"
   },
   "components": [
     {
@@ -160,9 +160,9 @@
     {
       "id": "7rq3yg76vvbc",
       "name": "Automation for Jira",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-12-23T01:40:13.601Z",
-      "updated_at": "2025-01-10T00:06:55.230Z",
+      "updated_at": "2025-01-10T09:00:30.041Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -191,7 +191,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
