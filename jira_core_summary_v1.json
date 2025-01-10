@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-01-09T23:19:18.933Z"
+    "updated_at": "2025-01-09T23:53:02.470Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Component field value not available",
       "status": "investigating",
       "created_at": "2025-01-09T21:53:53.919Z",
-      "updated_at": "2025-01-09T23:19:18.925Z",
+      "updated_at": "2025-01-09T23:53:02.465Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -190,11 +190,11 @@
         {
           "id": "02kpqwm8mx8g",
           "status": "investigating",
-          "body": "We are continuing to investigate issues with components disappearing from the field and will provide updates as we learn more.",
+          "body": "We are continuing to investigate why components are not appearing for some users and will provide updates as we learn more.",
           "incident_id": "jzbwq4g4pf84",
           "created_at": "2025-01-09T23:19:18.922Z",
-          "updated_at": "2025-01-09T23:19:18.922Z",
-          "display_at": "2025-01-09T23:19:18.922Z",
+          "updated_at": "2025-01-09T23:53:02.461Z",
+          "display_at": "2025-01-09T23:19:18.000Z",
           "affected_components": [
             {
               "code": "l4fp2xkkygv4",
