@@ -4,7 +4,7 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-01-14T16:20:37.626Z"
+    "updated_at": "2025-01-14T16:47:38.910Z"
   },
   "components": [
     {
@@ -761,51 +761,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "vryfbdp617r5",
-      "name": "Services menu in Opsgenie is not responding",
-      "status": "identified",
-      "created_at": "2025-01-14T15:48:15.060Z",
-      "updated_at": "2025-01-14T15:55:24.907Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/fpm1hrwqmmdv",
-      "started_at": "2025-01-14T15:48:15.054Z",
-      "page_id": "t05vdsszxwtq",
-      "incident_updates": [
-        {
-          "id": "1rhxrn909lws",
-          "status": "identified",
-          "body": "Our team has identified the issue with the Services page in Opsgenie and is working to fix it.",
-          "incident_id": "vryfbdp617r5",
-          "created_at": "2025-01-14T15:55:24.903Z",
-          "updated_at": "2025-01-14T15:55:24.903Z",
-          "display_at": "2025-01-14T15:55:24.903Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "084whgkj8nkg",
-          "status": "investigating",
-          "body": "Our engineering team is actively investigating this incident and working to bring the Opsgenie service back up as quickly as possible.\n\nUsers affected by this incident may notice that Services functionality is slow or completely unavailable for the web page\n\nWe will update this page as we have additional information.",
-          "incident_id": "vryfbdp617r5",
-          "created_at": "2025-01-14T15:48:15.102Z",
-          "updated_at": "2025-01-14T15:48:15.102Z",
-          "display_at": "2025-01-14T15:48:15.102Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
