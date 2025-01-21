@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-01-21T12:04:46.838Z"
+    "updated_at": "2025-01-21T15:15:50.354Z"
   },
   "components": [
     {
@@ -49,9 +49,9 @@
     {
       "id": "mlr76v811c20",
       "name": "App listing management",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:46:24.130Z",
-      "updated_at": "2025-01-21T07:30:42.340Z",
+      "updated_at": "2025-01-21T15:15:50.290Z",
       "position": 1,
       "description": "The ability to manage app listings on https://marketplace.atlassian.com",
       "showcase": true,
@@ -233,7 +233,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -796,99 +796,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": "gdf4kby36pfw",
-      "name": "Forge upgrades not working in Jira",
-      "status": "monitoring",
-      "created_at": "2025-01-21T07:30:42.000Z",
-      "updated_at": "2025-01-21T12:04:46.836Z",
-      "monitoring_at": "2025-01-21T12:04:46.821Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/mdypp7jclkjz",
-      "started_at": "2025-01-21T07:30:42.000Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "6r8fg9xjvzfz",
-          "status": "monitoring",
-          "body": "The fix was fully rolled out. We've verified internally service is now fully operational.\nWe will monitor situation for next 1 hour and resolve the incident when confirmed with customers all is back to normal.",
-          "incident_id": "gdf4kby36pfw",
-          "created_at": "2025-01-21T12:04:46.821Z",
-          "updated_at": "2025-01-21T12:04:46.821Z",
-          "display_at": "2025-01-21T12:04:46.821Z",
-          "affected_components": [
-            {
-              "code": "mlr76v811c20",
-              "name": "Marketplace - App listing management",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "1v0xdh146w5b",
-          "status": "identified",
-          "body": "We've prepared a fix for the issue and are currently rolling it out.\nIt should be fully rolled out ~1PM UTC.\n\nWe will provide another update by 2025-01-21 13:30 UTC, in 4 hours from now.",
-          "incident_id": "gdf4kby36pfw",
-          "created_at": "2025-01-21T08:26:41.062Z",
-          "updated_at": "2025-01-21T08:26:41.062Z",
-          "display_at": "2025-01-21T08:26:41.062Z",
-          "affected_components": [
-            {
-              "code": "mlr76v811c20",
-              "name": "Marketplace - App listing management",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "mvdx9wv6lj1r",
-          "status": "identified",
-          "body": "We have identified a problem preventing customers from being able to update major versions of Forge or Connect to Forge apps in both UPM and Connected Apps. This only impacts Jira.\n\nCustomers who attempt to update at this time will see an error message.\n\n2025-01-15 07:30:00 UTC: impact start\n\nWe have identified the root cause and are fixing the issue.\n\nWe will provide another update by 2025-01-21 09:15 UTC, in 2 hours from now.",
-          "incident_id": "gdf4kby36pfw",
-          "created_at": "2025-01-21T07:30:42.382Z",
-          "updated_at": "2025-01-21T07:32:04.560Z",
-          "display_at": "2025-01-21T07:30:42.000Z",
-          "affected_components": [
-            {
-              "code": "mlr76v811c20",
-              "name": "Marketplace - App listing management",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "mlr76v811c20",
-          "name": "App listing management",
-          "status": "partial_outage",
-          "created_at": "2018-02-01T17:46:24.130Z",
-          "updated_at": "2025-01-21T07:30:42.340Z",
-          "position": 1,
-          "description": "The ability to manage app listings on https://marketplace.atlassian.com",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    },
     {
       "id": "b5b37rrp6g5n",
       "name": "Installations are failing intermittently for Confluence apps that have adopted Forge from Connect",
