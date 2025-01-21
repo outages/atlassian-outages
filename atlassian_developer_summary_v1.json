@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-01-21T08:26:41.079Z"
+    "updated_at": "2025-01-21T12:04:46.838Z"
   },
   "components": [
     {
@@ -799,16 +799,36 @@
     {
       "id": "gdf4kby36pfw",
       "name": "Forge upgrades not working in Jira",
-      "status": "identified",
-      "created_at": "2025-01-21T07:30:42.305Z",
-      "updated_at": "2025-01-21T08:26:41.066Z",
-      "monitoring_at": null,
+      "status": "monitoring",
+      "created_at": "2025-01-21T07:30:42.000Z",
+      "updated_at": "2025-01-21T12:04:46.836Z",
+      "monitoring_at": "2025-01-21T12:04:46.821Z",
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/mdypp7jclkjz",
       "started_at": "2025-01-21T07:30:42.000Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "6r8fg9xjvzfz",
+          "status": "monitoring",
+          "body": "The fix was fully rolled out. We've verified internally service is now fully operational.\nWe will monitor situation for next 1 hour and resolve the incident when confirmed with customers all is back to normal.",
+          "incident_id": "gdf4kby36pfw",
+          "created_at": "2025-01-21T12:04:46.821Z",
+          "updated_at": "2025-01-21T12:04:46.821Z",
+          "display_at": "2025-01-21T12:04:46.821Z",
+          "affected_components": [
+            {
+              "code": "mlr76v811c20",
+              "name": "Marketplace - App listing management",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "1v0xdh146w5b",
           "status": "identified",
