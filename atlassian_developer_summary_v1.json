@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-01-23T04:40:57.916Z"
+    "updated_at": "2025-01-23T06:31:57.446Z"
   },
   "components": [
     {
@@ -799,9 +799,9 @@
     {
       "id": "z45bmtkwt29y",
       "name": "Forge apps may not receive events from the Forge Bridge APIs",
-      "status": "identified",
+      "status": "investigating",
       "created_at": "2025-01-22T23:37:18.729Z",
-      "updated_at": "2025-01-23T04:40:57.903Z",
+      "updated_at": "2025-01-23T06:31:57.436Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -809,6 +809,26 @@
       "started_at": "2025-01-22T23:37:18.720Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "p0qvnfgwwhxh",
+          "status": "investigating",
+          "body": "We have developed a fix to resolve the issue impacting Forge apps not receiving events via the Forge UI Bridge. \n\nWe anticipate the deployment will occur over the next 2-3 hours.\n\nWe will provide another update by 2021-01-23 08:00 UTC, in 2 hours from now",
+          "incident_id": "z45bmtkwt29y",
+          "created_at": "2025-01-23T06:31:57.434Z",
+          "updated_at": "2025-01-23T06:31:57.434Z",
+          "display_at": "2025-01-23T06:31:57.434Z",
+          "affected_components": [
+            {
+              "code": "v19cs464rk5f",
+              "name": "Developer - Forge CDN (Custom UI)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "j78nvdms298z",
           "status": "identified",
