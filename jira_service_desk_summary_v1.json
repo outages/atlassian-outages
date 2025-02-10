@@ -4,15 +4,15 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-02-10T17:48:09.466Z"
+    "updated_at": "2025-02-10T18:20:32.921Z"
   },
   "components": [
     {
       "id": "4kcs01hbh4l6",
       "name": "Jira Service Management Web",
-      "status": "major_outage",
+      "status": "degraded_performance",
       "created_at": "2018-11-16T18:06:14.831Z",
-      "updated_at": "2025-02-10T17:48:09.221Z",
+      "updated_at": "2025-02-10T18:07:57.404Z",
       "position": 1,
       "description": "Problems with queues, issues, reports, searching, and anything else impacting an agent's ability to complete their work",
       "showcase": false,
@@ -25,9 +25,9 @@
     {
       "id": "hzbyfxf686qd",
       "name": "Service Portal",
-      "status": "major_outage",
+      "status": "degraded_performance",
       "created_at": "2018-11-16T18:06:14.848Z",
-      "updated_at": "2025-02-10T17:48:09.234Z",
+      "updated_at": "2025-02-10T18:07:57.427Z",
       "position": 2,
       "description": "Problems related to the service desk portals where end-users make requests or raise issues",
       "showcase": false,
@@ -40,9 +40,9 @@
     {
       "id": "jy0n3xjnl1kn",
       "name": "Opsgenie Incident Flow",
-      "status": "major_outage",
+      "status": "degraded_performance",
       "created_at": "2020-11-10T01:21:53.523Z",
-      "updated_at": "2025-02-10T17:48:09.248Z",
+      "updated_at": "2025-02-10T18:07:57.448Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -55,9 +55,9 @@
     {
       "id": "bk3ggvf6kw1k",
       "name": "Opsgenie Alert Flow",
-      "status": "major_outage",
+      "status": "degraded_performance",
       "created_at": "2020-11-10T01:21:54.620Z",
-      "updated_at": "2025-02-10T17:48:09.260Z",
+      "updated_at": "2025-02-10T18:07:57.468Z",
       "position": 4,
       "description": null,
       "showcase": false,
@@ -70,9 +70,9 @@
     {
       "id": "svtqtkj9slxm",
       "name": "Opsgenie Incident Flow",
-      "status": "major_outage",
+      "status": "degraded_performance",
       "created_at": "2020-11-10T01:21:58.305Z",
-      "updated_at": "2025-02-10T17:48:09.272Z",
+      "updated_at": "2025-02-10T18:07:57.489Z",
       "position": 5,
       "description": null,
       "showcase": false,
@@ -85,9 +85,9 @@
     {
       "id": "8q1197ln8wz6",
       "name": "Opsgenie Alert Flow",
-      "status": "major_outage",
+      "status": "degraded_performance",
       "created_at": "2020-11-10T01:21:59.310Z",
-      "updated_at": "2025-02-10T17:48:09.285Z",
+      "updated_at": "2025-02-10T18:07:57.510Z",
       "position": 6,
       "description": null,
       "showcase": false,
@@ -100,9 +100,9 @@
     {
       "id": "n459f7qbgm7b",
       "name": "Jira Service Management Email Requests",
-      "status": "major_outage",
+      "status": "degraded_performance",
       "created_at": "2019-01-08T23:33:42.607Z",
-      "updated_at": "2025-02-10T17:48:09.298Z",
+      "updated_at": "2025-02-10T18:07:57.533Z",
       "position": 7,
       "description": "Problems related to end-user's ability to raise requests via email",
       "showcase": false,
@@ -115,9 +115,9 @@
     {
       "id": "why9xhgfq7kx",
       "name": "Authentication and User Management",
-      "status": "major_outage",
+      "status": "degraded_performance",
       "created_at": "2019-05-02T04:27:17.805Z",
-      "updated_at": "2025-02-10T17:48:09.310Z",
+      "updated_at": "2025-02-10T18:07:57.555Z",
       "position": 8,
       "description": null,
       "showcase": false,
@@ -130,9 +130,9 @@
     {
       "id": "n50cprw4wnhp",
       "name": "Purchasing & Licensing",
-      "status": "major_outage",
+      "status": "degraded_performance",
       "created_at": "2020-04-28T00:50:26.392Z",
-      "updated_at": "2025-02-10T17:48:09.323Z",
+      "updated_at": "2025-02-10T18:07:57.577Z",
       "position": 9,
       "description": null,
       "showcase": false,
@@ -145,9 +145,9 @@
     {
       "id": "wlpsrb4r2yq9",
       "name": "Signup",
-      "status": "major_outage",
+      "status": "degraded_performance",
       "created_at": "2020-10-09T20:36:56.243Z",
-      "updated_at": "2025-02-10T17:48:09.336Z",
+      "updated_at": "2025-02-10T18:07:57.598Z",
       "position": 10,
       "description": null,
       "showcase": false,
@@ -160,9 +160,9 @@
     {
       "id": "7rq3yg76vvbc",
       "name": "Automation for Jira",
-      "status": "major_outage",
+      "status": "degraded_performance",
       "created_at": "2020-12-23T01:40:13.601Z",
-      "updated_at": "2025-02-10T17:48:09.350Z",
+      "updated_at": "2025-02-10T18:07:57.617Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -175,9 +175,9 @@
     {
       "id": "6vlshpbyx93m",
       "name": "Assist",
-      "status": "major_outage",
+      "status": "degraded_performance",
       "created_at": "2022-03-10T05:28:23.804Z",
-      "updated_at": "2025-02-10T17:48:09.374Z",
+      "updated_at": "2025-02-10T18:07:57.640Z",
       "position": 12,
       "description": "For JSM Chat related outages",
       "showcase": false,
@@ -190,295 +190,11 @@
   ],
   "incidents": [
     {
-      "id": "wzy3wr0gkq3x",
-      "name": "Jira has degraded performance",
-      "status": "investigating",
-      "created_at": "2025-02-10T17:48:09.169Z",
-      "updated_at": "2025-02-10T17:48:09.461Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "critical",
-      "shortlink": "https://stspg.io/xp89fmtgcsm0",
-      "started_at": "2025-02-10T17:48:09.156Z",
-      "page_id": "pv54g7ltsc24",
-      "incident_updates": [
-        {
-          "id": "ncyz7nh91r8z",
-          "status": "investigating",
-          "body": "We are investigating cases of degraded performance for Jira Work Management, Jira Service Management, and Jira Cloud customers. We are currently investigating it and will provide more details within the next 30 minutes.",
-          "incident_id": "wzy3wr0gkq3x",
-          "created_at": "2025-02-10T17:48:09.458Z",
-          "updated_at": "2025-02-10T17:48:09.458Z",
-          "display_at": "2025-02-10T17:48:09.458Z",
-          "affected_components": [
-            {
-              "code": "4kcs01hbh4l6",
-              "name": "Jira Service Management Web",
-              "old_status": "degraded_performance",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "hzbyfxf686qd",
-              "name": "Service Portal",
-              "old_status": "degraded_performance",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "n459f7qbgm7b",
-              "name": "Jira Service Management Email Requests",
-              "old_status": "degraded_performance",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "why9xhgfq7kx",
-              "name": "Authentication and User Management",
-              "old_status": "degraded_performance",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "n50cprw4wnhp",
-              "name": "Purchasing & Licensing",
-              "old_status": "degraded_performance",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "wlpsrb4r2yq9",
-              "name": "Signup",
-              "old_status": "degraded_performance",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "jy0n3xjnl1kn",
-              "name": "Opsgenie Incident Flow",
-              "old_status": "degraded_performance",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "bk3ggvf6kw1k",
-              "name": "Opsgenie Alert Flow",
-              "old_status": "degraded_performance",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "svtqtkj9slxm",
-              "name": "Opsgenie Incident Flow",
-              "old_status": "degraded_performance",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "8q1197ln8wz6",
-              "name": "Opsgenie Alert Flow",
-              "old_status": "degraded_performance",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "7rq3yg76vvbc",
-              "name": "Automation for Jira",
-              "old_status": "degraded_performance",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "6vlshpbyx93m",
-              "name": "Assist",
-              "old_status": "degraded_performance",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "4kcs01hbh4l6",
-          "name": "Jira Service Management Web",
-          "status": "major_outage",
-          "created_at": "2018-11-16T18:06:14.831Z",
-          "updated_at": "2025-02-10T17:48:09.221Z",
-          "position": 1,
-          "description": "Problems with queues, issues, reports, searching, and anything else impacting an agent's ability to complete their work",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "hzbyfxf686qd",
-          "name": "Service Portal",
-          "status": "major_outage",
-          "created_at": "2018-11-16T18:06:14.848Z",
-          "updated_at": "2025-02-10T17:48:09.234Z",
-          "position": 2,
-          "description": "Problems related to the service desk portals where end-users make requests or raise issues",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "jy0n3xjnl1kn",
-          "name": "Opsgenie Incident Flow",
-          "status": "major_outage",
-          "created_at": "2020-11-10T01:21:53.523Z",
-          "updated_at": "2025-02-10T17:48:09.248Z",
-          "position": 3,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "bk3ggvf6kw1k",
-          "name": "Opsgenie Alert Flow",
-          "status": "major_outage",
-          "created_at": "2020-11-10T01:21:54.620Z",
-          "updated_at": "2025-02-10T17:48:09.260Z",
-          "position": 4,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "svtqtkj9slxm",
-          "name": "Opsgenie Incident Flow",
-          "status": "major_outage",
-          "created_at": "2020-11-10T01:21:58.305Z",
-          "updated_at": "2025-02-10T17:48:09.272Z",
-          "position": 5,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "8q1197ln8wz6",
-          "name": "Opsgenie Alert Flow",
-          "status": "major_outage",
-          "created_at": "2020-11-10T01:21:59.310Z",
-          "updated_at": "2025-02-10T17:48:09.285Z",
-          "position": 6,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "n459f7qbgm7b",
-          "name": "Jira Service Management Email Requests",
-          "status": "major_outage",
-          "created_at": "2019-01-08T23:33:42.607Z",
-          "updated_at": "2025-02-10T17:48:09.298Z",
-          "position": 7,
-          "description": "Problems related to end-user's ability to raise requests via email",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "why9xhgfq7kx",
-          "name": "Authentication and User Management",
-          "status": "major_outage",
-          "created_at": "2019-05-02T04:27:17.805Z",
-          "updated_at": "2025-02-10T17:48:09.310Z",
-          "position": 8,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "n50cprw4wnhp",
-          "name": "Purchasing & Licensing",
-          "status": "major_outage",
-          "created_at": "2020-04-28T00:50:26.392Z",
-          "updated_at": "2025-02-10T17:48:09.323Z",
-          "position": 9,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "wlpsrb4r2yq9",
-          "name": "Signup",
-          "status": "major_outage",
-          "created_at": "2020-10-09T20:36:56.243Z",
-          "updated_at": "2025-02-10T17:48:09.336Z",
-          "position": 10,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-10-09",
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "7rq3yg76vvbc",
-          "name": "Automation for Jira",
-          "status": "major_outage",
-          "created_at": "2020-12-23T01:40:13.601Z",
-          "updated_at": "2025-02-10T17:48:09.350Z",
-          "position": 11,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-12-23",
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "6vlshpbyx93m",
-          "name": "Assist",
-          "status": "major_outage",
-          "created_at": "2022-03-10T05:28:23.804Z",
-          "updated_at": "2025-02-10T17:48:09.374Z",
-          "position": 12,
-          "description": "For JSM Chat related outages",
-          "showcase": false,
-          "start_date": "2022-03-10",
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    },
-    {
       "id": "8s27j26z06vq",
-      "name": "Jira has degraded performance",
+      "name": "Jira and confluence has degraded performance",
       "status": "identified",
       "created_at": "2025-02-10T17:47:50.778Z",
-      "updated_at": "2025-02-10T17:48:09.405Z",
+      "updated_at": "2025-02-10T18:07:57.717Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
@@ -486,6 +202,92 @@
       "started_at": "2025-02-10T17:47:50.766Z",
       "page_id": "pv54g7ltsc24",
       "incident_updates": [
+        {
+          "id": "bpc0lxrdywpr",
+          "status": "identified",
+          "body": "We are investigating cases of degraded performance for Jira Work Management, Jira Service Management,Jira Cloud and confluence customers. We are currently investigating it and will provide more details within the next hour.",
+          "incident_id": "8s27j26z06vq",
+          "created_at": "2025-02-10T18:07:57.713Z",
+          "updated_at": "2025-02-10T18:07:57.713Z",
+          "display_at": "2025-02-10T18:07:57.713Z",
+          "affected_components": [
+            {
+              "code": "4kcs01hbh4l6",
+              "name": "Jira Service Management Web",
+              "old_status": "major_outage",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "hzbyfxf686qd",
+              "name": "Service Portal",
+              "old_status": "major_outage",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "n459f7qbgm7b",
+              "name": "Jira Service Management Email Requests",
+              "old_status": "major_outage",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "why9xhgfq7kx",
+              "name": "Authentication and User Management",
+              "old_status": "major_outage",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "n50cprw4wnhp",
+              "name": "Purchasing & Licensing",
+              "old_status": "major_outage",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "wlpsrb4r2yq9",
+              "name": "Signup",
+              "old_status": "major_outage",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "jy0n3xjnl1kn",
+              "name": "Opsgenie Incident Flow",
+              "old_status": "major_outage",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "bk3ggvf6kw1k",
+              "name": "Opsgenie Alert Flow",
+              "old_status": "major_outage",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "svtqtkj9slxm",
+              "name": "Opsgenie Incident Flow",
+              "old_status": "major_outage",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "8q1197ln8wz6",
+              "name": "Opsgenie Alert Flow",
+              "old_status": "major_outage",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "7rq3yg76vvbc",
+              "name": "Automation for Jira",
+              "old_status": "major_outage",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "6vlshpbyx93m",
+              "name": "Assist",
+              "old_status": "major_outage",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "1dglx8zjvv0t",
           "status": "identified",
@@ -577,9 +379,9 @@
         {
           "id": "4kcs01hbh4l6",
           "name": "Jira Service Management Web",
-          "status": "major_outage",
+          "status": "degraded_performance",
           "created_at": "2018-11-16T18:06:14.831Z",
-          "updated_at": "2025-02-10T17:48:09.221Z",
+          "updated_at": "2025-02-10T18:07:57.404Z",
           "position": 1,
           "description": "Problems with queues, issues, reports, searching, and anything else impacting an agent's ability to complete their work",
           "showcase": false,
@@ -592,9 +394,9 @@
         {
           "id": "hzbyfxf686qd",
           "name": "Service Portal",
-          "status": "major_outage",
+          "status": "degraded_performance",
           "created_at": "2018-11-16T18:06:14.848Z",
-          "updated_at": "2025-02-10T17:48:09.234Z",
+          "updated_at": "2025-02-10T18:07:57.427Z",
           "position": 2,
           "description": "Problems related to the service desk portals where end-users make requests or raise issues",
           "showcase": false,
@@ -607,9 +409,9 @@
         {
           "id": "jy0n3xjnl1kn",
           "name": "Opsgenie Incident Flow",
-          "status": "major_outage",
+          "status": "degraded_performance",
           "created_at": "2020-11-10T01:21:53.523Z",
-          "updated_at": "2025-02-10T17:48:09.248Z",
+          "updated_at": "2025-02-10T18:07:57.448Z",
           "position": 3,
           "description": null,
           "showcase": false,
@@ -622,9 +424,9 @@
         {
           "id": "bk3ggvf6kw1k",
           "name": "Opsgenie Alert Flow",
-          "status": "major_outage",
+          "status": "degraded_performance",
           "created_at": "2020-11-10T01:21:54.620Z",
-          "updated_at": "2025-02-10T17:48:09.260Z",
+          "updated_at": "2025-02-10T18:07:57.468Z",
           "position": 4,
           "description": null,
           "showcase": false,
@@ -637,9 +439,9 @@
         {
           "id": "svtqtkj9slxm",
           "name": "Opsgenie Incident Flow",
-          "status": "major_outage",
+          "status": "degraded_performance",
           "created_at": "2020-11-10T01:21:58.305Z",
-          "updated_at": "2025-02-10T17:48:09.272Z",
+          "updated_at": "2025-02-10T18:07:57.489Z",
           "position": 5,
           "description": null,
           "showcase": false,
@@ -652,9 +454,9 @@
         {
           "id": "8q1197ln8wz6",
           "name": "Opsgenie Alert Flow",
-          "status": "major_outage",
+          "status": "degraded_performance",
           "created_at": "2020-11-10T01:21:59.310Z",
-          "updated_at": "2025-02-10T17:48:09.285Z",
+          "updated_at": "2025-02-10T18:07:57.510Z",
           "position": 6,
           "description": null,
           "showcase": false,
@@ -667,9 +469,9 @@
         {
           "id": "n459f7qbgm7b",
           "name": "Jira Service Management Email Requests",
-          "status": "major_outage",
+          "status": "degraded_performance",
           "created_at": "2019-01-08T23:33:42.607Z",
-          "updated_at": "2025-02-10T17:48:09.298Z",
+          "updated_at": "2025-02-10T18:07:57.533Z",
           "position": 7,
           "description": "Problems related to end-user's ability to raise requests via email",
           "showcase": false,
@@ -682,9 +484,9 @@
         {
           "id": "why9xhgfq7kx",
           "name": "Authentication and User Management",
-          "status": "major_outage",
+          "status": "degraded_performance",
           "created_at": "2019-05-02T04:27:17.805Z",
-          "updated_at": "2025-02-10T17:48:09.310Z",
+          "updated_at": "2025-02-10T18:07:57.555Z",
           "position": 8,
           "description": null,
           "showcase": false,
@@ -697,9 +499,9 @@
         {
           "id": "n50cprw4wnhp",
           "name": "Purchasing & Licensing",
-          "status": "major_outage",
+          "status": "degraded_performance",
           "created_at": "2020-04-28T00:50:26.392Z",
-          "updated_at": "2025-02-10T17:48:09.323Z",
+          "updated_at": "2025-02-10T18:07:57.577Z",
           "position": 9,
           "description": null,
           "showcase": false,
@@ -712,9 +514,9 @@
         {
           "id": "wlpsrb4r2yq9",
           "name": "Signup",
-          "status": "major_outage",
+          "status": "degraded_performance",
           "created_at": "2020-10-09T20:36:56.243Z",
-          "updated_at": "2025-02-10T17:48:09.336Z",
+          "updated_at": "2025-02-10T18:07:57.598Z",
           "position": 10,
           "description": null,
           "showcase": false,
@@ -727,9 +529,9 @@
         {
           "id": "7rq3yg76vvbc",
           "name": "Automation for Jira",
-          "status": "major_outage",
+          "status": "degraded_performance",
           "created_at": "2020-12-23T01:40:13.601Z",
-          "updated_at": "2025-02-10T17:48:09.350Z",
+          "updated_at": "2025-02-10T18:07:57.617Z",
           "position": 11,
           "description": null,
           "showcase": false,
@@ -742,9 +544,9 @@
         {
           "id": "6vlshpbyx93m",
           "name": "Assist",
-          "status": "major_outage",
+          "status": "degraded_performance",
           "created_at": "2022-03-10T05:28:23.804Z",
-          "updated_at": "2025-02-10T17:48:09.374Z",
+          "updated_at": "2025-02-10T18:07:57.640Z",
           "position": 12,
           "description": "For JSM Chat related outages",
           "showcase": false,
@@ -760,7 +562,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "critical",
-    "description": "Major System Outage"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
