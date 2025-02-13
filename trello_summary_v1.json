@@ -4,15 +4,15 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2025-02-13T11:20:25.843-05:00"
+    "updated_at": "2025-02-13T12:54:28.095-05:00"
   },
   "components": [
     {
       "id": "hsr3nvlz0k2l",
       "name": "Trello.com",
-      "status": "partial_outage",
+      "status": "degraded_performance",
       "created_at": "2020-01-24T12:50:55.839-05:00",
-      "updated_at": "2025-02-13T10:54:21.184-05:00",
+      "updated_at": "2025-02-13T12:54:27.614-05:00",
       "position": 1,
       "description": "Web client",
       "showcase": true,
@@ -89,7 +89,7 @@
       "name": "The Trello Desktop app is re-directing users to the home page",
       "status": "identified",
       "created_at": "2025-02-13T10:54:21.155-05:00",
-      "updated_at": "2025-02-13T10:54:21.604-05:00",
+      "updated_at": "2025-02-13T12:54:28.088-05:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -97,6 +97,26 @@
       "started_at": "2025-02-13T10:54:21.151-05:00",
       "page_id": "h5frqhb041yq",
       "incident_updates": [
+        {
+          "id": "dkbxnxrpp5jg",
+          "status": "identified",
+          "body": "We're still working on a fix for the Trello Desktop. We'll provide a new update soon.",
+          "incident_id": "8l3zvbmfj6pr",
+          "created_at": "2025-02-13T12:54:27.663-05:00",
+          "updated_at": "2025-02-13T12:54:28.083-05:00",
+          "display_at": "2025-02-13T12:54:27.663-05:00",
+          "affected_components": [
+            {
+              "code": "hsr3nvlz0k2l",
+              "name": "Trello.com",
+              "old_status": "partial_outage",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1890097218889347177
+        },
         {
           "id": "s9hnvtq4429l",
           "status": "identified",
@@ -122,9 +142,9 @@
         {
           "id": "hsr3nvlz0k2l",
           "name": "Trello.com",
-          "status": "partial_outage",
+          "status": "degraded_performance",
           "created_at": "2020-01-24T12:50:55.839-05:00",
-          "updated_at": "2025-02-13T10:54:21.184-05:00",
+          "updated_at": "2025-02-13T12:54:27.614-05:00",
           "position": 1,
           "description": "Web client",
           "showcase": true,
@@ -141,6 +161,6 @@
   "scheduled_maintenances": [],
   "status": {
     "indicator": "minor",
-    "description": "Minor Service Outage"
+    "description": "Partially Degraded Service"
   }
 }
