@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-02-19T06:30:59.808Z"
+    "updated_at": "2025-02-19T06:59:16.890Z"
   },
   "components": [
     {
@@ -796,7 +796,62 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "2r809t58nccj",
+      "name": "Marketplace reporting data will be delayed by 8 hours on February 22, 2025",
+      "status": "scheduled",
+      "created_at": "2025-02-19T06:59:16.836Z",
+      "updated_at": "2025-02-19T06:59:16.887Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/77vdj9f31r4z",
+      "started_at": "2025-02-19T06:59:16.828Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "yr9nwxw4fkwj",
+          "status": "scheduled",
+          "body": "Marketplace reporting data will be delayed by 8 hours on February 22, 2025",
+          "incident_id": "2r809t58nccj",
+          "created_at": "2025-02-19T06:59:16.885Z",
+          "updated_at": "2025-02-19T06:59:16.885Z",
+          "display_at": "2025-02-19T06:59:16.885Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "hk36hlvygg2q",
+          "name": "Reporting APIs and dashboards",
+          "status": "operational",
+          "created_at": "2013-12-03T00:45:26.014Z",
+          "updated_at": "2025-02-04T10:05:43.431Z",
+          "position": 11,
+          "description": "Marketing attribution reports are now operational.",
+          "showcase": true,
+          "start_date": null,
+          "group_id": "d0m8l367qqw5",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2025-02-22T05:00:00.000Z",
+      "scheduled_until": "2025-02-22T13:00:00.000Z"
+    }
+  ],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
