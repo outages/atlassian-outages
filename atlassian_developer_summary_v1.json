@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-02-26T17:20:21.665Z"
+    "updated_at": "2025-02-26T18:10:41.110Z"
   },
   "components": [
     {
@@ -795,81 +795,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "fbnxcp6t313b",
-      "name": "Forge app invocations failing",
-      "status": "monitoring",
-      "created_at": "2025-02-26T16:21:37.841Z",
-      "updated_at": "2025-02-26T16:49:20.910Z",
-      "monitoring_at": "2025-02-26T16:49:20.893Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/xvysf7zmvqrg",
-      "started_at": "2025-02-26T16:21:37.832Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "qmw35tnkclhb",
-          "status": "monitoring",
-          "body": "We have recovered service and are closely monitoring it's operation - forge invocations should be function at the moment.",
-          "incident_id": "fbnxcp6t313b",
-          "created_at": "2025-02-26T16:49:20.893Z",
-          "updated_at": "2025-02-26T16:49:20.893Z",
-          "display_at": "2025-02-26T16:49:20.893Z",
-          "affected_components": [
-            {
-              "code": "pgqd9x4jl520",
-              "name": "Developer - Forge Function Invocation",
-              "old_status": "partial_outage",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "kdlp3kx3mpsn",
-          "status": "investigating",
-          "body": "We are investigating incident where forge app invocations are failing. We will post update once more details are established. The Forge apps may observe failed invocations or increased latency.",
-          "incident_id": "fbnxcp6t313b",
-          "created_at": "2025-02-26T16:21:37.933Z",
-          "updated_at": "2025-02-26T16:21:37.933Z",
-          "display_at": "2025-02-26T16:21:37.933Z",
-          "affected_components": [
-            {
-              "code": "pgqd9x4jl520",
-              "name": "Developer - Forge Function Invocation",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "pgqd9x4jl520",
-          "name": "Forge Function Invocation",
-          "status": "operational",
-          "created_at": "2021-03-23T11:56:37.167Z",
-          "updated_at": "2025-02-26T16:49:20.856Z",
-          "position": 7,
-          "description": null,
-          "showcase": true,
-          "start_date": "2021-03-23",
-          "group_id": "73bt63kd5q9k",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
