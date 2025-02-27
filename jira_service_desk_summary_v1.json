@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-02-27T18:43:02.734Z"
+    "updated_at": "2025-02-27T18:57:19.424Z"
   },
   "components": [
     {
@@ -194,7 +194,7 @@
       "name": "JSM Chat Automations failing due to Slack Events API issue",
       "status": "monitoring",
       "created_at": "2025-02-27T02:15:20.419Z",
-      "updated_at": "2025-02-27T18:43:02.723Z",
+      "updated_at": "2025-02-27T18:57:19.414Z",
       "monitoring_at": "2025-02-27T08:05:50.912Z",
       "resolved_at": null,
       "impact": "minor",
@@ -208,8 +208,8 @@
           "body": "New Slack events are continuing to get processed within JSM successfully. We are continuing to monitor the situation closely.\nWe are still awaiting confirmation on when the historical events from the start of the incident will be processed. For ongoing updates, please refer to Slack's status page: https://slack-status.com/2025-02/d41e4bfd1ccae26a",
           "incident_id": "z0mhv9j4qk8x",
           "created_at": "2025-02-27T18:43:02.720Z",
-          "updated_at": "2025-02-27T18:43:02.720Z",
-          "display_at": "2025-02-27T18:43:02.720Z",
+          "updated_at": "2025-02-27T18:57:19.408Z",
+          "display_at": "2025-02-27T17:53:02.000Z",
           "affected_components": [
             {
               "code": "7rq3yg76vvbc",
