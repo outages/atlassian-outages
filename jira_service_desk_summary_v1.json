@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-02-28T05:19:34.103Z"
+    "updated_at": "2025-02-28T07:14:25.777Z"
   },
   "components": [
     {
@@ -160,9 +160,9 @@
     {
       "id": "7rq3yg76vvbc",
       "name": "Automation for Jira",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-12-23T01:40:13.601Z",
-      "updated_at": "2025-02-27T08:05:50.874Z",
+      "updated_at": "2025-02-28T07:14:25.726Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -188,164 +188,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "z0mhv9j4qk8x",
-      "name": "JSM Chat Automations failing due to Slack Events API issue",
-      "status": "monitoring",
-      "created_at": "2025-02-27T02:15:20.419Z",
-      "updated_at": "2025-02-27T22:33:11.986Z",
-      "monitoring_at": "2025-02-27T08:05:50.912Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/2vztd1krg0x1",
-      "started_at": "2025-02-27T17:53:02.000Z",
-      "page_id": "pv54g7ltsc24",
-      "incident_updates": [
-        {
-          "id": "q7z1vm745dr9",
-          "status": "monitoring",
-          "body": "New Slack events are continuing to get processed within JSM successfully. We are continuing to monitor the situation closely.\n\nWe are still awaiting confirmation on when the historical events from the start of the incident will be processed. \n\nFor ongoing updates, please refer to Slack's status page: https://slack-status.com/2025-02/d41e4bfd1ccae26a",
-          "incident_id": "z0mhv9j4qk8x",
-          "created_at": "2025-02-27T22:31:20.678Z",
-          "updated_at": "2025-02-27T22:33:11.877Z",
-          "display_at": "2025-02-27T22:31:20.000Z",
-          "affected_components": [
-            {
-              "code": "7rq3yg76vvbc",
-              "name": "Automation for Jira",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "2pln5tkvj7by",
-          "status": "monitoring",
-          "body": "New Slack events are continuing to get processed within JSM successfully. We are continuing to monitor the situation closely.\nWe are still awaiting confirmation on when the historical events from the start of the incident will be processed. For ongoing updates, please refer to Slack's status page: https://slack-status.com/2025-02/d41e4bfd1ccae26a",
-          "incident_id": "z0mhv9j4qk8x",
-          "created_at": "2025-02-27T18:43:02.720Z",
-          "updated_at": "2025-02-27T18:57:19.408Z",
-          "display_at": "2025-02-27T17:53:02.000Z",
-          "affected_components": [
-            {
-              "code": "7rq3yg76vvbc",
-              "name": "Automation for Jira",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "q177zs2j7t3q",
-          "status": "monitoring",
-          "body": "We have confirmed with Slack that new events are now being processed successfully, and we have validated this within JSM. We continue to monitor the situation closely.\n\nWe are still awaiting confirmation on whether historical events from the start of the incident will be processed. For ongoing updates, please refer to Slack's status page: https://slack-status.com/2025-02/d41e4bfd1ccae26a",
-          "incident_id": "z0mhv9j4qk8x",
-          "created_at": "2025-02-27T08:05:50.912Z",
-          "updated_at": "2025-02-27T08:05:50.912Z",
-          "display_at": "2025-02-27T08:05:50.912Z",
-          "affected_components": [
-            {
-              "code": "7rq3yg76vvbc",
-              "name": "Automation for Jira",
-              "old_status": "major_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "7tgttxspb1j1",
-          "status": "identified",
-          "body": "An issue has occurred where JSM Automations within Slack are not currently triggering actions as expected.\nSlack is aware of this issue and is working through their backlog of events.\nAtlassian has received a small number of events from this backlog and is monitoring for incoming alerts to be processed.\nSlack are providing updates on this issue on their status page here: https://slack-status.com/2025-02/d41e4bfd1ccae26a",
-          "incident_id": "z0mhv9j4qk8x",
-          "created_at": "2025-02-27T06:59:40.584Z",
-          "updated_at": "2025-02-27T06:59:40.584Z",
-          "display_at": "2025-02-27T06:59:40.584Z",
-          "affected_components": [
-            {
-              "code": "7rq3yg76vvbc",
-              "name": "Automation for Jira",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "pd78kgpjx3r2",
-          "status": "identified",
-          "body": "We are aware of an issue where JSM Automations within Slack are not currently triggering actions as expected.\n\nSlack is aware of this issue and is working through their backlog of events that need to be processed. \nWe are pending Atlassian system events to be processed at this time.\nSlack are providing updates on this issue on their status page here: https://slack-status.com/2025-02/d41e4bfd1ccae26a",
-          "incident_id": "z0mhv9j4qk8x",
-          "created_at": "2025-02-27T05:16:01.062Z",
-          "updated_at": "2025-02-27T05:16:01.062Z",
-          "display_at": "2025-02-27T05:16:01.062Z",
-          "affected_components": [
-            {
-              "code": "7rq3yg76vvbc",
-              "name": "Automation for Jira",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "vzwlb3t4c4mb",
-          "status": "investigating",
-          "body": "We are aware of an issue with JSM Automations within Slack are not currently triggering actions as expected. \nWe believe that this is related to a current incident that Slack is experiencing with Events API. Slack is providing updates on this issue on their status page here: https://slack-status.com/2025-02/d41e4bfd1ccae26a",
-          "incident_id": "z0mhv9j4qk8x",
-          "created_at": "2025-02-27T02:15:20.508Z",
-          "updated_at": "2025-02-27T02:15:20.508Z",
-          "display_at": "2025-02-27T02:15:20.508Z",
-          "affected_components": [
-            {
-              "code": "7rq3yg76vvbc",
-              "name": "Automation for Jira",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "7rq3yg76vvbc",
-          "name": "Automation for Jira",
-          "status": "partial_outage",
-          "created_at": "2020-12-23T01:40:13.601Z",
-          "updated_at": "2025-02-27T08:05:50.874Z",
-          "position": 11,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-12-23",
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
