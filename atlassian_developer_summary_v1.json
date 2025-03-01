@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-03-01T20:45:41.749Z"
+    "updated_at": "2025-03-01T23:30:21.568Z"
   },
   "components": [
     {
@@ -802,7 +802,7 @@
       "name": "Forge intermittent outage on 2025-03-02 between 00:30am to 3:30am UTC.",
       "status": "scheduled",
       "created_at": "2025-02-27T09:19:58.631Z",
-      "updated_at": "2025-02-27T09:21:42.401Z",
+      "updated_at": "2025-03-01T23:30:21.561Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -810,6 +810,19 @@
       "started_at": "2025-02-27T09:19:58.617Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "bbl0wk7dt7nh",
+          "status": "scheduled",
+          "body": "Maintenance will begin as scheduled in 60 minutes.",
+          "incident_id": "b8ny3bp7cjk3",
+          "created_at": "2025-03-01T23:30:21.433Z",
+          "updated_at": "2025-03-01T23:30:21.433Z",
+          "display_at": "2025-03-01T23:30:21.433Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "944jbvkml52r",
           "status": "scheduled",
