@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-03-01T23:30:21.568Z"
+    "updated_at": "2025-03-02T01:06:40.467Z"
   },
   "components": [
     {
@@ -64,9 +64,9 @@
     {
       "id": "wzmg8phvmrwh",
       "name": "App Deployment",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2021-03-23T12:00:27.385Z",
-      "updated_at": "2024-10-28T22:41:10.376Z",
+      "updated_at": "2025-03-02T00:30:54.514Z",
       "position": 1,
       "description": null,
       "showcase": true,
@@ -109,7 +109,7 @@
     {
       "id": "73bt63kd5q9k",
       "name": "Developer",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-02-01T17:21:34.889Z",
       "updated_at": "2019-05-02T04:22:45.333Z",
       "position": 2,
@@ -203,9 +203,9 @@
     {
       "id": "ccbm394hy8pk",
       "name": "Create and manage apps",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-02-01T17:21:34.902Z",
-      "updated_at": "2024-09-05T20:48:28.944Z",
+      "updated_at": "2025-03-02T00:30:54.537Z",
       "position": 3,
       "description": "The ability to create and manage apps at https://developer.atlassian.com/apps",
       "showcase": true,
@@ -407,9 +407,9 @@
     {
       "id": "vb9xhz9z6zbp",
       "name": "Forge App Installation",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2021-03-23T11:55:32.639Z",
-      "updated_at": "2025-01-22T15:37:13.446Z",
+      "updated_at": "2025-03-02T00:30:54.559Z",
       "position": 5,
       "description": "Installation of Forge apps",
       "showcase": true,
@@ -587,9 +587,9 @@
     {
       "id": "64gg59lyzrfs",
       "name": "Forge App Logs",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2021-05-12T00:18:57.324Z",
-      "updated_at": "2024-08-12T00:23:22.031Z",
+      "updated_at": "2025-03-02T00:30:54.579Z",
       "position": 9,
       "description": "Access and retrieve app logs via Forge CLI and admin.atlassian.com",
       "showcase": true,
@@ -647,9 +647,9 @@
     {
       "id": "khz72mns34gk",
       "name": "Developer console",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2021-07-09T01:52:46.683Z",
-      "updated_at": "2024-09-05T20:48:28.986Z",
+      "updated_at": "2025-03-02T00:30:54.598Z",
       "position": 11,
       "description": "Reliability of https://developer.atlassian.com/console",
       "showcase": true,
@@ -677,9 +677,9 @@
     {
       "id": "x9bxzb5jlltj",
       "name": "Forge direct app distribution",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2022-03-15T10:00:31.590Z",
-      "updated_at": "2023-03-01T04:30:13.088Z",
+      "updated_at": "2025-03-02T00:30:54.619Z",
       "position": 12,
       "description": "A way to share your apps with a set of trusted site admins: https://developer.atlassian.com/platform/forge/distribute-your-apps/#start-sharing-your-app",
       "showcase": true,
@@ -737,9 +737,9 @@
     {
       "id": "l30t53hv9z8z",
       "name": "Forge CLI",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2022-10-18T22:30:09.575Z",
-      "updated_at": "2024-10-30T06:56:29.178Z",
+      "updated_at": "2025-03-02T00:30:54.642Z",
       "position": 14,
       "description": null,
       "showcase": true,
@@ -800,9 +800,9 @@
     {
       "id": "b8ny3bp7cjk3",
       "name": "Forge intermittent outage on 2025-03-02 between 00:30am to 3:30am UTC.",
-      "status": "scheduled",
+      "status": "in_progress",
       "created_at": "2025-02-27T09:19:58.631Z",
-      "updated_at": "2025-03-01T23:30:21.561Z",
+      "updated_at": "2025-03-02T00:30:54.680Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -810,6 +810,75 @@
       "started_at": "2025-02-27T09:19:58.617Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "scrzw7t1xcxq",
+          "status": "in_progress",
+          "body": "We are currently undergoing scheduled maintenance and you might experience intermittent outage. Maintenance window commenced at 00:30am and is expected to be completed at 3:30am UTC.\nDuring this time you won’t be able to:\n- Create/upgrade/delete apps\n- Install/uninstall apps\n- Upgrade installations\n- View/list installations\n- View/monitor apps\n- View app logs\n- Deploy app\n- Grant/revoke access for apps \n- View consented apps\n- Grant consent to apps\n- Revoke consent to apps\nExpect to see the above operations fail with 500 status code.  You will need to retry the operations after maintenance is successfully completed.\nWe will continue to provide updates as we progress and inform when service is restored via this page.",
+          "incident_id": "b8ny3bp7cjk3",
+          "created_at": "2025-03-02T00:30:54.676Z",
+          "updated_at": "2025-03-02T00:30:54.676Z",
+          "display_at": "2025-03-02T00:30:54.676Z",
+          "affected_components": [
+            {
+              "code": "wzmg8phvmrwh",
+              "name": "Developer - App Deployment",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "ccbm394hy8pk",
+              "name": "Developer - Create and manage apps",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "vb9xhz9z6zbp",
+              "name": "Developer - Forge App Installation",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "64gg59lyzrfs",
+              "name": "Developer - Forge App Logs",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "khz72mns34gk",
+              "name": "Developer - Developer console",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "x9bxzb5jlltj",
+              "name": "Developer - Forge direct app distribution",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "l30t53hv9z8z",
+              "name": "Developer - Forge CLI",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "brlgv8mv6fzg",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "b8ny3bp7cjk3",
+          "created_at": "2025-03-02T00:30:21.748Z",
+          "updated_at": "2025-03-02T00:30:21.748Z",
+          "display_at": "2025-03-02T00:30:21.748Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "bbl0wk7dt7nh",
           "status": "scheduled",
@@ -884,9 +953,9 @@
         {
           "id": "wzmg8phvmrwh",
           "name": "App Deployment",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2021-03-23T12:00:27.385Z",
-          "updated_at": "2024-10-28T22:41:10.376Z",
+          "updated_at": "2025-03-02T00:30:54.514Z",
           "position": 1,
           "description": null,
           "showcase": true,
@@ -899,9 +968,9 @@
         {
           "id": "ccbm394hy8pk",
           "name": "Create and manage apps",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2018-02-01T17:21:34.902Z",
-          "updated_at": "2024-09-05T20:48:28.944Z",
+          "updated_at": "2025-03-02T00:30:54.537Z",
           "position": 3,
           "description": "The ability to create and manage apps at https://developer.atlassian.com/apps",
           "showcase": true,
@@ -914,9 +983,9 @@
         {
           "id": "vb9xhz9z6zbp",
           "name": "Forge App Installation",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2021-03-23T11:55:32.639Z",
-          "updated_at": "2025-01-22T15:37:13.446Z",
+          "updated_at": "2025-03-02T00:30:54.559Z",
           "position": 5,
           "description": "Installation of Forge apps",
           "showcase": true,
@@ -929,9 +998,9 @@
         {
           "id": "64gg59lyzrfs",
           "name": "Forge App Logs",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2021-05-12T00:18:57.324Z",
-          "updated_at": "2024-08-12T00:23:22.031Z",
+          "updated_at": "2025-03-02T00:30:54.579Z",
           "position": 9,
           "description": "Access and retrieve app logs via Forge CLI and admin.atlassian.com",
           "showcase": true,
@@ -944,9 +1013,9 @@
         {
           "id": "khz72mns34gk",
           "name": "Developer console",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2021-07-09T01:52:46.683Z",
-          "updated_at": "2024-09-05T20:48:28.986Z",
+          "updated_at": "2025-03-02T00:30:54.598Z",
           "position": 11,
           "description": "Reliability of https://developer.atlassian.com/console",
           "showcase": true,
@@ -959,9 +1028,9 @@
         {
           "id": "x9bxzb5jlltj",
           "name": "Forge direct app distribution",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2022-03-15T10:00:31.590Z",
-          "updated_at": "2023-03-01T04:30:13.088Z",
+          "updated_at": "2025-03-02T00:30:54.619Z",
           "position": 12,
           "description": "A way to share your apps with a set of trusted site admins: https://developer.atlassian.com/platform/forge/distribute-your-apps/#start-sharing-your-app",
           "showcase": true,
@@ -974,9 +1043,9 @@
         {
           "id": "l30t53hv9z8z",
           "name": "Forge CLI",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2022-10-18T22:30:09.575Z",
-          "updated_at": "2024-10-30T06:56:29.178Z",
+          "updated_at": "2025-03-02T00:30:54.642Z",
           "position": 14,
           "description": null,
           "showcase": true,
@@ -992,7 +1061,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
