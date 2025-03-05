@@ -4,7 +4,7 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2025-03-05T04:08:16.569-05:00"
+    "updated_at": "2025-03-05T10:48:15.570-05:00"
   },
   "components": [
     {
@@ -83,7 +83,38 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "vxzvm5tdhdwq",
+      "name": "Trello Realtime Updates are degraded",
+      "status": "investigating",
+      "created_at": "2025-03-05T10:48:15.527-05:00",
+      "updated_at": "2025-03-05T10:48:15.566-05:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/ldxlvrpqs28l",
+      "started_at": "2025-03-05T10:48:15.521-05:00",
+      "page_id": "h5frqhb041yq",
+      "incident_updates": [
+        {
+          "id": "dqjlcshqw6t1",
+          "status": "investigating",
+          "body": "We are investigating cases of degraded performance for SOME Trello Cloud customers. We will provide more details within the next hour.",
+          "incident_id": "vxzvm5tdhdwq",
+          "created_at": "2025-03-05T10:48:15.564-05:00",
+          "updated_at": "2025-03-05T10:48:15.564-05:00",
+          "display_at": "2025-03-05T10:48:15.564-05:00",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
