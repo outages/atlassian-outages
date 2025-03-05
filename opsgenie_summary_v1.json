@@ -4,7 +4,7 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-03-05T02:56:28.754Z"
+    "updated_at": "2025-03-05T06:34:27.600Z"
   },
   "components": [
     {
@@ -79,7 +79,7 @@
     {
       "id": "k7gyfk44wrsr",
       "name": "EU",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-02-12T13:47:54.389Z",
       "updated_at": "2019-02-12T13:47:54.389Z",
       "position": 2,
@@ -133,9 +133,9 @@
     {
       "id": "x3kw060dyr9f",
       "name": "Alert Flow",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-03-15T08:10:19.021Z",
-      "updated_at": "2024-07-04T00:36:13.959Z",
+      "updated_at": "2025-03-05T06:34:27.545Z",
       "position": 2,
       "description": null,
       "showcase": true,
@@ -761,10 +761,64 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "yd21dk9stt9l",
+      "name": "EU OpsGenie API calls having intermittent routing issues",
+      "status": "investigating",
+      "created_at": "2025-03-05T06:34:27.504Z",
+      "updated_at": "2025-03-05T06:34:27.597Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/vcx8w5cg1kxf",
+      "started_at": "2025-03-05T06:34:27.493Z",
+      "page_id": "t05vdsszxwtq",
+      "incident_updates": [
+        {
+          "id": "s0kz39v2dtf7",
+          "status": "investigating",
+          "body": "We are aware of an issue where some API calls configured to use api.opsgenie.com/eu are intermittently returning a 404 error with the message 'no Route matched with those values'.\n\nAPI calls to api.eu.opsgenie.com and api.opsgenie.com (without /eu) are not affected. \n\nOur team is investigating this issue.",
+          "incident_id": "yd21dk9stt9l",
+          "created_at": "2025-03-05T06:34:27.594Z",
+          "updated_at": "2025-03-05T06:34:27.594Z",
+          "display_at": "2025-03-05T06:34:27.594Z",
+          "affected_components": [
+            {
+              "code": "x3kw060dyr9f",
+              "name": "EU - Alert Flow",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "x3kw060dyr9f",
+          "name": "Alert Flow",
+          "status": "partial_outage",
+          "created_at": "2019-03-15T08:10:19.021Z",
+          "updated_at": "2025-03-05T06:34:27.545Z",
+          "position": 2,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": "k7gyfk44wrsr",
+          "page_id": "t05vdsszxwtq",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
