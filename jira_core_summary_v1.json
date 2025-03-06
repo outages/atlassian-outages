@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-03-06T21:36:47.255Z"
+    "updated_at": "2025-03-06T23:04:45.296Z"
   },
   "components": [
     {
@@ -179,10 +179,10 @@
       "name": "Jira Platform Connection Errors",
       "status": "investigating",
       "created_at": "2025-03-06T16:26:41.733Z",
-      "updated_at": "2025-03-06T17:33:54.248Z",
+      "updated_at": "2025-03-06T23:04:45.291Z",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "major",
+      "impact": "minor",
       "shortlink": "https://stspg.io/9skk1vptnb62",
       "started_at": "2025-03-06T16:26:41.721Z",
       "page_id": "s6f0gm5gcpmy",
