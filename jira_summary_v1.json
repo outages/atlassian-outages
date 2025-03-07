@@ -4,15 +4,15 @@
     "name": "Jira",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-03-07T02:40:16.922Z"
+    "updated_at": "2025-03-07T05:11:53.210Z"
   },
   "components": [
     {
       "id": "jmgfbtr0k28j",
       "name": "Viewing content",
-      "status": "partial_outage",
+      "status": "degraded_performance",
       "created_at": "2019-01-22T20:42:24.651Z",
-      "updated_at": "2025-03-06T16:26:41.416Z",
+      "updated_at": "2025-03-07T05:11:53.163Z",
       "position": 1,
       "description": "Problems viewing issues, dashboards, boards, reports, etc.",
       "showcase": false,
@@ -174,6 +174,59 @@
     }
   ],
   "incidents": [
+    {
+      "id": "dvvx07yj57r2",
+      "name": "Degraded performance detected in Jira, Jira Work Management and Jira Service Management Issue View experience",
+      "status": "investigating",
+      "created_at": "2025-03-07T05:11:53.125Z",
+      "updated_at": "2025-03-07T05:11:53.207Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/mqjfkwkfbhb7",
+      "started_at": "2025-03-07T05:11:53.116Z",
+      "page_id": "7yh3h3y0c0x1",
+      "incident_updates": [
+        {
+          "id": "lsd6z28x35xd",
+          "status": "investigating",
+          "body": "We are aware of some users experiencing extended load times when attempting to view issues in Jira, Jira Work Management and Jira Service Management.\nOur team is investigating this issue.",
+          "incident_id": "dvvx07yj57r2",
+          "created_at": "2025-03-07T05:11:53.204Z",
+          "updated_at": "2025-03-07T05:11:53.204Z",
+          "display_at": "2025-03-07T05:11:53.204Z",
+          "affected_components": [
+            {
+              "code": "jmgfbtr0k28j",
+              "name": "Viewing content",
+              "old_status": "partial_outage",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "jmgfbtr0k28j",
+          "name": "Viewing content",
+          "status": "degraded_performance",
+          "created_at": "2019-01-22T20:42:24.651Z",
+          "updated_at": "2025-03-07T05:11:53.163Z",
+          "position": 1,
+          "description": "Problems viewing issues, dashboards, boards, reports, etc.",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "7yh3h3y0c0x1",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
     {
       "id": "schpzwlhyt2v",
       "name": "Jira Platform Connection Errors",
@@ -512,9 +565,9 @@
         {
           "id": "jmgfbtr0k28j",
           "name": "Viewing content",
-          "status": "partial_outage",
+          "status": "degraded_performance",
           "created_at": "2019-01-22T20:42:24.651Z",
-          "updated_at": "2025-03-06T16:26:41.416Z",
+          "updated_at": "2025-03-07T05:11:53.163Z",
           "position": 1,
           "description": "Problems viewing issues, dashboards, boards, reports, etc.",
           "showcase": false,
@@ -680,7 +733,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
