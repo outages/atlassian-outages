@@ -4,7 +4,7 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2025-03-11T05:50:55.433-04:00"
+    "updated_at": "2025-03-11T06:41:53.157-04:00"
   },
   "components": [
     {
@@ -86,10 +86,10 @@
   "incidents": [
     {
       "id": "2t77pgqh6kb6",
-      "name": "Trello is slow",
+      "name": "Degraded performance in Trello",
       "status": "monitoring",
       "created_at": "2025-03-11T05:23:27.925-04:00",
-      "updated_at": "2025-03-11T05:50:55.428-04:00",
+      "updated_at": "2025-03-11T06:41:53.152-04:00",
       "monitoring_at": "2025-03-11T05:50:55.131-04:00",
       "resolved_at": null,
       "impact": "minor",
