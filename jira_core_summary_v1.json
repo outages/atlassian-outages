@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-03-17T05:42:47.469Z"
+    "updated_at": "2025-03-17T11:09:40.125Z"
   },
   "components": [
     {
@@ -174,7 +174,39 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "6b78fw6ddltz",
+      "name": "Maintenance Notification for Jira and Confluence Platforms (Singapore and Northern California Only)",
+      "status": "scheduled",
+      "created_at": "2025-03-17T10:56:07.140Z",
+      "updated_at": "2025-03-17T11:09:40.120Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/tjd34zrybw90",
+      "started_at": "2025-03-17T10:56:07.135Z",
+      "page_id": "s6f0gm5gcpmy",
+      "incident_updates": [
+        {
+          "id": "4zgsdrcmnfdx",
+          "status": "scheduled",
+          "body": "Until the end of May 2025, Atlassian plans to perform maintenance on the infrastructure supporting the Jira and Confluence platforms.\n\nThis maintenance will result in a temporary service outage for Free edition users located in Singapore and Northern California, with a total duration of no more than 120 minutes per customer. The maintenance will be performed during regular business hours in the specified regions.\n\nTo learn more, please refer to this community post https://community.atlassian.com/forums/Announcement-articles/Upcoming-Maintenance-Notification-for-Jira-and-Confluence/ba-p/2973795#M6870",
+          "incident_id": "6b78fw6ddltz",
+          "created_at": "2025-03-17T10:56:07.186Z",
+          "updated_at": "2025-03-17T10:56:07.186Z",
+          "display_at": "2025-03-17T10:56:07.186Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "scheduled_for": "2025-03-18T00:00:00.000Z",
+      "scheduled_until": "2025-06-01T00:00:00.000Z"
+    }
+  ],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
