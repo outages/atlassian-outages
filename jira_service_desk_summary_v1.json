@@ -4,15 +4,15 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-03-18T17:15:33.636Z"
+    "updated_at": "2025-03-18T17:28:35.575Z"
   },
   "components": [
     {
       "id": "4kcs01hbh4l6",
       "name": "Jira Service Management Web",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-11-16T18:06:14.831Z",
-      "updated_at": "2025-03-18T16:24:33.721Z",
+      "updated_at": "2025-03-18T17:28:35.504Z",
       "position": 1,
       "description": "Problems with queues, issues, reports, searching, and anything else impacting an agent's ability to complete their work",
       "showcase": false,
@@ -160,9 +160,9 @@
     {
       "id": "7rq3yg76vvbc",
       "name": "Automation for Jira",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-12-23T01:40:13.601Z",
-      "updated_at": "2025-03-18T15:04:13.179Z",
+      "updated_at": "2025-03-18T17:28:35.520Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -188,121 +188,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "0md8k9hqbg97",
-      "name": "Automation rule execution are delayed",
-      "status": "monitoring",
-      "created_at": "2025-03-18T15:04:13.145Z",
-      "updated_at": "2025-03-18T17:15:33.625Z",
-      "monitoring_at": "2025-03-18T16:51:18.334Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/khsbk5s76r8f",
-      "started_at": "2025-03-18T15:04:13.139Z",
-      "page_id": "pv54g7ltsc24",
-      "incident_updates": [
-        {
-          "id": "g1svjcnqmqp2",
-          "status": "monitoring",
-          "body": "We have successfully identified and mitigated the issue affecting all automation customers, which was causing rules to appear stuck. New automations should now process as expected without delay.\n\nFor automation processes initiated from 13:00 UTC to 16:30 UTC on March 18th, 2025, in Jira, Jira Service Management, and Confluence, execution will continue but may experience delays of up to one day. No action is required from users for these automations to be completed. We are closely monitoring the situation and will provide further updates as more information becomes available.",
-          "incident_id": "0md8k9hqbg97",
-          "created_at": "2025-03-18T17:15:33.622Z",
-          "updated_at": "2025-03-18T17:15:33.622Z",
-          "display_at": "2025-03-18T17:15:33.622Z",
-          "affected_components": [
-            {
-              "code": "7rq3yg76vvbc",
-              "name": "Automation for Jira",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "fm6g3xfjfqw9",
-          "status": "monitoring",
-          "body": "The delayed execution of automation rules is mitigated and recovery is in progress. We are now monitoring closely.",
-          "incident_id": "0md8k9hqbg97",
-          "created_at": "2025-03-18T16:51:18.334Z",
-          "updated_at": "2025-03-18T16:51:18.334Z",
-          "display_at": "2025-03-18T16:51:18.334Z",
-          "affected_components": [
-            {
-              "code": "7rq3yg76vvbc",
-              "name": "Automation for Jira",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "w2bl2p9vhhfy",
-          "status": "investigating",
-          "body": "We are investigating cases of degraded performance regarding automation rules execution for Confluence, Jira Service Management, and Jira Cloud customers. \nWe are applying mitigation to speed up rule execution. \nWe will provide more details within the next hour.",
-          "incident_id": "0md8k9hqbg97",
-          "created_at": "2025-03-18T16:09:59.917Z",
-          "updated_at": "2025-03-18T16:09:59.917Z",
-          "display_at": "2025-03-18T16:09:59.917Z",
-          "affected_components": [
-            {
-              "code": "7rq3yg76vvbc",
-              "name": "Automation for Jira",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "t1lts0cqw801",
-          "status": "investigating",
-          "body": "We are investigating cases of degraded performance w.r.t automation rules execution for Confluence, Jira Service Management, and Jira Cloud customers. We will provide more details within the next hour.",
-          "incident_id": "0md8k9hqbg97",
-          "created_at": "2025-03-18T15:04:13.222Z",
-          "updated_at": "2025-03-18T15:04:13.222Z",
-          "display_at": "2025-03-18T15:04:13.222Z",
-          "affected_components": [
-            {
-              "code": "7rq3yg76vvbc",
-              "name": "Automation for Jira",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "7rq3yg76vvbc",
-          "name": "Automation for Jira",
-          "status": "degraded_performance",
-          "created_at": "2020-12-23T01:40:13.601Z",
-          "updated_at": "2025-03-18T15:04:13.179Z",
-          "position": 11,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-12-23",
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [
     {
       "id": "6q0vf4jf4zyk",
@@ -350,7 +236,7 @@
     }
   ],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
