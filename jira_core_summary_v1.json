@@ -2,9 +2,9 @@
   "page": {
     "id": "s6f0gm5gcpmy",
     "name": "Jira Work Management",
-    "url": "https://jira-work-management.status.atlassian.com",
+    "url": "http://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-03-19T15:20:52.646Z"
+    "updated_at": "2025-03-19T16:22:10.905Z"
   },
   "components": [
     {
@@ -749,59 +749,6 @@
           "description": null,
           "showcase": false,
           "start_date": "2020-12-23",
-          "group_id": null,
-          "page_id": "s6f0gm5gcpmy",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    },
-    {
-      "id": "h6v74903j3b7",
-      "name": "Performance degradation for Jira and Confluence User",
-      "status": "investigating",
-      "created_at": "2025-03-19T15:07:16.023Z",
-      "updated_at": "2025-03-19T15:11:13.043Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/0c93g8l7b8sp",
-      "started_at": "2025-03-19T15:07:16.014Z",
-      "page_id": "s6f0gm5gcpmy",
-      "incident_updates": [
-        {
-          "id": "yhwyjlnq69nn",
-          "status": "investigating",
-          "body": "We are investigating cases of degraded performance for some Confluence, Jira Work Management, Jira Service Management, and Jira Cloud customers. We will provide more details within the next hour.",
-          "incident_id": "h6v74903j3b7",
-          "created_at": "2025-03-19T15:07:16.071Z",
-          "updated_at": "2025-03-19T15:07:16.071Z",
-          "display_at": "2025-03-19T15:07:16.071Z",
-          "affected_components": [
-            {
-              "code": "l4fp2xkkygv4",
-              "name": "Viewing content",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "l4fp2xkkygv4",
-          "name": "Viewing content",
-          "status": "partial_outage",
-          "created_at": "2018-11-16T18:17:29.270Z",
-          "updated_at": "2025-03-19T15:11:13.009Z",
-          "position": 1,
-          "description": "Problems viewing issues, dashboards, boards, reports, etc.",
-          "showcase": false,
-          "start_date": null,
           "group_id": null,
           "page_id": "s6f0gm5gcpmy",
           "group": false,
