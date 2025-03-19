@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-03-19T22:21:26.327Z"
+    "updated_at": "2025-03-19T22:58:12.494Z"
   },
   "components": [
     {
@@ -188,61 +188,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "8mm9s7t1skpz",
-      "name": "Some customers are experiencing an issue viewing Team field in Jira",
-      "status": "investigating",
-      "created_at": "2025-03-19T22:06:23.344Z",
-      "updated_at": "2025-03-19T22:06:23.468Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/44vk1b8mtjs2",
-      "started_at": "2025-03-19T22:06:23.334Z",
-      "page_id": "pv54g7ltsc24",
-      "incident_updates": [
-        {
-          "id": "bv7jm5gcf7l0",
-          "status": "investigating",
-          "body": "We are investigating reports of customers being unable to see and assign teams from the team field dropdown for some Jira Work Management, Jira Service Management, and Jira customers. We will provide more details once we identify the root cause.",
-          "incident_id": "8mm9s7t1skpz",
-          "created_at": "2025-03-19T22:06:23.464Z",
-          "updated_at": "2025-03-19T22:06:23.464Z",
-          "display_at": "2025-03-19T22:06:23.464Z",
-          "affected_components": [
-            {
-              "code": "4kcs01hbh4l6",
-              "name": "Jira Service Management Web",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "4kcs01hbh4l6",
-          "name": "Jira Service Management Web",
-          "status": "partial_outage",
-          "created_at": "2018-11-16T18:06:14.831Z",
-          "updated_at": "2025-03-19T22:06:23.398Z",
-          "position": 1,
-          "description": "Problems with queues, issues, reports, searching, and anything else impacting an agent's ability to complete their work",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [
     {
       "id": "6q0vf4jf4zyk",
