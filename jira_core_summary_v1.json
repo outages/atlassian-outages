@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-03-19T12:39:39.304Z"
+    "updated_at": "2025-03-19T15:11:13.086Z"
   },
   "components": [
     {
@@ -12,7 +12,7 @@
       "name": "Viewing content",
       "status": "partial_outage",
       "created_at": "2018-11-16T18:17:29.270Z",
-      "updated_at": "2025-03-19T07:45:45.749Z",
+      "updated_at": "2025-03-19T15:11:13.009Z",
       "position": 1,
       "description": "Problems viewing issues, dashboards, boards, reports, etc.",
       "showcase": false,
@@ -176,10 +176,10 @@
   "incidents": [
     {
       "id": "tvs881sxw0j8",
-      "name": "Some users experiencing a 'site maintenance' message when attempting to access Confluence and Jira on some APAC based sites.",
-      "status": "investigating",
+      "name": "Users Encountering a Site Maintenance Message on APAC-Based Jira Sites",
+      "status": "identified",
       "created_at": "2025-03-19T07:45:45.694Z",
-      "updated_at": "2025-03-19T12:39:39.296Z",
+      "updated_at": "2025-03-19T15:11:13.075Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -187,6 +187,86 @@
       "started_at": "2025-03-19T07:45:45.681Z",
       "page_id": "s6f0gm5gcpmy",
       "incident_updates": [
+        {
+          "id": "x96d8267qv7g",
+          "status": "identified",
+          "body": "We are actively addressing the site maintenance message affecting some customers using Jira Work Management, Jira Service Management, and Jira Cloud in the APAC region. While service has been restored for some users, others remain impacted as we collaborate with AWS to resolve the issue. We are working diligently to restore full functionality and will provide more updates as they become available. Thank you for your patience and understanding.",
+          "incident_id": "tvs881sxw0j8",
+          "created_at": "2025-03-19T15:11:13.071Z",
+          "updated_at": "2025-03-19T15:11:13.071Z",
+          "display_at": "2025-03-19T15:11:13.071Z",
+          "affected_components": [
+            {
+              "code": "l4fp2xkkygv4",
+              "name": "Viewing content",
+              "old_status": "degraded_performance",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "dwt504s3m4c1",
+              "name": "Create and edit",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "c13948qkh0kk",
+              "name": "Search",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "5436s7p7v28b",
+              "name": "Notifications",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "mfs4w2r40sf7",
+              "name": "Administration",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "66v4z7zq30yc",
+              "name": "Marketplace",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "zpkm3xb02d55",
+              "name": "Mobile",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "wn1gfxqd25rr",
+              "name": "Authentication and User Management",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "kw083hgnjrkf",
+              "name": "Purchasing & Licensing",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "y9tv8pscq9rj",
+              "name": "Signup",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "g05jhcg0y7yw",
+              "name": "Automation for Jira",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "zwwkm671wcgx",
           "status": "investigating",
@@ -514,7 +594,7 @@
           "name": "Viewing content",
           "status": "partial_outage",
           "created_at": "2018-11-16T18:17:29.270Z",
-          "updated_at": "2025-03-19T07:45:45.749Z",
+          "updated_at": "2025-03-19T15:11:13.009Z",
           "position": 1,
           "description": "Problems viewing issues, dashboards, boards, reports, etc.",
           "showcase": false,
@@ -669,6 +749,112 @@
           "description": null,
           "showcase": false,
           "start_date": "2020-12-23",
+          "group_id": null,
+          "page_id": "s6f0gm5gcpmy",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "h6v74903j3b7",
+      "name": "Performance degradation for Jira and Confluence User",
+      "status": "investigating",
+      "created_at": "2025-03-19T15:07:16.023Z",
+      "updated_at": "2025-03-19T15:11:13.043Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/0c93g8l7b8sp",
+      "started_at": "2025-03-19T15:07:16.014Z",
+      "page_id": "s6f0gm5gcpmy",
+      "incident_updates": [
+        {
+          "id": "yhwyjlnq69nn",
+          "status": "investigating",
+          "body": "We are investigating cases of degraded performance for some Confluence, Jira Work Management, Jira Service Management, and Jira Cloud customers. We will provide more details within the next hour.",
+          "incident_id": "h6v74903j3b7",
+          "created_at": "2025-03-19T15:07:16.071Z",
+          "updated_at": "2025-03-19T15:07:16.071Z",
+          "display_at": "2025-03-19T15:07:16.071Z",
+          "affected_components": [
+            {
+              "code": "l4fp2xkkygv4",
+              "name": "Viewing content",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "l4fp2xkkygv4",
+          "name": "Viewing content",
+          "status": "partial_outage",
+          "created_at": "2018-11-16T18:17:29.270Z",
+          "updated_at": "2025-03-19T15:11:13.009Z",
+          "position": 1,
+          "description": "Problems viewing issues, dashboards, boards, reports, etc.",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "s6f0gm5gcpmy",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "sdnqdl4ynsw7",
+      "name": "Performance degradation for Jira and Confluence User",
+      "status": "investigating",
+      "created_at": "2025-03-19T15:07:12.249Z",
+      "updated_at": "2025-03-19T15:07:12.329Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/nf7569brhbjw",
+      "started_at": "2025-03-19T15:07:12.241Z",
+      "page_id": "s6f0gm5gcpmy",
+      "incident_updates": [
+        {
+          "id": "5qqx6h5zll35",
+          "status": "investigating",
+          "body": "We are investigating cases of degraded performance for some Confluence, Jira Work Management, Jira Service Management, and Jira Cloud customers. We will provide more details within the next hour.",
+          "incident_id": "sdnqdl4ynsw7",
+          "created_at": "2025-03-19T15:07:12.326Z",
+          "updated_at": "2025-03-19T15:07:12.326Z",
+          "display_at": "2025-03-19T15:07:12.326Z",
+          "affected_components": [
+            {
+              "code": "l4fp2xkkygv4",
+              "name": "Viewing content",
+              "old_status": "partial_outage",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "l4fp2xkkygv4",
+          "name": "Viewing content",
+          "status": "partial_outage",
+          "created_at": "2018-11-16T18:17:29.270Z",
+          "updated_at": "2025-03-19T15:11:13.009Z",
+          "position": 1,
+          "description": "Problems viewing issues, dashboards, boards, reports, etc.",
+          "showcase": false,
+          "start_date": null,
           "group_id": null,
           "page_id": "s6f0gm5gcpmy",
           "group": false,
