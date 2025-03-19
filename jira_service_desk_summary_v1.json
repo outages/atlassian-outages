@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-03-19T08:48:32.364Z"
+    "updated_at": "2025-03-19T09:08:18.489Z"
   },
   "components": [
     {
@@ -194,7 +194,7 @@
       "name": "Some users experiencing a 'site maintenance' message when attempting to access Confluence and Jira on some APAC based sites.",
       "status": "investigating",
       "created_at": "2025-03-19T07:45:45.682Z",
-      "updated_at": "2025-03-19T08:22:31.458Z",
+      "updated_at": "2025-03-19T09:08:18.478Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -202,6 +202,92 @@
       "started_at": "2025-03-19T07:45:45.666Z",
       "page_id": "pv54g7ltsc24",
       "incident_updates": [
+        {
+          "id": "g5qf7l870wgt",
+          "status": "investigating",
+          "body": "We continue to investigate the site maintenance issue impacting Jira Work Management, Jira Service Management, and Jira Cloud customers. We will share more information as it becomes available.",
+          "incident_id": "bt1p90s32742",
+          "created_at": "2025-03-19T09:08:18.473Z",
+          "updated_at": "2025-03-19T09:08:18.473Z",
+          "display_at": "2025-03-19T09:08:18.473Z",
+          "affected_components": [
+            {
+              "code": "4kcs01hbh4l6",
+              "name": "Jira Service Management Web",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hzbyfxf686qd",
+              "name": "Service Portal",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "n459f7qbgm7b",
+              "name": "Jira Service Management Email Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "why9xhgfq7kx",
+              "name": "Authentication and User Management",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "n50cprw4wnhp",
+              "name": "Purchasing & Licensing",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "wlpsrb4r2yq9",
+              "name": "Signup",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "jy0n3xjnl1kn",
+              "name": "Opsgenie Incident Flow",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "bk3ggvf6kw1k",
+              "name": "Opsgenie Alert Flow",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "svtqtkj9slxm",
+              "name": "Opsgenie Incident Flow",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "8q1197ln8wz6",
+              "name": "Opsgenie Alert Flow",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "7rq3yg76vvbc",
+              "name": "Automation for Jira",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "6vlshpbyx93m",
+              "name": "Assist",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "qsrwhyv0jyvk",
           "status": "investigating",
