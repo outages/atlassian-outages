@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-03-23T10:02:22.635Z"
+    "updated_at": "2025-03-24T01:14:02.826Z"
   },
   "components": [
     {
@@ -818,21 +818,21 @@
       "name": "Scheduled maintenance of Forge SQL Cluster",
       "status": "scheduled",
       "created_at": "2025-03-21T04:04:21.246Z",
-      "updated_at": "2025-03-21T04:04:21.314Z",
+      "updated_at": "2025-03-24T01:14:02.822Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
       "shortlink": "https://stspg.io/fby45vsz9n2n",
-      "started_at": "2025-03-21T04:04:21.237Z",
+      "started_at": "2025-03-21T04:04:21.310Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
         {
           "id": "57jfypvgll2n",
           "status": "scheduled",
-          "body": "Forge SQL cluster will be upgraded during a routine maintenance window. During this time, control plane operations, such as fresh installations or upgrade of an app that uses SQL capability,  may fail intermittently.\n\nData plane operations such as SQL queries will continue to work as normal.\n\nOther Forge storage capabilities will not be impacted during this maintenance window.",
+          "body": "Forge SQL cluster will be upgraded during a routine maintenance window. During this time, control plane operations, such as fresh installations or upgrade of an app that uses SQL capability, may fail intermittently. The upgrade will be applied between 21:00 and 21:30 (UTC) on 24th March, 2025.\n\nData plane operations such as SQL queries will continue to work as normal.\n\nOther Forge storage capabilities will not be impacted during this maintenance window.",
           "incident_id": "kkc3m0xgwlh9",
           "created_at": "2025-03-21T04:04:21.310Z",
-          "updated_at": "2025-03-21T04:04:21.310Z",
+          "updated_at": "2025-03-24T01:14:02.739Z",
           "display_at": "2025-03-21T04:04:21.310Z",
           "affected_components": [
             {
