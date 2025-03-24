@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-03-24T20:00:28.389Z"
+    "updated_at": "2025-03-24T21:00:21.983Z"
   },
   "components": [
     {
@@ -109,7 +109,7 @@
     {
       "id": "73bt63kd5q9k",
       "name": "Developer",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-02-01T17:21:34.889Z",
       "updated_at": "2019-05-02T04:22:45.333Z",
       "position": 2,
@@ -798,9 +798,9 @@
     {
       "id": "x0g7r7xx1rs2",
       "name": "Forge SQL",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2025-03-21T04:02:49.283Z",
-      "updated_at": "2025-03-21T04:02:49.283Z",
+      "updated_at": "2025-03-24T21:00:21.899Z",
       "position": 18,
       "description": "SQL capability that powers the control plane and data plane operations for Forge SQL",
       "showcase": false,
@@ -816,9 +816,9 @@
     {
       "id": "kkc3m0xgwlh9",
       "name": "Scheduled maintenance of Forge SQL Cluster",
-      "status": "scheduled",
+      "status": "in_progress",
       "created_at": "2025-03-21T04:04:21.246Z",
-      "updated_at": "2025-03-24T20:00:28.377Z",
+      "updated_at": "2025-03-24T21:00:21.968Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -826,6 +826,26 @@
       "started_at": "2025-03-21T04:04:21.310Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "wrb34zcs60r4",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "kkc3m0xgwlh9",
+          "created_at": "2025-03-24T21:00:21.962Z",
+          "updated_at": "2025-03-24T21:00:21.962Z",
+          "display_at": "2025-03-24T21:00:21.962Z",
+          "affected_components": [
+            {
+              "code": "x0g7r7xx1rs2",
+              "name": "Developer - Forge SQL",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "nwdnm095dzlv",
           "status": "scheduled",
@@ -864,9 +884,9 @@
         {
           "id": "x0g7r7xx1rs2",
           "name": "Forge SQL",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2025-03-21T04:02:49.283Z",
-          "updated_at": "2025-03-21T04:02:49.283Z",
+          "updated_at": "2025-03-24T21:00:21.899Z",
           "position": 18,
           "description": "SQL capability that powers the control plane and data plane operations for Forge SQL",
           "showcase": false,
@@ -882,7 +902,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
