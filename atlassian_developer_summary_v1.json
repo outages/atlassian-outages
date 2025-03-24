@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-03-24T21:00:21.983Z"
+    "updated_at": "2025-03-24T21:30:21.202Z"
   },
   "components": [
     {
@@ -109,7 +109,7 @@
     {
       "id": "73bt63kd5q9k",
       "name": "Developer",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-02-01T17:21:34.889Z",
       "updated_at": "2019-05-02T04:22:45.333Z",
       "position": 2,
@@ -798,9 +798,9 @@
     {
       "id": "x0g7r7xx1rs2",
       "name": "Forge SQL",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2025-03-21T04:02:49.283Z",
-      "updated_at": "2025-03-24T21:00:21.899Z",
+      "updated_at": "2025-03-24T21:30:21.134Z",
       "position": 18,
       "description": "SQL capability that powers the control plane and data plane operations for Forge SQL",
       "showcase": false,
@@ -812,97 +812,9 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "kkc3m0xgwlh9",
-      "name": "Scheduled maintenance of Forge SQL Cluster",
-      "status": "in_progress",
-      "created_at": "2025-03-21T04:04:21.246Z",
-      "updated_at": "2025-03-24T21:00:21.968Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/fby45vsz9n2n",
-      "started_at": "2025-03-21T04:04:21.310Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "wrb34zcs60r4",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "kkc3m0xgwlh9",
-          "created_at": "2025-03-24T21:00:21.962Z",
-          "updated_at": "2025-03-24T21:00:21.962Z",
-          "display_at": "2025-03-24T21:00:21.962Z",
-          "affected_components": [
-            {
-              "code": "x0g7r7xx1rs2",
-              "name": "Developer - Forge SQL",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "nwdnm095dzlv",
-          "status": "scheduled",
-          "body": "Maintenance will begin as scheduled in 60 minutes.",
-          "incident_id": "kkc3m0xgwlh9",
-          "created_at": "2025-03-24T20:00:28.214Z",
-          "updated_at": "2025-03-24T20:00:28.214Z",
-          "display_at": "2025-03-24T20:00:28.214Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "57jfypvgll2n",
-          "status": "scheduled",
-          "body": "Forge SQL cluster will be upgraded during a routine maintenance window. During this time, control plane operations, such as fresh installations or upgrade of an app that uses SQL capability, may fail intermittently. The upgrade will be applied between 21:00 and 21:30 (UTC) on 24th March, 2025.\n\nData plane operations such as SQL queries will continue to work as normal.\n\nOther Forge storage capabilities will not be impacted during this maintenance window.",
-          "incident_id": "kkc3m0xgwlh9",
-          "created_at": "2025-03-21T04:04:21.310Z",
-          "updated_at": "2025-03-24T01:14:02.739Z",
-          "display_at": "2025-03-21T04:04:21.310Z",
-          "affected_components": [
-            {
-              "code": "x0g7r7xx1rs2",
-              "name": "Developer - Forge SQL",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "x0g7r7xx1rs2",
-          "name": "Forge SQL",
-          "status": "under_maintenance",
-          "created_at": "2025-03-21T04:02:49.283Z",
-          "updated_at": "2025-03-24T21:00:21.899Z",
-          "position": 18,
-          "description": "SQL capability that powers the control plane and data plane operations for Forge SQL",
-          "showcase": false,
-          "start_date": "2025-03-21",
-          "group_id": "73bt63kd5q9k",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2025-03-24T21:00:00.000Z",
-      "scheduled_until": "2025-03-24T21:30:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
