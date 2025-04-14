@@ -4,7 +4,7 @@
     "name": "Confluence",
     "url": "https://confluence.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-04-13T21:40:58.781Z"
+    "updated_at": "2025-04-14T01:33:14.960Z"
   },
   "components": [
     {
@@ -117,7 +117,7 @@
       "name": "Administration",
       "status": "operational",
       "created_at": "2018-11-30T21:50:51.221Z",
-      "updated_at": "2025-04-04T06:37:28.317Z",
+      "updated_at": "2025-04-14T01:33:14.908Z",
       "position": 6,
       "description": "Site, space, and user administration",
       "showcase": false,
