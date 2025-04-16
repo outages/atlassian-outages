@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-04-16T19:34:22.258Z"
+    "updated_at": "2025-04-16T22:21:12.455Z"
   },
   "components": [
     {
@@ -194,7 +194,7 @@
       "name": "Users experiencing issues loading some Dashboard widgets in Jira",
       "status": "identified",
       "created_at": "2025-04-16T11:46:39.492Z",
-      "updated_at": "2025-04-16T19:00:39.409Z",
+      "updated_at": "2025-04-16T22:21:12.444Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -202,6 +202,26 @@
       "started_at": "2025-04-16T11:46:39.485Z",
       "page_id": "pv54g7ltsc24",
       "incident_updates": [
+        {
+          "id": "z54sz42vdkgc",
+          "status": "identified",
+          "body": "We continue to work on resolving the issue with loading certain Jira Dashboard widgets for for Jira Work Management, Jira Service Management, Jira, and Jira Product Discovery. We have identified the root cause and are currently deploying fixes. We expect to complete the deployments by 23:00 UTC.",
+          "incident_id": "2cq3pg21dfyp",
+          "created_at": "2025-04-16T22:21:12.441Z",
+          "updated_at": "2025-04-16T22:21:12.441Z",
+          "display_at": "2025-04-16T22:21:12.441Z",
+          "affected_components": [
+            {
+              "code": "4kcs01hbh4l6",
+              "name": "Jira Service Management Web",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "65rmj8ytjk4h",
           "status": "identified",
