@@ -4,7 +4,7 @@
     "name": "Guard",
     "url": "https://guard.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-04-22T21:16:44.177Z"
+    "updated_at": "2025-04-22T21:34:27.102Z"
   },
   "components": [
     {
@@ -152,36 +152,6 @@
       "description": "Includes user API tokens and admin API keys",
       "showcase": true,
       "start_date": "2023-12-12",
-      "group_id": null,
-      "page_id": "5qmgwsxwsz78",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "3bpxlfs72598",
-      "name": "View Products",
-      "status": "operational",
-      "created_at": "2025-04-22T00:16:33.032Z",
-      "updated_at": "2025-04-22T21:16:44.170Z",
-      "position": 8,
-      "description": "Viewing Products and Apps in Atlassian Administration",
-      "showcase": false,
-      "start_date": "2025-04-22",
-      "group_id": null,
-      "page_id": "5qmgwsxwsz78",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "8svhj8yzg4rw",
-      "name": "Workspace Creation",
-      "status": "operational",
-      "created_at": "2025-04-22T00:18:34.800Z",
-      "updated_at": "2025-04-22T20:44:52.938Z",
-      "position": 9,
-      "description": "This component is used by admin hub (https://admin.atlassian.com/) workspace creation. It is used whenever a new app is added by the user.",
-      "showcase": true,
-      "start_date": "2025-04-22",
       "group_id": null,
       "page_id": "5qmgwsxwsz78",
       "group": false,
