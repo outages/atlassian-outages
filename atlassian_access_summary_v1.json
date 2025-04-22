@@ -4,7 +4,7 @@
     "name": "Guard",
     "url": "https://guard.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-04-21T20:55:55.211Z"
+    "updated_at": "2025-04-22T00:21:05.848Z"
   },
   "components": [
     {
@@ -176,6 +176,36 @@
         "bpqlwwx9dc0c",
         "rpr03y2g1hq6"
       ]
+    },
+    {
+      "id": "3bpxlfs72598",
+      "name": "View Portfolio",
+      "status": "operational",
+      "created_at": "2025-04-22T00:16:33.032Z",
+      "updated_at": "2025-04-22T00:16:33.032Z",
+      "position": 11,
+      "description": "This component is used by Admin Hub (https://admin.atlassian.com/) and allows users to see their apps and workspaces",
+      "showcase": true,
+      "start_date": "2025-04-22",
+      "group_id": null,
+      "page_id": "5qmgwsxwsz78",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "8svhj8yzg4rw",
+      "name": "Workspace Creation",
+      "status": "operational",
+      "created_at": "2025-04-22T00:18:34.800Z",
+      "updated_at": "2025-04-22T00:18:34.800Z",
+      "position": 12,
+      "description": "This component is used by admin hub (https://admin.atlassian.com/) workspace creation. It is used whenever a new app is added by the user.",
+      "showcase": true,
+      "start_date": "2025-04-22",
+      "group_id": null,
+      "page_id": "5qmgwsxwsz78",
+      "group": false,
+      "only_show_if_degraded": false
     }
   ],
   "incidents": [],
