@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-04-28T12:55:40.290Z"
+    "updated_at": "2025-04-28T13:42:36.098Z"
   },
   "components": [
     {
@@ -49,9 +49,9 @@
     {
       "id": "mlr76v811c20",
       "name": "App listing management",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:46:24.130Z",
-      "updated_at": "2025-04-28T12:55:40.063Z",
+      "updated_at": "2025-04-28T13:42:35.933Z",
       "position": 1,
       "description": "The ability to manage app listings on https://marketplace.atlassian.com",
       "showcase": true,
@@ -64,9 +64,9 @@
     {
       "id": "wzmg8phvmrwh",
       "name": "App Deployment",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2021-03-23T12:00:27.385Z",
-      "updated_at": "2025-04-28T12:55:40.090Z",
+      "updated_at": "2025-04-28T13:42:35.951Z",
       "position": 1,
       "description": null,
       "showcase": true,
@@ -109,7 +109,7 @@
     {
       "id": "73bt63kd5q9k",
       "name": "Developer",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:21:34.889Z",
       "updated_at": "2019-05-02T04:22:45.333Z",
       "position": 2,
@@ -204,9 +204,9 @@
     {
       "id": "ccbm394hy8pk",
       "name": "Create and manage apps",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:21:34.902Z",
-      "updated_at": "2025-04-28T12:55:40.113Z",
+      "updated_at": "2025-04-28T13:42:35.968Z",
       "position": 3,
       "description": "The ability to create and manage apps at https://developer.atlassian.com/apps",
       "showcase": true,
@@ -234,7 +234,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -408,9 +408,9 @@
     {
       "id": "vb9xhz9z6zbp",
       "name": "Forge App Installation",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2021-03-23T11:55:32.639Z",
-      "updated_at": "2025-04-28T12:55:40.136Z",
+      "updated_at": "2025-04-28T13:42:35.984Z",
       "position": 5,
       "description": "Installation of Forge apps",
       "showcase": true,
@@ -483,9 +483,9 @@
     {
       "id": "3t1y6724xl8q",
       "name": "In-product Marketplace and app installation (Cloud)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2013-12-03T00:45:39.973Z",
-      "updated_at": "2025-04-28T12:55:40.157Z",
+      "updated_at": "2025-04-28T13:42:36.001Z",
       "position": 7,
       "description": "The ability to discover, install, and manage apps inside of Atlassian's Cloud products (Jira, Confluence, Stride, Bitbucket)",
       "showcase": true,
@@ -648,9 +648,9 @@
     {
       "id": "khz72mns34gk",
       "name": "Developer console",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2021-07-09T01:52:46.683Z",
-      "updated_at": "2025-04-28T12:55:40.182Z",
+      "updated_at": "2025-04-28T13:42:36.018Z",
       "position": 11,
       "description": "Reliability of https://developer.atlassian.com/console",
       "showcase": true,
@@ -708,9 +708,9 @@
     {
       "id": "9nthl2bkwn0x",
       "name": "Hosted storage",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2022-09-14T05:38:04.594Z",
-      "updated_at": "2025-04-28T12:55:40.206Z",
+      "updated_at": "2025-04-28T13:42:36.035Z",
       "position": 13,
       "description": "Atlassian hosted storage for hosted and remote compute.",
       "showcase": true,
@@ -738,9 +738,9 @@
     {
       "id": "l30t53hv9z8z",
       "name": "Forge CLI",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2022-10-18T22:30:09.575Z",
-      "updated_at": "2025-04-28T12:55:40.228Z",
+      "updated_at": "2025-04-28T13:42:36.053Z",
       "position": 14,
       "description": null,
       "showcase": true,
@@ -815,16 +815,78 @@
     {
       "id": "fvtwr2c4mpg1",
       "name": "Management of Apps is partially unavailable on different platforms",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2025-04-28T11:59:18.605Z",
-      "updated_at": "2025-04-28T12:55:40.280Z",
-      "monitoring_at": null,
+      "updated_at": "2025-04-28T13:42:36.096Z",
+      "monitoring_at": "2025-04-28T13:42:36.081Z",
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/dw2w358wsjbg",
       "started_at": "2025-04-28T11:59:18.598Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "kdk2j6q8sfwm",
+          "status": "monitoring",
+          "body": "The issues causing the unavailability of related Forge apps capabilities on multiple Atlassian platforms have been resolved, and services are now operating normally for all impacted customers. We will continue to closely monitor for stability.",
+          "incident_id": "fvtwr2c4mpg1",
+          "created_at": "2025-04-28T13:42:36.081Z",
+          "updated_at": "2025-04-28T13:42:36.081Z",
+          "display_at": "2025-04-28T13:42:36.081Z",
+          "affected_components": [
+            {
+              "code": "wzmg8phvmrwh",
+              "name": "Developer - App Deployment",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "ccbm394hy8pk",
+              "name": "Developer - Create and manage apps",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "vb9xhz9z6zbp",
+              "name": "Developer - Forge App Installation",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "khz72mns34gk",
+              "name": "Developer - Developer console",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "9nthl2bkwn0x",
+              "name": "Developer - Hosted storage",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "l30t53hv9z8z",
+              "name": "Developer - Forge CLI",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "mlr76v811c20",
+              "name": "Marketplace - App listing management",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "3t1y6724xl8q",
+              "name": "Marketplace - In-product Marketplace and app installation (Cloud)",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "2f3gctr11css",
           "status": "identified",
@@ -905,9 +967,9 @@
         {
           "id": "mlr76v811c20",
           "name": "App listing management",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2018-02-01T17:46:24.130Z",
-          "updated_at": "2025-04-28T12:55:40.063Z",
+          "updated_at": "2025-04-28T13:42:35.933Z",
           "position": 1,
           "description": "The ability to manage app listings on https://marketplace.atlassian.com",
           "showcase": true,
@@ -920,9 +982,9 @@
         {
           "id": "wzmg8phvmrwh",
           "name": "App Deployment",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2021-03-23T12:00:27.385Z",
-          "updated_at": "2025-04-28T12:55:40.090Z",
+          "updated_at": "2025-04-28T13:42:35.951Z",
           "position": 1,
           "description": null,
           "showcase": true,
@@ -935,9 +997,9 @@
         {
           "id": "ccbm394hy8pk",
           "name": "Create and manage apps",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2018-02-01T17:21:34.902Z",
-          "updated_at": "2025-04-28T12:55:40.113Z",
+          "updated_at": "2025-04-28T13:42:35.968Z",
           "position": 3,
           "description": "The ability to create and manage apps at https://developer.atlassian.com/apps",
           "showcase": true,
@@ -950,9 +1012,9 @@
         {
           "id": "vb9xhz9z6zbp",
           "name": "Forge App Installation",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2021-03-23T11:55:32.639Z",
-          "updated_at": "2025-04-28T12:55:40.136Z",
+          "updated_at": "2025-04-28T13:42:35.984Z",
           "position": 5,
           "description": "Installation of Forge apps",
           "showcase": true,
@@ -965,9 +1027,9 @@
         {
           "id": "3t1y6724xl8q",
           "name": "In-product Marketplace and app installation (Cloud)",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2013-12-03T00:45:39.973Z",
-          "updated_at": "2025-04-28T12:55:40.157Z",
+          "updated_at": "2025-04-28T13:42:36.001Z",
           "position": 7,
           "description": "The ability to discover, install, and manage apps inside of Atlassian's Cloud products (Jira, Confluence, Stride, Bitbucket)",
           "showcase": true,
@@ -980,9 +1042,9 @@
         {
           "id": "khz72mns34gk",
           "name": "Developer console",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2021-07-09T01:52:46.683Z",
-          "updated_at": "2025-04-28T12:55:40.182Z",
+          "updated_at": "2025-04-28T13:42:36.018Z",
           "position": 11,
           "description": "Reliability of https://developer.atlassian.com/console",
           "showcase": true,
@@ -995,9 +1057,9 @@
         {
           "id": "9nthl2bkwn0x",
           "name": "Hosted storage",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2022-09-14T05:38:04.594Z",
-          "updated_at": "2025-04-28T12:55:40.206Z",
+          "updated_at": "2025-04-28T13:42:36.035Z",
           "position": 13,
           "description": "Atlassian hosted storage for hosted and remote compute.",
           "showcase": true,
@@ -1010,9 +1072,9 @@
         {
           "id": "l30t53hv9z8z",
           "name": "Forge CLI",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2022-10-18T22:30:09.575Z",
-          "updated_at": "2025-04-28T12:55:40.228Z",
+          "updated_at": "2025-04-28T13:42:36.053Z",
           "position": 14,
           "description": null,
           "showcase": true,
@@ -1028,7 +1090,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
