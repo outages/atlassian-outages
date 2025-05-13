@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-05-13T00:06:19.177Z"
+    "updated_at": "2025-05-13T02:03:42.115Z"
   },
   "components": [
     {
@@ -49,9 +49,9 @@
     {
       "id": "mlr76v811c20",
       "name": "App listing management",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-02-01T17:46:24.130Z",
-      "updated_at": "2025-04-28T13:42:35.933Z",
+      "updated_at": "2025-05-13T02:03:42.068Z",
       "position": 1,
       "description": "The ability to manage app listings on https://marketplace.atlassian.com",
       "showcase": true,
@@ -817,7 +817,7 @@
       "name": "Scopes information is missing in newly created versions of Connect apps on Marketplace",
       "status": "identified",
       "created_at": "2025-05-12T14:54:02.357Z",
-      "updated_at": "2025-05-12T18:35:28.308Z",
+      "updated_at": "2025-05-13T02:03:42.105Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -825,6 +825,32 @@
       "started_at": "2025-05-12T14:54:02.349Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "v0pxqh8xxlrz",
+          "status": "identified",
+          "body": "App versions data has been fixed to add the scopes from descriptor file. Correct values are appearing in all the impacted places for Customers.\nThe impacted versions are not editable at the moment, we're fixing the issue. And fixing the version release notes as well to remove the comment about removing scopes.\nPlease expect the next update in 3 hours.",
+          "incident_id": "zsp5qq2798nj",
+          "created_at": "2025-05-13T02:03:42.103Z",
+          "updated_at": "2025-05-13T02:03:42.103Z",
+          "display_at": "2025-05-13T02:03:42.103Z",
+          "affected_components": [
+            {
+              "code": "mlr76v811c20",
+              "name": "Marketplace - App listing management",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "g04n852g3nt6",
+              "name": "Marketplace - App listings",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "xc23bn1wxjwg",
           "status": "identified",
@@ -887,6 +913,21 @@
         }
       ],
       "components": [
+        {
+          "id": "mlr76v811c20",
+          "name": "App listing management",
+          "status": "degraded_performance",
+          "created_at": "2018-02-01T17:46:24.130Z",
+          "updated_at": "2025-05-13T02:03:42.068Z",
+          "position": 1,
+          "description": "The ability to manage app listings on https://marketplace.atlassian.com",
+          "showcase": true,
+          "start_date": null,
+          "group_id": "d0m8l367qqw5",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        },
         {
           "id": "g04n852g3nt6",
           "name": "App listings",
