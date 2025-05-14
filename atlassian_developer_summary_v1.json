@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-05-14T08:55:46.282Z"
+    "updated_at": "2025-05-14T10:07:12.416Z"
   },
   "components": [
     {
@@ -817,22 +817,22 @@
       "name": "Small percentage of Errors in Forge Runtime in EU Central (Europe), AP South (Asia Pacific) and CA Central (Canada)",
       "status": "identified",
       "created_at": "2025-05-14T00:03:24.931Z",
-      "updated_at": "2025-05-14T08:51:59.061Z",
+      "updated_at": "2025-05-14T10:07:12.411Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/264pcx0qtn7f",
-      "started_at": "2025-05-14T00:03:24.919Z",
+      "started_at": "2025-05-14T00:03:25.000Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
         {
           "id": "v8vpjym92gs6",
           "status": "identified",
-          "body": "We are working on the fix. We are currently redeploying the apps which had the error. In the meantime if you are experiencing Forge invocations 'unhandled exception error' in the Developer Console, please re-deploy your apps which should rectify the issue in the meantime.",
+          "body": "We are working on the fix. We are currently redeploying the apps which had the error. In the meantime if you are experiencing Forge invocations 'unhandled exception error' in the Developer Console, please re-deploy your apps which should rectify the issue.",
           "incident_id": "5vnjgm7cq9f0",
           "created_at": "2025-05-14T08:31:46.854Z",
-          "updated_at": "2025-05-14T08:31:46.854Z",
-          "display_at": "2025-05-14T08:31:46.854Z",
+          "updated_at": "2025-05-14T10:07:12.294Z",
+          "display_at": "2025-05-14T08:31:46.000Z",
           "affected_components": [
             {
               "code": "pgqd9x4jl520",
