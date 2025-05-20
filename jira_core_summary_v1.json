@@ -4,15 +4,15 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-05-20T10:36:05.245Z"
+    "updated_at": "2025-05-20T14:14:42.846Z"
   },
   "components": [
     {
       "id": "l4fp2xkkygv4",
       "name": "Viewing content",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-11-16T18:17:29.270Z",
-      "updated_at": "2025-04-16T22:57:31.540Z",
+      "updated_at": "2025-05-20T14:14:42.606Z",
       "position": 1,
       "description": "Problems viewing issues, dashboards, boards, reports, etc.",
       "showcase": false,
@@ -25,9 +25,9 @@
     {
       "id": "dwt504s3m4c1",
       "name": "Create and edit",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-11-16T18:17:29.284Z",
-      "updated_at": "2025-03-24T17:56:48.730Z",
+      "updated_at": "2025-05-20T14:14:42.625Z",
       "position": 2,
       "description": "Problems creating or editing issues, projects, boards, reports, dashboards and the ability to comment, assign, and attach media.",
       "showcase": false,
@@ -40,9 +40,9 @@
     {
       "id": "wn1gfxqd25rr",
       "name": "Authentication and User Management",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-05-02T04:26:34.383Z",
-      "updated_at": "2025-03-19T19:12:26.499Z",
+      "updated_at": "2025-05-20T14:14:42.644Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -55,9 +55,9 @@
     {
       "id": "c13948qkh0kk",
       "name": "Search",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-01-23T17:04:57.213Z",
-      "updated_at": "2025-03-19T19:12:26.517Z",
+      "updated_at": "2025-05-20T14:14:42.662Z",
       "position": 4,
       "description": "Problems with JQL or quick search",
       "showcase": false,
@@ -70,9 +70,9 @@
     {
       "id": "5436s7p7v28b",
       "name": "Notifications",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-01-23T17:05:14.913Z",
-      "updated_at": "2025-03-19T19:12:26.536Z",
+      "updated_at": "2025-05-20T14:14:42.681Z",
       "position": 5,
       "description": "Email and in-web-app notifications",
       "showcase": false,
@@ -85,9 +85,9 @@
     {
       "id": "mfs4w2r40sf7",
       "name": "Administration",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-01-23T17:06:39.034Z",
-      "updated_at": "2025-04-14T01:33:14.901Z",
+      "updated_at": "2025-05-20T14:14:42.702Z",
       "position": 6,
       "description": "Viewing and editing \"site\" and \"Jira\" adminstration",
       "showcase": false,
@@ -100,9 +100,9 @@
     {
       "id": "66v4z7zq30yc",
       "name": "Marketplace",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-01-23T17:06:59.587Z",
-      "updated_at": "2025-04-28T13:42:35.732Z",
+      "updated_at": "2025-05-20T14:14:42.722Z",
       "position": 7,
       "description": "Installing and managing apps. For the status of Marketplace Developer tools, please visit status.developer.atlassian.com",
       "showcase": false,
@@ -115,9 +115,9 @@
     {
       "id": "zpkm3xb02d55",
       "name": "Mobile",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-01-23T17:07:15.960Z",
-      "updated_at": "2025-03-19T19:12:26.590Z",
+      "updated_at": "2025-05-20T14:14:42.741Z",
       "position": 8,
       "description": "Covers any problems specific to native iOS or Android mobile apps.",
       "showcase": false,
@@ -130,9 +130,9 @@
     {
       "id": "kw083hgnjrkf",
       "name": "Purchasing & Licensing",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-04-28T00:50:08.412Z",
-      "updated_at": "2025-03-19T19:12:26.607Z",
+      "updated_at": "2025-05-20T14:14:42.760Z",
       "position": 9,
       "description": null,
       "showcase": false,
@@ -145,9 +145,9 @@
     {
       "id": "y9tv8pscq9rj",
       "name": "Signup",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-10-09T20:43:13.570Z",
-      "updated_at": "2025-03-19T19:12:26.626Z",
+      "updated_at": "2025-05-20T14:14:42.776Z",
       "position": 10,
       "description": null,
       "showcase": false,
@@ -160,9 +160,9 @@
     {
       "id": "g05jhcg0y7yw",
       "name": "Automation for Jira",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-12-23T01:39:53.397Z",
-      "updated_at": "2025-04-23T23:35:09.606Z",
+      "updated_at": "2025-05-20T14:14:42.795Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -173,7 +173,271 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "8dx6xd4fdmvq",
+      "name": "All Jira products experiencing degradations",
+      "status": "investigating",
+      "created_at": "2025-05-20T14:14:42.535Z",
+      "updated_at": "2025-05-20T14:14:42.842Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/qzdy267z6tpv",
+      "started_at": "2025-05-20T14:14:42.521Z",
+      "page_id": "s6f0gm5gcpmy",
+      "incident_updates": [
+        {
+          "id": "ypykcpnxds7t",
+          "status": "investigating",
+          "body": "We are investigating cases of degraded performance for all Jira Work Management, Jira Service Management, Jira, and Jira Product Discovery Cloud customers. We will provide more details within the next hour.",
+          "incident_id": "8dx6xd4fdmvq",
+          "created_at": "2025-05-20T14:14:42.839Z",
+          "updated_at": "2025-05-20T14:14:42.839Z",
+          "display_at": "2025-05-20T14:14:42.839Z",
+          "affected_components": [
+            {
+              "code": "l4fp2xkkygv4",
+              "name": "Viewing content",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "dwt504s3m4c1",
+              "name": "Create and edit",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "c13948qkh0kk",
+              "name": "Search",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "5436s7p7v28b",
+              "name": "Notifications",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "mfs4w2r40sf7",
+              "name": "Administration",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "66v4z7zq30yc",
+              "name": "Marketplace",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "zpkm3xb02d55",
+              "name": "Mobile",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "wn1gfxqd25rr",
+              "name": "Authentication and User Management",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "kw083hgnjrkf",
+              "name": "Purchasing & Licensing",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "y9tv8pscq9rj",
+              "name": "Signup",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "g05jhcg0y7yw",
+              "name": "Automation for Jira",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "l4fp2xkkygv4",
+          "name": "Viewing content",
+          "status": "degraded_performance",
+          "created_at": "2018-11-16T18:17:29.270Z",
+          "updated_at": "2025-05-20T14:14:42.606Z",
+          "position": 1,
+          "description": "Problems viewing issues, dashboards, boards, reports, etc.",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "s6f0gm5gcpmy",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "dwt504s3m4c1",
+          "name": "Create and edit",
+          "status": "degraded_performance",
+          "created_at": "2018-11-16T18:17:29.284Z",
+          "updated_at": "2025-05-20T14:14:42.625Z",
+          "position": 2,
+          "description": "Problems creating or editing issues, projects, boards, reports, dashboards and the ability to comment, assign, and attach media.",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "s6f0gm5gcpmy",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "wn1gfxqd25rr",
+          "name": "Authentication and User Management",
+          "status": "degraded_performance",
+          "created_at": "2019-05-02T04:26:34.383Z",
+          "updated_at": "2025-05-20T14:14:42.644Z",
+          "position": 3,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "s6f0gm5gcpmy",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "c13948qkh0kk",
+          "name": "Search",
+          "status": "degraded_performance",
+          "created_at": "2019-01-23T17:04:57.213Z",
+          "updated_at": "2025-05-20T14:14:42.662Z",
+          "position": 4,
+          "description": "Problems with JQL or quick search",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "s6f0gm5gcpmy",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "5436s7p7v28b",
+          "name": "Notifications",
+          "status": "degraded_performance",
+          "created_at": "2019-01-23T17:05:14.913Z",
+          "updated_at": "2025-05-20T14:14:42.681Z",
+          "position": 5,
+          "description": "Email and in-web-app notifications",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "s6f0gm5gcpmy",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "mfs4w2r40sf7",
+          "name": "Administration",
+          "status": "degraded_performance",
+          "created_at": "2019-01-23T17:06:39.034Z",
+          "updated_at": "2025-05-20T14:14:42.702Z",
+          "position": 6,
+          "description": "Viewing and editing \"site\" and \"Jira\" adminstration",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "s6f0gm5gcpmy",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "66v4z7zq30yc",
+          "name": "Marketplace",
+          "status": "degraded_performance",
+          "created_at": "2019-01-23T17:06:59.587Z",
+          "updated_at": "2025-05-20T14:14:42.722Z",
+          "position": 7,
+          "description": "Installing and managing apps. For the status of Marketplace Developer tools, please visit status.developer.atlassian.com",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "s6f0gm5gcpmy",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "zpkm3xb02d55",
+          "name": "Mobile",
+          "status": "degraded_performance",
+          "created_at": "2019-01-23T17:07:15.960Z",
+          "updated_at": "2025-05-20T14:14:42.741Z",
+          "position": 8,
+          "description": "Covers any problems specific to native iOS or Android mobile apps.",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "s6f0gm5gcpmy",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "kw083hgnjrkf",
+          "name": "Purchasing & Licensing",
+          "status": "degraded_performance",
+          "created_at": "2020-04-28T00:50:08.412Z",
+          "updated_at": "2025-05-20T14:14:42.760Z",
+          "position": 9,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "s6f0gm5gcpmy",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "y9tv8pscq9rj",
+          "name": "Signup",
+          "status": "degraded_performance",
+          "created_at": "2020-10-09T20:43:13.570Z",
+          "updated_at": "2025-05-20T14:14:42.776Z",
+          "position": 10,
+          "description": null,
+          "showcase": false,
+          "start_date": "2020-10-09",
+          "group_id": null,
+          "page_id": "s6f0gm5gcpmy",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "g05jhcg0y7yw",
+          "name": "Automation for Jira",
+          "status": "degraded_performance",
+          "created_at": "2020-12-23T01:39:53.397Z",
+          "updated_at": "2025-05-20T14:14:42.795Z",
+          "position": 11,
+          "description": null,
+          "showcase": false,
+          "start_date": "2020-12-23",
+          "group_id": null,
+          "page_id": "s6f0gm5gcpmy",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [
     {
       "id": "6b78fw6ddltz",
@@ -234,7 +498,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
