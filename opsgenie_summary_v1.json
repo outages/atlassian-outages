@@ -4,13 +4,13 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-06-04T11:21:18.932Z"
+    "updated_at": "2025-06-04T17:17:40.201Z"
   },
   "components": [
     {
       "id": "jzqq334r65mx",
       "name": "US",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-02-12T13:47:31.055Z",
       "updated_at": "2019-03-15T08:16:16.977Z",
       "position": 1,
@@ -79,7 +79,7 @@
     {
       "id": "k7gyfk44wrsr",
       "name": "EU",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-02-12T13:47:54.389Z",
       "updated_at": "2019-02-12T13:47:54.389Z",
       "position": 2,
@@ -148,9 +148,9 @@
     {
       "id": "7gksbx75r5rn",
       "name": "Email Notification Delivery",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-03-15T08:09:44.195Z",
-      "updated_at": "2024-07-04T00:36:13.972Z",
+      "updated_at": "2025-06-04T17:17:40.139Z",
       "position": 3,
       "description": null,
       "showcase": true,
@@ -163,9 +163,9 @@
     {
       "id": "zv3xlkn13rqs",
       "name": "Email Notification Delivery",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-03-15T08:10:32.965Z",
-      "updated_at": "2024-07-04T00:36:13.985Z",
+      "updated_at": "2025-06-04T17:17:40.158Z",
       "position": 3,
       "description": null,
       "showcase": true,
@@ -761,10 +761,85 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "x810xpf1vwhs",
+      "name": "Customers may experience delays or failures receiving emails",
+      "status": "investigating",
+      "created_at": "2025-06-04T17:17:40.101Z",
+      "updated_at": "2025-06-04T17:17:40.199Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/dcbvy03vkk4m",
+      "started_at": "2025-06-04T17:17:40.089Z",
+      "page_id": "t05vdsszxwtq",
+      "incident_updates": [
+        {
+          "id": "klfz1hm6spbz",
+          "status": "investigating",
+          "body": "We were experiencing cases of degraded performance for outgoing emails from Confluence, Jira Work Management, Jira Service Management, Jira, Opsgenie, Trello, Atlassian Bitbucket, Guard, Jira Align, Jira Product Discovery, Atlas, Compass, and Loom Cloud customers. The system is recovering and mail is being processed normally as of 16:45 UTC. We will continue to monitor system performance and will provide more details within the next hour.",
+          "incident_id": "x810xpf1vwhs",
+          "created_at": "2025-06-04T17:17:40.196Z",
+          "updated_at": "2025-06-04T17:17:40.196Z",
+          "display_at": "2025-06-04T17:17:40.196Z",
+          "affected_components": [
+            {
+              "code": "7gksbx75r5rn",
+              "name": "US - Email Notification Delivery",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "zv3xlkn13rqs",
+              "name": "EU - Email Notification Delivery",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "7gksbx75r5rn",
+          "name": "Email Notification Delivery",
+          "status": "partial_outage",
+          "created_at": "2019-03-15T08:09:44.195Z",
+          "updated_at": "2025-06-04T17:17:40.139Z",
+          "position": 3,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": "jzqq334r65mx",
+          "page_id": "t05vdsszxwtq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "zv3xlkn13rqs",
+          "name": "Email Notification Delivery",
+          "status": "partial_outage",
+          "created_at": "2019-03-15T08:10:32.965Z",
+          "updated_at": "2025-06-04T17:17:40.158Z",
+          "position": 3,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": "k7gyfk44wrsr",
+          "page_id": "t05vdsszxwtq",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }

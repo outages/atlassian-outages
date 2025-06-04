@@ -4,7 +4,7 @@
     "name": "Jira Align",
     "url": "https://jira-align.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-06-04T14:25:53.734Z"
+    "updated_at": "2025-06-04T17:17:40.624Z"
   },
   "components": [
     {
@@ -998,7 +998,38 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "0rvbthp8vr6x",
+      "name": "Customers may experience delays or failures receiving emails",
+      "status": "investigating",
+      "created_at": "2025-06-04T17:17:40.580Z",
+      "updated_at": "2025-06-04T17:17:40.622Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/8w18sbgbbv3g",
+      "started_at": "2025-06-04T17:17:40.573Z",
+      "page_id": "jrg4crndtsgz",
+      "incident_updates": [
+        {
+          "id": "2jswy89nmgzr",
+          "status": "investigating",
+          "body": "We were experiencing cases of degraded performance for outgoing emails from Confluence, Jira Work Management, Jira Service Management, Jira, Opsgenie, Trello, Atlassian Bitbucket, Guard, Jira Align, Jira Product Discovery, Atlas, Compass, and Loom Cloud customers. The system is recovering and mail is being processed normally as of 16:45 UTC. We will continue to monitor system performance and will provide more details within the next hour.",
+          "incident_id": "0rvbthp8vr6x",
+          "created_at": "2025-06-04T17:17:40.619Z",
+          "updated_at": "2025-06-04T17:17:40.619Z",
+          "display_at": "2025-06-04T17:17:40.619Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
