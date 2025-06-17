@@ -4,15 +4,15 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-06-17T06:21:02.175Z"
+    "updated_at": "2025-06-17T08:20:34.278Z"
   },
   "components": [
     {
       "id": "kvtmh1phs3r9",
       "name": "Support Portal",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-11-16T18:04:38.980Z",
-      "updated_at": "2024-08-14T09:45:48.769Z",
+      "updated_at": "2025-06-17T08:10:49.657Z",
       "position": 1,
       "description": null,
       "showcase": true,
@@ -203,10 +203,84 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "mj1qvtk07klc",
+      "name": "Report of Customers not being able to view their Support requests on support.atlassian.com",
+      "status": "identified",
+      "created_at": "2025-06-17T08:10:49.620Z",
+      "updated_at": "2025-06-17T08:12:51.437Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/9c08xw62hswk",
+      "started_at": "2025-06-17T08:10:49.000Z",
+      "page_id": "3tbw4lb9t3qp",
+      "incident_updates": [
+        {
+          "id": "xn28qxw96rds",
+          "status": "identified",
+          "body": "The issue has been identified and a fix is being implemented.",
+          "incident_id": "mj1qvtk07klc",
+          "created_at": "2025-06-17T08:12:22.763Z",
+          "updated_at": "2025-06-17T08:12:22.763Z",
+          "display_at": "2025-06-17T08:12:22.763Z",
+          "affected_components": [
+            {
+              "code": "kvtmh1phs3r9",
+              "name": "Support Portal",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "b316llr9sbrk",
+          "status": "investigating",
+          "body": "We are investigating the issue",
+          "incident_id": "mj1qvtk07klc",
+          "created_at": "2025-06-17T08:10:49.704Z",
+          "updated_at": "2025-06-17T08:12:51.361Z",
+          "display_at": "2025-06-17T08:10:49.000Z",
+          "affected_components": [
+            {
+              "code": "kvtmh1phs3r9",
+              "name": "Support Portal",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "kvtmh1phs3r9",
+          "name": "Support Portal",
+          "status": "degraded_performance",
+          "created_at": "2018-11-16T18:04:38.980Z",
+          "updated_at": "2025-06-17T08:10:49.657Z",
+          "position": 1,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "3tbw4lb9t3qp",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
