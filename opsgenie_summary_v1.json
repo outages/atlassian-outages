@@ -4,7 +4,7 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-06-19T13:31:08.968Z"
+    "updated_at": "2025-06-19T15:21:43.120Z"
   },
   "components": [
     {
@@ -761,7 +761,38 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "zk7xwf8jjdwb",
+      "name": "Degraded performance in Opsgenie and JSM operations",
+      "status": "investigating",
+      "created_at": "2025-06-19T15:21:43.045Z",
+      "updated_at": "2025-06-19T15:21:43.115Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/j8nkysk8frfv",
+      "started_at": "2025-06-19T15:21:43.031Z",
+      "page_id": "t05vdsszxwtq",
+      "incident_updates": [
+        {
+          "id": "0b9f07465tb8",
+          "status": "investigating",
+          "body": "We are investigating degraded performance issues in Jira Service Management, Opsgenie, and Compass Cloud customers. We will provide more details within the next hour.",
+          "incident_id": "zk7xwf8jjdwb",
+          "created_at": "2025-06-19T15:21:43.111Z",
+          "updated_at": "2025-06-19T15:21:43.111Z",
+          "display_at": "2025-06-19T15:21:43.111Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
