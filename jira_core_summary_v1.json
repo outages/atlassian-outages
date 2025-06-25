@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-06-25T10:20:33.488Z"
+    "updated_at": "2025-06-25T10:41:39.153Z"
   },
   "components": [
     {
@@ -177,16 +177,56 @@
     {
       "id": "cc7xdxs18hh4",
       "name": "Issues affecting user syncing, Atlassian Administration",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2025-06-25T09:38:44.008Z",
-      "updated_at": "2025-06-25T09:38:44.102Z",
-      "monitoring_at": null,
+      "updated_at": "2025-06-25T10:41:39.151Z",
+      "monitoring_at": "2025-06-25T10:41:39.133Z",
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/y766c7s39q2b",
       "started_at": "2025-06-25T09:38:44.000Z",
       "page_id": "s6f0gm5gcpmy",
       "incident_updates": [
+        {
+          "id": "fvb9zhjbd8wg",
+          "status": "monitoring",
+          "body": "We have identified the root cause of the issue and have mitigated the problem. We are now monitoring closely.",
+          "incident_id": "cc7xdxs18hh4",
+          "created_at": "2025-06-25T10:41:39.133Z",
+          "updated_at": "2025-06-25T10:41:39.133Z",
+          "display_at": "2025-06-25T10:41:39.133Z",
+          "affected_components": [
+            {
+              "code": "mfs4w2r40sf7",
+              "name": "Administration",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "97vw36843jpw",
+          "status": "identified",
+          "body": "We continue to work on resolving the user syncing functionality for Confluence, Jira Work Management, Jira Service Management, Jira, Trello, and Guard. We have identified the root cause and expect recovery shortly.",
+          "incident_id": "cc7xdxs18hh4",
+          "created_at": "2025-06-25T10:21:47.250Z",
+          "updated_at": "2025-06-25T10:21:47.250Z",
+          "display_at": "2025-06-25T10:21:47.250Z",
+          "affected_components": [
+            {
+              "code": "mfs4w2r40sf7",
+              "name": "Administration",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "l65l9rtbxj4h",
           "status": "investigating",
