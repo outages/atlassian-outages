@@ -4,15 +4,15 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2025-07-15T01:17:52.669-04:00"
+    "updated_at": "2025-07-15T01:45:48.255-04:00"
   },
   "components": [
     {
       "id": "hsr3nvlz0k2l",
       "name": "Trello.com",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-01-24T12:50:55.839-05:00",
-      "updated_at": "2025-07-14T23:43:35.151-04:00",
+      "updated_at": "2025-07-15T01:45:48.117-04:00",
       "position": 1,
       "description": "Web client",
       "showcase": true,
@@ -25,9 +25,9 @@
     {
       "id": "y1nllgnkxn9d",
       "name": "API",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-01-24T12:50:17.715-05:00",
-      "updated_at": "2025-07-14T23:43:35.167-04:00",
+      "updated_at": "2025-07-15T01:45:48.137-04:00",
       "position": 2,
       "description": null,
       "showcase": true,
@@ -40,9 +40,9 @@
     {
       "id": "rmthn8dprv1q",
       "name": "Atlassian Support - Support Portal",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-07-30T11:21:25.969-04:00",
-      "updated_at": "2025-07-14T23:43:35.183-04:00",
+      "updated_at": "2025-07-15T01:45:48.154-04:00",
       "position": 6,
       "description": "Support portal contact forms allow customers to raise support issues. Delays here might mean there's an issue with submitting a support request.",
       "showcase": true,
@@ -55,9 +55,9 @@
     {
       "id": "3zgtmwsprtcs",
       "name": "Atlassian Support Ticketing",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-07-30T12:28:08.222-04:00",
-      "updated_at": "2025-07-14T23:43:35.198-04:00",
+      "updated_at": "2025-07-15T01:45:48.172-04:00",
       "position": 7,
       "description": "Trello Support tickets can be replied to via email or from the ticket view on getsupport.atlassian.com. If there's an outage, you may be unable to view support tickets from getsupport.atlassian.com temporarily, but customers can reply to existing tickets by email.",
       "showcase": true,
@@ -70,9 +70,9 @@
     {
       "id": "x282nv4vfrbx",
       "name": "Atlassian Support Knowledge Base",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2022-07-11T10:12:52.388-04:00",
-      "updated_at": "2025-07-14T23:43:35.213-04:00",
+      "updated_at": "2025-07-15T01:45:48.190-04:00",
       "position": 8,
       "description": null,
       "showcase": false,
@@ -83,192 +83,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "0bs9tk5dh7qb",
-      "name": "Users experiencing issues with Email to Board failing",
-      "status": "investigating",
-      "created_at": "2025-07-14T23:43:35.111-04:00",
-      "updated_at": "2025-07-15T01:17:52.660-04:00",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/qkxk74nx51rx",
-      "started_at": "2025-07-14T23:43:35.102-04:00",
-      "page_id": "h5frqhb041yq",
-      "incident_updates": [
-        {
-          "id": "9yfx07mqxf9q",
-          "status": "investigating",
-          "body": "Our team is continuing to investigate the cause of errors relating to Email to Board actions in Trello. \nFor those continuing to experience issues with Email to Board we encourage users to manually create their cards in Trello directly in the meantime.\nWe apologise for any inconvenience caused and we will provide further updates as the investigation continues.",
-          "incident_id": "0bs9tk5dh7qb",
-          "created_at": "2025-07-15T01:17:52.656-04:00",
-          "updated_at": "2025-07-15T01:17:52.656-04:00",
-          "display_at": "2025-07-15T01:17:52.656-04:00",
-          "affected_components": [
-            {
-              "code": "y1nllgnkxn9d",
-              "name": "API",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "hsr3nvlz0k2l",
-              "name": "Trello.com",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "rmthn8dprv1q",
-              "name": "Atlassian Support - Support Portal",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "3zgtmwsprtcs",
-              "name": "Atlassian Support Ticketing",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "x282nv4vfrbx",
-              "name": "Atlassian Support Knowledge Base",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "48shkllyskz5",
-          "status": "investigating",
-          "body": "We are aware of some users experiencing issues where Email to Board functionality is failing with an error message similar to 'This message could not be delivered due to a recipient error. Please try again later.'\nOur team is investigating with urgency and will provide an update as soon as possible.",
-          "incident_id": "0bs9tk5dh7qb",
-          "created_at": "2025-07-14T23:43:35.266-04:00",
-          "updated_at": "2025-07-14T23:43:35.266-04:00",
-          "display_at": "2025-07-14T23:43:35.266-04:00",
-          "affected_components": [
-            {
-              "code": "y1nllgnkxn9d",
-              "name": "API",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "hsr3nvlz0k2l",
-              "name": "Trello.com",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "rmthn8dprv1q",
-              "name": "Atlassian Support - Support Portal",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "3zgtmwsprtcs",
-              "name": "Atlassian Support Ticketing",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "x282nv4vfrbx",
-              "name": "Atlassian Support Knowledge Base",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "hsr3nvlz0k2l",
-          "name": "Trello.com",
-          "status": "partial_outage",
-          "created_at": "2020-01-24T12:50:55.839-05:00",
-          "updated_at": "2025-07-14T23:43:35.151-04:00",
-          "position": 1,
-          "description": "Web client",
-          "showcase": true,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "h5frqhb041yq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "y1nllgnkxn9d",
-          "name": "API",
-          "status": "partial_outage",
-          "created_at": "2020-01-24T12:50:17.715-05:00",
-          "updated_at": "2025-07-14T23:43:35.167-04:00",
-          "position": 2,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "h5frqhb041yq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "rmthn8dprv1q",
-          "name": "Atlassian Support - Support Portal",
-          "status": "partial_outage",
-          "created_at": "2020-07-30T11:21:25.969-04:00",
-          "updated_at": "2025-07-14T23:43:35.183-04:00",
-          "position": 6,
-          "description": "Support portal contact forms allow customers to raise support issues. Delays here might mean there's an issue with submitting a support request.",
-          "showcase": true,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "h5frqhb041yq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "3zgtmwsprtcs",
-          "name": "Atlassian Support Ticketing",
-          "status": "partial_outage",
-          "created_at": "2020-07-30T12:28:08.222-04:00",
-          "updated_at": "2025-07-14T23:43:35.198-04:00",
-          "position": 7,
-          "description": "Trello Support tickets can be replied to via email or from the ticket view on getsupport.atlassian.com. If there's an outage, you may be unable to view support tickets from getsupport.atlassian.com temporarily, but customers can reply to existing tickets by email.",
-          "showcase": true,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "h5frqhb041yq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "x282nv4vfrbx",
-          "name": "Atlassian Support Knowledge Base",
-          "status": "partial_outage",
-          "created_at": "2022-07-11T10:12:52.388-04:00",
-          "updated_at": "2025-07-14T23:43:35.213-04:00",
-          "position": 8,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "h5frqhb041yq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
