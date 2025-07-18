@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-07-18T03:32:31.384Z"
+    "updated_at": "2025-07-18T04:24:06.465Z"
   },
   "components": [
     {
@@ -817,10 +817,10 @@
       "name": "Forge installations are not being assigned correct permissions",
       "status": "identified",
       "created_at": "2025-07-18T02:49:03.479Z",
-      "updated_at": "2025-07-18T03:32:31.374Z",
+      "updated_at": "2025-07-18T04:24:06.460Z",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "major",
+      "impact": "minor",
       "shortlink": "https://stspg.io/rn1w9txfdmky",
       "started_at": "2025-07-18T02:49:03.472Z",
       "page_id": "n8766lc3ybbs",
