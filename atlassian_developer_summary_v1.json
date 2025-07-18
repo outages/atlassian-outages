@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-07-17T22:20:56.118Z"
+    "updated_at": "2025-07-18T03:32:31.384Z"
   },
   "components": [
     {
@@ -109,7 +109,7 @@
     {
       "id": "73bt63kd5q9k",
       "name": "Developer",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-02-01T17:21:34.889Z",
       "updated_at": "2019-05-02T04:22:45.333Z",
       "position": 2,
@@ -408,9 +408,9 @@
     {
       "id": "vb9xhz9z6zbp",
       "name": "Forge App Installation",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2021-03-23T11:55:32.639Z",
-      "updated_at": "2025-04-28T13:42:35.984Z",
+      "updated_at": "2025-07-18T02:49:03.522Z",
       "position": 5,
       "description": "Installation of Forge apps",
       "showcase": true,
@@ -811,10 +811,84 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "8gwd2x0ql9l3",
+      "name": "Forge installations are not being assigned correct permissions",
+      "status": "identified",
+      "created_at": "2025-07-18T02:49:03.479Z",
+      "updated_at": "2025-07-18T03:32:31.374Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/rn1w9txfdmky",
+      "started_at": "2025-07-18T02:49:03.472Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "v36dttczm2s0",
+          "status": "identified",
+          "body": "We have identified an issue where some Forge apps are receiving permission errors when calling REST endpoints that require admin permissions. We are investigating the root cause.",
+          "incident_id": "8gwd2x0ql9l3",
+          "created_at": "2025-07-18T03:32:31.371Z",
+          "updated_at": "2025-07-18T03:32:31.371Z",
+          "display_at": "2025-07-18T03:32:31.371Z",
+          "affected_components": [
+            {
+              "code": "vb9xhz9z6zbp",
+              "name": "Developer - Forge App Installation",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "8mx5prfkpz3p",
+          "status": "investigating",
+          "body": "We are investigating an incident where app users associated with new Forge installations and Connect to Forge upgrades are not being added to Jira permission groups. We will post the next update in 30 minutes.",
+          "incident_id": "8gwd2x0ql9l3",
+          "created_at": "2025-07-18T02:49:03.570Z",
+          "updated_at": "2025-07-18T02:49:03.570Z",
+          "display_at": "2025-07-18T02:49:03.570Z",
+          "affected_components": [
+            {
+              "code": "vb9xhz9z6zbp",
+              "name": "Developer - Forge App Installation",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "vb9xhz9z6zbp",
+          "name": "Forge App Installation",
+          "status": "degraded_performance",
+          "created_at": "2021-03-23T11:55:32.639Z",
+          "updated_at": "2025-07-18T02:49:03.522Z",
+          "position": 5,
+          "description": "Installation of Forge apps",
+          "showcase": true,
+          "start_date": "2021-03-23",
+          "group_id": "73bt63kd5q9k",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
