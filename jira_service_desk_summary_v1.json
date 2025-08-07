@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-08-07T20:30:57.165Z"
+    "updated_at": "2025-08-07T20:54:37.042Z"
   },
   "components": [
     {
@@ -191,10 +191,10 @@
   "incidents": [
     {
       "id": "wy9x9kck2kwj",
-      "name": "Some JSM Users unable to access",
+      "name": "Some JSM Users unable to access assets cloud",
       "status": "investigating",
       "created_at": "2025-08-07T19:39:41.519Z",
-      "updated_at": "2025-08-07T19:39:41.589Z",
+      "updated_at": "2025-08-07T20:54:37.033Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -202,6 +202,26 @@
       "started_at": "2025-08-07T19:39:41.512Z",
       "page_id": "pv54g7ltsc24",
       "incident_updates": [
+        {
+          "id": "vb45hvwz3vqz",
+          "status": "investigating",
+          "body": "We are still investigating an issue with JSM Assets Cloud that is impacting some Jira Service Management Cloud customers. We will provide more details within the next hour.",
+          "incident_id": "wy9x9kck2kwj",
+          "created_at": "2025-08-07T20:54:37.029Z",
+          "updated_at": "2025-08-07T20:54:37.029Z",
+          "display_at": "2025-08-07T20:54:37.029Z",
+          "affected_components": [
+            {
+              "code": "why9xhgfq7kx",
+              "name": "Authentication and User Management",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "8vtctm4496vg",
           "status": "investigating",
