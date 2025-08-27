@@ -4,15 +4,15 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2025-08-27T16:20:27.790-04:00"
+    "updated_at": "2025-08-27T17:12:55.109-04:00"
   },
   "components": [
     {
       "id": "hsr3nvlz0k2l",
       "name": "Trello.com",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-01-24T12:50:55.839-05:00",
-      "updated_at": "2025-08-27T15:39:55.370-04:00",
+      "updated_at": "2025-08-27T17:12:54.670-04:00",
       "position": 1,
       "description": "Web client",
       "showcase": true,
@@ -83,64 +83,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "x4r2jr01h698",
-      "name": "Trello Connectivity Problems",
-      "status": "investigating",
-      "created_at": "2025-08-27T15:39:55.330-04:00",
-      "updated_at": "2025-08-27T15:40:40.437-04:00",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/ppd3mhjjxwld",
-      "started_at": "2025-08-27T15:39:55.325-04:00",
-      "page_id": "h5frqhb041yq",
-      "incident_updates": [
-        {
-          "id": "m4b0qc0x94rr",
-          "status": "investigating",
-          "body": "We're receiving reports of connectivity problems while accessing Trello. You may see a \"You are disconnected from Trello message\" in the bottom left corner of your window notifying you that you've been disconnected.\n\nWe're currently investigating the cause, and will post updates here as we determine it.",
-          "incident_id": "x4r2jr01h698",
-          "created_at": "2025-08-27T15:39:55.421-04:00",
-          "updated_at": "2025-08-27T15:39:55.421-04:00",
-          "display_at": "2025-08-27T15:39:55.421-04:00",
-          "affected_components": [
-            {
-              "code": "hsr3nvlz0k2l",
-              "name": "Trello.com",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "hsr3nvlz0k2l",
-          "name": "Trello.com",
-          "status": "degraded_performance",
-          "created_at": "2020-01-24T12:50:55.839-05:00",
-          "updated_at": "2025-08-27T15:39:55.370-04:00",
-          "position": 1,
-          "description": "Web client",
-          "showcase": true,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "h5frqhb041yq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
