@@ -4,7 +4,7 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-09-10T16:21:08.312Z"
+    "updated_at": "2025-09-10T16:37:44.460Z"
   },
   "components": [
     {
@@ -764,10 +764,10 @@
   "incidents": [
     {
       "id": "mptwfv1cg7ls",
-      "name": "Delays observed at JSM and Opsgenie alert search functionality in US Region",
+      "name": "Delays observed at JSM and Opsgenie alert list and search functionality in US Region",
       "status": "identified",
       "created_at": "2025-09-10T15:23:26.754Z",
-      "updated_at": "2025-09-10T15:26:23.713Z",
+      "updated_at": "2025-09-10T16:37:44.455Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
