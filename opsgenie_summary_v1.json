@@ -4,7 +4,7 @@
     "name": "Opsgenie",
     "url": "https://opsgenie.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-09-10T16:37:44.460Z"
+    "updated_at": "2025-09-10T16:47:17.051Z"
   },
   "components": [
     {
@@ -764,25 +764,25 @@
   "incidents": [
     {
       "id": "mptwfv1cg7ls",
-      "name": "Delays observed at JSM and Opsgenie alert list and search functionality in US Region",
+      "name": "Delays observed at JSM and Opsgenie web experiences in US Region",
       "status": "identified",
       "created_at": "2025-09-10T15:23:26.754Z",
-      "updated_at": "2025-09-10T16:37:44.455Z",
+      "updated_at": "2025-09-10T16:47:17.043Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/lqqkd5lgls7y",
-      "started_at": "2025-09-10T15:23:26.742Z",
+      "started_at": "2025-09-10T15:23:26.000Z",
       "page_id": "t05vdsszxwtq",
       "incident_updates": [
         {
           "id": "kq1x0bdhwnvc",
           "status": "identified",
-          "body": "We continue to work on resolving the alert search functionality for Jira Service Management and Opsgenie. We have identified the root cause and taken actions to mitigate the issue and minimize the impact on search functionality.",
+          "body": "We continue to work on resolving the incident for Jira Service Management and Opsgenie. We have identified the root cause and taken actions to mitigate the issue and minimize the impact on search functionality.",
           "incident_id": "mptwfv1cg7ls",
           "created_at": "2025-09-10T15:26:23.709Z",
-          "updated_at": "2025-09-10T15:26:23.709Z",
-          "display_at": "2025-09-10T15:26:23.709Z",
+          "updated_at": "2025-09-10T16:47:17.037Z",
+          "display_at": "2025-09-10T15:26:23.000Z",
           "affected_components": [
             {
               "code": "j8bt86sx70hm",
@@ -798,11 +798,11 @@
         {
           "id": "4bpx9wb65dr9",
           "status": "investigating",
-          "body": "We identified degraded performance in the alert search functionality for some Jira Service Management and Opsgenie Cloud customers in the US Region. No impact has been observed at alert critical flows, like notification. The team has taken actions to mitigate the issue and minimize the impact on search functionality.",
+          "body": "We identified degraded performance in the web experiences for some Jira Service Management and Opsgenie Cloud customers in the US Region. No impact has been observed at alert critical flows, like notification. The team has taken actions to mitigate the issue and minimize the impact on search functionality.",
           "incident_id": "mptwfv1cg7ls",
           "created_at": "2025-09-10T15:23:26.869Z",
-          "updated_at": "2025-09-10T15:23:26.869Z",
-          "display_at": "2025-09-10T15:23:26.869Z",
+          "updated_at": "2025-09-10T16:47:01.930Z",
+          "display_at": "2025-09-10T15:23:26.000Z",
           "affected_components": [
             {
               "code": "j8bt86sx70hm",
