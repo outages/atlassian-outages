@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-09-11T01:10:39.458Z"
+    "updated_at": "2025-09-11T02:10:11.194Z"
   },
   "components": [
     {
@@ -194,7 +194,7 @@
       "name": "Delays observed at JSM and Opsgenie alert search functionality in US Region",
       "status": "identified",
       "created_at": "2025-09-10T15:23:26.558Z",
-      "updated_at": "2025-09-11T01:10:39.445Z",
+      "updated_at": "2025-09-11T02:10:11.182Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -202,6 +202,26 @@
       "started_at": "2025-09-10T15:23:26.000Z",
       "page_id": "pv54g7ltsc24",
       "incident_updates": [
+        {
+          "id": "jm94tvr3dvss",
+          "status": "identified",
+          "body": "While new alerts should now correctly notify users, the content of those alerts for impacted customers will remain empty until missed alerts are fully processed.\nOur team is continuing to investigate with urgency potential infrastructure options to expedite this process.\nWe will provide further updates within the hour.",
+          "incident_id": "xk1mt8kqym6q",
+          "created_at": "2025-09-11T02:10:11.178Z",
+          "updated_at": "2025-09-11T02:10:11.178Z",
+          "display_at": "2025-09-11T02:10:11.178Z",
+          "affected_components": [
+            {
+              "code": "4kcs01hbh4l6",
+              "name": "Jira Service Management Web",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "f3ktphdjh5hr",
           "status": "identified",
