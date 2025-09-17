@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-09-17T08:21:22.644Z"
+    "updated_at": "2025-09-17T13:37:33.345Z"
   },
   "components": [
     {
@@ -194,7 +194,7 @@
       "name": "Duplicate issues being created in Jira Service Management and Jira",
       "status": "monitoring",
       "created_at": "2025-09-11T09:39:07.675Z",
-      "updated_at": "2025-09-15T09:18:13.988Z",
+      "updated_at": "2025-09-17T13:37:33.337Z",
       "monitoring_at": "2025-09-11T16:05:00.941Z",
       "resolved_at": null,
       "impact": "minor",
@@ -202,6 +202,264 @@
       "started_at": "2025-09-11T10:53:16.000Z",
       "page_id": "pv54g7ltsc24",
       "incident_updates": [
+        {
+          "id": "x0wv0xk657yd",
+          "status": "monitoring",
+          "body": "Affected customers who have Tempo installed; the script will be delayed as we await confirmation from Tempo on next steps.\n\nFor other affected customers, Atlassian team is in the process of moving the worklogs back to the original issues.\n\nRoot cause of the issue was identified to a code change. To fix the issue, we had reverted the code change and the behaviour is back to normal.\n\nWe request customers not to delete these duplicate issues on your own to avoid any other issues.",
+          "incident_id": "fjr4tkmbmfvv",
+          "created_at": "2025-09-17T13:37:33.333Z",
+          "updated_at": "2025-09-17T13:37:33.333Z",
+          "display_at": "2025-09-17T13:37:33.333Z",
+          "affected_components": [
+            {
+              "code": "4kcs01hbh4l6",
+              "name": "Jira Service Management Web",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "hzbyfxf686qd",
+              "name": "Service Portal",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "n459f7qbgm7b",
+              "name": "Jira Service Management Email Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "why9xhgfq7kx",
+              "name": "Authentication and User Management",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "n50cprw4wnhp",
+              "name": "Purchasing & Licensing",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "wlpsrb4r2yq9",
+              "name": "Signup",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "jy0n3xjnl1kn",
+              "name": "Opsgenie Incident Flow",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "bk3ggvf6kw1k",
+              "name": "Opsgenie Alert Flow",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "svtqtkj9slxm",
+              "name": "Opsgenie Incident Flow",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "8q1197ln8wz6",
+              "name": "Opsgenie Alert Flow",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "7rq3yg76vvbc",
+              "name": "Automation for Jira",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "6vlshpbyx93m",
+              "name": "Assist",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "7t4rczh1s546",
+          "status": "identified",
+          "body": "The issue has been identified and a fix is being implemented.",
+          "incident_id": "fjr4tkmbmfvv",
+          "created_at": "2025-09-17T13:33:18.168Z",
+          "updated_at": "2025-09-17T13:33:18.168Z",
+          "display_at": "2025-09-17T13:33:18.168Z",
+          "affected_components": [
+            {
+              "code": "4kcs01hbh4l6",
+              "name": "Jira Service Management Web",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "hzbyfxf686qd",
+              "name": "Service Portal",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "n459f7qbgm7b",
+              "name": "Jira Service Management Email Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "why9xhgfq7kx",
+              "name": "Authentication and User Management",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "n50cprw4wnhp",
+              "name": "Purchasing & Licensing",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "wlpsrb4r2yq9",
+              "name": "Signup",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "jy0n3xjnl1kn",
+              "name": "Opsgenie Incident Flow",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "bk3ggvf6kw1k",
+              "name": "Opsgenie Alert Flow",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "svtqtkj9slxm",
+              "name": "Opsgenie Incident Flow",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "8q1197ln8wz6",
+              "name": "Opsgenie Alert Flow",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "7rq3yg76vvbc",
+              "name": "Automation for Jira",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "6vlshpbyx93m",
+              "name": "Assist",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "t7ffrwjbtv2k",
+          "status": "monitoring",
+          "body": "For the affected customers who have Tempo installed; the script will be delayed as we await confirmation from Tempo on next steps.\n\nFor other affected customers, Atlassian team is in the process of moving the worklogs back to the original issues.\n\nRoot cause of the issue was identified to a code change. To fix the issue, we had reverted the code change and the behaviour is back to normal.\n\nWe request customers not to delete these duplicate issues on your own to avoid any other issues.",
+          "incident_id": "fjr4tkmbmfvv",
+          "created_at": "2025-09-17T13:31:20.765Z",
+          "updated_at": "2025-09-17T13:31:20.765Z",
+          "display_at": "2025-09-17T13:31:20.765Z",
+          "affected_components": [
+            {
+              "code": "4kcs01hbh4l6",
+              "name": "Jira Service Management Web",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "hzbyfxf686qd",
+              "name": "Service Portal",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "n459f7qbgm7b",
+              "name": "Jira Service Management Email Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "why9xhgfq7kx",
+              "name": "Authentication and User Management",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "n50cprw4wnhp",
+              "name": "Purchasing & Licensing",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "wlpsrb4r2yq9",
+              "name": "Signup",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "jy0n3xjnl1kn",
+              "name": "Opsgenie Incident Flow",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "bk3ggvf6kw1k",
+              "name": "Opsgenie Alert Flow",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "svtqtkj9slxm",
+              "name": "Opsgenie Incident Flow",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "8q1197ln8wz6",
+              "name": "Opsgenie Alert Flow",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "7rq3yg76vvbc",
+              "name": "Automation for Jira",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "6vlshpbyx93m",
+              "name": "Assist",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "x8hxtdfmk1hg",
           "status": "monitoring",
