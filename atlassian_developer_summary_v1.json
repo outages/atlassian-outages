@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-09-21T04:00:21.834Z"
+    "updated_at": "2025-09-21T05:27:47.915Z"
   },
   "components": [
     {
@@ -1017,16 +1017,78 @@
     {
       "id": "wj788rln63ky",
       "name": "Scheduled Maintenance of Forge FedRAMP services",
-      "status": "in_progress",
+      "status": "verifying",
       "created_at": "2025-09-16T07:06:00.908Z",
-      "updated_at": "2025-09-21T04:00:21.815Z",
-      "monitoring_at": null,
+      "updated_at": "2025-09-21T05:27:47.912Z",
+      "monitoring_at": "2025-09-21T05:27:47.890Z",
       "resolved_at": null,
       "impact": "maintenance",
       "shortlink": "https://stspg.io/r3qb2mltrzkj",
       "started_at": "2025-09-16T07:06:00.889Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "rqv8kxn9xn02",
+          "status": "verifying",
+          "body": "Scheduled maintenance has been completed in the FedRAMP perimeter. Maintenance was performed on 2025-09-21 between 4am to 7am UTC.\nYou should now be able to:\n- Create/upgrade/delete apps\n- Install/uninstall apps\n- Upgrade installations\n- Deploy app\n- Grant/revoke access for apps \n- Grant consent to apps\n- Revoke consent to apps\nIf you experienced problems with these operations during the maintenance window, please try again to determine if your issue is now resolved. \nIf you are experiencing ongoing issues with the above operations please contact your local Atlassian site administrator. If you need further help, please raise a support ticket at https://support.atlassian.com/#contact.",
+          "incident_id": "wj788rln63ky",
+          "created_at": "2025-09-21T05:27:47.890Z",
+          "updated_at": "2025-09-21T05:27:47.890Z",
+          "display_at": "2025-09-21T05:27:47.890Z",
+          "affected_components": [
+            {
+              "code": "wzmg8phvmrwh",
+              "name": "Developer - App Deployment",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "ccbm394hy8pk",
+              "name": "Developer - Create and manage apps",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "vb9xhz9z6zbp",
+              "name": "Developer - Forge App Installation",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "khz72mns34gk",
+              "name": "Developer - Developer console",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "x9bxzb5jlltj",
+              "name": "Developer - Forge direct app distribution",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "l30t53hv9z8z",
+              "name": "Developer - Forge CLI",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "x861fm3drh21",
+              "name": "Developer - End-user consent",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "5jn572sn98k4",
+              "name": "Developer - Forge App Alerts",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "rvb0yw9qgn86",
           "status": "in_progress",
