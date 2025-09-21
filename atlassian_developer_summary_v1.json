@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-09-20T23:30:52.943Z"
+    "updated_at": "2025-09-21T03:00:35.138Z"
   },
   "components": [
     {
@@ -818,7 +818,7 @@
       "name": "Scheduled Maintenance of Forge FedRAMP services",
       "status": "scheduled",
       "created_at": "2025-09-16T07:06:00.908Z",
-      "updated_at": "2025-09-16T07:06:00.981Z",
+      "updated_at": "2025-09-21T03:00:35.126Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -826,6 +826,19 @@
       "started_at": "2025-09-16T07:06:00.889Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "3d8jjrfmxzxq",
+          "status": "scheduled",
+          "body": "Maintenance will begin as scheduled in 60 minutes.",
+          "incident_id": "wj788rln63ky",
+          "created_at": "2025-09-21T03:00:34.982Z",
+          "updated_at": "2025-09-21T03:00:34.982Z",
+          "display_at": "2025-09-21T03:00:34.982Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "1kc86xfn4rxf",
           "status": "scheduled",
