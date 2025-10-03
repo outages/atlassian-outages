@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-10-03T03:50:08.269Z"
+    "updated_at": "2025-10-03T04:20:21.402Z"
   },
   "components": [
     {
@@ -817,7 +817,7 @@
       "name": "Forge app user OAuth consent prompt being shown unnecessarily",
       "status": "identified",
       "created_at": "2025-10-03T03:43:27.271Z",
-      "updated_at": "2025-10-03T03:50:08.265Z",
+      "updated_at": "2025-10-03T04:07:02.848Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -828,10 +828,10 @@
         {
           "id": "9flxmf5ypmcr",
           "status": "identified",
-          "body": "We are currently experiencing an issue where some Forge app users are seeing unexpected Allow access OAuth consent prompts when first using the app UI. \nThere is no security impact. Affected users can proceed by approving the consent and continue using the app normally. This affects apps using auto-consent with UI for newly installed apps and upgraded apps where permissions changed and the user does not already have a consent grant. Our engineering team has identified the cause and is actively deploying a fix. We will provide our next update by 06:00 UTC. \nWe apologize for the inconvenience and appreciate your patience.",
+          "body": "We are currently experiencing an issue where some Forge app users are seeing unexpected Allow access OAuth consent prompts when first using the app UI. There is no security impact; affected users can proceed by approving the prompt and continue using the app normally. \nThis primarily affects apps that use auto‑consent with UI, including newly installed apps and upgraded apps where permissions changed and the user does not already have a consent grant. Our engineering team has identified the cause and is deploying a fix. We will provide our next update by 06:00 UTC.\nWe apologize for the inconvenience and appreciate your patience.",
           "incident_id": "dwm5prbmwm98",
           "created_at": "2025-10-03T03:43:27.306Z",
-          "updated_at": "2025-10-03T03:50:08.170Z",
+          "updated_at": "2025-10-03T04:07:02.844Z",
           "display_at": "2025-10-03T03:43:27.000Z",
           "affected_components": null,
           "deliver_notifications": true,
