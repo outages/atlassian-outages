@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-10-03T01:20:46.897Z"
+    "updated_at": "2025-10-03T03:43:27.311Z"
   },
   "components": [
     {
@@ -811,7 +811,38 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "dwm5prbmwm98",
+      "name": "Forge app user OAuth consent prompt being shown unnecessarily",
+      "status": "identified",
+      "created_at": "2025-10-03T03:43:27.271Z",
+      "updated_at": "2025-10-03T03:43:27.308Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/c50gjjpdsmgg",
+      "started_at": "2025-10-03T03:43:27.265Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "9flxmf5ypmcr",
+          "status": "identified",
+          "body": "We are currently experiencing an issue where some Forge app users are seeing unnecessary Allow access OAuth consent prompts when first using the app UI. \nThere is no security impact. Affected users can proceed by approving the consent and continue using the app normally. This affects apps using auto-consent with UI for newly installed apps and upgraded apps where permissions changed and the user does not already have a consent grant. Our engineering team has identified the cause and is actively deploying a fix. We will provide our next update by 06:00 UTC. \nWe apologize for the inconvenience and appreciate your patience.",
+          "incident_id": "dwm5prbmwm98",
+          "created_at": "2025-10-03T03:43:27.306Z",
+          "updated_at": "2025-10-03T03:43:27.306Z",
+          "display_at": "2025-10-03T03:43:27.306Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [
     {
       "id": "2y060yjjc7k5",
