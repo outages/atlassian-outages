@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-10-03T06:24:19.312Z"
+    "updated_at": "2025-10-03T11:36:47.348Z"
   },
   "components": [
     {
@@ -109,7 +109,7 @@
     {
       "id": "73bt63kd5q9k",
       "name": "Developer",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:21:34.889Z",
       "updated_at": "2019-05-02T04:22:45.333Z",
       "position": 2,
@@ -753,9 +753,9 @@
     {
       "id": "x861fm3drh21",
       "name": "End-user consent",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2022-10-18T22:31:28.597Z",
-      "updated_at": "2025-10-03T03:44:37.832Z",
+      "updated_at": "2025-10-03T11:36:47.344Z",
       "position": 15,
       "description": "Prompt for consent of specific permissions for an app.",
       "showcase": true,
@@ -1025,9 +1025,9 @@
         {
           "id": "x861fm3drh21",
           "name": "End-user consent",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2022-10-18T22:31:28.597Z",
-          "updated_at": "2025-10-03T03:44:37.832Z",
+          "updated_at": "2025-10-03T11:36:47.344Z",
           "position": 15,
           "description": "Prompt for consent of specific permissions for an app.",
           "showcase": true,
@@ -1058,7 +1058,7 @@
     }
   ],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
