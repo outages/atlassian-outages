@@ -4,15 +4,15 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-10-06T12:01:42.688Z"
+    "updated_at": "2025-10-06T13:13:02.027Z"
   },
   "components": [
     {
       "id": "kvtmh1phs3r9",
       "name": "Support Portal",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-11-16T18:04:38.980Z",
-      "updated_at": "2025-10-06T08:21:06.847Z",
+      "updated_at": "2025-10-06T13:13:01.959Z",
       "position": 1,
       "description": null,
       "showcase": true,
@@ -175,9 +175,9 @@
     {
       "id": "2v87l6v7mss2",
       "name": "Downloads Access",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2020-10-09T20:31:46.709Z",
-      "updated_at": "2025-10-06T08:21:06.870Z",
+      "updated_at": "2025-10-06T13:13:01.979Z",
       "position": 12,
       "description": null,
       "showcase": true,
@@ -207,9 +207,9 @@
     {
       "id": "vtjt445m9mgk",
       "name": "Visibility of Support tickets and uploading attachments in Atlassian support portal is partially impacted",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2025-10-06T01:10:49.669Z",
-      "updated_at": "2025-10-06T12:01:42.679Z",
+      "updated_at": "2025-10-06T13:13:02.018Z",
       "monitoring_at": "2025-10-06T01:37:24.821Z",
       "resolved_at": null,
       "impact": "major",
@@ -217,6 +217,58 @@
       "started_at": "2025-10-06T01:10:49.662Z",
       "page_id": "3tbw4lb9t3qp",
       "incident_updates": [
+        {
+          "id": "dzg9g1f9ztb2",
+          "status": "monitoring",
+          "body": "We have identified the root cause of partially impacting Atlassian support portal that led to the issue of visibility of the Support tickets and customers being unable to upload attachments. We have mitigated the problem and continue to monitoring the services closely.\n\nThere will be no further updates here until the status is changed to 'Resolved' unless the issue recurs.",
+          "incident_id": "vtjt445m9mgk",
+          "created_at": "2025-10-06T13:13:02.014Z",
+          "updated_at": "2025-10-06T13:13:02.014Z",
+          "display_at": "2025-10-06T13:13:02.014Z",
+          "affected_components": [
+            {
+              "code": "kvtmh1phs3r9",
+              "name": "Support Portal",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "2v87l6v7mss2",
+              "name": "Downloads Access",
+              "old_status": "major_outage",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "jnb2mfqz0cmr",
+          "status": "identified",
+          "body": "We have identified the cause of the issue and expect recovery shortly.",
+          "incident_id": "vtjt445m9mgk",
+          "created_at": "2025-10-06T13:02:55.093Z",
+          "updated_at": "2025-10-06T13:02:55.093Z",
+          "display_at": "2025-10-06T13:02:55.093Z",
+          "affected_components": [
+            {
+              "code": "kvtmh1phs3r9",
+              "name": "Support Portal",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "2v87l6v7mss2",
+              "name": "Downloads Access",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "vwchgqlb8vd5",
           "status": "investigating",
@@ -472,9 +524,9 @@
         {
           "id": "kvtmh1phs3r9",
           "name": "Support Portal",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2018-11-16T18:04:38.980Z",
-          "updated_at": "2025-10-06T08:21:06.847Z",
+          "updated_at": "2025-10-06T13:13:01.959Z",
           "position": 1,
           "description": null,
           "showcase": true,
@@ -487,9 +539,9 @@
         {
           "id": "2v87l6v7mss2",
           "name": "Downloads Access",
-          "status": "major_outage",
+          "status": "operational",
           "created_at": "2020-10-09T20:31:46.709Z",
-          "updated_at": "2025-10-06T08:21:06.870Z",
+          "updated_at": "2025-10-06T13:13:01.979Z",
           "position": 12,
           "description": null,
           "showcase": true,
@@ -505,7 +557,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
