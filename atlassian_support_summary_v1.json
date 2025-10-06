@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-10-06T13:13:02.027Z"
+    "updated_at": "2025-10-06T14:02:47.080Z"
   },
   "components": [
     {
@@ -175,9 +175,9 @@
     {
       "id": "2v87l6v7mss2",
       "name": "Downloads Access",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-10-09T20:31:46.709Z",
-      "updated_at": "2025-10-06T13:13:01.979Z",
+      "updated_at": "2025-10-06T14:02:47.027Z",
       "position": 12,
       "description": null,
       "showcase": true,
@@ -207,9 +207,9 @@
     {
       "id": "vtjt445m9mgk",
       "name": "Visibility of Support tickets and uploading attachments in Atlassian support portal is partially impacted",
-      "status": "monitoring",
+      "status": "investigating",
       "created_at": "2025-10-06T01:10:49.669Z",
-      "updated_at": "2025-10-06T13:13:02.018Z",
+      "updated_at": "2025-10-06T14:02:47.070Z",
       "monitoring_at": "2025-10-06T01:37:24.821Z",
       "resolved_at": null,
       "impact": "major",
@@ -217,6 +217,32 @@
       "started_at": "2025-10-06T01:10:49.662Z",
       "page_id": "3tbw4lb9t3qp",
       "incident_updates": [
+        {
+          "id": "91psynck2d0n",
+          "status": "investigating",
+          "body": "We are again seeing issues with uploading new attachments and viewing existing attachments. We will provide more details within the 2 hours.",
+          "incident_id": "vtjt445m9mgk",
+          "created_at": "2025-10-06T14:02:47.067Z",
+          "updated_at": "2025-10-06T14:02:47.067Z",
+          "display_at": "2025-10-06T14:02:47.067Z",
+          "affected_components": [
+            {
+              "code": "kvtmh1phs3r9",
+              "name": "Support Portal",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "2v87l6v7mss2",
+              "name": "Downloads Access",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "dzg9g1f9ztb2",
           "status": "monitoring",
@@ -539,9 +565,9 @@
         {
           "id": "2v87l6v7mss2",
           "name": "Downloads Access",
-          "status": "operational",
+          "status": "degraded_performance",
           "created_at": "2020-10-09T20:31:46.709Z",
-          "updated_at": "2025-10-06T13:13:01.979Z",
+          "updated_at": "2025-10-06T14:02:47.027Z",
           "position": 12,
           "description": null,
           "showcase": true,
@@ -557,7 +583,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
