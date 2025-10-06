@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-10-06T06:08:59.154Z"
+    "updated_at": "2025-10-06T07:04:06.061Z"
   },
   "components": [
     {
@@ -209,7 +209,7 @@
       "name": "Degraded performance in uploading attachments in support portal",
       "status": "investigating",
       "created_at": "2025-10-06T01:10:49.669Z",
-      "updated_at": "2025-10-06T06:08:59.143Z",
+      "updated_at": "2025-10-06T07:04:06.050Z",
       "monitoring_at": "2025-10-06T01:37:24.821Z",
       "resolved_at": null,
       "impact": "minor",
@@ -217,6 +217,26 @@
       "started_at": "2025-10-06T01:10:49.662Z",
       "page_id": "3tbw4lb9t3qp",
       "incident_updates": [
+        {
+          "id": "s6csz4dv2726",
+          "status": "investigating",
+          "body": "We are continuing to see issues with customers uploading new attachments and viewing existing attachments. We have identified the root cause and work is underway to resolve the issue.",
+          "incident_id": "vtjt445m9mgk",
+          "created_at": "2025-10-06T07:04:06.046Z",
+          "updated_at": "2025-10-06T07:04:06.046Z",
+          "display_at": "2025-10-06T07:04:06.046Z",
+          "affected_components": [
+            {
+              "code": "2v87l6v7mss2",
+              "name": "Downloads Access",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "ntrs91rn6ly3",
           "status": "investigating",
