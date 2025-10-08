@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-10-08T20:01:11.785Z"
+    "updated_at": "2025-10-08T22:20:37.439Z"
   },
   "components": [
     {
@@ -145,9 +145,9 @@
     {
       "id": "js34xsvs8bw2",
       "name": "Content Delivery",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-10-09T20:30:34.676Z",
-      "updated_at": "2024-07-03T22:02:14.995Z",
+      "updated_at": "2025-10-08T22:20:37.389Z",
       "position": 10,
       "description": null,
       "showcase": true,
@@ -203,10 +203,64 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "08g7p82qpgxp",
+      "name": "Loom Users on Chrome Extension Encountering Video Saving Delays",
+      "status": "identified",
+      "created_at": "2025-10-08T22:20:37.356Z",
+      "updated_at": "2025-10-08T22:20:37.436Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/c4m1g48r2sx8",
+      "started_at": "2025-10-08T22:20:37.350Z",
+      "page_id": "3tbw4lb9t3qp",
+      "incident_updates": [
+        {
+          "id": "rvtqtk8b6m76",
+          "status": "identified",
+          "body": "We have identified an issue starting at 17:00 UTC on Monday, October 6th, 2025 affecting all Loom users who record videos with the Chrome Extension, causing unexpected delays when saving videos. If the browser is closed before the video is playable, the recording may be lost.\n\nTo address this, we have developed an updated version of the extension, which is currently under review by Google. We anticipate the fix to be published by 20:00 UTC on October 15th, 2025, or sooner. In the meantime, users will see an in-browser message if their video has not yet been saved, advising them not to close the browser session.\n\nWe will provide an update again when the fix is available.",
+          "incident_id": "08g7p82qpgxp",
+          "created_at": "2025-10-08T22:20:37.433Z",
+          "updated_at": "2025-10-08T22:20:37.433Z",
+          "display_at": "2025-10-08T22:20:37.433Z",
+          "affected_components": [
+            {
+              "code": "js34xsvs8bw2",
+              "name": "Content Delivery",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "js34xsvs8bw2",
+          "name": "Content Delivery",
+          "status": "degraded_performance",
+          "created_at": "2020-10-09T20:30:34.676Z",
+          "updated_at": "2025-10-08T22:20:37.389Z",
+          "position": 10,
+          "description": null,
+          "showcase": true,
+          "start_date": "2020-10-09",
+          "group_id": null,
+          "page_id": "3tbw4lb9t3qp",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
