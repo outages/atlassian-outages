@@ -4,15 +4,15 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-10-20T22:50:27.405Z"
+    "updated_at": "2025-10-20T22:58:45.642Z"
   },
   "components": [
     {
       "id": "kvtmh1phs3r9",
       "name": "Support Portal",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-11-16T18:04:38.980Z",
-      "updated_at": "2025-10-20T07:56:12.528Z",
+      "updated_at": "2025-10-20T22:58:45.417Z",
       "position": 1,
       "description": null,
       "showcase": true,
@@ -40,9 +40,9 @@
     {
       "id": "3cgy5c4f3q0r",
       "name": "Knowledge Base",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-11-30T21:47:55.304Z",
-      "updated_at": "2025-10-20T07:56:12.617Z",
+      "updated_at": "2025-10-20T22:58:45.435Z",
       "position": 3,
       "description": null,
       "showcase": true,
@@ -55,9 +55,9 @@
     {
       "id": "x6ljwvfs3ymn",
       "name": "Community",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-11-30T21:48:02.423Z",
-      "updated_at": "2025-10-20T07:56:12.633Z",
+      "updated_at": "2025-10-20T22:58:45.453Z",
       "position": 4,
       "description": null,
       "showcase": true,
@@ -70,9 +70,9 @@
     {
       "id": "n7r7tbhzvjx4",
       "name": "API Docs",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-11-30T21:48:13.943Z",
-      "updated_at": "2025-10-20T07:56:12.649Z",
+      "updated_at": "2025-10-20T22:58:45.470Z",
       "position": 5,
       "description": null,
       "showcase": true,
@@ -85,9 +85,9 @@
     {
       "id": "gmpjxdbnlw8r",
       "name": "Public Issues Tracker",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-11-30T21:48:47.309Z",
-      "updated_at": "2025-10-20T07:56:12.685Z",
+      "updated_at": "2025-10-20T22:58:45.486Z",
       "position": 6,
       "description": "Atlassian's public issue tracker which can be found at jira.atlassian.com",
       "showcase": true,
@@ -100,9 +100,9 @@
     {
       "id": "69dcpfrpy69y",
       "name": "Training",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-01-28T19:52:18.637Z",
-      "updated_at": "2025-10-20T07:56:12.756Z",
+      "updated_at": "2025-10-20T22:58:45.502Z",
       "position": 7,
       "description": "Atlassian training and certification found at training.atlassian.com",
       "showcase": true,
@@ -115,9 +115,9 @@
     {
       "id": "n74skkw8pfw4",
       "name": "Blogs",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-10-09T20:30:11.149Z",
-      "updated_at": "2025-10-20T07:56:12.821Z",
+      "updated_at": "2025-10-20T22:58:45.519Z",
       "position": 8,
       "description": null,
       "showcase": true,
@@ -130,9 +130,9 @@
     {
       "id": "82w5wh36l221",
       "name": "Careers",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-10-09T20:30:25.106Z",
-      "updated_at": "2025-10-20T07:56:12.837Z",
+      "updated_at": "2025-10-20T22:58:45.535Z",
       "position": 9,
       "description": null,
       "showcase": true,
@@ -145,9 +145,9 @@
     {
       "id": "js34xsvs8bw2",
       "name": "Content Delivery",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-10-09T20:30:34.676Z",
-      "updated_at": "2025-10-20T07:56:12.889Z",
+      "updated_at": "2025-10-20T22:58:45.552Z",
       "position": 10,
       "description": null,
       "showcase": true,
@@ -160,9 +160,9 @@
     {
       "id": "518mmzwyv5l6",
       "name": "Search",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-10-09T20:30:47.017Z",
-      "updated_at": "2025-10-20T07:56:12.903Z",
+      "updated_at": "2025-10-20T22:58:45.568Z",
       "position": 11,
       "description": null,
       "showcase": true,
@@ -175,9 +175,9 @@
     {
       "id": "2v87l6v7mss2",
       "name": "Downloads Access",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-10-09T20:31:46.709Z",
-      "updated_at": "2025-10-20T07:56:12.919Z",
+      "updated_at": "2025-10-20T22:58:45.585Z",
       "position": 12,
       "description": null,
       "showcase": true,
@@ -190,9 +190,9 @@
     {
       "id": "wbnb8zl1mqq0",
       "name": "Preferences Center",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2022-04-07T16:44:10.578Z",
-      "updated_at": "2025-10-20T07:56:12.988Z",
+      "updated_at": "2025-10-20T22:58:45.600Z",
       "position": 13,
       "description": "A tool to update email preferences and subscriptions found at preferences.atlassian.com. This can be accessed either from the \"Unsubscribe\" link on Atlassian marketing emails or from https://id.atlassian.com/manage-profile/email while logged into your Atlassian account.",
       "showcase": true,
@@ -209,7 +209,7 @@
       "name": "Atlassian Cloud Services impacted",
       "status": "monitoring",
       "created_at": "2025-10-20T07:56:12.455Z",
-      "updated_at": "2025-10-20T21:26:21.608Z",
+      "updated_at": "2025-10-20T22:58:45.633Z",
       "monitoring_at": "2025-10-20T18:38:31.909Z",
       "resolved_at": null,
       "impact": "major",
@@ -217,6 +217,98 @@
       "started_at": "2025-10-20T07:56:12.441Z",
       "page_id": "3tbw4lb9t3qp",
       "incident_updates": [
+        {
+          "id": "k08x3k5ncnks",
+          "status": "monitoring",
+          "body": "Our teams are continuing to monitor the recovery of systems across Atlassian products. This update is to inform that the Atlassian Support portal is fully operational at this time for customers that wish to contact support.",
+          "incident_id": "v8xb3bfr3477",
+          "created_at": "2025-10-20T22:58:45.629Z",
+          "updated_at": "2025-10-20T22:58:45.629Z",
+          "display_at": "2025-10-20T22:58:45.629Z",
+          "affected_components": [
+            {
+              "code": "kvtmh1phs3r9",
+              "name": "Support Portal",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "bccp2f1cpy0x",
+              "name": "Ticketing",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "3cgy5c4f3q0r",
+              "name": "Knowledge Base",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "x6ljwvfs3ymn",
+              "name": "Community",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "n7r7tbhzvjx4",
+              "name": "API Docs",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "gmpjxdbnlw8r",
+              "name": "Public Issues Tracker",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "69dcpfrpy69y",
+              "name": "Training",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "n74skkw8pfw4",
+              "name": "Blogs",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "82w5wh36l221",
+              "name": "Careers",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "js34xsvs8bw2",
+              "name": "Content Delivery",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "518mmzwyv5l6",
+              "name": "Search",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "2v87l6v7mss2",
+              "name": "Downloads Access",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "wbnb8zl1mqq0",
+              "name": "Preferences Center",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "tn38t3rbfg8l",
           "status": "monitoring",
@@ -1878,9 +1970,9 @@
         {
           "id": "kvtmh1phs3r9",
           "name": "Support Portal",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2018-11-16T18:04:38.980Z",
-          "updated_at": "2025-10-20T07:56:12.528Z",
+          "updated_at": "2025-10-20T22:58:45.417Z",
           "position": 1,
           "description": null,
           "showcase": true,
@@ -1908,9 +2000,9 @@
         {
           "id": "3cgy5c4f3q0r",
           "name": "Knowledge Base",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2018-11-30T21:47:55.304Z",
-          "updated_at": "2025-10-20T07:56:12.617Z",
+          "updated_at": "2025-10-20T22:58:45.435Z",
           "position": 3,
           "description": null,
           "showcase": true,
@@ -1923,9 +2015,9 @@
         {
           "id": "x6ljwvfs3ymn",
           "name": "Community",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2018-11-30T21:48:02.423Z",
-          "updated_at": "2025-10-20T07:56:12.633Z",
+          "updated_at": "2025-10-20T22:58:45.453Z",
           "position": 4,
           "description": null,
           "showcase": true,
@@ -1938,9 +2030,9 @@
         {
           "id": "n7r7tbhzvjx4",
           "name": "API Docs",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2018-11-30T21:48:13.943Z",
-          "updated_at": "2025-10-20T07:56:12.649Z",
+          "updated_at": "2025-10-20T22:58:45.470Z",
           "position": 5,
           "description": null,
           "showcase": true,
@@ -1953,9 +2045,9 @@
         {
           "id": "gmpjxdbnlw8r",
           "name": "Public Issues Tracker",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2018-11-30T21:48:47.309Z",
-          "updated_at": "2025-10-20T07:56:12.685Z",
+          "updated_at": "2025-10-20T22:58:45.486Z",
           "position": 6,
           "description": "Atlassian's public issue tracker which can be found at jira.atlassian.com",
           "showcase": true,
@@ -1968,9 +2060,9 @@
         {
           "id": "69dcpfrpy69y",
           "name": "Training",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2019-01-28T19:52:18.637Z",
-          "updated_at": "2025-10-20T07:56:12.756Z",
+          "updated_at": "2025-10-20T22:58:45.502Z",
           "position": 7,
           "description": "Atlassian training and certification found at training.atlassian.com",
           "showcase": true,
@@ -1983,9 +2075,9 @@
         {
           "id": "n74skkw8pfw4",
           "name": "Blogs",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2020-10-09T20:30:11.149Z",
-          "updated_at": "2025-10-20T07:56:12.821Z",
+          "updated_at": "2025-10-20T22:58:45.519Z",
           "position": 8,
           "description": null,
           "showcase": true,
@@ -1998,9 +2090,9 @@
         {
           "id": "82w5wh36l221",
           "name": "Careers",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2020-10-09T20:30:25.106Z",
-          "updated_at": "2025-10-20T07:56:12.837Z",
+          "updated_at": "2025-10-20T22:58:45.535Z",
           "position": 9,
           "description": null,
           "showcase": true,
@@ -2013,9 +2105,9 @@
         {
           "id": "js34xsvs8bw2",
           "name": "Content Delivery",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2020-10-09T20:30:34.676Z",
-          "updated_at": "2025-10-20T07:56:12.889Z",
+          "updated_at": "2025-10-20T22:58:45.552Z",
           "position": 10,
           "description": null,
           "showcase": true,
@@ -2028,9 +2120,9 @@
         {
           "id": "518mmzwyv5l6",
           "name": "Search",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2020-10-09T20:30:47.017Z",
-          "updated_at": "2025-10-20T07:56:12.903Z",
+          "updated_at": "2025-10-20T22:58:45.568Z",
           "position": 11,
           "description": null,
           "showcase": true,
@@ -2043,9 +2135,9 @@
         {
           "id": "2v87l6v7mss2",
           "name": "Downloads Access",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2020-10-09T20:31:46.709Z",
-          "updated_at": "2025-10-20T07:56:12.919Z",
+          "updated_at": "2025-10-20T22:58:45.585Z",
           "position": 12,
           "description": null,
           "showcase": true,
@@ -2058,9 +2150,9 @@
         {
           "id": "wbnb8zl1mqq0",
           "name": "Preferences Center",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2022-04-07T16:44:10.578Z",
-          "updated_at": "2025-10-20T07:56:12.988Z",
+          "updated_at": "2025-10-20T22:58:45.600Z",
           "position": 13,
           "description": "A tool to update email preferences and subscriptions found at preferences.atlassian.com. This can be accessed either from the \"Unsubscribe\" link on Atlassian marketing emails or from https://id.atlassian.com/manage-profile/email while logged into your Atlassian account.",
           "showcase": true,
@@ -2076,7 +2168,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }

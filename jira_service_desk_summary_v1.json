@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-10-20T22:16:02.720Z"
+    "updated_at": "2025-10-20T22:58:45.472Z"
   },
   "components": [
     {
@@ -194,7 +194,7 @@
       "name": "Atlassian Cloud Services impacted",
       "status": "monitoring",
       "created_at": "2025-10-20T07:56:12.905Z",
-      "updated_at": "2025-10-20T21:26:21.553Z",
+      "updated_at": "2025-10-20T22:58:45.456Z",
       "monitoring_at": "2025-10-20T18:38:32.018Z",
       "resolved_at": null,
       "impact": "major",
@@ -202,6 +202,92 @@
       "started_at": "2025-10-20T07:56:12.891Z",
       "page_id": "pv54g7ltsc24",
       "incident_updates": [
+        {
+          "id": "c4757qk9qjvs",
+          "status": "monitoring",
+          "body": "Our teams are continuing to monitor the recovery of systems across Atlassian products. This update is to inform that the Atlassian Support portal is fully operational at this time for customers that wish to contact support.",
+          "incident_id": "5sqn989zx58s",
+          "created_at": "2025-10-20T22:58:45.449Z",
+          "updated_at": "2025-10-20T22:58:45.449Z",
+          "display_at": "2025-10-20T22:58:45.449Z",
+          "affected_components": [
+            {
+              "code": "4kcs01hbh4l6",
+              "name": "Jira Service Management Web",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hzbyfxf686qd",
+              "name": "Service Portal",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "n459f7qbgm7b",
+              "name": "Jira Service Management Email Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "why9xhgfq7kx",
+              "name": "Authentication and User Management",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "n50cprw4wnhp",
+              "name": "Purchasing & Licensing",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "wlpsrb4r2yq9",
+              "name": "Signup",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "jy0n3xjnl1kn",
+              "name": "Opsgenie Incident Flow",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "bk3ggvf6kw1k",
+              "name": "Opsgenie Alert Flow",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "svtqtkj9slxm",
+              "name": "Opsgenie Incident Flow",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "8q1197ln8wz6",
+              "name": "Opsgenie Alert Flow",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "7rq3yg76vvbc",
+              "name": "Automation for Jira",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "6vlshpbyx93m",
+              "name": "Assist",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "v0br6p3xlhqj",
           "status": "monitoring",
