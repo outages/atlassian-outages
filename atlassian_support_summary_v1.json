@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-10-20T22:16:02.777Z"
+    "updated_at": "2025-10-20T22:50:27.405Z"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "bccp2f1cpy0x",
       "name": "Ticketing",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-11-16T18:04:38.998Z",
-      "updated_at": "2025-10-20T07:56:12.547Z",
+      "updated_at": "2025-10-20T22:50:27.401Z",
       "position": 2,
       "description": null,
       "showcase": true,
@@ -1893,9 +1893,9 @@
         {
           "id": "bccp2f1cpy0x",
           "name": "Ticketing",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2018-11-16T18:04:38.998Z",
-          "updated_at": "2025-10-20T07:56:12.547Z",
+          "updated_at": "2025-10-20T22:50:27.401Z",
           "position": 2,
           "description": null,
           "showcase": true,
@@ -2076,7 +2076,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
