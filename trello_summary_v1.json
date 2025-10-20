@@ -4,7 +4,7 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2025-10-20T05:24:18.868-04:00"
+    "updated_at": "2025-10-20T05:58:20.965-04:00"
   },
   "components": [
     {
@@ -87,9 +87,9 @@
     {
       "id": "7sp5kn3m9vmq",
       "name": "Atlassian Cloud Services impacted",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2025-10-20T03:56:12.549-04:00",
-      "updated_at": "2025-10-20T05:24:18.857-04:00",
+      "updated_at": "2025-10-20T05:58:20.954-04:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -97,6 +97,50 @@
       "started_at": "2025-10-20T03:56:12.539-04:00",
       "page_id": "h5frqhb041yq",
       "incident_updates": [
+        {
+          "id": "2pjf4v5plgy7",
+          "status": "identified",
+          "body": "We understand that our public cloud provider has identified the cause of the issue. We are starting to see some recovery and is working towards mitigation. We appreciate your patience.\nWe shall continue to share updates every hour, if not sooner.",
+          "incident_id": "7sp5kn3m9vmq",
+          "created_at": "2025-10-20T05:58:20.951-04:00",
+          "updated_at": "2025-10-20T05:58:20.951-04:00",
+          "display_at": "2025-10-20T05:58:20.951-04:00",
+          "affected_components": [
+            {
+              "code": "y1nllgnkxn9d",
+              "name": "API",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hsr3nvlz0k2l",
+              "name": "Trello.com",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "rmthn8dprv1q",
+              "name": "Atlassian Support - Support Portal",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "3zgtmwsprtcs",
+              "name": "Atlassian Support Ticketing",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "x282nv4vfrbx",
+              "name": "Atlassian Support Knowledge Base",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "8ybnfd25632x",
           "status": "investigating",
