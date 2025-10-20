@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-10-20T14:02:59.544Z"
+    "updated_at": "2025-10-20T15:35:47.659Z"
   },
   "components": [
     {
@@ -817,7 +817,7 @@
       "name": "Atlassian Cloud Services impacted",
       "status": "identified",
       "created_at": "2025-10-20T07:56:11.430Z",
-      "updated_at": "2025-10-20T14:02:59.534Z",
+      "updated_at": "2025-10-20T15:21:37.687Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -825,6 +825,586 @@
       "started_at": "2025-10-20T07:56:11.355Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "ggqxhbj1r1tw",
+          "status": "identified",
+          "body": "Update - We understand the impact this issue is having on your operations and want to assure you that resolving this matter is our highest priority. Our public cloud provider is actively working to mitigate this issue with urgency.  While we do not have a definitive ETA at this time, we remain committed to full resolution and deeply appreciate your patience as we work through this situation.  We will continue to provide updates every hour or sooner as new information becomes available.",
+          "incident_id": "2kdfcddgmz10",
+          "created_at": "2025-10-20T15:21:37.682Z",
+          "updated_at": "2025-10-20T15:21:37.682Z",
+          "display_at": "2025-10-20T15:21:37.682Z",
+          "affected_components": [
+            {
+              "code": "c1zr70381q86",
+              "name": "APIs - Bitbucket Cloud APIs",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "yjqnzm0tkgsd",
+              "name": "APIs - Confluence Cloud APIs",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "cc6gw24m02wp",
+              "name": "APIs - Jira Cloud APIs",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "dnstnjnbm2vs",
+              "name": "APIs - Product Events",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "jnrvspydmmsd",
+              "name": "APIs - User APIs",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "5rnsdjrhk29s",
+              "name": "APIs - Webhooks",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "ssdy05xtmgvs",
+              "name": "APIs - Web Triggers",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "wzmg8phvmrwh",
+              "name": "Developer - App Deployment",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hfflf63kcp1l",
+              "name": "Developer - Artifactory (Maven repository)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "ccbm394hy8pk",
+              "name": "Developer - Create and manage apps",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "ft3y6psz31vm",
+              "name": "Developer - Developer documentation",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "vb9xhz9z6zbp",
+              "name": "Developer - Forge App Installation",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "v19cs464rk5f",
+              "name": "Developer - Forge CDN (Custom UI)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "pgqd9x4jl520",
+              "name": "Developer - Forge Function Invocation",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "sq83n9jrwk7c",
+              "name": "Developer - aui-cdn.atlassian.com",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "64gg59lyzrfs",
+              "name": "Developer - Forge App Logs",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "y429ymc92xq4",
+              "name": "Developer - Forge App Monitoring",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "khz72mns34gk",
+              "name": "Developer - Developer console",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "x9bxzb5jlltj",
+              "name": "Developer - Forge direct app distribution",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "9nthl2bkwn0x",
+              "name": "Developer - Hosted storage",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "l30t53hv9z8z",
+              "name": "Developer - Forge CLI",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "x861fm3drh21",
+              "name": "Developer - End-user consent",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "5jn572sn98k4",
+              "name": "Developer - Forge App Alerts",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "khvgbzf5s9xr",
+              "name": "Developer - App Data Residency",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "x0g7r7xx1rs2",
+              "name": "Developer - Forge SQL",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "mlr76v811c20",
+              "name": "Marketplace - App listing management",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "g04n852g3nt6",
+              "name": "Marketplace - App listings",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "d1hybyzmqlvq",
+              "name": "Marketplace - App pricing",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "7z6w09hl9mn0",
+              "name": "Marketplace - App submissions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "ydgwbb3wn2c6",
+              "name": "Marketplace - Category landing pages",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "kj290v20168q",
+              "name": "Marketplace - Evaluations and purchases",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "3t1y6724xl8q",
+              "name": "Marketplace - In-product Marketplace and app installation (Cloud)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "ngby5fdfj3px",
+              "name": "Marketplace - In-product Marketplace and app installation (Server)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "y1fdrctjbkx0",
+              "name": "Marketplace - Notifications",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "7lx3k072bl6z",
+              "name": "Marketplace - Private listings",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "64gk05kc0lrz",
+              "name": "Marketplace - Search",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "1vvmngd73171",
+              "name": "Marketplace - Vendor management",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "wm1wfkvnffmt",
+              "name": "Marketplace - Vendor Home Page",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "bf9d0vz83ykr",
+              "name": "Support - Atlassian Support contact form",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "xjs8wcvjw85c",
+              "name": "Support - Developer community",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "crfmnmkyvltr",
+              "name": "Support - Developer service desk",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "bdrd3wct69vq",
+              "name": "Support - Marketplace service desk",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "bqzdpnq7v22n",
+              "name": "Support - Atlassian Support",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "slvmv5jvbr4p",
+              "name": "Support - Vulnerability management [AMS]",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "fjsq71xwd3rn",
+              "name": "Authentication and user management",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "lvwdfsl03r7v",
+          "status": "identified",
+          "body": "Update - We understand the impact this issue is having on your operations and want to assure you that resolving this matter is our highest priority. Our public cloud provider is actively working to mitigate this issue with urgency.  While we do not have a definitive ETA at this time, we remain committed to full resolution and deeply appreciate your patience as we work through this situation.  We will continue to provide updates every hour or sooner as new information becomes available.",
+          "incident_id": "2kdfcddgmz10",
+          "created_at": "2025-10-20T15:20:43.657Z",
+          "updated_at": "2025-10-20T15:20:43.657Z",
+          "display_at": "2025-10-20T15:20:43.657Z",
+          "affected_components": [
+            {
+              "code": "c1zr70381q86",
+              "name": "APIs - Bitbucket Cloud APIs",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "yjqnzm0tkgsd",
+              "name": "APIs - Confluence Cloud APIs",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "cc6gw24m02wp",
+              "name": "APIs - Jira Cloud APIs",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "dnstnjnbm2vs",
+              "name": "APIs - Product Events",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "jnrvspydmmsd",
+              "name": "APIs - User APIs",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "5rnsdjrhk29s",
+              "name": "APIs - Webhooks",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "ssdy05xtmgvs",
+              "name": "APIs - Web Triggers",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "wzmg8phvmrwh",
+              "name": "Developer - App Deployment",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hfflf63kcp1l",
+              "name": "Developer - Artifactory (Maven repository)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "ccbm394hy8pk",
+              "name": "Developer - Create and manage apps",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "ft3y6psz31vm",
+              "name": "Developer - Developer documentation",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "vb9xhz9z6zbp",
+              "name": "Developer - Forge App Installation",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "v19cs464rk5f",
+              "name": "Developer - Forge CDN (Custom UI)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "pgqd9x4jl520",
+              "name": "Developer - Forge Function Invocation",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "sq83n9jrwk7c",
+              "name": "Developer - aui-cdn.atlassian.com",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "64gg59lyzrfs",
+              "name": "Developer - Forge App Logs",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "y429ymc92xq4",
+              "name": "Developer - Forge App Monitoring",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "khz72mns34gk",
+              "name": "Developer - Developer console",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "x9bxzb5jlltj",
+              "name": "Developer - Forge direct app distribution",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "9nthl2bkwn0x",
+              "name": "Developer - Hosted storage",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "l30t53hv9z8z",
+              "name": "Developer - Forge CLI",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "x861fm3drh21",
+              "name": "Developer - End-user consent",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "5jn572sn98k4",
+              "name": "Developer - Forge App Alerts",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "khvgbzf5s9xr",
+              "name": "Developer - App Data Residency",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "x0g7r7xx1rs2",
+              "name": "Developer - Forge SQL",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "mlr76v811c20",
+              "name": "Marketplace - App listing management",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "g04n852g3nt6",
+              "name": "Marketplace - App listings",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "d1hybyzmqlvq",
+              "name": "Marketplace - App pricing",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "7z6w09hl9mn0",
+              "name": "Marketplace - App submissions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "ydgwbb3wn2c6",
+              "name": "Marketplace - Category landing pages",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "kj290v20168q",
+              "name": "Marketplace - Evaluations and purchases",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "3t1y6724xl8q",
+              "name": "Marketplace - In-product Marketplace and app installation (Cloud)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "ngby5fdfj3px",
+              "name": "Marketplace - In-product Marketplace and app installation (Server)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "y1fdrctjbkx0",
+              "name": "Marketplace - Notifications",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "7lx3k072bl6z",
+              "name": "Marketplace - Private listings",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "64gk05kc0lrz",
+              "name": "Marketplace - Search",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "1vvmngd73171",
+              "name": "Marketplace - Vendor management",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "wm1wfkvnffmt",
+              "name": "Marketplace - Vendor Home Page",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "bf9d0vz83ykr",
+              "name": "Support - Atlassian Support contact form",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "xjs8wcvjw85c",
+              "name": "Support - Developer community",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "crfmnmkyvltr",
+              "name": "Support - Developer service desk",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "bdrd3wct69vq",
+              "name": "Support - Marketplace service desk",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "bqzdpnq7v22n",
+              "name": "Support - Atlassian Support",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "slvmv5jvbr4p",
+              "name": "Support - Vulnerability management [AMS]",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "fjsq71xwd3rn",
+              "name": "Authentication and user management",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "zjxzh3mf2wgv",
           "status": "identified",
