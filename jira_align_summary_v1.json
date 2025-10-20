@@ -4,7 +4,7 @@
     "name": "Jira Align",
     "url": "https://jira-align.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-10-20T13:07:41.032Z"
+    "updated_at": "2025-10-20T14:03:02.061Z"
   },
   "components": [
     {
@@ -1004,7 +1004,7 @@
       "name": "Atlassian Cloud Services impacted",
       "status": "identified",
       "created_at": "2025-10-20T07:56:12.537Z",
-      "updated_at": "2025-10-20T13:07:41.021Z",
+      "updated_at": "2025-10-20T14:03:02.045Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "none",
@@ -1012,6 +1012,45 @@
       "started_at": "2025-10-20T07:56:12.530Z",
       "page_id": "jrg4crndtsgz",
       "incident_updates": [
+        {
+          "id": "k31rxw3xyxkx",
+          "status": "identified",
+          "body": "We understand your pain and mitigating or fixing this issue is of utmost importance. Our public cloud provider is actively working to mitigate this issue on priority. We have been seeing partial operational success. We appreciate your patience and will continue to provide updates every hour or sooner.",
+          "incident_id": "7129b6w2p1lb",
+          "created_at": "2025-10-20T14:03:02.040Z",
+          "updated_at": "2025-10-20T14:03:02.040Z",
+          "display_at": "2025-10-20T14:03:02.040Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "d24gdpppy79f",
+          "status": "identified",
+          "body": "Our public cloud provider is working to mitigate this issue quickly. We are seeing some early positive indicators and are continuing to monitor. We appreciate your patience and will continue to provide updates every hour or sooner.",
+          "incident_id": "7129b6w2p1lb",
+          "created_at": "2025-10-20T13:58:42.069Z",
+          "updated_at": "2025-10-20T13:58:42.069Z",
+          "display_at": "2025-10-20T13:58:42.069Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "lwd3m77zdrjz",
+          "status": "identified",
+          "body": "Our public cloud provider is working to mitigate this issue quickly. We are seeing some early positive indicators and are continuing to monitor. We appreciate your patience and will continue to provide updates every hour or sooner.",
+          "incident_id": "7129b6w2p1lb",
+          "created_at": "2025-10-20T13:56:57.420Z",
+          "updated_at": "2025-10-20T13:56:57.420Z",
+          "display_at": "2025-10-20T13:56:57.420Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "4jnjs38yffln",
           "status": "identified",
