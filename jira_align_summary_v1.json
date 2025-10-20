@@ -4,7 +4,7 @@
     "name": "Jira Align",
     "url": "https://jira-align.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-10-20T05:06:03.274Z"
+    "updated_at": "2025-10-20T08:24:31.239Z"
   },
   "components": [
     {
@@ -998,7 +998,51 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "7129b6w2p1lb",
+      "name": "Atlassian Cloud Services impacted",
+      "status": "investigating",
+      "created_at": "2025-10-20T07:56:12.537Z",
+      "updated_at": "2025-10-20T08:24:31.226Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/fgp85wckn8r9",
+      "started_at": "2025-10-20T07:56:12.530Z",
+      "page_id": "jrg4crndtsgz",
+      "incident_updates": [
+        {
+          "id": "rtltt35rrx4h",
+          "status": "investigating",
+          "body": "Atlassian Cloud services are impacted and we are aware that our customers might not be able to create support tickets. Our teams are actively investigating the same.\nWe shall keep you informed of the progress every hour.",
+          "incident_id": "7129b6w2p1lb",
+          "created_at": "2025-10-20T08:24:31.222Z",
+          "updated_at": "2025-10-20T08:24:31.222Z",
+          "display_at": "2025-10-20T08:24:31.222Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "2pmqc0s3q8gd",
+          "status": "investigating",
+          "body": "We have noticed that Atlassian Cloud services are impacted and our teams are actively investigating the same.\nWe shall keep you informed of the progress every hour.",
+          "incident_id": "7129b6w2p1lb",
+          "created_at": "2025-10-20T07:56:12.600Z",
+          "updated_at": "2025-10-20T07:56:12.600Z",
+          "display_at": "2025-10-20T07:56:12.600Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
