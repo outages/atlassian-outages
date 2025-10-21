@@ -4,7 +4,7 @@
     "name": "Atlassian Partners",
     "url": "https://partners.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-10-20T22:58:43.975Z"
+    "updated_at": "2025-10-21T01:20:57.275Z"
   },
   "components": [
     {
@@ -119,7 +119,7 @@
       "name": "Atlassian Cloud Services impacted",
       "status": "monitoring",
       "created_at": "2025-10-20T07:56:11.485Z",
-      "updated_at": "2025-10-20T22:58:43.964Z",
+      "updated_at": "2025-10-21T01:07:54.226Z",
       "monitoring_at": "2025-10-20T18:38:30.930Z",
       "resolved_at": null,
       "impact": "major",
@@ -127,6 +127,118 @@
       "started_at": "2025-10-20T07:56:11.473Z",
       "page_id": "tfc0vzc0cq1n",
       "incident_updates": [
+        {
+          "id": "7m6ycpbc8dlh",
+          "status": "monitoring",
+          "body": "We continue to see recovery progressing across all impacted products as backlogged items continue to be processed.\n\nThe Atlassian Support portal is currently displaying a message directing customers to our temporary support channel. Please note that our support portal is currently fully functional for those attempting to raise requests. We are continuing to look into this alert to remove this message.\n\nWe will provide further update on our recovery status in two hours.",
+          "incident_id": "w20874rf86vk",
+          "created_at": "2025-10-21T01:07:54.223Z",
+          "updated_at": "2025-10-21T01:07:54.223Z",
+          "display_at": "2025-10-21T01:07:54.223Z",
+          "affected_components": [
+            {
+              "code": "4l5b50t3yc3t",
+              "name": "Partner Portal",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "j78nb9lncctw",
+              "name": "Partner Support Portal",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "8xm1yr40fxgz",
+              "name": "Enablement Academy",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "z8vxkczh38k7",
+              "name": "Partner Directory",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "9f041r69v7jn",
+              "name": "Partner Business Center",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "zxmvxw8fjvmx",
+              "name": "Partner Portal dashboard",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "bcn53g4hym40",
+              "name": "Partner Purchasing Center",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "wwpgz94gwjzt",
+          "status": "monitoring",
+          "body": "Our team is now seeing recovery across all impacted Atlassian products. We are continuing to monitor for individual products that may still be processing backlogged items now that services are restored.\n\nThe Atlassian Support portal is currently still displaying a message directing customers to our temporary support channel. Please note that our support portal is currently fully functional for those attempting to raise requests. We are continuing to look into this alert to remove this message.\n\nWe will provide further update on our recovery status in one hour.",
+          "incident_id": "w20874rf86vk",
+          "created_at": "2025-10-21T00:03:30.110Z",
+          "updated_at": "2025-10-21T00:03:30.110Z",
+          "display_at": "2025-10-21T00:03:30.110Z",
+          "affected_components": [
+            {
+              "code": "4l5b50t3yc3t",
+              "name": "Partner Portal",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "j78nb9lncctw",
+              "name": "Partner Support Portal",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "8xm1yr40fxgz",
+              "name": "Enablement Academy",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "z8vxkczh38k7",
+              "name": "Partner Directory",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "9f041r69v7jn",
+              "name": "Partner Business Center",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "zxmvxw8fjvmx",
+              "name": "Partner Portal dashboard",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "bcn53g4hym40",
+              "name": "Partner Purchasing Center",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "99bpn3jmdrz0",
           "status": "monitoring",

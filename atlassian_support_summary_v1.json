@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-10-20T22:58:45.642Z"
+    "updated_at": "2025-10-21T01:20:57.129Z"
   },
   "components": [
     {
@@ -209,14 +209,198 @@
       "name": "Atlassian Cloud Services impacted",
       "status": "monitoring",
       "created_at": "2025-10-20T07:56:12.455Z",
-      "updated_at": "2025-10-20T22:58:45.633Z",
+      "updated_at": "2025-10-21T01:07:55.700Z",
       "monitoring_at": "2025-10-20T18:38:31.909Z",
       "resolved_at": null,
-      "impact": "major",
+      "impact": "none",
       "shortlink": "https://stspg.io/57ppvb7h9wgm",
       "started_at": "2025-10-20T07:56:12.441Z",
       "page_id": "3tbw4lb9t3qp",
       "incident_updates": [
+        {
+          "id": "bb4kjs6yb3dm",
+          "status": "monitoring",
+          "body": "We continue to see recovery progressing across all impacted products as backlogged items continue to be processed.\n\nThe Atlassian Support portal is currently displaying a message directing customers to our temporary support channel. Please note that our support portal is currently fully functional for those attempting to raise requests. We are continuing to look into this alert to remove this message.\n\nWe will provide further update on our recovery status in two hours.",
+          "incident_id": "v8xb3bfr3477",
+          "created_at": "2025-10-21T01:07:55.696Z",
+          "updated_at": "2025-10-21T01:07:55.696Z",
+          "display_at": "2025-10-21T01:07:55.696Z",
+          "affected_components": [
+            {
+              "code": "kvtmh1phs3r9",
+              "name": "Support Portal",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "bccp2f1cpy0x",
+              "name": "Ticketing",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "3cgy5c4f3q0r",
+              "name": "Knowledge Base",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "x6ljwvfs3ymn",
+              "name": "Community",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "n7r7tbhzvjx4",
+              "name": "API Docs",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "gmpjxdbnlw8r",
+              "name": "Public Issues Tracker",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "69dcpfrpy69y",
+              "name": "Training",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "n74skkw8pfw4",
+              "name": "Blogs",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "82w5wh36l221",
+              "name": "Careers",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "js34xsvs8bw2",
+              "name": "Content Delivery",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "518mmzwyv5l6",
+              "name": "Search",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "2v87l6v7mss2",
+              "name": "Downloads Access",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "wbnb8zl1mqq0",
+              "name": "Preferences Center",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "gc2dz4gtkxzh",
+          "status": "monitoring",
+          "body": "Our team is now seeing recovery across all impacted Atlassian products. We are continuing to monitor for individual products that may still be processing backlogged items now that services are restored.\n\nThe Atlassian Support portal is currently still displaying a message directing customers to our temporary support channel. Please note that our support portal is currently fully functional for those attempting to raise requests. We are continuing to look into this alert to remove this message.\n\nWe will provide further update on our recovery status in one hour.",
+          "incident_id": "v8xb3bfr3477",
+          "created_at": "2025-10-21T00:03:30.110Z",
+          "updated_at": "2025-10-21T00:03:30.110Z",
+          "display_at": "2025-10-21T00:03:30.110Z",
+          "affected_components": [
+            {
+              "code": "kvtmh1phs3r9",
+              "name": "Support Portal",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "bccp2f1cpy0x",
+              "name": "Ticketing",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "3cgy5c4f3q0r",
+              "name": "Knowledge Base",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "x6ljwvfs3ymn",
+              "name": "Community",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "n7r7tbhzvjx4",
+              "name": "API Docs",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "gmpjxdbnlw8r",
+              "name": "Public Issues Tracker",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "69dcpfrpy69y",
+              "name": "Training",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "n74skkw8pfw4",
+              "name": "Blogs",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "82w5wh36l221",
+              "name": "Careers",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "js34xsvs8bw2",
+              "name": "Content Delivery",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "518mmzwyv5l6",
+              "name": "Search",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "2v87l6v7mss2",
+              "name": "Downloads Access",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "wbnb8zl1mqq0",
+              "name": "Preferences Center",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "k08x3k5ncnks",
           "status": "monitoring",
