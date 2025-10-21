@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-10-21T02:26:10.213Z"
+    "updated_at": "2025-10-21T03:24:14.454Z"
   },
   "components": [
     {
@@ -209,7 +209,7 @@
       "name": "Atlassian Cloud Services impacted",
       "status": "monitoring",
       "created_at": "2025-10-20T07:56:12.455Z",
-      "updated_at": "2025-10-21T01:07:55.700Z",
+      "updated_at": "2025-10-21T03:24:14.443Z",
       "monitoring_at": "2025-10-20T18:38:31.909Z",
       "resolved_at": null,
       "impact": "none",
@@ -217,6 +217,98 @@
       "started_at": "2025-10-20T07:56:12.441Z",
       "page_id": "3tbw4lb9t3qp",
       "incident_updates": [
+        {
+          "id": "x51h39twb1kg",
+          "status": "monitoring",
+          "body": "The issue relating to the Atlassian Support portal displaying a message to customers to use our temporary support channel has now been resolved. The Atlassian Support portal is fully functional for any ongoing support issues.\n\nWith regards to other Atlassian products, we continue to see recovery continuing across all impacted products and our teams are continuing to monitor as the recovery continues.\n\nWe will provide further update on our recovery status within two hours.",
+          "incident_id": "v8xb3bfr3477",
+          "created_at": "2025-10-21T03:24:14.439Z",
+          "updated_at": "2025-10-21T03:24:14.439Z",
+          "display_at": "2025-10-21T03:24:14.439Z",
+          "affected_components": [
+            {
+              "code": "kvtmh1phs3r9",
+              "name": "Support Portal",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "bccp2f1cpy0x",
+              "name": "Ticketing",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "3cgy5c4f3q0r",
+              "name": "Knowledge Base",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "x6ljwvfs3ymn",
+              "name": "Community",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "n7r7tbhzvjx4",
+              "name": "API Docs",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "gmpjxdbnlw8r",
+              "name": "Public Issues Tracker",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "69dcpfrpy69y",
+              "name": "Training",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "n74skkw8pfw4",
+              "name": "Blogs",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "82w5wh36l221",
+              "name": "Careers",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "js34xsvs8bw2",
+              "name": "Content Delivery",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "518mmzwyv5l6",
+              "name": "Search",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "2v87l6v7mss2",
+              "name": "Downloads Access",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "wbnb8zl1mqq0",
+              "name": "Preferences Center",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "bb4kjs6yb3dm",
           "status": "monitoring",

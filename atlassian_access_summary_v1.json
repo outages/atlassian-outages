@@ -4,7 +4,7 @@
     "name": "Guard",
     "url": "https://guard.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-10-21T02:26:11.314Z"
+    "updated_at": "2025-10-21T03:24:12.574Z"
   },
   "components": [
     {
@@ -184,7 +184,7 @@
       "name": "Atlassian Cloud Services impacted",
       "status": "monitoring",
       "created_at": "2025-10-20T07:56:12.795Z",
-      "updated_at": "2025-10-21T01:07:54.229Z",
+      "updated_at": "2025-10-21T03:24:12.565Z",
       "monitoring_at": "2025-10-20T18:38:31.764Z",
       "resolved_at": null,
       "impact": "major",
@@ -192,6 +192,80 @@
       "started_at": "2025-10-20T07:56:12.779Z",
       "page_id": "5qmgwsxwsz78",
       "incident_updates": [
+        {
+          "id": "qvk6b12275wt",
+          "status": "monitoring",
+          "body": "The issue relating to the Atlassian Support portal displaying a message to customers to use our temporary support channel has now been resolved. The Atlassian Support portal is fully functional for any ongoing support issues.\n\nWith regards to other Atlassian products, we continue to see recovery continuing across all impacted products and our teams are continuing to monitor as the recovery continues.\n\nWe will provide further update on our recovery status within two hours.",
+          "incident_id": "b2vdjfzy1w8h",
+          "created_at": "2025-10-21T03:24:12.561Z",
+          "updated_at": "2025-10-21T03:24:12.561Z",
+          "display_at": "2025-10-21T03:24:12.561Z",
+          "affected_components": [
+            {
+              "code": "hqd5zdvzh5g1",
+              "name": "Domain Claims",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "vwb63rvhtqjn",
+              "name": "SAML-based SSO",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "n6qsfr329pzh",
+              "name": "User Provisioning",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "b8gbm56ptvw5",
+              "name": "Account Management",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "yf230szk5s8s",
+              "name": "Audit Logs",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "856c2dpnfnzq",
+              "name": "Signup",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "kj3g11lf8zg5",
+              "name": "API tokens",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hxdm8hxm3wsp",
+              "name": "Guard Premium - Data Classification",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "bpqlwwx9dc0c",
+              "name": "Guard Premium - Data Security Policies",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "rpr03y2g1hq6",
+              "name": "Guard Premium - Guard Detect",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "0kfnp8plhdzx",
           "status": "monitoring",
