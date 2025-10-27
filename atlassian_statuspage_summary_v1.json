@@ -4,7 +4,7 @@
     "name": "Atlassian Statuspage",
     "url": "http://metastatuspage.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2025-10-23T21:50:57.143-07:00"
+    "updated_at": "2025-10-26T22:33:40.572-07:00"
   },
   "components": [
     {
@@ -372,7 +372,7 @@
       "name": "Notifications",
       "status": "operational",
       "created_at": "2017-08-21T10:29:36.356-07:00",
-      "updated_at": "2017-08-23T15:54:00.714-07:00",
+      "updated_at": "2025-10-26T22:33:40.554-07:00",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -464,6 +464,30 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "kg33xy05zdyq",
+      "name": "Authentication",
+      "status": "operational",
+      "created_at": "2017-08-21T10:21:06.986-07:00",
+      "updated_at": "2025-10-26T22:33:40.567-07:00",
+      "position": 4,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": null,
+      "page_id": "y2j98763l56x",
+      "group": true,
+      "only_show_if_degraded": false,
+      "components": [
+        "0y0vb583m5g9",
+        "cj7ylrcthmdz",
+        "2516dq72k9lj",
+        "0kr0wdlqs7h8",
+        "wnvlx7c8mfql",
+        "45b0h3k4ky7f",
+        "kc0l63y8v8r5"
+      ]
+    },
+    {
       "id": "0kr0wdlqs7h8",
       "name": "Page Access Users",
       "status": "operational",
@@ -477,25 +501,6 @@
       "page_id": "y2j98763l56x",
       "group": false,
       "only_show_if_degraded": false
-    },
-    {
-      "id": "bpcwggjv4tm7",
-      "name": "Third Party Components",
-      "status": "operational",
-      "created_at": "2017-08-21T10:22:18.210-07:00",
-      "updated_at": "2017-08-24T12:33:47.291-07:00",
-      "position": 4,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": null,
-      "page_id": "y2j98763l56x",
-      "group": true,
-      "only_show_if_degraded": false,
-      "components": [
-        "5bflqtmq8jn6",
-        "pht8mbkmkb7t"
-      ]
     },
     {
       "id": "2267qzw6yfc0",
@@ -558,30 +563,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "kg33xy05zdyq",
-      "name": "Authentication",
-      "status": "operational",
-      "created_at": "2017-08-21T10:21:06.986-07:00",
-      "updated_at": "2017-08-24T12:33:47.449-07:00",
-      "position": 5,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": null,
-      "page_id": "y2j98763l56x",
-      "group": true,
-      "only_show_if_degraded": false,
-      "components": [
-        "0y0vb583m5g9",
-        "cj7ylrcthmdz",
-        "2516dq72k9lj",
-        "0kr0wdlqs7h8",
-        "wnvlx7c8mfql",
-        "45b0h3k4ky7f",
-        "kc0l63y8v8r5"
-      ]
-    },
-    {
       "id": "wnvlx7c8mfql",
       "name": "Page Google Auth",
       "status": "operational",
@@ -610,6 +591,25 @@
       "page_id": "y2j98763l56x",
       "group": false,
       "only_show_if_degraded": false
+    },
+    {
+      "id": "bpcwggjv4tm7",
+      "name": "Third Party Components",
+      "status": "operational",
+      "created_at": "2017-08-21T10:22:18.210-07:00",
+      "updated_at": "2025-10-26T22:33:20.706-07:00",
+      "position": 5,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": null,
+      "page_id": "y2j98763l56x",
+      "group": true,
+      "only_show_if_degraded": false,
+      "components": [
+        "5bflqtmq8jn6",
+        "pht8mbkmkb7t"
+      ]
     },
     {
       "id": "yfp2yt5fx9cn",
