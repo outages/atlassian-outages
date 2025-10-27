@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-10-27T07:35:55.725Z"
+    "updated_at": "2025-10-27T12:20:25.292Z"
   },
   "components": [
     {
@@ -234,7 +234,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -633,9 +633,9 @@
     {
       "id": "hk36hlvygg2q",
       "name": "Reporting APIs and dashboards",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2013-12-03T00:45:26.014Z",
-      "updated_at": "2025-10-21T00:03:32.599Z",
+      "updated_at": "2025-10-27T12:04:05.392Z",
       "position": 11,
       "description": "Marketing attribution reports are now operational.",
       "showcase": true,
@@ -811,10 +811,64 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "rt56y797rs7s",
+      "name": "Marketplace | Aggregated Sales, Transaction Reporting, and Export Transaction APIs experiencing Data Discrepancies",
+      "status": "identified",
+      "created_at": "2025-10-27T12:04:05.344Z",
+      "updated_at": "2025-10-27T12:04:05.453Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/6m477p3pp1xt",
+      "started_at": "2025-10-27T12:04:05.334Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "r2qw7dwpwzvv",
+          "status": "identified",
+          "body": "High-Level Impact:\nFollowing three vendor reporting flows are experiencing data discrepancies for the period between 12:00 AM 25th October 2025 and 2:00 PM 27th October 2025 IST:\nAggregated Sales Reporting\nTransaction Reporting\nExport Transaction APIs\nAll other reporting flows and data outside this window remain accurate and unaffected.\n\n\nDetails about the Impact:\nBetween 12:00 AM 25th October 2025 and 2:00 PM 27th October 2025 IST, data in the above three reports may be incomplete or inaccurate.\n\n\nTimeline:\n2025-10-25 00:00 IST: Impact started\n2025-10-27 14:00 IST: Impact ended (data discrepancies limited to this window)\n2025-10-27 11:00 IST: Issue detected and remediation initiated\n\n\nExpected Resolution Timeframe:\nOur team is actively working to resolve the issue. We expect to fix the discrepancies and replay the affected data within approximately 12 hours from now.\n\nMitigation:\nThe engineering team is addressing the root cause and will replay the affected data for the impacted period. No action is required from your side at this time.\n\n\nWorkaround:\nCurrently, there is no workaround available. We recommend holding off on any critical reporting or reconciliation activities for the affected period in these three reports until the issue is resolved.\n\n\nNext Update:\nWe will provide another update as soon as we have more information.",
+          "incident_id": "rt56y797rs7s",
+          "created_at": "2025-10-27T12:04:05.450Z",
+          "updated_at": "2025-10-27T12:04:05.450Z",
+          "display_at": "2025-10-27T12:04:05.450Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "hk36hlvygg2q",
+          "name": "Reporting APIs and dashboards",
+          "status": "degraded_performance",
+          "created_at": "2013-12-03T00:45:26.014Z",
+          "updated_at": "2025-10-27T12:04:05.392Z",
+          "position": 11,
+          "description": "Marketing attribution reports are now operational.",
+          "showcase": true,
+          "start_date": null,
+          "group_id": "d0m8l367qqw5",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
