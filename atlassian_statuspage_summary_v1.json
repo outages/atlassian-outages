@@ -4,7 +4,7 @@
     "name": "Atlassian Statuspage",
     "url": "http://metastatuspage.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2025-10-28T07:41:32.716-07:00"
+    "updated_at": "2025-10-29T03:39:03.875-07:00"
   },
   "components": [
     {
@@ -35,7 +35,7 @@
       "name": "HTTP Pages",
       "status": "operational",
       "created_at": "2017-08-21T10:20:23.847-07:00",
-      "updated_at": "2025-03-11T00:52:20.719-07:00",
+      "updated_at": "2025-10-29T03:38:38.372-07:00",
       "position": 1,
       "description": null,
       "showcase": true,
@@ -155,7 +155,7 @@
       "name": "HTTPS Pages",
       "status": "operational",
       "created_at": "2017-08-21T10:20:23.888-07:00",
-      "updated_at": "2025-03-11T00:52:20.784-07:00",
+      "updated_at": "2025-10-29T03:39:03.870-07:00",
       "position": 2,
       "description": null,
       "showcase": true,
