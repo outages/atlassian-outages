@@ -4,15 +4,15 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-10-29T22:20:58.347Z"
+    "updated_at": "2025-10-30T02:11:47.889Z"
   },
   "components": [
     {
       "id": "4kcs01hbh4l6",
       "name": "Jira Service Management Web",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-11-16T18:06:14.831Z",
-      "updated_at": "2025-10-29T06:47:03.246Z",
+      "updated_at": "2025-10-30T02:08:15.470Z",
       "position": 1,
       "description": "Problems with queues, issues, reports, searching, and anything else impacting an agent's ability to complete their work",
       "showcase": false,
@@ -25,9 +25,9 @@
     {
       "id": "hzbyfxf686qd",
       "name": "Service Portal",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-11-16T18:06:14.848Z",
-      "updated_at": "2025-10-29T06:47:03.264Z",
+      "updated_at": "2025-10-30T02:08:15.490Z",
       "position": 2,
       "description": "Problems related to the service desk portals where end-users make requests or raise issues",
       "showcase": false,
@@ -40,9 +40,9 @@
     {
       "id": "jy0n3xjnl1kn",
       "name": "Opsgenie Incident Flow",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-11-10T01:21:53.523Z",
-      "updated_at": "2025-10-29T06:47:03.281Z",
+      "updated_at": "2025-10-30T02:08:15.507Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -55,9 +55,9 @@
     {
       "id": "bk3ggvf6kw1k",
       "name": "Opsgenie Alert Flow",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-11-10T01:21:54.620Z",
-      "updated_at": "2025-10-29T06:47:03.299Z",
+      "updated_at": "2025-10-30T02:08:15.524Z",
       "position": 4,
       "description": null,
       "showcase": false,
@@ -70,9 +70,9 @@
     {
       "id": "svtqtkj9slxm",
       "name": "Opsgenie Incident Flow",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-11-10T01:21:58.305Z",
-      "updated_at": "2025-10-29T06:47:03.316Z",
+      "updated_at": "2025-10-30T02:08:15.538Z",
       "position": 5,
       "description": null,
       "showcase": false,
@@ -85,9 +85,9 @@
     {
       "id": "8q1197ln8wz6",
       "name": "Opsgenie Alert Flow",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-11-10T01:21:59.310Z",
-      "updated_at": "2025-10-29T06:47:03.332Z",
+      "updated_at": "2025-10-30T02:08:15.552Z",
       "position": 6,
       "description": null,
       "showcase": false,
@@ -100,9 +100,9 @@
     {
       "id": "n459f7qbgm7b",
       "name": "Jira Service Management Email Requests",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-01-08T23:33:42.607Z",
-      "updated_at": "2025-10-29T06:47:03.348Z",
+      "updated_at": "2025-10-30T02:08:15.567Z",
       "position": 7,
       "description": "Problems related to end-user's ability to raise requests via email",
       "showcase": false,
@@ -115,9 +115,9 @@
     {
       "id": "why9xhgfq7kx",
       "name": "Authentication and User Management",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-05-02T04:27:17.805Z",
-      "updated_at": "2025-10-29T06:47:03.365Z",
+      "updated_at": "2025-10-30T02:08:15.584Z",
       "position": 8,
       "description": null,
       "showcase": false,
@@ -130,9 +130,9 @@
     {
       "id": "n50cprw4wnhp",
       "name": "Purchasing & Licensing",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-04-28T00:50:26.392Z",
-      "updated_at": "2025-10-29T06:47:03.383Z",
+      "updated_at": "2025-10-30T02:08:15.599Z",
       "position": 9,
       "description": null,
       "showcase": false,
@@ -145,9 +145,9 @@
     {
       "id": "wlpsrb4r2yq9",
       "name": "Signup",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-10-09T20:36:56.243Z",
-      "updated_at": "2025-10-29T06:47:03.398Z",
+      "updated_at": "2025-10-30T02:08:15.615Z",
       "position": 10,
       "description": null,
       "showcase": false,
@@ -160,9 +160,9 @@
     {
       "id": "7rq3yg76vvbc",
       "name": "Automation for Jira",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-12-23T01:40:13.601Z",
-      "updated_at": "2025-10-29T06:47:03.414Z",
+      "updated_at": "2025-10-30T02:08:15.632Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -175,9 +175,9 @@
     {
       "id": "6vlshpbyx93m",
       "name": "Assist",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2022-03-10T05:28:23.804Z",
-      "updated_at": "2025-10-29T06:47:03.430Z",
+      "updated_at": "2025-10-30T02:08:15.648Z",
       "position": 12,
       "description": "For JSM Chat related outages",
       "showcase": false,
@@ -188,467 +188,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "6wd92sjjqdtn",
-      "name": "Degraded performance of Atlassian cloud sites for some users in Australia",
-      "status": "investigating",
-      "created_at": "2025-10-29T06:47:03.186Z",
-      "updated_at": "2025-10-29T06:58:56.055Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/hl1pl3v593zc",
-      "started_at": "2025-10-29T06:47:03.173Z",
-      "page_id": "pv54g7ltsc24",
-      "incident_updates": [
-        {
-          "id": "g80xwlph0htp",
-          "status": "investigating",
-          "body": "Considering the complexity and intermittent nature of this issue. Atlassian team believes that further investigation of this issue is required and we will reach out to some of the impacted customers for specific information.\nBased on the above, we shall be able to provide further update in next 24 hours, if not sooner.",
-          "incident_id": "6wd92sjjqdtn",
-          "created_at": "2025-10-29T06:58:56.052Z",
-          "updated_at": "2025-10-29T06:58:56.052Z",
-          "display_at": "2025-10-29T06:58:56.052Z",
-          "affected_components": [
-            {
-              "code": "4kcs01hbh4l6",
-              "name": "Jira Service Management Web",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "hzbyfxf686qd",
-              "name": "Service Portal",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "n459f7qbgm7b",
-              "name": "Jira Service Management Email Requests",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "why9xhgfq7kx",
-              "name": "Authentication and User Management",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "n50cprw4wnhp",
-              "name": "Purchasing & Licensing",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "wlpsrb4r2yq9",
-              "name": "Signup",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "jy0n3xjnl1kn",
-              "name": "Opsgenie Incident Flow",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "bk3ggvf6kw1k",
-              "name": "Opsgenie Alert Flow",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "svtqtkj9slxm",
-              "name": "Opsgenie Incident Flow",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "8q1197ln8wz6",
-              "name": "Opsgenie Alert Flow",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7rq3yg76vvbc",
-              "name": "Automation for Jira",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "6vlshpbyx93m",
-              "name": "Assist",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "49czdv6lxtwz",
-          "status": "investigating",
-          "body": "Considering the complexity and intermittent nature of this issue. Atlassian team believes that further investigation of this issue is required and we will reach out to some of the impacted customers for specific information.\nBased on the above, we shall be able to provide further update in next 24 hours, if not sooner",
-          "incident_id": "6wd92sjjqdtn",
-          "created_at": "2025-10-29T06:57:29.728Z",
-          "updated_at": "2025-10-29T06:57:29.728Z",
-          "display_at": "2025-10-29T06:57:29.728Z",
-          "affected_components": [
-            {
-              "code": "4kcs01hbh4l6",
-              "name": "Jira Service Management Web",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "hzbyfxf686qd",
-              "name": "Service Portal",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "n459f7qbgm7b",
-              "name": "Jira Service Management Email Requests",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "why9xhgfq7kx",
-              "name": "Authentication and User Management",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "n50cprw4wnhp",
-              "name": "Purchasing & Licensing",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "wlpsrb4r2yq9",
-              "name": "Signup",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "jy0n3xjnl1kn",
-              "name": "Opsgenie Incident Flow",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "bk3ggvf6kw1k",
-              "name": "Opsgenie Alert Flow",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "svtqtkj9slxm",
-              "name": "Opsgenie Incident Flow",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "8q1197ln8wz6",
-              "name": "Opsgenie Alert Flow",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7rq3yg76vvbc",
-              "name": "Automation for Jira",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "6vlshpbyx93m",
-              "name": "Assist",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "qt6w19hgycqf",
-          "status": "investigating",
-          "body": "We have reports of some users in Australia seeing degraded performance of Atlassian cloud. Our team is investigating this and we shall keep you informed in next 60 minutes or sooner.",
-          "incident_id": "6wd92sjjqdtn",
-          "created_at": "2025-10-29T06:47:03.491Z",
-          "updated_at": "2025-10-29T06:47:03.491Z",
-          "display_at": "2025-10-29T06:47:03.491Z",
-          "affected_components": [
-            {
-              "code": "4kcs01hbh4l6",
-              "name": "Jira Service Management Web",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "hzbyfxf686qd",
-              "name": "Service Portal",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "n459f7qbgm7b",
-              "name": "Jira Service Management Email Requests",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "why9xhgfq7kx",
-              "name": "Authentication and User Management",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "n50cprw4wnhp",
-              "name": "Purchasing & Licensing",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "wlpsrb4r2yq9",
-              "name": "Signup",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "jy0n3xjnl1kn",
-              "name": "Opsgenie Incident Flow",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "bk3ggvf6kw1k",
-              "name": "Opsgenie Alert Flow",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "svtqtkj9slxm",
-              "name": "Opsgenie Incident Flow",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "8q1197ln8wz6",
-              "name": "Opsgenie Alert Flow",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7rq3yg76vvbc",
-              "name": "Automation for Jira",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "6vlshpbyx93m",
-              "name": "Assist",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "4kcs01hbh4l6",
-          "name": "Jira Service Management Web",
-          "status": "degraded_performance",
-          "created_at": "2018-11-16T18:06:14.831Z",
-          "updated_at": "2025-10-29T06:47:03.246Z",
-          "position": 1,
-          "description": "Problems with queues, issues, reports, searching, and anything else impacting an agent's ability to complete their work",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "hzbyfxf686qd",
-          "name": "Service Portal",
-          "status": "degraded_performance",
-          "created_at": "2018-11-16T18:06:14.848Z",
-          "updated_at": "2025-10-29T06:47:03.264Z",
-          "position": 2,
-          "description": "Problems related to the service desk portals where end-users make requests or raise issues",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "jy0n3xjnl1kn",
-          "name": "Opsgenie Incident Flow",
-          "status": "degraded_performance",
-          "created_at": "2020-11-10T01:21:53.523Z",
-          "updated_at": "2025-10-29T06:47:03.281Z",
-          "position": 3,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "bk3ggvf6kw1k",
-          "name": "Opsgenie Alert Flow",
-          "status": "degraded_performance",
-          "created_at": "2020-11-10T01:21:54.620Z",
-          "updated_at": "2025-10-29T06:47:03.299Z",
-          "position": 4,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "svtqtkj9slxm",
-          "name": "Opsgenie Incident Flow",
-          "status": "degraded_performance",
-          "created_at": "2020-11-10T01:21:58.305Z",
-          "updated_at": "2025-10-29T06:47:03.316Z",
-          "position": 5,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "8q1197ln8wz6",
-          "name": "Opsgenie Alert Flow",
-          "status": "degraded_performance",
-          "created_at": "2020-11-10T01:21:59.310Z",
-          "updated_at": "2025-10-29T06:47:03.332Z",
-          "position": 6,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "n459f7qbgm7b",
-          "name": "Jira Service Management Email Requests",
-          "status": "degraded_performance",
-          "created_at": "2019-01-08T23:33:42.607Z",
-          "updated_at": "2025-10-29T06:47:03.348Z",
-          "position": 7,
-          "description": "Problems related to end-user's ability to raise requests via email",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "why9xhgfq7kx",
-          "name": "Authentication and User Management",
-          "status": "degraded_performance",
-          "created_at": "2019-05-02T04:27:17.805Z",
-          "updated_at": "2025-10-29T06:47:03.365Z",
-          "position": 8,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "n50cprw4wnhp",
-          "name": "Purchasing & Licensing",
-          "status": "degraded_performance",
-          "created_at": "2020-04-28T00:50:26.392Z",
-          "updated_at": "2025-10-29T06:47:03.383Z",
-          "position": 9,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "wlpsrb4r2yq9",
-          "name": "Signup",
-          "status": "degraded_performance",
-          "created_at": "2020-10-09T20:36:56.243Z",
-          "updated_at": "2025-10-29T06:47:03.398Z",
-          "position": 10,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-10-09",
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "7rq3yg76vvbc",
-          "name": "Automation for Jira",
-          "status": "degraded_performance",
-          "created_at": "2020-12-23T01:40:13.601Z",
-          "updated_at": "2025-10-29T06:47:03.414Z",
-          "position": 11,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-12-23",
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "6vlshpbyx93m",
-          "name": "Assist",
-          "status": "degraded_performance",
-          "created_at": "2022-03-10T05:28:23.804Z",
-          "updated_at": "2025-10-29T06:47:03.430Z",
-          "position": 12,
-          "description": "For JSM Chat related outages",
-          "showcase": false,
-          "start_date": "2022-03-10",
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
