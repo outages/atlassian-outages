@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-11-03T17:21:16.298Z"
+    "updated_at": "2025-11-03T18:08:57.494Z"
   },
   "components": [
     {
@@ -160,9 +160,9 @@
     {
       "id": "7rq3yg76vvbc",
       "name": "Automation for Jira",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-12-23T01:40:13.601Z",
-      "updated_at": "2025-11-03T16:11:55.643Z",
+      "updated_at": "2025-11-03T18:08:57.439Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -188,84 +188,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "dgd67hjg7zmg",
-      "name": "Degraded performance and intermittent errors",
-      "status": "investigating",
-      "created_at": "2025-11-03T16:11:55.605Z",
-      "updated_at": "2025-11-03T17:15:40.804Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/kqgbngd4667g",
-      "started_at": "2025-11-03T16:11:55.000Z",
-      "page_id": "pv54g7ltsc24",
-      "incident_updates": [
-        {
-          "id": "r7g207c1jxm8",
-          "status": "investigating",
-          "body": "We are continuing to investigate the cause of degraded performance and intermittent errors impacting Automations and the Automation UI for some Confluence, Jira Service Management, and Jira Cloud customers. We will provide more details in one hour, if not sooner.",
-          "incident_id": "dgd67hjg7zmg",
-          "created_at": "2025-11-03T17:15:40.802Z",
-          "updated_at": "2025-11-03T17:15:40.802Z",
-          "display_at": "2025-11-03T17:15:40.802Z",
-          "affected_components": [
-            {
-              "code": "7rq3yg76vvbc",
-              "name": "Automation for Jira",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "v65t9q52bs28",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance and intermittent errors for some Confluence, Jira Service Management, and Jira Cloud customers. We will provide more details in one hour, if not sooner.",
-          "incident_id": "dgd67hjg7zmg",
-          "created_at": "2025-11-03T16:11:55.687Z",
-          "updated_at": "2025-11-03T16:42:27.967Z",
-          "display_at": "2025-11-03T16:11:55.000Z",
-          "affected_components": [
-            {
-              "code": "7rq3yg76vvbc",
-              "name": "Automation for Jira",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "7rq3yg76vvbc",
-          "name": "Automation for Jira",
-          "status": "degraded_performance",
-          "created_at": "2020-12-23T01:40:13.601Z",
-          "updated_at": "2025-11-03T16:11:55.643Z",
-          "position": 11,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-12-23",
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
