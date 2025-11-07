@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-11-07T13:40:56.797Z"
+    "updated_at": "2025-11-07T14:10:41.308Z"
   },
   "components": [
     {
@@ -55,9 +55,9 @@
     {
       "id": "x6ljwvfs3ymn",
       "name": "Community",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-11-30T21:48:02.423Z",
-      "updated_at": "2025-11-06T19:36:32.574Z",
+      "updated_at": "2025-11-07T14:10:41.258Z",
       "position": 4,
       "description": null,
       "showcase": true,
@@ -207,16 +207,108 @@
     {
       "id": "3nsss0g1qrg2",
       "name": "Atlassian Community is experiencing the slowness on Forums",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2025-11-06T19:36:32.503Z",
-      "updated_at": "2025-11-06T19:50:37.967Z",
-      "monitoring_at": null,
+      "updated_at": "2025-11-07T14:10:41.306Z",
+      "monitoring_at": "2025-11-07T14:10:41.289Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/kp5hgrqsd1xk",
       "started_at": "2025-11-06T19:36:32.489Z",
       "page_id": "3tbw4lb9t3qp",
       "incident_updates": [
+        {
+          "id": "pr86gbgkcxp9",
+          "status": "monitoring",
+          "body": "The incident has been fixed and continue to stay under monitoring.",
+          "incident_id": "3nsss0g1qrg2",
+          "created_at": "2025-11-07T14:10:41.289Z",
+          "updated_at": "2025-11-07T14:10:41.289Z",
+          "display_at": "2025-11-07T14:10:41.289Z",
+          "affected_components": [
+            {
+              "code": "kvtmh1phs3r9",
+              "name": "Support Portal",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "bccp2f1cpy0x",
+              "name": "Ticketing",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "3cgy5c4f3q0r",
+              "name": "Knowledge Base",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "x6ljwvfs3ymn",
+              "name": "Community",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "n7r7tbhzvjx4",
+              "name": "API Docs",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "gmpjxdbnlw8r",
+              "name": "Public Issues Tracker",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "69dcpfrpy69y",
+              "name": "Training",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "n74skkw8pfw4",
+              "name": "Blogs",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "82w5wh36l221",
+              "name": "Careers",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "js34xsvs8bw2",
+              "name": "Content Delivery",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "518mmzwyv5l6",
+              "name": "Search",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "2v87l6v7mss2",
+              "name": "Downloads Access",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "wbnb8zl1mqq0",
+              "name": "Preferences Center",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "6d1p277bgr8m",
           "status": "investigating",
@@ -451,9 +543,9 @@
         {
           "id": "x6ljwvfs3ymn",
           "name": "Community",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2018-11-30T21:48:02.423Z",
-          "updated_at": "2025-11-06T19:36:32.574Z",
+          "updated_at": "2025-11-07T14:10:41.258Z",
           "position": 4,
           "description": null,
           "showcase": true,
@@ -604,7 +696,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
