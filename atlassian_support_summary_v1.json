@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-11-30T10:41:01.127Z"
+    "updated_at": "2025-11-30T11:04:57.395Z"
   },
   "components": [
     {
@@ -85,9 +85,9 @@
     {
       "id": "gmpjxdbnlw8r",
       "name": "Public Issues Tracker",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-11-30T21:48:47.309Z",
-      "updated_at": "2025-11-30T10:00:21.149Z",
+      "updated_at": "2025-11-30T11:04:57.344Z",
       "position": 6,
       "description": "Atlassian's public issue tracker which can be found at jira.atlassian.com",
       "showcase": true,
@@ -204,97 +204,9 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "2chh3zypgmyj",
-      "name": "jira.atlassian.com scheduled maintenance notice",
-      "status": "in_progress",
-      "created_at": "2025-11-29T05:38:34.282Z",
-      "updated_at": "2025-11-30T10:00:21.195Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/5p9kzpfj93kt",
-      "started_at": "2025-11-29T05:38:34.275Z",
-      "page_id": "3tbw4lb9t3qp",
-      "incident_updates": [
-        {
-          "id": "m760yzgtqhn4",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "2chh3zypgmyj",
-          "created_at": "2025-11-30T10:00:21.191Z",
-          "updated_at": "2025-11-30T10:00:21.191Z",
-          "display_at": "2025-11-30T10:00:21.191Z",
-          "affected_components": [
-            {
-              "code": "gmpjxdbnlw8r",
-              "name": "Public Issues Tracker",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "9ghgwd87q27t",
-          "status": "scheduled",
-          "body": "Maintenance will begin as scheduled in 60 minutes.",
-          "incident_id": "2chh3zypgmyj",
-          "created_at": "2025-11-30T09:00:23.055Z",
-          "updated_at": "2025-11-30T09:00:23.055Z",
-          "display_at": "2025-11-30T09:00:23.055Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "t4h14vgz3ywp",
-          "status": "scheduled",
-          "body": "jira.atlassian.com will be undergoing maintenance and unavailable for a portion of the upgrade window (Approximately 2 hours).",
-          "incident_id": "2chh3zypgmyj",
-          "created_at": "2025-11-29T05:38:34.346Z",
-          "updated_at": "2025-11-29T05:38:34.346Z",
-          "display_at": "2025-11-29T05:38:34.346Z",
-          "affected_components": [
-            {
-              "code": "gmpjxdbnlw8r",
-              "name": "Public Issues Tracker",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "gmpjxdbnlw8r",
-          "name": "Public Issues Tracker",
-          "status": "under_maintenance",
-          "created_at": "2018-11-30T21:48:47.309Z",
-          "updated_at": "2025-11-30T10:00:21.149Z",
-          "position": 6,
-          "description": "Atlassian's public issue tracker which can be found at jira.atlassian.com",
-          "showcase": true,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "3tbw4lb9t3qp",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2025-11-30T10:00:00.000Z",
-      "scheduled_until": "2025-11-30T12:00:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
