@@ -4,15 +4,15 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2025-12-12T00:40:54.412-05:00"
+    "updated_at": "2025-12-12T01:40:21.218-05:00"
   },
   "components": [
     {
       "id": "hsr3nvlz0k2l",
       "name": "Trello.com",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2020-01-24T12:50:55.839-05:00",
-      "updated_at": "2025-11-21T11:14:13.420-05:00",
+      "updated_at": "2025-12-12T01:40:21.138-05:00",
       "position": 1,
       "description": "Web client",
       "showcase": true,
@@ -25,9 +25,9 @@
     {
       "id": "y1nllgnkxn9d",
       "name": "API",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2020-01-24T12:50:17.715-05:00",
-      "updated_at": "2025-11-21T11:14:13.439-05:00",
+      "updated_at": "2025-12-12T01:40:21.164-05:00",
       "position": 2,
       "description": null,
       "showcase": true,
@@ -83,10 +83,85 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "b5skqhpbz9b8",
+      "name": "500 Errors being experienced by Trello users",
+      "status": "investigating",
+      "created_at": "2025-12-12T01:40:21.091-05:00",
+      "updated_at": "2025-12-12T01:40:21.214-05:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "critical",
+      "shortlink": "https://stspg.io/sxg6xcjtwc51",
+      "started_at": "2025-12-12T01:40:21.082-05:00",
+      "page_id": "h5frqhb041yq",
+      "incident_updates": [
+        {
+          "id": "p280x9fbx1xj",
+          "status": "investigating",
+          "body": "We are actively investigating reports of a service disruption affecting Trello users. We'll share updates here as they become available or within the hour.",
+          "incident_id": "b5skqhpbz9b8",
+          "created_at": "2025-12-12T01:40:21.211-05:00",
+          "updated_at": "2025-12-12T01:40:21.211-05:00",
+          "display_at": "2025-12-12T01:40:21.211-05:00",
+          "affected_components": [
+            {
+              "code": "y1nllgnkxn9d",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "hsr3nvlz0k2l",
+              "name": "Trello.com",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "hsr3nvlz0k2l",
+          "name": "Trello.com",
+          "status": "major_outage",
+          "created_at": "2020-01-24T12:50:55.839-05:00",
+          "updated_at": "2025-12-12T01:40:21.138-05:00",
+          "position": 1,
+          "description": "Web client",
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "h5frqhb041yq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "y1nllgnkxn9d",
+          "name": "API",
+          "status": "major_outage",
+          "created_at": "2020-01-24T12:50:17.715-05:00",
+          "updated_at": "2025-12-12T01:40:21.164-05:00",
+          "position": 2,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "h5frqhb041yq",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "major",
+    "description": "Partial System Outage"
   }
 }
