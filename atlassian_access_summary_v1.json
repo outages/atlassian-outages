@@ -4,15 +4,15 @@
     "name": "Guard",
     "url": "https://guard.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-12-15T17:47:38.375Z"
+    "updated_at": "2025-12-15T19:02:03.809Z"
   },
   "components": [
     {
       "id": "hqd5zdvzh5g1",
       "name": "Domain Claims",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-05-03T02:39:58.947Z",
-      "updated_at": "2025-12-15T16:16:25.711Z",
+      "updated_at": "2025-12-15T19:02:03.592Z",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -25,9 +25,9 @@
     {
       "id": "hxdm8hxm3wsp",
       "name": "Data Classification",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2024-06-16T23:41:35.399Z",
-      "updated_at": "2025-12-15T16:16:25.732Z",
+      "updated_at": "2025-12-15T19:02:03.613Z",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -40,9 +40,9 @@
     {
       "id": "vwb63rvhtqjn",
       "name": "SAML-based SSO",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-05-03T02:40:16.879Z",
-      "updated_at": "2025-12-15T16:16:25.751Z",
+      "updated_at": "2025-12-15T19:02:03.631Z",
       "position": 2,
       "description": null,
       "showcase": false,
@@ -55,9 +55,9 @@
     {
       "id": "bpqlwwx9dc0c",
       "name": "Data Security Policies",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2024-06-16T23:42:17.214Z",
-      "updated_at": "2025-12-15T16:16:25.771Z",
+      "updated_at": "2025-12-15T19:02:03.650Z",
       "position": 2,
       "description": null,
       "showcase": false,
@@ -70,9 +70,9 @@
     {
       "id": "n6qsfr329pzh",
       "name": "User Provisioning",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-05-03T02:40:35.269Z",
-      "updated_at": "2025-12-15T16:16:25.785Z",
+      "updated_at": "2025-12-15T19:02:03.666Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -85,9 +85,9 @@
     {
       "id": "rpr03y2g1hq6",
       "name": "Guard Detect",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2024-06-16T23:42:29.956Z",
-      "updated_at": "2025-12-15T16:16:25.804Z",
+      "updated_at": "2025-12-15T19:02:03.686Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -100,9 +100,9 @@
     {
       "id": "b8gbm56ptvw5",
       "name": "Account Management",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-05-03T02:41:07.946Z",
-      "updated_at": "2025-12-15T16:16:25.819Z",
+      "updated_at": "2025-12-15T19:02:03.701Z",
       "position": 4,
       "description": null,
       "showcase": false,
@@ -115,9 +115,9 @@
     {
       "id": "yf230szk5s8s",
       "name": "Audit Logs",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-05-03T02:42:05.988Z",
-      "updated_at": "2025-12-15T16:16:25.833Z",
+      "updated_at": "2025-12-15T19:02:03.716Z",
       "position": 5,
       "description": null,
       "showcase": false,
@@ -130,9 +130,9 @@
     {
       "id": "856c2dpnfnzq",
       "name": "Signup",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-10-09T20:38:53.790Z",
-      "updated_at": "2025-12-15T16:16:25.848Z",
+      "updated_at": "2025-12-15T19:02:03.731Z",
       "position": 6,
       "description": null,
       "showcase": false,
@@ -145,9 +145,9 @@
     {
       "id": "kj3g11lf8zg5",
       "name": "API tokens",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2023-12-12T20:59:46.149Z",
-      "updated_at": "2025-12-15T16:16:25.865Z",
+      "updated_at": "2025-12-15T19:02:03.748Z",
       "position": 7,
       "description": "Includes user API tokens and admin API keys",
       "showcase": false,
@@ -160,7 +160,7 @@
     {
       "id": "p4657gzl53zr",
       "name": "Guard Premium",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2024-06-16T23:41:35.376Z",
       "updated_at": "2025-04-22T20:44:52.947Z",
       "position": 10,
@@ -178,475 +178,10 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "lhxc3gnwgyh5",
-      "name": "Degraded performance of Admin Hub, Atlassian Analytics, Confluence Cloud, Focus, Jira, Jira Product Discovery, Jira Service Management, and Rovo",
-      "status": "identified",
-      "created_at": "2025-12-15T16:16:25.657Z",
-      "updated_at": "2025-12-15T17:47:38.368Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/21mc8gncnygr",
-      "started_at": "2025-12-15T16:16:25.640Z",
-      "page_id": "5qmgwsxwsz78",
-      "incident_updates": [
-        {
-          "id": "hkjrhg6g4x6x",
-          "status": "identified",
-          "body": "Our teams are continuing to implement mitigations. Error rates have decreased across all products and we are seeing improvements.\n\nWe will continue to provide updates here in 60 minutes or as more information becomes available.",
-          "incident_id": "lhxc3gnwgyh5",
-          "created_at": "2025-12-15T17:47:38.364Z",
-          "updated_at": "2025-12-15T17:47:38.364Z",
-          "display_at": "2025-12-15T17:47:38.364Z",
-          "affected_components": [
-            {
-              "code": "hqd5zdvzh5g1",
-              "name": "Domain Claims",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "vwb63rvhtqjn",
-              "name": "SAML-based SSO",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "n6qsfr329pzh",
-              "name": "User Provisioning",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "b8gbm56ptvw5",
-              "name": "Account Management",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "yf230szk5s8s",
-              "name": "Audit Logs",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "856c2dpnfnzq",
-              "name": "Signup",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "kj3g11lf8zg5",
-              "name": "API tokens",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "hxdm8hxm3wsp",
-              "name": "Guard Premium - Data Classification",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "bpqlwwx9dc0c",
-              "name": "Guard Premium - Data Security Policies",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "rpr03y2g1hq6",
-              "name": "Guard Premium - Guard Detect",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "k6pqb00srhq1",
-          "status": "identified",
-          "body": "We have identified the cause of the issue, and our teams are diligently working on mitigations. We're currently seeing signs of improvements. We'll continue to share additional updates here in 60 minutes or as more information becomes available.",
-          "incident_id": "lhxc3gnwgyh5",
-          "created_at": "2025-12-15T16:48:11.420Z",
-          "updated_at": "2025-12-15T16:48:11.420Z",
-          "display_at": "2025-12-15T16:48:11.420Z",
-          "affected_components": [
-            {
-              "code": "hqd5zdvzh5g1",
-              "name": "Domain Claims",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "vwb63rvhtqjn",
-              "name": "SAML-based SSO",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "n6qsfr329pzh",
-              "name": "User Provisioning",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "b8gbm56ptvw5",
-              "name": "Account Management",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "yf230szk5s8s",
-              "name": "Audit Logs",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "856c2dpnfnzq",
-              "name": "Signup",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "kj3g11lf8zg5",
-              "name": "API tokens",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "hxdm8hxm3wsp",
-              "name": "Guard Premium - Data Classification",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "bpqlwwx9dc0c",
-              "name": "Guard Premium - Data Security Policies",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "rpr03y2g1hq6",
-              "name": "Guard Premium - Guard Detect",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "vq7dnx4ylgz0",
-          "status": "identified",
-          "body": "We are actively investigating reports of performance degradation affecting Admin Hub, Atlassian Analytics, Confluence Cloud, Focus, Jira, Jira Product Discovery, Jira Service Management, Jira Work Management, and Rovo. We'll share updates here as more information is available.",
-          "incident_id": "lhxc3gnwgyh5",
-          "created_at": "2025-12-15T16:26:38.713Z",
-          "updated_at": "2025-12-15T16:26:38.713Z",
-          "display_at": "2025-12-15T16:26:38.713Z",
-          "affected_components": [
-            {
-              "code": "hqd5zdvzh5g1",
-              "name": "Domain Claims",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "vwb63rvhtqjn",
-              "name": "SAML-based SSO",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "n6qsfr329pzh",
-              "name": "User Provisioning",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "b8gbm56ptvw5",
-              "name": "Account Management",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "yf230szk5s8s",
-              "name": "Audit Logs",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "856c2dpnfnzq",
-              "name": "Signup",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "kj3g11lf8zg5",
-              "name": "API tokens",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "hxdm8hxm3wsp",
-              "name": "Guard Premium - Data Classification",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "bpqlwwx9dc0c",
-              "name": "Guard Premium - Data Security Policies",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "rpr03y2g1hq6",
-              "name": "Guard Premium - Guard Detect",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "0d94mwpdnbhj",
-          "status": "identified",
-          "body": "We are actively investigating reports of performance degradation affecting Admin Hub, Atlassian Analytics, Confluence Cloud, Focus, Jira, Jira Product Discovery, Jira Service Management, and Rovo. We'll share updates here as more information is available.",
-          "incident_id": "lhxc3gnwgyh5",
-          "created_at": "2025-12-15T16:16:25.913Z",
-          "updated_at": "2025-12-15T16:16:25.913Z",
-          "display_at": "2025-12-15T16:16:25.913Z",
-          "affected_components": [
-            {
-              "code": "hqd5zdvzh5g1",
-              "name": "Domain Claims",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "vwb63rvhtqjn",
-              "name": "SAML-based SSO",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "n6qsfr329pzh",
-              "name": "User Provisioning",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "b8gbm56ptvw5",
-              "name": "Account Management",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "yf230szk5s8s",
-              "name": "Audit Logs",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "856c2dpnfnzq",
-              "name": "Signup",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "kj3g11lf8zg5",
-              "name": "API tokens",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "hxdm8hxm3wsp",
-              "name": "Guard Premium - Data Classification",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "bpqlwwx9dc0c",
-              "name": "Guard Premium - Data Security Policies",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "rpr03y2g1hq6",
-              "name": "Guard Premium - Guard Detect",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "hqd5zdvzh5g1",
-          "name": "Domain Claims",
-          "status": "degraded_performance",
-          "created_at": "2019-05-03T02:39:58.947Z",
-          "updated_at": "2025-12-15T16:16:25.711Z",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "5qmgwsxwsz78",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "hxdm8hxm3wsp",
-          "name": "Data Classification",
-          "status": "degraded_performance",
-          "created_at": "2024-06-16T23:41:35.399Z",
-          "updated_at": "2025-12-15T16:16:25.732Z",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": "2024-05-01",
-          "group_id": "p4657gzl53zr",
-          "page_id": "5qmgwsxwsz78",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "vwb63rvhtqjn",
-          "name": "SAML-based SSO",
-          "status": "degraded_performance",
-          "created_at": "2019-05-03T02:40:16.879Z",
-          "updated_at": "2025-12-15T16:16:25.751Z",
-          "position": 2,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "5qmgwsxwsz78",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "bpqlwwx9dc0c",
-          "name": "Data Security Policies",
-          "status": "degraded_performance",
-          "created_at": "2024-06-16T23:42:17.214Z",
-          "updated_at": "2025-12-15T16:16:25.771Z",
-          "position": 2,
-          "description": null,
-          "showcase": false,
-          "start_date": "2024-05-01",
-          "group_id": "p4657gzl53zr",
-          "page_id": "5qmgwsxwsz78",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "n6qsfr329pzh",
-          "name": "User Provisioning",
-          "status": "degraded_performance",
-          "created_at": "2019-05-03T02:40:35.269Z",
-          "updated_at": "2025-12-15T16:16:25.785Z",
-          "position": 3,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "5qmgwsxwsz78",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "rpr03y2g1hq6",
-          "name": "Guard Detect",
-          "status": "degraded_performance",
-          "created_at": "2024-06-16T23:42:29.956Z",
-          "updated_at": "2025-12-15T16:16:25.804Z",
-          "position": 3,
-          "description": null,
-          "showcase": false,
-          "start_date": "2024-05-01",
-          "group_id": "p4657gzl53zr",
-          "page_id": "5qmgwsxwsz78",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "b8gbm56ptvw5",
-          "name": "Account Management",
-          "status": "degraded_performance",
-          "created_at": "2019-05-03T02:41:07.946Z",
-          "updated_at": "2025-12-15T16:16:25.819Z",
-          "position": 4,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "5qmgwsxwsz78",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "yf230szk5s8s",
-          "name": "Audit Logs",
-          "status": "degraded_performance",
-          "created_at": "2019-05-03T02:42:05.988Z",
-          "updated_at": "2025-12-15T16:16:25.833Z",
-          "position": 5,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "5qmgwsxwsz78",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "856c2dpnfnzq",
-          "name": "Signup",
-          "status": "degraded_performance",
-          "created_at": "2020-10-09T20:38:53.790Z",
-          "updated_at": "2025-12-15T16:16:25.848Z",
-          "position": 6,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-10-09",
-          "group_id": null,
-          "page_id": "5qmgwsxwsz78",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "kj3g11lf8zg5",
-          "name": "API tokens",
-          "status": "degraded_performance",
-          "created_at": "2023-12-12T20:59:46.149Z",
-          "updated_at": "2025-12-15T16:16:25.865Z",
-          "position": 7,
-          "description": "Includes user API tokens and admin API keys",
-          "showcase": false,
-          "start_date": "2023-12-12",
-          "group_id": null,
-          "page_id": "5qmgwsxwsz78",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
