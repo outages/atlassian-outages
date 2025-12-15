@@ -4,15 +4,15 @@
     "name": "Jira Align",
     "url": "https://jira-align.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-12-15T12:01:09.458Z"
+    "updated_at": "2025-12-15T16:26:38.760Z"
   },
   "components": [
     {
       "id": "ymcrstjjhzq3",
       "name": "Pod 1",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-08-19T15:55:11.110Z",
-      "updated_at": "2025-09-22T06:55:46.431Z",
+      "updated_at": "2025-12-15T16:16:25.591Z",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -25,9 +25,9 @@
     {
       "id": "5430hkfqg6gy",
       "name": "Pod 2",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-08-19T15:55:23.246Z",
-      "updated_at": "2025-09-22T06:55:46.444Z",
+      "updated_at": "2025-12-15T16:16:25.606Z",
       "position": 2,
       "description": null,
       "showcase": false,
@@ -40,9 +40,9 @@
     {
       "id": "k61nqwhztv1k",
       "name": "Pod 3",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-08-19T15:55:36.369Z",
-      "updated_at": "2025-09-22T06:55:46.459Z",
+      "updated_at": "2025-12-15T16:16:25.620Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -55,9 +55,9 @@
     {
       "id": "q3xfdgncv07t",
       "name": "Pod 4",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-08-19T15:55:46.536Z",
-      "updated_at": "2025-09-22T06:55:46.471Z",
+      "updated_at": "2025-12-15T16:16:25.632Z",
       "position": 4,
       "description": null,
       "showcase": false,
@@ -70,9 +70,9 @@
     {
       "id": "dcnhymg22428",
       "name": "Pod 5",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-08-19T15:56:07.715Z",
-      "updated_at": "2025-09-22T06:55:46.483Z",
+      "updated_at": "2025-12-15T16:16:25.645Z",
       "position": 5,
       "description": null,
       "showcase": false,
@@ -85,9 +85,9 @@
     {
       "id": "zvrlb38lt2xt",
       "name": "Pod 6",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-08-19T15:57:10.662Z",
-      "updated_at": "2025-09-22T06:55:46.495Z",
+      "updated_at": "2025-12-15T16:16:25.657Z",
       "position": 6,
       "description": null,
       "showcase": false,
@@ -100,9 +100,9 @@
     {
       "id": "s3c794mw3zlp",
       "name": "Pod 7",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-08-19T15:57:21.930Z",
-      "updated_at": "2025-09-22T06:55:46.507Z",
+      "updated_at": "2025-12-15T16:16:25.670Z",
       "position": 7,
       "description": null,
       "showcase": false,
@@ -115,9 +115,9 @@
     {
       "id": "lxpz0ddg35t1",
       "name": "Pod 8",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-08-19T15:57:34.766Z",
-      "updated_at": "2025-09-22T06:55:46.520Z",
+      "updated_at": "2025-12-15T16:16:25.682Z",
       "position": 8,
       "description": null,
       "showcase": false,
@@ -130,9 +130,9 @@
     {
       "id": "qp2978dxrrqm",
       "name": "Pod 9",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-08-19T15:57:45.246Z",
-      "updated_at": "2025-09-22T06:55:46.532Z",
+      "updated_at": "2025-12-15T16:16:25.694Z",
       "position": 9,
       "description": null,
       "showcase": false,
@@ -145,9 +145,9 @@
     {
       "id": "fgggrtlrlvks",
       "name": "Pod 10",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-08-19T15:58:45.811Z",
-      "updated_at": "2025-09-22T06:55:46.544Z",
+      "updated_at": "2025-12-15T16:16:25.705Z",
       "position": 10,
       "description": null,
       "showcase": true,
@@ -160,9 +160,9 @@
     {
       "id": "5jl3156dj6v1",
       "name": "Pod 11",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-08-19T15:58:56.580Z",
-      "updated_at": "2025-09-22T06:55:46.558Z",
+      "updated_at": "2025-12-15T16:16:25.718Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -175,9 +175,9 @@
     {
       "id": "b6v4j45kb0vv",
       "name": "Pod 12",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-08-19T15:59:08.086Z",
-      "updated_at": "2025-09-22T06:55:46.569Z",
+      "updated_at": "2025-12-15T16:16:25.729Z",
       "position": 12,
       "description": null,
       "showcase": false,
@@ -190,9 +190,9 @@
     {
       "id": "kyhsgqb74s8s",
       "name": "Pod 13",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-01-22T19:50:27.581Z",
-      "updated_at": "2025-09-22T06:55:46.580Z",
+      "updated_at": "2025-12-15T16:16:25.740Z",
       "position": 13,
       "description": null,
       "showcase": false,
@@ -205,9 +205,9 @@
     {
       "id": "mqdq6f9ct67q",
       "name": "Pod 14",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-01-22T19:50:51.261Z",
-      "updated_at": "2025-09-22T06:55:46.592Z",
+      "updated_at": "2025-12-15T16:16:25.753Z",
       "position": 14,
       "description": null,
       "showcase": false,
@@ -220,9 +220,9 @@
     {
       "id": "krht83kvt551",
       "name": "Pod 15",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-01-22T19:51:03.217Z",
-      "updated_at": "2025-09-22T06:55:46.603Z",
+      "updated_at": "2025-12-15T16:16:25.766Z",
       "position": 15,
       "description": null,
       "showcase": false,
@@ -235,9 +235,9 @@
     {
       "id": "2lr45jjg10f2",
       "name": "Pod 16",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-01-22T19:51:18.788Z",
-      "updated_at": "2025-09-22T06:55:46.615Z",
+      "updated_at": "2025-12-15T16:16:25.777Z",
       "position": 16,
       "description": null,
       "showcase": false,
@@ -250,9 +250,9 @@
     {
       "id": "gqc5kz0tfht4",
       "name": "Pod 17",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-01-22T19:51:34.557Z",
-      "updated_at": "2025-09-22T06:55:46.627Z",
+      "updated_at": "2025-12-15T16:16:25.789Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -265,9 +265,9 @@
     {
       "id": "66ngnn0czcsr",
       "name": "Pod 18",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-01-22T19:51:51.137Z",
-      "updated_at": "2025-09-22T06:55:46.639Z",
+      "updated_at": "2025-12-15T16:16:25.800Z",
       "position": 18,
       "description": null,
       "showcase": false,
@@ -280,9 +280,9 @@
     {
       "id": "r1gccv0vdnjm",
       "name": "Pod 19",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-01-22T19:52:04.811Z",
-      "updated_at": "2025-09-22T06:55:46.652Z",
+      "updated_at": "2025-12-15T16:16:25.812Z",
       "position": 19,
       "description": null,
       "showcase": false,
@@ -295,9 +295,9 @@
     {
       "id": "22fkt87d8frz",
       "name": "Pod 20",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-01-22T19:52:16.120Z",
-      "updated_at": "2025-09-22T06:55:46.664Z",
+      "updated_at": "2025-12-15T16:16:25.825Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -310,9 +310,9 @@
     {
       "id": "flmpjbnlx9w4",
       "name": "Pod 21",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-01-22T19:52:28.114Z",
-      "updated_at": "2025-09-22T06:55:46.676Z",
+      "updated_at": "2025-12-15T16:16:25.836Z",
       "position": 21,
       "description": null,
       "showcase": false,
@@ -325,9 +325,9 @@
     {
       "id": "p0npt2w79xnt",
       "name": "Pod 22",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-01-22T19:52:40.230Z",
-      "updated_at": "2025-09-22T06:55:46.687Z",
+      "updated_at": "2025-12-15T16:16:25.848Z",
       "position": 22,
       "description": null,
       "showcase": false,
@@ -340,9 +340,9 @@
     {
       "id": "g2t50bvl2x47",
       "name": "Pod 23",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-01-22T19:52:54.349Z",
-      "updated_at": "2025-09-22T06:55:46.698Z",
+      "updated_at": "2025-12-15T16:16:25.859Z",
       "position": 23,
       "description": null,
       "showcase": false,
@@ -355,9 +355,9 @@
     {
       "id": "kcqvlzdnzh0m",
       "name": "Pod 24",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-01-22T19:53:08.942Z",
-      "updated_at": "2025-09-22T06:55:46.710Z",
+      "updated_at": "2025-12-15T16:16:25.871Z",
       "position": 24,
       "description": null,
       "showcase": false,
@@ -370,9 +370,9 @@
     {
       "id": "l7sshlvz53mb",
       "name": "Pod 25",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-01-22T19:53:20.826Z",
-      "updated_at": "2025-09-22T06:55:46.722Z",
+      "updated_at": "2025-12-15T16:16:25.882Z",
       "position": 25,
       "description": null,
       "showcase": false,
@@ -385,9 +385,9 @@
     {
       "id": "8hvdl02v5255",
       "name": "Pod 26",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2021-03-12T20:35:02.190Z",
-      "updated_at": "2025-09-22T06:55:46.734Z",
+      "updated_at": "2025-12-15T16:16:25.896Z",
       "position": 26,
       "description": null,
       "showcase": false,
@@ -400,9 +400,9 @@
     {
       "id": "ynktqfd7fbh7",
       "name": "Pod 27",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2021-03-12T20:35:49.572Z",
-      "updated_at": "2025-09-22T06:55:46.746Z",
+      "updated_at": "2025-12-15T16:16:25.909Z",
       "position": 27,
       "description": null,
       "showcase": false,
@@ -415,9 +415,9 @@
     {
       "id": "0mf8b975r9dc",
       "name": "Pod 28",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2021-03-12T20:36:18.803Z",
-      "updated_at": "2025-09-22T06:55:46.758Z",
+      "updated_at": "2025-12-15T16:16:25.923Z",
       "position": 28,
       "description": null,
       "showcase": false,
@@ -430,9 +430,9 @@
     {
       "id": "hlw7y3djrq3s",
       "name": "Pod 29",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2021-03-12T20:36:35.534Z",
-      "updated_at": "2025-09-22T06:55:46.770Z",
+      "updated_at": "2025-12-15T16:16:25.936Z",
       "position": 29,
       "description": null,
       "showcase": false,
@@ -445,9 +445,9 @@
     {
       "id": "vcx28z5xqh5m",
       "name": "Pod 30",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2021-03-12T20:36:48.611Z",
-      "updated_at": "2025-09-22T06:55:46.781Z",
+      "updated_at": "2025-12-15T16:16:25.948Z",
       "position": 30,
       "description": null,
       "showcase": false,
@@ -460,9 +460,9 @@
     {
       "id": "d12z323zxwxv",
       "name": "Pod 31",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2021-03-12T20:37:12.296Z",
-      "updated_at": "2025-09-22T06:55:46.793Z",
+      "updated_at": "2025-12-15T16:16:25.960Z",
       "position": 31,
       "description": null,
       "showcase": false,
@@ -475,9 +475,9 @@
     {
       "id": "smdv6dkfnzk2",
       "name": "Pod 32",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2021-03-12T20:37:22.659Z",
-      "updated_at": "2025-09-22T06:55:46.804Z",
+      "updated_at": "2025-12-15T16:16:25.972Z",
       "position": 32,
       "description": null,
       "showcase": false,
@@ -490,9 +490,9 @@
     {
       "id": "2jswj3ccnqmc",
       "name": "Pod 33",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2021-03-12T20:37:36.904Z",
-      "updated_at": "2025-09-22T06:55:46.816Z",
+      "updated_at": "2025-12-15T16:16:25.985Z",
       "position": 33,
       "description": null,
       "showcase": false,
@@ -505,9 +505,9 @@
     {
       "id": "jghx0wn0xvrl",
       "name": "Pod 34",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2021-03-12T20:37:53.635Z",
-      "updated_at": "2025-09-22T06:55:46.828Z",
+      "updated_at": "2025-12-15T16:16:25.998Z",
       "position": 34,
       "description": null,
       "showcase": false,
@@ -520,9 +520,9 @@
     {
       "id": "v42lmb2r8ql2",
       "name": "Pod 35",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2021-03-12T20:38:07.313Z",
-      "updated_at": "2025-09-22T06:55:46.839Z",
+      "updated_at": "2025-12-15T16:16:26.010Z",
       "position": 35,
       "description": null,
       "showcase": true,
@@ -535,9 +535,9 @@
     {
       "id": "9j60m9wztz3h",
       "name": "Pod 36",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2022-10-27T19:34:25.439Z",
-      "updated_at": "2025-09-22T06:55:46.852Z",
+      "updated_at": "2025-12-15T16:16:26.024Z",
       "position": 36,
       "description": null,
       "showcase": true,
@@ -550,9 +550,9 @@
     {
       "id": "tsf5gyh6dx0c",
       "name": "Pod 37",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2022-10-27T19:33:41.611Z",
-      "updated_at": "2025-09-22T06:55:46.865Z",
+      "updated_at": "2025-12-15T16:16:26.038Z",
       "position": 37,
       "description": null,
       "showcase": true,
@@ -565,9 +565,9 @@
     {
       "id": "nsyblgrhhdjj",
       "name": "Pod 38",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2024-03-04T21:20:30.817Z",
-      "updated_at": "2025-09-22T06:55:46.877Z",
+      "updated_at": "2025-12-15T16:16:26.050Z",
       "position": 38,
       "description": null,
       "showcase": true,
@@ -580,9 +580,9 @@
     {
       "id": "8qzw73gqs3p5",
       "name": "Pod 39",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2024-03-04T21:20:51.314Z",
-      "updated_at": "2025-09-22T06:55:46.890Z",
+      "updated_at": "2025-12-15T16:16:26.065Z",
       "position": 39,
       "description": null,
       "showcase": true,
@@ -595,9 +595,9 @@
     {
       "id": "5jxnpq98dc47",
       "name": "Pod 40",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2024-03-04T21:21:04.434Z",
-      "updated_at": "2025-09-22T06:55:46.902Z",
+      "updated_at": "2025-12-15T16:16:26.079Z",
       "position": 40,
       "description": null,
       "showcase": true,
@@ -610,9 +610,9 @@
     {
       "id": "wcwls923scs7",
       "name": "Pod 41",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2024-03-04T21:21:17.635Z",
-      "updated_at": "2025-09-22T06:55:46.914Z",
+      "updated_at": "2025-12-15T16:16:26.093Z",
       "position": 41,
       "description": null,
       "showcase": true,
@@ -625,9 +625,9 @@
     {
       "id": "8wpd5wn9zg3t",
       "name": "Pod 42",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2024-03-04T21:21:33.036Z",
-      "updated_at": "2025-09-22T06:55:46.926Z",
+      "updated_at": "2025-12-15T16:16:26.105Z",
       "position": 42,
       "description": null,
       "showcase": true,
@@ -640,9 +640,9 @@
     {
       "id": "9v1n12pb2z1b",
       "name": "Pod 43",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2024-03-04T21:21:46.144Z",
-      "updated_at": "2025-09-22T06:55:46.938Z",
+      "updated_at": "2025-12-15T16:16:26.118Z",
       "position": 43,
       "description": null,
       "showcase": true,
@@ -655,9 +655,9 @@
     {
       "id": "38bp27tgw1qr",
       "name": "Pod 44",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2024-03-04T21:22:00.242Z",
-      "updated_at": "2025-09-22T06:55:46.950Z",
+      "updated_at": "2025-12-15T16:16:26.131Z",
       "position": 44,
       "description": null,
       "showcase": true,
@@ -670,9 +670,9 @@
     {
       "id": "kjphsy5b8y5r",
       "name": "Pod 44",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2024-03-04T21:22:13.012Z",
-      "updated_at": "2025-09-22T06:55:46.963Z",
+      "updated_at": "2025-12-15T16:16:26.144Z",
       "position": 45,
       "description": null,
       "showcase": true,
@@ -685,9 +685,9 @@
     {
       "id": "3w977p9cn29j",
       "name": "Pod 45",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2024-03-04T21:22:23.777Z",
-      "updated_at": "2025-09-22T06:55:46.977Z",
+      "updated_at": "2025-12-15T16:16:26.156Z",
       "position": 46,
       "description": null,
       "showcase": true,
@@ -700,9 +700,9 @@
     {
       "id": "92w4pk07xthf",
       "name": "Pod 46",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2024-03-04T21:22:42.309Z",
-      "updated_at": "2025-09-22T06:55:46.990Z",
+      "updated_at": "2025-12-15T16:16:26.171Z",
       "position": 47,
       "description": null,
       "showcase": true,
@@ -715,9 +715,9 @@
     {
       "id": "c3tdt0mws6q6",
       "name": "Pod 47",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2024-03-04T21:23:00.776Z",
-      "updated_at": "2025-09-22T06:55:47.001Z",
+      "updated_at": "2025-12-15T16:16:26.183Z",
       "position": 48,
       "description": null,
       "showcase": true,
@@ -730,9 +730,9 @@
     {
       "id": "rkbmn97v9cwg",
       "name": "Pod 48",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2024-03-04T21:23:15.252Z",
-      "updated_at": "2025-09-22T06:55:47.012Z",
+      "updated_at": "2025-12-15T16:16:26.196Z",
       "position": 49,
       "description": null,
       "showcase": true,
@@ -745,9 +745,9 @@
     {
       "id": "hl6h67kgy49k",
       "name": "Pod 49",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2024-04-18T16:55:53.332Z",
-      "updated_at": "2025-09-22T06:55:47.024Z",
+      "updated_at": "2025-12-15T16:16:26.208Z",
       "position": 50,
       "description": null,
       "showcase": true,
@@ -760,9 +760,9 @@
     {
       "id": "8kbgdqlzybzc",
       "name": "AWS ec2-us-east-2",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2024-04-19T21:43:49.113Z",
-      "updated_at": "2025-09-22T06:55:47.039Z",
+      "updated_at": "2025-12-15T16:16:26.225Z",
       "position": 51,
       "description": null,
       "showcase": false,
@@ -775,9 +775,9 @@
     {
       "id": "mw1wszsvyjy3",
       "name": "AWS ec2-eu-central-1",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2024-04-19T21:44:02.964Z",
-      "updated_at": "2025-09-22T06:55:47.056Z",
+      "updated_at": "2025-12-15T16:16:26.243Z",
       "position": 52,
       "description": null,
       "showcase": false,
@@ -790,9 +790,9 @@
     {
       "id": "xc7x5mqxvc2b",
       "name": "AWS ec2-ap-southeast-2",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2024-04-19T21:44:07.653Z",
-      "updated_at": "2025-09-22T06:55:47.072Z",
+      "updated_at": "2025-12-15T16:16:26.258Z",
       "position": 53,
       "description": null,
       "showcase": false,
@@ -805,9 +805,9 @@
     {
       "id": "q40kb0phgrqj",
       "name": "AWS rds-ap-southeast-2",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2024-04-19T21:44:33.619Z",
-      "updated_at": "2025-09-22T06:55:47.087Z",
+      "updated_at": "2025-12-15T16:16:26.273Z",
       "position": 54,
       "description": null,
       "showcase": false,
@@ -820,9 +820,9 @@
     {
       "id": "c22clwwc986h",
       "name": "AWS rds-eu-central-1",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2024-04-19T21:44:39.285Z",
-      "updated_at": "2025-09-22T06:55:47.102Z",
+      "updated_at": "2025-12-15T16:16:26.289Z",
       "position": 55,
       "description": null,
       "showcase": false,
@@ -835,9 +835,9 @@
     {
       "id": "97npnzd731z6",
       "name": "AWS rds-us-east-2",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2024-04-19T21:44:45.425Z",
-      "updated_at": "2025-09-22T06:55:47.116Z",
+      "updated_at": "2025-12-15T16:16:26.307Z",
       "position": 56,
       "description": null,
       "showcase": false,
@@ -850,9 +850,9 @@
     {
       "id": "rc8gcxxjdf5n",
       "name": "AWS elb-ap-southeast-2",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2024-04-19T21:45:30.681Z",
-      "updated_at": "2025-09-22T06:55:47.132Z",
+      "updated_at": "2025-12-15T16:16:26.324Z",
       "position": 57,
       "description": null,
       "showcase": false,
@@ -865,9 +865,9 @@
     {
       "id": "yttt3lfvmj07",
       "name": "AWS elb-eu-central-1",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2024-04-19T21:45:37.094Z",
-      "updated_at": "2025-09-22T06:55:47.147Z",
+      "updated_at": "2025-12-15T16:16:26.344Z",
       "position": 58,
       "description": null,
       "showcase": false,
@@ -880,9 +880,9 @@
     {
       "id": "jxskwyfvntcx",
       "name": "AWS elb-us-east-2",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2024-04-19T21:45:41.499Z",
-      "updated_at": "2025-09-22T06:55:47.163Z",
+      "updated_at": "2025-12-15T16:16:26.365Z",
       "position": 59,
       "description": null,
       "showcase": false,
@@ -895,9 +895,9 @@
     {
       "id": "c83v3t5dqdbp",
       "name": "AWS glue-ap-southeast-2",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2024-04-19T21:47:06.228Z",
-      "updated_at": "2025-09-22T06:55:47.178Z",
+      "updated_at": "2025-12-15T16:16:26.382Z",
       "position": 60,
       "description": null,
       "showcase": false,
@@ -910,9 +910,9 @@
     {
       "id": "gvzxbs2txby4",
       "name": "AWS glue-eu-central-1",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2024-04-19T21:47:11.081Z",
-      "updated_at": "2025-09-22T06:55:47.193Z",
+      "updated_at": "2025-12-15T16:16:26.398Z",
       "position": 61,
       "description": null,
       "showcase": false,
@@ -925,9 +925,9 @@
     {
       "id": "tsws7qs69c8t",
       "name": "AWS glue-us-east-2",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2024-04-19T21:47:15.687Z",
-      "updated_at": "2025-09-22T06:55:47.207Z",
+      "updated_at": "2025-12-15T16:16:26.415Z",
       "position": 62,
       "description": null,
       "showcase": false,
@@ -940,9 +940,9 @@
     {
       "id": "bsh32pg89683",
       "name": "AWS ses-ap-southeast-2",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2024-04-19T21:48:15.274Z",
-      "updated_at": "2025-09-22T06:55:47.221Z",
+      "updated_at": "2025-12-15T16:16:26.431Z",
       "position": 63,
       "description": null,
       "showcase": false,
@@ -955,9 +955,9 @@
     {
       "id": "7c5wvgy7kyj3",
       "name": "AWS ses-eu-central-1",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2024-04-19T21:48:51.455Z",
-      "updated_at": "2025-09-22T06:55:47.236Z",
+      "updated_at": "2025-12-15T16:16:26.445Z",
       "position": 64,
       "description": null,
       "showcase": false,
@@ -970,9 +970,9 @@
     {
       "id": "vrkydl0s5b2f",
       "name": "AWS ses-us-east-1",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2024-04-19T21:48:55.830Z",
-      "updated_at": "2025-09-22T06:55:47.251Z",
+      "updated_at": "2025-12-15T16:16:26.459Z",
       "position": 65,
       "description": null,
       "showcase": false,
@@ -985,9 +985,9 @@
     {
       "id": "k9wh7zpb2frd",
       "name": "Cloudflare Network",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-05-12T21:04:33.413Z",
-      "updated_at": "2025-11-18T17:53:33.010Z",
+      "updated_at": "2025-12-15T16:16:26.472Z",
       "position": 66,
       "description": null,
       "showcase": false,
@@ -998,10 +998,1839 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "pjzq35q5vcgj",
+      "name": "Degraded performance of Admin Hub, Atlassian Analytics, Confluence Cloud, Focus, Jira, Jira Product Discovery, Jira Service Management, and Rovo",
+      "status": "identified",
+      "created_at": "2025-12-15T16:16:25.418Z",
+      "updated_at": "2025-12-15T16:26:38.749Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/cslwk1przbg1",
+      "started_at": "2025-12-15T16:16:25.375Z",
+      "page_id": "jrg4crndtsgz",
+      "incident_updates": [
+        {
+          "id": "t16ntvkck8gd",
+          "status": "identified",
+          "body": "We are actively investigating reports of performance degradation affecting Admin Hub, Atlassian Analytics, Confluence Cloud, Focus, Jira, Jira Product Discovery, Jira Service Management, Jira Work Management, and Rovo. We'll share updates here as more information is available.",
+          "incident_id": "pjzq35q5vcgj",
+          "created_at": "2025-12-15T16:26:38.742Z",
+          "updated_at": "2025-12-15T16:26:38.742Z",
+          "display_at": "2025-12-15T16:26:38.742Z",
+          "affected_components": [
+            {
+              "code": "ymcrstjjhzq3",
+              "name": "Pod 1",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "5430hkfqg6gy",
+              "name": "Pod 2",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "k61nqwhztv1k",
+              "name": "Pod 3",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "q3xfdgncv07t",
+              "name": "Pod 4",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "dcnhymg22428",
+              "name": "Pod 5",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "zvrlb38lt2xt",
+              "name": "Pod 6",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "s3c794mw3zlp",
+              "name": "Pod 7",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "lxpz0ddg35t1",
+              "name": "Pod 8",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "qp2978dxrrqm",
+              "name": "Pod 9",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "fgggrtlrlvks",
+              "name": "Pod 10",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "5jl3156dj6v1",
+              "name": "Pod 11",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "b6v4j45kb0vv",
+              "name": "Pod 12",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "kyhsgqb74s8s",
+              "name": "Pod 13",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "mqdq6f9ct67q",
+              "name": "Pod 14",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "krht83kvt551",
+              "name": "Pod 15",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "2lr45jjg10f2",
+              "name": "Pod 16",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "gqc5kz0tfht4",
+              "name": "Pod 17",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "66ngnn0czcsr",
+              "name": "Pod 18",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "r1gccv0vdnjm",
+              "name": "Pod 19",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "22fkt87d8frz",
+              "name": "Pod 20",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "flmpjbnlx9w4",
+              "name": "Pod 21",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "p0npt2w79xnt",
+              "name": "Pod 22",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "g2t50bvl2x47",
+              "name": "Pod 23",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "kcqvlzdnzh0m",
+              "name": "Pod 24",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "l7sshlvz53mb",
+              "name": "Pod 25",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "8hvdl02v5255",
+              "name": "Pod 26",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "ynktqfd7fbh7",
+              "name": "Pod 27",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "0mf8b975r9dc",
+              "name": "Pod 28",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "hlw7y3djrq3s",
+              "name": "Pod 29",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "vcx28z5xqh5m",
+              "name": "Pod 30",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "d12z323zxwxv",
+              "name": "Pod 31",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "smdv6dkfnzk2",
+              "name": "Pod 32",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "2jswj3ccnqmc",
+              "name": "Pod 33",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "jghx0wn0xvrl",
+              "name": "Pod 34",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "v42lmb2r8ql2",
+              "name": "Pod 35",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "tsf5gyh6dx0c",
+              "name": "Pod 37",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "9j60m9wztz3h",
+              "name": "Pod 36",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "nsyblgrhhdjj",
+              "name": "Pod 38",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "8qzw73gqs3p5",
+              "name": "Pod 39",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "5jxnpq98dc47",
+              "name": "Pod 40",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "wcwls923scs7",
+              "name": "Pod 41",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "8wpd5wn9zg3t",
+              "name": "Pod 42",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "9v1n12pb2z1b",
+              "name": "Pod 43",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "38bp27tgw1qr",
+              "name": "Pod 44",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "kjphsy5b8y5r",
+              "name": "Pod 44",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "3w977p9cn29j",
+              "name": "Pod 45",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "92w4pk07xthf",
+              "name": "Pod 46",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "c3tdt0mws6q6",
+              "name": "Pod 47",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "rkbmn97v9cwg",
+              "name": "Pod 48",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "hl6h67kgy49k",
+              "name": "Pod 49",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "8kbgdqlzybzc",
+              "name": "AWS ec2-us-east-2",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "mw1wszsvyjy3",
+              "name": "AWS ec2-eu-central-1",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "xc7x5mqxvc2b",
+              "name": "AWS ec2-ap-southeast-2",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "q40kb0phgrqj",
+              "name": "AWS rds-ap-southeast-2",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "c22clwwc986h",
+              "name": "AWS rds-eu-central-1",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "97npnzd731z6",
+              "name": "AWS rds-us-east-2",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "rc8gcxxjdf5n",
+              "name": "AWS elb-ap-southeast-2",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "yttt3lfvmj07",
+              "name": "AWS elb-eu-central-1",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "jxskwyfvntcx",
+              "name": "AWS elb-us-east-2",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "c83v3t5dqdbp",
+              "name": "AWS glue-ap-southeast-2",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "gvzxbs2txby4",
+              "name": "AWS glue-eu-central-1",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "tsws7qs69c8t",
+              "name": "AWS glue-us-east-2",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "bsh32pg89683",
+              "name": "AWS ses-ap-southeast-2",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "7c5wvgy7kyj3",
+              "name": "AWS ses-eu-central-1",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "vrkydl0s5b2f",
+              "name": "AWS ses-us-east-1",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "k9wh7zpb2frd",
+              "name": "Cloudflare Network",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "kgyml0cfndg1",
+          "status": "identified",
+          "body": "We are actively investigating reports of performance degradation affecting Admin Hub, Atlassian Analytics, Confluence Cloud, Focus, Jira, Jira Product Discovery, Jira Service Management, and Rovo. We'll share updates here as more information is available.",
+          "incident_id": "pjzq35q5vcgj",
+          "created_at": "2025-12-15T16:16:26.587Z",
+          "updated_at": "2025-12-15T16:16:26.587Z",
+          "display_at": "2025-12-15T16:16:26.587Z",
+          "affected_components": [
+            {
+              "code": "ymcrstjjhzq3",
+              "name": "Pod 1",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "5430hkfqg6gy",
+              "name": "Pod 2",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "k61nqwhztv1k",
+              "name": "Pod 3",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "q3xfdgncv07t",
+              "name": "Pod 4",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "dcnhymg22428",
+              "name": "Pod 5",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "zvrlb38lt2xt",
+              "name": "Pod 6",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "s3c794mw3zlp",
+              "name": "Pod 7",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "lxpz0ddg35t1",
+              "name": "Pod 8",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "qp2978dxrrqm",
+              "name": "Pod 9",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "fgggrtlrlvks",
+              "name": "Pod 10",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "5jl3156dj6v1",
+              "name": "Pod 11",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "b6v4j45kb0vv",
+              "name": "Pod 12",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "kyhsgqb74s8s",
+              "name": "Pod 13",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "mqdq6f9ct67q",
+              "name": "Pod 14",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "krht83kvt551",
+              "name": "Pod 15",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "2lr45jjg10f2",
+              "name": "Pod 16",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "gqc5kz0tfht4",
+              "name": "Pod 17",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "66ngnn0czcsr",
+              "name": "Pod 18",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "r1gccv0vdnjm",
+              "name": "Pod 19",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "22fkt87d8frz",
+              "name": "Pod 20",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "flmpjbnlx9w4",
+              "name": "Pod 21",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "p0npt2w79xnt",
+              "name": "Pod 22",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "g2t50bvl2x47",
+              "name": "Pod 23",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "kcqvlzdnzh0m",
+              "name": "Pod 24",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "l7sshlvz53mb",
+              "name": "Pod 25",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "8hvdl02v5255",
+              "name": "Pod 26",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "ynktqfd7fbh7",
+              "name": "Pod 27",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "0mf8b975r9dc",
+              "name": "Pod 28",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "hlw7y3djrq3s",
+              "name": "Pod 29",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "vcx28z5xqh5m",
+              "name": "Pod 30",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "d12z323zxwxv",
+              "name": "Pod 31",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "smdv6dkfnzk2",
+              "name": "Pod 32",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "2jswj3ccnqmc",
+              "name": "Pod 33",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "jghx0wn0xvrl",
+              "name": "Pod 34",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "v42lmb2r8ql2",
+              "name": "Pod 35",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "tsf5gyh6dx0c",
+              "name": "Pod 37",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "9j60m9wztz3h",
+              "name": "Pod 36",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "nsyblgrhhdjj",
+              "name": "Pod 38",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "8qzw73gqs3p5",
+              "name": "Pod 39",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "5jxnpq98dc47",
+              "name": "Pod 40",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "wcwls923scs7",
+              "name": "Pod 41",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "8wpd5wn9zg3t",
+              "name": "Pod 42",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "9v1n12pb2z1b",
+              "name": "Pod 43",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "38bp27tgw1qr",
+              "name": "Pod 44",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "kjphsy5b8y5r",
+              "name": "Pod 44",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "3w977p9cn29j",
+              "name": "Pod 45",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "92w4pk07xthf",
+              "name": "Pod 46",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "c3tdt0mws6q6",
+              "name": "Pod 47",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "rkbmn97v9cwg",
+              "name": "Pod 48",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "hl6h67kgy49k",
+              "name": "Pod 49",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "8kbgdqlzybzc",
+              "name": "AWS ec2-us-east-2",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "mw1wszsvyjy3",
+              "name": "AWS ec2-eu-central-1",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "xc7x5mqxvc2b",
+              "name": "AWS ec2-ap-southeast-2",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "q40kb0phgrqj",
+              "name": "AWS rds-ap-southeast-2",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "c22clwwc986h",
+              "name": "AWS rds-eu-central-1",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "97npnzd731z6",
+              "name": "AWS rds-us-east-2",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "rc8gcxxjdf5n",
+              "name": "AWS elb-ap-southeast-2",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "yttt3lfvmj07",
+              "name": "AWS elb-eu-central-1",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "jxskwyfvntcx",
+              "name": "AWS elb-us-east-2",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "c83v3t5dqdbp",
+              "name": "AWS glue-ap-southeast-2",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "gvzxbs2txby4",
+              "name": "AWS glue-eu-central-1",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "tsws7qs69c8t",
+              "name": "AWS glue-us-east-2",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "bsh32pg89683",
+              "name": "AWS ses-ap-southeast-2",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "7c5wvgy7kyj3",
+              "name": "AWS ses-eu-central-1",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "vrkydl0s5b2f",
+              "name": "AWS ses-us-east-1",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "k9wh7zpb2frd",
+              "name": "Cloudflare Network",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "ymcrstjjhzq3",
+          "name": "Pod 1",
+          "status": "degraded_performance",
+          "created_at": "2019-08-19T15:55:11.110Z",
+          "updated_at": "2025-12-15T16:16:25.591Z",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "5430hkfqg6gy",
+          "name": "Pod 2",
+          "status": "degraded_performance",
+          "created_at": "2019-08-19T15:55:23.246Z",
+          "updated_at": "2025-12-15T16:16:25.606Z",
+          "position": 2,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "k61nqwhztv1k",
+          "name": "Pod 3",
+          "status": "degraded_performance",
+          "created_at": "2019-08-19T15:55:36.369Z",
+          "updated_at": "2025-12-15T16:16:25.620Z",
+          "position": 3,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "q3xfdgncv07t",
+          "name": "Pod 4",
+          "status": "degraded_performance",
+          "created_at": "2019-08-19T15:55:46.536Z",
+          "updated_at": "2025-12-15T16:16:25.632Z",
+          "position": 4,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "dcnhymg22428",
+          "name": "Pod 5",
+          "status": "degraded_performance",
+          "created_at": "2019-08-19T15:56:07.715Z",
+          "updated_at": "2025-12-15T16:16:25.645Z",
+          "position": 5,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "zvrlb38lt2xt",
+          "name": "Pod 6",
+          "status": "degraded_performance",
+          "created_at": "2019-08-19T15:57:10.662Z",
+          "updated_at": "2025-12-15T16:16:25.657Z",
+          "position": 6,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "s3c794mw3zlp",
+          "name": "Pod 7",
+          "status": "degraded_performance",
+          "created_at": "2019-08-19T15:57:21.930Z",
+          "updated_at": "2025-12-15T16:16:25.670Z",
+          "position": 7,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "lxpz0ddg35t1",
+          "name": "Pod 8",
+          "status": "degraded_performance",
+          "created_at": "2019-08-19T15:57:34.766Z",
+          "updated_at": "2025-12-15T16:16:25.682Z",
+          "position": 8,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "qp2978dxrrqm",
+          "name": "Pod 9",
+          "status": "degraded_performance",
+          "created_at": "2019-08-19T15:57:45.246Z",
+          "updated_at": "2025-12-15T16:16:25.694Z",
+          "position": 9,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "fgggrtlrlvks",
+          "name": "Pod 10",
+          "status": "degraded_performance",
+          "created_at": "2019-08-19T15:58:45.811Z",
+          "updated_at": "2025-12-15T16:16:25.705Z",
+          "position": 10,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "5jl3156dj6v1",
+          "name": "Pod 11",
+          "status": "degraded_performance",
+          "created_at": "2019-08-19T15:58:56.580Z",
+          "updated_at": "2025-12-15T16:16:25.718Z",
+          "position": 11,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "b6v4j45kb0vv",
+          "name": "Pod 12",
+          "status": "degraded_performance",
+          "created_at": "2019-08-19T15:59:08.086Z",
+          "updated_at": "2025-12-15T16:16:25.729Z",
+          "position": 12,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "kyhsgqb74s8s",
+          "name": "Pod 13",
+          "status": "degraded_performance",
+          "created_at": "2020-01-22T19:50:27.581Z",
+          "updated_at": "2025-12-15T16:16:25.740Z",
+          "position": 13,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "mqdq6f9ct67q",
+          "name": "Pod 14",
+          "status": "degraded_performance",
+          "created_at": "2020-01-22T19:50:51.261Z",
+          "updated_at": "2025-12-15T16:16:25.753Z",
+          "position": 14,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "krht83kvt551",
+          "name": "Pod 15",
+          "status": "degraded_performance",
+          "created_at": "2020-01-22T19:51:03.217Z",
+          "updated_at": "2025-12-15T16:16:25.766Z",
+          "position": 15,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "2lr45jjg10f2",
+          "name": "Pod 16",
+          "status": "degraded_performance",
+          "created_at": "2020-01-22T19:51:18.788Z",
+          "updated_at": "2025-12-15T16:16:25.777Z",
+          "position": 16,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "gqc5kz0tfht4",
+          "name": "Pod 17",
+          "status": "degraded_performance",
+          "created_at": "2020-01-22T19:51:34.557Z",
+          "updated_at": "2025-12-15T16:16:25.789Z",
+          "position": 17,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "66ngnn0czcsr",
+          "name": "Pod 18",
+          "status": "degraded_performance",
+          "created_at": "2020-01-22T19:51:51.137Z",
+          "updated_at": "2025-12-15T16:16:25.800Z",
+          "position": 18,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "r1gccv0vdnjm",
+          "name": "Pod 19",
+          "status": "degraded_performance",
+          "created_at": "2020-01-22T19:52:04.811Z",
+          "updated_at": "2025-12-15T16:16:25.812Z",
+          "position": 19,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "22fkt87d8frz",
+          "name": "Pod 20",
+          "status": "degraded_performance",
+          "created_at": "2020-01-22T19:52:16.120Z",
+          "updated_at": "2025-12-15T16:16:25.825Z",
+          "position": 20,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "flmpjbnlx9w4",
+          "name": "Pod 21",
+          "status": "degraded_performance",
+          "created_at": "2020-01-22T19:52:28.114Z",
+          "updated_at": "2025-12-15T16:16:25.836Z",
+          "position": 21,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "p0npt2w79xnt",
+          "name": "Pod 22",
+          "status": "degraded_performance",
+          "created_at": "2020-01-22T19:52:40.230Z",
+          "updated_at": "2025-12-15T16:16:25.848Z",
+          "position": 22,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "g2t50bvl2x47",
+          "name": "Pod 23",
+          "status": "degraded_performance",
+          "created_at": "2020-01-22T19:52:54.349Z",
+          "updated_at": "2025-12-15T16:16:25.859Z",
+          "position": 23,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "kcqvlzdnzh0m",
+          "name": "Pod 24",
+          "status": "degraded_performance",
+          "created_at": "2020-01-22T19:53:08.942Z",
+          "updated_at": "2025-12-15T16:16:25.871Z",
+          "position": 24,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "l7sshlvz53mb",
+          "name": "Pod 25",
+          "status": "degraded_performance",
+          "created_at": "2020-01-22T19:53:20.826Z",
+          "updated_at": "2025-12-15T16:16:25.882Z",
+          "position": 25,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "8hvdl02v5255",
+          "name": "Pod 26",
+          "status": "degraded_performance",
+          "created_at": "2021-03-12T20:35:02.190Z",
+          "updated_at": "2025-12-15T16:16:25.896Z",
+          "position": 26,
+          "description": null,
+          "showcase": false,
+          "start_date": "2021-03-12",
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "ynktqfd7fbh7",
+          "name": "Pod 27",
+          "status": "degraded_performance",
+          "created_at": "2021-03-12T20:35:49.572Z",
+          "updated_at": "2025-12-15T16:16:25.909Z",
+          "position": 27,
+          "description": null,
+          "showcase": false,
+          "start_date": "2021-03-12",
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "0mf8b975r9dc",
+          "name": "Pod 28",
+          "status": "degraded_performance",
+          "created_at": "2021-03-12T20:36:18.803Z",
+          "updated_at": "2025-12-15T16:16:25.923Z",
+          "position": 28,
+          "description": null,
+          "showcase": false,
+          "start_date": "2021-03-12",
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "hlw7y3djrq3s",
+          "name": "Pod 29",
+          "status": "degraded_performance",
+          "created_at": "2021-03-12T20:36:35.534Z",
+          "updated_at": "2025-12-15T16:16:25.936Z",
+          "position": 29,
+          "description": null,
+          "showcase": false,
+          "start_date": "2021-03-12",
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "vcx28z5xqh5m",
+          "name": "Pod 30",
+          "status": "degraded_performance",
+          "created_at": "2021-03-12T20:36:48.611Z",
+          "updated_at": "2025-12-15T16:16:25.948Z",
+          "position": 30,
+          "description": null,
+          "showcase": false,
+          "start_date": "2021-03-12",
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "d12z323zxwxv",
+          "name": "Pod 31",
+          "status": "degraded_performance",
+          "created_at": "2021-03-12T20:37:12.296Z",
+          "updated_at": "2025-12-15T16:16:25.960Z",
+          "position": 31,
+          "description": null,
+          "showcase": false,
+          "start_date": "2021-03-12",
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "smdv6dkfnzk2",
+          "name": "Pod 32",
+          "status": "degraded_performance",
+          "created_at": "2021-03-12T20:37:22.659Z",
+          "updated_at": "2025-12-15T16:16:25.972Z",
+          "position": 32,
+          "description": null,
+          "showcase": false,
+          "start_date": "2021-03-12",
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "2jswj3ccnqmc",
+          "name": "Pod 33",
+          "status": "degraded_performance",
+          "created_at": "2021-03-12T20:37:36.904Z",
+          "updated_at": "2025-12-15T16:16:25.985Z",
+          "position": 33,
+          "description": null,
+          "showcase": false,
+          "start_date": "2021-03-12",
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "jghx0wn0xvrl",
+          "name": "Pod 34",
+          "status": "degraded_performance",
+          "created_at": "2021-03-12T20:37:53.635Z",
+          "updated_at": "2025-12-15T16:16:25.998Z",
+          "position": 34,
+          "description": null,
+          "showcase": false,
+          "start_date": "2021-03-12",
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "v42lmb2r8ql2",
+          "name": "Pod 35",
+          "status": "degraded_performance",
+          "created_at": "2021-03-12T20:38:07.313Z",
+          "updated_at": "2025-12-15T16:16:26.010Z",
+          "position": 35,
+          "description": null,
+          "showcase": true,
+          "start_date": "2021-03-12",
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "9j60m9wztz3h",
+          "name": "Pod 36",
+          "status": "degraded_performance",
+          "created_at": "2022-10-27T19:34:25.439Z",
+          "updated_at": "2025-12-15T16:16:26.024Z",
+          "position": 36,
+          "description": null,
+          "showcase": true,
+          "start_date": "2022-10-27",
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "tsf5gyh6dx0c",
+          "name": "Pod 37",
+          "status": "degraded_performance",
+          "created_at": "2022-10-27T19:33:41.611Z",
+          "updated_at": "2025-12-15T16:16:26.038Z",
+          "position": 37,
+          "description": null,
+          "showcase": true,
+          "start_date": "2022-10-27",
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "nsyblgrhhdjj",
+          "name": "Pod 38",
+          "status": "degraded_performance",
+          "created_at": "2024-03-04T21:20:30.817Z",
+          "updated_at": "2025-12-15T16:16:26.050Z",
+          "position": 38,
+          "description": null,
+          "showcase": true,
+          "start_date": "2024-03-04",
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "8qzw73gqs3p5",
+          "name": "Pod 39",
+          "status": "degraded_performance",
+          "created_at": "2024-03-04T21:20:51.314Z",
+          "updated_at": "2025-12-15T16:16:26.065Z",
+          "position": 39,
+          "description": null,
+          "showcase": true,
+          "start_date": "2024-03-04",
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "5jxnpq98dc47",
+          "name": "Pod 40",
+          "status": "degraded_performance",
+          "created_at": "2024-03-04T21:21:04.434Z",
+          "updated_at": "2025-12-15T16:16:26.079Z",
+          "position": 40,
+          "description": null,
+          "showcase": true,
+          "start_date": "2024-03-04",
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "wcwls923scs7",
+          "name": "Pod 41",
+          "status": "degraded_performance",
+          "created_at": "2024-03-04T21:21:17.635Z",
+          "updated_at": "2025-12-15T16:16:26.093Z",
+          "position": 41,
+          "description": null,
+          "showcase": true,
+          "start_date": "2024-03-04",
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "8wpd5wn9zg3t",
+          "name": "Pod 42",
+          "status": "degraded_performance",
+          "created_at": "2024-03-04T21:21:33.036Z",
+          "updated_at": "2025-12-15T16:16:26.105Z",
+          "position": 42,
+          "description": null,
+          "showcase": true,
+          "start_date": "2024-03-04",
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "9v1n12pb2z1b",
+          "name": "Pod 43",
+          "status": "degraded_performance",
+          "created_at": "2024-03-04T21:21:46.144Z",
+          "updated_at": "2025-12-15T16:16:26.118Z",
+          "position": 43,
+          "description": null,
+          "showcase": true,
+          "start_date": "2024-03-04",
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "38bp27tgw1qr",
+          "name": "Pod 44",
+          "status": "degraded_performance",
+          "created_at": "2024-03-04T21:22:00.242Z",
+          "updated_at": "2025-12-15T16:16:26.131Z",
+          "position": 44,
+          "description": null,
+          "showcase": true,
+          "start_date": "2024-03-04",
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "kjphsy5b8y5r",
+          "name": "Pod 44",
+          "status": "degraded_performance",
+          "created_at": "2024-03-04T21:22:13.012Z",
+          "updated_at": "2025-12-15T16:16:26.144Z",
+          "position": 45,
+          "description": null,
+          "showcase": true,
+          "start_date": "2024-03-04",
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "3w977p9cn29j",
+          "name": "Pod 45",
+          "status": "degraded_performance",
+          "created_at": "2024-03-04T21:22:23.777Z",
+          "updated_at": "2025-12-15T16:16:26.156Z",
+          "position": 46,
+          "description": null,
+          "showcase": true,
+          "start_date": "2024-03-04",
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "92w4pk07xthf",
+          "name": "Pod 46",
+          "status": "degraded_performance",
+          "created_at": "2024-03-04T21:22:42.309Z",
+          "updated_at": "2025-12-15T16:16:26.171Z",
+          "position": 47,
+          "description": null,
+          "showcase": true,
+          "start_date": "2024-03-04",
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "c3tdt0mws6q6",
+          "name": "Pod 47",
+          "status": "degraded_performance",
+          "created_at": "2024-03-04T21:23:00.776Z",
+          "updated_at": "2025-12-15T16:16:26.183Z",
+          "position": 48,
+          "description": null,
+          "showcase": true,
+          "start_date": "2024-03-04",
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "rkbmn97v9cwg",
+          "name": "Pod 48",
+          "status": "degraded_performance",
+          "created_at": "2024-03-04T21:23:15.252Z",
+          "updated_at": "2025-12-15T16:16:26.196Z",
+          "position": 49,
+          "description": null,
+          "showcase": true,
+          "start_date": "2024-03-04",
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "hl6h67kgy49k",
+          "name": "Pod 49",
+          "status": "degraded_performance",
+          "created_at": "2024-04-18T16:55:53.332Z",
+          "updated_at": "2025-12-15T16:16:26.208Z",
+          "position": 50,
+          "description": null,
+          "showcase": true,
+          "start_date": "2024-01-01",
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "8kbgdqlzybzc",
+          "name": "AWS ec2-us-east-2",
+          "status": "degraded_performance",
+          "created_at": "2024-04-19T21:43:49.113Z",
+          "updated_at": "2025-12-15T16:16:26.225Z",
+          "position": 51,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "mw1wszsvyjy3",
+          "name": "AWS ec2-eu-central-1",
+          "status": "degraded_performance",
+          "created_at": "2024-04-19T21:44:02.964Z",
+          "updated_at": "2025-12-15T16:16:26.243Z",
+          "position": 52,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "xc7x5mqxvc2b",
+          "name": "AWS ec2-ap-southeast-2",
+          "status": "degraded_performance",
+          "created_at": "2024-04-19T21:44:07.653Z",
+          "updated_at": "2025-12-15T16:16:26.258Z",
+          "position": 53,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "q40kb0phgrqj",
+          "name": "AWS rds-ap-southeast-2",
+          "status": "degraded_performance",
+          "created_at": "2024-04-19T21:44:33.619Z",
+          "updated_at": "2025-12-15T16:16:26.273Z",
+          "position": 54,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "c22clwwc986h",
+          "name": "AWS rds-eu-central-1",
+          "status": "degraded_performance",
+          "created_at": "2024-04-19T21:44:39.285Z",
+          "updated_at": "2025-12-15T16:16:26.289Z",
+          "position": 55,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "97npnzd731z6",
+          "name": "AWS rds-us-east-2",
+          "status": "degraded_performance",
+          "created_at": "2024-04-19T21:44:45.425Z",
+          "updated_at": "2025-12-15T16:16:26.307Z",
+          "position": 56,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "rc8gcxxjdf5n",
+          "name": "AWS elb-ap-southeast-2",
+          "status": "degraded_performance",
+          "created_at": "2024-04-19T21:45:30.681Z",
+          "updated_at": "2025-12-15T16:16:26.324Z",
+          "position": 57,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "yttt3lfvmj07",
+          "name": "AWS elb-eu-central-1",
+          "status": "degraded_performance",
+          "created_at": "2024-04-19T21:45:37.094Z",
+          "updated_at": "2025-12-15T16:16:26.344Z",
+          "position": 58,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "jxskwyfvntcx",
+          "name": "AWS elb-us-east-2",
+          "status": "degraded_performance",
+          "created_at": "2024-04-19T21:45:41.499Z",
+          "updated_at": "2025-12-15T16:16:26.365Z",
+          "position": 59,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "c83v3t5dqdbp",
+          "name": "AWS glue-ap-southeast-2",
+          "status": "degraded_performance",
+          "created_at": "2024-04-19T21:47:06.228Z",
+          "updated_at": "2025-12-15T16:16:26.382Z",
+          "position": 60,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "gvzxbs2txby4",
+          "name": "AWS glue-eu-central-1",
+          "status": "degraded_performance",
+          "created_at": "2024-04-19T21:47:11.081Z",
+          "updated_at": "2025-12-15T16:16:26.398Z",
+          "position": 61,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "tsws7qs69c8t",
+          "name": "AWS glue-us-east-2",
+          "status": "degraded_performance",
+          "created_at": "2024-04-19T21:47:15.687Z",
+          "updated_at": "2025-12-15T16:16:26.415Z",
+          "position": 62,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "bsh32pg89683",
+          "name": "AWS ses-ap-southeast-2",
+          "status": "degraded_performance",
+          "created_at": "2024-04-19T21:48:15.274Z",
+          "updated_at": "2025-12-15T16:16:26.431Z",
+          "position": 63,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "7c5wvgy7kyj3",
+          "name": "AWS ses-eu-central-1",
+          "status": "degraded_performance",
+          "created_at": "2024-04-19T21:48:51.455Z",
+          "updated_at": "2025-12-15T16:16:26.445Z",
+          "position": 64,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "vrkydl0s5b2f",
+          "name": "AWS ses-us-east-1",
+          "status": "degraded_performance",
+          "created_at": "2024-04-19T21:48:55.830Z",
+          "updated_at": "2025-12-15T16:16:26.459Z",
+          "position": 65,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "k9wh7zpb2frd",
+          "name": "Cloudflare Network",
+          "status": "degraded_performance",
+          "created_at": "2025-05-12T21:04:33.413Z",
+          "updated_at": "2025-12-15T16:16:26.472Z",
+          "position": 66,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "jrg4crndtsgz",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }

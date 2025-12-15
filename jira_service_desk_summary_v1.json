@@ -4,15 +4,15 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-12-15T12:01:05.000Z"
+    "updated_at": "2025-12-15T16:26:38.890Z"
   },
   "components": [
     {
       "id": "4kcs01hbh4l6",
       "name": "Jira Service Management Web",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-11-16T18:06:14.831Z",
-      "updated_at": "2025-12-05T15:32:39.111Z",
+      "updated_at": "2025-12-15T16:16:26.456Z",
       "position": 1,
       "description": "Problems with queues, issues, reports, searching, and anything else impacting an agent's ability to complete their work",
       "showcase": false,
@@ -25,9 +25,9 @@
     {
       "id": "hzbyfxf686qd",
       "name": "Service Portal",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-11-16T18:06:14.848Z",
-      "updated_at": "2025-11-21T16:14:14.559Z",
+      "updated_at": "2025-12-15T16:16:26.475Z",
       "position": 2,
       "description": "Problems related to the service desk portals where end-users make requests or raise issues",
       "showcase": false,
@@ -188,10 +188,111 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "wrtj91y6ydr0",
+      "name": "Degraded performance of Admin Hub, Atlassian Analytics, Confluence Cloud, Focus, Jira, Jira Product Discovery, Jira Service Management, and Rovo",
+      "status": "identified",
+      "created_at": "2025-12-15T16:16:26.419Z",
+      "updated_at": "2025-12-15T16:26:38.880Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/1pcr5xjh150l",
+      "started_at": "2025-12-15T16:16:26.411Z",
+      "page_id": "pv54g7ltsc24",
+      "incident_updates": [
+        {
+          "id": "x5ycfmkrwdj3",
+          "status": "identified",
+          "body": "We are actively investigating reports of performance degradation affecting Admin Hub, Atlassian Analytics, Confluence Cloud, Focus, Jira, Jira Product Discovery, Jira Service Management, Jira Work Management, and Rovo. We'll share updates here as more information is available.",
+          "incident_id": "wrtj91y6ydr0",
+          "created_at": "2025-12-15T16:26:38.877Z",
+          "updated_at": "2025-12-15T16:26:38.877Z",
+          "display_at": "2025-12-15T16:26:38.877Z",
+          "affected_components": [
+            {
+              "code": "4kcs01hbh4l6",
+              "name": "Jira Service Management Web",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "hzbyfxf686qd",
+              "name": "Service Portal",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "86dz9tgpqqwn",
+          "status": "identified",
+          "body": "We are actively investigating reports of performance degradation affecting Admin Hub, Atlassian Analytics, Confluence Cloud, Focus, Jira, Jira Product Discovery, Jira Service Management, and Rovo. We'll share updates here as more information is available.",
+          "incident_id": "wrtj91y6ydr0",
+          "created_at": "2025-12-15T16:16:26.520Z",
+          "updated_at": "2025-12-15T16:16:26.520Z",
+          "display_at": "2025-12-15T16:16:26.520Z",
+          "affected_components": [
+            {
+              "code": "4kcs01hbh4l6",
+              "name": "Jira Service Management Web",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "hzbyfxf686qd",
+              "name": "Service Portal",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "4kcs01hbh4l6",
+          "name": "Jira Service Management Web",
+          "status": "degraded_performance",
+          "created_at": "2018-11-16T18:06:14.831Z",
+          "updated_at": "2025-12-15T16:16:26.456Z",
+          "position": 1,
+          "description": "Problems with queues, issues, reports, searching, and anything else impacting an agent's ability to complete their work",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "pv54g7ltsc24",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "hzbyfxf686qd",
+          "name": "Service Portal",
+          "status": "degraded_performance",
+          "created_at": "2018-11-16T18:06:14.848Z",
+          "updated_at": "2025-12-15T16:16:26.475Z",
+          "position": 2,
+          "description": "Problems related to the service desk portals where end-users make requests or raise issues",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "pv54g7ltsc24",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
