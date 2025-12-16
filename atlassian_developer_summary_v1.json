@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-12-16T14:30:46.912Z"
+    "updated_at": "2025-12-16T16:14:08.146Z"
   },
   "components": [
     {
@@ -817,14 +817,54 @@
       "name": "Forge usage and charges data is missing from the developer console",
       "status": "identified",
       "created_at": "2025-12-16T05:47:29.672Z",
-      "updated_at": "2025-12-16T05:47:32.091Z",
-      "monitoring_at": null,
+      "updated_at": "2025-12-16T16:14:08.136Z",
+      "monitoring_at": "2025-12-16T16:14:05.595Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/1xkrw65mwfj4",
       "started_at": "2025-12-16T05:47:29.662Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "pg4k9x28spd1",
+          "status": "identified",
+          "body": "The issue affecting the display of data on the Usage and Charges page in the Forge Developer Console has been largely resolved. All charge elements, except for Forge Compute, are now displaying accurate values.\nWe are actively working to resolve the remaining issue with Forge Compute. We will provide another update once this final issue has been fully mitigated.",
+          "incident_id": "tzz1p8kxcnmy",
+          "created_at": "2025-12-16T16:14:08.133Z",
+          "updated_at": "2025-12-16T16:14:08.133Z",
+          "display_at": "2025-12-16T16:14:08.133Z",
+          "affected_components": [
+            {
+              "code": "khz72mns34gk",
+              "name": "Developer - Developer console",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "6zr3gmffbs2v",
+          "status": "monitoring",
+          "body": "The issue affecting the display of data on the Usage and Charges page in the Forge Developer Console has been largely resolved. All charge elements, except for Forge Compute, are now displaying accurate values.\n\nWe are actively working to resolve the remaining issue with Forge Compute. We will provide another update once this final issue has been fully mitigated.",
+          "incident_id": "tzz1p8kxcnmy",
+          "created_at": "2025-12-16T16:14:05.595Z",
+          "updated_at": "2025-12-16T16:14:05.595Z",
+          "display_at": "2025-12-16T16:14:05.595Z",
+          "affected_components": [
+            {
+              "code": "khz72mns34gk",
+              "name": "Developer - Developer console",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "w62l1gny34r9",
           "status": "identified",
