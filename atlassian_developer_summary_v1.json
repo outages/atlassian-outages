@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-12-16T00:11:02.136Z"
+    "updated_at": "2025-12-16T05:47:32.099Z"
   },
   "components": [
     {
@@ -109,7 +109,7 @@
     {
       "id": "73bt63kd5q9k",
       "name": "Developer",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-02-01T17:21:34.889Z",
       "updated_at": "2019-05-02T04:22:45.333Z",
       "position": 2,
@@ -648,9 +648,9 @@
     {
       "id": "khz72mns34gk",
       "name": "Developer console",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2021-07-09T01:52:46.683Z",
-      "updated_at": "2025-11-23T06:30:26.763Z",
+      "updated_at": "2025-12-16T05:47:29.712Z",
       "position": 11,
       "description": "Reliability of https://developer.atlassian.com/console",
       "showcase": true,
@@ -811,10 +811,84 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "tzz1p8kxcnmy",
+      "name": "Forge usage and charges data is missing from the developer console",
+      "status": "identified",
+      "created_at": "2025-12-16T05:47:29.672Z",
+      "updated_at": "2025-12-16T05:47:32.091Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/1xkrw65mwfj4",
+      "started_at": "2025-12-16T05:47:29.662Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "w62l1gny34r9",
+          "status": "identified",
+          "body": "We have identified an issue with the Forge Developer Console not displaying data on the Usage and Charges page. We are actively working to resolve this issue and will provide more details within the next hour.",
+          "incident_id": "tzz1p8kxcnmy",
+          "created_at": "2025-12-16T05:47:32.087Z",
+          "updated_at": "2025-12-16T05:47:32.087Z",
+          "display_at": "2025-12-16T05:47:32.087Z",
+          "affected_components": [
+            {
+              "code": "khz72mns34gk",
+              "name": "Developer - Developer console",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "xpz440s3x5qw",
+          "status": "identified",
+          "body": "We have identified an issue with the Forge Developer Console, which is not displaying data on the Usage and Charges page. We are actively working to resolve this issue and will provide more details within the next hour.",
+          "incident_id": "tzz1p8kxcnmy",
+          "created_at": "2025-12-16T05:47:29.762Z",
+          "updated_at": "2025-12-16T05:47:29.762Z",
+          "display_at": "2025-12-16T05:47:29.762Z",
+          "affected_components": [
+            {
+              "code": "khz72mns34gk",
+              "name": "Developer - Developer console",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "khz72mns34gk",
+          "name": "Developer console",
+          "status": "degraded_performance",
+          "created_at": "2021-07-09T01:52:46.683Z",
+          "updated_at": "2025-12-16T05:47:29.712Z",
+          "position": 11,
+          "description": "Reliability of https://developer.atlassian.com/console",
+          "showcase": true,
+          "start_date": "2021-07-08",
+          "group_id": "73bt63kd5q9k",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
