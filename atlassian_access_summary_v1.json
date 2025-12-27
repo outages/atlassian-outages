@@ -4,7 +4,7 @@
     "name": "Guard",
     "url": "https://guard.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-12-27T04:42:32.985Z"
+    "updated_at": "2025-12-27T05:20:28.872Z"
   },
   "components": [
     {
@@ -130,9 +130,9 @@
     {
       "id": "856c2dpnfnzq",
       "name": "Signup",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2020-10-09T20:38:53.790Z",
-      "updated_at": "2025-12-27T04:42:32.922Z",
+      "updated_at": "2025-12-27T05:20:20.522Z",
       "position": 6,
       "description": null,
       "showcase": false,
@@ -178,64 +178,10 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "rqg6b58q6b5f",
-      "name": "Outbound Email, Mobile Push Notifications, and Support Ticket Delivery Impacting All Cloud Products",
-      "status": "monitoring",
-      "created_at": "2025-12-27T04:42:32.884Z",
-      "updated_at": "2025-12-27T04:42:32.982Z",
-      "monitoring_at": "2025-12-27T04:42:32.971Z",
-      "resolved_at": null,
-      "impact": "critical",
-      "shortlink": "https://stspg.io/ntvy1vbp004r",
-      "started_at": "2025-12-27T04:42:32.875Z",
-      "page_id": "5qmgwsxwsz78",
-      "incident_updates": [
-        {
-          "id": "tdq26cchkwz5",
-          "status": "monitoring",
-          "body": "We have taken steps to mitigate the issue and are seeing recovery in the affected services. Our teams will continue to closely monitor the situation and are actively working to confirm that all services are fully restored. We will provide further updates as we make additional progress.",
-          "incident_id": "rqg6b58q6b5f",
-          "created_at": "2025-12-27T04:42:32.971Z",
-          "updated_at": "2025-12-27T04:42:32.971Z",
-          "display_at": "2025-12-27T04:42:32.971Z",
-          "affected_components": [
-            {
-              "code": "856c2dpnfnzq",
-              "name": "Signup",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "856c2dpnfnzq",
-          "name": "Signup",
-          "status": "major_outage",
-          "created_at": "2020-10-09T20:38:53.790Z",
-          "updated_at": "2025-12-27T04:42:32.922Z",
-          "position": 6,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-10-09",
-          "group_id": null,
-          "page_id": "5qmgwsxwsz78",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
