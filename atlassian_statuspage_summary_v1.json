@@ -4,7 +4,7 @@
     "name": "Atlassian Statuspage",
     "url": "http://metastatuspage.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2026-02-02T13:50:57.161-08:00"
+    "updated_at": "2026-02-02T18:43:15.116-08:00"
   },
   "components": [
     {
@@ -123,9 +123,9 @@
     {
       "id": "3218pv5ggw0q",
       "name": "Pingdom Integration",
-      "status": "partial_outage",
+      "status": "major_outage",
       "created_at": "2017-08-21T10:30:56.183-07:00",
-      "updated_at": "2026-02-02T13:22:13.724-08:00",
+      "updated_at": "2026-02-02T18:43:14.960-08:00",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -280,9 +280,9 @@
     {
       "id": "hsc388fhkjnv",
       "name": "Librato Integration",
-      "status": "partial_outage",
+      "status": "major_outage",
       "created_at": "2017-08-21T10:31:11.000-07:00",
-      "updated_at": "2026-02-02T13:22:13.764-08:00",
+      "updated_at": "2026-02-02T18:43:14.988-08:00",
       "position": 2,
       "description": null,
       "showcase": false,
@@ -406,9 +406,9 @@
     {
       "id": "xw42ff1v5rmm",
       "name": "New Relic Integration",
-      "status": "partial_outage",
+      "status": "major_outage",
       "created_at": "2017-08-21T10:31:22.037-07:00",
-      "updated_at": "2026-02-02T13:22:13.783-08:00",
+      "updated_at": "2026-02-02T18:43:15.007-08:00",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -535,9 +535,9 @@
     {
       "id": "4s2tjjrhf4d5",
       "name": "Datadog Integration",
-      "status": "partial_outage",
+      "status": "major_outage",
       "created_at": "2017-08-21T10:31:33.127-07:00",
-      "updated_at": "2026-02-02T13:22:13.801-08:00",
+      "updated_at": "2026-02-02T18:43:15.026-08:00",
       "position": 4,
       "description": null,
       "showcase": false,
@@ -614,9 +614,9 @@
     {
       "id": "yfp2yt5fx9cn",
       "name": "Custom Integration",
-      "status": "partial_outage",
+      "status": "major_outage",
       "created_at": "2017-08-21T10:31:43.862-07:00",
-      "updated_at": "2026-02-02T13:22:13.819-08:00",
+      "updated_at": "2026-02-02T18:43:15.045-08:00",
       "position": 5,
       "description": null,
       "showcase": false,
@@ -759,7 +759,7 @@
     {
       "id": "v9191vsctr8q",
       "name": "System Metrics",
-      "status": "partial_outage",
+      "status": "major_outage",
       "created_at": "2017-08-21T10:30:56.166-07:00",
       "updated_at": "2018-04-09T10:41:59.061-07:00",
       "position": 8,
@@ -820,16 +820,60 @@
     {
       "id": "5qz1439fhrtp",
       "name": "Issues displaying system metrics",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2026-02-02T13:22:13.672-08:00",
-      "updated_at": "2026-02-02T13:22:13.875-08:00",
+      "updated_at": "2026-02-02T18:43:15.105-08:00",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "major",
+      "impact": "critical",
       "shortlink": "http://mstspg.co/8gy6g42rs9tp",
       "started_at": "2026-02-02T13:22:13.655-08:00",
       "page_id": "y2j98763l56x",
       "incident_updates": [
+        {
+          "id": "934wqp9ylth6",
+          "status": "identified",
+          "body": "Our team has identified an issue relating to the underlying data used to populate our System Metrics charts, which could cause display errors to appear on customer Statuspages.\n\nWe are investigating possible solutions, and in the meantime, the System Metrics functionality within Statuspage has been disabled to minimize the impact to users viewing Statuspages.\n\nWe will provide an update when we are able to confirm that the functionality can be re-enabled without causing errors for customer Statuspages.\n\nPlease note, this should not impact the ability of customers to use Statuspage to post publicly about the status of their own systems for overall health and availability.",
+          "incident_id": "5qz1439fhrtp",
+          "created_at": "2026-02-02T18:43:15.100-08:00",
+          "updated_at": "2026-02-02T18:43:15.100-08:00",
+          "display_at": "2026-02-02T18:43:15.100-08:00",
+          "affected_components": [
+            {
+              "code": "3218pv5ggw0q",
+              "name": "System Metrics - Pingdom Integration",
+              "old_status": "partial_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "hsc388fhkjnv",
+              "name": "System Metrics - Librato Integration",
+              "old_status": "partial_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "xw42ff1v5rmm",
+              "name": "System Metrics - New Relic Integration",
+              "old_status": "partial_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "4s2tjjrhf4d5",
+              "name": "System Metrics - Datadog Integration",
+              "old_status": "partial_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "yfp2yt5fx9cn",
+              "name": "System Metrics - Custom Integration",
+              "old_status": "partial_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "dv00m5qm1cb7",
           "status": "investigating",
@@ -879,9 +923,9 @@
         {
           "id": "3218pv5ggw0q",
           "name": "Pingdom Integration",
-          "status": "partial_outage",
+          "status": "major_outage",
           "created_at": "2017-08-21T10:30:56.183-07:00",
-          "updated_at": "2026-02-02T13:22:13.724-08:00",
+          "updated_at": "2026-02-02T18:43:14.960-08:00",
           "position": 1,
           "description": null,
           "showcase": false,
@@ -894,9 +938,9 @@
         {
           "id": "hsc388fhkjnv",
           "name": "Librato Integration",
-          "status": "partial_outage",
+          "status": "major_outage",
           "created_at": "2017-08-21T10:31:11.000-07:00",
-          "updated_at": "2026-02-02T13:22:13.764-08:00",
+          "updated_at": "2026-02-02T18:43:14.988-08:00",
           "position": 2,
           "description": null,
           "showcase": false,
@@ -909,9 +953,9 @@
         {
           "id": "xw42ff1v5rmm",
           "name": "New Relic Integration",
-          "status": "partial_outage",
+          "status": "major_outage",
           "created_at": "2017-08-21T10:31:22.037-07:00",
-          "updated_at": "2026-02-02T13:22:13.783-08:00",
+          "updated_at": "2026-02-02T18:43:15.007-08:00",
           "position": 3,
           "description": null,
           "showcase": false,
@@ -924,9 +968,9 @@
         {
           "id": "4s2tjjrhf4d5",
           "name": "Datadog Integration",
-          "status": "partial_outage",
+          "status": "major_outage",
           "created_at": "2017-08-21T10:31:33.127-07:00",
-          "updated_at": "2026-02-02T13:22:13.801-08:00",
+          "updated_at": "2026-02-02T18:43:15.026-08:00",
           "position": 4,
           "description": null,
           "showcase": false,
@@ -939,9 +983,9 @@
         {
           "id": "yfp2yt5fx9cn",
           "name": "Custom Integration",
-          "status": "partial_outage",
+          "status": "major_outage",
           "created_at": "2017-08-21T10:31:43.862-07:00",
-          "updated_at": "2026-02-02T13:22:13.819-08:00",
+          "updated_at": "2026-02-02T18:43:15.045-08:00",
           "position": 5,
           "description": null,
           "showcase": false,
@@ -957,7 +1001,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "major",
+    "description": "Partial System Outage"
   }
 }
