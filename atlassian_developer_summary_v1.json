@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-02-06T09:37:35.934Z"
+    "updated_at": "2026-02-06T10:39:42.426Z"
   },
   "components": [
     {
@@ -815,9 +815,9 @@
     {
       "id": "rlrntm2fw82b",
       "name": "Scheduled Triggers not working for Forge apps",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2026-02-06T09:37:35.831Z",
-      "updated_at": "2026-02-06T09:37:35.931Z",
+      "updated_at": "2026-02-06T10:39:42.416Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -825,6 +825,26 @@
       "started_at": "2026-02-06T09:37:35.820Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "pyxdzy6t3jgb",
+          "status": "identified",
+          "body": "Impact\n\nWe are currently experiencing an issue affecting the Forge platform, specifically impacting scheduled triggers. Users may notice that these triggers are not executing as expected. This issue was initially observed around 2 AM UTC.\n\nCurrent Status\n\nOur engineering team is actively investigating the issue. The issue is suspected to be related to a recent change that was deployed. The team is currently rolling back the changes.\n\nNext Steps\n\nWe will provide a status update in 60 minutes. The restoration of service is our priority, and the team will continue to monitor and address the situation as developments occur.",
+          "incident_id": "rlrntm2fw82b",
+          "created_at": "2026-02-06T10:39:42.413Z",
+          "updated_at": "2026-02-06T10:39:42.413Z",
+          "display_at": "2026-02-06T10:39:42.413Z",
+          "affected_components": [
+            {
+              "code": "pgqd9x4jl520",
+              "name": "Developer - Forge Function Invocation",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "lhg77wqcy42s",
           "status": "investigating",
