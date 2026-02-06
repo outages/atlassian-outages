@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-02-06T10:39:42.426Z"
+    "updated_at": "2026-02-06T11:32:35.379Z"
   },
   "components": [
     {
@@ -109,7 +109,7 @@
     {
       "id": "73bt63kd5q9k",
       "name": "Developer",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:21:34.889Z",
       "updated_at": "2019-05-02T04:22:45.333Z",
       "position": 2,
@@ -498,9 +498,9 @@
     {
       "id": "pgqd9x4jl520",
       "name": "Forge Function Invocation",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2021-03-23T11:56:37.167Z",
-      "updated_at": "2026-02-06T09:37:35.880Z",
+      "updated_at": "2026-02-06T11:32:35.327Z",
       "position": 7,
       "description": null,
       "showcase": true,
@@ -811,81 +811,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "rlrntm2fw82b",
-      "name": "Scheduled Triggers not working for Forge apps",
-      "status": "identified",
-      "created_at": "2026-02-06T09:37:35.831Z",
-      "updated_at": "2026-02-06T10:39:42.416Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/19gs46myvlrv",
-      "started_at": "2026-02-06T09:37:35.820Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "pyxdzy6t3jgb",
-          "status": "identified",
-          "body": "Impact\n\nWe are currently experiencing an issue affecting the Forge platform, specifically impacting scheduled triggers. Users may notice that these triggers are not executing as expected. This issue was initially observed around 2 AM UTC.\n\nCurrent Status\n\nOur engineering team is actively investigating the issue. The issue is suspected to be related to a recent change that was deployed. The team is currently rolling back the changes.\n\nNext Steps\n\nWe will provide a status update in 60 minutes. The restoration of service is our priority, and the team will continue to monitor and address the situation as developments occur.",
-          "incident_id": "rlrntm2fw82b",
-          "created_at": "2026-02-06T10:39:42.413Z",
-          "updated_at": "2026-02-06T10:39:42.413Z",
-          "display_at": "2026-02-06T10:39:42.413Z",
-          "affected_components": [
-            {
-              "code": "pgqd9x4jl520",
-              "name": "Developer - Forge Function Invocation",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "lhg77wqcy42s",
-          "status": "investigating",
-          "body": "Impact\n\nWe are currently experiencing an issue affecting the Forge platform, specifically impacting scheduled triggers. Users may notice that these triggers are not executing as expected. This issue was initially observed around 2 AM UTC.\n\nCurrent Status\n\nOur engineering team is actively investigating the issue and working toward restoring full service. The team is focused on identifying the root cause and implementing a solution to resolve the incident.\n\nNext Steps\n\nWe will provide a status update in 60 minutes. The restoration of service is our priority, and the team will continue to monitor and address the situation as developments occur.",
-          "incident_id": "rlrntm2fw82b",
-          "created_at": "2026-02-06T09:37:35.928Z",
-          "updated_at": "2026-02-06T09:37:35.928Z",
-          "display_at": "2026-02-06T09:37:35.928Z",
-          "affected_components": [
-            {
-              "code": "pgqd9x4jl520",
-              "name": "Developer - Forge Function Invocation",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "pgqd9x4jl520",
-          "name": "Forge Function Invocation",
-          "status": "partial_outage",
-          "created_at": "2021-03-23T11:56:37.167Z",
-          "updated_at": "2026-02-06T09:37:35.880Z",
-          "position": 7,
-          "description": null,
-          "showcase": true,
-          "start_date": "2021-03-23",
-          "group_id": "73bt63kd5q9k",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [
     {
       "id": "mn4r3z2jk6bj",
@@ -1090,7 +1016,7 @@
     }
   ],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
