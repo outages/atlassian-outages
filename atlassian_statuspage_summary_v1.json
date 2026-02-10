@@ -4,13 +4,13 @@
     "name": "Atlassian Statuspage",
     "url": "http://metastatuspage.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2026-02-09T03:41:38.249-08:00"
+    "updated_at": "2026-02-10T13:50:57.473-08:00"
   },
   "components": [
     {
       "id": "hchd2wyk50h7",
       "name": "Hosted Pages",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2017-08-21T10:20:23.801-07:00",
       "updated_at": "2017-08-21T10:28:03.987-07:00",
       "position": 1,
@@ -33,9 +33,9 @@
     {
       "id": "rkld00070vm9",
       "name": "HTTP Pages",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2017-08-21T10:20:23.847-07:00",
-      "updated_at": "2025-10-29T03:38:38.372-07:00",
+      "updated_at": "2026-02-10T13:48:07.216-08:00",
       "position": 1,
       "description": null,
       "showcase": true,
@@ -63,9 +63,9 @@
     {
       "id": "fyzs60wyq01d",
       "name": "Web Portal",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2017-08-21T10:22:01.379-07:00",
-      "updated_at": "2025-03-11T00:52:20.762-07:00",
+      "updated_at": "2026-02-10T13:48:07.258-08:00",
       "position": 1,
       "description": null,
       "showcase": true,
@@ -153,9 +153,9 @@
     {
       "id": "3bg3nq9mm436",
       "name": "HTTPS Pages",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2017-08-21T10:20:23.888-07:00",
-      "updated_at": "2025-10-29T03:39:03.870-07:00",
+      "updated_at": "2026-02-10T13:48:07.278-08:00",
       "position": 2,
       "description": null,
       "showcase": true,
@@ -198,7 +198,7 @@
     {
       "id": "jk3l62p3pcfy",
       "name": "Management",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2017-08-21T10:22:01.354-07:00",
       "updated_at": "2023-10-28T03:02:10.704-07:00",
       "position": 2,
@@ -817,6 +817,185 @@
     }
   ],
   "incidents": [
+    {
+      "id": "j864tf8r15xq",
+      "name": "Disrupted Statuspage availability",
+      "status": "investigating",
+      "created_at": "2026-02-10T13:48:07.154-08:00",
+      "updated_at": "2026-02-10T13:48:07.338-08:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "http://mstspg.co/vtggyq01mbxw",
+      "started_at": "2026-02-10T13:48:07.121-08:00",
+      "page_id": "y2j98763l56x",
+      "incident_updates": [
+        {
+          "id": "q2zwd4fdnkzm",
+          "status": "investigating",
+          "body": "We are actively investigating reports of an intermittent partial service disruption affecting Statuspage. We'll share updates here as more information is available.",
+          "incident_id": "j864tf8r15xq",
+          "created_at": "2026-02-10T13:48:07.333-08:00",
+          "updated_at": "2026-02-10T13:48:07.333-08:00",
+          "display_at": "2026-02-10T13:48:07.333-08:00",
+          "affected_components": [
+            {
+              "code": "rkld00070vm9",
+              "name": "Hosted Pages - HTTP Pages",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "3bg3nq9mm436",
+              "name": "Hosted Pages - HTTPS Pages",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "2k3fhq6zhd4j",
+              "name": "Hosted Pages - Status Embed Widget",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "s0p4y2k09klc",
+              "name": "Hosted Pages - Public API",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "tpvwg6y7ltx2",
+              "name": "Hosted Pages - Shortlinks",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "7x37zxqc4gq0",
+              "name": "Hosted Pages - SMS Subscription",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "fyzs60wyq01d",
+              "name": "Management - Web Portal",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "rkld00070vm9",
+          "name": "HTTP Pages",
+          "status": "partial_outage",
+          "created_at": "2017-08-21T10:20:23.847-07:00",
+          "updated_at": "2026-02-10T13:48:07.216-08:00",
+          "position": 1,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": "hchd2wyk50h7",
+          "page_id": "y2j98763l56x",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "fyzs60wyq01d",
+          "name": "Web Portal",
+          "status": "partial_outage",
+          "created_at": "2017-08-21T10:22:01.379-07:00",
+          "updated_at": "2026-02-10T13:48:07.258-08:00",
+          "position": 1,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": "jk3l62p3pcfy",
+          "page_id": "y2j98763l56x",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "3bg3nq9mm436",
+          "name": "HTTPS Pages",
+          "status": "partial_outage",
+          "created_at": "2017-08-21T10:20:23.888-07:00",
+          "updated_at": "2026-02-10T13:48:07.278-08:00",
+          "position": 2,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": "hchd2wyk50h7",
+          "page_id": "y2j98763l56x",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "2k3fhq6zhd4j",
+          "name": "Status Embed Widget",
+          "status": "operational",
+          "created_at": "2017-08-21T10:20:23.913-07:00",
+          "updated_at": "2024-11-09T01:39:38.458-08:00",
+          "position": 3,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": "hchd2wyk50h7",
+          "page_id": "y2j98763l56x",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "s0p4y2k09klc",
+          "name": "Public API",
+          "status": "operational",
+          "created_at": "2017-08-21T10:20:23.944-07:00",
+          "updated_at": "2025-03-11T00:52:20.805-07:00",
+          "position": 4,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": "hchd2wyk50h7",
+          "page_id": "y2j98763l56x",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "tpvwg6y7ltx2",
+          "name": "Shortlinks",
+          "status": "operational",
+          "created_at": "2017-08-24T12:32:09.812-07:00",
+          "updated_at": "2024-11-24T22:04:12.816-08:00",
+          "position": 5,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": "hchd2wyk50h7",
+          "page_id": "y2j98763l56x",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "7x37zxqc4gq0",
+          "name": "SMS Subscription",
+          "status": "operational",
+          "created_at": "2022-07-21T09:37:19.518-07:00",
+          "updated_at": "2025-01-17T21:16:26.084-08:00",
+          "position": 6,
+          "description": null,
+          "showcase": false,
+          "start_date": "2022-07-21",
+          "group_id": "hchd2wyk50h7",
+          "page_id": "y2j98763l56x",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
     {
       "id": "5qz1439fhrtp",
       "name": "Issues displaying system metrics",
