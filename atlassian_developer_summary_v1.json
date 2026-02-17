@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-02-17T01:48:30.019Z"
+    "updated_at": "2026-02-17T05:40:22.809Z"
   },
   "components": [
     {
@@ -813,30 +813,30 @@
   ],
   "incidents": [
     {
-      "id": "5x74yft4vlpy",
-      "name": "Forge billing subscriptions cancelled for some apps",
+      "id": "n99tglbrb7dq",
+      "name": "Increased error rates on Jira and Jira Service Management Ecosystem Apps",
       "status": "identified",
-      "created_at": "2026-02-16T11:24:02.892Z",
-      "updated_at": "2026-02-16T11:27:58.418Z",
+      "created_at": "2026-02-13T07:41:39.717Z",
+      "updated_at": "2026-02-17T05:40:22.795Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
-      "shortlink": "https://stspg.io/0xtcwl805sph",
-      "started_at": "2026-02-16T11:24:02.883Z",
+      "shortlink": "https://stspg.io/4vmdg9xzj5f6",
+      "started_at": "2026-02-13T07:41:39.708Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
         {
-          "id": "v3s1qtzy0fh0",
+          "id": "jh34lnrtzd70",
           "status": "identified",
-          "body": "Some Forge app billing admins may have received subscription cancellation emails, but we want to assure you that there is no disruption or impact to the functioning of your Forge apps, your apps will continue to operate as normal.\n\nOur team is actively working to reactivate any affected subscriptions. To help prevent any future interruptions, we kindly request that admins ensure a valid billing payment method is added before the next billing cycle.\n\nWe apologise for any confusion and appreciate your understanding.",
-          "incident_id": "5x74yft4vlpy",
-          "created_at": "2026-02-16T11:27:58.415Z",
-          "updated_at": "2026-02-16T11:27:58.415Z",
-          "display_at": "2026-02-16T11:27:58.415Z",
+          "body": "Our team is continuing to work on correcting the impact from this issue. A tested and validated process is now running to restore affected apps and our team is closely monitoring traffic to help to rule out any issues.\nPlease raise a support request if you require further assistance.\n\nAn update will be provided within 72 hours with our status on the backfill operation and estimated time to completion.",
+          "incident_id": "n99tglbrb7dq",
+          "created_at": "2026-02-17T05:40:22.793Z",
+          "updated_at": "2026-02-17T05:40:22.793Z",
+          "display_at": "2026-02-17T05:40:22.793Z",
           "affected_components": [
             {
-              "code": "khz72mns34gk",
-              "name": "Developer - Developer console",
+              "code": "cc6gw24m02wp",
+              "name": "APIs - Jira Cloud APIs",
               "old_status": "partial_outage",
               "new_status": "partial_outage"
             }
@@ -845,59 +845,6 @@
           "custom_tweet": null,
           "tweet_id": null
         },
-        {
-          "id": "7s718bt2rht5",
-          "status": "investigating",
-          "body": "Some Forge app billing admins may have received subscription cancellation emails, but we want to assure you that there is no disruption or impact to the functioning of your Forge apps, your apps will continue to operate as normal.\n\nOur team is actively working to reactivate any affected subscriptions. To help prevent any future interruptions, we kindly request that admins ensure a valid billing payment method is added before the next billing cycle.\n\nWe apologise for any confusion and appreciate your understanding.",
-          "incident_id": "5x74yft4vlpy",
-          "created_at": "2026-02-16T11:24:02.971Z",
-          "updated_at": "2026-02-16T11:24:02.971Z",
-          "display_at": "2026-02-16T11:24:02.971Z",
-          "affected_components": [
-            {
-              "code": "khz72mns34gk",
-              "name": "Developer - Developer console",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "khz72mns34gk",
-          "name": "Developer console",
-          "status": "partial_outage",
-          "created_at": "2021-07-09T01:52:46.683Z",
-          "updated_at": "2026-02-16T11:24:02.928Z",
-          "position": 11,
-          "description": "Reliability of https://developer.atlassian.com/console",
-          "showcase": true,
-          "start_date": "2021-07-08",
-          "group_id": "73bt63kd5q9k",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    },
-    {
-      "id": "n99tglbrb7dq",
-      "name": "Increased error rates on Jira and Jira Service Management Ecosystem Apps",
-      "status": "identified",
-      "created_at": "2026-02-13T07:41:39.717Z",
-      "updated_at": "2026-02-16T05:30:25.974Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/4vmdg9xzj5f6",
-      "started_at": "2026-02-13T07:41:39.708Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
         {
           "id": "5qlcbqhz1kz7",
           "status": "identified",
@@ -971,6 +918,79 @@
           "showcase": true,
           "start_date": null,
           "group_id": "w0ld3nc9jvdx",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "5x74yft4vlpy",
+      "name": "Forge billing subscriptions cancelled for some apps",
+      "status": "identified",
+      "created_at": "2026-02-16T11:24:02.892Z",
+      "updated_at": "2026-02-16T11:27:58.418Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/0xtcwl805sph",
+      "started_at": "2026-02-16T11:24:02.883Z",
+      "page_id": "n8766lc3ybbs",
+      "incident_updates": [
+        {
+          "id": "v3s1qtzy0fh0",
+          "status": "identified",
+          "body": "Some Forge app billing admins may have received subscription cancellation emails, but we want to assure you that there is no disruption or impact to the functioning of your Forge apps, your apps will continue to operate as normal.\n\nOur team is actively working to reactivate any affected subscriptions. To help prevent any future interruptions, we kindly request that admins ensure a valid billing payment method is added before the next billing cycle.\n\nWe apologise for any confusion and appreciate your understanding.",
+          "incident_id": "5x74yft4vlpy",
+          "created_at": "2026-02-16T11:27:58.415Z",
+          "updated_at": "2026-02-16T11:27:58.415Z",
+          "display_at": "2026-02-16T11:27:58.415Z",
+          "affected_components": [
+            {
+              "code": "khz72mns34gk",
+              "name": "Developer - Developer console",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "7s718bt2rht5",
+          "status": "investigating",
+          "body": "Some Forge app billing admins may have received subscription cancellation emails, but we want to assure you that there is no disruption or impact to the functioning of your Forge apps, your apps will continue to operate as normal.\n\nOur team is actively working to reactivate any affected subscriptions. To help prevent any future interruptions, we kindly request that admins ensure a valid billing payment method is added before the next billing cycle.\n\nWe apologise for any confusion and appreciate your understanding.",
+          "incident_id": "5x74yft4vlpy",
+          "created_at": "2026-02-16T11:24:02.971Z",
+          "updated_at": "2026-02-16T11:24:02.971Z",
+          "display_at": "2026-02-16T11:24:02.971Z",
+          "affected_components": [
+            {
+              "code": "khz72mns34gk",
+              "name": "Developer - Developer console",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "khz72mns34gk",
+          "name": "Developer console",
+          "status": "partial_outage",
+          "created_at": "2021-07-09T01:52:46.683Z",
+          "updated_at": "2026-02-16T11:24:02.928Z",
+          "position": 11,
+          "description": "Reliability of https://developer.atlassian.com/console",
+          "showcase": true,
+          "start_date": "2021-07-08",
+          "group_id": "73bt63kd5q9k",
           "page_id": "n8766lc3ybbs",
           "group": false,
           "only_show_if_degraded": false
