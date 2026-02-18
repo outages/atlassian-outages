@@ -4,7 +4,7 @@
     "name": "Guard",
     "url": "https://guard.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-02-18T10:38:48.688Z"
+    "updated_at": "2026-02-18T11:30:29.142Z"
   },
   "components": [
     {
@@ -102,7 +102,7 @@
       "name": "Account Management",
       "status": "operational",
       "created_at": "2019-05-03T02:41:07.946Z",
-      "updated_at": "2025-12-15T22:07:53.388Z",
+      "updated_at": "2026-02-18T11:30:29.082Z",
       "position": 4,
       "description": null,
       "showcase": false,
