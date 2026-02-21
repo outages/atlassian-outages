@@ -4,7 +4,7 @@
     "name": "Trello",
     "url": "https://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2026-02-21T08:13:36.108-05:00"
+    "updated_at": "2026-02-21T10:32:19.347-05:00"
   },
   "components": [
     {
@@ -12,7 +12,7 @@
       "name": "Trello.com",
       "status": "operational",
       "created_at": "2020-01-24T12:50:55.839-05:00",
-      "updated_at": "2026-02-19T10:10:25.941-05:00",
+      "updated_at": "2026-02-21T10:32:19.246-05:00",
       "position": 1,
       "description": "Web client",
       "showcase": true,
@@ -27,7 +27,7 @@
       "name": "API",
       "status": "operational",
       "created_at": "2020-01-24T12:50:17.715-05:00",
-      "updated_at": "2026-02-19T10:10:25.963-05:00",
+      "updated_at": "2026-02-21T10:32:19.261-05:00",
       "position": 2,
       "description": null,
       "showcase": true,
@@ -57,7 +57,7 @@
       "name": "Atlassian Support Ticketing",
       "status": "operational",
       "created_at": "2020-07-30T12:28:08.222-04:00",
-      "updated_at": "2025-12-27T00:20:20.470-05:00",
+      "updated_at": "2026-02-21T10:32:19.276-05:00",
       "position": 7,
       "description": "Trello Support tickets can be replied to via email or from the ticket view on getsupport.atlassian.com. If there's an outage, you may be unable to view support tickets from getsupport.atlassian.com temporarily, but customers can reply to existing tickets by email.",
       "showcase": true,
@@ -72,7 +72,7 @@
       "name": "Atlassian Support Knowledge Base",
       "status": "operational",
       "created_at": "2022-07-11T10:12:52.388-04:00",
-      "updated_at": "2025-11-21T11:14:13.490-05:00",
+      "updated_at": "2026-02-21T10:32:19.291-05:00",
       "position": 8,
       "description": null,
       "showcase": false,
