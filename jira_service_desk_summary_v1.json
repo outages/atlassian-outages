@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-02-26T18:33:34.426Z"
+    "updated_at": "2026-02-26T18:55:34.289Z"
   },
   "components": [
     {
@@ -188,141 +188,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "7g8w10lbtn26",
-      "name": "Atlassian Assist in Jira Service Management is currently unavailable.",
-      "status": "monitoring",
-      "created_at": "2026-02-26T13:22:27.919Z",
-      "updated_at": "2026-02-26T18:33:34.424Z",
-      "monitoring_at": "2026-02-26T18:33:34.409Z",
-      "resolved_at": null,
-      "impact": "critical",
-      "shortlink": "https://stspg.io/dbcv0rtg0xmj",
-      "started_at": "2026-02-26T13:22:27.913Z",
-      "page_id": "pv54g7ltsc24",
-      "incident_updates": [
-        {
-          "id": "m7jk0nhny7lc",
-          "status": "monitoring",
-          "body": "The issue has now been resolved, and services are operating normally for all affected customers. We will continue to monitor closely to confirm stability.",
-          "incident_id": "7g8w10lbtn26",
-          "created_at": "2026-02-26T18:33:34.409Z",
-          "updated_at": "2026-02-26T18:33:34.409Z",
-          "display_at": "2026-02-26T18:33:34.409Z",
-          "affected_components": [
-            {
-              "code": "6vlshpbyx93m",
-              "name": "Assist",
-              "old_status": "major_outage",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "w03rx4k7h41l",
-          "status": "identified",
-          "body": "We have identified the likely cause of the issue, and our teams are diligently working on a mitigation. Affected users may experience Atlassian Assist unavailability in JSM.\n\nWe will continue to share additional updates here as more information is available.",
-          "incident_id": "7g8w10lbtn26",
-          "created_at": "2026-02-26T18:05:31.258Z",
-          "updated_at": "2026-02-26T18:05:31.258Z",
-          "display_at": "2026-02-26T18:05:31.258Z",
-          "affected_components": [
-            {
-              "code": "6vlshpbyx93m",
-              "name": "Assist",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "wpfjxz2n2gsz",
-          "status": "investigating",
-          "body": "We continue to investigate the issue, and will share an update within next 2 hours or sooner.",
-          "incident_id": "7g8w10lbtn26",
-          "created_at": "2026-02-26T16:21:24.445Z",
-          "updated_at": "2026-02-26T16:21:24.445Z",
-          "display_at": "2026-02-26T16:21:24.445Z",
-          "affected_components": [
-            {
-              "code": "6vlshpbyx93m",
-              "name": "Assist",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "3kq0db3s8h3p",
-          "status": "investigating",
-          "body": "We are still actively investigating this issue and working to restore Atlassian Assist in Jira Service Management. We will share another update here within the next 2 hours or sooner.",
-          "incident_id": "7g8w10lbtn26",
-          "created_at": "2026-02-26T14:25:22.717Z",
-          "updated_at": "2026-02-26T14:25:22.717Z",
-          "display_at": "2026-02-26T14:25:22.717Z",
-          "affected_components": [
-            {
-              "code": "6vlshpbyx93m",
-              "name": "Assist",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "kjwzc6y04fzh",
-          "status": "investigating",
-          "body": "Atlassian Assist in Jira Service Management is currently unavailable. We are actively investigating the problem. We will share updates here as more information in next 60 mins or sooner.",
-          "incident_id": "7g8w10lbtn26",
-          "created_at": "2026-02-26T13:22:28.002Z",
-          "updated_at": "2026-02-26T13:22:28.002Z",
-          "display_at": "2026-02-26T13:22:28.002Z",
-          "affected_components": [
-            {
-              "code": "6vlshpbyx93m",
-              "name": "Assist",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "6vlshpbyx93m",
-          "name": "Assist",
-          "status": "operational",
-          "created_at": "2022-03-10T05:28:23.804Z",
-          "updated_at": "2026-02-26T18:33:34.379Z",
-          "position": 12,
-          "description": "For JSM Chat related outages",
-          "showcase": false,
-          "start_date": "2022-03-10",
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
