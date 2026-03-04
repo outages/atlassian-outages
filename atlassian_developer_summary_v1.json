@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-03-04T01:48:29.908Z"
+    "updated_at": "2026-03-04T03:04:15.755Z"
   },
   "components": [
     {
@@ -234,7 +234,7 @@
     {
       "id": "d0m8l367qqw5",
       "name": "Marketplace",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-02-01T17:24:49.970Z",
       "updated_at": "2019-05-02T04:22:45.342Z",
       "position": 3,
@@ -633,9 +633,9 @@
     {
       "id": "hk36hlvygg2q",
       "name": "Reporting APIs and dashboards",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2013-12-03T00:45:26.014Z",
-      "updated_at": "2026-03-03T17:06:15.561Z",
+      "updated_at": "2026-03-04T03:04:15.703Z",
       "position": 11,
       "description": "Marketing attribution reports are now operational.",
       "showcase": true,
@@ -811,132 +811,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "k0kxpd3cjtpv",
-      "name": "Inaccurate install counts for some Marketplace apps on Marketplace",
-      "status": "monitoring",
-      "created_at": "2026-03-02T16:15:12.562Z",
-      "updated_at": "2026-03-03T17:06:15.625Z",
-      "monitoring_at": "2026-03-02T16:15:12.672Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/l5g7rrvxb1rx",
-      "started_at": "2026-03-02T16:15:12.550Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "4qhb2xkjnn9l",
-          "status": "monitoring",
-          "body": "We are providing an update regarding the install count discrepancy that some partners may have observed for some apps since Feb 27, 2026.\n\n- The install counts displayed on app listings are now accurate for the impacted apps.\n- The Active Installations tab in the Marketplace Partner Portal may still reflect incorrect counts for some apps; this will be corrected following tonight's scheduled update at 12:00 AM UTC on Mar 4, 2026.\n- Please note that actual customer installs were not impacted; only the reported counts displayed in the Partner Portal and on app listings were affected for some apps.\n\nWe will share another update once the Partner Portal Active Installations tab has been fully corrected and validated.\nThank you for your patience and understanding.",
-          "incident_id": "k0kxpd3cjtpv",
-          "created_at": "2026-03-03T17:06:15.622Z",
-          "updated_at": "2026-03-03T17:06:15.622Z",
-          "display_at": "2026-03-03T17:06:15.622Z",
-          "affected_components": [
-            {
-              "code": "g04n852g3nt6",
-              "name": "Marketplace - App listings",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            },
-            {
-              "code": "hk36hlvygg2q",
-              "name": "Marketplace - Reporting APIs and dashboards",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "64gk05kc0lrz",
-              "name": "Marketplace - Search",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "b16s1fmctpxl",
-          "status": "monitoring",
-          "body": "Since Feb 27, 2026 some Marketplace Partners may see incorrect install counts in their Marketplace Partner Portal and listing for their apps. The Marketplace team has identified the bug and is working to correct the same.\n \nPlease note, the actual customer installs for these apps remain unaffected.\n\nAs next Steps, the Marketplace team is working on a fix and expects to restore accurate install counts by Mar 3, 2026, EOD.",
-          "incident_id": "k0kxpd3cjtpv",
-          "created_at": "2026-03-02T16:15:12.672Z",
-          "updated_at": "2026-03-02T16:15:12.672Z",
-          "display_at": "2026-03-02T16:15:12.672Z",
-          "affected_components": [
-            {
-              "code": "g04n852g3nt6",
-              "name": "Marketplace - App listings",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "64gk05kc0lrz",
-              "name": "Marketplace - Search",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "g04n852g3nt6",
-          "name": "App listings",
-          "status": "operational",
-          "created_at": "2013-12-03T00:43:13.481Z",
-          "updated_at": "2026-03-03T17:06:15.536Z",
-          "position": 2,
-          "description": "The detailed listing page for each app",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "hk36hlvygg2q",
-          "name": "Reporting APIs and dashboards",
-          "status": "degraded_performance",
-          "created_at": "2013-12-03T00:45:26.014Z",
-          "updated_at": "2026-03-03T17:06:15.561Z",
-          "position": 11,
-          "description": "Marketing attribution reports are now operational.",
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "64gk05kc0lrz",
-          "name": "Search",
-          "status": "operational",
-          "created_at": "2013-12-03T00:45:30.772Z",
-          "updated_at": "2026-03-03T17:06:15.585Z",
-          "position": 12,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "d0m8l367qqw5",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
