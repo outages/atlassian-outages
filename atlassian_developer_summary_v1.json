@@ -4,13 +4,13 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-03-12T21:08:36.019Z"
+    "updated_at": "2026-03-13T00:26:04.176Z"
   },
   "components": [
     {
       "id": "w0ld3nc9jvdx",
       "name": "APIs",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:15:10.342Z",
       "updated_at": "2018-02-01T17:16:31.201Z",
       "position": 1,
@@ -94,9 +94,9 @@
     {
       "id": "yjqnzm0tkgsd",
       "name": "Confluence Cloud APIs",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-01T17:15:36.411Z",
-      "updated_at": "2026-03-12T11:42:38.880Z",
+      "updated_at": "2026-03-13T00:26:04.116Z",
       "position": 2,
       "description": null,
       "showcase": true,
@@ -811,104 +811,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "xrbb09mbjqf7",
-      "name": "Static macro rendering is failing in Confluence Cloud",
-      "status": "identified",
-      "created_at": "2026-03-12T11:42:38.845Z",
-      "updated_at": "2026-03-12T13:38:24.379Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/v2b9k8yymtjt",
-      "started_at": "2026-03-12T11:42:38.835Z",
-      "page_id": "n8766lc3ybbs",
-      "incident_updates": [
-        {
-          "id": "c4x7506b9xhv",
-          "status": "identified",
-          "body": "Our team has identified the cause of this issue, and a fix is currently being deployed. We are monitoring the deployment, and we will provide another update within 2 hours, or sooner if needed.",
-          "incident_id": "xrbb09mbjqf7",
-          "created_at": "2026-03-12T13:38:24.375Z",
-          "updated_at": "2026-03-12T13:38:24.375Z",
-          "display_at": "2026-03-12T13:38:24.375Z",
-          "affected_components": [
-            {
-              "code": "yjqnzm0tkgsd",
-              "name": "APIs - Confluence Cloud APIs",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "vl6k71xlll5g",
-          "status": "investigating",
-          "body": "Confluence Cloud users may experience errors when accessing certain Marketplace macros. Affected customers are seeing the message Error rendering macro 'static-macro': Page loading failed.\n\nOur team is actively investigating this issue. We will provide another update within 2 hours, or sooner.",
-          "incident_id": "xrbb09mbjqf7",
-          "created_at": "2026-03-12T13:38:23.406Z",
-          "updated_at": "2026-03-12T13:38:23.406Z",
-          "display_at": "2026-03-12T13:38:23.406Z",
-          "affected_components": [
-            {
-              "code": "yjqnzm0tkgsd",
-              "name": "APIs - Confluence Cloud APIs",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "47wz897mllqq",
-          "status": "investigating",
-          "body": "Confluence Cloud users may experience errors when accessing certain Marketplace macros. Affected customers are seeing the message Error rendering macro 'static-macro': Page loading failed.\n\nOur team is actively investigating this issue. We will provide another update within 2 hours, or sooner.",
-          "incident_id": "xrbb09mbjqf7",
-          "created_at": "2026-03-12T11:42:38.921Z",
-          "updated_at": "2026-03-12T11:42:38.921Z",
-          "display_at": "2026-03-12T11:42:38.921Z",
-          "affected_components": [
-            {
-              "code": "yjqnzm0tkgsd",
-              "name": "APIs - Confluence Cloud APIs",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "yjqnzm0tkgsd",
-          "name": "Confluence Cloud APIs",
-          "status": "partial_outage",
-          "created_at": "2018-02-01T17:15:36.411Z",
-          "updated_at": "2026-03-12T11:42:38.880Z",
-          "position": 2,
-          "description": null,
-          "showcase": true,
-          "start_date": null,
-          "group_id": "w0ld3nc9jvdx",
-          "page_id": "n8766lc3ybbs",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
