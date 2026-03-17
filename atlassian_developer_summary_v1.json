@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-03-17T10:05:28.354Z"
+    "updated_at": "2026-03-17T10:59:08.663Z"
   },
   "components": [
     {
@@ -64,9 +64,9 @@
     {
       "id": "wzmg8phvmrwh",
       "name": "App Deployment",
-      "status": "degraded_performance",
+      "status": "partial_outage",
       "created_at": "2021-03-23T12:00:27.385Z",
-      "updated_at": "2026-03-17T10:05:28.195Z",
+      "updated_at": "2026-03-17T10:59:08.499Z",
       "position": 1,
       "description": null,
       "showcase": true,
@@ -109,7 +109,7 @@
     {
       "id": "73bt63kd5q9k",
       "name": "Developer",
-      "status": "degraded_performance",
+      "status": "partial_outage",
       "created_at": "2018-02-01T17:21:34.889Z",
       "updated_at": "2019-05-02T04:22:45.333Z",
       "position": 2,
@@ -204,9 +204,9 @@
     {
       "id": "ccbm394hy8pk",
       "name": "Create and manage apps",
-      "status": "degraded_performance",
+      "status": "partial_outage",
       "created_at": "2018-02-01T17:21:34.902Z",
-      "updated_at": "2026-03-17T10:05:28.220Z",
+      "updated_at": "2026-03-17T10:59:08.518Z",
       "position": 3,
       "description": "The ability to create and manage apps at https://developer.atlassian.com/apps",
       "showcase": true,
@@ -408,9 +408,9 @@
     {
       "id": "vb9xhz9z6zbp",
       "name": "Forge App Installation",
-      "status": "degraded_performance",
+      "status": "partial_outage",
       "created_at": "2021-03-23T11:55:32.639Z",
-      "updated_at": "2026-03-17T10:05:28.243Z",
+      "updated_at": "2026-03-17T10:59:08.537Z",
       "position": 5,
       "description": "Installation of Forge apps",
       "showcase": true,
@@ -648,9 +648,9 @@
     {
       "id": "khz72mns34gk",
       "name": "Developer console",
-      "status": "degraded_performance",
+      "status": "partial_outage",
       "created_at": "2021-07-09T01:52:46.683Z",
-      "updated_at": "2026-03-17T10:05:28.265Z",
+      "updated_at": "2026-03-17T10:59:08.554Z",
       "position": 11,
       "description": "Reliability of https://developer.atlassian.com/console",
       "showcase": true,
@@ -678,9 +678,9 @@
     {
       "id": "x9bxzb5jlltj",
       "name": "Forge direct app distribution",
-      "status": "degraded_performance",
+      "status": "partial_outage",
       "created_at": "2022-03-15T10:00:31.590Z",
-      "updated_at": "2026-03-17T10:05:28.289Z",
+      "updated_at": "2026-03-17T10:59:08.573Z",
       "position": 12,
       "description": "A way to share your apps with a set of trusted site admins: https://developer.atlassian.com/platform/forge/distribute-your-apps/#start-sharing-your-app",
       "showcase": true,
@@ -753,9 +753,9 @@
     {
       "id": "x861fm3drh21",
       "name": "End-user consent",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2022-10-18T22:31:28.597Z",
-      "updated_at": "2026-02-14T07:00:07.303Z",
+      "updated_at": "2026-03-17T10:59:08.590Z",
       "position": 15,
       "description": "Prompt for consent of specific permissions for an app.",
       "showcase": true,
@@ -783,9 +783,9 @@
     {
       "id": "khvgbzf5s9xr",
       "name": "App Data Residency",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2024-07-10T03:01:06.613Z",
-      "updated_at": "2025-10-21T00:03:32.876Z",
+      "updated_at": "2026-03-17T10:59:08.609Z",
       "position": 17,
       "description": null,
       "showcase": true,
@@ -817,22 +817,128 @@
       "name": "Incident impacting Forge app installations and Dev console",
       "status": "investigating",
       "created_at": "2026-03-17T10:05:28.137Z",
-      "updated_at": "2026-03-17T10:05:28.351Z",
+      "updated_at": "2026-03-17T10:59:08.655Z",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "minor",
+      "impact": "major",
       "shortlink": "https://stspg.io/bcjndp22tv8g",
-      "started_at": "2026-03-17T10:05:28.119Z",
+      "started_at": "2026-03-17T10:05:28.000Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
         {
+          "id": "18qrs067n2lh",
+          "status": "investigating",
+          "body": "We are investigating an incident impacting Forge app management and related developer tooling. Customers may experience errors when attempting to:\n\n-Install, upgrade, or deploy Forge apps\n-Use Forge app tunnelling (particularly newly created tunnels and tunnels older than 30 minutes)\n-Access or manage apps via the Atlassian Developer Console\n\nIn addition, some underlying app platform capabilities used by Forge and related services are affected, including:\n\n-Certain app data residency operations\n-Rovo MCP consent flows and other app management operations that rely on the app platform\n\nAt this time, existing Forge apps continue to run, and app invocations are not impacted.\nOur engineering teams are actively investigating the issue and working to restore normal operation. We will provide the next update in 60 mins or sooner if we have significant progress to share.",
+          "incident_id": "r0qnp3j2yzxn",
+          "created_at": "2026-03-17T10:59:08.652Z",
+          "updated_at": "2026-03-17T10:59:08.652Z",
+          "display_at": "2026-03-17T10:59:08.652Z",
+          "affected_components": [
+            {
+              "code": "wzmg8phvmrwh",
+              "name": "Developer - App Deployment",
+              "old_status": "degraded_performance",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "ccbm394hy8pk",
+              "name": "Developer - Create and manage apps",
+              "old_status": "degraded_performance",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "vb9xhz9z6zbp",
+              "name": "Developer - Forge App Installation",
+              "old_status": "degraded_performance",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "khz72mns34gk",
+              "name": "Developer - Developer console",
+              "old_status": "degraded_performance",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "x9bxzb5jlltj",
+              "name": "Developer - Forge direct app distribution",
+              "old_status": "degraded_performance",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "x861fm3drh21",
+              "name": "Developer - End-user consent",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "khvgbzf5s9xr",
+              "name": "Developer - App Data Residency",
+              "old_status": "degraded_performance",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "6bhy6xl3zhnx",
+          "status": "investigating",
+          "body": "We are continuing to investigate this issue.",
+          "incident_id": "r0qnp3j2yzxn",
+          "created_at": "2026-03-17T10:34:40.921Z",
+          "updated_at": "2026-03-17T10:34:40.921Z",
+          "display_at": "2026-03-17T10:34:40.921Z",
+          "affected_components": [
+            {
+              "code": "wzmg8phvmrwh",
+              "name": "Developer - App Deployment",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "ccbm394hy8pk",
+              "name": "Developer - Create and manage apps",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "vb9xhz9z6zbp",
+              "name": "Developer - Forge App Installation",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "khz72mns34gk",
+              "name": "Developer - Developer console",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "x9bxzb5jlltj",
+              "name": "Developer - Forge direct app distribution",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "khvgbzf5s9xr",
+              "name": "Developer - App Data Residency",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
           "id": "s469y1kr7642",
           "status": "investigating",
-          "body": "Impact\n\nThe outage is impacting our Forge apps and Developer console, specifically due to cs-apps APIs, resulting in 500 error messages for customers attempting to use these services. This incident is causing disruption in creating, updating, and deploying applications, although direct app usage is not affected. Similarly, developer console is impacted.\n\nCurrent Status\n\nOur teams are actively working to restore full functionality. The current focus is on addressing a database connectivity issue that seems to be causing the errors. Investigation is ongoing, with efforts concentrated on isolating the root cause through various technical checks.\n\nNext Steps\n\nThe incident team is prioritising the investigation of database connectivity to rectify the errors impacting cs-apps APIs.",
+          "body": "We are actively investigating reports of performance degradation affecting Forge apps and Developer console will share updates here as more information becomes available.",
           "incident_id": "r0qnp3j2yzxn",
           "created_at": "2026-03-17T10:05:28.347Z",
-          "updated_at": "2026-03-17T10:05:28.347Z",
-          "display_at": "2026-03-17T10:05:28.347Z",
+          "updated_at": "2026-03-17T10:32:55.505Z",
+          "display_at": "2026-03-17T10:05:28.000Z",
           "affected_components": [
             {
               "code": "wzmg8phvmrwh",
@@ -874,9 +980,9 @@
         {
           "id": "wzmg8phvmrwh",
           "name": "App Deployment",
-          "status": "degraded_performance",
+          "status": "partial_outage",
           "created_at": "2021-03-23T12:00:27.385Z",
-          "updated_at": "2026-03-17T10:05:28.195Z",
+          "updated_at": "2026-03-17T10:59:08.499Z",
           "position": 1,
           "description": null,
           "showcase": true,
@@ -889,9 +995,9 @@
         {
           "id": "ccbm394hy8pk",
           "name": "Create and manage apps",
-          "status": "degraded_performance",
+          "status": "partial_outage",
           "created_at": "2018-02-01T17:21:34.902Z",
-          "updated_at": "2026-03-17T10:05:28.220Z",
+          "updated_at": "2026-03-17T10:59:08.518Z",
           "position": 3,
           "description": "The ability to create and manage apps at https://developer.atlassian.com/apps",
           "showcase": true,
@@ -904,9 +1010,9 @@
         {
           "id": "vb9xhz9z6zbp",
           "name": "Forge App Installation",
-          "status": "degraded_performance",
+          "status": "partial_outage",
           "created_at": "2021-03-23T11:55:32.639Z",
-          "updated_at": "2026-03-17T10:05:28.243Z",
+          "updated_at": "2026-03-17T10:59:08.537Z",
           "position": 5,
           "description": "Installation of Forge apps",
           "showcase": true,
@@ -919,9 +1025,9 @@
         {
           "id": "khz72mns34gk",
           "name": "Developer console",
-          "status": "degraded_performance",
+          "status": "partial_outage",
           "created_at": "2021-07-09T01:52:46.683Z",
-          "updated_at": "2026-03-17T10:05:28.265Z",
+          "updated_at": "2026-03-17T10:59:08.554Z",
           "position": 11,
           "description": "Reliability of https://developer.atlassian.com/console",
           "showcase": true,
@@ -934,13 +1040,43 @@
         {
           "id": "x9bxzb5jlltj",
           "name": "Forge direct app distribution",
-          "status": "degraded_performance",
+          "status": "partial_outage",
           "created_at": "2022-03-15T10:00:31.590Z",
-          "updated_at": "2026-03-17T10:05:28.289Z",
+          "updated_at": "2026-03-17T10:59:08.573Z",
           "position": 12,
           "description": "A way to share your apps with a set of trusted site admins: https://developer.atlassian.com/platform/forge/distribute-your-apps/#start-sharing-your-app",
           "showcase": true,
           "start_date": "2022-03-15",
+          "group_id": "73bt63kd5q9k",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "x861fm3drh21",
+          "name": "End-user consent",
+          "status": "partial_outage",
+          "created_at": "2022-10-18T22:31:28.597Z",
+          "updated_at": "2026-03-17T10:59:08.590Z",
+          "position": 15,
+          "description": "Prompt for consent of specific permissions for an app.",
+          "showcase": true,
+          "start_date": "2022-10-18",
+          "group_id": "73bt63kd5q9k",
+          "page_id": "n8766lc3ybbs",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "khvgbzf5s9xr",
+          "name": "App Data Residency",
+          "status": "partial_outage",
+          "created_at": "2024-07-10T03:01:06.613Z",
+          "updated_at": "2026-03-17T10:59:08.609Z",
+          "position": 17,
+          "description": null,
+          "showcase": true,
+          "start_date": "2024-07-10",
           "group_id": "73bt63kd5q9k",
           "page_id": "n8766lc3ybbs",
           "group": false,
@@ -953,6 +1089,6 @@
   "scheduled_maintenances": [],
   "status": {
     "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "description": "Minor Service Outage"
   }
 }
