@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-03-23T20:38:32.763Z"
+    "updated_at": "2026-03-24T05:20:21.525Z"
   },
   "components": [
     {
@@ -138,7 +138,8 @@
         "x861fm3drh21",
         "5jn572sn98k4",
         "khvgbzf5s9xr",
-        "x0g7r7xx1rs2"
+        "x0g7r7xx1rs2",
+        "x83v6dds4gjl"
       ]
     },
     {
@@ -805,6 +806,21 @@
       "description": "SQL capability that powers the control plane and data plane operations for Forge SQL",
       "showcase": true,
       "start_date": "2025-03-21",
+      "group_id": "73bt63kd5q9k",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "x83v6dds4gjl",
+      "name": "Forge Monetisation",
+      "status": "operational",
+      "created_at": "2026-03-24T04:52:39.253Z",
+      "updated_at": "2026-03-24T04:52:39.253Z",
+      "position": 19,
+      "description": null,
+      "showcase": true,
+      "start_date": "2026-03-24",
       "group_id": "73bt63kd5q9k",
       "page_id": "n8766lc3ybbs",
       "group": false,
