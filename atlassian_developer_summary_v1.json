@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-04-13T12:38:31.048Z"
+    "updated_at": "2026-04-13T14:03:33.939Z"
   },
   "components": [
     {
@@ -847,9 +847,9 @@
     {
       "id": "yt1f3fdjt4sc",
       "name": "Missing Marketplace transaction data in partner reports since April, 10 2026",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2026-04-13T10:58:02.547Z",
-      "updated_at": "2026-04-13T10:58:02.624Z",
+      "updated_at": "2026-04-13T13:32:11.601Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -857,6 +857,26 @@
       "started_at": "2026-04-13T10:58:02.538Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "z6k22pyl93nk",
+          "status": "identified",
+          "body": "Transaction information for Marketplace apps has been restored and is now appearing again in partner reports. You may still see up to a 3-hour delay before new transactions show in your reports while we work to bring this back to normal. We are closely monitoring the situation and will continue to share updates.",
+          "incident_id": "yt1f3fdjt4sc",
+          "created_at": "2026-04-13T13:32:11.599Z",
+          "updated_at": "2026-04-13T13:32:11.599Z",
+          "display_at": "2026-04-13T13:32:11.599Z",
+          "affected_components": [
+            {
+              "code": "hk36hlvygg2q",
+              "name": "Marketplace - Reporting APIs and dashboards",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "qxcy28233p07",
           "status": "investigating",
