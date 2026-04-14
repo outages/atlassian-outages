@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-04-14T12:33:44.374Z"
+    "updated_at": "2026-04-14T14:23:51.832Z"
   },
   "components": [
     {
@@ -192,9 +192,9 @@
     {
       "id": "v782ry8cjd5p",
       "name": "Disrupted Rovo availability for Automation rules",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2026-04-14T12:12:58.154Z",
-      "updated_at": "2026-04-14T12:25:18.252Z",
+      "updated_at": "2026-04-14T14:11:39.524Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
@@ -202,6 +202,26 @@
       "started_at": "2026-04-14T12:12:58.146Z",
       "page_id": "pv54g7ltsc24",
       "incident_updates": [
+        {
+          "id": "5p6z9mdcwl9p",
+          "status": "identified",
+          "body": "We have identified the issue, and our teams are working to resolve it and restore normal operations as quickly as possible. We will provide further updates as they become available.",
+          "incident_id": "v782ry8cjd5p",
+          "created_at": "2026-04-14T14:11:39.522Z",
+          "updated_at": "2026-04-14T14:11:39.522Z",
+          "display_at": "2026-04-14T14:11:39.522Z",
+          "affected_components": [
+            {
+              "code": "7rq3yg76vvbc",
+              "name": "Automation for Jira",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "32dvncdgzzll",
           "status": "investigating",
