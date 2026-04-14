@@ -4,7 +4,7 @@
     "name": "Jira Work Management",
     "url": "https://jira-work-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-04-14T07:13:56.227Z"
+    "updated_at": "2026-04-14T12:33:44.575Z"
   },
   "components": [
     {
@@ -160,9 +160,9 @@
     {
       "id": "g05jhcg0y7yw",
       "name": "Automation for Jira",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2020-12-23T01:39:53.397Z",
-      "updated_at": "2026-03-10T00:51:16.241Z",
+      "updated_at": "2026-04-14T12:12:58.286Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -173,10 +173,84 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "3gbh1dx13gvs",
+      "name": "Disrupted Rovo availability for Automation rules",
+      "status": "investigating",
+      "created_at": "2026-04-14T12:12:58.255Z",
+      "updated_at": "2026-04-14T12:25:18.256Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "critical",
+      "shortlink": "https://stspg.io/1q440l8q743p",
+      "started_at": "2026-04-14T12:12:58.249Z",
+      "page_id": "s6f0gm5gcpmy",
+      "incident_updates": [
+        {
+          "id": "83t1wfvhz9ls",
+          "status": "investigating",
+          "body": "We have identified that this incident also affects automation rules in Confluence that use Rovo agents. We are investigating and will provide updates as we learn more.",
+          "incident_id": "3gbh1dx13gvs",
+          "created_at": "2026-04-14T12:25:18.253Z",
+          "updated_at": "2026-04-14T12:25:18.253Z",
+          "display_at": "2026-04-14T12:25:18.253Z",
+          "affected_components": [
+            {
+              "code": "g05jhcg0y7yw",
+              "name": "Automation for Jira",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "x4b1tz1rzl45",
+          "status": "investigating",
+          "body": "We are actively investigating reports of a partial service disruption affecting Rovo, specifically for customers using automation rules that invoke Rovo agents. Some customers may find that these automations are not completing as expected. We'll share updates here as more information becomes available.",
+          "incident_id": "3gbh1dx13gvs",
+          "created_at": "2026-04-14T12:12:58.326Z",
+          "updated_at": "2026-04-14T12:12:58.326Z",
+          "display_at": "2026-04-14T12:12:58.326Z",
+          "affected_components": [
+            {
+              "code": "g05jhcg0y7yw",
+              "name": "Automation for Jira",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "g05jhcg0y7yw",
+          "name": "Automation for Jira",
+          "status": "major_outage",
+          "created_at": "2020-12-23T01:39:53.397Z",
+          "updated_at": "2026-04-14T12:12:58.286Z",
+          "position": 11,
+          "description": null,
+          "showcase": false,
+          "start_date": "2020-12-23",
+          "group_id": null,
+          "page_id": "s6f0gm5gcpmy",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "major",
+    "description": "Partial System Outage"
   }
 }
