@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-05-01T23:38:33.613Z"
+    "updated_at": "2026-05-02T03:32:04.532Z"
   },
   "components": [
     {
@@ -12,7 +12,7 @@
       "name": "Support Portal",
       "status": "operational",
       "created_at": "2018-11-16T18:04:38.980Z",
-      "updated_at": "2026-04-13T10:17:20.697Z",
+      "updated_at": "2026-05-02T02:47:55.295Z",
       "position": 1,
       "description": null,
       "showcase": true,
@@ -27,7 +27,7 @@
       "name": "Ticketing",
       "status": "operational",
       "created_at": "2018-11-16T18:04:38.998Z",
-      "updated_at": "2025-12-17T14:15:02.753Z",
+      "updated_at": "2026-05-02T02:47:55.312Z",
       "position": 2,
       "description": null,
       "showcase": true,
@@ -87,7 +87,7 @@
       "name": "Public Issues Tracker",
       "status": "operational",
       "created_at": "2018-11-30T21:48:47.309Z",
-      "updated_at": "2025-11-30T11:04:57.344Z",
+      "updated_at": "2026-05-02T02:47:55.328Z",
       "position": 6,
       "description": "Atlassian's public issue tracker which can be found at jira.atlassian.com",
       "showcase": true,
