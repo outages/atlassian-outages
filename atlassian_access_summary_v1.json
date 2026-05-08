@@ -4,15 +4,15 @@
     "name": "Guard",
     "url": "https://guard.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-05-08T08:03:03.620Z"
+    "updated_at": "2026-05-08T11:12:07.720Z"
   },
   "components": [
     {
       "id": "hqd5zdvzh5g1",
       "name": "Domain Claims",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-05-03T02:39:58.947Z",
-      "updated_at": "2026-05-08T01:31:38.299Z",
+      "updated_at": "2026-05-08T11:12:07.563Z",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -25,9 +25,9 @@
     {
       "id": "hxdm8hxm3wsp",
       "name": "Data Classification",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2024-06-16T23:41:35.399Z",
-      "updated_at": "2026-05-08T01:31:38.320Z",
+      "updated_at": "2026-05-08T11:12:07.581Z",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -40,9 +40,9 @@
     {
       "id": "vwb63rvhtqjn",
       "name": "SAML-based SSO",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-05-03T02:40:16.879Z",
-      "updated_at": "2026-05-08T01:31:38.335Z",
+      "updated_at": "2026-05-08T11:12:07.594Z",
       "position": 2,
       "description": null,
       "showcase": false,
@@ -55,9 +55,9 @@
     {
       "id": "bpqlwwx9dc0c",
       "name": "Data Security Policies",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2024-06-16T23:42:17.214Z",
-      "updated_at": "2026-05-08T01:31:38.353Z",
+      "updated_at": "2026-05-08T11:12:07.607Z",
       "position": 2,
       "description": null,
       "showcase": false,
@@ -70,9 +70,9 @@
     {
       "id": "n6qsfr329pzh",
       "name": "User Provisioning",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-05-03T02:40:35.269Z",
-      "updated_at": "2026-05-08T01:31:38.368Z",
+      "updated_at": "2026-05-08T11:12:07.617Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -85,9 +85,9 @@
     {
       "id": "rpr03y2g1hq6",
       "name": "Guard Detect",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2024-06-16T23:42:29.956Z",
-      "updated_at": "2026-05-08T01:31:38.384Z",
+      "updated_at": "2026-05-08T11:12:07.628Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -100,9 +100,9 @@
     {
       "id": "b8gbm56ptvw5",
       "name": "Account Management",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-05-03T02:41:07.946Z",
-      "updated_at": "2026-05-08T01:31:38.398Z",
+      "updated_at": "2026-05-08T11:12:07.637Z",
       "position": 4,
       "description": null,
       "showcase": false,
@@ -115,9 +115,9 @@
     {
       "id": "yf230szk5s8s",
       "name": "Audit Logs",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-05-03T02:42:05.988Z",
-      "updated_at": "2026-05-08T01:31:38.412Z",
+      "updated_at": "2026-05-08T11:12:07.646Z",
       "position": 5,
       "description": null,
       "showcase": false,
@@ -130,9 +130,9 @@
     {
       "id": "856c2dpnfnzq",
       "name": "Signup",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-10-09T20:38:53.790Z",
-      "updated_at": "2026-05-08T01:31:38.425Z",
+      "updated_at": "2026-05-08T11:12:07.656Z",
       "position": 6,
       "description": null,
       "showcase": false,
@@ -145,9 +145,9 @@
     {
       "id": "kj3g11lf8zg5",
       "name": "API tokens",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2023-12-12T20:59:46.149Z",
-      "updated_at": "2026-05-08T01:31:38.440Z",
+      "updated_at": "2026-05-08T11:12:07.684Z",
       "position": 7,
       "description": "Includes user API tokens and admin API keys",
       "showcase": false,
@@ -160,7 +160,7 @@
     {
       "id": "p4657gzl53zr",
       "name": "Guard Premium",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2024-06-16T23:41:35.376Z",
       "updated_at": "2025-04-22T20:44:52.947Z",
       "position": 10,
@@ -184,7 +184,7 @@
       "name": "Multiple Atlassian services are experiencing issues",
       "status": "monitoring",
       "created_at": "2026-05-08T01:31:38.240Z",
-      "updated_at": "2026-05-08T08:03:03.610Z",
+      "updated_at": "2026-05-08T11:12:07.712Z",
       "monitoring_at": "2026-05-08T05:53:40.411Z",
       "resolved_at": null,
       "impact": "minor",
@@ -192,6 +192,80 @@
       "started_at": "2026-05-08T01:31:38.223Z",
       "page_id": "5qmgwsxwsz78",
       "incident_updates": [
+        {
+          "id": "k3gp35l8n4wl",
+          "status": "monitoring",
+          "body": "Our services are now fully operational. We continue to replay any events that were missed during the incident, and are making good progress. We will provide a further update once replays are complete. If you experience any ongoing issues, please contact our support team.\n\nWe apologise for the disruption and thank you for your patience.",
+          "incident_id": "3vv1wwv7dmmr",
+          "created_at": "2026-05-08T11:12:07.710Z",
+          "updated_at": "2026-05-08T11:12:07.710Z",
+          "display_at": "2026-05-08T11:12:07.710Z",
+          "affected_components": [
+            {
+              "code": "hqd5zdvzh5g1",
+              "name": "Domain Claims",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "vwb63rvhtqjn",
+              "name": "SAML-based SSO",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "n6qsfr329pzh",
+              "name": "User Provisioning",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "b8gbm56ptvw5",
+              "name": "Account Management",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "yf230szk5s8s",
+              "name": "Audit Logs",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "856c2dpnfnzq",
+              "name": "Signup",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "kj3g11lf8zg5",
+              "name": "API tokens",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "hxdm8hxm3wsp",
+              "name": "Guard Premium - Data Classification",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "bpqlwwx9dc0c",
+              "name": "Guard Premium - Data Security Policies",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "rpr03y2g1hq6",
+              "name": "Guard Premium - Guard Detect",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "ddfs850ny152",
           "status": "monitoring",
@@ -863,9 +937,9 @@
         {
           "id": "hqd5zdvzh5g1",
           "name": "Domain Claims",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2019-05-03T02:39:58.947Z",
-          "updated_at": "2026-05-08T01:31:38.299Z",
+          "updated_at": "2026-05-08T11:12:07.563Z",
           "position": 1,
           "description": null,
           "showcase": false,
@@ -878,9 +952,9 @@
         {
           "id": "hxdm8hxm3wsp",
           "name": "Data Classification",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2024-06-16T23:41:35.399Z",
-          "updated_at": "2026-05-08T01:31:38.320Z",
+          "updated_at": "2026-05-08T11:12:07.581Z",
           "position": 1,
           "description": null,
           "showcase": false,
@@ -893,9 +967,9 @@
         {
           "id": "vwb63rvhtqjn",
           "name": "SAML-based SSO",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2019-05-03T02:40:16.879Z",
-          "updated_at": "2026-05-08T01:31:38.335Z",
+          "updated_at": "2026-05-08T11:12:07.594Z",
           "position": 2,
           "description": null,
           "showcase": false,
@@ -908,9 +982,9 @@
         {
           "id": "bpqlwwx9dc0c",
           "name": "Data Security Policies",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2024-06-16T23:42:17.214Z",
-          "updated_at": "2026-05-08T01:31:38.353Z",
+          "updated_at": "2026-05-08T11:12:07.607Z",
           "position": 2,
           "description": null,
           "showcase": false,
@@ -923,9 +997,9 @@
         {
           "id": "n6qsfr329pzh",
           "name": "User Provisioning",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2019-05-03T02:40:35.269Z",
-          "updated_at": "2026-05-08T01:31:38.368Z",
+          "updated_at": "2026-05-08T11:12:07.617Z",
           "position": 3,
           "description": null,
           "showcase": false,
@@ -938,9 +1012,9 @@
         {
           "id": "rpr03y2g1hq6",
           "name": "Guard Detect",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2024-06-16T23:42:29.956Z",
-          "updated_at": "2026-05-08T01:31:38.384Z",
+          "updated_at": "2026-05-08T11:12:07.628Z",
           "position": 3,
           "description": null,
           "showcase": false,
@@ -953,9 +1027,9 @@
         {
           "id": "b8gbm56ptvw5",
           "name": "Account Management",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2019-05-03T02:41:07.946Z",
-          "updated_at": "2026-05-08T01:31:38.398Z",
+          "updated_at": "2026-05-08T11:12:07.637Z",
           "position": 4,
           "description": null,
           "showcase": false,
@@ -968,9 +1042,9 @@
         {
           "id": "yf230szk5s8s",
           "name": "Audit Logs",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2019-05-03T02:42:05.988Z",
-          "updated_at": "2026-05-08T01:31:38.412Z",
+          "updated_at": "2026-05-08T11:12:07.646Z",
           "position": 5,
           "description": null,
           "showcase": false,
@@ -983,9 +1057,9 @@
         {
           "id": "856c2dpnfnzq",
           "name": "Signup",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2020-10-09T20:38:53.790Z",
-          "updated_at": "2026-05-08T01:31:38.425Z",
+          "updated_at": "2026-05-08T11:12:07.656Z",
           "position": 6,
           "description": null,
           "showcase": false,
@@ -998,9 +1072,9 @@
         {
           "id": "kj3g11lf8zg5",
           "name": "API tokens",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2023-12-12T20:59:46.149Z",
-          "updated_at": "2026-05-08T01:31:38.440Z",
+          "updated_at": "2026-05-08T11:12:07.684Z",
           "position": 7,
           "description": "Includes user API tokens and admin API keys",
           "showcase": false,
@@ -1016,7 +1090,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
