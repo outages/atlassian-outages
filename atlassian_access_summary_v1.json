@@ -4,7 +4,7 @@
     "name": "Guard",
     "url": "https://guard.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-05-08T03:00:17.166Z"
+    "updated_at": "2026-05-08T05:53:40.432Z"
   },
   "components": [
     {
@@ -182,16 +182,312 @@
     {
       "id": "3vv1wwv7dmmr",
       "name": "Multiple Atlassian services are experiencing issues",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2026-05-08T01:31:38.240Z",
-      "updated_at": "2026-05-08T03:00:17.156Z",
-      "monitoring_at": null,
+      "updated_at": "2026-05-08T05:53:40.430Z",
+      "monitoring_at": "2026-05-08T05:53:40.411Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/9tkr1hxrj72n",
       "started_at": "2026-05-08T01:31:38.223Z",
       "page_id": "5qmgwsxwsz78",
       "incident_updates": [
+        {
+          "id": "l7pphg3gk4p4",
+          "status": "monitoring",
+          "body": "The underlying issue in public infrastructure which affected asynchronous event processing has been mitigated and all the affected services are recovering. We are now working on clearing the backlog of queued events, which means some actions (such as notifications, automation triggers, and data syncs) may be in degraded state. We will continue to monitor and provide updates as the backlog is cleared.",
+          "incident_id": "3vv1wwv7dmmr",
+          "created_at": "2026-05-08T05:53:40.411Z",
+          "updated_at": "2026-05-08T05:53:40.411Z",
+          "display_at": "2026-05-08T05:53:40.411Z",
+          "affected_components": [
+            {
+              "code": "hqd5zdvzh5g1",
+              "name": "Domain Claims",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "vwb63rvhtqjn",
+              "name": "SAML-based SSO",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "n6qsfr329pzh",
+              "name": "User Provisioning",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "b8gbm56ptvw5",
+              "name": "Account Management",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "yf230szk5s8s",
+              "name": "Audit Logs",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "856c2dpnfnzq",
+              "name": "Signup",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "kj3g11lf8zg5",
+              "name": "API tokens",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "hxdm8hxm3wsp",
+              "name": "Guard Premium - Data Classification",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "bpqlwwx9dc0c",
+              "name": "Guard Premium - Data Security Policies",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "rpr03y2g1hq6",
+              "name": "Guard Premium - Guard Detect",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "jl1xdktg8lrr",
+          "status": "identified",
+          "body": "We are continuing to work with our public cloud provider to mitigate this issue. We are starting to see some recovery in regions outside of Eastern USA, however, users globally may still be experiencing issues with certain product features. These are listed at the bottom of each product page.",
+          "incident_id": "3vv1wwv7dmmr",
+          "created_at": "2026-05-08T04:10:46.930Z",
+          "updated_at": "2026-05-08T04:10:46.930Z",
+          "display_at": "2026-05-08T04:10:46.930Z",
+          "affected_components": [
+            {
+              "code": "hqd5zdvzh5g1",
+              "name": "Domain Claims",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "vwb63rvhtqjn",
+              "name": "SAML-based SSO",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "n6qsfr329pzh",
+              "name": "User Provisioning",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "b8gbm56ptvw5",
+              "name": "Account Management",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "yf230szk5s8s",
+              "name": "Audit Logs",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "856c2dpnfnzq",
+              "name": "Signup",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "kj3g11lf8zg5",
+              "name": "API tokens",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "hxdm8hxm3wsp",
+              "name": "Guard Premium - Data Classification",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "bpqlwwx9dc0c",
+              "name": "Guard Premium - Data Security Policies",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "rpr03y2g1hq6",
+              "name": "Guard Premium - Guard Detect",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "gk65vv3f3dfn",
+          "status": "identified",
+          "body": "Our teams continue to work on mitigating the infrastructure outage from our public cloud provider. We will provide further updates when they are available.",
+          "incident_id": "3vv1wwv7dmmr",
+          "created_at": "2026-05-08T04:10:38.919Z",
+          "updated_at": "2026-05-08T04:10:38.919Z",
+          "display_at": "2026-05-08T04:10:38.919Z",
+          "affected_components": [
+            {
+              "code": "hqd5zdvzh5g1",
+              "name": "Domain Claims",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "vwb63rvhtqjn",
+              "name": "SAML-based SSO",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "n6qsfr329pzh",
+              "name": "User Provisioning",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "b8gbm56ptvw5",
+              "name": "Account Management",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "yf230szk5s8s",
+              "name": "Audit Logs",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "856c2dpnfnzq",
+              "name": "Signup",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "kj3g11lf8zg5",
+              "name": "API tokens",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "hxdm8hxm3wsp",
+              "name": "Guard Premium - Data Classification",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "bpqlwwx9dc0c",
+              "name": "Guard Premium - Data Security Policies",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "rpr03y2g1hq6",
+              "name": "Guard Premium - Guard Detect",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "jtgjhsvndn52",
+          "status": "identified",
+          "body": "We have identified that the root cause of the issue is related to an infrastructure outage from our public cloud provider. We are working closely with them to mitigate this issue. We will provide further updates when they become available.",
+          "incident_id": "3vv1wwv7dmmr",
+          "created_at": "2026-05-08T04:10:31.661Z",
+          "updated_at": "2026-05-08T04:10:31.661Z",
+          "display_at": "2026-05-08T04:10:31.661Z",
+          "affected_components": [
+            {
+              "code": "hqd5zdvzh5g1",
+              "name": "Domain Claims",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "vwb63rvhtqjn",
+              "name": "SAML-based SSO",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "n6qsfr329pzh",
+              "name": "User Provisioning",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "b8gbm56ptvw5",
+              "name": "Account Management",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "yf230szk5s8s",
+              "name": "Audit Logs",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "856c2dpnfnzq",
+              "name": "Signup",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "kj3g11lf8zg5",
+              "name": "API tokens",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "hxdm8hxm3wsp",
+              "name": "Guard Premium - Data Classification",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "bpqlwwx9dc0c",
+              "name": "Guard Premium - Data Security Policies",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "rpr03y2g1hq6",
+              "name": "Guard Premium - Guard Detect",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "zfh1x4jymd09",
           "status": "identified",
