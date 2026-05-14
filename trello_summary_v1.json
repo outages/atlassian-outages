@@ -2,17 +2,17 @@
   "page": {
     "id": "h5frqhb041yq",
     "name": "Trello",
-    "url": "https://trello.status.atlassian.com",
+    "url": "http://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2026-05-13T09:03:42.388-04:00"
+    "updated_at": "2026-05-14T01:24:55.090-04:00"
   },
   "components": [
     {
       "id": "hsr3nvlz0k2l",
       "name": "Trello.com",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2020-01-24T12:50:55.839-05:00",
-      "updated_at": "2026-05-08T04:03:04.617-04:00",
+      "updated_at": "2026-05-14T01:24:54.981-04:00",
       "position": 1,
       "description": "Web client",
       "showcase": true,
@@ -25,9 +25,9 @@
     {
       "id": "y1nllgnkxn9d",
       "name": "API",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2020-01-24T12:50:17.715-05:00",
-      "updated_at": "2026-05-08T04:03:04.637-04:00",
+      "updated_at": "2026-05-14T01:24:54.995-04:00",
       "position": 2,
       "description": null,
       "showcase": true,
@@ -40,9 +40,9 @@
     {
       "id": "rmthn8dprv1q",
       "name": "Atlassian Support - Support Portal",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2020-07-30T11:21:25.969-04:00",
-      "updated_at": "2026-05-08T06:25:39.244-04:00",
+      "updated_at": "2026-05-14T01:24:55.007-04:00",
       "position": 6,
       "description": "Support portal contact forms allow customers to raise support issues. Delays here might mean there's an issue with submitting a support request.",
       "showcase": true,
@@ -55,9 +55,9 @@
     {
       "id": "3zgtmwsprtcs",
       "name": "Atlassian Support Ticketing",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2020-07-30T12:28:08.222-04:00",
-      "updated_at": "2026-05-08T06:25:39.265-04:00",
+      "updated_at": "2026-05-14T01:24:55.020-04:00",
       "position": 7,
       "description": "Trello Support tickets can be replied to via email or from the ticket view on getsupport.atlassian.com. If there's an outage, you may be unable to view support tickets from getsupport.atlassian.com temporarily, but customers can reply to existing tickets by email.",
       "showcase": true,
@@ -70,9 +70,9 @@
     {
       "id": "x282nv4vfrbx",
       "name": "Atlassian Support Knowledge Base",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2022-07-11T10:12:52.388-04:00",
-      "updated_at": "2026-05-08T06:25:39.282-04:00",
+      "updated_at": "2026-05-14T01:24:55.034-04:00",
       "position": 8,
       "description": null,
       "showcase": false,
@@ -83,10 +83,148 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "96m441rms560",
+      "name": "Users experiencing issues accessing multiple Atlassian products",
+      "status": "identified",
+      "created_at": "2026-05-14T01:24:54.943-04:00",
+      "updated_at": "2026-05-14T01:24:55.087-04:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "critical",
+      "shortlink": "https://stspg.io/c9zm7pfr2s6d",
+      "started_at": "2026-05-14T01:24:54.930-04:00",
+      "page_id": "h5frqhb041yq",
+      "incident_updates": [
+        {
+          "id": "xm1qv2b9xssc",
+          "status": "identified",
+          "body": "It is likely if you are experiencing any issues relating to logging in or accessing Atlassian products at this time it is likely due to this ongoing incident.\n\nWe are continuing to receive reports about expanded product impact resulting from this incident.\n\nWhile our team continues to investigate the issue with urgency, we will continue to provide further updates here with additional information.\n\nWe will provide further update within one hour, or sooner as further information becomes available.",
+          "incident_id": "96m441rms560",
+          "created_at": "2026-05-14T01:24:55.084-04:00",
+          "updated_at": "2026-05-14T01:24:55.084-04:00",
+          "display_at": "2026-05-14T01:24:55.084-04:00",
+          "affected_components": [
+            {
+              "code": "y1nllgnkxn9d",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "hsr3nvlz0k2l",
+              "name": "Trello.com",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "rmthn8dprv1q",
+              "name": "Atlassian Support - Support Portal",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "3zgtmwsprtcs",
+              "name": "Atlassian Support Ticketing",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "x282nv4vfrbx",
+              "name": "Atlassian Support Knowledge Base",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "hsr3nvlz0k2l",
+          "name": "Trello.com",
+          "status": "major_outage",
+          "created_at": "2020-01-24T12:50:55.839-05:00",
+          "updated_at": "2026-05-14T01:24:54.981-04:00",
+          "position": 1,
+          "description": "Web client",
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "h5frqhb041yq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "y1nllgnkxn9d",
+          "name": "API",
+          "status": "major_outage",
+          "created_at": "2020-01-24T12:50:17.715-05:00",
+          "updated_at": "2026-05-14T01:24:54.995-04:00",
+          "position": 2,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "h5frqhb041yq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "rmthn8dprv1q",
+          "name": "Atlassian Support - Support Portal",
+          "status": "major_outage",
+          "created_at": "2020-07-30T11:21:25.969-04:00",
+          "updated_at": "2026-05-14T01:24:55.007-04:00",
+          "position": 6,
+          "description": "Support portal contact forms allow customers to raise support issues. Delays here might mean there's an issue with submitting a support request.",
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "h5frqhb041yq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "3zgtmwsprtcs",
+          "name": "Atlassian Support Ticketing",
+          "status": "major_outage",
+          "created_at": "2020-07-30T12:28:08.222-04:00",
+          "updated_at": "2026-05-14T01:24:55.020-04:00",
+          "position": 7,
+          "description": "Trello Support tickets can be replied to via email or from the ticket view on getsupport.atlassian.com. If there's an outage, you may be unable to view support tickets from getsupport.atlassian.com temporarily, but customers can reply to existing tickets by email.",
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "h5frqhb041yq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "x282nv4vfrbx",
+          "name": "Atlassian Support Knowledge Base",
+          "status": "major_outage",
+          "created_at": "2022-07-11T10:12:52.388-04:00",
+          "updated_at": "2026-05-14T01:24:55.034-04:00",
+          "position": 8,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "h5frqhb041yq",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "critical",
+    "description": "Major System Outage"
   }
 }
