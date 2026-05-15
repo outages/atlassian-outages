@@ -4,15 +4,15 @@
     "name": "Trello",
     "url": "http://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2026-05-15T11:31:35.495-04:00"
+    "updated_at": "2026-05-15T13:36:54.641-04:00"
   },
   "components": [
     {
       "id": "hsr3nvlz0k2l",
       "name": "Trello.com",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-01-24T12:50:55.839-05:00",
-      "updated_at": "2026-05-15T11:14:21.797-04:00",
+      "updated_at": "2026-05-15T13:36:54.574-04:00",
       "position": 1,
       "description": "Web client",
       "showcase": true,
@@ -25,9 +25,9 @@
     {
       "id": "y1nllgnkxn9d",
       "name": "API",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-01-24T12:50:17.715-05:00",
-      "updated_at": "2026-05-15T11:14:21.814-04:00",
+      "updated_at": "2026-05-15T13:36:54.590-04:00",
       "position": 2,
       "description": null,
       "showcase": true,
@@ -87,16 +87,86 @@
     {
       "id": "j8fyf9mml8np",
       "name": "Trello - degraded performance (investigating)",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2026-05-15T11:14:21.764-04:00",
-      "updated_at": "2026-05-15T11:31:35.487-04:00",
-      "monitoring_at": null,
+      "updated_at": "2026-05-15T13:36:54.639-04:00",
+      "monitoring_at": "2026-05-15T13:36:54.623-04:00",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/1y4xvtdmyvm2",
       "started_at": "2026-05-15T11:14:21.757-04:00",
       "page_id": "h5frqhb041yq",
       "incident_updates": [
+        {
+          "id": "zc9xspvh129m",
+          "status": "monitoring",
+          "body": "The team has resolved the previous issues and is now monitoring the system to ensure a full return to baseline. Search indexing is still approximately 1h delayed, but will be up to date shortly. Thank you for your patience",
+          "incident_id": "j8fyf9mml8np",
+          "created_at": "2026-05-15T13:36:54.623-04:00",
+          "updated_at": "2026-05-15T13:36:54.623-04:00",
+          "display_at": "2026-05-15T13:36:54.623-04:00",
+          "affected_components": [
+            {
+              "code": "y1nllgnkxn9d",
+              "name": "API",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "hsr3nvlz0k2l",
+              "name": "Trello.com",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "rmthn8dprv1q",
+              "name": "Atlassian Support - Support Portal",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "3zgtmwsprtcs",
+              "name": "Atlassian Support Ticketing",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "x282nv4vfrbx",
+              "name": "Atlassian Support Knowledge Base",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "6frqx8mt0fzw",
+          "status": "identified",
+          "body": "The Trello team has identified and mitigated most of the issues with cards and comments. Users may still see delays in search indexing for short time while it catches up to realtime.",
+          "incident_id": "j8fyf9mml8np",
+          "created_at": "2026-05-15T12:40:49.041-04:00",
+          "updated_at": "2026-05-15T12:40:49.041-04:00",
+          "display_at": "2026-05-15T12:40:49.041-04:00",
+          "affected_components": [
+            {
+              "code": "y1nllgnkxn9d",
+              "name": "API",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "hsr3nvlz0k2l",
+              "name": "Trello.com",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "bch0j89whg0d",
           "status": "investigating",
@@ -154,9 +224,9 @@
         {
           "id": "hsr3nvlz0k2l",
           "name": "Trello.com",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2020-01-24T12:50:55.839-05:00",
-          "updated_at": "2026-05-15T11:14:21.797-04:00",
+          "updated_at": "2026-05-15T13:36:54.574-04:00",
           "position": 1,
           "description": "Web client",
           "showcase": true,
@@ -169,12 +239,57 @@
         {
           "id": "y1nllgnkxn9d",
           "name": "API",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2020-01-24T12:50:17.715-05:00",
-          "updated_at": "2026-05-15T11:14:21.814-04:00",
+          "updated_at": "2026-05-15T13:36:54.590-04:00",
           "position": 2,
           "description": null,
           "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "h5frqhb041yq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "rmthn8dprv1q",
+          "name": "Atlassian Support - Support Portal",
+          "status": "operational",
+          "created_at": "2020-07-30T11:21:25.969-04:00",
+          "updated_at": "2026-05-14T02:40:47.346-04:00",
+          "position": 6,
+          "description": "Support portal contact forms allow customers to raise support issues. Delays here might mean there's an issue with submitting a support request.",
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "h5frqhb041yq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "3zgtmwsprtcs",
+          "name": "Atlassian Support Ticketing",
+          "status": "operational",
+          "created_at": "2020-07-30T12:28:08.222-04:00",
+          "updated_at": "2026-05-14T02:40:47.359-04:00",
+          "position": 7,
+          "description": "Trello Support tickets can be replied to via email or from the ticket view on getsupport.atlassian.com. If there's an outage, you may be unable to view support tickets from getsupport.atlassian.com temporarily, but customers can reply to existing tickets by email.",
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "h5frqhb041yq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "x282nv4vfrbx",
+          "name": "Atlassian Support Knowledge Base",
+          "status": "operational",
+          "created_at": "2022-07-11T10:12:52.388-04:00",
+          "updated_at": "2026-05-14T02:40:47.372-04:00",
+          "position": 8,
+          "description": null,
+          "showcase": false,
           "start_date": null,
           "group_id": null,
           "page_id": "h5frqhb041yq",
@@ -187,7 +302,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
