@@ -4,7 +4,7 @@
     "name": "Trello",
     "url": "http://trello.status.atlassian.com",
     "time_zone": "America/New_York",
-    "updated_at": "2026-05-17T10:20:21.879-04:00"
+    "updated_at": "2026-05-17T11:13:59.898-04:00"
   },
   "components": [
     {
@@ -86,10 +86,10 @@
   "incidents": [
     {
       "id": "h11gfkgvjhhk",
-      "name": "Trello - degraded performance (investigating)",
-      "status": "investigating",
+      "name": "Trello - degraded performance (identified)",
+      "status": "identified",
       "created_at": "2026-05-17T10:11:02.701-04:00",
-      "updated_at": "2026-05-17T10:11:02.817-04:00",
+      "updated_at": "2026-05-17T11:13:59.889-04:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -97,6 +97,32 @@
       "started_at": "2026-05-17T10:11:02.692-04:00",
       "page_id": "h5frqhb041yq",
       "incident_updates": [
+        {
+          "id": "b8x72xd4c8fv",
+          "status": "identified",
+          "body": "The team has identified the root cause and is hard at working resolving this issue. Users will see problems creating/updating/deleting comments and loading the activity view for cards at this time. The rest of Trello's features should be working as normal.\n\nWe will provide more updates within 2h.",
+          "incident_id": "h11gfkgvjhhk",
+          "created_at": "2026-05-17T11:13:59.886-04:00",
+          "updated_at": "2026-05-17T11:13:59.886-04:00",
+          "display_at": "2026-05-17T11:13:59.886-04:00",
+          "affected_components": [
+            {
+              "code": "y1nllgnkxn9d",
+              "name": "API",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "hsr3nvlz0k2l",
+              "name": "Trello.com",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "zb1bj9sdhbs7",
           "status": "investigating",
