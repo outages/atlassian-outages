@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-06-26T14:32:40.024Z"
+    "updated_at": "2026-06-26T15:50:04.006Z"
   },
   "components": [
     {
@@ -849,7 +849,7 @@
       "name": "Remote Forge Apps facing rate-limiting issues",
       "status": "identified",
       "created_at": "2026-06-26T14:32:39.810Z",
-      "updated_at": "2026-06-26T14:32:40.018Z",
+      "updated_at": "2026-06-26T15:28:21.530Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -857,6 +857,26 @@
       "started_at": "2026-06-26T14:32:39.780Z",
       "page_id": "n8766lc3ybbs",
       "incident_updates": [
+        {
+          "id": "p4gz0v0ff0b2",
+          "status": "identified",
+          "body": "Our team has applied the mitigation, and we are seeing recovery.\n\nWe will continue to share additional updates here as more information becomes available.",
+          "incident_id": "bxjnkxmt6p8r",
+          "created_at": "2026-06-26T15:28:21.524Z",
+          "updated_at": "2026-06-26T15:28:21.524Z",
+          "display_at": "2026-06-26T15:28:21.524Z",
+          "affected_components": [
+            {
+              "code": "pgqd9x4jl520",
+              "name": "Developer - Forge Function Invocation",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "8n5n4bnxv52h",
           "status": "identified",
