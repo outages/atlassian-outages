@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-07-01T05:19:00.476Z"
+    "updated_at": "2026-07-01T09:28:43.260Z"
   },
   "components": [
     {
@@ -140,7 +140,8 @@
         "khvgbzf5s9xr",
         "x0g7r7xx1rs2",
         "x83v6dds4gjl",
-        "vmm18yvsry8h"
+        "vmm18yvsry8h",
+        "d8lcy2lrgfkk"
       ]
     },
     {
@@ -837,6 +838,21 @@
       "description": null,
       "showcase": true,
       "start_date": "2026-04-06",
+      "group_id": "73bt63kd5q9k",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "d8lcy2lrgfkk",
+      "name": "Forge Object Store",
+      "status": "operational",
+      "created_at": "2026-07-01T07:40:59.882Z",
+      "updated_at": "2026-07-01T07:40:59.882Z",
+      "position": 21,
+      "description": "The Forge Object Store is a hosted storage solution to manage large items such as data objects or media files in Marketplace apps.",
+      "showcase": true,
+      "start_date": "2026-07-01",
       "group_id": "73bt63kd5q9k",
       "page_id": "n8766lc3ybbs",
       "group": false,
