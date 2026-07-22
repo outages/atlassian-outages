@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-07-21T21:18:59.401Z"
+    "updated_at": "2026-07-22T00:56:03.304Z"
   },
   "components": [
     {
@@ -501,99 +501,6 @@
           "description": null,
           "showcase": false,
           "start_date": "2026-06-10",
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    },
-    {
-      "id": "q4pxpwxhh3rd",
-      "name": "Degraded performance of Jira Automation rules",
-      "status": "identified",
-      "created_at": "2026-07-20T20:18:31.402Z",
-      "updated_at": "2026-07-21T04:53:57.921Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/2h64wj6psytm",
-      "started_at": "2026-07-20T20:18:31.393Z",
-      "page_id": "pv54g7ltsc24",
-      "incident_updates": [
-        {
-          "id": "9gzjjffb3lll",
-          "status": "identified",
-          "body": "The team has identified a root cause and after initial testing, is now enacting scaling changes to help to prevent these rule execution delays. We'll monitor performance over the next 24 hours and provide an update at that time or sooner if we can confirm the improvement is in place.",
-          "incident_id": "q4pxpwxhh3rd",
-          "created_at": "2026-07-21T04:53:57.919Z",
-          "updated_at": "2026-07-21T04:53:57.919Z",
-          "display_at": "2026-07-21T04:53:57.919Z",
-          "affected_components": [
-            {
-              "code": "7rq3yg76vvbc",
-              "name": "Automation for Jira",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "88k556kf9k34",
-          "status": "investigating",
-          "body": "Our teams are continuing to investigate delays in Jira and Jira Service Management automation rule executions for some customers. We are seeing signs of improvement, but affected users may still experience delays. We'll share updates here as more information is available.",
-          "incident_id": "q4pxpwxhh3rd",
-          "created_at": "2026-07-20T21:27:12.576Z",
-          "updated_at": "2026-07-20T21:27:12.576Z",
-          "display_at": "2026-07-20T21:27:12.576Z",
-          "affected_components": [
-            {
-              "code": "7rq3yg76vvbc",
-              "name": "Automation for Jira",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "b5nn8q5txhtl",
-          "status": "investigating",
-          "body": "We are actively investigating reports of performance degradation affecting Automation rules for Jira and Jira Service Management. We will share updates here as more information is available.",
-          "incident_id": "q4pxpwxhh3rd",
-          "created_at": "2026-07-20T20:18:31.496Z",
-          "updated_at": "2026-07-20T20:18:31.496Z",
-          "display_at": "2026-07-20T20:18:31.496Z",
-          "affected_components": [
-            {
-              "code": "7rq3yg76vvbc",
-              "name": "Automation for Jira",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "7rq3yg76vvbc",
-          "name": "Automation for Jira",
-          "status": "operational",
-          "created_at": "2020-12-23T01:40:13.601Z",
-          "updated_at": "2026-07-21T09:48:22.506Z",
-          "position": 11,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-12-23",
           "group_id": null,
           "page_id": "pv54g7ltsc24",
           "group": false,
