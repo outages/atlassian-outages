@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-08-07T11:30:55.397Z"
+    "updated_at": "2026-08-07T12:52:23.054Z"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "hzbyfxf686qd",
       "name": "Service Portal",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2018-11-16T18:06:14.848Z",
-      "updated_at": "2026-08-07T11:30:55.351Z",
+      "updated_at": "2026-08-07T12:22:30.691Z",
       "position": 2,
       "description": "Problems related to the service desk portals where end-users make requests or raise issues",
       "showcase": false,
@@ -203,64 +203,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "vp78l99g1gzx",
-      "name": "Performance and access related issues with Jira",
-      "status": "investigating",
-      "created_at": "2026-08-07T11:30:55.293Z",
-      "updated_at": "2026-08-07T11:30:55.394Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "critical",
-      "shortlink": "https://stspg.io/64t7mdzvgmb3",
-      "started_at": "2026-08-07T11:30:55.286Z",
-      "page_id": "pv54g7ltsc24",
-      "incident_updates": [
-        {
-          "id": "mh5w3cmrkqq6",
-          "status": "investigating",
-          "body": "We are investigating issues affecting your services.\n\nWe are actively working to identify the cause and resolve the issue. We will provide further updates within one hour.",
-          "incident_id": "vp78l99g1gzx",
-          "created_at": "2026-08-07T11:30:55.391Z",
-          "updated_at": "2026-08-07T11:30:55.391Z",
-          "display_at": "2026-08-07T11:30:55.391Z",
-          "affected_components": [
-            {
-              "code": "hzbyfxf686qd",
-              "name": "Service Portal",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "hzbyfxf686qd",
-          "name": "Service Portal",
-          "status": "major_outage",
-          "created_at": "2018-11-16T18:06:14.848Z",
-          "updated_at": "2026-08-07T11:30:55.351Z",
-          "position": 2,
-          "description": "Problems related to the service desk portals where end-users make requests or raise issues",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
