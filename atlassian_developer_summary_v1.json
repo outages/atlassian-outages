@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-09-01T23:23:51.499Z"
+    "updated_at": "2026-09-02T03:20:26.469Z"
   },
   "components": [
     {
@@ -413,7 +413,7 @@
       "name": "Forge App Installation",
       "status": "operational",
       "created_at": "2021-03-23T11:55:32.639Z",
-      "updated_at": "2026-08-05T07:00:07.590Z",
+      "updated_at": "2026-09-02T03:17:39.203Z",
       "position": 5,
       "description": "Installation of Forge apps",
       "showcase": true,
