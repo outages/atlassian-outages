@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-09-03T13:24:39.383Z"
+    "updated_at": "2026-09-03T17:50:52.084Z"
   },
   "components": [
     {
@@ -12,7 +12,7 @@
       "name": "Jira Service Management Web",
       "status": "operational",
       "created_at": "2018-11-16T18:06:14.831Z",
-      "updated_at": "2026-08-27T05:16:07.211Z",
+      "updated_at": "2026-09-03T16:15:53.152Z",
       "position": 1,
       "description": "Problems with queues, issues, reports, searching, and anything else impacting an agent's ability to complete their work",
       "showcase": false,
