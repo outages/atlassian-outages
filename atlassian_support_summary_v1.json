@@ -4,7 +4,7 @@
     "name": "Atlassian Support",
     "url": "https://support.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-09-11T13:14:16.750Z"
+    "updated_at": "2026-09-11T18:12:12.647Z"
   },
   "components": [
     {
@@ -55,9 +55,9 @@
     {
       "id": "x6ljwvfs3ymn",
       "name": "Community",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-11-30T21:48:02.423Z",
-      "updated_at": "2026-05-14T05:34:15.484Z",
+      "updated_at": "2026-09-11T15:41:07.645Z",
       "position": 4,
       "description": null,
       "showcase": true,
@@ -204,9 +204,117 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "rl2446zhqh6z",
+      "name": "Atlassian Community Forum read-only mode for maintenance",
+      "status": "in_progress",
+      "created_at": "2026-09-11T15:40:51.817Z",
+      "updated_at": "2026-09-11T15:42:11.511Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/glfp2bfmbppr",
+      "started_at": "2026-09-11T15:40:51.765Z",
+      "page_id": "3tbw4lb9t3qp",
+      "incident_updates": [
+        {
+          "id": "538jtmcd7828",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "rl2446zhqh6z",
+          "created_at": "2026-09-11T15:42:07.217Z",
+          "updated_at": "2026-09-11T15:42:07.217Z",
+          "display_at": "2026-09-11T15:42:07.217Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "dxb3t17s4phx",
+          "status": "scheduled",
+          "body": "The Atlassian Community Forums are currently in read-only mode. We will be relaunching on a new platform on September 22. Read more here: https://community.atlassian.com/forums/Community-Announcements-articles/Beep-beep-The-forums-platform-is-moving/ba-p/3283286#M7414\n\nWe apologize for the extended downtime. For concerns or questions, please email communitymanagers@atlassian.com. See you on the other side, on the new Atlassian Community Forums! :)",
+          "incident_id": "rl2446zhqh6z",
+          "created_at": "2026-09-11T15:41:29.938Z",
+          "updated_at": "2026-09-11T15:41:29.938Z",
+          "display_at": "2026-09-11T15:41:29.938Z",
+          "affected_components": [
+            {
+              "code": "x6ljwvfs3ymn",
+              "name": "Community",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "mgts2pwnwqbc",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "rl2446zhqh6z",
+          "created_at": "2026-09-11T15:41:07.687Z",
+          "updated_at": "2026-09-11T15:42:11.505Z",
+          "display_at": "2026-09-11T15:41:07.687Z",
+          "affected_components": [
+            {
+              "code": "x6ljwvfs3ymn",
+              "name": "Community",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "8c16d1vfwxrt",
+          "status": "scheduled",
+          "body": "The Atlassian Community Forums are currently in read-only mode. We will be relaunching on a new platform on September 22. Read more here: https://community.atlassian.com/forums/Community-Announcements-articles/Beep-beep-The-forums-platform-is-moving/ba-p/3283286#M7414\n\nWe apologize for the extended downtime. For concerns or questions, please email communitymanagers@atlassian.com. See you on the other side, on the new Atlassian Community Forums! :)",
+          "incident_id": "rl2446zhqh6z",
+          "created_at": "2026-09-11T15:40:51.882Z",
+          "updated_at": "2026-09-11T15:40:51.882Z",
+          "display_at": "2026-09-11T15:40:51.882Z",
+          "affected_components": [
+            {
+              "code": "x6ljwvfs3ymn",
+              "name": "Community",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "x6ljwvfs3ymn",
+          "name": "Community",
+          "status": "under_maintenance",
+          "created_at": "2018-11-30T21:48:02.423Z",
+          "updated_at": "2026-09-11T15:41:07.645Z",
+          "position": 4,
+          "description": null,
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "3tbw4lb9t3qp",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2026-09-11T15:41:00.000Z",
+      "scheduled_until": "2026-09-22T15:41:00.000Z"
+    }
+  ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
