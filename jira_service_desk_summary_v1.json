@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-09-24T14:58:28.197Z"
+    "updated_at": "2026-09-24T18:04:13.177Z"
   },
   "components": [
     {
@@ -203,108 +203,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "95fkhjj4m399",
-      "name": "Degraded Performance Viewing Issues and Boards",
-      "status": "monitoring",
-      "created_at": "2026-09-24T13:54:20.405Z",
-      "updated_at": "2026-09-24T14:58:28.195Z",
-      "monitoring_at": "2026-09-24T14:58:28.180Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/3h9dn5byfcrb",
-      "started_at": "2026-09-24T13:54:20.396Z",
-      "page_id": "pv54g7ltsc24",
-      "incident_updates": [
-        {
-          "id": "yt55mcj8z7ty",
-          "status": "monitoring",
-          "body": "Mitigations have been deployed and we are seeing positive signs of recovery across Jira. Issues viewing work items, loading boards, and creating tickets are subsiding.\n\nWe are continuing to monitor system health to ensure full stability and will share our next update within 60 minutes.",
-          "incident_id": "95fkhjj4m399",
-          "created_at": "2026-09-24T14:58:28.180Z",
-          "updated_at": "2026-09-24T14:58:28.180Z",
-          "display_at": "2026-09-24T14:58:28.180Z",
-          "affected_components": [
-            {
-              "code": "4kcs01hbh4l6",
-              "name": "Jira Service Management Web",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            },
-            {
-              "code": "hzbyfxf686qd",
-              "name": "Service Portal",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "q3g42n8tbd28",
-          "status": "investigating",
-          "body": "We continue to investigate the issue impacting Jira issue creation, issue viewing, and board loading.\n\nOur teams remain engaged on identifying a resolution. We will provide the next update in 1 hour, or sooner if there is material progress.",
-          "incident_id": "95fkhjj4m399",
-          "created_at": "2026-09-24T13:54:20.515Z",
-          "updated_at": "2026-09-24T13:54:20.515Z",
-          "display_at": "2026-09-24T13:54:20.515Z",
-          "affected_components": [
-            {
-              "code": "4kcs01hbh4l6",
-              "name": "Jira Service Management Web",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "hzbyfxf686qd",
-              "name": "Service Portal",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "4kcs01hbh4l6",
-          "name": "Jira Service Management Web",
-          "status": "operational",
-          "created_at": "2018-11-16T18:06:14.831Z",
-          "updated_at": "2026-09-24T14:58:28.138Z",
-          "position": 1,
-          "description": "Problems with queues, issues, reports, searching, and anything else impacting an agent's ability to complete their work",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "hzbyfxf686qd",
-          "name": "Service Portal",
-          "status": "operational",
-          "created_at": "2018-11-16T18:06:14.848Z",
-          "updated_at": "2026-09-24T14:58:28.153Z",
-          "position": 2,
-          "description": "Problems related to the service desk portals where end-users make requests or raise issues",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "pv54g7ltsc24",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
