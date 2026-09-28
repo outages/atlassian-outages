@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-09-28T00:50:30.982Z"
+    "updated_at": "2026-09-28T07:59:34.177Z"
   },
   "components": [
     {
@@ -300,7 +300,7 @@
       "name": "App submissions",
       "status": "operational",
       "created_at": "2018-02-01T17:48:45.038Z",
-      "updated_at": "2026-07-13T17:17:48.881Z",
+      "updated_at": "2026-09-28T07:59:34.109Z",
       "position": 4,
       "description": null,
       "showcase": true,
