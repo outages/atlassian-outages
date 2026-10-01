@@ -4,7 +4,7 @@
     "name": "Jira",
     "url": "https://jira-software.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-10-01T05:49:35.635Z"
+    "updated_at": "2026-10-01T11:04:52.686Z"
   },
   "components": [
     {
@@ -70,9 +70,9 @@
     {
       "id": "yzll2534txvb",
       "name": "Notifications",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-01-07T07:51:55.162Z",
-      "updated_at": "2026-10-01T05:00:55.174Z",
+      "updated_at": "2026-10-01T07:51:30.337Z",
       "position": 5,
       "description": "Email and in-web-app notifications",
       "showcase": false,
@@ -188,157 +188,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "vwrp378v0zmk",
-      "name": "Job processing and scheduling is degraded affecting multiple Atlassian products",
-      "status": "identified",
-      "created_at": "2026-10-01T02:55:55.505Z",
-      "updated_at": "2026-10-01T05:00:55.233Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/037ndsk7y1d4",
-      "started_at": "2026-10-01T02:55:55.497Z",
-      "page_id": "7yh3h3y0c0x1",
-      "incident_updates": [
-        {
-          "id": "53lrf1kthwjb",
-          "status": "identified",
-          "body": "Our teams continue to work on recovery until the incident is fully resolved. We will provide further updates if we have significant progress to share.\n\nAlong with impact to scheduled and asynchronous work across several products, we also identified SLA component in Jira Service Management is not appearing as expected.",
-          "incident_id": "vwrp378v0zmk",
-          "created_at": "2026-10-01T05:00:55.230Z",
-          "updated_at": "2026-10-01T05:00:55.230Z",
-          "display_at": "2026-10-01T05:00:55.230Z",
-          "affected_components": [
-            {
-              "code": "yzll2534txvb",
-              "name": "Notifications",
-              "old_status": "partial_outage",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "9hyf9lm0fswd",
-              "name": "Automation for Jira",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "x785zfrh1l0w",
-          "status": "identified",
-          "body": "Our teams have taken corrective steps to mitigate the issue and are observing some improvements. We continue to monitor the situation and will take necessary actions until the incident is fully recovered.",
-          "incident_id": "vwrp378v0zmk",
-          "created_at": "2026-10-01T04:03:57.512Z",
-          "updated_at": "2026-10-01T04:03:57.512Z",
-          "display_at": "2026-10-01T04:03:57.512Z",
-          "affected_components": [
-            {
-              "code": "yzll2534txvb",
-              "name": "Notifications",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "9hyf9lm0fswd",
-              "name": "Automation for Jira",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "mn6qpsmngfrn",
-          "status": "identified",
-          "body": "Our teams have identified the root cause of this incident and is now actively working on mitigating the issue. We will provide further updates within an hour or sooner if we have any significant progress to share.",
-          "incident_id": "vwrp378v0zmk",
-          "created_at": "2026-10-01T03:47:44.683Z",
-          "updated_at": "2026-10-01T03:47:44.683Z",
-          "display_at": "2026-10-01T03:47:44.683Z",
-          "affected_components": [
-            {
-              "code": "yzll2534txvb",
-              "name": "Notifications",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "9hyf9lm0fswd",
-              "name": "Automation for Jira",
-              "old_status": "partial_outage",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "65b5h5slk3vh",
-          "status": "investigating",
-          "body": "Job processing and job scheduling is degraded, which is affecting scheduled and asynchronous work across several products, including Jira, Confluence and Bitbucket Cloud.\n\nAffected users may see delayed or missing job execution, including delayed email-to-ticket processing and schedules that do not run as expected.",
-          "incident_id": "vwrp378v0zmk",
-          "created_at": "2026-10-01T02:55:55.630Z",
-          "updated_at": "2026-10-01T02:55:55.630Z",
-          "display_at": "2026-10-01T02:55:55.630Z",
-          "affected_components": [
-            {
-              "code": "9hyf9lm0fswd",
-              "name": "Automation for Jira",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "yzll2534txvb",
-          "name": "Notifications",
-          "status": "degraded_performance",
-          "created_at": "2019-01-07T07:51:55.162Z",
-          "updated_at": "2026-10-01T05:00:55.174Z",
-          "position": 5,
-          "description": "Email and in-web-app notifications",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "7yh3h3y0c0x1",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "9hyf9lm0fswd",
-          "name": "Automation for Jira",
-          "status": "operational",
-          "created_at": "2020-12-23T01:40:32.378Z",
-          "updated_at": "2026-10-01T03:47:44.643Z",
-          "position": 11,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-12-23",
-          "group_id": null,
-          "page_id": "7yh3h3y0c0x1",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
