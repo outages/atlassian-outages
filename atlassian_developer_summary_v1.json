@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-10-07T05:03:14.067Z"
+    "updated_at": "2026-10-07T10:20:22.230Z"
   },
   "components": [
     {
@@ -141,7 +141,8 @@
         "x0g7r7xx1rs2",
         "x83v6dds4gjl",
         "vmm18yvsry8h",
-        "d8lcy2lrgfkk"
+        "d8lcy2lrgfkk",
+        "hmy92wtps0fs"
       ]
     },
     {
@@ -853,6 +854,21 @@
       "description": "The Forge Object Store is a hosted storage solution to manage large items such as data objects or media files in Marketplace apps.",
       "showcase": true,
       "start_date": "2026-07-01",
+      "group_id": "73bt63kd5q9k",
+      "page_id": "n8766lc3ybbs",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "hmy92wtps0fs",
+      "name": "App Migrations",
+      "status": "operational",
+      "created_at": "2026-10-07T09:38:46.398Z",
+      "updated_at": "2026-10-07T09:38:46.398Z",
+      "position": 22,
+      "description": "Migrating app data from Server/Data Center to Cloud using the App Migration Platform (Connect and Forge)",
+      "showcase": true,
+      "start_date": "2026-10-07",
       "group_id": "73bt63kd5q9k",
       "page_id": "n8766lc3ybbs",
       "group": false,
