@@ -4,7 +4,7 @@
     "name": "Atlassian Developer",
     "url": "https://developer.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-10-15T12:29:18.975Z"
+    "updated_at": "2026-10-15T17:08:39.918Z"
   },
   "components": [
     {
@@ -504,7 +504,7 @@
       "name": "Forge Function Invocation",
       "status": "operational",
       "created_at": "2021-03-23T11:56:37.167Z",
-      "updated_at": "2026-10-01T07:51:30.330Z",
+      "updated_at": "2026-10-15T15:23:12.400Z",
       "position": 7,
       "description": null,
       "showcase": true,
