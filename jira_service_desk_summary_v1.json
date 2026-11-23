@@ -4,7 +4,7 @@
     "name": "Jira Service Management",
     "url": "https://jira-service-management.status.atlassian.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-11-23T10:14:29.790Z"
+    "updated_at": "2026-11-23T22:48:29.780Z"
   },
   "components": [
     {
@@ -117,7 +117,7 @@
       "name": "Authentication and User Management",
       "status": "operational",
       "created_at": "2019-05-02T04:27:17.805Z",
-      "updated_at": "2026-08-27T05:16:07.330Z",
+      "updated_at": "2026-11-23T20:40:59.174Z",
       "position": 8,
       "description": null,
       "showcase": false,
